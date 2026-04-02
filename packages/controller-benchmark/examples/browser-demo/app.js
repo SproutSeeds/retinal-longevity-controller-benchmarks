@@ -31,6 +31,10 @@ function renderBadgeList(values) {
     .join("");
 }
 
+function renderCell(label, value) {
+  return `<td data-label="${label}">${value}</td>`;
+}
+
 async function main() {
   const response = await fetch("./benchmark-snapshot.json");
   const data = await response.json();
@@ -55,11 +59,11 @@ async function main() {
   data.condition_records.forEach((record) => {
     const row = document.createElement("tr");
     row.innerHTML = `
-      <td>${record.condition_id}</td>
-      <td>${record.study_family_id}</td>
-      <td>${record.phase_layer}</td>
-      <td>${record.primary_evidence_class}</td>
-      <td>${renderBadgeList(record.active_negative_family_ids)}</td>
+      ${renderCell("Condition", record.condition_id)}
+      ${renderCell("Study Family", record.study_family_id)}
+      ${renderCell("Phase", record.phase_layer)}
+      ${renderCell("Primary Evidence", record.primary_evidence_class)}
+      ${renderCell("Negative Families", renderBadgeList(record.active_negative_family_ids))}
     `;
     conditionTableBody.append(row);
   });

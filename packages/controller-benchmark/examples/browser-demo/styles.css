@@ -94,6 +94,7 @@ body {
 .card-note {
   margin-top: 8px;
   color: var(--muted);
+  line-height: 1.45;
 }
 
 .panel {
@@ -123,6 +124,7 @@ body {
 
 .table-wrap {
   overflow-x: auto;
+  border-radius: 18px;
 }
 
 table {
@@ -150,6 +152,11 @@ td {
   font-size: 0.98rem;
 }
 
+td[data-label]::before {
+  content: attr(data-label);
+  display: none;
+}
+
 .badge {
   display: inline-block;
   padding: 3px 8px;
@@ -162,6 +169,25 @@ td {
   font-size: 0.78rem;
 }
 
+@media (max-width: 900px) {
+  .page {
+    width: min(100vw - 24px, 1120px);
+    padding: 34px 0 56px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.3rem, 11vw, 4rem);
+  }
+
+  .lede {
+    font-size: 1rem;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 720px) {
   .page {
     width: min(100vw - 20px, 1120px);
@@ -171,5 +197,103 @@ td {
   .panel,
   .card {
     border-radius: 18px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .card-value {
+    font-size: 1.85rem;
+  }
+
+  .panel {
+    padding: 18px 16px 14px;
+  }
+
+  .pill-list {
+    gap: 8px;
+  }
+
+  .pill {
+    width: 100%;
+    border-radius: 16px;
+    padding: 11px 12px;
+  }
+
+  .table-wrap {
+    overflow: visible;
+  }
+
+  table,
+  tbody,
+  tr,
+  td {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  tr {
+    padding: 14px 14px 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(49, 44, 36, 0.09);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.72);
+  }
+
+  td {
+    padding: 0 0 10px;
+    border-bottom: 0;
+    font-size: 0.95rem;
+  }
+
+  td:last-child {
+    padding-bottom: 0;
+  }
+
+  td[data-label]::before {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  .badge {
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page {
+    width: min(100vw - 16px, 1120px);
+    padding-top: 22px;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.05rem, 12vw, 3rem);
+  }
+
+  .lede {
+    font-size: 0.95rem;
+  }
+
+  .panel h2 {
+    font-size: 1.15rem;
   }
 }
