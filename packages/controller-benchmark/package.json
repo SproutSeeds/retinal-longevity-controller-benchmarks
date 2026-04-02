@@ -1,0 +1,55 @@
+{
+  "name": "controller-benchmark",
+  "version": "0.1.0",
+  "description": "Opinionated umbrella package for the current public controller benchmark release.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SproutSeeds/controller-benchmark-modules.git",
+    "directory": "packages/controller-benchmark"
+  },
+  "homepage": "https://github.com/SproutSeeds/controller-benchmark-modules/tree/main/packages/controller-benchmark",
+  "bugs": {
+    "url": "https://github.com/SproutSeeds/controller-benchmark-modules/issues"
+  },
+  "type": "module",
+  "main": "./src/index.js",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "npm test && npm pack --dry-run",
+    "test": "node --test",
+    "pack:check": "npm pack --dry-run",
+    "release:check": "npm test && npm pack --dry-run"
+  },
+  "author": "SproutSeeds <cody@frg.earth>",
+  "dependencies": {
+    "controller-benchmark-data": "^0.1.0",
+    "controller-benchmark-js": "^0.1.0",
+    "controller-benchmark-schemas": "^0.1.0"
+  },
+  "keywords": [
+    "benchmark",
+    "controller",
+    "data",
+    "evidence",
+    "javascript",
+    "release",
+    "schemas",
+    "sproutseeds"
+  ]
+}

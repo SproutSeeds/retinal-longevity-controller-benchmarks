@@ -20,6 +20,9 @@ kept out of scope.
 - `controller-benchmark-js`
   - thin JavaScript tooling for summarizing, comparing, and snapshotting
     benchmark artifacts
+- `controller-benchmark`
+  - opinionated umbrella package for the current public controller benchmark
+    release surface
 
 ## Working Boundary
 
@@ -35,8 +38,8 @@ It is not the place for:
 ## Current Status
 
 - public repo home is live
-- package stack is prepared for npm release
-- npm publication is still gated by the publish-readiness checklist
+- the first three benchmark packages are published on npm at `0.1.0`
+- the umbrella package is being added as the one-install public entry point
 
 ## Install Targets
 
@@ -44,6 +47,7 @@ It is not the place for:
 npm install controller-benchmark-schemas
 npm install controller-benchmark-data
 npm install controller-benchmark-js
+npm install controller-benchmark
 ```
 
 ## Design Principle
