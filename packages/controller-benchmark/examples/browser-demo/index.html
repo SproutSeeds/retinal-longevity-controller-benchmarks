@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Controller Benchmark Demo</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">SproutSeeds x Fractal Research Group</p>
+        <h1>Controller Benchmark</h1>
+        <p class="lede">
+          One current public benchmark release, rendered as a lightweight browser
+          surface from the same artifact bundle the packages expose.
+        </p>
+      </section>
+
+      <section class="grid" id="summary-grid"></section>
+
+      <section class="panel">
+        <h2>Output Transition Map</h2>
+        <div id="transition-list" class="pill-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Study Families</h2>
+        <div id="study-family-list" class="pill-list"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Condition Records</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Condition</th>
+                <th>Study Family</th>
+                <th>Phase</th>
+                <th>Primary Evidence</th>
+                <th>Negative Families</th>
+              </tr>
+            </thead>
+            <tbody id="condition-table-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

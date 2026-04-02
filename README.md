@@ -50,6 +50,25 @@ npm install controller-benchmark-js
 npm install controller-benchmark
 ```
 
+## Tiny Browser Demo
+
+A static browser demo lives under:
+
+- `packages/controller-benchmark/examples/browser-demo`
+
+Refresh the demo data from the current public benchmark bundle:
+
+```bash
+node packages/controller-benchmark/examples/browser-demo/build-demo-data.mjs
+```
+
+Then serve the directory locally:
+
+```bash
+cd packages/controller-benchmark/examples/browser-demo
+python3 -m http.server 8000
+```
+
 ## Design Principle
 
 The goal is benchmark-first infrastructure:

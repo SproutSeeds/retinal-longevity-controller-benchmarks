@@ -70,6 +70,25 @@ console.log(validation.valid);
 console.log(snapshot.shell.fail_closed);
 ```
 
+## Tiny Browser Demo
+
+A static browser demo is included here:
+
+- [/Volumes/Code_2TB/code/longevity-research/packages/controller-benchmark/examples/browser-demo/index.html](/Volumes/Code_2TB/code/longevity-research/packages/controller-benchmark/examples/browser-demo/index.html)
+
+Refresh the demo data:
+
+```bash
+node packages/controller-benchmark/examples/browser-demo/build-demo-data.mjs
+```
+
+Serve it locally:
+
+```bash
+cd packages/controller-benchmark/examples/browser-demo
+python3 -m http.server 8000
+```
+
 ## API Surface
 
 ### Umbrella helpers
