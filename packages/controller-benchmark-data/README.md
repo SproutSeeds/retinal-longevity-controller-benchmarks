@@ -1,6 +1,6 @@
 # controller-benchmark-data
 
-Published by SproutSeeds. Research stewardship: Fractal Research Group (`frg.earth`).
+Published by SproutSeeds. Research stewardship: Fractal Research Group ([frg.earth](https://frg.earth)).
 
 Versioned benchmark bundle and lightweight readers for the controller
 phase-stratified benchmark.

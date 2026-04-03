@@ -1,7 +1,7 @@
 # Controller Benchmark Modules
 
 Published by SproutSeeds. Research stewardship: Fractal Research Group
-(`frg.earth`).
+([frg.earth](https://frg.earth)).
 
 This repository is the public package home for the controller benchmark module
 stack.

@@ -1,6 +1,6 @@
 # controller-benchmark-schemas
 
-Published by SproutSeeds. Research stewardship: Fractal Research Group (`frg.earth`).
+Published by SproutSeeds. Research stewardship: Fractal Research Group ([frg.earth](https://frg.earth)).
 
 Schemas and validators for benchmark condition records, compiler receipts, and
 trust-boundary artifacts.

@@ -1,6 +1,6 @@
 # controller-benchmark
 
-Published by SproutSeeds. Research stewardship: Fractal Research Group (`frg.earth`).
+Published by SproutSeeds. Research stewardship: Fractal Research Group ([frg.earth](https://frg.earth)).
 
 Opinionated umbrella package for the current public controller benchmark release.
 

@@ -1,6 +1,6 @@
 # controller-benchmark-js
 
-Published by SproutSeeds. Research stewardship: Fractal Research Group (`frg.earth`).
+Published by SproutSeeds. Research stewardship: Fractal Research Group ([frg.earth](https://frg.earth)).
 
 Thin JavaScript tooling for summarizing and interpreting controller benchmark
 bundles.
