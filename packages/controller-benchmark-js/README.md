@@ -63,6 +63,7 @@ It is a thin interpretation and summarization layer.
 import {
   buildBenchmarkSnapshot,
   compareOutputs,
+  summarizeCx004ValidationHandoff,
   summarizeCoverageTrust,
   summarizeShellReceipt,
 } from "controller-benchmark-js";
@@ -79,12 +80,20 @@ const controllerRows = readControllerOutputRows();
 
 console.log(summarizeCoverageTrust(bundle.coverageTrustReceipt));
 console.log(summarizeShellReceipt(bundle.benchmarkShellReceipt));
+console.log(
+  summarizeCx004ValidationHandoff(
+    bundle.cx004ValidationHandoff,
+    bundle.cx004ValidationHandoffReceipt,
+  ),
+);
 console.log(compareOutputs(ageOnlyRows, controllerRows));
 console.log(
   buildBenchmarkSnapshot({
     conditionRecords: bundle.conditionRecords,
     coverageTrustReceipt: bundle.coverageTrustReceipt,
     benchmarkShellReceipt: bundle.benchmarkShellReceipt,
+    cx004ValidationHandoff: bundle.cx004ValidationHandoff,
+    cx004ValidationHandoffReceipt: bundle.cx004ValidationHandoffReceipt,
     ageOnlyRows,
     controllerRows,
   }),
@@ -103,6 +112,9 @@ console.log(
 - `compareOutputs(ageOnlyRows, controllerRows)`
 - `summarizeCoverageTrust(coverageTrustReceipt)`
 - `summarizeShellReceipt(benchmarkShellReceipt)`
+- `summarizeContradictionLedger(contradictionLedger)`
+- `summarizePassiveRecommendationScaffold(scaffold, receipt?)`
+- `summarizeCx004ValidationHandoff(handoff, receipt?)`
 - `buildBenchmarkSnapshot(input)`
 
 ## Repo-Local Stack Demo

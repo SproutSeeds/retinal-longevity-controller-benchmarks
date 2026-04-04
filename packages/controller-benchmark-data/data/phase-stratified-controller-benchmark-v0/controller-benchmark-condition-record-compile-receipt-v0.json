@@ -1,12 +1,13 @@
 {
   "artifact_name": "controller-benchmark-condition-record-compile-receipt-v0",
-  "compiled_on": "2026-04-02T15:58:03.657071+00:00",
+  "compiled_on": "2026-04-03T22:43:27.792452+00:00",
   "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_compile_condition_records.py",
   "inputs": {
     "study_corpus": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
     "negative_families": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json",
     "conditions": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-fixture-v0.jsonl",
-    "compiler_rules_dir": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules"
+    "compiler_rules_dir": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules",
+    "matrix_field_layers_dir": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction"
   },
   "outputs": {
     "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
@@ -16,7 +17,16 @@
   "condition_fixture_count": 8,
   "compiled_condition_record_count": 8,
   "source_kind_counts": {
-    "study_specific_rule": 8
+    "study_specific_rule": 3,
+    "study_specific_rule_with_matrix_field_overrides": 5
   },
-  "claim": "This compile step preserves source trace and provenance for benchmarked conditions and now supports study-specific rule packs. It does not yet claim direct matrix-derived accession extraction."
+  "matrix_derived_condition_count": 5,
+  "matrix_derived_condition_ids": [
+    "VITA_CTRL_002",
+    "VITA_CTRL_003",
+    "VITA_CTRL_004",
+    "VITA_CTRL_008",
+    "VITA_CTRL_005"
+  ],
+  "claim": "This compile step preserves source trace and provenance for benchmarked conditions, supports study-specific rule packs, and can now admit bounded matrix-derived field overrides. It does not yet claim full source-native matrix extraction for every benchmark decision field."
 }

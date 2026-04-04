@@ -38,8 +38,12 @@ It is not the place for:
 ## Current Status
 
 - public repo home is live
-- the benchmark package stack is published on npm at `0.1.0`
+- the benchmark package stack is published on npm at `0.1.1`
 - `controller-benchmark` is the one-install public entry point
+- the current public bundle surface includes:
+  - contradiction-ledger artifacts
+  - passive recommendation scaffold artifacts
+  - the `CX-004` validation handoff for the live Gill-versus-Olova pair
 
 ## Install Targets
 

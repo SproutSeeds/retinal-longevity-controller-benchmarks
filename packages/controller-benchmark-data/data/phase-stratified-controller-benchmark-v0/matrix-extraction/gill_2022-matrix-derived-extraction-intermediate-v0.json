@@ -1,0 +1,246 @@
+{
+  "artifact_name": "gill_2022-matrix-derived-extraction-intermediate-v0",
+  "generated_on": "2026-04-03T16:45:48.766408+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_gill_matrix_signals.py",
+  "study_family_id": "gill_2022",
+  "accession_bundle": "GSE165180",
+  "supporting_accessions": [
+    "GSE165176",
+    "GSE165177"
+  ],
+  "cache_inputs": {
+    "sendai_processed_matrix": {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+      "cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz"
+    },
+    "transient_processed_matrix": {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz"
+    }
+  },
+  "method": {
+    "name": "old_to_young_fibro_projection_with_family_local_calibration",
+    "top_abs_diff_gene_count": 1000,
+    "anchor_definition": {
+      "old_fib": [
+        "O1_Fib_Sendai_Exp2",
+        "O2_Fib_Sendai_Exp2"
+      ],
+      "young_fib": [
+        "Y1_Fib_Sendai_Exp2",
+        "Y2_Fib_Sendai_Exp2"
+      ]
+    },
+    "late_branch_window_days": [
+      11,
+      13,
+      15,
+      21
+    ],
+    "family_local_calibration": {
+      "raw_min_group": "failing_branch_late",
+      "raw_max_group": "successful_branch_late",
+      "mapped_range": [
+        0.65,
+        0.8
+      ]
+    },
+    "identity_support_axis": {
+      "name": "transient_success_vs_fail_projection_with_family_local_calibration",
+      "supporting_accession": "GSE165177",
+      "raw_min_group": "failing_branch_late",
+      "raw_max_group": "successful_branch_late",
+      "anchor_groups": {
+        "fail": "transient_fail",
+        "success": "transient_success"
+      },
+      "mapped_range": [
+        0.2,
+        0.8
+      ],
+      "derived_identity_thresholds": {
+        "low_identity_pressure_min": 0.65,
+        "moderate_identity_pressure_range": [
+          0.35,
+          0.65
+        ],
+        "high_identity_pressure_max": 0.35
+      }
+    },
+    "risk_support_axes": [
+      {
+        "name": "fail_proximity_from_transient_success_vs_fail_axis",
+        "supporting_accession": "GSE165177",
+        "raw_min_group": "successful_branch_late",
+        "raw_max_group": "failing_branch_late",
+        "mapped_range": [
+          0.2,
+          0.8
+        ]
+      },
+      {
+        "name": "success_to_negative_control_offtrack_axis",
+        "supporting_accession": "GSE165177",
+        "raw_min_group": "successful_branch_late",
+        "raw_max_group": "failing_branch_late",
+        "anchor_groups": {
+          "success": "transient_success",
+          "negative_control": "transient_negative_control"
+        },
+        "mapped_range": [
+          0.2,
+          0.8
+        ]
+      }
+    ]
+  },
+  "sendai_groups": {
+    "old_fib_anchor": [
+      "O1_Fib_Sendai_Exp2",
+      "O2_Fib_Sendai_Exp2"
+    ],
+    "young_fib_anchor": [
+      "Y1_Fib_Sendai_Exp2",
+      "Y2_Fib_Sendai_Exp2"
+    ],
+    "successful_branch_late": [
+      "O1_d11_SSEA4_Sendai_Exp1",
+      "O1_d11_SSEA4_Sendai_Exp2",
+      "O1_d13_SSEA4_Sendai_Exp1",
+      "O1_d15_SSEA4_Sendai_Exp1",
+      "O1_d21_SSEA4_Sendai_Exp2",
+      "O2_d11_SSEA4_Sendai_Exp1",
+      "O2_d11_SSEA4_Sendai_Exp2",
+      "O2_d13_SSEA4_Sendai_Exp1",
+      "O2_d15_SSEA4_Sendai_Exp1",
+      "O2_d21_SSEA4_Sendai_Exp2"
+    ],
+    "failing_branch_late": [
+      "O1_d11_CD13_Sendai_Exp1",
+      "O1_d11_CD13_Sendai_Exp2",
+      "O1_d13_CD13_Sendai_Exp1",
+      "O1_d15_CD13_Sendai_Exp1",
+      "O1_d21_CD13_Sendai_Exp2",
+      "O2_d11_CD13_Sendai_Exp1",
+      "O2_d11_CD13_Sendai_Exp2",
+      "O2_d13_CD13_Sendai_Exp1",
+      "O2_d15_CD13_Sendai_Exp1",
+      "O2_d21_CD13_Sendai_Exp2"
+    ],
+    "pooled_boundary_late": [
+      "O1_d11_CD13_Sendai_Exp1",
+      "O1_d11_CD13_Sendai_Exp2",
+      "O1_d11_SSEA4_Sendai_Exp1",
+      "O1_d11_SSEA4_Sendai_Exp2",
+      "O1_d13_CD13_Sendai_Exp1",
+      "O1_d13_SSEA4_Sendai_Exp1",
+      "O1_d15_CD13_Sendai_Exp1",
+      "O1_d15_SSEA4_Sendai_Exp1",
+      "O1_d21_CD13_Sendai_Exp2",
+      "O1_d21_SSEA4_Sendai_Exp2",
+      "O2_d11_CD13_Sendai_Exp1",
+      "O2_d11_CD13_Sendai_Exp2",
+      "O2_d11_SSEA4_Sendai_Exp1",
+      "O2_d11_SSEA4_Sendai_Exp2",
+      "O2_d13_CD13_Sendai_Exp1",
+      "O2_d13_SSEA4_Sendai_Exp1",
+      "O2_d15_CD13_Sendai_Exp1",
+      "O2_d15_SSEA4_Sendai_Exp1",
+      "O2_d21_CD13_Sendai_Exp2",
+      "O2_d21_SSEA4_Sendai_Exp2"
+    ]
+  },
+  "sendai_projection_scores": {
+    "old_fib_anchor": 0.0,
+    "young_fib_anchor": 1.0,
+    "successful_branch_late": 0.1974,
+    "failing_branch_late": 0.1385,
+    "pooled_boundary_late": 0.168
+  },
+  "transient_groups": {
+    "transient_success": [
+      "O1_transiently_reprogrammed_17days_exp1",
+      "O2_transiently_reprogrammed_13days_exp1",
+      "O2_transiently_reprogrammed_17days_exp1",
+      "O3_transiently_reprogrammed_13days_exp1",
+      "O3_transiently_reprogrammed_15days_exp1",
+      "O3_transiently_reprogrammed_17days_exp1"
+    ],
+    "transient_fail": [
+      "O1_failed_to_transiently_reprogram_13days_exp1",
+      "O1_failed_to_transiently_reprogram_15days_exp1",
+      "O1_failed_to_transiently_reprogram_17days_exp1",
+      "O2_failed_to_transiently_reprogram_13days_exp1",
+      "O2_failed_to_transiently_reprogram_15days_exp1",
+      "O2_failed_to_transiently_reprogram_17days_exp1",
+      "O3_failed_to_transiently_reprogram_13days_exp1",
+      "O3_failed_to_transiently_reprogram_15days_exp1",
+      "O3_failed_to_transiently_reprogram_17days_exp1"
+    ],
+    "transient_negative_control": [
+      "O1_negative_control_13days_exp1",
+      "O1_negative_control_15days_exp1",
+      "O1_negative_control_17days_exp1",
+      "O2_negative_control_13days_exp1",
+      "O2_negative_control_15days_exp1",
+      "O2_negative_control_17days_exp1",
+      "O3_negative_control_13days_exp1",
+      "O3_negative_control_15days_exp1",
+      "O3_negative_control_17days_exp1"
+    ]
+  },
+  "transient_projection_scores": {
+    "transient_success": 0.3514,
+    "transient_fail": 0.314,
+    "transient_negative_control": 0.3282
+  },
+  "condition_age_scores": {
+    "VITA_CTRL_003": 0.8,
+    "VITA_CTRL_004": 0.65,
+    "VITA_CTRL_008": 0.725
+  },
+  "sendai_identity_support_scores": {
+    "old_fib_anchor": -0.0373,
+    "young_fib_anchor": 0.1025,
+    "successful_branch_late": 0.1916,
+    "failing_branch_late": -0.2266,
+    "pooled_boundary_late": -0.0175
+  },
+  "condition_identity_support_scores": {
+    "VITA_CTRL_003": 0.8,
+    "VITA_CTRL_004": 0.2,
+    "VITA_CTRL_008": 0.5
+  },
+  "condition_identity_pressure_levels": {
+    "VITA_CTRL_003": "low",
+    "VITA_CTRL_004": "high",
+    "VITA_CTRL_008": "moderate"
+  },
+  "sendai_success_negative_scores": {
+    "old_fib_anchor": 0.6868,
+    "young_fib_anchor": 0.6223,
+    "successful_branch_late": 0.483,
+    "failing_branch_late": 0.8259,
+    "pooled_boundary_late": 0.6544
+  },
+  "fail_proximity_support_scores": {
+    "VITA_CTRL_003": 0.2,
+    "VITA_CTRL_004": 0.8,
+    "VITA_CTRL_008": 0.5
+  },
+  "success_negative_support_scores": {
+    "VITA_CTRL_003": 0.2,
+    "VITA_CTRL_004": 0.8,
+    "VITA_CTRL_008": 0.5
+  },
+  "condition_risk_support_scores": {
+    "VITA_CTRL_003": 0.2,
+    "VITA_CTRL_004": 0.8,
+    "VITA_CTRL_008": 0.5
+  },
+  "condition_risk_support_labels": {
+    "VITA_CTRL_003": "supports_low_risk_pressure",
+    "VITA_CTRL_004": "supports_moderate_risk_pressure",
+    "VITA_CTRL_008": "inconclusive_for_risk_pressure"
+  }
+}

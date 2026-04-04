@@ -20,6 +20,7 @@
     "common_bounded_manual_judgment_fields",
     "common_derived_fields",
     "common_matrix_extracted_fields",
+    "common_matrix_support_fields",
     "trust_boundary_claim",
     "coverage_verdict",
     "condition_rows"
@@ -85,6 +86,10 @@
       "type": "array",
       "items": { "type": "string" }
     },
+    "common_matrix_support_fields": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
     "trust_boundary_claim": { "type": "string" },
     "coverage_verdict": { "type": "string" },
     "condition_rows": {
@@ -111,6 +116,8 @@
             "type": "string",
             "enum": [
               "study_specific_rule",
+              "study_specific_rule_with_matrix_age_override",
+              "study_specific_rule_with_matrix_field_overrides",
               "frozen_fixture",
               "curated_manual",
               "accession_derived",
@@ -144,6 +151,10 @@
             "items": { "type": "string" }
           },
           "matrix_extracted_fields": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "matrix_support_fields": {
             "type": "array",
             "items": { "type": "string" }
           },

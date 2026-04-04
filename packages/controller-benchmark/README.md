@@ -37,6 +37,11 @@ The point is to make the current public benchmark release easy to load,
 validate, and inspect without forcing users to learn the full internal package
 split on day one.
 
+The current public tranche includes:
+
+- contradiction-ledger and passive recommendation bundle layers
+- one exact `CX-004` validation handoff for the live Gill-versus-Olova pair
+
 ## What This Is Not
 
 `controller-benchmark` is not:
@@ -68,6 +73,7 @@ const snapshot = buildCurrentBenchmarkSnapshot(benchmark);
 
 console.log(validation.valid);
 console.log(snapshot.shell.fail_closed);
+console.log(snapshot.validation_handoff.handoff_verdict);
 ```
 
 ## Tiny Browser Demo
@@ -98,6 +104,9 @@ python3 -m http.server 8000
 - `validateCurrentBenchmark(bundle?)`
 - `buildCurrentBenchmarkSnapshot(bundle?)`
 - `loadValidatedCurrentBenchmark()`
+- `readCx004ValidationHandoff()`
+- `readCx004ValidationHandoffReceipt()`
+- `summarizeCx004ValidationHandoff(handoff, receipt?)`
 
 ### Curated re-exports
 

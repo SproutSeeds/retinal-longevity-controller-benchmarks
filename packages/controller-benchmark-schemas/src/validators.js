@@ -36,6 +36,8 @@ export const PRESSURE_STATUSES = Object.freeze([
 
 export const SOURCE_KINDS = Object.freeze([
   "study_specific_rule",
+  "study_specific_rule_with_matrix_age_override",
+  "study_specific_rule_with_matrix_field_overrides",
   "frozen_fixture",
   "curated_manual",
   "accession_derived",
@@ -249,6 +251,13 @@ export function validateConditionRecordCompileReceipt(value) {
     expectString(value.inputs.negative_families, "conditionRecordCompileReceipt.inputs.negative_families", errors);
     expectString(value.inputs.conditions, "conditionRecordCompileReceipt.inputs.conditions", errors);
     expectString(value.inputs.compiler_rules_dir, "conditionRecordCompileReceipt.inputs.compiler_rules_dir", errors);
+    if (value.inputs.matrix_field_layers_dir !== undefined) {
+      expectString(
+        value.inputs.matrix_field_layers_dir,
+        "conditionRecordCompileReceipt.inputs.matrix_field_layers_dir",
+        errors,
+      );
+    }
   }
 
   if (expectObject(value.outputs, "conditionRecordCompileReceipt.outputs", errors)) {
@@ -276,6 +285,20 @@ export function validateConditionRecordCompileReceipt(value) {
     "conditionRecordCompileReceipt.source_kind_counts",
     errors,
   );
+  if (value.matrix_derived_condition_count !== undefined) {
+    expectNumber(
+      value.matrix_derived_condition_count,
+      "conditionRecordCompileReceipt.matrix_derived_condition_count",
+      errors,
+    );
+  }
+  if (value.matrix_derived_condition_ids !== undefined) {
+    expectStringArray(
+      value.matrix_derived_condition_ids,
+      "conditionRecordCompileReceipt.matrix_derived_condition_ids",
+      errors,
+    );
+  }
   expectString(value.claim, "conditionRecordCompileReceipt.claim", errors);
 
   return makeResult(errors);
@@ -407,6 +430,13 @@ export function validateCompilerCoverageTrustReceipt(value) {
     "compilerCoverageTrustReceipt.common_matrix_extracted_fields",
     errors,
   );
+  if (value.common_matrix_support_fields !== undefined) {
+    expectStringArray(
+      value.common_matrix_support_fields,
+      "compilerCoverageTrustReceipt.common_matrix_support_fields",
+      errors,
+    );
+  }
   expectString(
     value.trust_boundary_claim,
     "compilerCoverageTrustReceipt.trust_boundary_claim",
@@ -436,6 +466,9 @@ export function validateCompilerCoverageTrustReceipt(value) {
       expectStringArray(row.bounded_manual_judgment_fields, `${path}.bounded_manual_judgment_fields`, errors);
       expectStringArray(row.derived_fields, `${path}.derived_fields`, errors);
       expectStringArray(row.matrix_extracted_fields, `${path}.matrix_extracted_fields`, errors);
+      if (row.matrix_support_fields !== undefined) {
+        expectStringArray(row.matrix_support_fields, `${path}.matrix_support_fields`, errors);
+      }
       expectStringArray(row.compiler_trust_notes, `${path}.compiler_trust_notes`, errors);
       expectString(row.condition_summary, `${path}.condition_summary`, errors);
     });

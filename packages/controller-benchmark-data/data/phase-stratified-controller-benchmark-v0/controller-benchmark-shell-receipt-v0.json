@@ -1,6 +1,6 @@
 {
   "artifact_name": "controller-benchmark-shell-receipt-v0",
-  "executed_on": "2026-04-02T15:58:03.726593+00:00",
+  "executed_on": "2026-04-03T22:43:36.011990+00:00",
   "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_benchmark_runner.py",
   "inputs": {
     "study_corpus": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
@@ -15,7 +15,8 @@
   },
   "condition_count": 8,
   "source_kind_counts": {
-    "study_specific_rule": 8
+    "study_specific_rule": 3,
+    "study_specific_rule_with_matrix_field_overrides": 5
   },
   "summary": {
     "condition_count": 8,

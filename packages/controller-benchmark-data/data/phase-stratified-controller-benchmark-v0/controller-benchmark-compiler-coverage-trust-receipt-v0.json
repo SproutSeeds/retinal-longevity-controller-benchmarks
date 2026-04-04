@@ -1,6 +1,6 @@
 {
   "artifact_name": "controller-benchmark-compiler-coverage-trust-receipt-v0",
-  "generated_on": "2026-04-02T15:58:03.657407+00:00",
+  "generated_on": "2026-04-03T22:43:27.792787+00:00",
   "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_compile_condition_records.py",
   "inputs": {
     "study_corpus": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
@@ -14,7 +14,8 @@
   },
   "condition_count": 8,
   "source_kind_counts": {
-    "study_specific_rule": 8
+    "study_specific_rule": 3,
+    "study_specific_rule_with_matrix_field_overrides": 5
   },
   "rule_backed_condition_count": 8,
   "fixture_backed_condition_count": 0,
@@ -30,13 +31,11 @@
   ],
   "fixture_backed_condition_ids": [],
   "common_bounded_manual_judgment_fields": [
-    "phase_layer",
-    "evidence_modes_present",
-    "age_signal_score",
-    "identity_pressure_level",
-    "risk_pressure_level",
     "active_negative_family_ids",
-    "condition_summary"
+    "condition_summary",
+    "evidence_modes_present",
+    "phase_layer",
+    "risk_pressure_level"
   ],
   "common_derived_fields": [
     "primary_evidence_class",
@@ -49,8 +48,15 @@
     "source_trace",
     "provenance"
   ],
-  "common_matrix_extracted_fields": [],
-  "trust_boundary_claim": "All benchmark condition records now preserve explicit source trace. Study-specific rules mean the benchmark no longer depends on the global fixture for migrated families, but key decision fields remain bounded human judgments encoded in machine-readable rule packs rather than direct matrix-derived extraction.",
+  "common_matrix_extracted_fields": [
+    "age_signal_score",
+    "identity_pressure_level"
+  ],
+  "common_matrix_support_fields": [
+    "age_signal_score",
+    "risk_pressure_level"
+  ],
+  "trust_boundary_claim": "All benchmark condition records now preserve explicit source trace. Study-specific rules mean the benchmark no longer depends on the global fixture for migrated families. Gill now carries bounded matrix-derived age and identity overrides plus bounded matrix support for risk pressure, Roux now carries a bounded matrix-derived identity override plus explicit matrix support for age, and the remaining benchmark decision fields stay explicit as machine-readable human judgments rather than being silently flattened into raw automation.",
   "coverage_verdict": "all_live_conditions_rule_backed",
   "condition_rows": [
     {
@@ -88,6 +94,7 @@
         "provenance"
       ],
       "matrix_extracted_fields": [],
+      "matrix_support_fields": [],
       "compiler_trust_notes": [
         "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
         "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
@@ -97,13 +104,16 @@
     {
       "condition_id": "VITA_CTRL_002",
       "study_family_id": "roux_2022_sc",
-      "source_kind": "study_specific_rule",
-      "trust_status": "rule_backed_with_bounded_manual_judgment",
+      "source_kind": "study_specific_rule_with_matrix_field_overrides",
+      "trust_status": "rule_backed_with_matrix_field_derivation",
       "traceable_support": {
         "study_family_id": "roux_2022_sc",
         "accession_bundle": "GSE176206",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/roux_2022_sc-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ]
@@ -112,7 +122,6 @@
         "phase_layer",
         "evidence_modes_present",
         "age_signal_score",
-        "identity_pressure_level",
         "risk_pressure_level",
         "active_negative_family_ids",
         "condition_summary"
@@ -128,23 +137,35 @@
         "source_trace",
         "provenance"
       ],
-      "matrix_extracted_fields": [],
+      "matrix_extracted_fields": [
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "age_signal_score"
+      ],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "Roux now carries an accession-backed matrix-derived identity-pressure override from the single-cell MSC initiation snapshot.",
+        "Roux age still remains a manual benchmark field in this tranche, but it now carries explicit matrix support from aged-versus-young control anchors in the same accession-backed file.",
+        "The Roux file exposes only one lane per age_treatment group, so this tranche treats age movement as support-only rather than a direct override.",
+        "Roux remains initiation-phase and pseudotime-supported rather than duration-authoritative, so this tranche does not claim late safety or duration calibration.",
+        "Risk pressure remains manual because the initiation snapshot gives strong identity-escape evidence but not a clean outcome-grade hazard proxy."
       ],
       "condition_summary": "Roux day-6 single-cell initiation snapshot with youthful movement entangled with identity suppression."
     },
     {
       "condition_id": "VITA_CTRL_003",
       "study_family_id": "gill_2022",
-      "source_kind": "study_specific_rule",
-      "trust_status": "rule_backed_with_bounded_manual_judgment",
+      "source_kind": "study_specific_rule_with_matrix_field_overrides",
+      "trust_status": "rule_backed_with_matrix_field_derivation",
       "traceable_support": {
         "study_family_id": "gill_2022",
         "accession_bundle": "GSE165180",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ]
@@ -152,8 +173,6 @@
       "bounded_manual_judgment_fields": [
         "phase_layer",
         "evidence_modes_present",
-        "age_signal_score",
-        "identity_pressure_level",
         "risk_pressure_level",
         "active_negative_family_ids",
         "condition_summary"
@@ -169,23 +188,36 @@
         "source_trace",
         "provenance"
       ],
-      "matrix_extracted_fields": [],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "Gill now carries a first accession-backed age-signal override derived from processed expression matrices rather than only the frozen rule pack.",
+        "Gill now also carries a matrix-derived identity-pressure override using the transient success-versus-fail branch axis and explicit family-local thresholds.",
+        "Gill now also carries a bounded matrix support layer for risk pressure using a family-local off-track ensemble, but risk_pressure_level itself remains a manual benchmark judgment in this tranche.",
+        "Only age_signal_score and identity_pressure_level are directly matrix-derived in this tranche.",
+        "The pilot uses family-local calibration to keep the extracted ranking legible inside the existing benchmark shell rather than claiming a universal biological age metric."
       ],
       "condition_summary": "Gill successful maturation branch with real later-phase timing and relatively favorable proxy identity profile."
     },
     {
       "condition_id": "VITA_CTRL_004",
       "study_family_id": "gill_2022",
-      "source_kind": "study_specific_rule",
-      "trust_status": "rule_backed_with_bounded_manual_judgment",
+      "source_kind": "study_specific_rule_with_matrix_field_overrides",
+      "trust_status": "rule_backed_with_matrix_field_derivation",
       "traceable_support": {
         "study_family_id": "gill_2022",
         "accession_bundle": "GSE165180",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ]
@@ -193,8 +225,6 @@
       "bounded_manual_judgment_fields": [
         "phase_layer",
         "evidence_modes_present",
-        "age_signal_score",
-        "identity_pressure_level",
         "risk_pressure_level",
         "active_negative_family_ids",
         "condition_summary"
@@ -210,23 +240,36 @@
         "source_trace",
         "provenance"
       ],
-      "matrix_extracted_fields": [],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "Gill now carries a first accession-backed age-signal override derived from processed expression matrices rather than only the frozen rule pack.",
+        "Gill now also carries a matrix-derived identity-pressure override using the transient success-versus-fail branch axis and explicit family-local thresholds.",
+        "Gill now also carries a bounded matrix support layer for risk pressure using a family-local off-track ensemble, but risk_pressure_level itself remains a manual benchmark judgment in this tranche.",
+        "Only age_signal_score and identity_pressure_level are directly matrix-derived in this tranche.",
+        "The pilot uses family-local calibration to keep the extracted ranking legible inside the existing benchmark shell rather than claiming a universal biological age metric."
       ],
       "condition_summary": "Gill failing fraction in the maturation window; negative pressure case inside the same family."
     },
     {
       "condition_id": "VITA_CTRL_008",
       "study_family_id": "gill_2022",
-      "source_kind": "study_specific_rule",
-      "trust_status": "rule_backed_with_bounded_manual_judgment",
+      "source_kind": "study_specific_rule_with_matrix_field_overrides",
+      "trust_status": "rule_backed_with_matrix_field_derivation",
       "traceable_support": {
         "study_family_id": "gill_2022",
         "accession_bundle": "GSE165180",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ]
@@ -234,8 +277,6 @@
       "bounded_manual_judgment_fields": [
         "phase_layer",
         "evidence_modes_present",
-        "age_signal_score",
-        "identity_pressure_level",
         "risk_pressure_level",
         "active_negative_family_ids",
         "condition_summary"
@@ -251,23 +292,35 @@
         "source_trace",
         "provenance"
       ],
-      "matrix_extracted_fields": [],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "Gill now carries a first accession-backed age-signal override derived from processed expression matrices rather than only the frozen rule pack.",
+        "Gill now also carries a matrix-derived identity-pressure override using the transient success-versus-fail branch axis and explicit family-local thresholds.",
+        "Gill now also carries a bounded matrix support layer for risk pressure using a family-local off-track ensemble, but risk_pressure_level itself remains a manual benchmark judgment in this tranche.",
+        "Only age_signal_score and identity_pressure_level are directly matrix-derived in this tranche.",
+        "The pilot uses family-local calibration to keep the extracted ranking legible inside the existing benchmark shell rather than claiming a universal biological age metric."
       ],
       "condition_summary": "Gill maturation condition with age-linked improvement but nontrivial identity pressure that should resist clean promotion."
     },
     {
       "condition_id": "VITA_CTRL_005",
       "study_family_id": "olova_ohnuki",
-      "source_kind": "study_specific_rule",
-      "trust_status": "rule_backed_with_bounded_manual_judgment",
+      "source_kind": "study_specific_rule_with_matrix_field_overrides",
+      "trust_status": "rule_backed_with_matrix_field_derivation",
       "traceable_support": {
         "study_family_id": "olova_ohnuki",
         "accession_bundle": "GSE54848",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+          "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ]
@@ -275,7 +328,6 @@
       "bounded_manual_judgment_fields": [
         "phase_layer",
         "evidence_modes_present",
-        "age_signal_score",
         "identity_pressure_level",
         "risk_pressure_level",
         "active_negative_family_ids",
@@ -292,10 +344,16 @@
         "source_trace",
         "provenance"
       ],
-      "matrix_extracted_fields": [],
+      "matrix_extracted_fields": [
+        "age_signal_score"
+      ],
+      "matrix_support_fields": [],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "Olova now carries an accession-backed direct age override from the GPL14550 long-window expression trajectory.",
+        "The direct age contract uses fibroblast anchors on one side and a combined ESC-plus-clean-iPSC pluripotent anchor on the other side.",
+        "The live override is the mean of the day20 and day28 trajectory projections, which earns a family-local long-window age score without pretending the family resolves late identity or risk.",
+        "The GSE54848 methylation arm is present and important, but this tranche does not yet pin a clock-exact CpG implementation inside the repo, so methylation remains an explicit future tightening path rather than a silent dependency.",
+        "Identity and risk remain manual benchmark judgments because the family is bulk-only and the source itself warns that safe rejuvenation boundaries are not precisely resolved by the bulk expression surface."
       ],
       "condition_summary": "Long-window bulk trajectory with strong age movement but coarse late-phase identity and risk support."
     },
@@ -334,6 +392,7 @@
         "provenance"
       ],
       "matrix_extracted_fields": [],
+      "matrix_support_fields": [],
       "compiler_trust_notes": [
         "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
         "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
@@ -375,9 +434,11 @@
         "provenance"
       ],
       "matrix_extracted_fields": [],
+      "matrix_support_fields": [],
       "compiler_trust_notes": [
-        "This condition is now carried by a dedicated study-specific rule pack rather than the global fixture.",
-        "The benchmark decision fields remain bounded human judgments encoded in the rule pack rather than direct matrix-derived extraction outputs."
+        "This family is now carried by a dedicated study-specific rule pack rather than the global fixture.",
+        "The opponent-boundary interpretation is still a bounded human judgment encoded in the rule pack, not a direct matrix-derived extraction result.",
+        "The family should pressure controller boundary discipline against pluripotency escape, not be treated as direct partial-reprogramming admissibility evidence."
       ],
       "condition_summary": "Human full-reprogramming opponent family used to pressure boundary discipline against pluripotency escape."
     }

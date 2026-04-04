@@ -1,9 +1,9 @@
 condition_id,study_family_id,phase_layer,age_signal_score,age_signal_status,active_negative_family_ids,baseline_output,baseline_rationale
 VITA_CTRL_001,sarkar_2020,initiation_phase_heterogeneity,0.610,weak_positive,,downgrade,age-only baseline sees only weak age movement
 VITA_CTRL_002,roux_2022_sc,initiation_phase_heterogeneity,0.720,moderate_positive,roux_identity_suppressed_partial_reprogramming,promote,age-only baseline promotes because age signal clears baseline threshold
-VITA_CTRL_003,gill_2022,maturation_phase_bulk_plus_abstention,0.830,strong_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
-VITA_CTRL_004,gill_2022,maturation_phase_bulk_plus_abstention,0.700,moderate_positive,gill_failing_fraction_late_reprogramming,promote,age-only baseline promotes because age signal clears baseline threshold
-VITA_CTRL_008,gill_2022,maturation_phase_bulk_plus_abstention,0.770,moderate_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
-VITA_CTRL_005,olova_ohnuki,maturation_phase_bulk_plus_abstention,0.880,strong_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
+VITA_CTRL_003,gill_2022,maturation_phase_bulk_plus_abstention,0.800,strong_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
+VITA_CTRL_004,gill_2022,maturation_phase_bulk_plus_abstention,0.650,moderate_positive,gill_failing_fraction_late_reprogramming,promote,age-only baseline promotes because age signal clears baseline threshold
+VITA_CTRL_008,gill_2022,maturation_phase_bulk_plus_abstention,0.725,moderate_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
+VITA_CTRL_005,olova_ohnuki,maturation_phase_bulk_plus_abstention,0.893,strong_positive,,promote,age-only baseline promotes because age signal clears baseline threshold
 VITA_CTRL_006,ohnishi_2014,hazard_stop_rule_negative_family,0.670,moderate_positive,ohnishi_premature_termination_tumor_hazard,promote,age-only baseline promotes because age signal clears baseline threshold
 VITA_CTRL_007,human_full_reprog_d14,initiation_phase_heterogeneity,0.910,strong_positive,full_reprogramming_pluripotency_escape,promote,age-only baseline promotes because age signal clears baseline threshold

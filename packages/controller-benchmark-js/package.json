@@ -1,6 +1,6 @@
 {
   "name": "controller-benchmark-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Thin JavaScript tooling for summarizing and interpreting controller benchmark bundles.",
   "license": "MIT",
   "repository": {

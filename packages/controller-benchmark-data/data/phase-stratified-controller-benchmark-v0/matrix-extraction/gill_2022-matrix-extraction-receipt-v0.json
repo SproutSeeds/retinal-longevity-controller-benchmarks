@@ -1,0 +1,163 @@
+{
+  "artifact_name": "gill_2022-matrix-extraction-receipt-v0",
+  "generated_on": "2026-04-03T16:45:48.766408+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_gill_matrix_signals.py",
+  "study_family_id": "gill_2022",
+  "inputs": {
+    "sendai_processed_matrix_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+    "transient_processed_matrix_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+    "sendai_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+    "transient_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz"
+  },
+  "outputs": {
+    "intermediate": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+    "field_layer": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-extraction-receipt-v0.json"
+  },
+  "matrix_extracted_fields": [
+    "age_signal_score",
+    "identity_pressure_level"
+  ],
+  "matrix_support_fields": [
+    "risk_pressure_level"
+  ],
+  "manual_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "manual_fields_with_matrix_support": [
+    "risk_pressure_level"
+  ],
+  "manual_fields_without_matrix_support": [
+    "phase_layer",
+    "evidence_modes_present",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "raw_projection_summary": {
+    "sendai": {
+      "old_fib_anchor": 0.0,
+      "young_fib_anchor": 1.0,
+      "successful_branch_late": 0.1974,
+      "failing_branch_late": 0.1385,
+      "pooled_boundary_late": 0.168
+    },
+    "transient": {
+      "transient_success": 0.3514,
+      "transient_fail": 0.314,
+      "transient_negative_control": 0.3282
+    }
+  },
+  "identity_support_projection_summary": {
+    "sendai": {
+      "old_fib_anchor": -0.0373,
+      "young_fib_anchor": 0.1025,
+      "successful_branch_late": 0.1916,
+      "failing_branch_late": -0.2266,
+      "pooled_boundary_late": -0.0175
+    },
+    "anchor_groups": {
+      "fail": "transient_fail",
+      "success": "transient_success"
+    }
+  },
+  "risk_support_projection_summary": {
+    "sendai_success_negative_scores": {
+      "old_fib_anchor": 0.6868,
+      "young_fib_anchor": 0.6223,
+      "successful_branch_late": 0.483,
+      "failing_branch_late": 0.8259,
+      "pooled_boundary_late": 0.6544
+    },
+    "fail_proximity_support_scores": {
+      "VITA_CTRL_003": 0.2,
+      "VITA_CTRL_004": 0.8,
+      "VITA_CTRL_008": 0.5
+    },
+    "success_negative_support_scores": {
+      "VITA_CTRL_003": 0.2,
+      "VITA_CTRL_004": 0.8,
+      "VITA_CTRL_008": 0.5
+    },
+    "ensemble_contract": "mean_of_fail_proximity_and_success_to_negative_control_support_scores"
+  },
+  "condition_rows": [
+    {
+      "condition_id": "VITA_CTRL_003",
+      "matrix_derived_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_fields_remaining": [
+        "phase_layer",
+        "evidence_modes_present",
+        "risk_pressure_level",
+        "active_negative_family_ids",
+        "condition_summary"
+      ],
+      "matrix_derived_age_signal_score": 0.8,
+      "matrix_identity_support_score": 0.8,
+      "matrix_derived_identity_pressure_level": "low",
+      "matrix_risk_support_score": 0.2,
+      "matrix_risk_support_label": "supports_low_risk_pressure"
+    },
+    {
+      "condition_id": "VITA_CTRL_004",
+      "matrix_derived_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_fields_remaining": [
+        "phase_layer",
+        "evidence_modes_present",
+        "risk_pressure_level",
+        "active_negative_family_ids",
+        "condition_summary"
+      ],
+      "matrix_derived_age_signal_score": 0.65,
+      "matrix_identity_support_score": 0.2,
+      "matrix_derived_identity_pressure_level": "high",
+      "matrix_risk_support_score": 0.8,
+      "matrix_risk_support_label": "supports_moderate_risk_pressure"
+    },
+    {
+      "condition_id": "VITA_CTRL_008",
+      "matrix_derived_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_fields_remaining": [
+        "phase_layer",
+        "evidence_modes_present",
+        "risk_pressure_level",
+        "active_negative_family_ids",
+        "condition_summary"
+      ],
+      "matrix_derived_age_signal_score": 0.725,
+      "matrix_identity_support_score": 0.5,
+      "matrix_derived_identity_pressure_level": "moderate",
+      "matrix_risk_support_score": 0.5,
+      "matrix_risk_support_label": "inconclusive_for_risk_pressure"
+    }
+  ],
+  "generalization_verdict": "family_local_age_and_identity_override_plus_risk_support_ready_for_gill_only_not_ready_for_cross_family_generalization",
+  "generalization_notes": [
+    "The Gill age ordering is now accession-backed and strong enough to admit a family-local override into the benchmark compiler.",
+    "Gill identity pressure is now directly matrix-derived from the transient success-versus-fail axis under explicit family-local thresholds.",
+    "Gill risk pressure now carries bounded matrix support from a family-local off-track ensemble, but risk labels still remain manual benchmark judgments.",
+    "The extraction contract is still family-local, so this tranche is not yet strong enough to generalize directly to Roux or Olova.",
+    "The next extraction step should either add a second family using the same explicit local-calibration contract or tighten one more independent support layer before claiming cross-family generalization."
+  ]
+}

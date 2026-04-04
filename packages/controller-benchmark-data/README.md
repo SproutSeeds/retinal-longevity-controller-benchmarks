@@ -31,6 +31,9 @@ It currently ships:
 - the live compiled condition records
 - the compiler coverage and trust receipt
 - the benchmark shell receipt
+- the contradiction ledger and contradiction-kernel receipt
+- the passive recommendation scaffold and receipt
+- the `CX-004` validation handoff and receipt
 - the baseline and controller output tables
 - the study-specific compiler rule packs that produced the live bundle
 
@@ -77,6 +80,7 @@ import {
   listCompilerRules,
   readBenchmarkShellReceipt,
   readConditionRecords,
+  readCx004ValidationHandoffReceipt,
   readStudyCorpusRows,
 } from "controller-benchmark-data";
 
@@ -85,6 +89,7 @@ console.log(BUNDLE_MANIFEST.condition_count);
 console.log(listCompilerRules());
 console.log(readStudyCorpusRows().length);
 console.log(readConditionRecords().length);
+console.log(readCx004ValidationHandoffReceipt().handoff_verdict);
 console.log(readBenchmarkShellReceipt().summary.controller_output_counts);
 ```
 
@@ -109,6 +114,12 @@ console.log(readBenchmarkShellReceipt().summary.controller_output_counts);
 - `readControllerOutputRaw()`
 - `readControllerOutputRows()`
 - `readBenchmarkShellReceipt()`
+- `readContradictionLedger()`
+- `readContradictionKernelReceipt()`
+- `readCx004ValidationHandoff()`
+- `readCx004ValidationHandoffReceipt()`
+- `readPassiveRecommendationScaffold()`
+- `readPassiveRecommendationReceipt()`
 - `readCompilerRule(name)`
 - `loadLatestBundle()`
 

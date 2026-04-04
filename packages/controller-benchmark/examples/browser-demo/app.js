@@ -46,6 +46,11 @@ async function main() {
     makeCard("Rule-Backed", String(data.coverage.rule_backed_condition_count), `${data.coverage.coverage_verdict}`),
     makeCard("Baseline Promote", String(data.outputs.baseline_output_counts.promote ?? 0), "age-only baseline"),
     makeCard("Controller Promote", String(data.outputs.controller_output_counts.promote ?? 0), "controller decision layer"),
+    makeCard("Live Contradictions", String(data.snapshot.contradictions?.live_contradiction_count ?? 0), "condition-local plus cross-family kernel"),
+    makeCard("Watch Classes", String(data.snapshot.contradictions?.armed_not_triggered_class_count ?? 0), "remaining armed classes"),
+    makeCard("Validation Handoff", data.validation_handoff?.handoff_verdict ?? "unknown", (data.validation_handoff?.pair_condition_ids ?? []).join(" vs ")),
+    makeCard("Passive Protocols", String(data.snapshot.recommendations?.protocol_object_count ?? 0), "forward objects, live ranking dormant"),
+    makeCard("Live Recommendation", String(data.snapshot.recommendations?.live_recommendation_active_count ?? 0), data.snapshot.recommendations?.dormant_gate_state ?? "unknown"),
   );
 
   Object.entries(data.outputs.transition_counts).forEach(([key, value]) => {

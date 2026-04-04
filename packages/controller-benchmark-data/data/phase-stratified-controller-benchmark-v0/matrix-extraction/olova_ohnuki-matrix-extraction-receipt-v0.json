@@ -1,0 +1,83 @@
+{
+  "artifact_name": "olova_ohnuki-matrix-extraction-receipt-v0",
+  "generated_on": "2026-04-03T18:48:46.167058+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_olova_matrix_signals.py",
+  "study_family_id": "olova_ohnuki",
+  "inputs": {
+    "expression_series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+    "expression_series_matrix_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/olova-matrix-cache/GSE54848-GPL14550_series_matrix.txt.gz",
+    "methylation_series_matrix_available_but_unused_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL13534_series_matrix.txt.gz"
+  },
+  "outputs": {
+    "intermediate": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+    "field_layer": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-extraction-receipt-v0.json"
+  },
+  "matrix_extracted_fields": [
+    "age_signal_score"
+  ],
+  "matrix_support_fields": [],
+  "manual_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "identity_pressure_level",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "manual_fields_with_matrix_support": [],
+  "manual_fields_without_matrix_support": [
+    "phase_layer",
+    "evidence_modes_present",
+    "identity_pressure_level",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "condition_rows": [
+    {
+      "condition_id": "VITA_CTRL_005",
+      "matrix_derived_fields": [
+        "age_signal_score"
+      ],
+      "matrix_support_fields": [],
+      "manual_fields_remaining": [
+        "phase_layer",
+        "evidence_modes_present",
+        "identity_pressure_level",
+        "risk_pressure_level",
+        "active_negative_family_ids",
+        "condition_summary"
+      ],
+      "matrix_derived_age_signal_score": 0.893,
+      "day20_projection_score": 0.857,
+      "day28_projection_score": 0.929,
+      "monotonic_through_day28": true
+    }
+  ],
+  "projection_summary": {
+    "HDF": 0.0,
+    "ESC": 1.0089,
+    "iPSC_clean": 0.9643,
+    "iPSC_subclones": 0.9917,
+    "KLF4_overexpressed_iPSC": 1.0318,
+    "OSKM_d3": 0.2238,
+    "OSKM_d7": 0.4709,
+    "OSKM_d11": 0.5099,
+    "OSKM_d15": 0.5663,
+    "OSKM_d20": 0.857,
+    "OSKM_d28": 0.9288,
+    "OSKM_d35": 0.9525,
+    "OSKM_d42": 0.9485,
+    "OSKM_d49": 0.9573,
+    "pluripotent_anchor": 1.0
+  },
+  "generalization_verdict": "second_direct_age_owning_family_ready_for_olova_and_cross_family_age_contradiction_work_now_unblocked",
+  "generalization_notes": [
+    "Olova now proves the benchmark can carry a second direct age-owning family rather than resting that claim on Gill alone.",
+    "The Olova age override is anchored directly in the accession-backed long-window expression trajectory rather than a hand-packed score.",
+    "Identity and risk remain explicit manual fields because the family is bulk-only and the source itself warns that safe rejuvenation boundaries are not precisely resolved here.",
+    "The methylation arm remains visible as an important future tightening path, but it is not silently treated as implemented age truth in this tranche.",
+    "With Gill and Olova both owning direct age contracts, the next highest-value step becomes contradiction handling rather than additional age-only family rollout."
+  ]
+}

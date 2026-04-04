@@ -153,6 +153,8 @@
           "type": "string",
           "enum": [
             "study_specific_rule",
+            "study_specific_rule_with_matrix_age_override",
+            "study_specific_rule_with_matrix_field_overrides",
             "frozen_fixture",
             "curated_manual",
             "accession_derived",

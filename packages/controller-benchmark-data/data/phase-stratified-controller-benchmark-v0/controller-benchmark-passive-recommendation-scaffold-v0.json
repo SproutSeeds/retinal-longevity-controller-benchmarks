@@ -1,0 +1,672 @@
+{
+  "artifact_name": "controller-benchmark-passive-recommendation-scaffold-v0",
+  "generated_on": "2026-04-03T23:59:41.389812+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_passive_recommendation_scaffold.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",
+    "contradiction_ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json"
+  },
+  "global_activation_gate": {
+    "live_recommendation_active": false,
+    "gate_state": "dormant",
+    "activation_dependencies": [
+      "broader_contradiction_classes_exercised",
+      "live_recommendation_policy_frozen",
+      "cx004_validation_handoff_frozen"
+    ]
+  },
+  "protocol_object_format": {
+    "required_fields": [
+      "protocol_object_id",
+      "anchor_condition_ids",
+      "protocol_hypothesis_label",
+      "scaffold_mode",
+      "passive_posture",
+      "controller_output",
+      "contradiction_state",
+      "trust_boundary",
+      "recommendation_rationale",
+      "required_evidence_before_activation",
+      "activation_gate"
+    ],
+    "passive_posture_enum": [
+      "candidate_scaffold_only",
+      "deferred_abstention",
+      "deferred_insufficient_evidence",
+      "boundary_downgraded",
+      "preserve_block",
+      "reference_only_boundary"
+    ],
+    "rationale_fields": [
+      "earned_support",
+      "blocking_boundaries",
+      "open_uncertainties"
+    ]
+  },
+  "protocol_objects": [
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_001",
+      "anchor_condition_ids": [
+        "VITA_CTRL_001"
+      ],
+      "anchor_study_family_ids": [
+        "sarkar_2020"
+      ],
+      "protocol_hypothesis_label": "early_bulk_context_deferred_candidate",
+      "protocol_summary": "Sarkar initiation-only bulk condition used as early age-movement context without heterogeneity resolution.",
+      "phase_layer": "initiation_phase_heterogeneity",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "deferred_insufficient_evidence",
+      "controller_output": "insufficient_evidence",
+      "controller_rationale": "Initiation-phase interpretation is too coarse without single-cell heterogeneity support.",
+      "contradiction_state": {
+        "live_contradiction_ids": [],
+        "live_contradiction_class_ids": [],
+        "kernel_resolutions": [],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [],
+        "matrix_support_fields": [],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "age_signal_score",
+          "identity_pressure_level",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=bulk_proxy_support",
+          "age_signal_status=weak_positive"
+        ],
+        "blocking_boundaries": [],
+        "open_uncertainties": [
+          "CX-WATCH-002",
+          "identity_pressure_unresolved",
+          "risk_pressure_unresolved"
+        ]
+      },
+      "required_evidence_before_activation": [
+        "resolve_identity_and_risk_with_stronger_readouts",
+        "keep_live_recommendation_dormant_until_abstention_path_is_reviewed"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "sarkar_2020",
+        "accession_bundle": "GSE142439;PRJNA598923",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/sarkar_2020-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_002",
+      "anchor_condition_ids": [
+        "VITA_CTRL_002"
+      ],
+      "anchor_study_family_ids": [
+        "roux_2022_sc"
+      ],
+      "protocol_hypothesis_label": "identity_suppressed_initiation_hard_block",
+      "protocol_summary": "Roux day-6 single-cell initiation snapshot with youthful movement entangled with identity suppression.",
+      "phase_layer": "initiation_phase_heterogeneity",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "preserve_block",
+      "controller_output": "hazard_blocked",
+      "controller_rationale": "Tier A negative family is active, so the benchmark must fail closed.",
+      "contradiction_state": {
+        "live_contradiction_ids": [
+          "VITA-CX-001"
+        ],
+        "live_contradiction_class_ids": [
+          "CX-003"
+        ],
+        "kernel_resolutions": [
+          "preserve_block"
+        ],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [
+          "identity_pressure_level"
+        ],
+        "matrix_support_fields": [
+          "age_signal_score"
+        ],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "age_signal_score",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=single_cell_snapshot_heterogeneity",
+          "age_signal_status=moderate_positive",
+          "matrix_supported_age_signal_score=0.720",
+          "matrix_owned_identity_pressure_level=high"
+        ],
+        "blocking_boundaries": [
+          "active_negative_family_ids=roux_identity_suppressed_partial_reprogramming",
+          "negative_family_roles=identity_blocker",
+          "identity_pressure_level=high",
+          "risk_pressure_level=moderate",
+          "controller_preserve_block_boundary",
+          "contradiction_class=CX-003"
+        ],
+        "open_uncertainties": []
+      },
+      "required_evidence_before_activation": [
+        "retain_hard_block_under_current_kernel",
+        "do_not_activate_without_new_hazard_boundary_review_receipt"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "roux_2022_sc",
+        "accession_bundle": "GSE176206",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/roux_2022_sc-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_003",
+      "anchor_condition_ids": [
+        "VITA_CTRL_003"
+      ],
+      "anchor_study_family_ids": [
+        "gill_2022"
+      ],
+      "protocol_hypothesis_label": "bounded_maturation_temporal_candidate",
+      "protocol_summary": "Gill successful maturation branch with real later-phase timing and relatively favorable proxy identity profile.",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "candidate_scaffold_only",
+      "controller_output": "promote",
+      "controller_rationale": "Real temporal support plus favorable proxy identity and risk signals earn bounded promotion.",
+      "contradiction_state": {
+        "live_contradiction_ids": [
+          "VITA-CX-007"
+        ],
+        "live_contradiction_class_ids": [
+          "CX-004"
+        ],
+        "kernel_resolutions": [
+          "review_required"
+        ],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [
+          "age_signal_score",
+          "identity_pressure_level"
+        ],
+        "matrix_support_fields": [
+          "risk_pressure_level"
+        ],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=observed_temporal",
+          "age_signal_status=strong_positive",
+          "matrix_owned_age_signal_score=0.800",
+          "matrix_owned_identity_pressure_level=low",
+          "matrix_supported_risk_pressure_level=low"
+        ],
+        "blocking_boundaries": [
+          "contradiction_class=CX-004"
+        ],
+        "open_uncertainties": [
+          "CX-WATCH-002",
+          "cross_family_direct_age_contract_review_pending",
+          "late_phase_single_cell_identity_gap"
+        ]
+      },
+      "required_evidence_before_activation": [
+        "exercise_broader_contradiction_classes_beyond_condition_local_rows",
+        "freeze_live_recommendation_policy_after_contradiction_review",
+        "preserve_structural_identity_watch_class_until_matched_imaging_exists",
+        "cx004_validation_handoff_receipt_reviewed_for_anchor_condition"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_004",
+      "anchor_condition_ids": [
+        "VITA_CTRL_004"
+      ],
+      "anchor_study_family_ids": [
+        "gill_2022"
+      ],
+      "protocol_hypothesis_label": "failing_maturation_boundary_case",
+      "protocol_summary": "Gill failing fraction in the maturation window; negative pressure case inside the same family.",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "boundary_downgraded",
+      "controller_output": "downgrade",
+      "controller_rationale": "Tier B negative-family pressure is active, so clean promotion is not earned.",
+      "contradiction_state": {
+        "live_contradiction_ids": [
+          "VITA-CX-002",
+          "VITA-CX-003"
+        ],
+        "live_contradiction_class_ids": [
+          "CX-001",
+          "CX-003"
+        ],
+        "kernel_resolutions": [
+          "downgrade"
+        ],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [
+          "age_signal_score",
+          "identity_pressure_level"
+        ],
+        "matrix_support_fields": [
+          "risk_pressure_level"
+        ],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=observed_temporal",
+          "age_signal_status=moderate_positive",
+          "matrix_owned_age_signal_score=0.650",
+          "matrix_owned_identity_pressure_level=high",
+          "matrix_supported_risk_pressure_level=moderate"
+        ],
+        "blocking_boundaries": [
+          "active_negative_family_ids=gill_failing_fraction_late_reprogramming",
+          "negative_family_roles=identity_blocker",
+          "identity_pressure_level=high",
+          "risk_pressure_level=moderate",
+          "controller_nonpromotion_boundary",
+          "contradiction_class=CX-001",
+          "contradiction_class=CX-003"
+        ],
+        "open_uncertainties": [
+          "late_phase_single_cell_identity_gap"
+        ]
+      },
+      "required_evidence_before_activation": [
+        "boundary_revision_receipt_before_any_live_ranking",
+        "keep_nonpromotion_while_contradiction_and_boundary_state_are_active",
+        "contradiction_review_receipt_for_anchor_condition"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_008",
+      "anchor_condition_ids": [
+        "VITA_CTRL_008"
+      ],
+      "anchor_study_family_ids": [
+        "gill_2022"
+      ],
+      "protocol_hypothesis_label": "intermediate_maturation_boundary_case",
+      "protocol_summary": "Gill maturation condition with age-linked improvement but nontrivial identity pressure that should resist clean promotion.",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "boundary_downgraded",
+      "controller_output": "downgrade",
+      "controller_rationale": "Maturation-phase proxy pressure is too strong for clean promotion.",
+      "contradiction_state": {
+        "live_contradiction_ids": [
+          "VITA-CX-004",
+          "VITA-CX-005"
+        ],
+        "live_contradiction_class_ids": [
+          "CX-001",
+          "CX-003"
+        ],
+        "kernel_resolutions": [
+          "downgrade"
+        ],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [
+          "age_signal_score",
+          "identity_pressure_level"
+        ],
+        "matrix_support_fields": [
+          "risk_pressure_level"
+        ],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=observed_temporal",
+          "age_signal_status=moderate_positive",
+          "matrix_owned_age_signal_score=0.725",
+          "matrix_owned_identity_pressure_level=moderate",
+          "matrix_supported_risk_pressure_level=low"
+        ],
+        "blocking_boundaries": [
+          "identity_pressure_level=moderate",
+          "controller_nonpromotion_boundary",
+          "contradiction_class=CX-001",
+          "contradiction_class=CX-003"
+        ],
+        "open_uncertainties": [
+          "late_phase_single_cell_identity_gap"
+        ]
+      },
+      "required_evidence_before_activation": [
+        "boundary_revision_receipt_before_any_live_ranking",
+        "keep_nonpromotion_while_contradiction_and_boundary_state_are_active",
+        "contradiction_review_receipt_for_anchor_condition"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_005",
+      "anchor_condition_ids": [
+        "VITA_CTRL_005"
+      ],
+      "anchor_study_family_ids": [
+        "olova_ohnuki"
+      ],
+      "protocol_hypothesis_label": "long_window_maturation_deferred_candidate",
+      "protocol_summary": "Long-window bulk trajectory with strong age movement but coarse late-phase identity and risk support.",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "deferred_abstention",
+      "controller_output": "abstain",
+      "controller_rationale": "Bulk-limited evidence preserves uncertainty even with attractive age movement.",
+      "contradiction_state": {
+        "live_contradiction_ids": [
+          "VITA-CX-006",
+          "VITA-CX-008"
+        ],
+        "live_contradiction_class_ids": [
+          "CX-002",
+          "CX-004"
+        ],
+        "kernel_resolutions": [
+          "abstain_pending_review",
+          "review_required"
+        ],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [
+          "age_signal_score"
+        ],
+        "matrix_support_fields": [],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "identity_pressure_level",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=observed_temporal",
+          "age_signal_status=strong_positive",
+          "matrix_owned_age_signal_score=0.893"
+        ],
+        "blocking_boundaries": [
+          "contradiction_class=CX-002",
+          "contradiction_class=CX-004"
+        ],
+        "open_uncertainties": [
+          "CX-WATCH-002",
+          "cross_family_direct_age_contract_review_pending",
+          "identity_pressure_unresolved",
+          "late_phase_single_cell_identity_gap",
+          "risk_pressure_unresolved"
+        ]
+      },
+      "required_evidence_before_activation": [
+        "resolve_identity_and_risk_with_stronger_readouts",
+        "keep_live_recommendation_dormant_until_abstention_path_is_reviewed",
+        "cx004_validation_handoff_receipt_reviewed_for_anchor_condition",
+        "later_phase_single_cell_validation_or_equivalent_orthogonal_readout"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "olova_ohnuki",
+        "accession_bundle": "GSE54848",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+          "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_006",
+      "anchor_condition_ids": [
+        "VITA_CTRL_006"
+      ],
+      "anchor_study_family_ids": [
+        "ohnishi_2014"
+      ],
+      "protocol_hypothesis_label": "hazard_stop_rule_hard_block",
+      "protocol_summary": "Direct hazard family tied to tumor outcome pressure under premature reprogramming termination.",
+      "phase_layer": "hazard_stop_rule_negative_family",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "preserve_block",
+      "controller_output": "hazard_blocked",
+      "controller_rationale": "Tier A negative family is active, so the benchmark must fail closed.",
+      "contradiction_state": {
+        "live_contradiction_ids": [],
+        "live_contradiction_class_ids": [],
+        "kernel_resolutions": [],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [],
+        "matrix_support_fields": [],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "age_signal_score",
+          "identity_pressure_level",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=hazard_outcome_support",
+          "age_signal_status=moderate_positive"
+        ],
+        "blocking_boundaries": [
+          "active_negative_family_ids=ohnishi_premature_termination_tumor_hazard",
+          "negative_family_roles=hazard_blocker",
+          "identity_pressure_level=high",
+          "risk_pressure_level=high",
+          "controller_preserve_block_boundary"
+        ],
+        "open_uncertainties": []
+      },
+      "required_evidence_before_activation": [
+        "retain_hard_block_under_current_kernel",
+        "do_not_activate_without_new_hazard_boundary_review_receipt"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "ohnishi_2014",
+        "accession_bundle": "GSE51786",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/ohnishi_2014-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "protocol_object_id": "VITA-PR-VITA_CTRL_007",
+      "anchor_condition_ids": [
+        "VITA_CTRL_007"
+      ],
+      "anchor_study_family_ids": [
+        "human_full_reprog_d14"
+      ],
+      "protocol_hypothesis_label": "pluripotency_escape_opponent_reference",
+      "protocol_summary": "Human full-reprogramming opponent family used to pressure boundary discipline against pluripotency escape.",
+      "phase_layer": "initiation_phase_heterogeneity",
+      "scaffold_mode": "passive_only",
+      "live_recommendation_active": false,
+      "passive_posture": "reference_only_boundary",
+      "controller_output": "downgrade",
+      "controller_rationale": "Opponent-calibration family is active, so the condition should not be promoted.",
+      "contradiction_state": {
+        "live_contradiction_ids": [],
+        "live_contradiction_class_ids": [],
+        "kernel_resolutions": [],
+        "watch_class_ids": [
+          "CX-WATCH-002"
+        ]
+      },
+      "trust_boundary": {
+        "matrix_extracted_fields": [],
+        "matrix_support_fields": [],
+        "bounded_manual_fields": [
+          "phase_layer",
+          "evidence_modes_present",
+          "age_signal_score",
+          "identity_pressure_level",
+          "risk_pressure_level",
+          "active_negative_family_ids",
+          "condition_summary"
+        ]
+      },
+      "recommendation_rationale": {
+        "earned_support": [
+          "primary_evidence_class=single_cell_snapshot_heterogeneity",
+          "age_signal_status=strong_positive"
+        ],
+        "blocking_boundaries": [
+          "active_negative_family_ids=full_reprogramming_pluripotency_escape",
+          "negative_family_roles=opponent_calibration",
+          "identity_pressure_level=high",
+          "risk_pressure_level=moderate",
+          "controller_nonpromotion_boundary"
+        ],
+        "open_uncertainties": []
+      },
+      "required_evidence_before_activation": [
+        "keep_as_opponent_calibration_only",
+        "do_not_convert_to_promotable_protocol_candidate_without_new_family_specific_safety_evidence"
+      ],
+      "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
+      "traceable_support": {
+        "study_family_id": "human_full_reprog_d14",
+        "accession_bundle": "GSE242423",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/human_full_reprog_d14-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    }
+  ],
+  "scaffold_claim": "This passive recommendation scaffold defines forward protocol objects that cite controller outputs, trust boundaries, and contradiction state without activating live ranking or recommendation behavior."
+}

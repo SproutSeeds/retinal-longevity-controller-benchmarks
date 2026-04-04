@@ -1,0 +1,268 @@
+{
+  "artifact_name": "olova_ohnuki-matrix-derived-extraction-intermediate-v0",
+  "generated_on": "2026-04-03T18:48:46.167058+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_olova_matrix_signals.py",
+  "study_family_id": "olova_ohnuki",
+  "accession_bundle": "GSE54848",
+  "cache_inputs": {
+    "expression_series_matrix": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+      "cache_path": "repo:/programs/partial-reprogramming-controller/tmp/olova-matrix-cache/GSE54848-GPL14550_series_matrix.txt.gz"
+    }
+  },
+  "available_but_unused_surfaces": {
+    "methylation_series_matrix": {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL13534_series_matrix.txt.gz",
+      "expected_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/olova-matrix-cache/GSE54848-GPL13534_series_matrix.txt.gz",
+      "reason_not_used": "This tranche does not yet pin a clock-exact methylation-age implementation inside the repo, so the direct Olova age override is grounded in the expression trajectory rather than a partially specified CpG clock."
+    }
+  },
+  "method": {
+    "name": "fibroblast_to_pluripotent_expression_projection_with_day20_day28_contract",
+    "top_abs_diff_gene_count": 1000,
+    "anchor_definition": {
+      "fibroblast_anchor": [
+        "HDF1",
+        "HDF3",
+        "HDF-1388",
+        "HDFa"
+      ],
+      "esc_anchor": [
+        "H1",
+        "H9",
+        "KhES1",
+        "KhES3"
+      ],
+      "clean_ipsc_anchor": [
+        "253G1-KLF4 dox0 T60"
+      ],
+      "combined_pluripotent_anchor": [
+        "H1",
+        "H9",
+        "KhES1",
+        "KhES3",
+        "253G1-KLF4 dox0 T60"
+      ]
+    },
+    "contract_day_groups": [
+      "OSKM_d20",
+      "OSKM_d28"
+    ],
+    "contract_rule": "Take the mean of the accession-backed day20 and day28 projections on the fibroblast-to-pluripotent axis, then clip to the unit interval.",
+    "trajectory_interpretation_rule": "Olova earns a direct age override from the long-window expression trajectory only; identity and risk stay manual because the family remains bulk-only."
+  },
+  "group_definitions": {
+    "HDF": [
+      "HDF1",
+      "HDF3",
+      "HDF-1388",
+      "HDFa"
+    ],
+    "ESC": [
+      "H1",
+      "H9",
+      "KhES1",
+      "KhES3"
+    ],
+    "iPSC_clean": [
+      "253G1-KLF4 dox0 T60"
+    ],
+    "iPSC_subclones": [
+      "451F3s1",
+      "451F3s2",
+      "451F3s3",
+      "451F3s4",
+      "451F3s5",
+      "451F3s6",
+      "451F3s7",
+      "451F3s9",
+      "451F3s10",
+      "451F3s11",
+      "451F3s12",
+      "451F3s13",
+      "451F3s14",
+      "451F3s15",
+      "451F3s17",
+      "TIG108-4f3s1",
+      "TIG108-4f3s2",
+      "TIG108-4f3s16",
+      "TIG108-4f3s17",
+      "TIG108-4F3s19",
+      "TIG108-4F3s20",
+      "TIG108-4F3s22",
+      "TIG108-4F3s23",
+      "TIG108-4F3s24",
+      "TIG108-4F3s25",
+      "TIG108-4F3s26",
+      "TIG108-4F3s30",
+      "TIG108-4F3s37",
+      "TIG108-4F3s41",
+      "TIG118-4F1s1",
+      "TIG118-4F1s2",
+      "TIG118-4F1s3",
+      "TIG118-4F1s4",
+      "TIG118-4F1s5",
+      "TIG118-4F1s6",
+      "TIG118-4F1s7",
+      "TIG118-4F1s8",
+      "TIG118-4F1s10",
+      "TIG118-4F1s11",
+      "TIG118-4F1s12",
+      "TKCBV5-6s1",
+      "TKCBV5-6s2",
+      "TKCBV5-6s3",
+      "TKCBV5-6s4",
+      "TKCBV5-6s5",
+      "TKCBV5-6s6",
+      "TKCBV5-6s7",
+      "TKCBV5-6s8",
+      "TKCBV5-6s9",
+      "TKCBV5-6s10",
+      "TKCBV5-6s11",
+      "TKCBV5-6s12",
+      "TKCBV5-6s13",
+      "TKCBV5-6s14",
+      "TKCBV5-6s15"
+    ],
+    "KLF4_overexpressed_iPSC": [
+      "253G1-KLF4 dox1 T60"
+    ],
+    "OSKM_d3": [
+      "OSKM_d3_1",
+      "OSKM_d3_2",
+      "OSKM_d3_3"
+    ],
+    "OSKM_d7": [
+      "OSKM_d7_1",
+      "OSKM_d7_2",
+      "OSKM_d7_3"
+    ],
+    "OSKM_d11": [
+      "OSKM_d11_1",
+      "OSKM_d11_2",
+      "OSKM_d11_3"
+    ],
+    "OSKM_d15": [
+      "OSKM_d15_1",
+      "OSKM_d15_2",
+      "OSKM_d15_3"
+    ],
+    "OSKM_d20": [
+      "OSKM_d20_1",
+      "OSKM_d20_2",
+      "OSKM_d20_3",
+      "OSKM_d20_4"
+    ],
+    "OSKM_d28": [
+      "OSKM_d28_1",
+      "OSKM_d28_2",
+      "OSKM_d28_3",
+      "OSKM_d28_4"
+    ],
+    "OSKM_d35": [
+      "OSKM_d35_1",
+      "OSKM_d35_2",
+      "OSKM_d35_3"
+    ],
+    "OSKM_d42": [
+      "OSKM_d42_1",
+      "OSKM_d42_2",
+      "OSKM_d42_3"
+    ],
+    "OSKM_d49": [
+      "OSKM_d49_1",
+      "OSKM_d49_2",
+      "OSKM_d49_3"
+    ]
+  },
+  "projection_summary": {
+    "HDF": 0.0,
+    "ESC": 1.0089,
+    "iPSC_clean": 0.9643,
+    "iPSC_subclones": 0.9917,
+    "KLF4_overexpressed_iPSC": 1.0318,
+    "OSKM_d3": 0.2238,
+    "OSKM_d7": 0.4709,
+    "OSKM_d11": 0.5099,
+    "OSKM_d15": 0.5663,
+    "OSKM_d20": 0.857,
+    "OSKM_d28": 0.9288,
+    "OSKM_d35": 0.9525,
+    "OSKM_d42": 0.9485,
+    "OSKM_d49": 0.9573,
+    "pluripotent_anchor": 1.0
+  },
+  "contract_day_scores": {
+    "OSKM_d20": 0.857,
+    "OSKM_d28": 0.9288
+  },
+  "early_window_scores": {
+    "OSKM_d3": 0.2238,
+    "OSKM_d7": 0.4709,
+    "OSKM_d11": 0.5099,
+    "OSKM_d15": 0.5663
+  },
+  "late_window_scores": {
+    "OSKM_d20": 0.857,
+    "OSKM_d28": 0.9288,
+    "OSKM_d35": 0.9525,
+    "OSKM_d42": 0.9485,
+    "OSKM_d49": 0.9573
+  },
+  "monotonic_through_day28": true,
+  "top_ranked_gene_indexes_preview": [
+    42300,
+    30680,
+    9241,
+    16253,
+    15568,
+    27669,
+    34834,
+    18000,
+    10198,
+    1656,
+    23351,
+    28384,
+    15900,
+    12414,
+    8754,
+    13535,
+    35014,
+    16379,
+    40138,
+    14679,
+    39388,
+    19749,
+    10342,
+    21678,
+    20685,
+    18179,
+    33296,
+    9666,
+    31171,
+    10250,
+    8803,
+    11469,
+    24983,
+    74,
+    18923,
+    16381,
+    8339,
+    28265,
+    9044,
+    8988,
+    11835,
+    36653,
+    15167,
+    8357,
+    35848,
+    18631,
+    32233,
+    13196,
+    17148,
+    11386
+  ],
+  "condition_age_scores": {
+    "VITA_CTRL_005": 0.893
+  }
+}

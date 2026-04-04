@@ -4,7 +4,7 @@
   "package_version": "0.1.0",
   "benchmark_name": "Phase-stratified controller benchmark bundle",
   "description": "Versioned benchmark bundle for the phase-stratified, abstention-capable controller shell.",
-  "generated_on": "2026-04-02T18:53:34.354Z",
+  "generated_on": "2026-04-04T00:01:19.563Z",
   "condition_count": 8,
   "rule_backed_condition_count": 8,
   "coverage_verdict": "all_live_conditions_rule_backed",
@@ -39,6 +39,21 @@
       "format": "json",
       "role": "trust_receipt"
     },
+    "matrixExtractionIntermediate": {
+      "path": "matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+      "format": "json",
+      "role": "matrix_extraction_intermediate"
+    },
+    "matrixFieldLayer": {
+      "path": "matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+      "format": "json",
+      "role": "matrix_field_layer"
+    },
+    "matrixExtractionReceipt": {
+      "path": "matrix-extraction/gill_2022-matrix-extraction-receipt-v0.json",
+      "format": "json",
+      "role": "matrix_extraction_receipt"
+    },
     "ageOnlyBaselineOutput": {
       "path": "controller-benchmark-age-only-baseline-outputs-v0.csv",
       "format": "csv",
@@ -53,6 +68,36 @@
       "path": "controller-benchmark-shell-receipt-v0.json",
       "format": "json",
       "role": "benchmark_receipt"
+    },
+    "contradictionLedger": {
+      "path": "controller-benchmark-contradiction-ledger-v0.json",
+      "format": "json",
+      "role": "contradiction_ledger"
+    },
+    "contradictionKernelReceipt": {
+      "path": "controller-benchmark-contradiction-kernel-receipt-v0.json",
+      "format": "json",
+      "role": "contradiction_receipt"
+    },
+    "cx004ValidationHandoff": {
+      "path": "controller-benchmark-cx004-validation-handoff-v0.json",
+      "format": "json",
+      "role": "validation_handoff"
+    },
+    "cx004ValidationHandoffReceipt": {
+      "path": "controller-benchmark-cx004-validation-handoff-receipt-v0.json",
+      "format": "json",
+      "role": "validation_handoff_receipt"
+    },
+    "passiveRecommendationScaffold": {
+      "path": "controller-benchmark-passive-recommendation-scaffold-v0.json",
+      "format": "json",
+      "role": "passive_recommendation_scaffold"
+    },
+    "passiveRecommendationReceipt": {
+      "path": "controller-benchmark-passive-recommendation-receipt-v0.json",
+      "format": "json",
+      "role": "passive_recommendation_receipt"
     }
   },
   "compiler_rules": [

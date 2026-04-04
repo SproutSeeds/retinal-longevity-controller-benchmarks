@@ -1,0 +1,26 @@
+{
+  "artifact_name": "controller-benchmark-cx004-validation-handoff-receipt-v0",
+  "generated_on": "2026-04-03T23:59:41.297305+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_cx004_validation_handoff.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",
+    "contradiction_ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json"
+  },
+  "outputs": {
+    "handoff": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-receipt-v0.json"
+  },
+  "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+  "driver_contradiction_class_id": "CX-004",
+  "driver_contradiction_count": 2,
+  "pair_condition_ids": [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005"
+  ],
+  "required_timepoint_count": 9,
+  "required_readout_count": 4,
+  "optional_structural_identity_extension": true,
+  "handoff_verdict": "cx004_validation_handoff_frozen",
+  "bounded_claim": "The live cross-family direct-age disagreement now has one exact validation-facing handoff object rather than only diffuse prose references."
+}

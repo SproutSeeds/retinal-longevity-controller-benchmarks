@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.1 - 2026-04-03
+
+- add summary helpers for the public `CX-004` validation handoff object
+- extend the merged benchmark snapshot with a `validation_handoff` layer
+- keep JS summaries aligned with the newer contradiction and passive
+  recommendation public bundle surfaces
+
 ## 0.1.0 - 2026-04-02
 
 - scaffold `controller-benchmark-js`

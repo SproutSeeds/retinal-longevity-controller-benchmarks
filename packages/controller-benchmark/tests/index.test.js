@@ -35,6 +35,13 @@ test("current benchmark loader exposes the happy path object", () => {
   assert.equal(benchmark.conditionRecords.length, 8);
   assert.equal(benchmark.ageOnlyRows.length, 8);
   assert.equal(benchmark.controllerRows.length, 8);
+  assert.equal(benchmark.cx004ValidationHandoff.handoff_id, "CTRL-VITA-CX004-HANDOFF-V0-001");
+  assert.equal(
+    benchmark.cx004ValidationHandoffReceipt.handoff_verdict,
+    "cx004_validation_handoff_frozen",
+  );
+  assert.equal(benchmark.passiveRecommendationScaffold.protocol_objects.length, 8);
+  assert.equal(benchmark.passiveRecommendationReceipt.protocol_object_count, 8);
 });
 
 test("current benchmark validation stays green on the released bundle", () => {
@@ -54,6 +61,9 @@ test("snapshot helper preserves fail-closed shell behavior", () => {
   assert.equal(snapshot.outputs.fail_closed, true);
   assert.equal(snapshot.shell.fail_closed, true);
   assert.equal(snapshot.phase_counts.maturation_phase_bulk_plus_abstention, 4);
+  assert.equal(snapshot.validation_handoff.handoff_verdict, "cx004_validation_handoff_frozen");
+  assert.equal(snapshot.recommendations.protocol_object_count, 8);
+  assert.equal(snapshot.recommendations.live_recommendation_active_count, 0);
 });
 
 test("validated loader composes benchmark, validation, and snapshot", () => {

@@ -1,0 +1,42 @@
+{
+  "artifact_name": "controller-benchmark-contradiction-kernel-receipt-v0",
+  "generated_on": "2026-04-03T23:03:36.454217+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_contradiction_ledger.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",
+    "age_only_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-age-only-baseline-outputs-v0.csv",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",
+    "ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json"
+  },
+  "outputs": {
+    "ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-kernel-receipt-v0.json"
+  },
+  "live_contradiction_count": 8,
+  "condition_count_with_live_contradictions": 5,
+  "condition_ids_with_live_contradictions": [
+    "VITA_CTRL_002",
+    "VITA_CTRL_003",
+    "VITA_CTRL_004",
+    "VITA_CTRL_005",
+    "VITA_CTRL_008"
+  ],
+  "contradiction_class_counts": {
+    "CX-003": 3,
+    "CX-001": 2,
+    "CX-002": 1,
+    "CX-004": 2
+  },
+  "resolution_counts": {
+    "preserve_block": 1,
+    "downgrade": 4,
+    "abstain_pending_review": 1,
+    "review_required": 2
+  },
+  "armed_not_triggered_class_ids": [
+    "CX-WATCH-002"
+  ],
+  "kernel_verdict": "first_live_contradiction_classes_frozen",
+  "kernel_claim": "The benchmark now has a first machine-readable contradiction surface. Direct age ownership, matrix-owned identity pressure, and remaining manual safety boundaries can disagree without being silently overwritten."
+}

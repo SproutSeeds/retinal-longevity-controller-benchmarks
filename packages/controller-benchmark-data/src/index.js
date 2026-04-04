@@ -164,6 +164,30 @@ export function readBenchmarkShellReceipt() {
   return readJson(getArtifactUrl("benchmarkShellReceipt"));
 }
 
+export function readContradictionLedger() {
+  return readJson(getArtifactUrl("contradictionLedger"));
+}
+
+export function readContradictionKernelReceipt() {
+  return readJson(getArtifactUrl("contradictionKernelReceipt"));
+}
+
+export function readCx004ValidationHandoff() {
+  return readJson(getArtifactUrl("cx004ValidationHandoff"));
+}
+
+export function readCx004ValidationHandoffReceipt() {
+  return readJson(getArtifactUrl("cx004ValidationHandoffReceipt"));
+}
+
+export function readPassiveRecommendationScaffold() {
+  return readJson(getArtifactUrl("passiveRecommendationScaffold"));
+}
+
+export function readPassiveRecommendationReceipt() {
+  return readJson(getArtifactUrl("passiveRecommendationReceipt"));
+}
+
 export function listCompilerRules() {
   return Object.freeze(Object.keys(COMPILER_RULE_FILE_MAP));
 }
@@ -188,5 +212,11 @@ export function loadLatestBundle() {
     compileReceipt: readCompileReceipt(),
     coverageTrustReceipt: readCoverageTrustReceipt(),
     benchmarkShellReceipt: readBenchmarkShellReceipt(),
+    contradictionLedger: readContradictionLedger(),
+    contradictionKernelReceipt: readContradictionKernelReceipt(),
+    cx004ValidationHandoff: readCx004ValidationHandoff(),
+    cx004ValidationHandoffReceipt: readCx004ValidationHandoffReceipt(),
+    passiveRecommendationScaffold: readPassiveRecommendationScaffold(),
+    passiveRecommendationReceipt: readPassiveRecommendationReceipt(),
   };
 }

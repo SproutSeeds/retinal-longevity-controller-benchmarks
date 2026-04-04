@@ -1,0 +1,50 @@
+{
+  "artifact_name": "roux_2022_sc-matrix-derived-field-layer-v0",
+  "generated_on": "2026-04-03T17:33:08.731474+00:00",
+  "study_family_id": "roux_2022_sc",
+  "source_kind": "study_specific_rule_with_matrix_field_overrides",
+  "matrix_extracted_fields": [
+    "identity_pressure_level"
+  ],
+  "matrix_support_fields": [
+    "age_signal_score"
+  ],
+  "manual_judgment_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "age_signal_score",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "compiler_trust_notes": [
+    "Roux now carries an accession-backed matrix-derived identity-pressure override from the single-cell MSC initiation snapshot.",
+    "Roux age still remains a manual benchmark field in this tranche, but it now carries explicit matrix support from aged-versus-young control anchors in the same accession-backed file.",
+    "The Roux file exposes only one lane per age_treatment group, so this tranche treats age movement as support-only rather than a direct override.",
+    "Roux remains initiation-phase and pseudotime-supported rather than duration-authoritative, so this tranche does not claim late safety or duration calibration.",
+    "Risk pressure remains manual because the initiation snapshot gives strong identity-escape evidence but not a clean outcome-grade hazard proxy."
+  ],
+  "derived_from": [
+    "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+    "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz"
+  ],
+  "condition_overrides": [
+    {
+      "condition_id": "VITA_CTRL_002",
+      "fields": {
+        "identity_pressure_level": "high"
+      },
+      "matrix_source_locators": [
+        "GSE176206 MSC single-cell H5AD",
+        "Aged_NegCtrl and Young_NegCtrl adult control groups",
+        "Aged_Tg_Dox treated initiation snapshot",
+        "State annotations plus adult-axis departure geometry inside the accession-backed file"
+      ],
+      "matrix_support_summaries": [
+        "Aged treated Roux cells show a high reprogramming-state fraction (0.720) and near-max departure from the adult control age axis (0.989), which now directly derives the high identity-pressure label under the Roux initiation identity contract.",
+        "Aged treated Roux cells show only bounded youthful movement on the aged-control to young-control gene axis (0.182 support score; 0.243 weighted gene-direction concordance), so age_signal_score stays manual in this tranche rather than being silently overwritten.",
+        "Risk pressure remains manual because this initiation snapshot is strong for identity escape but not outcome-grade hazard truth."
+      ]
+    }
+  ]
+}

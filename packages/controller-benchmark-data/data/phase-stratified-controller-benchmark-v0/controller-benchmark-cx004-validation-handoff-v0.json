@@ -1,0 +1,184 @@
+{
+  "artifact_name": "controller-benchmark-cx004-validation-handoff-v0",
+  "generated_on": "2026-04-03T23:59:41.297161+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_cx004_validation_handoff.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",
+    "contradiction_ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json"
+  },
+  "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+  "driver_contradiction_class_id": "CX-004",
+  "driver_contradiction_ids": [
+    "VITA-CX-007",
+    "VITA-CX-008"
+  ],
+  "target_pair": {
+    "condition_ids": [
+      "VITA_CTRL_003",
+      "VITA_CTRL_005"
+    ],
+    "study_family_ids": [
+      "gill_2022",
+      "olova_ohnuki"
+    ],
+    "bounded_summary": "Gill owns the currently admissible later-phase positive lane, while Olova owns the stronger long-window direct age contract but remains abstention-bound because identity and risk are still unresolved."
+  },
+  "anchor_conditions": {
+    "gill_positive_anchor": {
+      "condition_id": "VITA_CTRL_003",
+      "study_family_id": "gill_2022",
+      "accession_bundle": "GSE165180",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "primary_evidence_class": "observed_temporal",
+      "age_signal_score": 0.8,
+      "age_signal_status": "strong_positive",
+      "identity_pressure_level": "low",
+      "risk_pressure_level": "low",
+      "controller_output": "promote",
+      "controller_rationale": "Real temporal support plus favorable proxy identity and risk signals earn bounded promotion.",
+      "condition_summary": "Gill successful maturation branch with real later-phase timing and relatively favorable proxy identity profile.",
+      "traceable_support": [
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+        "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+        "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+      ]
+    },
+    "olova_abstention_anchor": {
+      "condition_id": "VITA_CTRL_005",
+      "study_family_id": "olova_ohnuki",
+      "accession_bundle": "GSE54848",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "primary_evidence_class": "observed_temporal",
+      "age_signal_score": 0.893,
+      "age_signal_status": "strong_positive",
+      "identity_pressure_level": "unresolved",
+      "risk_pressure_level": "unresolved",
+      "controller_output": "abstain",
+      "controller_rationale": "Bulk-limited evidence preserves uncertainty even with attractive age movement.",
+      "condition_summary": "Long-window bulk trajectory with strong age movement but coarse late-phase identity and risk support.",
+      "traceable_support": [
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+        "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+      ]
+    }
+  },
+  "resolution_question": "Can a later-phase human single-cell design show whether the stronger Olova-like long-window age movement can coexist with Gill-like identity/risk admissibility, or does the late maturation region remain too entangled with unstable or off-track states?",
+  "minimal_validation_design": {
+    "system": "adult human fibroblasts",
+    "intervention": "transient OSKM or a narrower factor regime with explicit pulse and withdrawal schedule",
+    "minimum_timepoints": [
+      "D0 baseline",
+      "D8 entry_to_maturation",
+      "D10 early_late_window",
+      "D13 maturation_window",
+      "D15 maturation_window",
+      "D17 Gill_matched_late_window",
+      "D20 Olova_direct_age_window",
+      "D28 Olova_direct_age_window",
+      "D35 withdrawal_or_recovery"
+    ],
+    "required_assays": [
+      "single-cell RNA-seq"
+    ],
+    "strongly_preferred_assays": [
+      "paired chromatin or regulator-aware modality",
+      "matched 3D confocal imaging subset for structural identity scoring"
+    ],
+    "required_marker_families": [
+      "fibroblast identity markers",
+      "pluripotency markers",
+      "EMT and plasticity markers",
+      "cell-cycle and proliferative activation markers",
+      "DNA-damage and stress-response markers",
+      "fetal or developmental drift markers",
+      "age-linked trajectory signatures"
+    ]
+  },
+  "exact_discriminating_readouts": [
+    {
+      "readout_id": "CX004-R01",
+      "name": "late_identity_coherence_map",
+      "question": "Do the age-positive cells in the D20 and D28 window remain transcriptomically fibroblast-coherent instead of drifting toward pluripotent or fetal-like states?",
+      "supports_resolution": "A stable fibroblast-coherent age-positive cluster supports shrinking Olova toward Gill-like admissibility.",
+      "damaging_signal": "If the age-positive region is inseparable from pluripotency, EMT, or fetal drift, Olova should stay unresolved or downgrade."
+    },
+    {
+      "readout_id": "CX004-R02",
+      "name": "rare_state_burden",
+      "question": "Are rare dangerous subpopulations emerging in the later window that the bulk Olova trajectory would hide?",
+      "supports_resolution": "Rare states remain rare, detectable, and separable from the main age-positive lane.",
+      "damaging_signal": "A substantial unstable subpopulation burden keeps the disagreement live and can collapse the apparent late positive lane."
+    },
+    {
+      "readout_id": "CX004-R03",
+      "name": "withdrawal_stability_verdict",
+      "question": "After withdrawal, do late-window cells return to a stable adult-like state or linger in unstable intermediates?",
+      "supports_resolution": "Recovery to a stable adult-like state supports moving Olova beyond abstention.",
+      "damaging_signal": "Persistent unstable intermediates preserve abstention or force downgrade."
+    },
+    {
+      "readout_id": "CX004-R04",
+      "name": "cross_window_continuity_check",
+      "question": "Is the Olova-like D20/D28 age movement a continuation of the Gill-like bounded late window or a distinct off-track late branch?",
+      "supports_resolution": "A continuous Gill-like trajectory strengthens a multi-family admissible late lane.",
+      "damaging_signal": "A distinct off-track late branch means stronger age alone should not outrank Gill-like admissibility."
+    }
+  ],
+  "optional_structural_identity_extension": {
+    "status": "strongly_preferred_not_required_for_v0_handoff",
+    "readout": "matched polarity-scoring imaging subset",
+    "why_it_matters": "It tests whether transcript-level identity preservation hides spatial or architectural loss in the same later-phase conditions."
+  },
+  "resolution_paths": [
+    {
+      "resolution_id": "CX004-PATH-01",
+      "name": "olova_moves_toward_admissible_late_lane",
+      "evidence_pattern": "Olova D20/D28 cells stay fibroblast-coherent, dangerous states remain bounded, and withdrawal returns cells toward stable adult identity.",
+      "controller_effect": "Re-encode VITA_CTRL_005 identity/risk from unresolved into bounded values and rerun the controller instead of leaving the pair in permanent cross-family review."
+    },
+    {
+      "resolution_id": "CX004-PATH-02",
+      "name": "gill_only_positive_lane_preserved",
+      "evidence_pattern": "Olova late cells remain bulk-attractive but single-cell evidence shows persistent identity or risk ambiguity while the Gill-like bounded lane stays cleaner.",
+      "controller_effect": "Keep Gill as the admissible later-phase anchor and preserve Olova as abstention or downgrade."
+    },
+    {
+      "resolution_id": "CX004-PATH-03",
+      "name": "late_positive_story_collapses",
+      "evidence_pattern": "The later window shows broad instability or risk-like states across the supposedly positive region.",
+      "controller_effect": "Downgrade the broader late maturation positive story rather than promoting either family."
+    }
+  ],
+  "controller_field_targets": {
+    "primary_anchor_condition_id": "VITA_CTRL_005",
+    "fields_to_shrink": [
+      "identity_pressure_level",
+      "risk_pressure_level"
+    ],
+    "possible_secondary_effects": [
+      "re-encode_cross_family_direct_age_contract_disagreement",
+      "update_passive_recommendation_activation_dependencies"
+    ]
+  },
+  "required_outputs_before_resolution": [
+    "state table for each timepoint with identity, plasticity, and risk annotations",
+    "trajectory summary linking Gill-like D10-D17 states to Olova-like D20-D28 states",
+    "withdrawal stability verdict for the late-window clusters",
+    "CX-004 resolution receipt mapping observed readouts to controller field updates"
+  ],
+  "required_follow_on_artifact": {
+    "artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+    "purpose": "Record how the observed later-phase validation readouts update VITA_CTRL_005, the CX-004 pair status, and passive recommendation dormancy."
+  },
+  "activation_boundary": "Live recommendation remains dormant until this handoff is exercised and the resulting receipt explicitly says whether the Olova late window upgrades, stays unresolved, or forces broader downgrade.",
+  "bounded_interpretation": "This handoff does not claim the later-phase biology is already resolved. It freezes the smallest exact experiment contract needed to shrink the live Gill-versus-Olova disagreement without letting direct age strength alone decide admissibility."
+}

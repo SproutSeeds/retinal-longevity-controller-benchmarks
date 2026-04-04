@@ -1,0 +1,59 @@
+{
+  "artifact_name": "controller-benchmark-passive-recommendation-receipt-v0",
+  "generated_on": "2026-04-03T23:59:41.389941+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_passive_recommendation_scaffold.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",
+    "contradiction_ledger": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-contradiction-ledger-v0.json"
+  },
+  "outputs": {
+    "scaffold": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-passive-recommendation-scaffold-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-passive-recommendation-receipt-v0.json"
+  },
+  "protocol_object_count": 8,
+  "live_recommendation_active_count": 0,
+  "passive_posture_counts": {
+    "deferred_insufficient_evidence": 1,
+    "preserve_block": 2,
+    "candidate_scaffold_only": 1,
+    "boundary_downgraded": 2,
+    "deferred_abstention": 1,
+    "reference_only_boundary": 1
+  },
+  "controller_output_counts": {
+    "insufficient_evidence": 1,
+    "hazard_blocked": 2,
+    "promote": 1,
+    "downgrade": 3,
+    "abstain": 1
+  },
+  "contradiction_cited_protocol_object_count": 5,
+  "condition_ids_with_contradiction_citations": [
+    "VITA_CTRL_002",
+    "VITA_CTRL_003",
+    "VITA_CTRL_004",
+    "VITA_CTRL_005",
+    "VITA_CTRL_008"
+  ],
+  "candidate_protocol_object_ids": [
+    "VITA-PR-VITA_CTRL_003"
+  ],
+  "blocked_protocol_object_ids": [
+    "VITA-PR-VITA_CTRL_002",
+    "VITA-PR-VITA_CTRL_006"
+  ],
+  "deferred_protocol_object_ids": [
+    "VITA-PR-VITA_CTRL_001",
+    "VITA-PR-VITA_CTRL_005"
+  ],
+  "reference_only_protocol_object_ids": [
+    "VITA-PR-VITA_CTRL_007"
+  ],
+  "armed_watch_class_ids": [
+    "CX-WATCH-002"
+  ],
+  "dormant_verdict": "passive_scaffolding_only_live_recommendation_dormant",
+  "dormant_claim": "The benchmark now carries contradiction-aware forward protocol objects, but live recommendation remains dormant until broader disagreement classes are exercised."
+}

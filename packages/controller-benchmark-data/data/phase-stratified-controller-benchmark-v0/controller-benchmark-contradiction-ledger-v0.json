@@ -1,0 +1,441 @@
+{
+  "artifact_name": "controller-benchmark-contradiction-ledger-v0",
+  "generated_on": "2026-04-03T23:03:36.454063+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_contradiction_ledger.py",
+  "inputs": {
+    "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
+    "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",
+    "age_only_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-age-only-baseline-outputs-v0.csv",
+    "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv"
+  },
+  "resolution_policy": {
+    "downgrade": "Keep the condition live but non-promoted because a real boundary overrides baseline attractiveness.",
+    "abstain_pending_review": "Preserve uncertainty when one lane looks attractive but other required gates remain unresolved.",
+    "preserve_block": "Do not reopen a hard block just because another lane looks attractive.",
+    "preserve_nonpromotion": "Do not silently convert weak or conflicted evidence into a positive call.",
+    "review_required": "Escalate cross-family disagreement for explicit review instead of letting one local contract silently define admissibility ordering."
+  },
+  "live_contradictions": [
+    {
+      "contradiction_id": "VITA-CX-001",
+      "contradiction_class_id": "CX-003",
+      "contradiction_class_label": "matrix_identity_pressure_vs_age_attractiveness",
+      "condition_id": "VITA_CTRL_002",
+      "study_family_id": "roux_2022_sc",
+      "phase_layer": "initiation_phase_heterogeneity",
+      "baseline_output": "promote",
+      "controller_output": "hazard_blocked",
+      "kernel_resolution": "preserve_block",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "identity_pressure_level",
+        "age_signal_score"
+      ],
+      "matrix_extracted_fields": [
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "age_signal_score"
+      ],
+      "manual_boundary_fields": [
+        "risk_pressure_level",
+        "active_negative_family_ids"
+      ],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [
+        "roux_identity_suppressed_partial_reprogramming"
+      ],
+      "contradiction_evidence": [
+        "matrix_identity_pressure=high",
+        "controller_output=hazard_blocked"
+      ],
+      "trigger_summary": "Matrix-owned identity pressure stays too strong for clean promotion even when age-only ranking finds the condition attractive.",
+      "controller_rationale": "Tier A negative family is active, so the benchmark must fail closed.",
+      "traceable_support": {
+        "study_family_id": "roux_2022_sc",
+        "accession_bundle": "GSE176206",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/roux_2022_sc-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-002",
+      "contradiction_class_id": "CX-001",
+      "contradiction_class_label": "direct_age_positive_vs_controller_gate",
+      "condition_id": "VITA_CTRL_004",
+      "study_family_id": "gill_2022",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "downgrade",
+      "kernel_resolution": "downgrade",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "age_signal_score",
+        "active_negative_family_ids",
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_boundary_fields": [
+        "active_negative_family_ids",
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [
+        "gill_failing_fraction_late_reprogramming"
+      ],
+      "contradiction_evidence": [
+        "predeclared_negative_family_active",
+        "identity_pressure=high",
+        "risk_pressure=moderate"
+      ],
+      "trigger_summary": "Direct matrix-owned age support is strong enough for age-only promotion, but an earned controller boundary still blocks clean promotion.",
+      "controller_rationale": "Tier B negative-family pressure is active, so clean promotion is not earned.",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-003",
+      "contradiction_class_id": "CX-003",
+      "contradiction_class_label": "matrix_identity_pressure_vs_age_attractiveness",
+      "condition_id": "VITA_CTRL_004",
+      "study_family_id": "gill_2022",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "downgrade",
+      "kernel_resolution": "downgrade",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "identity_pressure_level",
+        "age_signal_score"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_boundary_fields": [
+        "risk_pressure_level",
+        "active_negative_family_ids"
+      ],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [
+        "gill_failing_fraction_late_reprogramming"
+      ],
+      "contradiction_evidence": [
+        "matrix_identity_pressure=high",
+        "controller_output=downgrade"
+      ],
+      "trigger_summary": "Matrix-owned identity pressure stays too strong for clean promotion even when age-only ranking finds the condition attractive.",
+      "controller_rationale": "Tier B negative-family pressure is active, so clean promotion is not earned.",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-004",
+      "contradiction_class_id": "CX-001",
+      "contradiction_class_label": "direct_age_positive_vs_controller_gate",
+      "condition_id": "VITA_CTRL_008",
+      "study_family_id": "gill_2022",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "downgrade",
+      "kernel_resolution": "downgrade",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_boundary_fields": [
+        "identity_pressure_level"
+      ],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [],
+      "contradiction_evidence": [
+        "identity_pressure=moderate"
+      ],
+      "trigger_summary": "Direct matrix-owned age support is strong enough for age-only promotion, but an earned controller boundary still blocks clean promotion.",
+      "controller_rationale": "Maturation-phase proxy pressure is too strong for clean promotion.",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-005",
+      "contradiction_class_id": "CX-003",
+      "contradiction_class_label": "matrix_identity_pressure_vs_age_attractiveness",
+      "condition_id": "VITA_CTRL_008",
+      "study_family_id": "gill_2022",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "downgrade",
+      "kernel_resolution": "downgrade",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "identity_pressure_level",
+        "age_signal_score"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_boundary_fields": [],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [],
+      "contradiction_evidence": [
+        "matrix_identity_pressure=moderate",
+        "controller_output=downgrade"
+      ],
+      "trigger_summary": "Matrix-owned identity pressure stays too strong for clean promotion even when age-only ranking finds the condition attractive.",
+      "controller_rationale": "Maturation-phase proxy pressure is too strong for clean promotion.",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-006",
+      "contradiction_class_id": "CX-002",
+      "contradiction_class_label": "direct_age_positive_vs_manual_uncertainty",
+      "condition_id": "VITA_CTRL_005",
+      "study_family_id": "olova_ohnuki",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "abstain",
+      "kernel_resolution": "abstain_pending_review",
+      "contradiction_scope": "condition_local",
+      "trigger_fields": [
+        "age_signal_score",
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score"
+      ],
+      "matrix_support_fields": [],
+      "manual_boundary_fields": [
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "related_condition_ids": [],
+      "related_study_family_ids": [],
+      "active_negative_family_ids": [],
+      "contradiction_evidence": [
+        "identity_pressure_level=unresolved",
+        "risk_pressure_level=unresolved"
+      ],
+      "trigger_summary": "Direct matrix-owned age support looks promotable, but unresolved manual identity or risk boundaries force abstention instead of promotion.",
+      "controller_rationale": "Bulk-limited evidence preserves uncertainty even with attractive age movement.",
+      "traceable_support": {
+        "study_family_id": "olova_ohnuki",
+        "accession_bundle": "GSE54848",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+          "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-007",
+      "contradiction_class_id": "CX-004",
+      "contradiction_class_label": "cross_family_direct_age_contract_disagreement",
+      "condition_id": "VITA_CTRL_003",
+      "study_family_id": "gill_2022",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "promote",
+      "kernel_resolution": "review_required",
+      "contradiction_scope": "cross_family",
+      "trigger_fields": [
+        "age_signal_score",
+        "controller_output"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score",
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "risk_pressure_level"
+      ],
+      "manual_boundary_fields": [],
+      "related_condition_ids": [
+        "VITA_CTRL_003",
+        "VITA_CTRL_005"
+      ],
+      "related_study_family_ids": [
+        "gill_2022",
+        "olova_ohnuki"
+      ],
+      "active_negative_family_ids": [],
+      "contradiction_evidence": [
+        "self_age_signal_score=0.800",
+        "peer_condition_id=VITA_CTRL_005",
+        "peer_study_family_id=olova_ohnuki",
+        "peer_age_signal_score=0.893",
+        "peer_controller_output=abstain",
+        "cross_family_admissibility_ordering_review_required"
+      ],
+      "trigger_summary": "A cross-family peer owns a stronger direct age contract in the same late maturation lane, but unresolved non-age boundaries keep that peer from matching this condition's promotable controller posture.",
+      "controller_rationale": "Real temporal support plus favorable proxy identity and risk signals earn bounded promotion.",
+      "traceable_support": {
+        "study_family_id": "gill_2022",
+        "accession_bundle": "GSE165180",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    },
+    {
+      "contradiction_id": "VITA-CX-008",
+      "contradiction_class_id": "CX-004",
+      "contradiction_class_label": "cross_family_direct_age_contract_disagreement",
+      "condition_id": "VITA_CTRL_005",
+      "study_family_id": "olova_ohnuki",
+      "phase_layer": "maturation_phase_bulk_plus_abstention",
+      "baseline_output": "promote",
+      "controller_output": "abstain",
+      "kernel_resolution": "review_required",
+      "contradiction_scope": "cross_family",
+      "trigger_fields": [
+        "age_signal_score",
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "matrix_extracted_fields": [
+        "age_signal_score"
+      ],
+      "matrix_support_fields": [],
+      "manual_boundary_fields": [
+        "identity_pressure_level",
+        "risk_pressure_level"
+      ],
+      "related_condition_ids": [
+        "VITA_CTRL_003",
+        "VITA_CTRL_005"
+      ],
+      "related_study_family_ids": [
+        "gill_2022",
+        "olova_ohnuki"
+      ],
+      "active_negative_family_ids": [],
+      "contradiction_evidence": [
+        "self_age_signal_score=0.893",
+        "peer_condition_id=VITA_CTRL_003",
+        "peer_study_family_id=gill_2022",
+        "peer_age_signal_score=0.800",
+        "peer_controller_output=promote",
+        "identity_pressure_level=unresolved",
+        "risk_pressure_level=unresolved"
+      ],
+      "trigger_summary": "This condition owns the stronger direct age contract across late maturation families, but unresolved non-age boundaries still force a more conservative controller posture than a lower-age promotable peer.",
+      "controller_rationale": "Bulk-limited evidence preserves uncertainty even with attractive age movement.",
+      "traceable_support": {
+        "study_family_id": "olova_ohnuki",
+        "accession_bundle": "GSE54848",
+        "derived_from": [
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+          "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
+        ]
+      }
+    }
+  ],
+  "armed_not_triggered_classes": [
+    {
+      "contradiction_class_id": "CX-WATCH-002",
+      "contradiction_class_label": "transcriptomic_identity_vs_structural_identity",
+      "status": "armed_not_triggered",
+      "watch_summary": "Transcriptomic identity now owns parts of Gate 2, but a stronger structural identity lane is not yet present in the live benchmark shell. This class activates once the later matched polarity-scoring path exists.",
+      "expected_resolution_space": [
+        "review_required",
+        "abstain_pending_review",
+        "preserve_block"
+      ]
+    }
+  ],
+  "kernel_claim": "This first contradiction ledger preserves where matrix-owned lanes, manual boundaries, and controller outputs disagree without silently flattening those disagreements into one smoothed verdict."
+}

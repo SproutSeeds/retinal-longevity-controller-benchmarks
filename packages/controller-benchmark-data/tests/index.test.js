@@ -14,9 +14,15 @@ import {
   readCompilerRule,
   readConditionFixture,
   readConditionRecords,
+  readContradictionKernelReceipt,
+  readContradictionLedger,
+  readCx004ValidationHandoff,
+  readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
   readCoverageTrustReceipt,
   readNegativeFamilyRegistry,
+  readPassiveRecommendationReceipt,
+  readPassiveRecommendationScaffold,
   readStudyCorpusRows,
 } from "../src/index.js";
 
@@ -34,9 +40,18 @@ test("artifact registry exposes the core bundle surfaces", () => {
     "conditionRecords",
     "compileReceipt",
     "coverageTrustReceipt",
+    "matrixExtractionIntermediate",
+    "matrixFieldLayer",
+    "matrixExtractionReceipt",
     "ageOnlyBaselineOutput",
     "controllerOutput",
     "benchmarkShellReceipt",
+    "contradictionLedger",
+    "contradictionKernelReceipt",
+    "cx004ValidationHandoff",
+    "cx004ValidationHandoffReceipt",
+    "passiveRecommendationScaffold",
+    "passiveRecommendationReceipt",
   ]);
   assert.equal(
     getArtifactPath("conditionRecords"),
@@ -88,12 +103,40 @@ test("compiler rules are readable", () => {
 test("receipts and output tables remain aligned with the live shell", () => {
   const coverage = readCoverageTrustReceipt();
   const shell = readBenchmarkShellReceipt();
+  const contradictionLedger = readContradictionLedger();
+  const contradictionKernelReceipt = readContradictionKernelReceipt();
+  const cx004ValidationHandoff = readCx004ValidationHandoff();
+  const cx004ValidationHandoffReceipt = readCx004ValidationHandoffReceipt();
+  const passiveRecommendationScaffold = readPassiveRecommendationScaffold();
+  const passiveRecommendationReceipt = readPassiveRecommendationReceipt();
   const ageOnlyRows = readAgeOnlyBaselineOutputRows();
   const controllerRows = readControllerOutputRows();
 
   assert.equal(coverage.rule_backed_condition_count, 8);
   assert.equal(coverage.fixture_backed_condition_count, 0);
   assert.equal(shell.summary.controller_output_counts.promote, 1);
+  assert.equal(contradictionLedger.live_contradictions.length, 8);
+  assert.equal(
+    contradictionKernelReceipt.kernel_verdict,
+    "first_live_contradiction_classes_frozen",
+  );
+  assert.deepEqual(cx004ValidationHandoff.target_pair.condition_ids, [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005",
+  ]);
+  assert.equal(
+    cx004ValidationHandoffReceipt.handoff_verdict,
+    "cx004_validation_handoff_frozen",
+  );
+  assert.deepEqual(contradictionKernelReceipt.armed_not_triggered_class_ids, [
+    "CX-WATCH-002",
+  ]);
+  assert.equal(passiveRecommendationScaffold.protocol_objects.length, 8);
+  assert.equal(
+    passiveRecommendationReceipt.dormant_verdict,
+    "passive_scaffolding_only_live_recommendation_dormant",
+  );
+  assert.equal(passiveRecommendationReceipt.contradiction_cited_protocol_object_count, 5);
   assert.equal(ageOnlyRows.length, 8);
   assert.equal(controllerRows.length, 8);
 });
@@ -105,4 +148,13 @@ test("latest bundle loader returns a coherent snapshot", () => {
   assert.equal(bundle.manifest.bundle_id, BUNDLE_ID);
   assert.equal(bundle.conditionRecords.length, 8);
   assert.equal(bundle.benchmarkShellReceipt.condition_count, 8);
+  assert.equal(bundle.contradictionLedger.live_contradictions.length, 8);
+  assert.equal(bundle.contradictionKernelReceipt.live_contradiction_count, 8);
+  assert.equal(bundle.cx004ValidationHandoff.handoff_id, "CTRL-VITA-CX004-HANDOFF-V0-001");
+  assert.equal(
+    bundle.cx004ValidationHandoffReceipt.handoff_verdict,
+    "cx004_validation_handoff_frozen",
+  );
+  assert.equal(bundle.passiveRecommendationScaffold.protocol_objects.length, 8);
+  assert.equal(bundle.passiveRecommendationReceipt.protocol_object_count, 8);
 });

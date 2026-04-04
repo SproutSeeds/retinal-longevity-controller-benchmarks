@@ -1,0 +1,74 @@
+{
+  "artifact_name": "roux_2022_sc-matrix-extraction-receipt-v0",
+  "generated_on": "2026-04-03T17:33:08.731474+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_roux_matrix_signals.py",
+  "study_family_id": "roux_2022_sc",
+  "inputs": {
+    "msc_single_cell_h5ad_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
+    "msc_single_cell_h5ad_gz_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/roux-matrix-cache/GSE176206_msc_sokm.h5ad.gz",
+    "msc_single_cell_h5ad_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/roux-matrix-cache/GSE176206_msc_sokm.h5ad"
+  },
+  "outputs": {
+    "intermediate": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+    "field_layer": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-field-layer-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-extraction-receipt-v0.json"
+  },
+  "matrix_extracted_fields": [
+    "identity_pressure_level"
+  ],
+  "matrix_support_fields": [
+    "age_signal_score"
+  ],
+  "manual_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "age_signal_score",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "manual_fields_with_matrix_support": [
+    "age_signal_score"
+  ],
+  "manual_fields_without_matrix_support": [
+    "phase_layer",
+    "evidence_modes_present",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "condition_rows": [
+    {
+      "condition_id": "VITA_CTRL_002",
+      "matrix_derived_fields": [
+        "identity_pressure_level"
+      ],
+      "matrix_support_fields": [
+        "age_signal_score"
+      ],
+      "manual_fields_remaining": [
+        "phase_layer",
+        "evidence_modes_present",
+        "age_signal_score",
+        "risk_pressure_level",
+        "active_negative_family_ids",
+        "condition_summary"
+      ],
+      "matrix_age_support_score": 0.182,
+      "matrix_age_support_label": "weak_support_for_youthful_movement",
+      "matrix_age_direction_concordance": 0.243,
+      "matrix_reprogramming_state_fraction": 0.72,
+      "matrix_adult_axis_departure_score": 0.989,
+      "matrix_identity_escape_score": 0.854,
+      "matrix_derived_identity_pressure_level": "high"
+    }
+  ],
+  "generalization_verdict": "cross_family_identity_override_ready_for_roux_but_direct_roux_age_override_not_yet_earned",
+  "generalization_notes": [
+    "Roux now proves the benchmark can carry a second family with an explicit accession-backed matrix-derived identity contract.",
+    "Roux age movement is now no longer a silent rule-pack judgment; the benchmark carries an explicit support score from aged-versus-young control anchors in the accession-backed file.",
+    "The current Roux file still carries one lane per age_treatment group, so the age tranche is support-only rather than a direct override.",
+    "Roux remains valuable as the benchmark's strongest initiation-phase identity-escape family, not as a duration-authoritative late-safety family.",
+    "The next strongest cross-family move is to promote a second direct age-owning family, with Olova as the cleanest current candidate."
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "artifact_name": "gill_2022-matrix-derived-field-layer-v0",
+  "generated_on": "2026-04-03T16:45:48.766408+00:00",
+  "study_family_id": "gill_2022",
+  "source_kind": "study_specific_rule_with_matrix_field_overrides",
+  "matrix_extracted_fields": [
+    "age_signal_score",
+    "identity_pressure_level"
+  ],
+  "matrix_support_fields": [
+    "risk_pressure_level"
+  ],
+  "manual_judgment_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "compiler_trust_notes": [
+    "Gill now carries a first accession-backed age-signal override derived from processed expression matrices rather than only the frozen rule pack.",
+    "Gill now also carries a matrix-derived identity-pressure override using the transient success-versus-fail branch axis and explicit family-local thresholds.",
+    "Gill now also carries a bounded matrix support layer for risk pressure using a family-local off-track ensemble, but risk_pressure_level itself remains a manual benchmark judgment in this tranche.",
+    "Only age_signal_score and identity_pressure_level are directly matrix-derived in this tranche.",
+    "The pilot uses family-local calibration to keep the extracted ranking legible inside the existing benchmark shell rather than claiming a universal biological age metric."
+  ],
+  "derived_from": [
+    "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+    "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+    "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz"
+  ],
+  "condition_overrides": [
+    {
+      "condition_id": "VITA_CTRL_003",
+      "fields": {
+        "age_signal_score": 0.8,
+        "identity_pressure_level": "low"
+      },
+      "matrix_source_locators": [
+        "GSE165176 processed Sendai matrix",
+        "Old-donor late SSEA4 branch samples at days 11, 13, 15, and 21",
+        "GSE165177 processed transient matrix",
+        "Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17"
+      ],
+      "matrix_support_summaries": [
+        "Successful late SSEA4 branch projects highest on the old-to-young fibro age axis.",
+        "Successful late SSEA4 branch also projects closest to the transiently reprogrammed Gill cohort on the family-local success-versus-fail axis, which now directly derives the low identity-pressure label under the Gill transcriptomic identity contract.",
+        "Successful late SSEA4 branch stays on the favorable side of the Gill off-track risk ensemble, supporting the current low risk-pressure label."
+      ]
+    },
+    {
+      "condition_id": "VITA_CTRL_004",
+      "fields": {
+        "age_signal_score": 0.65,
+        "identity_pressure_level": "high"
+      },
+      "matrix_source_locators": [
+        "GSE165176 processed Sendai matrix",
+        "Old-donor late CD13 branch samples at days 11, 13, 15, and 21",
+        "GSE165177 processed transient matrix",
+        "Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17"
+      ],
+      "matrix_support_summaries": [
+        "Failing late CD13 branch projects lowest on the same age axis and therefore anchors the family-local lower bound.",
+        "Failing late CD13 branch projects closest to the failed-to-transiently-reprogram Gill cohort on the family-local success-versus-fail axis, which now directly derives the high identity-pressure label under the Gill transcriptomic identity contract.",
+        "Failing late CD13 branch sits deepest in the Gill off-track risk ensemble, supporting the current moderate risk-pressure label."
+      ]
+    },
+    {
+      "condition_id": "VITA_CTRL_008",
+      "fields": {
+        "age_signal_score": 0.725,
+        "identity_pressure_level": "moderate"
+      },
+      "matrix_source_locators": [
+        "GSE165176 processed Sendai matrix",
+        "Old-donor pooled late CD13 and SSEA4 samples at days 11, 13, 15, and 21",
+        "GSE165177 processed transient matrix",
+        "Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17"
+      ],
+      "matrix_support_summaries": [
+        "Pooled late Gill branch average lands between the successful and failing projections and serves as the family-local boundary proxy.",
+        "Pooled late Gill branch average lands near the midpoint of the family-local success-versus-fail axis, which now directly derives the moderate identity-pressure label under the Gill transcriptomic identity contract.",
+        "Pooled late Gill branch average lands in the middle of the Gill off-track risk ensemble, which is not strong enough to replace the current manual low risk-pressure label."
+      ]
+    }
+  ]
+}

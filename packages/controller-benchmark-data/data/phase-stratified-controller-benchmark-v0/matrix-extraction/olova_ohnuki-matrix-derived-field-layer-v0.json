@@ -1,0 +1,48 @@
+{
+  "artifact_name": "olova_ohnuki-matrix-derived-field-layer-v0",
+  "generated_on": "2026-04-03T18:48:46.167058+00:00",
+  "study_family_id": "olova_ohnuki",
+  "source_kind": "study_specific_rule_with_matrix_field_overrides",
+  "matrix_extracted_fields": [
+    "age_signal_score"
+  ],
+  "matrix_support_fields": [],
+  "manual_judgment_fields_remaining": [
+    "phase_layer",
+    "evidence_modes_present",
+    "identity_pressure_level",
+    "risk_pressure_level",
+    "active_negative_family_ids",
+    "condition_summary"
+  ],
+  "compiler_trust_notes": [
+    "Olova now carries an accession-backed direct age override from the GPL14550 long-window expression trajectory.",
+    "The direct age contract uses fibroblast anchors on one side and a combined ESC-plus-clean-iPSC pluripotent anchor on the other side.",
+    "The live override is the mean of the day20 and day28 trajectory projections, which earns a family-local long-window age score without pretending the family resolves late identity or risk.",
+    "The GSE54848 methylation arm is present and important, but this tranche does not yet pin a clock-exact CpG implementation inside the repo, so methylation remains an explicit future tightening path rather than a silent dependency.",
+    "Identity and risk remain manual benchmark judgments because the family is bulk-only and the source itself warns that safe rejuvenation boundaries are not precisely resolved by the bulk expression surface."
+  ],
+  "derived_from": [
+    "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz"
+  ],
+  "condition_overrides": [
+    {
+      "condition_id": "VITA_CTRL_005",
+      "fields": {
+        "age_signal_score": 0.893
+      },
+      "matrix_source_locators": [
+        "GSE54848 GPL14550 expression series matrix",
+        "HDF fibroblast anchors: HDF1, HDF3, HDF-1388, HDFa",
+        "Pluripotent anchor: H1, H9, KhES1, KhES3, and 253G1-KLF4 dox0 T60",
+        "OSKM day20 and day28 bulk trajectory groups"
+      ],
+      "matrix_support_summaries": [
+        "The accession-backed Olova trajectory moves monotonically from fibroblast baseline toward the pluripotent anchor through day28, with projections of 0.224, 0.471, 0.510, 0.566, 0.857, and 0.929 from day3 to day28.",
+        "The direct Olova age override uses the mean of the day20 and day28 projections (0.893), which now overwrites age_signal_score for the long-window maturation condition.",
+        "Identity and risk remain manual because this family is bulk-only and the repo does not yet pin a clock-exact methylation contract or a single-cell late-identity boundary for Olova in this tranche."
+      ]
+    }
+  ]
+}

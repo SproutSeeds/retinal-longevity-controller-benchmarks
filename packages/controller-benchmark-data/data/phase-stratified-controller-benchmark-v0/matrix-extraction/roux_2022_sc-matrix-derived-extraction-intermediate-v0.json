@@ -1,0 +1,201 @@
+{
+  "artifact_name": "roux_2022_sc-matrix-derived-extraction-intermediate-v0",
+  "generated_on": "2026-04-03T17:33:08.731474+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_roux_matrix_signals.py",
+  "study_family_id": "roux_2022_sc",
+  "accession_bundle": "GSE176206",
+  "cache_inputs": {
+    "msc_single_cell_h5ad_gz": {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
+      "cache_path": "repo:/programs/partial-reprogramming-controller/tmp/roux-matrix-cache/GSE176206_msc_sokm.h5ad.gz"
+    },
+    "msc_single_cell_h5ad": {
+      "cache_path": "repo:/programs/partial-reprogramming-controller/tmp/roux-matrix-cache/GSE176206_msc_sokm.h5ad"
+    }
+  },
+  "matrix_shape": [
+    20661,
+    28694
+  ],
+  "obs_columns": [
+    "sample",
+    "batch",
+    "n_counts",
+    "n_genes",
+    "perc_mito",
+    "perc_rrna",
+    "age",
+    "sample_treatment",
+    "age_treatment",
+    "leiden",
+    "hash",
+    "animal",
+    "treatment",
+    "state",
+    "multiseq_derived_treatment",
+    "velocity_pseudotime",
+    "velocity_pseudotime_r",
+    "velocity_self_transition",
+    "root_cells",
+    "end_points",
+    "_scvi_batch",
+    "_scvi_labels",
+    "_scvi_local_l_mean",
+    "_scvi_local_l_var"
+  ],
+  "method": {
+    "name": "age_support_plus_identity_escape_contract",
+    "top_abs_diff_gene_count": 1000,
+    "age_support_contract": {
+      "anchor_groups": {
+        "aged_control": "Aged_NegCtrl",
+        "young_control": "Young_NegCtrl"
+      },
+      "evaluated_group": "Aged_Tg_Dox",
+      "scoring_rule": "weighted_mean_of_genewise_clipped_movement_toward_young_control",
+      "why_support_only": [
+        "The four age_treatment groups each live in a single sample lane inside the accession-backed file.",
+        "The treated populations depart strongly from the adult control age axis, so this tranche does not yet claim a stable direct age override.",
+        "Roux remains initiation-phase and pseudotime-supported rather than duration-authoritative."
+      ]
+    },
+    "identity_escape_contract": {
+      "evaluated_group": "Aged_Tg_Dox",
+      "components": [
+        "fraction_of_cells_in_reprogramming_labeled_states",
+        "normalized_departure_from_the_adult_control_age_axis"
+      ],
+      "thresholds": {
+        "high_identity_pressure_min": 0.65,
+        "moderate_identity_pressure_range": [
+          0.35,
+          0.65
+        ],
+        "low_identity_pressure_max": 0.35
+      }
+    }
+  },
+  "group_counts": {
+    "Aged_NegCtrl": 3038,
+    "Young_NegCtrl": 2556,
+    "Aged_Tg_Dox": 8231,
+    "Young_Tg_Dox": 6836
+  },
+  "state_by_age_treatment": {
+    "Aged_NegCtrl": {
+      "Col11a1 high": 311,
+      "Dox+ baseline": 1003,
+      "Tg+ baseline": 1196,
+      "cycling": 391,
+      "reprogramming": 90,
+      "reprogramming cycling": 33,
+      "reprogramming intermediate": 14
+    },
+    "Aged_Tg_Dox": {
+      "Col11a1 high": 1116,
+      "Dox+ baseline": 1005,
+      "Tg+ baseline": 6,
+      "cycling": 181,
+      "reprogramming": 3427,
+      "reprogramming cycling": 1780,
+      "reprogramming intermediate": 716
+    },
+    "Young_NegCtrl": {
+      "Col11a1 high": 385,
+      "Dox+ baseline": 427,
+      "Tg+ baseline": 1441,
+      "cycling": 190,
+      "reprogramming": 81,
+      "reprogramming cycling": 29,
+      "reprogramming intermediate": 3
+    },
+    "Young_Tg_Dox": {
+      "Col11a1 high": 893,
+      "Dox+ baseline": 891,
+      "Tg+ baseline": 7,
+      "cycling": 111,
+      "reprogramming": 3266,
+      "reprogramming cycling": 1512,
+      "reprogramming intermediate": 156
+    }
+  },
+  "top_age_genes": [
+    "Scg2",
+    "Ccl2",
+    "Kctd12",
+    "Peg3",
+    "Mfap4",
+    "Cxcl3",
+    "Nov",
+    "Ogn",
+    "Aspn",
+    "Tmem158",
+    "Synm",
+    "Penk",
+    "Apoe",
+    "Egfl6",
+    "Acta2",
+    "Myoc",
+    "Prl2c2",
+    "Chrdl1",
+    "Matn4",
+    "Rasl11a",
+    "Dpt",
+    "Mgp",
+    "Steap4",
+    "Fbln7",
+    "Robo2",
+    "B020031M17Rik",
+    "Fxyd1",
+    "1500015O10Rik",
+    "Clec11a",
+    "Scara5",
+    "S100b",
+    "Comp",
+    "Cck",
+    "Rspo2",
+    "Prokr1",
+    "Ptn",
+    "Ifit3",
+    "Steap1",
+    "Igf1",
+    "Agtr2",
+    "Cxcl14",
+    "Cnn1",
+    "Lypd1",
+    "Cdkn1c",
+    "Igfbp3",
+    "Edil3",
+    "Il34",
+    "Itgbl1",
+    "Apod",
+    "Fabp5"
+  ],
+  "age_support_summary": {
+    "aged_treated_age_support_score": 0.182,
+    "young_treated_age_support_score": 0.232,
+    "aged_treated_direction_concordance": 0.243,
+    "young_treated_direction_concordance": 0.306
+  },
+  "adult_axis_residuals": {
+    "Aged_NegCtrl": 0.0,
+    "Young_NegCtrl": 0.0,
+    "Aged_Tg_Dox": 21.96,
+    "Young_Tg_Dox": 22.196
+  },
+  "identity_escape_summary": {
+    "reprogramming_state_fractions": {
+      "Aged_NegCtrl": 0.045,
+      "Young_NegCtrl": 0.044,
+      "Aged_Tg_Dox": 0.72,
+      "Young_Tg_Dox": 0.722
+    },
+    "adult_axis_departure_scores": {
+      "Aged_Tg_Dox": 0.989,
+      "Young_Tg_Dox": 1.0
+    },
+    "aged_treated_identity_escape_score": 0.854,
+    "young_treated_identity_escape_score": 0.861,
+    "aged_treated_identity_pressure_level": "high"
+  }
+}

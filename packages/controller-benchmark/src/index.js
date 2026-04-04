@@ -25,15 +25,22 @@ import {
   readCompilerRule,
   readConditionFixture,
   readConditionRecords,
+  readContradictionKernelReceipt,
+  readContradictionLedger,
+  readCx004ValidationHandoff,
+  readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
   readCoverageTrustReceipt,
   readNegativeFamilyRegistry,
+  readPassiveRecommendationReceipt,
+  readPassiveRecommendationScaffold,
   readStudyCorpusRows,
 } from "controller-benchmark-data";
 
 import {
   BASELINE_OUTPUTS,
   CONTROLLER_OUTPUTS,
+  PASSIVE_RECOMMENDATION_POSTURES,
   buildBenchmarkSnapshot,
   compareOutputs,
   countBy,
@@ -41,7 +48,10 @@ import {
   groupConditionRecordsByStudyFamily,
   indexConditionRecords,
   listNegativePressureConditions,
+  summarizeCx004ValidationHandoff,
+  summarizeContradictionLedger,
   summarizeCoverageTrust,
+  summarizePassiveRecommendationScaffold,
   summarizeShellReceipt,
 } from "controller-benchmark-js";
 
@@ -54,6 +64,7 @@ export {
   CONDITION_RECORD_COMPILE_RECEIPT_SCHEMA,
   CONDITION_RECORD_SCHEMA,
   CONTROLLER_OUTPUTS,
+  PASSIVE_RECOMMENDATION_POSTURES,
   buildBenchmarkSnapshot,
   compareOutputs,
   countBy,
@@ -73,11 +84,20 @@ export {
   readCompilerRule,
   readConditionFixture,
   readConditionRecords,
+  readContradictionKernelReceipt,
+  readContradictionLedger,
+  readCx004ValidationHandoff,
+  readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
   readCoverageTrustReceipt,
   readNegativeFamilyRegistry,
+  readPassiveRecommendationReceipt,
+  readPassiveRecommendationScaffold,
   readStudyCorpusRows,
+  summarizeCx004ValidationHandoff,
+  summarizeContradictionLedger,
   summarizeCoverageTrust,
+  summarizePassiveRecommendationScaffold,
   summarizeShellReceipt,
   validateBenchmarkShellReceipt,
   validateCompilerCoverageTrustReceipt,
@@ -167,6 +187,19 @@ export function buildCurrentBenchmarkSnapshot(bundle = loadCurrentBenchmark()) {
       bundle.coverageTrustReceipt ?? readCoverageTrustReceipt(),
     benchmarkShellReceipt:
       bundle.benchmarkShellReceipt ?? readBenchmarkShellReceipt(),
+    contradictionLedger:
+      bundle.contradictionLedger ?? readContradictionLedger(),
+    cx004ValidationHandoff:
+      bundle.cx004ValidationHandoff ?? readCx004ValidationHandoff(),
+    cx004ValidationHandoffReceipt:
+      bundle.cx004ValidationHandoffReceipt ??
+      readCx004ValidationHandoffReceipt(),
+    passiveRecommendationScaffold:
+      bundle.passiveRecommendationScaffold ??
+      readPassiveRecommendationScaffold(),
+    passiveRecommendationReceipt:
+      bundle.passiveRecommendationReceipt ??
+      readPassiveRecommendationReceipt(),
     ageOnlyRows: bundle.ageOnlyRows ?? readAgeOnlyBaselineOutputRows(),
     controllerRows: bundle.controllerRows ?? readControllerOutputRows(),
   });

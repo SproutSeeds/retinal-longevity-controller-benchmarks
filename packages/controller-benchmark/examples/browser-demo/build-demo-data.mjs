@@ -5,12 +5,18 @@ import {
   loadLatestBundle,
   readAgeOnlyBaselineOutputRows,
   readControllerOutputRows,
+  readCx004ValidationHandoff,
+  readCx004ValidationHandoffReceipt,
+  readPassiveRecommendationReceipt,
+  readPassiveRecommendationScaffold,
 } from "../../../controller-benchmark-data/src/index.js";
 
 import {
   buildBenchmarkSnapshot,
   compareOutputs,
+  summarizeCx004ValidationHandoff,
   summarizeCoverageTrust,
+  summarizePassiveRecommendationScaffold,
   summarizeShellReceipt,
 } from "../../../controller-benchmark-js/src/index.js";
 
@@ -23,6 +29,10 @@ import {
 const bundle = loadLatestBundle();
 const ageOnlyRows = readAgeOnlyBaselineOutputRows();
 const controllerRows = readControllerOutputRows();
+const cx004ValidationHandoff = readCx004ValidationHandoff();
+const cx004ValidationHandoffReceipt = readCx004ValidationHandoffReceipt();
+const passiveRecommendationScaffold = readPassiveRecommendationScaffold();
+const passiveRecommendationReceipt = readPassiveRecommendationReceipt();
 
 const conditionValidation = bundle.conditionRecords.map((record) => ({
   condition_id: record.condition_id,
@@ -44,11 +54,24 @@ const payload = {
   },
   coverage: summarizeCoverageTrust(bundle.coverageTrustReceipt),
   shell: summarizeShellReceipt(bundle.benchmarkShellReceipt),
+  validation_handoff: summarizeCx004ValidationHandoff(
+    cx004ValidationHandoff,
+    cx004ValidationHandoffReceipt,
+  ),
+  recommendations: summarizePassiveRecommendationScaffold(
+    passiveRecommendationScaffold,
+    passiveRecommendationReceipt,
+  ),
   outputs: compareOutputs(ageOnlyRows, controllerRows),
   snapshot: buildBenchmarkSnapshot({
     conditionRecords: bundle.conditionRecords,
     coverageTrustReceipt: bundle.coverageTrustReceipt,
     benchmarkShellReceipt: bundle.benchmarkShellReceipt,
+    contradictionLedger: bundle.contradictionLedger,
+    cx004ValidationHandoff,
+    cx004ValidationHandoffReceipt,
+    passiveRecommendationScaffold,
+    passiveRecommendationReceipt,
     ageOnlyRows,
     controllerRows,
   }),

@@ -11,6 +11,15 @@ export const CONTROLLER_OUTPUTS = Object.freeze([
   "insufficient_evidence",
 ]);
 
+export const PASSIVE_RECOMMENDATION_POSTURES = Object.freeze([
+  "candidate_scaffold_only",
+  "deferred_abstention",
+  "deferred_insufficient_evidence",
+  "boundary_downgraded",
+  "preserve_block",
+  "reference_only_boundary",
+]);
+
 function assertArray(value, label) {
   if (!Array.isArray(value)) {
     throw new TypeError(`${label} must be an array`);
@@ -247,10 +256,171 @@ export function summarizeShellReceipt(benchmarkShellReceipt) {
   };
 }
 
+export function summarizeContradictionLedger(contradictionLedger) {
+  if (!contradictionLedger || typeof contradictionLedger !== "object") {
+    throw new TypeError("contradictionLedger must be an object");
+  }
+
+  const liveContradictions = Array.isArray(contradictionLedger.live_contradictions)
+    ? contradictionLedger.live_contradictions
+    : [];
+  const armedNotTriggeredClasses = Array.isArray(
+    contradictionLedger.armed_not_triggered_classes,
+  )
+    ? contradictionLedger.armed_not_triggered_classes
+    : [];
+
+  return {
+    live_contradiction_count: liveContradictions.length,
+    contradicted_condition_count: new Set(
+      liveContradictions.map((row) => row.condition_id),
+    ).size,
+    contradiction_class_counts: countBy(liveContradictions, "contradiction_class_id"),
+    kernel_resolution_counts: countBy(liveContradictions, "kernel_resolution"),
+    armed_not_triggered_class_count: armedNotTriggeredClasses.length,
+    armed_not_triggered_class_ids: Object.freeze(
+      armedNotTriggeredClasses
+        .map((row) => row.contradiction_class_id)
+        .filter(Boolean)
+        .sort(),
+    ),
+  };
+}
+
+export function summarizePassiveRecommendationScaffold(
+  passiveRecommendationScaffold,
+  passiveRecommendationReceipt = null,
+) {
+  if (
+    !passiveRecommendationScaffold ||
+    typeof passiveRecommendationScaffold !== "object"
+  ) {
+    throw new TypeError("passiveRecommendationScaffold must be an object");
+  }
+
+  const protocolObjects = Array.isArray(
+    passiveRecommendationScaffold.protocol_objects,
+  )
+    ? passiveRecommendationScaffold.protocol_objects
+    : [];
+
+  const contradictionCitedProtocolObjectCount = protocolObjects.filter(
+    (row) =>
+      Array.isArray(row?.contradiction_state?.live_contradiction_ids) &&
+      row.contradiction_state.live_contradiction_ids.length > 0,
+  ).length;
+
+  const summary = {
+    protocol_object_count: protocolObjects.length,
+    live_recommendation_active_count: protocolObjects.filter(
+      (row) => row.live_recommendation_active === true,
+    ).length,
+    passive_posture_counts: countBy(protocolObjects, "passive_posture"),
+    controller_output_counts: countBy(protocolObjects, "controller_output"),
+    contradiction_cited_protocol_object_count:
+      contradictionCitedProtocolObjectCount,
+    candidate_protocol_object_count: protocolObjects.filter(
+      (row) => row.passive_posture === "candidate_scaffold_only",
+    ).length,
+    preserve_block_protocol_object_count: protocolObjects.filter(
+      (row) => row.passive_posture === "preserve_block",
+    ).length,
+    deferred_protocol_object_count: protocolObjects.filter((row) =>
+      [
+        "deferred_abstention",
+        "deferred_insufficient_evidence",
+      ].includes(row.passive_posture),
+    ).length,
+    dormant_gate_state:
+      passiveRecommendationScaffold.global_activation_gate?.gate_state ??
+      "unknown",
+  };
+
+  if (
+    passiveRecommendationReceipt &&
+    typeof passiveRecommendationReceipt === "object"
+  ) {
+    return {
+      ...summary,
+      dormant_verdict: passiveRecommendationReceipt.dormant_verdict ?? "unknown",
+      armed_watch_class_ids: Object.freeze(
+        Array.isArray(passiveRecommendationReceipt.armed_watch_class_ids)
+          ? passiveRecommendationReceipt.armed_watch_class_ids.slice().sort()
+          : [],
+      ),
+    };
+  }
+
+  return summary;
+}
+
+export function summarizeCx004ValidationHandoff(
+  cx004ValidationHandoff,
+  cx004ValidationHandoffReceipt = null,
+) {
+  if (!cx004ValidationHandoff || typeof cx004ValidationHandoff !== "object") {
+    throw new TypeError("cx004ValidationHandoff must be an object");
+  }
+
+  const summary = {
+    handoff_id: cx004ValidationHandoff.handoff_id ?? "unknown",
+    driver_contradiction_class_id:
+      cx004ValidationHandoff.driver_contradiction_class_id ?? "unknown",
+    pair_condition_ids: Object.freeze(
+      Array.isArray(cx004ValidationHandoff?.target_pair?.condition_ids)
+        ? cx004ValidationHandoff.target_pair.condition_ids.slice().sort()
+        : [],
+    ),
+    pair_study_family_ids: Object.freeze(
+      Array.isArray(cx004ValidationHandoff?.target_pair?.study_family_ids)
+        ? cx004ValidationHandoff.target_pair.study_family_ids.slice().sort()
+        : [],
+    ),
+    required_timepoint_count: Array.isArray(
+      cx004ValidationHandoff?.minimal_validation_design?.minimum_timepoints,
+    )
+      ? cx004ValidationHandoff.minimal_validation_design.minimum_timepoints.length
+      : 0,
+    required_readout_count: Array.isArray(
+      cx004ValidationHandoff?.exact_discriminating_readouts,
+    )
+      ? cx004ValidationHandoff.exact_discriminating_readouts.length
+      : 0,
+    required_assay_count: Array.isArray(
+      cx004ValidationHandoff?.minimal_validation_design?.required_assays,
+    )
+      ? cx004ValidationHandoff.minimal_validation_design.required_assays.length
+      : 0,
+    optional_structural_identity_extension:
+      cx004ValidationHandoff?.optional_structural_identity_extension?.status ??
+      "unknown",
+  };
+
+  if (
+    cx004ValidationHandoffReceipt &&
+    typeof cx004ValidationHandoffReceipt === "object"
+  ) {
+    return {
+      ...summary,
+      handoff_verdict:
+        cx004ValidationHandoffReceipt.handoff_verdict ?? "unknown",
+      driver_contradiction_count:
+        cx004ValidationHandoffReceipt.driver_contradiction_count ?? 0,
+    };
+  }
+
+  return summary;
+}
+
 export function buildBenchmarkSnapshot({
   conditionRecords,
   coverageTrustReceipt,
   benchmarkShellReceipt,
+  contradictionLedger,
+  cx004ValidationHandoff,
+  cx004ValidationHandoffReceipt,
+  passiveRecommendationScaffold,
+  passiveRecommendationReceipt,
   ageOnlyRows,
   controllerRows,
 }) {
@@ -275,6 +445,21 @@ export function buildBenchmarkSnapshot({
       : null,
     shell: benchmarkShellReceipt
       ? summarizeShellReceipt(benchmarkShellReceipt)
+      : null,
+    contradictions: contradictionLedger
+      ? summarizeContradictionLedger(contradictionLedger)
+      : null,
+    validation_handoff: cx004ValidationHandoff
+      ? summarizeCx004ValidationHandoff(
+          cx004ValidationHandoff,
+          cx004ValidationHandoffReceipt,
+        )
+      : null,
+    recommendations: passiveRecommendationScaffold
+      ? summarizePassiveRecommendationScaffold(
+          passiveRecommendationScaffold,
+          passiveRecommendationReceipt,
+        )
       : null,
     outputs: outputComparison,
   };

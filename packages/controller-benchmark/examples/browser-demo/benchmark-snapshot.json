@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-02T19:33:40.137Z",
+  "generated_on": "2026-04-04T00:01:19.424Z",
   "bundle_id": "phase-stratified-controller-benchmark-v0",
   "validation": {
     "valid": true,
@@ -9,20 +9,22 @@
   "coverage": {
     "condition_count": 8,
     "source_kind_counts": {
-      "study_specific_rule": 8
+      "study_specific_rule": 3,
+      "study_specific_rule_with_matrix_field_overrides": 5
     },
     "rule_backed_condition_count": 8,
     "fixture_backed_condition_count": 0,
     "coverage_verdict": "all_live_conditions_rule_backed",
     "trust_status_counts": {
-      "rule_backed_with_bounded_manual_judgment": 8
+      "rule_backed_with_bounded_manual_judgment": 3,
+      "rule_backed_with_matrix_field_derivation": 5
     },
     "bounded_manual_judgment_field_counts": {
       "active_negative_family_ids": 8,
-      "age_signal_score": 8,
+      "age_signal_score": 4,
       "condition_summary": 8,
       "evidence_modes_present": 8,
-      "identity_pressure_level": 8,
+      "identity_pressure_level": 4,
       "phase_layer": 8,
       "risk_pressure_level": 8
     },
@@ -37,12 +39,16 @@
       "source_trace": 8,
       "supporting_evidence_classes": 8
     },
-    "matrix_extracted_field_counts": {}
+    "matrix_extracted_field_counts": {
+      "age_signal_score": 4,
+      "identity_pressure_level": 4
+    }
   },
   "shell": {
     "condition_count": 8,
     "source_kind_counts": {
-      "study_specific_rule": 8
+      "study_specific_rule": 3,
+      "study_specific_rule_with_matrix_field_overrides": 5
     },
     "baseline_output_counts": {
       "downgrade": 1,
@@ -60,6 +66,52 @@
     "controller_hazard_blocked_count": 2,
     "fail_closed": true,
     "shell_claim": "This shell demonstrates executable benchmark structure and fail-closed logic. It does not claim biological validation of the controller."
+  },
+  "validation_handoff": {
+    "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+    "driver_contradiction_class_id": "CX-004",
+    "pair_condition_ids": [
+      "VITA_CTRL_003",
+      "VITA_CTRL_005"
+    ],
+    "pair_study_family_ids": [
+      "gill_2022",
+      "olova_ohnuki"
+    ],
+    "required_timepoint_count": 9,
+    "required_readout_count": 4,
+    "required_assay_count": 1,
+    "optional_structural_identity_extension": "strongly_preferred_not_required_for_v0_handoff",
+    "handoff_verdict": "cx004_validation_handoff_frozen",
+    "driver_contradiction_count": 2
+  },
+  "recommendations": {
+    "protocol_object_count": 8,
+    "live_recommendation_active_count": 0,
+    "passive_posture_counts": {
+      "boundary_downgraded": 2,
+      "candidate_scaffold_only": 1,
+      "deferred_abstention": 1,
+      "deferred_insufficient_evidence": 1,
+      "preserve_block": 2,
+      "reference_only_boundary": 1
+    },
+    "controller_output_counts": {
+      "abstain": 1,
+      "downgrade": 3,
+      "hazard_blocked": 2,
+      "insufficient_evidence": 1,
+      "promote": 1
+    },
+    "contradiction_cited_protocol_object_count": 5,
+    "candidate_protocol_object_count": 1,
+    "preserve_block_protocol_object_count": 2,
+    "deferred_protocol_object_count": 2,
+    "dormant_gate_state": "dormant",
+    "dormant_verdict": "passive_scaffolding_only_live_recommendation_dormant",
+    "armed_watch_class_ids": [
+      "CX-WATCH-002"
+    ]
   },
   "outputs": {
     "condition_count": 8,
@@ -118,20 +170,22 @@
     "coverage": {
       "condition_count": 8,
       "source_kind_counts": {
-        "study_specific_rule": 8
+        "study_specific_rule": 3,
+        "study_specific_rule_with_matrix_field_overrides": 5
       },
       "rule_backed_condition_count": 8,
       "fixture_backed_condition_count": 0,
       "coverage_verdict": "all_live_conditions_rule_backed",
       "trust_status_counts": {
-        "rule_backed_with_bounded_manual_judgment": 8
+        "rule_backed_with_bounded_manual_judgment": 3,
+        "rule_backed_with_matrix_field_derivation": 5
       },
       "bounded_manual_judgment_field_counts": {
         "active_negative_family_ids": 8,
-        "age_signal_score": 8,
+        "age_signal_score": 4,
         "condition_summary": 8,
         "evidence_modes_present": 8,
-        "identity_pressure_level": 8,
+        "identity_pressure_level": 4,
         "phase_layer": 8,
         "risk_pressure_level": 8
       },
@@ -146,12 +200,16 @@
         "source_trace": 8,
         "supporting_evidence_classes": 8
       },
-      "matrix_extracted_field_counts": {}
+      "matrix_extracted_field_counts": {
+        "age_signal_score": 4,
+        "identity_pressure_level": 4
+      }
     },
     "shell": {
       "condition_count": 8,
       "source_kind_counts": {
-        "study_specific_rule": 8
+        "study_specific_rule": 3,
+        "study_specific_rule_with_matrix_field_overrides": 5
       },
       "baseline_output_counts": {
         "downgrade": 1,
@@ -169,6 +227,72 @@
       "controller_hazard_blocked_count": 2,
       "fail_closed": true,
       "shell_claim": "This shell demonstrates executable benchmark structure and fail-closed logic. It does not claim biological validation of the controller."
+    },
+    "contradictions": {
+      "live_contradiction_count": 8,
+      "contradicted_condition_count": 5,
+      "contradiction_class_counts": {
+        "CX-001": 2,
+        "CX-002": 1,
+        "CX-003": 3,
+        "CX-004": 2
+      },
+      "kernel_resolution_counts": {
+        "abstain_pending_review": 1,
+        "downgrade": 4,
+        "preserve_block": 1,
+        "review_required": 2
+      },
+      "armed_not_triggered_class_count": 1,
+      "armed_not_triggered_class_ids": [
+        "CX-WATCH-002"
+      ]
+    },
+    "validation_handoff": {
+      "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+      "driver_contradiction_class_id": "CX-004",
+      "pair_condition_ids": [
+        "VITA_CTRL_003",
+        "VITA_CTRL_005"
+      ],
+      "pair_study_family_ids": [
+        "gill_2022",
+        "olova_ohnuki"
+      ],
+      "required_timepoint_count": 9,
+      "required_readout_count": 4,
+      "required_assay_count": 1,
+      "optional_structural_identity_extension": "strongly_preferred_not_required_for_v0_handoff",
+      "handoff_verdict": "cx004_validation_handoff_frozen",
+      "driver_contradiction_count": 2
+    },
+    "recommendations": {
+      "protocol_object_count": 8,
+      "live_recommendation_active_count": 0,
+      "passive_posture_counts": {
+        "boundary_downgraded": 2,
+        "candidate_scaffold_only": 1,
+        "deferred_abstention": 1,
+        "deferred_insufficient_evidence": 1,
+        "preserve_block": 2,
+        "reference_only_boundary": 1
+      },
+      "controller_output_counts": {
+        "abstain": 1,
+        "downgrade": 3,
+        "hazard_blocked": 2,
+        "insufficient_evidence": 1,
+        "promote": 1
+      },
+      "contradiction_cited_protocol_object_count": 5,
+      "candidate_protocol_object_count": 1,
+      "preserve_block_protocol_object_count": 2,
+      "deferred_protocol_object_count": 2,
+      "dormant_gate_state": "dormant",
+      "dormant_verdict": "passive_scaffolding_only_live_recommendation_dormant",
+      "armed_watch_class_ids": [
+        "CX-WATCH-002"
+      ]
     },
     "outputs": {
       "condition_count": 8,
@@ -240,7 +364,7 @@
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -271,9 +395,12 @@
       ],
       "condition_summary": "Roux day-6 single-cell initiation snapshot with youthful movement entangled with identity suppression.",
       "source_trace": {
-        "source_kind": "study_specific_rule",
+        "source_kind": "study_specific_rule_with_matrix_field_overrides",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/roux_2022_sc-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/roux_2022_sc-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ],
@@ -283,12 +410,19 @@
           "Source locator: GSE176206",
           "Source locator: Day-6 single-cell snapshot after 3-day pulse plus 3-day chase",
           "Source locator: Pseudotime-supported local ordering inside the initiation window",
-          "Source locator: Identity-suppressed partial-reprogramming negative family"
+          "Source locator: Identity-suppressed partial-reprogramming negative family",
+          "Matrix source locator: GSE176206 MSC single-cell H5AD",
+          "Matrix source locator: Aged_NegCtrl and Young_NegCtrl adult control groups",
+          "Matrix source locator: Aged_Tg_Dox treated initiation snapshot",
+          "Matrix source locator: State annotations plus adult-axis departure geometry inside the accession-backed file",
+          "Matrix support: Aged treated Roux cells show a high reprogramming-state fraction (0.720) and near-max departure from the adult control age axis (0.989), which now directly derives the high identity-pressure label under the Roux initiation identity contract.",
+          "Matrix support: Aged treated Roux cells show only bounded youthful movement on the aged-control to young-control gene axis (0.182 support score; 0.243 weighted gene-direction concordance), so age_signal_score stays manual in this tranche rather than being silently overwritten.",
+          "Matrix support: Risk pressure remains manual because this initiation snapshot is strong for identity escape but not outcome-grade hazard truth."
         ]
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -302,7 +436,7 @@
       "supporting_evidence_classes": [
         "bulk_proxy_support"
       ],
-      "age_signal_score": 0.83,
+      "age_signal_score": 0.8,
       "age_signal_status": "strong_positive",
       "identity_pressure_level": "low",
       "identity_status": "bounded_support",
@@ -313,9 +447,13 @@
       "negative_family_tiers": [],
       "condition_summary": "Gill successful maturation branch with real later-phase timing and relatively favorable proxy identity profile.",
       "source_trace": {
-        "source_kind": "study_specific_rule",
+        "source_kind": "study_specific_rule_with_matrix_field_overrides",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ],
@@ -324,12 +462,19 @@
           "Rule basis: Treat the successful sorted fraction as the strongest current maturation-phase positive family, while still preserving bulk-limited uncertainty through the supporting evidence class.",
           "Source locator: GSE165180",
           "Source locator: Days 10, 13, 15, and 17 later-phase sorted-bulk readout",
-          "Source locator: CD13-/SSEA4+ successful reprogramming fraction"
+          "Source locator: CD13-/SSEA4+ successful reprogramming fraction",
+          "Matrix source locator: GSE165176 processed Sendai matrix",
+          "Matrix source locator: Old-donor late SSEA4 branch samples at days 11, 13, 15, and 21",
+          "Matrix source locator: GSE165177 processed transient matrix",
+          "Matrix source locator: Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17",
+          "Matrix support: Successful late SSEA4 branch projects highest on the old-to-young fibro age axis.",
+          "Matrix support: Successful late SSEA4 branch also projects closest to the transiently reprogrammed Gill cohort on the family-local success-versus-fail axis, which now directly derives the low identity-pressure label under the Gill transcriptomic identity contract.",
+          "Matrix support: Successful late SSEA4 branch stays on the favorable side of the Gill off-track risk ensemble, supporting the current low risk-pressure label."
         ]
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -343,7 +488,7 @@
       "supporting_evidence_classes": [
         "bulk_proxy_support"
       ],
-      "age_signal_score": 0.7,
+      "age_signal_score": 0.65,
       "age_signal_status": "moderate_positive",
       "identity_pressure_level": "high",
       "identity_status": "blocked_pressure",
@@ -360,9 +505,13 @@
       ],
       "condition_summary": "Gill failing fraction in the maturation window; negative pressure case inside the same family.",
       "source_trace": {
-        "source_kind": "study_specific_rule",
+        "source_kind": "study_specific_rule_with_matrix_field_overrides",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ],
@@ -371,12 +520,19 @@
           "Rule basis: Treat the failing sorted fraction as the strongest current maturation-phase negative family within the same study context as the positive-looking branch.",
           "Source locator: GSE165180",
           "Source locator: Days 10, 13, 15, and 17 later-phase sorted-bulk readout",
-          "Source locator: CD13+/SSEA4- failing fraction"
+          "Source locator: CD13+/SSEA4- failing fraction",
+          "Matrix source locator: GSE165176 processed Sendai matrix",
+          "Matrix source locator: Old-donor late CD13 branch samples at days 11, 13, 15, and 21",
+          "Matrix source locator: GSE165177 processed transient matrix",
+          "Matrix source locator: Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17",
+          "Matrix support: Failing late CD13 branch projects lowest on the same age axis and therefore anchors the family-local lower bound.",
+          "Matrix support: Failing late CD13 branch projects closest to the failed-to-transiently-reprogram Gill cohort on the family-local success-versus-fail axis, which now directly derives the high identity-pressure label under the Gill transcriptomic identity contract.",
+          "Matrix support: Failing late CD13 branch sits deepest in the Gill off-track risk ensemble, supporting the current moderate risk-pressure label."
         ]
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -390,7 +546,7 @@
       "supporting_evidence_classes": [
         "bulk_proxy_support"
       ],
-      "age_signal_score": 0.77,
+      "age_signal_score": 0.725,
       "age_signal_status": "moderate_positive",
       "identity_pressure_level": "moderate",
       "identity_status": "pressured",
@@ -401,9 +557,13 @@
       "negative_family_tiers": [],
       "condition_summary": "Gill maturation condition with age-linked improvement but nontrivial identity pressure that should resist clean promotion.",
       "source_trace": {
-        "source_kind": "study_specific_rule",
+        "source_kind": "study_specific_rule_with_matrix_field_overrides",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/gill_2022-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+          "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ],
@@ -412,12 +572,19 @@
           "Rule basis: Preserve a medium-pressure maturation condition so the benchmark can demonstrate downgrade versus abstention behavior between the clearly favorable and clearly failing Gill branches.",
           "Source locator: GSE165180",
           "Source locator: Later-phase sorted-bulk maturation context",
-          "Source locator: Intermediate-pressure boundary case between successful and failing branches"
+          "Source locator: Intermediate-pressure boundary case between successful and failing branches",
+          "Matrix source locator: GSE165176 processed Sendai matrix",
+          "Matrix source locator: Old-donor pooled late CD13 and SSEA4 samples at days 11, 13, 15, and 21",
+          "Matrix source locator: GSE165177 processed transient matrix",
+          "Matrix source locator: Transiently reprogrammed versus failed-to-transiently-reprogram cohorts at days 13, 15, and 17",
+          "Matrix support: Pooled late Gill branch average lands between the successful and failing projections and serves as the family-local boundary proxy.",
+          "Matrix support: Pooled late Gill branch average lands near the midpoint of the family-local success-versus-fail axis, which now directly derives the moderate identity-pressure label under the Gill transcriptomic identity contract.",
+          "Matrix support: Pooled late Gill branch average lands in the middle of the Gill off-track risk ensemble, which is not strong enough to replace the current manual low risk-pressure label."
         ]
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -431,7 +598,7 @@
       "supporting_evidence_classes": [
         "bulk_proxy_support"
       ],
-      "age_signal_score": 0.88,
+      "age_signal_score": 0.893,
       "age_signal_status": "strong_positive",
       "identity_pressure_level": "unresolved",
       "identity_status": "unresolved",
@@ -442,9 +609,12 @@
       "negative_family_tiers": [],
       "condition_summary": "Long-window bulk trajectory with strong age movement but coarse late-phase identity and risk support.",
       "source_trace": {
-        "source_kind": "study_specific_rule",
+        "source_kind": "study_specific_rule_with_matrix_field_overrides",
         "derived_from": [
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/compiler-rules/olova_ohnuki-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-field-layer-v0.json",
+          "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/olova_ohnuki-matrix-derived-extraction-intermediate-v0.json",
+          "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
           "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json"
         ],
@@ -454,12 +624,19 @@
           "Source locator: GSE54848",
           "Source locator: Days 0 to 49 regular-interval bulk trajectory",
           "Source locator: Long-window age-linked movement under reprogramming progression",
-          "Source locator: Bulk-only late identity and risk support"
+          "Source locator: Bulk-only late identity and risk support",
+          "Matrix source locator: GSE54848 GPL14550 expression series matrix",
+          "Matrix source locator: HDF fibroblast anchors: HDF1, HDF3, HDF-1388, HDFa",
+          "Matrix source locator: Pluripotent anchor: H1, H9, KhES1, KhES3, and 253G1-KLF4 dox0 T60",
+          "Matrix source locator: OSKM day20 and day28 bulk trajectory groups",
+          "Matrix support: The accession-backed Olova trajectory moves monotonically from fibroblast baseline toward the pluripotent anchor through day28, with projections of 0.224, 0.471, 0.510, 0.566, 0.857, and 0.929 from day3 to day28.",
+          "Matrix support: The direct Olova age override uses the mean of the day20 and day28 projections (0.893), which now overwrites age_signal_score for the long-window maturation condition.",
+          "Matrix support: Identity and risk remain manual because this family is bulk-only and the repo does not yet pin a clock-exact methylation contract or a single-cell late-identity boundary for Olova in this tranche."
         ]
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -505,7 +682,7 @@
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
@@ -553,7 +730,7 @@
       },
       "provenance": {
         "reviewer": "Codex",
-        "reviewed_on": "2026-04-02",
+        "reviewed_on": "2026-04-03",
         "status": "draft",
         "benchmark_links": []
       }
