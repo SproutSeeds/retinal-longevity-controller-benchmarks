@@ -40,6 +40,14 @@ test("current benchmark loader exposes the happy path object", () => {
     benchmark.cx004ValidationHandoffReceipt.handoff_verdict,
     "cx004_validation_handoff_frozen",
   );
+  assert.equal(
+    benchmark.cx004ResolutionReviewContract.review_dependency_id,
+    "cx004_resolution_receipt_reviewed_for_anchor_condition",
+  );
+  assert.equal(
+    benchmark.cx004ExampleInsufficientResolutionReviewReceipt.review_verdict,
+    "keep_dormant_due_to_insufficient_resolution",
+  );
   assert.equal(benchmark.passiveRecommendationScaffold.protocol_objects.length, 8);
   assert.equal(benchmark.passiveRecommendationReceipt.protocol_object_count, 8);
 });
@@ -62,6 +70,10 @@ test("snapshot helper preserves fail-closed shell behavior", () => {
   assert.equal(snapshot.shell.fail_closed, true);
   assert.equal(snapshot.phase_counts.maturation_phase_bulk_plus_abstention, 4);
   assert.equal(snapshot.validation_handoff.handoff_verdict, "cx004_validation_handoff_frozen");
+  assert.equal(
+    snapshot.resolution_review_gate.example_review_verdict,
+    "keep_dormant_due_to_insufficient_resolution",
+  );
   assert.equal(snapshot.recommendations.protocol_object_count, 8);
   assert.equal(snapshot.recommendations.live_recommendation_active_count, 0);
 });

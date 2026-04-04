@@ -187,6 +187,46 @@ function buildManifest() {
         format: "json",
         role: "validation_handoff_receipt",
       },
+      cx004PartnerPacket: {
+        path: "controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+        format: "json",
+        role: "validation_partner_packet",
+      },
+      cx004PartnerPacketReceipt: {
+        path: "controller-benchmark-cx004-partner-executable-validation-packet-receipt-v0.json",
+        format: "json",
+        role: "validation_partner_packet_receipt",
+      },
+      cx004ResolutionReceiptContract: {
+        path: "controller-benchmark-cx004-resolution-receipt-contract-v0.json",
+        format: "json",
+        role: "resolution_receipt_contract",
+      },
+      cx004PartnerReturnTemplate: {
+        path: "controller-benchmark-cx004-partner-return-template-v0.json",
+        format: "json",
+        role: "resolution_partner_return_template",
+      },
+      cx004ExampleInsufficientPartnerReturn: {
+        path: "controller-benchmark-cx004-example-insufficient-partner-return-v0.json",
+        format: "json",
+        role: "resolution_example_partner_return",
+      },
+      cx004ExampleInsufficientResolutionReceipt: {
+        path: "controller-benchmark-cx004-example-insufficient-resolution-receipt-v0.json",
+        format: "json",
+        role: "resolution_example_receipt",
+      },
+      cx004ResolutionReviewContract: {
+        path: "controller-benchmark-cx004-resolution-review-contract-v0.json",
+        format: "json",
+        role: "resolution_review_contract",
+      },
+      cx004ExampleInsufficientResolutionReviewReceipt: {
+        path: "controller-benchmark-cx004-example-insufficient-resolution-review-receipt-v0.json",
+        format: "json",
+        role: "resolution_review_example_receipt",
+      },
       passiveRecommendationScaffold: {
         path: "controller-benchmark-passive-recommendation-scaffold-v0.json",
         format: "json",

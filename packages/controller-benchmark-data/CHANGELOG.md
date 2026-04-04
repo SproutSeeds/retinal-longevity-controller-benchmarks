@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.4 - 2026-04-04
+
+- add the frozen `CX-004` resolution-review contract and example reviewed
+  insufficiency receipt to the shipped benchmark bundle
+- expose the public partner-packet and receipt-engine artifacts that already
+  define the live `CX-004` disagreement lane
+- keep the bundle manifest aligned with the newer `CX-004` packet -> receipt ->
+  review chain
+
 ## 0.1.3 - 2026-04-03
 
 - add the `CX-004` partner-return template plus the example insufficient

@@ -49,6 +49,7 @@ async function main() {
     makeCard("Live Contradictions", String(data.snapshot.contradictions?.live_contradiction_count ?? 0), "condition-local plus cross-family kernel"),
     makeCard("Watch Classes", String(data.snapshot.contradictions?.armed_not_triggered_class_count ?? 0), "remaining armed classes"),
     makeCard("Validation Handoff", data.validation_handoff?.handoff_verdict ?? "unknown", (data.validation_handoff?.pair_condition_ids ?? []).join(" vs ")),
+    makeCard("CX-004 Review Gate", data.resolution_review_gate?.example_review_verdict ?? "unknown", data.resolution_review_gate?.review_dependency_id ?? "unknown"),
     makeCard("Passive Protocols", String(data.snapshot.recommendations?.protocol_object_count ?? 0), "forward objects, live ranking dormant"),
     makeCard("Live Recommendation", String(data.snapshot.recommendations?.live_recommendation_active_count ?? 0), data.snapshot.recommendations?.dormant_gate_state ?? "unknown"),
   );

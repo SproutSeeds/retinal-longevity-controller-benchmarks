@@ -412,6 +412,59 @@ export function summarizeCx004ValidationHandoff(
   return summary;
 }
 
+export function summarizeCx004ResolutionReviewGate(
+  cx004ResolutionReviewContract,
+  cx004ExampleResolutionReviewReceipt = null,
+) {
+  if (
+    !cx004ResolutionReviewContract ||
+    typeof cx004ResolutionReviewContract !== "object"
+  ) {
+    throw new TypeError("cx004ResolutionReviewContract must be an object");
+  }
+
+  const summary = {
+    contract_id: cx004ResolutionReviewContract.contract_id ?? "unknown",
+    review_dependency_id:
+      cx004ResolutionReviewContract.review_dependency_id ?? "unknown",
+    required_anchor_condition_count: Array.isArray(
+      cx004ResolutionReviewContract.required_anchor_condition_ids,
+    )
+      ? cx004ResolutionReviewContract.required_anchor_condition_ids.length
+      : 0,
+    allowed_review_verdict_count: Array.isArray(
+      cx004ResolutionReviewContract.allowed_review_verdicts,
+    )
+      ? cx004ResolutionReviewContract.allowed_review_verdicts.length
+      : 0,
+  };
+
+  if (
+    cx004ExampleResolutionReviewReceipt &&
+    typeof cx004ExampleResolutionReviewReceipt === "object"
+  ) {
+    return {
+      ...summary,
+      example_review_verdict:
+        cx004ExampleResolutionReviewReceipt.review_verdict ?? "unknown",
+      example_pair_resolution_state:
+        cx004ExampleResolutionReviewReceipt.pair_resolution_state ?? "unknown",
+      example_review_dependency_satisfied:
+        cx004ExampleResolutionReviewReceipt.review_dependency_satisfied ?? false,
+      example_live_recommendation_activation_allowed:
+        cx004ExampleResolutionReviewReceipt.live_recommendation_activation_allowed ??
+        false,
+      example_anchor_review_count: Array.isArray(
+        cx004ExampleResolutionReviewReceipt.anchor_condition_reviews,
+      )
+        ? cx004ExampleResolutionReviewReceipt.anchor_condition_reviews.length
+        : 0,
+    };
+  }
+
+  return summary;
+}
+
 export function buildBenchmarkSnapshot({
   conditionRecords,
   coverageTrustReceipt,
@@ -419,6 +472,8 @@ export function buildBenchmarkSnapshot({
   contradictionLedger,
   cx004ValidationHandoff,
   cx004ValidationHandoffReceipt,
+  cx004ResolutionReviewContract,
+  cx004ExampleInsufficientResolutionReviewReceipt,
   passiveRecommendationScaffold,
   passiveRecommendationReceipt,
   ageOnlyRows,
@@ -453,6 +508,12 @@ export function buildBenchmarkSnapshot({
       ? summarizeCx004ValidationHandoff(
           cx004ValidationHandoff,
           cx004ValidationHandoffReceipt,
+        )
+      : null,
+    resolution_review_gate: cx004ResolutionReviewContract
+      ? summarizeCx004ResolutionReviewGate(
+          cx004ResolutionReviewContract,
+          cx004ExampleInsufficientResolutionReviewReceipt,
         )
       : null,
     recommendations: passiveRecommendationScaffold

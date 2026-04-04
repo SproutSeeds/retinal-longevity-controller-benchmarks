@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-04-04T05:09:40.656Z",
+  "generated_on": "2026-04-04T05:34:00.869Z",
   "bundle_id": "phase-stratified-controller-benchmark-v0",
   "validation": {
     "valid": true,
@@ -84,6 +84,17 @@
     "optional_structural_identity_extension": "strongly_preferred_not_required_for_v0_handoff",
     "handoff_verdict": "cx004_validation_handoff_frozen",
     "driver_contradiction_count": 2
+  },
+  "resolution_review_gate": {
+    "contract_id": "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001",
+    "review_dependency_id": "cx004_resolution_receipt_reviewed_for_anchor_condition",
+    "required_anchor_condition_count": 2,
+    "allowed_review_verdict_count": 6,
+    "example_review_verdict": "keep_dormant_due_to_insufficient_resolution",
+    "example_pair_resolution_state": "insufficient_packet",
+    "example_review_dependency_satisfied": true,
+    "example_live_recommendation_activation_allowed": false,
+    "example_anchor_review_count": 2
   },
   "recommendations": {
     "protocol_object_count": 8,
@@ -265,6 +276,17 @@
       "optional_structural_identity_extension": "strongly_preferred_not_required_for_v0_handoff",
       "handoff_verdict": "cx004_validation_handoff_frozen",
       "driver_contradiction_count": 2
+    },
+    "resolution_review_gate": {
+      "contract_id": "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001",
+      "review_dependency_id": "cx004_resolution_receipt_reviewed_for_anchor_condition",
+      "required_anchor_condition_count": 2,
+      "allowed_review_verdict_count": 6,
+      "example_review_verdict": "keep_dormant_due_to_insufficient_resolution",
+      "example_pair_resolution_state": "insufficient_packet",
+      "example_review_dependency_satisfied": true,
+      "example_live_recommendation_activation_allowed": false,
+      "example_anchor_review_count": 2
     },
     "recommendations": {
       "protocol_object_count": 8,

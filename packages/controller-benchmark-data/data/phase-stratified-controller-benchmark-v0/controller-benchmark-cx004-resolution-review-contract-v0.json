@@ -1,0 +1,91 @@
+{
+  "artifact_name": "controller-benchmark-cx004-resolution-review-contract-v0",
+  "generated_on": "2026-04-04T05:31:41.435570+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_resolution_review.py",
+  "inputs": {
+    "packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+    "resolution_contract": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json"
+  },
+  "contract_id": "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001",
+  "packet_id": "CTRL-BENCH-CX004-PACKET-V0-001",
+  "resolution_contract_id": "CTRL-BENCH-CX004-RESOLUTION-CONTRACT-V0-001",
+  "driver_contradiction_class_id": "CX-004",
+  "review_dependency_id": "cx004_resolution_receipt_reviewed_for_anchor_condition",
+  "required_resolution_receipt_artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+  "required_anchor_condition_ids": [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005"
+  ],
+  "allowed_pair_resolution_states": [
+    "review_required",
+    "shrunk_to_multi_family_admissible_late_lane",
+    "shrunk_to_gill_only_admissible_late_lane",
+    "late_positive_story_collapsed",
+    "insufficient_packet"
+  ],
+  "allowed_review_verdicts": [
+    "allow_anchor_review_only",
+    "force_broader_dormancy",
+    "invalid_resolution_receipt",
+    "keep_dormant_due_to_insufficient_resolution",
+    "preserve_nonpromotion",
+    "preserve_review_required"
+  ],
+  "required_review_sections": [
+    "resolution_receipt_artifact",
+    "anchor_condition_reviews",
+    "review_verdict",
+    "review_dependency_satisfied",
+    "live_recommendation_activation_allowed",
+    "review_summary"
+  ],
+  "required_review_checks": [
+    "resolution_receipt_artifact_name_matches_contract",
+    "packet_id_matches_frozen_packet",
+    "CX-004_contradiction_update_is_present",
+    "pair_resolution_state_is_allowed",
+    "passive_recommendation_effect_matches_pair_resolution_state",
+    "kernel_resolution_matches_pair_resolution_state",
+    "required_field_updates_are_present_for_VITA_CTRL_005",
+    "live_recommendation_activation_remains_false"
+  ],
+  "review_verdict_mapping": {
+    "review_required": "preserve_review_required",
+    "shrunk_to_multi_family_admissible_late_lane": "allow_anchor_review_only",
+    "shrunk_to_gill_only_admissible_late_lane": "preserve_nonpromotion",
+    "late_positive_story_collapsed": "force_broader_dormancy",
+    "insufficient_packet": "keep_dormant_due_to_insufficient_resolution"
+  },
+  "receipt_template": {
+    "artifact_name": "controller-benchmark-cx004-resolution-review-receipt-v0",
+    "review_dependency_id": "cx004_resolution_receipt_reviewed_for_anchor_condition",
+    "resolution_receipt_artifact": {
+      "artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+      "path": "<fill>"
+    },
+    "pair_resolution_state": "<review_required|shrunk_to_multi_family_admissible_late_lane|shrunk_to_gill_only_admissible_late_lane|late_positive_story_collapsed|insufficient_packet>",
+    "review_verdict": "<preserve_review_required|allow_anchor_review_only|preserve_nonpromotion|force_broader_dormancy|keep_dormant_due_to_insufficient_resolution|invalid_resolution_receipt>",
+    "review_dependency_satisfied": "<true|false>",
+    "live_recommendation_activation_allowed": false,
+    "anchor_condition_reviews": [
+      {
+        "condition_id": "VITA_CTRL_003",
+        "current_controller_output": "promote",
+        "anchor_review_state": "<fill>"
+      },
+      {
+        "condition_id": "VITA_CTRL_005",
+        "current_controller_output": "abstain",
+        "anchor_review_state": "<fill>"
+      }
+    ],
+    "review_summary": {
+      "review_receipt_earned": "<true|false>",
+      "blocking_review_issues": [
+        "<fill>"
+      ],
+      "bounded_review_claim": "<fill>"
+    }
+  },
+  "bounded_claim": "The review contract does not solve CX-004. It freezes the exact rule for translating a resolution receipt into a reviewed anchor decision while keeping live recommendation dormant."
+}

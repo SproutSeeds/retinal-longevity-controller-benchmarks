@@ -4,6 +4,8 @@ import {
   BUNDLE_ID,
   loadLatestBundle,
   readAgeOnlyBaselineOutputRows,
+  readCx004ExampleInsufficientResolutionReviewReceipt,
+  readCx004ResolutionReviewContract,
   readControllerOutputRows,
   readCx004ValidationHandoff,
   readCx004ValidationHandoffReceipt,
@@ -14,6 +16,7 @@ import {
 import {
   buildBenchmarkSnapshot,
   compareOutputs,
+  summarizeCx004ResolutionReviewGate,
   summarizeCx004ValidationHandoff,
   summarizeCoverageTrust,
   summarizePassiveRecommendationScaffold,
@@ -31,6 +34,9 @@ const ageOnlyRows = readAgeOnlyBaselineOutputRows();
 const controllerRows = readControllerOutputRows();
 const cx004ValidationHandoff = readCx004ValidationHandoff();
 const cx004ValidationHandoffReceipt = readCx004ValidationHandoffReceipt();
+const cx004ResolutionReviewContract = readCx004ResolutionReviewContract();
+const cx004ExampleInsufficientResolutionReviewReceipt =
+  readCx004ExampleInsufficientResolutionReviewReceipt();
 const passiveRecommendationScaffold = readPassiveRecommendationScaffold();
 const passiveRecommendationReceipt = readPassiveRecommendationReceipt();
 
@@ -58,6 +64,10 @@ const payload = {
     cx004ValidationHandoff,
     cx004ValidationHandoffReceipt,
   ),
+  resolution_review_gate: summarizeCx004ResolutionReviewGate(
+    cx004ResolutionReviewContract,
+    cx004ExampleInsufficientResolutionReviewReceipt,
+  ),
   recommendations: summarizePassiveRecommendationScaffold(
     passiveRecommendationScaffold,
     passiveRecommendationReceipt,
@@ -70,6 +80,8 @@ const payload = {
     contradictionLedger: bundle.contradictionLedger,
     cx004ValidationHandoff,
     cx004ValidationHandoffReceipt,
+    cx004ResolutionReviewContract,
+    cx004ExampleInsufficientResolutionReviewReceipt,
     passiveRecommendationScaffold,
     passiveRecommendationReceipt,
     ageOnlyRows,

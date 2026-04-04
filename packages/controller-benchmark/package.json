@@ -1,6 +1,6 @@
 {
   "name": "controller-benchmark",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Opinionated umbrella package for the current public controller benchmark release.",
   "license": "MIT",
   "repository": {

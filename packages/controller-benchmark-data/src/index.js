@@ -180,6 +180,38 @@ export function readCx004ValidationHandoffReceipt() {
   return readJson(getArtifactUrl("cx004ValidationHandoffReceipt"));
 }
 
+export function readCx004PartnerPacket() {
+  return readJson(getArtifactUrl("cx004PartnerPacket"));
+}
+
+export function readCx004PartnerPacketReceipt() {
+  return readJson(getArtifactUrl("cx004PartnerPacketReceipt"));
+}
+
+export function readCx004ResolutionReceiptContract() {
+  return readJson(getArtifactUrl("cx004ResolutionReceiptContract"));
+}
+
+export function readCx004PartnerReturnTemplate() {
+  return readJson(getArtifactUrl("cx004PartnerReturnTemplate"));
+}
+
+export function readCx004ExampleInsufficientPartnerReturn() {
+  return readJson(getArtifactUrl("cx004ExampleInsufficientPartnerReturn"));
+}
+
+export function readCx004ExampleInsufficientResolutionReceipt() {
+  return readJson(getArtifactUrl("cx004ExampleInsufficientResolutionReceipt"));
+}
+
+export function readCx004ResolutionReviewContract() {
+  return readJson(getArtifactUrl("cx004ResolutionReviewContract"));
+}
+
+export function readCx004ExampleInsufficientResolutionReviewReceipt() {
+  return readJson(getArtifactUrl("cx004ExampleInsufficientResolutionReviewReceipt"));
+}
+
 export function readPassiveRecommendationScaffold() {
   return readJson(getArtifactUrl("passiveRecommendationScaffold"));
 }
@@ -216,6 +248,17 @@ export function loadLatestBundle() {
     contradictionKernelReceipt: readContradictionKernelReceipt(),
     cx004ValidationHandoff: readCx004ValidationHandoff(),
     cx004ValidationHandoffReceipt: readCx004ValidationHandoffReceipt(),
+    cx004PartnerPacket: readCx004PartnerPacket(),
+    cx004PartnerPacketReceipt: readCx004PartnerPacketReceipt(),
+    cx004ResolutionReceiptContract: readCx004ResolutionReceiptContract(),
+    cx004PartnerReturnTemplate: readCx004PartnerReturnTemplate(),
+    cx004ExampleInsufficientPartnerReturn:
+      readCx004ExampleInsufficientPartnerReturn(),
+    cx004ExampleInsufficientResolutionReceipt:
+      readCx004ExampleInsufficientResolutionReceipt(),
+    cx004ResolutionReviewContract: readCx004ResolutionReviewContract(),
+    cx004ExampleInsufficientResolutionReviewReceipt:
+      readCx004ExampleInsufficientResolutionReviewReceipt(),
     passiveRecommendationScaffold: readPassiveRecommendationScaffold(),
     passiveRecommendationReceipt: readPassiveRecommendationReceipt(),
   };

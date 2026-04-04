@@ -27,6 +27,14 @@ import {
   readConditionRecords,
   readContradictionKernelReceipt,
   readContradictionLedger,
+  readCx004ExampleInsufficientPartnerReturn,
+  readCx004ExampleInsufficientResolutionReceipt,
+  readCx004ExampleInsufficientResolutionReviewReceipt,
+  readCx004PartnerPacket,
+  readCx004PartnerPacketReceipt,
+  readCx004PartnerReturnTemplate,
+  readCx004ResolutionReceiptContract,
+  readCx004ResolutionReviewContract,
   readCx004ValidationHandoff,
   readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
@@ -48,6 +56,7 @@ import {
   groupConditionRecordsByStudyFamily,
   indexConditionRecords,
   listNegativePressureConditions,
+  summarizeCx004ResolutionReviewGate,
   summarizeCx004ValidationHandoff,
   summarizeContradictionLedger,
   summarizeCoverageTrust,
@@ -86,6 +95,14 @@ export {
   readConditionRecords,
   readContradictionKernelReceipt,
   readContradictionLedger,
+  readCx004ExampleInsufficientPartnerReturn,
+  readCx004ExampleInsufficientResolutionReceipt,
+  readCx004ExampleInsufficientResolutionReviewReceipt,
+  readCx004PartnerPacket,
+  readCx004PartnerPacketReceipt,
+  readCx004PartnerReturnTemplate,
+  readCx004ResolutionReceiptContract,
+  readCx004ResolutionReviewContract,
   readCx004ValidationHandoff,
   readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
@@ -94,6 +111,7 @@ export {
   readPassiveRecommendationReceipt,
   readPassiveRecommendationScaffold,
   readStudyCorpusRows,
+  summarizeCx004ResolutionReviewGate,
   summarizeCx004ValidationHandoff,
   summarizeContradictionLedger,
   summarizeCoverageTrust,
@@ -194,6 +212,12 @@ export function buildCurrentBenchmarkSnapshot(bundle = loadCurrentBenchmark()) {
     cx004ValidationHandoffReceipt:
       bundle.cx004ValidationHandoffReceipt ??
       readCx004ValidationHandoffReceipt(),
+    cx004ResolutionReviewContract:
+      bundle.cx004ResolutionReviewContract ??
+      readCx004ResolutionReviewContract(),
+    cx004ExampleInsufficientResolutionReviewReceipt:
+      bundle.cx004ExampleInsufficientResolutionReviewReceipt ??
+      readCx004ExampleInsufficientResolutionReviewReceipt(),
     passiveRecommendationScaffold:
       bundle.passiveRecommendationScaffold ??
       readPassiveRecommendationScaffold(),

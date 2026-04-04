@@ -12,6 +12,7 @@ import {
   groupConditionRecordsByStudyFamily,
   indexConditionRecords,
   listNegativePressureConditions,
+  summarizeCx004ResolutionReviewGate,
   summarizeCx004ValidationHandoff,
   summarizeContradictionLedger,
   summarizeCoverageTrust,
@@ -144,6 +145,27 @@ test("cx004 validation handoff summary preserves the live pair object", () => {
   assert.equal(summary.handoff_verdict, "cx004_validation_handoff_frozen");
 });
 
+test("cx004 resolution review summary preserves the frozen review gate", () => {
+  const summary = summarizeCx004ResolutionReviewGate(
+    bundle.cx004ResolutionReviewContract,
+    bundle.cx004ExampleInsufficientResolutionReviewReceipt,
+  );
+
+  assert.equal(summary.contract_id, "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001");
+  assert.equal(
+    summary.review_dependency_id,
+    "cx004_resolution_receipt_reviewed_for_anchor_condition",
+  );
+  assert.equal(
+    summary.example_review_verdict,
+    "keep_dormant_due_to_insufficient_resolution",
+  );
+  assert.equal(summary.example_pair_resolution_state, "insufficient_packet");
+  assert.equal(summary.example_review_dependency_satisfied, true);
+  assert.equal(summary.example_live_recommendation_activation_allowed, false);
+  assert.equal(summary.example_anchor_review_count, 2);
+});
+
 test("output comparison captures transition structure", () => {
   const comparison = compareOutputs(ageOnlyRows, controllerRows);
 
@@ -163,6 +185,9 @@ test("benchmark snapshot composes the main summary layers", () => {
     contradictionLedger: bundle.contradictionLedger,
     cx004ValidationHandoff: bundle.cx004ValidationHandoff,
     cx004ValidationHandoffReceipt: bundle.cx004ValidationHandoffReceipt,
+    cx004ResolutionReviewContract: bundle.cx004ResolutionReviewContract,
+    cx004ExampleInsufficientResolutionReviewReceipt:
+      bundle.cx004ExampleInsufficientResolutionReviewReceipt,
     passiveRecommendationScaffold: bundle.passiveRecommendationScaffold,
     passiveRecommendationReceipt: bundle.passiveRecommendationReceipt,
     ageOnlyRows,
@@ -181,6 +206,10 @@ test("benchmark snapshot composes the main summary layers", () => {
   assert.equal(snapshot.shell.fail_closed, true);
   assert.equal(snapshot.contradictions.live_contradiction_count, 8);
   assert.equal(snapshot.validation_handoff.handoff_verdict, "cx004_validation_handoff_frozen");
+  assert.equal(
+    snapshot.resolution_review_gate.example_review_verdict,
+    "keep_dormant_due_to_insufficient_resolution",
+  );
   assert.equal(snapshot.recommendations.protocol_object_count, 8);
   assert.equal(snapshot.recommendations.live_recommendation_active_count, 0);
   assert.equal(snapshot.outputs.transition_counts["promote->downgrade"], 3);

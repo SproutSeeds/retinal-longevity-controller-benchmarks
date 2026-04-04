@@ -1,0 +1,60 @@
+{
+  "artifact_name": "controller-benchmark-cx004-resolution-review-receipt-v0",
+  "generated_on": "2026-04-04T05:31:41.439123+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_resolution_review.py",
+  "inputs": {
+    "packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+    "resolution_contract": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json",
+    "review_contract": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-review-contract-v0.json",
+    "resolution_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-example-insufficient-resolution-receipt-v0.json"
+  },
+  "outputs": {
+    "review_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-example-insufficient-resolution-review-receipt-v0.json"
+  },
+  "packet_id": "CTRL-BENCH-CX004-PACKET-V0-001",
+  "resolution_contract_id": "CTRL-BENCH-CX004-RESOLUTION-CONTRACT-V0-001",
+  "review_contract_id": "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001",
+  "review_dependency_id": "cx004_resolution_receipt_reviewed_for_anchor_condition",
+  "resolution_receipt_artifact": {
+    "artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+    "path": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-example-insufficient-resolution-receipt-v0.json",
+    "resolution_receipt_earned": false,
+    "biological_resolution_earned": false
+  },
+  "pair_condition_ids": [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005"
+  ],
+  "pair_resolution_state": "insufficient_packet",
+  "review_verdict": "keep_dormant_due_to_insufficient_resolution",
+  "review_dependency_satisfied": true,
+  "live_recommendation_activation_allowed": false,
+  "anchor_condition_reviews": [
+    {
+      "condition_id": "VITA_CTRL_003",
+      "study_family_id": "gill_2022",
+      "current_controller_output": "promote",
+      "anchor_review_state": "retain_promote_anchor_without_expansion"
+    },
+    {
+      "condition_id": "VITA_CTRL_005",
+      "study_family_id": "olova_ohnuki",
+      "current_controller_output": "abstain",
+      "anchor_review_state": "retain_abstention_boundary"
+    }
+  ],
+  "contradiction_resolution": {
+    "contradiction_class_id": "CX-004",
+    "kernel_resolution": "abstain_pending_review",
+    "next_state": "insufficient_packet"
+  },
+  "passive_recommendation_review": {
+    "resolution_receipt_effect": "keep_dormant",
+    "review_preserves_dormancy": true
+  },
+  "review_summary": {
+    "review_receipt_earned": true,
+    "blocking_review_issues": [],
+    "bounded_review_claim": "The CX-004 resolution receipt was reviewed successfully and the review dependency is satisfied, but the packet remains biologically insufficient, so dormancy is preserved."
+  }
+}

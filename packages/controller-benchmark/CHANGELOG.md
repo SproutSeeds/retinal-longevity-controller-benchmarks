@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 - 2026-04-04
+
+- re-export the new public `CX-004` packet, receipt-engine, and review-gate
+  readers
+- keep the umbrella benchmark snapshot aligned with the new
+  `resolution_review_gate` layer
+
 ## 0.1.1 - 2026-04-03
 
 - re-export the new public `CX-004` validation handoff readers and summaries

@@ -16,6 +16,14 @@ import {
   readConditionRecords,
   readContradictionKernelReceipt,
   readContradictionLedger,
+  readCx004ExampleInsufficientPartnerReturn,
+  readCx004ExampleInsufficientResolutionReceipt,
+  readCx004ExampleInsufficientResolutionReviewReceipt,
+  readCx004PartnerPacket,
+  readCx004PartnerPacketReceipt,
+  readCx004PartnerReturnTemplate,
+  readCx004ResolutionReceiptContract,
+  readCx004ResolutionReviewContract,
   readCx004ValidationHandoff,
   readCx004ValidationHandoffReceipt,
   readControllerOutputRows,
@@ -50,6 +58,14 @@ test("artifact registry exposes the core bundle surfaces", () => {
     "contradictionKernelReceipt",
     "cx004ValidationHandoff",
     "cx004ValidationHandoffReceipt",
+    "cx004PartnerPacket",
+    "cx004PartnerPacketReceipt",
+    "cx004ResolutionReceiptContract",
+    "cx004PartnerReturnTemplate",
+    "cx004ExampleInsufficientPartnerReturn",
+    "cx004ExampleInsufficientResolutionReceipt",
+    "cx004ResolutionReviewContract",
+    "cx004ExampleInsufficientResolutionReviewReceipt",
     "passiveRecommendationScaffold",
     "passiveRecommendationReceipt",
   ]);
@@ -107,6 +123,17 @@ test("receipts and output tables remain aligned with the live shell", () => {
   const contradictionKernelReceipt = readContradictionKernelReceipt();
   const cx004ValidationHandoff = readCx004ValidationHandoff();
   const cx004ValidationHandoffReceipt = readCx004ValidationHandoffReceipt();
+  const cx004PartnerPacket = readCx004PartnerPacket();
+  const cx004PartnerPacketReceipt = readCx004PartnerPacketReceipt();
+  const cx004ResolutionReceiptContract = readCx004ResolutionReceiptContract();
+  const cx004PartnerReturnTemplate = readCx004PartnerReturnTemplate();
+  const cx004ExampleInsufficientPartnerReturn =
+    readCx004ExampleInsufficientPartnerReturn();
+  const cx004ExampleInsufficientResolutionReceipt =
+    readCx004ExampleInsufficientResolutionReceipt();
+  const cx004ResolutionReviewContract = readCx004ResolutionReviewContract();
+  const cx004ExampleInsufficientResolutionReviewReceipt =
+    readCx004ExampleInsufficientResolutionReviewReceipt();
   const passiveRecommendationScaffold = readPassiveRecommendationScaffold();
   const passiveRecommendationReceipt = readPassiveRecommendationReceipt();
   const ageOnlyRows = readAgeOnlyBaselineOutputRows();
@@ -127,6 +154,35 @@ test("receipts and output tables remain aligned with the live shell", () => {
   assert.equal(
     cx004ValidationHandoffReceipt.handoff_verdict,
     "cx004_validation_handoff_frozen",
+  );
+  assert.equal(cx004PartnerPacket.packet_id, "CTRL-BENCH-CX004-PACKET-V0-001");
+  assert.equal(
+    cx004PartnerPacketReceipt.packet_verdict,
+    "cx004_partner_packet_frozen",
+  );
+  assert.equal(
+    cx004ResolutionReceiptContract.contract_id,
+    "CTRL-BENCH-CX004-RESOLUTION-CONTRACT-V0-001",
+  );
+  assert.equal(
+    cx004PartnerReturnTemplate.proposed_pair_resolution_state,
+    "<review_required|shrunk_to_multi_family_admissible_late_lane|shrunk_to_gill_only_admissible_late_lane|late_positive_story_collapsed|insufficient_packet>",
+  );
+  assert.equal(
+    cx004ExampleInsufficientPartnerReturn.proposed_pair_resolution_state,
+    "insufficient_packet",
+  );
+  assert.equal(
+    cx004ExampleInsufficientResolutionReceipt.pair_resolution_state,
+    "insufficient_packet",
+  );
+  assert.equal(
+    cx004ResolutionReviewContract.contract_id,
+    "CTRL-BENCH-CX004-REVIEW-CONTRACT-V0-001",
+  );
+  assert.equal(
+    cx004ExampleInsufficientResolutionReviewReceipt.review_verdict,
+    "keep_dormant_due_to_insufficient_resolution",
   );
   assert.deepEqual(contradictionKernelReceipt.armed_not_triggered_class_ids, [
     "CX-WATCH-002",
@@ -154,6 +210,15 @@ test("latest bundle loader returns a coherent snapshot", () => {
   assert.equal(
     bundle.cx004ValidationHandoffReceipt.handoff_verdict,
     "cx004_validation_handoff_frozen",
+  );
+  assert.equal(bundle.cx004PartnerPacket.packet_id, "CTRL-BENCH-CX004-PACKET-V0-001");
+  assert.equal(
+    bundle.cx004ResolutionReviewContract.review_dependency_id,
+    "cx004_resolution_receipt_reviewed_for_anchor_condition",
+  );
+  assert.equal(
+    bundle.cx004ExampleInsufficientResolutionReviewReceipt.review_dependency_satisfied,
+    true,
   );
   assert.equal(bundle.passiveRecommendationScaffold.protocol_objects.length, 8);
   assert.equal(bundle.passiveRecommendationReceipt.protocol_object_count, 8);
