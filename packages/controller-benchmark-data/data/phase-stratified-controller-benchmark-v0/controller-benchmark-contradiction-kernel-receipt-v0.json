@@ -1,7 +1,7 @@
 {
   "artifact_name": "controller-benchmark-contradiction-kernel-receipt-v0",
-  "generated_on": "2026-04-03T23:03:36.454217+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_contradiction_ledger.py",
+  "generated_on": "2026-04-04T04:00:57.230950+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_contradiction_ledger.py",
   "inputs": {
     "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
     "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",

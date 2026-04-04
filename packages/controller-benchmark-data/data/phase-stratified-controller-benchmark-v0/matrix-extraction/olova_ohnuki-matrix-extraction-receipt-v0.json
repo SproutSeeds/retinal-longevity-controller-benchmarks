@@ -1,7 +1,7 @@
 {
   "artifact_name": "olova_ohnuki-matrix-extraction-receipt-v0",
   "generated_on": "2026-04-03T18:48:46.167058+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_olova_matrix_signals.py",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_extract_olova_matrix_signals.py",
   "study_family_id": "olova_ohnuki",
   "inputs": {
     "expression_series_matrix_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE54nnn/GSE54848/matrix/GSE54848-GPL14550_series_matrix.txt.gz",

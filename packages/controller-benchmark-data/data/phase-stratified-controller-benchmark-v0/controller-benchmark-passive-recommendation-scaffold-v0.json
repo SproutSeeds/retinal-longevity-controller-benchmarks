@@ -1,7 +1,7 @@
 {
   "artifact_name": "controller-benchmark-passive-recommendation-scaffold-v0",
-  "generated_on": "2026-04-03T23:59:41.389812+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_passive_recommendation_scaffold.py",
+  "generated_on": "2026-04-04T04:00:57.378014+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_passive_recommendation_scaffold.py",
   "inputs": {
     "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
     "coverage_trust_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-compiler-coverage-trust-receipt-v0.json",
@@ -14,7 +14,8 @@
     "activation_dependencies": [
       "broader_contradiction_classes_exercised",
       "live_recommendation_policy_frozen",
-      "cx004_validation_handoff_frozen"
+      "cx004_validation_handoff_frozen",
+      "cx004_partner_packet_frozen"
     ]
   },
   "protocol_object_format": {
@@ -258,7 +259,7 @@
         "exercise_broader_contradiction_classes_beyond_condition_local_rows",
         "freeze_live_recommendation_policy_after_contradiction_review",
         "preserve_structural_identity_watch_class_until_matched_imaging_exists",
-        "cx004_validation_handoff_receipt_reviewed_for_anchor_condition"
+        "cx004_resolution_receipt_reviewed_for_anchor_condition"
       ],
       "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",
       "traceable_support": {
@@ -518,7 +519,7 @@
       "required_evidence_before_activation": [
         "resolve_identity_and_risk_with_stronger_readouts",
         "keep_live_recommendation_dormant_until_abstention_path_is_reviewed",
-        "cx004_validation_handoff_receipt_reviewed_for_anchor_condition",
+        "cx004_resolution_receipt_reviewed_for_anchor_condition",
         "later_phase_single_cell_validation_or_equivalent_orthogonal_readout"
       ],
       "activation_gate": "dormant_until_broader_contradiction_classes_are_exercised",

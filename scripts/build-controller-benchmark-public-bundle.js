@@ -8,7 +8,7 @@ const SOURCE_ROOT = join(
   "programs",
   "partial-reprogramming-controller",
   "benchmarks",
-  "vitalabs-phase-stratified-benchmark-v0",
+  "phase-stratified-controller-benchmark-v0",
 );
 const TARGET_ROOT = join(
   REPO_ROOT,
@@ -19,42 +19,25 @@ const TARGET_ROOT = join(
 );
 
 const FILE_RENAMES = new Map([
-  ["controller-vitalabs-study-corpus-v0.csv", "controller-benchmark-study-corpus-v0.csv"],
-  ["controller-vitalabs-negative-family-registry-v0.json", "controller-benchmark-negative-family-registry-v0.json"],
-  ["controller-vitalabs-condition-fixture-v0.jsonl", "controller-benchmark-condition-fixture-v0.jsonl"],
-  ["controller-vitalabs-condition-records-v0.jsonl", "controller-benchmark-condition-records-v0.jsonl"],
-  ["controller-vitalabs-condition-record-compile-receipt-v0.json", "controller-benchmark-condition-record-compile-receipt-v0.json"],
-  ["controller-vitalabs-compiler-coverage-trust-receipt-v0.json", "controller-benchmark-compiler-coverage-trust-receipt-v0.json"],
-  ["controller-vitalabs-age-only-baseline-outputs-v0.csv", "controller-benchmark-age-only-baseline-outputs-v0.csv"],
-  ["controller-vitalabs-controller-outputs-v0.csv", "controller-benchmark-controller-outputs-v0.csv"],
-  ["controller-vitalabs-benchmark-shell-receipt-v0.json", "controller-benchmark-shell-receipt-v0.json"],
-  ["controller-vitalabs-contradiction-ledger-v0.json", "controller-benchmark-contradiction-ledger-v0.json"],
-  ["controller-vitalabs-contradiction-kernel-receipt-v0.json", "controller-benchmark-contradiction-kernel-receipt-v0.json"],
-  ["controller-vitalabs-cx004-validation-handoff-v0.json", "controller-benchmark-cx004-validation-handoff-v0.json"],
-  ["controller-vitalabs-cx004-validation-handoff-receipt-v0.json", "controller-benchmark-cx004-validation-handoff-receipt-v0.json"],
-  ["controller-vitalabs-passive-recommendation-scaffold-v0.json", "controller-benchmark-passive-recommendation-scaffold-v0.json"],
-  ["controller-vitalabs-passive-recommendation-receipt-v0.json", "controller-benchmark-passive-recommendation-receipt-v0.json"],
+  ["controller-benchmark-study-corpus-v0.csv", "controller-benchmark-study-corpus-v0.csv"],
+  ["controller-benchmark-negative-family-registry-v0.json", "controller-benchmark-negative-family-registry-v0.json"],
+  ["controller-benchmark-condition-fixture-v0.jsonl", "controller-benchmark-condition-fixture-v0.jsonl"],
+  ["controller-benchmark-condition-records-v0.jsonl", "controller-benchmark-condition-records-v0.jsonl"],
+  ["controller-benchmark-condition-record-compile-receipt-v0.json", "controller-benchmark-condition-record-compile-receipt-v0.json"],
+  ["controller-benchmark-compiler-coverage-trust-receipt-v0.json", "controller-benchmark-compiler-coverage-trust-receipt-v0.json"],
+  ["controller-benchmark-age-only-baseline-outputs-v0.csv", "controller-benchmark-age-only-baseline-outputs-v0.csv"],
+  ["controller-benchmark-controller-outputs-v0.csv", "controller-benchmark-controller-outputs-v0.csv"],
+  ["controller-benchmark-shell-receipt-v0.json", "controller-benchmark-shell-receipt-v0.json"],
+  ["controller-benchmark-contradiction-ledger-v0.json", "controller-benchmark-contradiction-ledger-v0.json"],
+  ["controller-benchmark-contradiction-kernel-receipt-v0.json", "controller-benchmark-contradiction-kernel-receipt-v0.json"],
+  ["controller-benchmark-cx004-validation-handoff-v0.json", "controller-benchmark-cx004-validation-handoff-v0.json"],
+  ["controller-benchmark-cx004-validation-handoff-receipt-v0.json", "controller-benchmark-cx004-validation-handoff-receipt-v0.json"],
+  ["controller-benchmark-passive-recommendation-scaffold-v0.json", "controller-benchmark-passive-recommendation-scaffold-v0.json"],
+  ["controller-benchmark-passive-recommendation-receipt-v0.json", "controller-benchmark-passive-recommendation-receipt-v0.json"],
 ]);
 
 const TEXT_REPLACEMENTS = [
-  ["vitalabs-phase-stratified-benchmark-v0", "phase-stratified-controller-benchmark-v0"],
-  ["VitaDAO phase-stratified benchmark bundle", "Phase-stratified controller benchmark bundle"],
-  ["controller-vitalabs-benchmark-shell-receipt-v0", "controller-benchmark-shell-receipt-v0"],
-  ["controller-benchmark-benchmark-shell-receipt-v0", "controller-benchmark-shell-receipt-v0"],
-  ["controller-benchmark-benchmark-shell", "controller-benchmark-shell"],
-  ["controller-vitalabs-", "controller-benchmark-"],
-  ["controller_vitalabs_compile_condition_records.py", "controller_phase_stratified_compile_condition_records.py"],
-  ["controller_vitalabs_phase_stratified_benchmark_runner.py", "controller_phase_stratified_benchmark_runner.py"],
-  ["controller_vitalabs_build_contradiction_ledger.py", "controller_phase_stratified_build_contradiction_ledger.py"],
-  ["controller_vitalabs_build_passive_recommendation_scaffold.py", "controller_phase_stratified_build_passive_recommendation_scaffold.py"],
-  ["controller_vitalabs_build_cx004_validation_handoff.py", "controller_phase_stratified_build_cx004_validation_handoff.py"],
-  ["controller_vitalabs_extract_gill_matrix_signals.py", "controller_phase_stratified_extract_gill_matrix_signals.py"],
-  ["controller_vitalabs_extract_olova_matrix_signals.py", "controller_phase_stratified_extract_olova_matrix_signals.py"],
-  ["controller_vitalabs_extract_roux_matrix_signals.py", "controller_phase_stratified_extract_roux_matrix_signals.py"],
-  ["/benchmarks/vitalabs-phase-stratified-benchmark-v0/", "/benchmarks/phase-stratified-controller-benchmark-v0/"],
   ["/Volumes/Code_2TB/code/longevity-research/", "repo:/"],
-  ["controller-vitalabs", "controller-benchmark"],
-  ["VitaDAO", "benchmark"],
 ];
 
 function ensureDir(path) {

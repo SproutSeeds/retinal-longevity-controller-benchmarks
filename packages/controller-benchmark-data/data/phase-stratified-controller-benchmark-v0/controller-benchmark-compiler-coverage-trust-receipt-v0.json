@@ -1,7 +1,7 @@
 {
   "artifact_name": "controller-benchmark-compiler-coverage-trust-receipt-v0",
-  "generated_on": "2026-04-03T22:43:27.792787+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_compile_condition_records.py",
+  "generated_on": "2026-04-04T04:00:50.162466+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_compile_condition_records.py",
   "inputs": {
     "study_corpus": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-study-corpus-v0.csv",
     "negative_families": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-negative-family-registry-v0.json",

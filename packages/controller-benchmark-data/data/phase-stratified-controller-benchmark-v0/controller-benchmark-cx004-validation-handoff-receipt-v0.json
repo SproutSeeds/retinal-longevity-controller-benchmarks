@@ -1,7 +1,7 @@
 {
   "artifact_name": "controller-benchmark-cx004-validation-handoff-receipt-v0",
-  "generated_on": "2026-04-03T23:59:41.297305+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_build_cx004_validation_handoff.py",
+  "generated_on": "2026-04-04T04:00:57.262908+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_validation_handoff.py",
   "inputs": {
     "condition_records": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-condition-records-v0.jsonl",
     "controller_output": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-controller-outputs-v0.csv",

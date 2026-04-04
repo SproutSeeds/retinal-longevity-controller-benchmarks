@@ -1,7 +1,7 @@
 {
   "artifact_name": "roux_2022_sc-matrix-extraction-receipt-v0",
   "generated_on": "2026-04-03T17:33:08.731474+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_roux_matrix_signals.py",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_extract_roux_matrix_signals.py",
   "study_family_id": "roux_2022_sc",
   "inputs": {
     "msc_single_cell_h5ad_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE176206&format=file&file=GSE176206_msc_sokm.h5ad.gz",

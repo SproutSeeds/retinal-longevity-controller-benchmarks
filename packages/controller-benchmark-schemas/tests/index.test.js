@@ -54,7 +54,7 @@ function makeCompileReceipt() {
   return {
     artifact_name: "controller-benchmark-condition-record-compile-receipt-v0",
     compiled_on: "2026-04-02T15:58:03.657071+00:00",
-    script_path: "/abs/controller_phase_stratified_compile_condition_records.py",
+    script_path: "/abs/controller_benchmark_compile_condition_records.py",
     inputs: {
       study_corpus: "/abs/controller-benchmark-study-corpus-v0.csv",
       negative_families: "/abs/controller-benchmark-negative-family-registry-v0.json",
@@ -80,7 +80,7 @@ function makeBenchmarkShellReceipt() {
   return {
     artifact_name: "controller-benchmark-shell-receipt-v0",
     executed_on: "2026-04-02T15:58:03.726593+00:00",
-    script_path: "/abs/controller_phase_stratified_benchmark_runner.py",
+    script_path: "/abs/controller_benchmark_phase_stratified_benchmark_runner.py",
     inputs: {
       study_corpus: "/abs/controller-benchmark-study-corpus-v0.csv",
       negative_families: "/abs/controller-benchmark-negative-family-registry-v0.json",
@@ -126,7 +126,7 @@ function makeCoverageTrustReceipt() {
   return {
     artifact_name: "controller-benchmark-compiler-coverage-trust-receipt-v0",
     generated_on: "2026-04-02T15:58:03.657407+00:00",
-    script_path: "/abs/controller_phase_stratified_compile_condition_records.py",
+    script_path: "/abs/controller_benchmark_compile_condition_records.py",
     inputs: {
       study_corpus: "/abs/controller-benchmark-study-corpus-v0.csv",
       negative_families: "/abs/controller-benchmark-negative-family-registry-v0.json",

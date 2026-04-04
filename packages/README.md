@@ -1,5 +1,7 @@
 # Packages
 
+Maintained by SproutSeeds. Research stewardship: Fractal Research Group ([frg.earth](https://frg.earth)).
+
 This directory holds the public package stack for the controller benchmark
 modules repo.
 
@@ -7,7 +9,7 @@ modules repo.
 
 - `controller-benchmark-schemas`
   - schemas and validators for benchmark condition records, compiler receipts,
-  shell receipts, and explicit trust-boundary artifacts
+    shell receipts, and explicit trust-boundary artifacts
   - discovered through the controller benchmark lane and kept general enough to
     travel beyond any one biological program
 - `controller-benchmark-data`

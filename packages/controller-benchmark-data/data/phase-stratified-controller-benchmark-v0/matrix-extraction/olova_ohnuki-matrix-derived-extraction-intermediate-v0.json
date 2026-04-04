@@ -1,7 +1,7 @@
 {
   "artifact_name": "olova_ohnuki-matrix-derived-extraction-intermediate-v0",
   "generated_on": "2026-04-03T18:48:46.167058+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_olova_matrix_signals.py",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_extract_olova_matrix_signals.py",
   "study_family_id": "olova_ohnuki",
   "accession_bundle": "GSE54848",
   "cache_inputs": {

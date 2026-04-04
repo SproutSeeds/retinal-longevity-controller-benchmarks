@@ -1,13 +1,13 @@
 {
   "artifact_name": "gill_2022-matrix-extraction-receipt-v0",
   "generated_on": "2026-04-03T16:45:48.766408+00:00",
-  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_phase_stratified_extract_gill_matrix_signals.py",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_extract_gill_matrix_signals.py",
   "study_family_id": "gill_2022",
   "inputs": {
     "sendai_processed_matrix_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165176&format=file&file=GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
     "transient_processed_matrix_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
-    "sendai_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
-    "transient_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/vitalabs-gill-matrix-cache/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz"
+    "sendai_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/controller-gill-matrix-cache/GSE165176_Log2_RPM_Sendai_reprogramming.txt.gz",
+    "transient_cache_path": "repo:/programs/partial-reprogramming-controller/tmp/controller-gill-matrix-cache/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz"
   },
   "outputs": {
     "intermediate": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/matrix-extraction/gill_2022-matrix-derived-extraction-intermediate-v0.json",
