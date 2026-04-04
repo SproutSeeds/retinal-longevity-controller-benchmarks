@@ -17,6 +17,12 @@ const TARGET_ROOT = join(
   "data",
   "phase-stratified-controller-benchmark-v0",
 );
+const DATA_PACKAGE_JSON = join(
+  REPO_ROOT,
+  "packages",
+  "controller-benchmark-data",
+  "package.json",
+);
 
 const FILE_RENAMES = new Map([
   ["controller-benchmark-study-corpus-v0.csv", "controller-benchmark-study-corpus-v0.csv"],
@@ -85,10 +91,14 @@ function copyDirRecursive(sourceDir, targetDir) {
 }
 
 function buildManifest() {
+  const { version: dataPackageVersion } = JSON.parse(
+    readFileSync(DATA_PACKAGE_JSON, "utf-8"),
+  );
+
   return {
     bundle_id: "phase-stratified-controller-benchmark-v0",
     package_name: "controller-benchmark-data",
-    package_version: "0.1.0",
+    package_version: dataPackageVersion,
     benchmark_name: "Phase-stratified controller benchmark bundle",
     description:
       "Versioned benchmark bundle for the phase-stratified, abstention-capable controller shell.",

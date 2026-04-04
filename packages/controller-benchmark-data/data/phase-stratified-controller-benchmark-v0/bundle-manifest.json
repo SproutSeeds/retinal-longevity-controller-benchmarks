@@ -1,10 +1,10 @@
 {
   "bundle_id": "phase-stratified-controller-benchmark-v0",
   "package_name": "controller-benchmark-data",
-  "package_version": "0.1.0",
+  "package_version": "0.1.2",
   "benchmark_name": "Phase-stratified controller benchmark bundle",
   "description": "Versioned benchmark bundle for the phase-stratified, abstention-capable controller shell.",
-  "generated_on": "2026-04-04T04:01:03.680Z",
+  "generated_on": "2026-04-04T04:53:06.043Z",
   "condition_count": 8,
   "rule_backed_condition_count": 8,
   "coverage_verdict": "all_live_conditions_rule_backed",

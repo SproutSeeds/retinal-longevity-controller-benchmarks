@@ -1,0 +1,31 @@
+{
+  "packet_id": "controller-benchmark-cx004-partner-intake-example-packet-v0",
+  "generated_on": "2026-04-04T03:22:46.839587+00:00",
+  "submitter_role": "supervised_external_reviewer",
+  "target_artifacts": [
+    "controller-benchmark-cx004-partner-executable-validation-packet-v0",
+    "controller-benchmark-cx004-resolution-receipt-contract-v0"
+  ],
+  "target_pair_condition_ids": [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005"
+  ],
+  "provenance_manifest": [
+    "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+    "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json"
+  ],
+  "requested_read": "Inspect whether the CX-004 packet is coherent enough to support a later resolution receipt without smoothing contradiction into promotion or universal winner language.",
+  "requested_output_class": "review_required",
+  "allowed_outputs": [
+    "support_only_read",
+    "abstain",
+    "review_required"
+  ],
+  "forbidden_outputs": [
+    "recommendation",
+    "nomination",
+    "therapy_readiness_verdict",
+    "controller_field_override_without_receipt"
+  ],
+  "bounded_claim": "This intake packet is for supervised review of packet coherence and receipt readiness, not for deciding the biology of the Gill-versus-Olova disagreement."
+}

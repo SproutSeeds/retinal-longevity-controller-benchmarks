@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2 - 2026-04-03
+
+- retire the legacy external-review benchmark namespace from the shipped bundle,
+  receipts, and public-neutral benchmark artifacts
+- align generated script paths and shell receipt naming with the neutral
+  `controller-benchmark` namespace
+- make the bundle manifest self-report the current `controller-benchmark-data`
+  package version instead of a stale hardcoded value
+
 ## 0.1.1 - 2026-04-03
 
 - add the public `CX-004` validation handoff and receipt to the released

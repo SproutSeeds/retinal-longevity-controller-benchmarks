@@ -1,0 +1,23 @@
+{
+  "artifact_name": "controller-benchmark-cx004-partner-executable-validation-packet-receipt-v0",
+  "generated_on": "2026-04-04T03:14:25.086947+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_partner_packet.py",
+  "inputs": {
+    "handoff": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-v0.json",
+    "handoff_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-receipt-v0.json"
+  },
+  "outputs": {
+    "packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+    "contract": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json",
+    "receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-receipt-v0.json"
+  },
+  "packet_id": "CTRL-VITA-CX004-PACKET-V0-001",
+  "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+  "contract_id": "CTRL-VITA-CX004-RESOLUTION-CONTRACT-V0-001",
+  "required_partner_deliverable_count": 6,
+  "required_readout_count": 4,
+  "required_field_update_target_count": 2,
+  "packet_verdict": "cx004_partner_packet_frozen",
+  "next_missing_artifact": "controller-benchmark-cx004-resolution-receipt-v0",
+  "bounded_claim": "The CX-004 pair now has an execution-ready packet and an auditable resolution receipt contract, but no earned resolution outcome yet."
+}

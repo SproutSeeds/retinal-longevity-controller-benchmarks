@@ -1,0 +1,72 @@
+{
+  "artifact_name": "controller-benchmark-cx004-supervised-dry-run-receipt-v0",
+  "generated_on": "2026-04-04T03:22:46.839699+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_supervised_exchange.py",
+  "inputs": {
+    "packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+    "contract": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json",
+    "intake_packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-intake-example-packet-v0.json",
+    "exchange": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-example-packet-exchange-v0.json"
+  },
+  "outputs": {
+    "dry_run_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-supervised-dry-run-receipt-v0.json"
+  },
+  "exercise_id": "CTRL-VITA-CX004-SUPERVISED-DRYRUN-V0-001",
+  "packet_id": "CTRL-VITA-CX004-PACKET-V0-001",
+  "contract_id": "CTRL-VITA-CX004-RESOLUTION-CONTRACT-V0-001",
+  "intake_packet_id": "controller-benchmark-cx004-partner-intake-example-packet-v0",
+  "exchange_id": "controller-benchmark-cx004-example-packet-exchange-v0",
+  "supervision_verdict": "review_required",
+  "resolution_receipt_earned": false,
+  "pair_resolution_state": "review_required",
+  "readout_results": [
+    {
+      "readout_id": "CX004-R01",
+      "observed_verdict": "insufficient_signal",
+      "bounded_summary": "Supervised dry run only; no returned later-phase data were supplied, so this readout remains unadjudicated for biological update purposes.",
+      "evidence_locator": "supervised_dry_run_no_external_dataset"
+    },
+    {
+      "readout_id": "CX004-R02",
+      "observed_verdict": "insufficient_signal",
+      "bounded_summary": "Supervised dry run only; no returned later-phase data were supplied, so this readout remains unadjudicated for biological update purposes.",
+      "evidence_locator": "supervised_dry_run_no_external_dataset"
+    },
+    {
+      "readout_id": "CX004-R03",
+      "observed_verdict": "insufficient_signal",
+      "bounded_summary": "Supervised dry run only; no returned later-phase data were supplied, so this readout remains unadjudicated for biological update purposes.",
+      "evidence_locator": "supervised_dry_run_no_external_dataset"
+    },
+    {
+      "readout_id": "CX004-R04",
+      "observed_verdict": "insufficient_signal",
+      "bounded_summary": "Supervised dry run only; no returned later-phase data were supplied, so this readout remains unadjudicated for biological update purposes.",
+      "evidence_locator": "supervised_dry_run_no_external_dataset"
+    }
+  ],
+  "field_updates": [
+    {
+      "condition_id": "VITA_CTRL_005",
+      "field_name": "identity_pressure_level",
+      "previous_value": "unresolved",
+      "next_value": "unresolved",
+      "basis_readout_ids": []
+    },
+    {
+      "condition_id": "VITA_CTRL_005",
+      "field_name": "risk_pressure_level",
+      "previous_value": "unresolved",
+      "next_value": "unresolved",
+      "basis_readout_ids": []
+    }
+  ],
+  "contradiction_update": {
+    "contradiction_class_id": "CX-004",
+    "next_state": "live_review_required",
+    "kernel_resolution": "review_required"
+  },
+  "passive_recommendation_effect": "keep_dormant",
+  "next_required_artifact": "controller-benchmark-cx004-resolution-receipt-v0",
+  "bounded_claim": "This supervised dry run validates the packet/exchange boundary only. It does not earn a biological CX-004 resolution receipt and therefore leaves VITA_CTRL_005 unresolved."
+}

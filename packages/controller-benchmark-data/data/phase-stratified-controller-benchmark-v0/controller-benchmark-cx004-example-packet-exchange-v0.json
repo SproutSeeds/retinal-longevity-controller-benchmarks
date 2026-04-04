@@ -1,0 +1,27 @@
+{
+  "exchange_id": "controller-benchmark-cx004-example-packet-exchange-v0",
+  "generated_on": "2026-04-04T03:22:46.839691+00:00",
+  "input_packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-intake-example-packet-v0.json",
+  "packet_artifact": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json",
+  "contract_artifact": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-resolution-receipt-contract-v0.json",
+  "supervision_state": "review_required_if_output_moves_beyond_support_only_or_packet_readiness",
+  "expected_outputs": [
+    "support_only_read",
+    "abstain",
+    "review_required",
+    "blocked_claim_summary",
+    "next_required_artifact"
+  ],
+  "forbidden_outputs": [
+    "controller_promotion_update",
+    "resolution_receipt_earned",
+    "partner_readiness_verdict",
+    "universal_winner_language"
+  ],
+  "exchange_goal": "Rehearse outside-facing packet use while preserving the live CX-004 disagreement as review-required until real later-phase data return.",
+  "required_boundary_objects": [
+    "controller-benchmark-cx004-partner-executable-validation-packet-v0",
+    "controller-benchmark-cx004-resolution-receipt-contract-v0",
+    "controller-benchmark-contradiction-ledger-v0"
+  ]
+}

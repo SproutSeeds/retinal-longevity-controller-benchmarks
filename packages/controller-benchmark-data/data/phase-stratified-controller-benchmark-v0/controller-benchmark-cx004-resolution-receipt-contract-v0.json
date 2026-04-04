@@ -1,0 +1,145 @@
+{
+  "artifact_name": "controller-benchmark-cx004-resolution-receipt-contract-v0",
+  "generated_on": "2026-04-04T03:14:25.086907+00:00",
+  "script_path": "repo:/programs/partial-reprogramming-controller/scripts/controller_benchmark_build_cx004_partner_packet.py",
+  "inputs": {
+    "handoff": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-v0.json",
+    "handoff_receipt": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-validation-handoff-receipt-v0.json",
+    "packet": "repo:/programs/partial-reprogramming-controller/benchmarks/phase-stratified-controller-benchmark-v0/controller-benchmark-cx004-partner-executable-validation-packet-v0.json"
+  },
+  "contract_id": "CTRL-VITA-CX004-RESOLUTION-CONTRACT-V0-001",
+  "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+  "packet_id": "CTRL-VITA-CX004-PACKET-V0-001",
+  "required_receipt_artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+  "required_anchor_condition_ids": [
+    "VITA_CTRL_003",
+    "VITA_CTRL_005"
+  ],
+  "required_readout_ids": [
+    "CX004-R01",
+    "CX004-R02",
+    "CX004-R03",
+    "CX004-R04"
+  ],
+  "allowed_resolution_path_ids": [
+    "CX004-PATH-01",
+    "CX004-PATH-02",
+    "CX004-PATH-03",
+    "CX004-PATH-UNRESOLVED"
+  ],
+  "allowed_pair_resolution_states": [
+    "review_required",
+    "shrunk_to_multi_family_admissible_late_lane",
+    "shrunk_to_gill_only_admissible_late_lane",
+    "late_positive_story_collapsed",
+    "insufficient_packet"
+  ],
+  "allowed_readout_verdicts": [
+    "supports_multi_family_admissible_late_lane",
+    "supports_gill_only_admissible_late_lane",
+    "supports_broader_late_positive_collapse",
+    "insufficient_signal"
+  ],
+  "allowed_field_levels": [
+    "low",
+    "moderate",
+    "high",
+    "unresolved"
+  ],
+  "required_field_update_targets": [
+    {
+      "condition_id": "VITA_CTRL_005",
+      "field_name": "identity_pressure_level",
+      "current_value": "unresolved"
+    },
+    {
+      "condition_id": "VITA_CTRL_005",
+      "field_name": "risk_pressure_level",
+      "current_value": "unresolved"
+    }
+  ],
+  "required_receipt_sections": [
+    "execution_dataset_metadata",
+    "readout_results",
+    "field_updates",
+    "contradiction_update",
+    "passive_recommendation_effect",
+    "bounded_claim"
+  ],
+  "minimum_completion_gate": [
+    "all_four_frozen_readouts_adjudicated",
+    "VITA_CTRL_005_identity_and_risk_next_values_recorded_or_explicitly_preserved_as_unresolved",
+    "CX-004_next_state_recorded",
+    "passive_recommendation_effect_recorded",
+    "bounded_claim_written_from_observed_readouts"
+  ],
+  "cannot_be_earned_if": [
+    "required_timepoints_missing_from_partner_packet",
+    "single_cell_assay_missing_for_primary_ladder",
+    "withdrawal_verdict_absent",
+    "one_or_more_required_readouts_left_blank",
+    "field_updates_missing_for_VITA_CTRL_005_identity_or_risk"
+  ],
+  "receipt_template": {
+    "artifact_name": "controller-benchmark-cx004-resolution-receipt-v0",
+    "handoff_id": "CTRL-VITA-CX004-HANDOFF-V0-001",
+    "packet_id": "CTRL-VITA-CX004-PACKET-V0-001",
+    "execution_dataset_id": "<fill>",
+    "resolution_path_id": "<CX004-PATH-01|CX004-PATH-02|CX004-PATH-03|CX004-PATH-UNRESOLVED>",
+    "pair_resolution_state": "<review_required|shrunk_to_multi_family_admissible_late_lane|shrunk_to_gill_only_admissible_late_lane|late_positive_story_collapsed|insufficient_packet>",
+    "readout_results": [
+      {
+        "readout_id": "CX004-R01",
+        "observed_verdict": "<supports_multi_family_admissible_late_lane|supports_gill_only_admissible_late_lane|supports_broader_late_positive_collapse|insufficient_signal>",
+        "bounded_summary": "<fill>",
+        "evidence_locator": "<fill>"
+      },
+      {
+        "readout_id": "CX004-R02",
+        "observed_verdict": "<supports_multi_family_admissible_late_lane|supports_gill_only_admissible_late_lane|supports_broader_late_positive_collapse|insufficient_signal>",
+        "bounded_summary": "<fill>",
+        "evidence_locator": "<fill>"
+      },
+      {
+        "readout_id": "CX004-R03",
+        "observed_verdict": "<supports_multi_family_admissible_late_lane|supports_gill_only_admissible_late_lane|supports_broader_late_positive_collapse|insufficient_signal>",
+        "bounded_summary": "<fill>",
+        "evidence_locator": "<fill>"
+      },
+      {
+        "readout_id": "CX004-R04",
+        "observed_verdict": "<supports_multi_family_admissible_late_lane|supports_gill_only_admissible_late_lane|supports_broader_late_positive_collapse|insufficient_signal>",
+        "bounded_summary": "<fill>",
+        "evidence_locator": "<fill>"
+      }
+    ],
+    "field_updates": [
+      {
+        "condition_id": "VITA_CTRL_005",
+        "field_name": "identity_pressure_level",
+        "previous_value": "unresolved",
+        "next_value": "<low|moderate|high|unresolved>",
+        "basis_readout_ids": [
+          "<fill>"
+        ]
+      },
+      {
+        "condition_id": "VITA_CTRL_005",
+        "field_name": "risk_pressure_level",
+        "previous_value": "unresolved",
+        "next_value": "<low|moderate|high|unresolved>",
+        "basis_readout_ids": [
+          "<fill>"
+        ]
+      }
+    ],
+    "contradiction_update": {
+      "contradiction_class_id": "CX-004",
+      "next_state": "<live_review_required|shrunk_review_complete|closed_by_broader_downgrade|insufficient_packet>",
+      "kernel_resolution": "<review_required|abstain_pending_review|downgrade|preserve_nonpromotion>"
+    },
+    "passive_recommendation_effect": "<keep_dormant|allow_anchor_review_only|preserve_nonpromotion|force_broader_dormancy>",
+    "bounded_claim": "<fill>"
+  },
+  "bounded_claim": "The contract does not decide the Gill-versus-Olova disagreement itself. It freezes the minimum fields that a real later-phase data return must populate before the controller is allowed to treat CX-004 as shrunk."
+}
