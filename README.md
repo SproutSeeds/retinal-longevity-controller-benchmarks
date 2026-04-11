@@ -10,6 +10,20 @@ It holds reusable public infrastructure derived from the controller benchmark
 program, with the relationship-specific packet and private reviewer context
 kept out of scope.
 
+## Public Ocular / Controller Index
+
+For the current public front door across GitHub, npm, and Synapse, start here:
+
+- `docs/ocular-controller-public-index-v0.md`
+
+That index ties together:
+
+- this public GitHub package repo
+- the published npm benchmark modules
+- the public Synapse ocular benchmark pack
+- the public Synapse ocular world-share pack
+- the exact public claim boundaries
+
 ## Packages
 
 - `controller-benchmark-schemas`
@@ -38,12 +52,22 @@ It is not the place for:
 ## Current Status
 
 - public repo home is live
-- the benchmark package stack is published on npm at `0.1.1`
+- the benchmark package stack is published on npm
 - `controller-benchmark` is the one-install public entry point
 - the current public bundle surface includes:
   - contradiction-ledger artifacts
   - passive recommendation scaffold artifacts
   - the `CX-004` validation handoff for the live Gill-versus-Olova pair
+- public Synapse ocular shelves are live for:
+  - `ocular-benchmark-pack-v0`
+  - `ocular-world-share-pack-v0`
+
+Current verified npm versions:
+
+- `controller-benchmark@0.1.2`
+- `controller-benchmark-data@0.1.4`
+- `controller-benchmark-js@0.1.2`
+- `controller-benchmark-schemas@0.1.1`
 
 ## Install Targets
 
