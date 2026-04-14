@@ -1,6 +1,6 @@
 {
   "name": "controller-benchmark-data",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Versioned benchmark bundle and lightweight readers for the controller phase-stratified benchmark.",
   "license": "MIT",
   "repository": {

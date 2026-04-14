@@ -1,6 +1,6 @@
 {
   "name": "controller-benchmark",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Opinionated umbrella package for the current public controller benchmark release.",
   "license": "MIT",
   "repository": {
@@ -38,9 +38,9 @@
   },
   "author": "SproutSeeds <cody@frg.earth>",
   "dependencies": {
-    "controller-benchmark-data": "file:../controller-benchmark-data",
-    "controller-benchmark-js": "file:../controller-benchmark-js",
-    "controller-benchmark-schemas": "file:../controller-benchmark-schemas"
+    "controller-benchmark-data": "0.1.5",
+    "controller-benchmark-js": "0.1.3",
+    "controller-benchmark-schemas": "0.1.2"
   },
   "keywords": [
     "benchmark",

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 - 2026-04-14
+
+- update published package metadata for the retinal longevity controller
+  repository rename
+- keep schema contracts unchanged
+
 ## 0.1.1 - 2026-04-03
 
 - release-alignment bump for the current public controller benchmark tranche

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 - 2026-04-14
+
+- update published package metadata for the retinal longevity controller
+  repository rename
+- replace local `file:` sibling dependencies with npm package dependencies so
+  clean registry installs can import the umbrella package
+
 ## 0.1.2 - 2026-04-04
 
 - re-export the new public `CX-004` packet, receipt-engine, and review-gate

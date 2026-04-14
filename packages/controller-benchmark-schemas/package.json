@@ -1,6 +1,6 @@
 {
   "name": "controller-benchmark-schemas",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Schemas and validators for benchmark condition records, compiler receipts, and trust-boundary artifacts.",
   "license": "MIT",
   "repository": {

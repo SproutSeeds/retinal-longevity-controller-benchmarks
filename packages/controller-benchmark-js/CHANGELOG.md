@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 - 2026-04-14
+
+- update published package metadata for the retinal longevity controller
+  repository rename
+- keep the JavaScript summary API unchanged
+
 ## 0.1.2 - 2026-04-04
 
 - add a summary helper for the frozen `CX-004` resolution-review gate

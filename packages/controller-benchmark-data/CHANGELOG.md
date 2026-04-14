@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.5 - 2026-04-14
+
+- update published package metadata for the retinal longevity controller
+  repository rename
+- keep the shipped benchmark bundle content unchanged apart from the package
+  version marker
+
 ## 0.1.4 - 2026-04-04
 
 - add the frozen `CX-004` resolution-review contract and example reviewed

@@ -41,10 +41,10 @@ npm install controller-benchmark
 
 Current verified package versions:
 
-- `controller-benchmark@0.1.2`
-- `controller-benchmark-data@0.1.4`
-- `controller-benchmark-js@0.1.2`
-- `controller-benchmark-schemas@0.1.1`
+- `controller-benchmark@0.1.3`
+- `controller-benchmark-data@0.1.5`
+- `controller-benchmark-js@0.1.3`
+- `controller-benchmark-schemas@0.1.2`
 
 Package roles:
 
