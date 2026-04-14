@@ -5,12 +5,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SproutSeeds/controller-benchmark-modules.git",
+    "url": "git+https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks.git",
     "directory": "packages/controller-benchmark-js"
   },
-  "homepage": "https://github.com/SproutSeeds/controller-benchmark-modules/tree/main/packages/controller-benchmark-js",
+  "homepage": "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/packages/controller-benchmark-js",
   "bugs": {
-    "url": "https://github.com/SproutSeeds/controller-benchmark-modules/issues"
+    "url": "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/issues"
   },
   "type": "module",
   "main": "./src/index.js",

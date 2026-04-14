@@ -26,7 +26,7 @@ research.
 
 Public package and module repo:
 
-- https://github.com/SproutSeeds/controller-benchmark-modules
+- https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks
 
 This repo is the public code/package surface. It is not the full internal
 research workspace.
@@ -178,7 +178,7 @@ The next public hardening pass should be:
 
 Until a DOI exists, cite the exact public surfaces:
 
-- GitHub: https://github.com/SproutSeeds/controller-benchmark-modules
+- GitHub: https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks
 - Synapse benchmark pack: https://www.synapse.org/Synapse:syn74252747
 - Synapse world-share pack: https://www.synapse.org/Synapse:syn74260927
 - npm package entry point: `controller-benchmark`

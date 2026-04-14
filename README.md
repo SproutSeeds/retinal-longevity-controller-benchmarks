@@ -13,9 +13,9 @@ high-value place to test whether a longevity signal preserves adult retinal
 cell identity, avoids transformation-risk shortcuts, and remains honest under
 explicit decision gates.
 
-The package name remains `controller-benchmark-modules` because this repo also
-publishes reusable benchmark infrastructure, but the public research context is
-retinal and ocular longevity controller evaluation.
+The npm package names remain `controller-benchmark-*` because this repo also
+publishes reusable benchmark infrastructure, while the public repository name
+now centers the retinal and ocular longevity controller evaluation story.
 
 ## Start Here
 
