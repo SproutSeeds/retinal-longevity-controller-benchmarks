@@ -21,16 +21,22 @@ now centers the retinal and ocular longevity controller evaluation story.
 
 ## Start Here
 
-For the current public front door across GitHub, npm, and Synapse, start here:
+If you need the shortest showable overview, start here:
+
+- [Ocular Longevity Controller One-Page Public Brief v0](docs/ocular-longevity-controller-one-page-v0.md)
+
+For the current public front door across GitHub, npm, Synapse, and citation
+metadata, continue here:
 
 - [Retinal Longevity Controller Public Index v0](docs/ocular-controller-public-index-v0.md)
 
-That index ties together:
+Together, those pages tie together:
 
 - this public GitHub package repo
 - the published npm benchmark modules
 - the public Synapse ocular benchmark pack
 - the public Synapse ocular world-share pack
+- the Zenodo DOI
 - the exact public claim boundaries
 
 ## Packages
@@ -61,6 +67,7 @@ It is not the place for:
 ## Current Status
 
 - public repo home is live
+- one-page public brief is live
 - the benchmark package stack is published on npm
 - `controller-benchmark` is the one-install public entry point
 - the current public bundle surface includes:
@@ -70,6 +77,7 @@ It is not the place for:
 - public Synapse ocular shelves are live for:
   - `ocular-benchmark-pack-v0`
   - `ocular-world-share-pack-v0`
+- Zenodo archival DOI is live
 
 Current verified npm versions:
 
