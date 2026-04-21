@@ -34,6 +34,8 @@ Together, those pages tie together:
 
 - this public GitHub package repo
 - the published npm benchmark modules
+- the DOI-backed Zenodo release
+- the published Synapse public artifact index
 - the public Synapse ocular benchmark pack
 - the public Synapse ocular world-share pack
 - the Zenodo DOI
@@ -75,6 +77,7 @@ It is not the place for:
   - passive recommendation scaffold artifacts
   - the `CX-004` validation handoff for the live Gill-versus-Olova pair
 - public Synapse ocular shelves are live for:
+  - `controller-ocular-public-artifact-index-v2.md`
   - `ocular-benchmark-pack-v0`
   - `ocular-world-share-pack-v0`
 - Zenodo archival DOI is live
@@ -111,6 +114,10 @@ Versioned Zenodo DOI:
 Concept DOI for future versions:
 
 - `10.5281/zenodo.19633941`
+
+Synapse public artifact index:
+
+- https://www.synapse.org/Synapse:syn74531916
 
 Citation metadata is available in `CITATION.cff`. Zenodo metadata is available
 in `.zenodo.json`.

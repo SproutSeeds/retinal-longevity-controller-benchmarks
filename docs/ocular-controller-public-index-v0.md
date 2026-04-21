@@ -1,8 +1,8 @@
 # Retinal Longevity Controller Public Index v0
 
-Date: 2026-04-11
+Date: 2026-04-21
 
-Updated: 2026-04-20
+Updated: 2026-04-21
 
 ## Purpose
 
@@ -93,6 +93,11 @@ Public Synapse project:
 
 - `Partial Reprogramming Controller Public Artifacts`
 - https://www.synapse.org/Synapse:syn74240566
+
+Published public artifact index:
+
+- `controller-ocular-public-artifact-index-v2.md`
+- https://www.synapse.org/Synapse:syn74531916
 
 Public ocular benchmark pack:
 
@@ -222,17 +227,19 @@ As of this index:
 The next public hardening pass should be:
 
 1. keep npm releases aligned with the public README and package docs
-2. publish a GitHub release from this repo, not the private workspace
-3. add a Hugging Face dataset card only if we want a dataset-native mirror
+2. publish future GitHub releases from this repo, not the private workspace
+3. add a Hugging Face dataset card only if a dataset-native mirror becomes useful
 4. add a short "How to cite / how to inspect" section to each package README
-5. keep public language centered on evidence boundaries, not therapy claims
+5. keep the Synapse public index current whenever public shelf contents change
+6. keep public language centered on evidence boundaries, not therapy claims
 
-## Citation
+## Citation And Inspection
 
-Cite the exact public surfaces:
+Cite or inspect the exact public surfaces:
 
 - DOI: https://doi.org/10.5281/zenodo.19633942
 - GitHub: https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks
+- Synapse public artifact index: https://www.synapse.org/Synapse:syn74531916
 - Synapse benchmark pack: https://www.synapse.org/Synapse:syn74252747
 - Synapse world-share pack: https://www.synapse.org/Synapse:syn74260927
 - npm package entry point: `controller-benchmark`
