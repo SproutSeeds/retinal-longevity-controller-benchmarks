@@ -6,7 +6,7 @@ Date: 2026-04-20
 
 The Ocular Longevity Controller is public benchmark infrastructure for asking what eye-aging and restoration-like claims are allowed to mean.
 
-It does not claim a therapy. It creates an auditable decision layer that separates:
+It is not a therapy claim. It creates an auditable decision layer that separates:
 
 - supported evidence
 - support-only context
