@@ -1,0 +1,40 @@
+{
+  "id": "CX004-RESOLUTION-ANALYSIS-20261017-V1",
+  "frozen_before_new_outcomes": true,
+  "prior_exposure": "Previous public-reuse outcomes, source schemas and the newly recovered PNAS SI were inspected. SI establishes dual guides per targeting vector; exact author cell assignment thresholds remain unspecified.",
+  "claim_level": "Heuristic",
+  "seed": 171026,
+  "guide_revision": {
+    "reason": "The original single-guide dominance rule may reject intended paired-guide cells. Aggregate paired guides by target and machinery before dominance filtering.",
+    "thresholds": [[5,0.8],[3,0.7],[10,0.9]],
+    "primary": "sum of both guides >=5 UMIs; target sum >=80% of all guide UMIs; winning machinery must agree with the cell; require >=1 UMI from both expected targeting guides. NT guides are pooled, with at least two distinct NT guides detected; exact NT vector pairing is unavailable.",
+    "sensitivities": "Report the primary target-summed rule without requiring both guide detections, plus permissive/strict paired rules. Never present these as original author assignments.",
+    "effects": "Minimum 20 cells and 20 machinery-matched NT cells. Reuse previous measured pseudobulk CPM and passage-axis definitions. No donor-level inference from cell or gene counts.",
+    "retained_negative": "Report all four published priority hits, target expression direction, unassigned cells and disagreement with the previous single-guide rule."
+  },
+  "ocular": {
+    "source": "GSE304038, mouse RPE",
+    "contrasts": "old untreated-young; old OSK-old vector; old vector-old untreated; old OSK-young. Preserve distinct cohorts.",
+    "sensitivity": "CPM thresholds 1,5,10 in both age-reference means; Pearson and Spearman; exclusion of fixed cycle and reprogramming panels; all single-library leave-one-out contrasts. Libraries are not assumed independent animals.",
+    "interpretation": "Cohort shifts are a diagnostic, not corrected away. Shared-baseline correlations are labeled algebraically coupled and cannot serve as independent evidence."
+  },
+  "human_model": {
+    "task": "SRSF1 versus BFP at 5d on/2d off, using 3 donors and all matched technical libraries.",
+    "model": "StandardScaler fit only to two training donors; LogisticRegression C=1 balanced, seed171026; test the third donor; repeat all three folds without tuning.",
+    "features": "Fixed identity, reprogramming, cycle and stress panels; compare cycle-excluded and depth/detected-gene-only variants.",
+    "control": "Enumerate all within-donor 2-versus-2 label assignments if the admitted design is exactly 3 donors with 4 libraries each; else retain a documented permutation hold.",
+    "authority": "Treatment recognition in a small within-study donor holdout; neither biological-age prediction nor independent study validation or efficacy. Replicate libraries cannot increase donor sample size."
+  },
+  "synthetic": {
+    "question": "How do donor clustering and false positives change rare-state sampling interpretations?",
+    "prevalences": [0.001,0.01,0.05],
+    "latent_intraclass_correlations": [0,0.01,0.05,0.1],
+    "total_cells": 1200,
+    "donors": [1,3,6],
+    "sensitivity": 0.8,
+    "method": "Beta-binomial latent donor prevalence; conditional detection sensitivity; Gauss-Jacobi integration with independent-donor products; seeded Monte Carlo checks. Clustering parameters are hypothetical.",
+    "specificities": [0.99,0.999,0.9999],
+    "authority": "Synthetic only. No simulated cell or model prediction can close an observed biological readout."
+  },
+  "promotion_gate": "No current R01-R04 promotion without matched observed human late and recovery data. Larger training requires an independently held-out compatible study and improvement over nuisance baselines."
+}

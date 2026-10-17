@@ -1,0 +1,23 @@
+{
+  "claim_level": "Conjecture",
+  "status": "planning quantities; no quotes, orders or arrangements",
+  "donors": 3,
+  "pilot_rows": [
+    {"day": 0, "reference": 1, "induced_or_continued": 0, "withdrawal": 0},
+    {"day": 17, "reference": 1, "induced_or_continued": 1, "withdrawal": 0},
+    {"day": 20, "reference": 1, "induced_or_continued": 1, "withdrawal": 1},
+    {"day": 28, "reference": 1, "induced_or_continued": 1, "withdrawal": 1},
+    {"day": 35, "reference": 1, "induced_or_continued": 0, "withdrawal": 1}
+  ],
+  "pilot_libraries_per_donor": 11,
+  "pilot_libraries": 33,
+  "full_ladder_extra_days": [8, 10, 13, 15],
+  "full_ladder_extra_conditions_per_day": 2,
+  "full_ladder_extra_libraries": 24,
+  "full_ladder_libraries": 57,
+  "optional_day49_extra_conditions": 2,
+  "optional_day49_extra_libraries": 6,
+  "unit_costs": null,
+  "total_cost": null,
+  "power_status": "Donor count is a feasibility assumption; confirmatory count requires pilot donor variance and effect/precision targets."
+}

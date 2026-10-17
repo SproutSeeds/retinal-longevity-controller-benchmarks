@@ -1,0 +1,323 @@
+{
+  "artifact_hashes": {
+    "analysis-contract.json": "cdb36413c6b9e245f7bbf0873260135db9ebb586daf6d86f72a309b082a25cbb",
+    "analyze.py": "009208e5f2f7c119aaf4a0eb6e49141fb726f3de9c725f91ae179b2c7aa06b77",
+    "clustered-sampling-results.json": "36b7e5445ad4c9d155a641770ec43f1cc1740d36e1cadf844e318219d8887c0a",
+    "donor-model-results.json": "0e8003c09602848198168e5d9d83076e60c5c69aab5e9c6a45b5eb4546512b06",
+    "input-files.json": "b4b6b4eaa565d3bb3b354a8bcd9a8d63c9a227467dbb7ae11c7d9fd3fec2d369",
+    "liver-contract.json": "6f8af20cd05afb8a577b5e9e48d8e3411e099cc18c6d7514f87d920f99a86138",
+    "liver-withdrawal-results.json": "88255aa7789afa5648eb7ae53102cb95adb61290de3665c907dae26dd553456f",
+    "ocular-sensitivity-results.json": "342a251407ee3e0fabe92678ff797d8a818e9aafc97c18aab61edf1439eeba0c",
+    "paired-guide-results.json": "aff25f0d90cb4459f375dca7592fd363d017cd01865106f0571465f5801ae6ea",
+    "panels.json": "271fd952e5057580d705ce9b0d0e0209d6ebdbdf66589db6ff2df52dcabd852e",
+    "sample-metadata.json": "0b907b9f44c26282b7ac9febf7b645b5875f937da0e33899baddc1ef6781aab9",
+    "source-resolution.json": "8e6e17702b3c80d1152e993bf6df51e1984206614a2eb5fd88cedb7465da7a59"
+  },
+  "checks": [
+    {
+      "name": "guides_contract_bound",
+      "status": "PASS"
+    },
+    {
+      "name": "guides_claim_bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "donor_contract_bound",
+      "status": "PASS"
+    },
+    {
+      "name": "donor_claim_bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "ocular_contract_bound",
+      "status": "PASS"
+    },
+    {
+      "name": "ocular_claim_bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic_contract_bound",
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic_claim_bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "liver_contract_bound",
+      "status": "PASS"
+    },
+    {
+      "name": "liver_claim_bounded",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_all_cells_accounted",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_incomplete_pairs_excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_effects_count",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_controls_and_cell_floor",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_finite_correlations",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_published_priorities_all_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_True_assignment_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_all_cells_accounted",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_incomplete_pairs_excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_effects_count",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_controls_and_cell_floor",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_finite_correlations",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_published_priorities_all_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_3_True_assignment_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_all_cells_accounted",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_incomplete_pairs_excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_effects_count",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_controls_and_cell_floor",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_finite_correlations",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_published_priorities_all_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_10_True_assignment_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_all_cells_accounted",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_incomplete_pairs_excluded",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_effects_count",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_controls_and_cell_floor",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_finite_correlations",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_published_priorities_all_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "guide_5_False_assignment_reconciliation",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_primary_count",
+      "status": "PASS"
+    },
+    {
+      "name": "donor_units_3_not_12",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_AG12657_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_AG13369_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_AG16359_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_each_library_tested_once",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_216_balanced_controls",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_negative_control_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "depth_only_three_fold_average",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_AG12657_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_AG13369_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_AG16359_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_each_library_tested_once",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_216_balanced_controls",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_negative_control_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_three_fold_average",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_AG12657_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_AG13369_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_AG16359_no_donor_leak",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_each_library_tested_once",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_216_balanced_controls",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_negative_control_mean",
+      "status": "PASS"
+    },
+    {
+      "name": "expression_without_cycle_three_fold_average",
+      "status": "PASS"
+    },
+    {
+      "name": "RPE_six_frozen_sensitivities",
+      "status": "PASS"
+    },
+    {
+      "name": "RPE_every_library_omitted_once",
+      "status": "PASS"
+    },
+    {
+      "name": "RPE_discordant_signal_retained",
+      "status": "PASS"
+    },
+    {
+      "name": "synthetic_separate_authority",
+      "status": "PASS"
+    },
+    {
+      "name": "36_clustered_scenarios",
+      "status": "PASS"
+    },
+    {
+      "name": "MonteCarlo_integration_agrees",
+      "status": "PASS"
+    },
+    {
+      "name": "quadrature_converges",
+      "status": "PASS"
+    },
+    {
+      "name": "fixed_total_cells",
+      "status": "PASS"
+    },
+    {
+      "name": "independent_closed_form",
+      "status": "PASS"
+    },
+    {
+      "name": "false_positive_formula",
+      "status": "PASS"
+    },
+    {
+      "name": "liver_observed_count_accounted",
+      "status": "PASS"
+    },
+    {
+      "name": "liver_nonempty_measured",
+      "status": "PASS"
+    },
+    {
+      "name": "all_readouts_stay_open",
+      "status": "PASS"
+    },
+    {
+      "name": "no_global_absence_claim",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified",
+  "passed": 75,
+  "scope": "Computational provenance, arithmetic and separation checks only. Biological replacement remains INCONCLUSIVE.",
+  "status": "PASS",
+  "total": 75
+}

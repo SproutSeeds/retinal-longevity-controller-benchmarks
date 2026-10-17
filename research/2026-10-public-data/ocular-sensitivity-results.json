@@ -1,0 +1,344 @@
+{
+  "PCA": {
+    "scores": [
+      {
+        "PC1": -26.600961432329093,
+        "PC2": -1.4464804813173937,
+        "sample": "Young-rep1"
+      },
+      {
+        "PC1": -19.475002938624435,
+        "PC2": -10.710785451099175,
+        "sample": "Young-rep2"
+      },
+      {
+        "PC1": -2.287213495892909,
+        "PC2": -18.097855384971325,
+        "sample": "Young-rep3"
+      },
+      {
+        "PC1": -44.55608617886216,
+        "PC2": 8.454729769050267,
+        "sample": "Young-rep4"
+      },
+      {
+        "PC1": -61.426401241885316,
+        "PC2": -19.18295918652221,
+        "sample": "Young-rep5"
+      },
+      {
+        "PC1": -37.180831033861786,
+        "PC2": -6.702388130157858,
+        "sample": "Young-rep6"
+      },
+      {
+        "PC1": -74.24884047259806,
+        "PC2": 9.475311781614083,
+        "sample": "Young-rep7"
+      },
+      {
+        "PC1": -20.32036072532971,
+        "PC2": 29.558898758340174,
+        "sample": "Old-rep1"
+      },
+      {
+        "PC1": 12.90107208292186,
+        "PC2": -12.900288724623442,
+        "sample": "Old-rep2"
+      },
+      {
+        "PC1": 4.320501353828339,
+        "PC2": -10.893034271005684,
+        "sample": "Old-rep3"
+      },
+      {
+        "PC1": 58.78823817597955,
+        "PC2": -13.579072162059438,
+        "sample": "Old-rep4"
+      },
+      {
+        "PC1": -37.41127221886926,
+        "PC2": 8.61442688187786,
+        "sample": "Old-Control-rep1"
+      },
+      {
+        "PC1": 47.545427298004654,
+        "PC2": 55.739665273203656,
+        "sample": "Old-Control-rep2"
+      },
+      {
+        "PC1": -16.781477434422357,
+        "PC2": -9.31475815132921,
+        "sample": "Old-Control-rep3"
+      },
+      {
+        "PC1": 56.68349334911482,
+        "PC2": -35.30982537486377,
+        "sample": "Old-OSK-rep1"
+      },
+      {
+        "PC1": 72.29591108558876,
+        "PC2": 3.0721435191532844,
+        "sample": "Old-OSK-rep2"
+      },
+      {
+        "PC1": 55.83552458251161,
+        "PC2": -19.62495401130366,
+        "sample": "Old-OSK-rep3"
+      },
+      {
+        "PC1": 31.918279244725458,
+        "PC2": 42.847225346013836,
+        "sample": "Old-OSK-rep4"
+      }
+    ],
+    "variance_ratio": [
+      0.5651348401287586,
+      0.14996846789799223
+    ]
+  },
+  "claim_level": "Heuristic",
+  "contract_sha256": "cdb36413c6b9e245f7bbf0873260135db9ebb586daf6d86f72a309b082a25cbb",
+  "coupling_warning": "age=(old-young), vector_shift=(vector-old) share old with opposite signs; their correlation is algebraically coupled, not independent evidence of a batch effect.",
+  "evidence_class": "derived_observed",
+  "groups": {
+    "OSK": [
+      "Old-OSK-rep1",
+      "Old-OSK-rep2",
+      "Old-OSK-rep3",
+      "Old-OSK-rep4"
+    ],
+    "old": [
+      "Old-rep1",
+      "Old-rep2",
+      "Old-rep3",
+      "Old-rep4"
+    ],
+    "vector": [
+      "Old-Control-rep1",
+      "Old-Control-rep2",
+      "Old-Control-rep3"
+    ],
+    "young": [
+      "Young-rep1",
+      "Young-rep2",
+      "Young-rep3",
+      "Young-rep4",
+      "Young-rep5",
+      "Young-rep6",
+      "Young-rep7"
+    ]
+  },
+  "leave_one_library_out": [
+    {
+      "group": "young",
+      "omitted": "Young-rep1",
+      "pearson_r": 0.6613424162375293,
+      "spearman_r": 0.5819273311440333
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep2",
+      "pearson_r": 0.6874367012743885,
+      "spearman_r": 0.6083023947856546
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep3",
+      "pearson_r": 0.7066495933629735,
+      "spearman_r": 0.6174802869156139
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep4",
+      "pearson_r": 0.6416673349620364,
+      "spearman_r": 0.5702194856133198
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep5",
+      "pearson_r": 0.6445655293552269,
+      "spearman_r": 0.546991011447945
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep6",
+      "pearson_r": 0.6644752313901429,
+      "spearman_r": 0.5897249265487889
+    },
+    {
+      "group": "young",
+      "omitted": "Young-rep7",
+      "pearson_r": 0.5993316597470457,
+      "spearman_r": 0.5150512354702887
+    },
+    {
+      "group": "old",
+      "omitted": "Old-rep1",
+      "pearson_r": 0.7309627459303912,
+      "spearman_r": 0.6136981223363462
+    },
+    {
+      "group": "old",
+      "omitted": "Old-rep2",
+      "pearson_r": 0.6487441224709191,
+      "spearman_r": 0.5894766628411265
+    },
+    {
+      "group": "old",
+      "omitted": "Old-rep3",
+      "pearson_r": 0.6661376902206064,
+      "spearman_r": 0.6009962621145766
+    },
+    {
+      "group": "old",
+      "omitted": "Old-rep4",
+      "pearson_r": 0.5086447569828588,
+      "spearman_r": 0.43155650381047445
+    },
+    {
+      "group": "vector",
+      "omitted": "Old-Control-rep1",
+      "pearson_r": 0.5992921829953838,
+      "spearman_r": 0.5029032449188221
+    },
+    {
+      "group": "vector",
+      "omitted": "Old-Control-rep2",
+      "pearson_r": 0.7093543768835414,
+      "spearman_r": 0.6211854164665429
+    },
+    {
+      "group": "vector",
+      "omitted": "Old-Control-rep3",
+      "pearson_r": 0.5495464591633995,
+      "spearman_r": 0.4364330581715615
+    },
+    {
+      "group": "OSK",
+      "omitted": "Old-OSK-rep1",
+      "pearson_r": 0.6644575936042696,
+      "spearman_r": 0.5944733077837566
+    },
+    {
+      "group": "OSK",
+      "omitted": "Old-OSK-rep2",
+      "pearson_r": 0.6336104280986814,
+      "spearman_r": 0.5543705106263066
+    },
+    {
+      "group": "OSK",
+      "omitted": "Old-OSK-rep3",
+      "pearson_r": 0.683841048709593,
+      "spearman_r": 0.6162206633437272
+    },
+    {
+      "group": "OSK",
+      "omitted": "Old-OSK-rep4",
+      "pearson_r": 0.6357541504001135,
+      "spearman_r": 0.5077994564232706
+    }
+  ],
+  "library_totals": {
+    "Old-Control-rep1": 25130319.0,
+    "Old-Control-rep2": 25944369.0,
+    "Old-Control-rep3": 26037720.0,
+    "Old-OSK-rep1": 21248928.0,
+    "Old-OSK-rep2": 21947814.0,
+    "Old-OSK-rep3": 18104828.0,
+    "Old-OSK-rep4": 28489232.0,
+    "Old-rep1": 20458057.0,
+    "Old-rep2": 19167774.0,
+    "Old-rep3": 31365638.0,
+    "Old-rep4": 32348136.0,
+    "Young-rep1": 31914550.0,
+    "Young-rep2": 30966050.0,
+    "Young-rep3": 24728173.0,
+    "Young-rep4": 26242376.0,
+    "Young-rep5": 19629563.0,
+    "Young-rep6": 20941456.0,
+    "Young-rep7": 19893375.0
+  },
+  "sensitivities": [
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6630782380744671,
+        "spearman_r": 0.5806498826664941
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.45880952460956453,
+        "spearman_r": -0.25695551916057596
+      },
+      "baseline_CPM_threshold": 1,
+      "exclude_fixed_cycle_and_reprogramming_panels": false,
+      "genes": 13327
+    },
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6632808499010553,
+        "spearman_r": 0.5795184176967529
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.45651938824520216,
+        "spearman_r": -0.2544554260371487
+      },
+      "baseline_CPM_threshold": 1,
+      "exclude_fixed_cycle_and_reprogramming_panels": true,
+      "genes": 13305
+    },
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6836737151272496,
+        "spearman_r": 0.598047182424894
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.46438190924785816,
+        "spearman_r": -0.24269971481143784
+      },
+      "baseline_CPM_threshold": 5,
+      "exclude_fixed_cycle_and_reprogramming_panels": false,
+      "genes": 10795
+    },
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6829076288403501,
+        "spearman_r": 0.5973915806557274
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.46296825166326444,
+        "spearman_r": -0.24147555545550847
+      },
+      "baseline_CPM_threshold": 5,
+      "exclude_fixed_cycle_and_reprogramming_panels": true,
+      "genes": 10785
+    },
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6939452436919437,
+        "spearman_r": 0.608046469970908
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.4514489789013511,
+        "spearman_r": -0.23100312077766436
+      },
+      "baseline_CPM_threshold": 10,
+      "exclude_fixed_cycle_and_reprogramming_panels": false,
+      "genes": 9214
+    },
+    {
+      "age_vs_OSK_vector": {
+        "pearson_r": 0.6932628735226973,
+        "spearman_r": 0.6077167958967445
+      },
+      "age_vs_vector_old_algebraically_coupled": {
+        "pearson_r": -0.4501006434401906,
+        "spearman_r": -0.2303817156899207
+      },
+      "baseline_CPM_threshold": 10,
+      "exclude_fixed_cycle_and_reprogramming_panels": true,
+      "genes": 9208
+    }
+  ],
+  "source_sha256": "766c0880f8b54177ec12a36c21a9b66eeade73504af1b5bcd1137600e694bfc6",
+  "units": "gene-wise log2(CPM+1) contrasts; no biological replicate p-values"
+}

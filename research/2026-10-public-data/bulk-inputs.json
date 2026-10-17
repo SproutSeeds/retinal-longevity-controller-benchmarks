@@ -1,0 +1,26 @@
+{
+  "GSE304038": {
+    "columns": 18,
+    "duplicate_library_matches": [],
+    "matched_metadata_records": 18,
+    "matrix_file": "GSE304038_1_mRPE_Young_Old_Old-Control_Old-OSK_merged_featureCounts.csv.gz",
+    "matrix_sha256": "766c0880f8b54177ec12a36c21a9b66eeade73504af1b5bcd1137600e694bfc6",
+    "unmatched_columns": []
+  },
+  "GSE304043": {
+    "columns": 7,
+    "duplicate_library_matches": [],
+    "matched_metadata_records": 7,
+    "matrix_file": "GSE304043_6_mRPE_Old-GFP_Old-GSTA4_merged_featureCounts.csv.gz",
+    "matrix_sha256": "faa8b34c56cb715a301db4ca4a4eeb6036383ebcce4e7b2e2d1f0b7e45d09a39",
+    "unmatched_columns": []
+  },
+  "GSE325735": {
+    "columns": 807,
+    "duplicate_library_matches": [],
+    "matched_metadata_records": 807,
+    "matrix_file": "GSE325735_human_raw_counts.txt.gz",
+    "matrix_sha256": "8f1d726665a18a0f92285d790014077953be1e0733c93efc92939a1c4090046d",
+    "unmatched_columns": []
+  }
+}

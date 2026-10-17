@@ -1,0 +1,288 @@
+{
+  "files": [
+    {
+      "bytes": 5430704,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "geo350289.txt",
+      "role": "exact public annotations",
+      "sha256": "1d21312d05e453faa247e5176175285daad9e16ba94c618c9b9ba124d63a899f",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 2097,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "geo350289-files.html",
+      "role": "file inventory",
+      "sha256": "5b7fa581fcf68a1e1032a970d93bafed6836594d97aa61516a361e2b27a49e3c",
+      "status": "retrieved",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/"
+    },
+    {
+      "bytes": 551908,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "srsf1.html",
+      "role": "article and supplement links",
+      "sha256": "93e93ecc62123eda94d6d62738fd534e6e00cc1d0e45df607cd55bf3f0965cee",
+      "status": "retrieved",
+      "url": "https://www.nature.com/articles/s43587-026-01234-8"
+    },
+    {
+      "bytes": 7343154,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "srsf1-supp.pdf",
+      "role": "supplementary information",
+      "sha256": "e661a26a0f2ad745f8064b9c270bece69e7ef7f3920c8313e03fb2f28c8c56dd",
+      "status": "retrieved",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM1_ESM.pdf"
+    },
+    {
+      "bytes": 615730,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "srsf1-review.pdf",
+      "role": "public peer review history",
+      "sha256": "d70ba1c1e384335506b770af4da4ee02d1422ca8e84e20682f9a540917702d34",
+      "status": "retrieved",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM3_ESM.pdf"
+    },
+    {
+      "bytes": 1525,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "clock-tree.json",
+      "role": "model and calibration file inventory",
+      "sha256": "987c3121db8df86d9054d099dc47915b5d5d677e94626f4869ad00a930066d11",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/saschajung/Clock/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 2811,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "stamp-tree.json",
+      "role": "linked screening code inventory",
+      "sha256": "cab36db0419d634ea5f6f5ba8d7aa9612eb7a9b373975de34492289181ae2e70",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/pranamanam/STAMPScreen/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 1817,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "pnas-supp.pdf",
+      "reason": "response is not a PDF",
+      "role": "original guide calling methods",
+      "sha256": "7fa377c7adc2e286fd353e0b780867e86f826182ce972f31a7410ad50536382d",
+      "status": "access_failure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/12799168/bin/pnas.2515183123.sapp.pdf"
+    },
+    {
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "pnas-oa.xml",
+      "reason": "HTTP Error 404: Not Found",
+      "role": "OA file location",
+      "status": "access_failure",
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=PMC12799168"
+    },
+    {
+      "bytes": 3596,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "figshare30898748.json",
+      "role": "perturbation data inventory",
+      "sha256": "79ced38c3436700c9af9b101e3336d1bb5fd0e10d1f52ff8e9493ad221c2f5da",
+      "status": "retrieved",
+      "url": "https://api.figshare.com/v2/articles/30898748"
+    },
+    {
+      "bytes": 2625,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "ocular-preprint.json",
+      "role": "version and publication mapping",
+      "sha256": "eb586df2af64a4fce2906ab9843f0221123db537d5f8b0165eee99f82e8c9231",
+      "status": "retrieved",
+      "url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.08.30.673239"
+    },
+    {
+      "bytes": 639643,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "ocular-preprint.html",
+      "role": "cohort and transgene methods",
+      "sha256": "67decb9c41a061468f49e3137ffc4f8676f907684757b4961665e865a96c8cff",
+      "status": "retrieved",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.08.30.673239v1.full"
+    },
+    {
+      "bytes": 848980,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "epidermal.html",
+      "role": "factor-off analogue eligibility",
+      "sha256": "3e65687cd2d83f1e515b0055880cbddf051b869c33f942ee9ddabc3b969feec6",
+      "status": "retrieved",
+      "url": "https://www.nature.com/articles/s41467-026-69047-2"
+    },
+    {
+      "bytes": 3343,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "epidermal-tree.json",
+      "role": "sample conditions and analysis",
+      "sha256": "d0ac7da622e59874b6cde895ac6e5da0984de1970d48af95ee8c097576146111",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/CB-postech/scRNA-seq_mouse_Epi-iOSKM/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 553091,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "neural.html",
+      "role": "neurogenic niche analogue",
+      "sha256": "1364110e9e142ab1c1aa56b5935cc58ef7cbe6b9953ee88f161a00173ad734ef",
+      "status": "retrieved",
+      "url": "https://www.nature.com/articles/s43587-024-00594-3"
+    },
+    {
+      "bytes": 31858553,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "gse276656.txt",
+      "role": "engram multiome design",
+      "sha256": "da4779e5724aed7eb40d06d6707f30ff973c8800d69936091807a571805b6e85",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276656&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 33417350,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "gse224438.txt",
+      "role": "neurogenic niche design",
+      "sha256": "3cd0ca05c2a7823516d5def176ae5b4148c3d7788beeb1c67d61ac9f8f499eff",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224438&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 32016868,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "gse245385.txt",
+      "role": "neurogenic niche companion design",
+      "sha256": "0f48c55de16c3e3ed02f9a4a73e3c4728ff35dec9bb873260b0822f73bc3fecf",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 2238136,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "gse297233.txt",
+      "role": "short-exposure human comparator",
+      "sha256": "75342ae20bfd2a520542cd033ea4b81ccb1c46f367e7999f464e276a531075ec",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233&targ=all&form=text&view=full"
+    },
+    {
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "pnas-oa-new.xml",
+      "reason": "HTTP Error 404: Not Found",
+      "role": "alternate OA file locator",
+      "status": "access_failure",
+      "url": "https://pmc.ncbi.nlm.nih.gov/utils/oa/oa.fcgi?id=PMC12799168"
+    },
+    {
+      "bytes": 155426,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "liver.xml",
+      "role": "lineage and factor-off mouse liver analogue",
+      "sha256": "26af4d2bb54c85371861be75ee9e6b72f38d708cf7ddc1a9196c0a9729d20bb5",
+      "status": "retrieved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9807246/fullTextXML"
+    },
+    {
+      "bytes": 36523122,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "pnas-supp-europe.zip",
+      "role": "alternate public supplement retrieval",
+      "sha256": "4299dd427c3e70f83ed176e1e07408a5cd7ca5fb7a2f1f3a7b2601488f97d666",
+      "status": "retrieved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12799168/supplementaryFiles"
+    },
+    {
+      "bytes": 187,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "ocular-metadata.json",
+      "role": "public preprint metadata search",
+      "sha256": "fe80a10d204b59ce957662b75a58e0e2669db5c6ae3ab8fae5a72352d5292c2d",
+      "status": "retrieved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:2025.08.30.673239&format=json"
+    },
+    {
+      "bytes": 5846,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "epidermal-QC.R",
+      "role": "pinned author sample design code, read only",
+      "sha256": "59171c78abe4bde8b2b8153d1a76260fb458f5ac2d628cd717074bac032124f0",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/CB-postech/scRNA-seq_mouse_Epi-iOSKM/a9862c60d940a38f2a63b179c985025002e5a517/QC1-norm.R"
+    },
+    {
+      "bytes": 287236,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "ocular-source.xml",
+      "role": "author-linked public JATS full text",
+      "sha256": "6c69a9144df294cdd2bea5694d0fb3b0f246c47e2159a4303e0e828163179879",
+      "status": "retrieved",
+      "url": "https://www.biorxiv.org/content/early/2025/09/01/2025.08.30.673239.source.xml"
+    },
+    {
+      "bytes": 24541268,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "gse144600.txt",
+      "role": "observed factor-off single-cell liver design",
+      "sha256": "0e02a93f115faf983e7ae131a2f7d6ee356568efc25c6665fc31f1bf46720a64",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144600&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 6571,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "svz-tree.json",
+      "role": "pinned neural analogue code inventory",
+      "sha256": "c00f38d155909235be3ff30bf3fc9ecf09346fe1a79c5d1d04fe5a9f5fb3da63",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/gitlucyxu/SVZreprogramming/git/trees/011586aea2e8612c794e57d2a260fa1a29d417a0?recursive=1"
+    },
+    {
+      "bytes": 17451,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "svz-cohort2.R",
+      "role": "donor and condition mapping method, read only",
+      "sha256": "321e8ed07f708a82b44d267809a24ed78cd414f6e98cc8123f72d8bfec0adf36",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part1.R"
+    },
+    {
+      "bytes": 5250,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "name": "engram-tree.json",
+      "role": "engram analysis inventory",
+      "sha256": "aa132de887e2af32a1cfa5a9b86aa6b2e1652ec55a86ca7a85ef3e469982b01b",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/cesarsierran/multiome_OSK/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 8351544,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "content_type": null,
+      "http_status": 200,
+      "name": "liver-minus.h5",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_minusDox_filtered_feature_bc_matrix.h5",
+      "role": "small measured mouse factor-off comparator",
+      "sha256": "deceaa290e8144214dc9116bb70769bc1327a118cfba8507fa49817999b3c0ad",
+      "status": "retrieved",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_minusDox_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 6760104,
+      "checked_at_utc": "2026-10-17T15:26:30Z",
+      "content_type": null,
+      "http_status": 200,
+      "name": "liver-plus.h5",
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_plusDox_filtered_feature_bc_matrix.h5",
+      "role": "small measured mouse factor-off comparator",
+      "sha256": "811c707ea9b2b0587dad38becb8e28ae7ab2937f015cf79f188a2de694902df4",
+      "status": "retrieved",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_plusDox_filtered_feature_bc_matrix.h5"
+    }
+  ]
+}

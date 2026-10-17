@@ -1,0 +1,113 @@
+{
+  "authority": "Observed mouse liver snapshot after one day on and one day off. Whole-library mixtures; no independent-donor or human/ocular inference.",
+  "claim_level": "Heuristic",
+  "contract_sha256": "cdb36413c6b9e245f7bbf0873260135db9ebb586daf6d86f72a309b082a25cbb",
+  "evidence_class": "derived_observed",
+  "libraries": [
+    {
+      "condition": "minusDox",
+      "deposited_cells": 8277,
+      "file": "liver-minus.h5",
+      "gene_rows": 27998,
+      "nonempty_cells": 8277,
+      "panels": {
+        "cycle": {
+          "fraction_any_marker_detected": 0.03104989730578712,
+          "genes": [
+            "Mki67",
+            "Top2a",
+            "Cdk1",
+            "Pcna"
+          ],
+          "median_log2CP10K": 0.0,
+          "missing_or_ambiguous": []
+        },
+        "hepatic": {
+          "fraction_any_marker_detected": 0.9958922314848375,
+          "genes": [
+            "Alb",
+            "Ttr",
+            "Hnf4a",
+            "Cyp3a11"
+          ],
+          "median_log2CP10K": 2.8420553102311965,
+          "missing_or_ambiguous": []
+        },
+        "plasticity": {
+          "fraction_any_marker_detected": 0.007853086867222423,
+          "genes": [
+            "Afp",
+            "Krt19",
+            "Epcam",
+            "Sox9"
+          ],
+          "median_log2CP10K": 0.0,
+          "missing_or_ambiguous": []
+        }
+      },
+      "posthoc_source_QC_sensitivity": {
+        "authority": "Post hoc source-method sensitivity, not the frozen primary. Paper says reads; this uses deposited UMI counts. Cell-set equivalence is unverified.",
+        "cells": 1261,
+        "mitochondrial_gene_rows": 13,
+        "rule": "At least 2000 deposited counts and at most 45% mitochondrial counts, mt- prefix."
+      },
+      "source_sha256": "deceaa290e8144214dc9116bb70769bc1327a118cfba8507fa49817999b3c0ad",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_minusDox_filtered_feature_bc_matrix.h5",
+      "total_UMIs": 24048653
+    },
+    {
+      "condition": "plusDox_1day_on_1day_off",
+      "deposited_cells": 7765,
+      "file": "liver-plus.h5",
+      "gene_rows": 27998,
+      "nonempty_cells": 7765,
+      "panels": {
+        "cycle": {
+          "fraction_any_marker_detected": 0.08963296844816485,
+          "genes": [
+            "Mki67",
+            "Top2a",
+            "Cdk1",
+            "Pcna"
+          ],
+          "median_log2CP10K": 0.0,
+          "missing_or_ambiguous": []
+        },
+        "hepatic": {
+          "fraction_any_marker_detected": 0.5933032839665164,
+          "genes": [
+            "Alb",
+            "Ttr",
+            "Hnf4a",
+            "Cyp3a11"
+          ],
+          "median_log2CP10K": 0.512985100519391,
+          "missing_or_ambiguous": []
+        },
+        "plasticity": {
+          "fraction_any_marker_detected": 0.03541532517707663,
+          "genes": [
+            "Afp",
+            "Krt19",
+            "Epcam",
+            "Sox9"
+          ],
+          "median_log2CP10K": 0.0,
+          "missing_or_ambiguous": []
+        }
+      },
+      "posthoc_source_QC_sensitivity": {
+        "authority": "Post hoc source-method sensitivity, not the frozen primary. Paper says reads; this uses deposited UMI counts. Cell-set equivalence is unverified.",
+        "cells": 1027,
+        "mitochondrial_gene_rows": 13,
+        "rule": "At least 2000 deposited counts and at most 45% mitochondrial counts, mt- prefix."
+      },
+      "source_sha256": "811c707ea9b2b0587dad38becb8e28ae7ab2937f015cf79f188a2de694902df4",
+      "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE144nnn/GSE144600/suppl/GSE144600_liver4F_SC_plusDox_filtered_feature_bc_matrix.h5",
+      "total_UMIs": 24806605
+    }
+  ],
+  "liver_contract_sha256": "6f8af20cd05afb8a577b5e9e48d8e3411e099cc18c6d7514f87d920f99a86138",
+  "source": "GSE144600",
+  "total_measured_cells": 16042
+}

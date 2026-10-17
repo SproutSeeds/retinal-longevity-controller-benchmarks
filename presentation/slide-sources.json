@@ -1,0 +1,89 @@
+[
+  {
+    "slide": 1,
+    "title": "Retinal longevity and the recovery measurement",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Four questions",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/source-resolution.json"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Public-data foundation",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/SOURCE_AUDIT.md"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Guide correction",
+    "sources": [
+      "https://doi.org/10.1073/pnas.2515183123",
+      "https://doi.org/10.6084/m9.figshare.30898748",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/paired-guide-results.json"
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Ocular endpoint",
+    "sources": [
+      "https://doi.org/10.1101/2025.08.30.673239",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304044",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/ocular-sensitivity-results.json"
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "Treatment-recognition model",
+    "sources": [
+      "https://www.nature.com/articles/s43587-026-01234-8",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/MODEL_CARD.md"
+    ]
+  },
+  {
+    "slide": 7,
+    "title": "Synthetic sampling",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/clustered-sampling-results.json"
+    ]
+  },
+  {
+    "slide": 8,
+    "title": "Observed withdrawal comparator",
+    "sources": [
+      "https://doi.org/10.1016/j.celrep.2022.110730",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE144600",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/liver-withdrawal-results.json"
+    ]
+  },
+  {
+    "slide": 9,
+    "title": "Conditional pilot",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/MEASUREMENT_PLAN.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/budget-quantities.json"
+    ]
+  },
+  {
+    "slide": 10,
+    "title": "Funding sequence",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/MEASUREMENT_PLAN.md"
+    ]
+  },
+  {
+    "slide": 11,
+    "title": "Public review and next evidence",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-public-data/NEXT_STEPS.md"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "PDF_all_pages_visually_inspected": true,
+  "date": "2026-10-17",
+  "embedded_chart_workbooks": 3,
+  "finalizer_structure_layout_font_and_import": "PASS",
+  "native_charts": 3,
+  "native_powerpoint_ui_tested": false,
+  "native_tables": 1,
+  "pdf_sha256": "463657d025cbe6f8ad523005c7f5e7a13a818ad06d226c7094040044095e2821",
+  "pptx_sha256": "0b5e4052cde77bc180879d641a8f6e33d5c87f46286f0650b53bed5ed9f3c8d6",
+  "rendered_page_sha256s": {
+    "slide-01.png": "6b929e92b8e5b3d12327d0c08d6f898437097ffa04c89bb387d178c9e109e153",
+    "slide-02.png": "1175f46a6b95d604aed4361cbe9c339684bb350d85c17f7aae8221701819a8e5",
+    "slide-03.png": "31e77baafc5ed5be4d3ca4d72adf969f9cc6694e632d4926a6cb9ad007a5b8e2",
+    "slide-04.png": "586cefe25e7ed99374dbabe42ca7cf7ee804d3ee447bdc2e1179f7f986c87427",
+    "slide-05.png": "cbb43887c7ce2e3dacdbdc0bec0d842d12f5d2a04f49e144e0cafef5475d0d78",
+    "slide-06.png": "83a29665630aa4f69f5661c5db78819af22f2677b6959c830f7551ade777be1a",
+    "slide-07.png": "75a9ef5681722cb777268fefbe802a56a560ad3fc285526eb507b7f03628dbaf",
+    "slide-08.png": "4e24cfe87ae0bae05a5ad9d516095491fdc12abd686e565715b97613df7891b3",
+    "slide-09.png": "78b7b239f31470cb9189837af145eaf676ea1172f447aa440267b3816027a9bb",
+    "slide-10.png": "9c8f2d95cfc9732427d53d204cda565913d26e08e03676ae4196951c0762f1d8",
+    "slide-11.png": "6ad3f7957ae235ef71e231446f2ec3d4d60346f40ae82b95733637748358ca05"
+  },
+  "slides": 11,
+  "spoken_notes_match": true,
+  "status": "PASS",
+  "visual_findings": "No clipped or overlapping content in the final 11-page PDF. Font substitution in the first candidate was fixed with Liberation Sans and explicit font configuration; plus signs render correctly."
+}

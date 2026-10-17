@@ -1,0 +1,17 @@
+{
+  "id": "CX004-MOUSE-WITHDRAWAL-COMPARATOR-20261017",
+  "claim_level": "Heuristic",
+  "source": "GSE144600",
+  "source_paper": "https://doi.org/10.1016/j.celrep.2022.110730",
+  "question": "Does the public archive contain directly measured cells at an explicitly documented factor-off endpoint?",
+  "source_timing": "Mouse liver, one day on and one day after withdrawal, plus untreated reference. Source-reported 2284 cells; verify deposited matrix dimensions rather than force agreement.",
+  "prior_exposure": "Paper and file URLs inspected; matrices not yet inspected.",
+  "analysis": "Verify hashes, sparse matrix dimensions, nonnegative integer counts, unique sample-scoped barcodes and observed marker distributions. Apply simple library >0 QC only. No cell-type labels are inferred for whole-liver aggregate summaries.",
+  "panels": {
+    "hepatic": ["Alb", "Ttr", "Hnf4a", "Cyp3a11"],
+    "plasticity": ["Afp", "Krt19", "Epcam", "Sox9"],
+    "cycle": ["Mki67", "Top2a", "Cdk1", "Pcna"]
+  },
+  "limits": ["mouse liver rather than human fibroblast or retina", "one early factor-off endpoint", "destructive single-cell snapshot does not follow the same cell", "pooled library composition is not donor replication", "expression panels are uncalibrated diagnostics"],
+  "promotion": "Cannot close any human CX004 readout. Provides a reusable observed withdrawal analogue and methods fixture."
+}

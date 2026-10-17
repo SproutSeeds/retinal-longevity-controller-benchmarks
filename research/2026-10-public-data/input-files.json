@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "accession": "GSE304038",
+      "bytes": 654725,
+      "id": "GSE304038_1_mRPE_Young_Old_Old-Control_Old-OSK_merged_featureCounts.csv.gz",
+      "sha256": "766c0880f8b54177ec12a36c21a9b66eeade73504af1b5bcd1137600e694bfc6",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE304nnn/GSE304038/suppl/GSE304038_1_mRPE_Young_Old_Old-Control_Old-OSK_merged_featureCounts.csv.gz"
+    },
+    {
+      "accession": "GSE304043",
+      "bytes": 309587,
+      "id": "GSE304043_6_mRPE_Old-GFP_Old-GSTA4_merged_featureCounts.csv.gz",
+      "sha256": "faa8b34c56cb715a301db4ca4a4eeb6036383ebcce4e7b2e2d1f0b7e45d09a39",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE304nnn/GSE304043/suppl/GSE304043_6_mRPE_Old-GFP_Old-GSTA4_merged_featureCounts.csv.gz"
+    },
+    {
+      "accession": "GSE325735",
+      "bytes": 3033046,
+      "id": "43587_2026_1234_MOESM15_ESM.xlsx",
+      "sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM15_ESM.xlsx"
+    },
+    {
+      "accession": "GSE325735",
+      "bytes": 26007361,
+      "id": "GSE325735_human_raw_counts.txt.gz",
+      "sha256": "8f1d726665a18a0f92285d790014077953be1e0733c93efc92939a1c4090046d",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/GSE325735_human_raw_counts.txt.gz"
+    },
+    {
+      "accession": "figshare:30898748",
+      "bytes": 1426871504,
+      "id": "exp3_merged_not_normalized.h5ad",
+      "sha256": "be24500e4f0821885b75e54d12cc57b1e3a3881ae97cc6ff10fb99a0190ceb07",
+      "url": "https://ndownloader.figshare.com/files/60428597"
+    }
+  ]
+}

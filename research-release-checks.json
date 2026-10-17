@@ -1,0 +1,624 @@
+{
+  "checks": [
+    {
+      "name": "sha256:.github/workflows/research-checks.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:.github/workflows/research-checks.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:.github/workflows/research-checks.yml",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:.gitignore",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:CONTRIBUTING.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:CONTRIBUTING.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:CONTRIBUTING.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:LICENSE",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-public-data/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:presentation/retinal-public-data.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:presentation/retinal-public-data.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-public-data/SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-public-data/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:CONTRIBUTING.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:docs/previous-overview-2026-10-17.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:docs/ocular-controller-public-index-v0.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:LICENSE",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-public-data/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:docs/previous-overview-2026-10-17.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:docs/previous-overview-2026-10-17.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:docs/previous-overview-2026-10-17.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:docs/previous-overview-2026-10-17.md:../docs/ocular-longevity-controller-one-page-v0.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:docs/previous-overview-2026-10-17.md:../docs/ocular-controller-public-index-v0.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:docs/previous-overview-2026-10-17.md:../docs/ocular-public-use-router-v0.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/retinal-public-data.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/retinal-public-data.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/MODEL_CARD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/MODEL_CARD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/MODEL_CARD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:paired-guide-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:donor-model-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:MODEL_CARD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/budget-quantities.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/budget-quantities.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/budget-quantities.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/bulk-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/bulk-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/bulk-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/clustered-sampling-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/clustered-sampling-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/clustered-sampling-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/donor-model-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/donor-model-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/donor-model-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/guide-call-comparison.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/liver-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/liver-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/liver-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/liver-withdrawal-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/liver-withdrawal-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/liver-withdrawal-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/minusDox-cell-panels.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/ocular-sensitivity-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/ocular-sensitivity-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/ocular-sensitivity-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/paired-guide-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/paired-guide-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/paired-guide-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/plusDox_1day_on_1day_off-cell-panels.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/release_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/release_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/release_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/source-resolution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/source-resolution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/source-resolution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-public-data/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-public-data/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-public-data/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "pilot_arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "full_ladder_arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "optional_extension_arithmetic",
+      "status": "PASS"
+    },
+    {
+      "name": "no_invented_cost",
+      "status": "PASS"
+    },
+    {
+      "name": "eleven_slides",
+      "status": "PASS"
+    },
+    {
+      "name": "three_native_charts",
+      "status": "PASS"
+    },
+    {
+      "name": "eleven_notes",
+      "status": "PASS"
+    },
+    {
+      "name": "spoken_txt_matches_md",
+      "status": "PASS"
+    }
+  ],
+  "passed": 154,
+  "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
+  "status": "PASS",
+  "total": 154
+}
