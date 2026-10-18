@@ -1,0 +1,56 @@
+{
+  "claim_level": "Verified",
+  "code_sha256": {
+    "cohort1_analysis.py": "770f4fe57eae1bc1ae64f1c95942693526b6a191ea36e9efe1a46edd696ae439",
+    "neural_analysis.py": "96791fe8bb0775958b9d98094504dd3ddef7656a212c8144487d6412848538e7",
+    "reproduce.py": "2ebe46302a85b016a1c970e0d4132c03de764818dc95da7053de9e41c8eafa7e"
+  },
+  "comparisons": [
+    {
+      "exact_bytes_equal": true,
+      "file": "cohort2-results.json",
+      "reference_sha256": "b0e0f92ff90a6b6223fcbab7a75acbecbd91df4fe32e8e6369360f74c680f26b",
+      "replay_sha256": "b0e0f92ff90a6b6223fcbab7a75acbecbd91df4fe32e8e6369360f74c680f26b"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "cohort1-results.json",
+      "reference_sha256": "7ab67d0efc48c49388e41f093c586502e0a937ae4191d77a750c4d6d4efca2fd",
+      "replay_sha256": "7ab67d0efc48c49388e41f093c586502e0a937ae4191d77a750c4d6d4efca2fd"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "cross-cohort-results.json",
+      "reference_sha256": "4f2f63bbed2efd30deb3291ec810789aba7c9380eae92738a657e7da11edfe13",
+      "replay_sha256": "4f2f63bbed2efd30deb3291ec810789aba7c9380eae92738a657e7da11edfe13"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "animal-celltype-qc.tsv",
+      "reference_sha256": "589e100518d419c1568388bb1b672e098b736d8d08b5c3696b65f7e77f321ed3",
+      "replay_sha256": "589e100518d419c1568388bb1b672e098b736d8d08b5c3696b65f7e77f321ed3"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "composition.tsv",
+      "reference_sha256": "16bffc8f0b8dda11c602b234aae0745978a74ec2353409ece12a87fc46e27cf6",
+      "replay_sha256": "16bffc8f0b8dda11c602b234aae0745978a74ec2353409ece12a87fc46e27cf6"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "cohort1-animal-celltype-qc.tsv",
+      "reference_sha256": "bcbc2172b72d7354d8ee5bc388183ab7b28fde16a8fb416c17d6e6c3f58ecf27",
+      "replay_sha256": "bcbc2172b72d7354d8ee5bc388183ab7b28fde16a8fb416c17d6e6c3f58ecf27"
+    },
+    {
+      "exact_bytes_equal": true,
+      "file": "cohort1-composition.tsv",
+      "reference_sha256": "a629204f835bdc33e245f55dce5e798156a2e2ff0d37a78f2e976eb63ab9e7dd",
+      "replay_sha256": "a629204f835bdc33e245f55dce5e798156a2e2ff0d37a78f2e976eb63ab9e7dd"
+    }
+  ],
+  "historical_git_proof_rerun": false,
+  "mode": "archived_hash_replay",
+  "scope": "Pinned software and exact same input snapshots on this execution environment. Seven derived artifacts replay byte-identically; execution-mode receipts are excluded because they correctly distinguish historical git checking from portable hash replay.",
+  "status": "PASS"
+}

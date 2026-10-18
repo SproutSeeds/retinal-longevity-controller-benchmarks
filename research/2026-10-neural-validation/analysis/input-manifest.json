@@ -1,0 +1,47 @@
+{
+  "claim_level": "Verified",
+  "scope": "Public source inventory for the frozen animal-level analysis; raw source files stay in a separate temporary cache.",
+  "sources": [
+    {
+      "id": "svz_iOSKM_cohort1_toshare.rds",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content",
+      "sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+      "md5": "2dc0d3b98a3d5b257710352b2a69156d",
+      "bytes": 94079882,
+      "license": "CC-BY-4.0",
+      "max_bytes": 110000000,
+      "role": "Separately admitted cohort1 raw RNA and exact animal/cell metadata."
+    },
+    {
+      "id": "svz_iOSKM_cohort2_toshare.rds",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort2_toshare.rds/content",
+      "sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+      "md5": "8259ae16616437fe5d0d0760745a75ab",
+      "license": "CC-BY-4.0",
+      "max_bytes": 230000000,
+      "role": "Raw RNA assay and exact animal/cell metadata; parser does not execute R code."
+    },
+    {
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part2.R",
+      "sha256": "418c3c746d08dbf9eff1ff51aaa45092cdf4414d0b5b9fc47e9ba236f1d98772",
+      "max_bytes": 1000000,
+      "role": "Original author mapping; inspected as text in prior admission, never executed."
+    },
+    {
+      "id": "human_mouse_hcop_fifteen_column.txt.gz",
+      "url": "https://storage.googleapis.com/public-download-files/hcop/human_mouse_hcop_fifteen_column.txt.gz",
+      "sha256": "0cfb78e4eb273751e0557e8230445a60e844bfaf958e32740d4a266fb41cdb35",
+      "bytes": 3454647,
+      "max_bytes": 10000000,
+      "role": "Pinned HGNC-supported human-mouse orthology assertions; all selected rows and alternatives retained in orthology.json."
+    }
+  ],
+  "local_provenance": {
+    "../recovery/cohort1-admission.json": "9dc8818d059d68f3991b3aa569e504e603cee1234e5e58f4bcb3ebf6c9eb3148",
+    "source-admission.json": "242b49dc6face56e46d55c840c12319a91dc78365d27b385b8eabea4b230d3e3",
+    "admission_origin": "cx004-independent-comparator-2026-10-18/neural-admission.json, copied unchanged for self-contained reproduction",
+    "source-panels.json": "Copied unchanged from cx004-independent-comparator-2026-10-18/panels.json; its exact hash is in orthology.json."
+  },
+  "attribution": "Original neural data and experiment: Xu et al., Nature Aging 2024, doi:10.1038/s43587-024-00594-3; GSE224438 and Zenodo record 10626910. Orthology: HGNC HCOP, Yates et al. doi:10.1093/bib/bbab155. This package contributes a separately frozen descriptive reanalysis."
+}

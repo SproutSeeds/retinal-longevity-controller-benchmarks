@@ -1,0 +1,413 @@
+{
+  "checks": [
+    {
+      "check": "frozen_artifact:contract.json",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_artifact:admission.json",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_artifact:panels.json",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_artifact:analyze.py",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_output_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "frozen_result_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "metadata_units",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_18_library_QC",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_12_comparisons",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_cpm:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_cpm:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_cpm:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_cpm:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_cpm:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_cpm:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_cpm:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_cpm:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_cpm:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_cpm:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_cpm:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_cpm:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_cpm:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_cpm:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_cpm:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_cpm:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_cpm:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_cpm:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_cpm:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_cpm:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_median_ratio:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_median_ratio:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_median_ratio:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_median_ratio:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_median_ratio:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_median_ratio:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_median_ratio:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_median_ratio:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_median_ratio:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_median_ratio:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_median_ratio:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_median_ratio:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_median_ratio:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_median_ratio:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_median_ratio:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:log2_median_ratio:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:log2_median_ratio:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:log2_median_ratio:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:log2_median_ratio:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:log2_median_ratio:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:within_library_rank:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:within_library_rank:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:within_library_rank:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:within_library_rank:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:within_library_rank:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:within_library_rank:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "means:within_library_rank:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:within_library_rank:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:within_library_rank:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:within_library_rank:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:within_library_rank:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "means:within_library_rank:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:within_library_rank:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:within_library_rank:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:within_library_rank:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "complete_pair_values:within_library_rank:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "means:within_library_rank:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "age_enumeration:within_library_rank:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "sign_enumeration:within_library_rank:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "saved_gene_reconstruction:within_library_rank:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:age_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:age_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:age_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:age_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:overall_sign_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:overall_sign_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:overall_sign_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_cpm:overall_sign_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:age_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:age_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:age_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:age_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:overall_sign_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:overall_sign_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:overall_sign_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:log2_median_ratio:overall_sign_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:age_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:age_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:age_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:age_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:overall_sign_test:cycle_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:overall_sign_test:reprogramming_state",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:overall_sign_test:reprogramming_without_OSKM_overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "Holm:within_library_rank:overall_sign_test:stress_panel",
+      "status": "PASS"
+    },
+    {
+      "check": "CX004_scope_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "cycle_summary_result_binding",
+      "status": "PASS"
+    },
+    {
+      "check": "108_exact_paired_rows_with_wells",
+      "status": "PASS"
+    },
+    {
+      "check": "cycle_robustness_summary:log2_cpm",
+      "status": "PASS"
+    },
+    {
+      "check": "cycle_robustness_summary:log2_median_ratio",
+      "status": "PASS"
+    },
+    {
+      "check": "cycle_robustness_summary:within_library_rank",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified",
+  "generated_at_utc": "2026-10-18T10:50:27.133839+00:00",
+  "passed": 100,
+  "raw_acquisition_performed": false,
+  "scope": "Saved-output consistency and hash binding only; no raw source replay or historical git proof in this command.",
+  "source_sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+  "status": "PASS",
+  "total": 100,
+  "verification_code_sha256": "c7b3feed773c260a03e4648177f1d26fedeb5227c564379705fe93236d5d6e31"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "CX004-GSE297234-ENDOGENOUS-JOINT-PROPOSAL-20261018-R1",
+  "status": "proposal_awaiting_root_freeze",
+  "design": "Post hoc exploratory extension. Existing June 18 marker-gate marginal and combined-joint outputs have been inspected. No claim of prospective registration, biological state classification or field novelty.",
+  "question": "Within each donor and collection time, how often do deposited cell barcodes co-detect two or more of five construct-absent endogenous markers, and how does that detection pattern coincide with a low fibroblast-marker expression score?",
+  "inputs": "Eight cached GSE297234 10x filtered H5 matrices; verify the exact hashes in timecourse-scout.json before reading expression. No new download, paid resource, outreach or wet-lab work.",
+  "donors": [{"id": "GM00731", "age_years": 96}, {"id": "GM23815", "age_years": 22}],
+  "days": [0, 3, 7, 10],
+  "primary_units": "Report each donor by collection time separately. Each donor/time matrix is one sample. The eight samples are not eight independent donors; individual cell barcodes are not donor replicates, and the same cells are not followed over time.",
+  "source_scope": "Human skin fibroblast Sendai OSKM early time course. Elapsed time does not establish a controlled withdrawal schedule. No age contrast or retinal extrapolation.",
+  "features": {
+    "endogenous_marker_panel": ["NANOG", "LIN28A", "DNMT3B", "DPPA4", "UTF1"],
+    "identity_marker_panel": ["COL1A1", "COL1A2", "DCN", "LUM", "THY1"],
+    "factor_overlap_report_only": ["POU5F1", "SOX2"],
+    "rationale": "Reuse the June 18 core and identity panels to make the extension traceable. Construct-absent markers are not assumed to be specific to true pluripotency. POU5F1/SOX2 are segregated expression markers; ordinary gene counts do not establish vector-specific transcript origin.",
+    "mapping": "Require one unique matching feature per gene by deposited symbol and confirm available Ensembl IDs. Report missing/duplicated features and stop if a primary panel cannot be formed as specified. Never silently replace a gene with zeros or alter a panel denominator."
+  },
+  "primary_qc": "Retain all deposited 10x filtered barcodes with a strictly positive Gene Expression UMI sum. Report counts excluded for empty libraries, features detected, total UMI and mitochondrial UMI fraction. This does not recreate author Seurat clusters or doublet removal.",
+  "identity_score": "Mean log1p(CP10k) across the five fixed identity markers, with all Gene Expression UMIs in the denominator. For each donor compute the 10th percentile from that donor's retained D0 cells using linear-interpolated quantiles. identity_low means score <= this threshold; the other category is called identity_not_low, not identity preserved.",
+  "realized_baseline": "For every donor and analysis variant, report the actual number and fraction of D0 cells classified identity_low. Quantile ties can make the realized fraction exceed the nominal q05/q10/q20; do not relabel the nominal quantile as an exact observed fraction.",
+  "coexpression": "Count how many of the five endogenous markers have raw UMI >= 1 within each barcode. Primary binary flag is coexpression_count >= 2. Also report counts/fractions in bins 0,1,2,3+ and the full per-marker detection/magnitude summary.",
+  "primary_joint_output": "For each donor/time, counts and fractions in the full identity_low/identity_not_low by coexpression_flag/no_flag 2x2 table, plus identity_low/identity_not_low by coexpression bins 0/1/2/3+. Retain per-barcode scores/counts in an internal compressed derived artifact with deterministic source/sample IDs. Fractions describe observed barcodes only.",
+  "secondary_overlap_output": "Report the same joint bins stratified by whether POU5F1 or SOX2 is detected, labeled factor-overlap expression. This is not measured viral load and not an adjustment identifying causal exposure.",
+  "sensitivities": [
+    "Detection threshold: require at least 2 raw UMIs per detected endogenous marker, still >=2 marker genes; report all values including zeros.",
+    "Panel omission: omit each endogenous marker and each identity marker in turn; recompute the relevant panel and donor D0 identity cutoff. Keep coexpression requirement >=2 and explicitly report the changed panel size; do not choose a preferred outcome.",
+    "Donor baseline bounds: recompute identity_low at donor D0 q05 and q20. Do not tune the endogenous threshold to an observed treated fraction. Report D0 coexpression fractions rather than call them false-positive rates.",
+    "Gene-detection QC: repeat tables retaining cells with >500 detected genes, matching the explicit GEO processing threshold; recompute donor D0 cutoffs inside this retained cohort. No claim to reproduce author normalization/clusters.",
+    "Depth strata: derive each donor's D0 total-UMI quartile cutpoints; report donor/time tables in the same four depth bins, with denominators and out-of-D0-range counts. Empty strata remain empty; do not smooth or pool donors.",
+    "Fixed-depth detection diagnostic: among cells with >=1000 UMIs, sample exactly 1000 Gene Expression UMIs without replacement using a multivariate hypergeometric draw; the exact marginal over every distinct panel marker plus one remainder category is used. Use NumPy 2.5.4 Generator(PCG64(seed)), seeds 181026,181027,181028, and stable sample/barcode ordering. Recompute all marker counts, identity scores and donor D0 cutoffs per thinning replicate. Report retention counts and resulting joint fractions. Downsampling is a sensitivity to detection, not proof that baseline differences were technical."
+  ],
+  "statistics": "No p-values, binomial confidence intervals suggesting biological certainty, pooled-cell donor inference, age-effect estimates or treatment-effect causal attribution. Report exact counts/fractions and sensitivity ranges with their explicitly varied definitions.",
+  "availability_and_dropout": "Absence of observed RNA counts is distinct from absence of a biological program or protein. A coexpression flag is an uncalibrated marker observation; ambient RNA, doublets, cell selection and detection limits may affect it.",
+  "source_attribution": {"study": "Lu et al., Cell 2025", "doi": "10.1016/j.cell.2025.07.031", "accession": "GSE297234"},
+  "novelty_gate": "This extension addresses a gap in the local saved analysis. It carries no field-novelty claim. Check the original paper figures/supplements before describing the joint diagnostic as previously unreported.",
+  "tests_required": ["Source integrity and one-to-one feature/sample IDs", "Hand-checked synthetic 2x2 tables and denominators", "Baseline thresholds donor-specific with deterministic ties", "Zero/low-count and missing-gene behavior", "No donor pooling", "Downsampling total and count bounds plus deterministic replay", "Joint cells sum to each retained donor/time denominator", "Omission/QC/thinning variants keep their own denominators", "No implicit risk/pluripotency classifier field"],
+  "stop_conditions": ["Root has not frozen this proposal", "Input/feature/sample integrity fails", "No retained D0 reference for either donor", "New resource, external action or storage growth exceeds the bounded local analysis scope"],
+  "execution_gate": "Require PERCELL_FREEZE.json with expression_execution_authorized true, a 40-character commit ID, and matching contract_sha256 and scout_sha256. Root creates this receipt after committing the contract. No observed expression is opened while preparing executable code or synthetic tests.",
+  "CX004_authority": "All four readouts remain insufficient_signal; this is a marker-detection diagnostic without matched late human recovery, stable fate or safety evidence."
+}

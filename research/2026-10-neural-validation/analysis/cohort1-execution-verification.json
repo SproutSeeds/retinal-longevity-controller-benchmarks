@@ -1,0 +1,10 @@
+{
+  "admission_sha256": "9dc8818d059d68f3991b3aa569e504e603cee1234e5e58f4bcb3ebf6c9eb3148",
+  "contract_sha256": "6350447cdb0b4a5bbc6a7c744f3d26524b9e9ed90bc72f0d031ad4aec238c66f",
+  "historical_git_proof_rerun": true,
+  "mode": "committed_freeze_verified",
+  "orthology_sha256": "7fcde9598a1ced6a9275eded22fac20dbf76a36736e32609ec4db293d260f372",
+  "parent_contract_sha256": "55cafbf68c069e3c5febb3b92f6a7214d166f477b8524b7f02c877395225b568",
+  "result_sha256": "7ab67d0efc48c49388e41f093c586502e0a937ae4191d77a750c4d6d4efca2fd",
+  "scope": "Exact frozen hashes checked in both modes. Portable replay does not reestablish historical commit chronology."
+}

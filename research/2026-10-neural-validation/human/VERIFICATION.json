@@ -1,0 +1,28 @@
+{
+  "claim_level": "Verified computation; Heuristic marker interpretation",
+  "deterministic_replay": "PASS",
+  "output_sha256": {
+    "gene-availability.csv": "8980a6005d3fc91c54caedbe858bf423de5ab7995cc8d3fdbf2bd20b4740655e",
+    "gene-contributions.csv": "79cc332bf2185f433d880c813df79e8debf5378290eea1b68e350ddd6c255d8f",
+    "marker-audit.json": "af320f9c0625be8ab163199d89ba7ca9e22261fb3bd71df123c1e2c1f4d1d71d"
+  },
+  "prior_immutable_hashes_rechecked": true,
+  "replay_output_sha256": {
+    "gene-availability.csv": "8980a6005d3fc91c54caedbe858bf423de5ab7995cc8d3fdbf2bd20b4740655e",
+    "gene-contributions.csv": "79cc332bf2185f433d880c813df79e8debf5378290eea1b68e350ddd6c255d8f",
+    "marker-audit.json": "af320f9c0625be8ab163199d89ba7ca9e22261fb3bd71df123c1e2c1f4d1d71d"
+  },
+  "scope": "One human donor; no p-values, biological state calibration, age effect, safety or recovery promotion.",
+  "source_sha256": {
+    "ADDENDUM.md": "9ec66067a00413d2ceb71f2aa79bfbd28f83791625d52783f10cab74981aebb5",
+    "marker_audit.py": "beff9f537c36d047bf6172b43d80fd5db5b0534db06402f77118f0154e974ce9",
+    "posthoc-contract.json": "e0431f4c185c20fa94a71255a8996ca2117283322b825c7cadf982b311d18a86",
+    "test_marker_audit.py": "56f1acded1b67e0b240642c9452fc85f4a8f4a5ec068572d2f60550d021ffc50"
+  },
+  "status": "PASS",
+  "test_errors": 0,
+  "test_failures": 0,
+  "test_output": "test_all_transforms_preserve_zero_expression (test_marker_audit.MarkerAuditTests.test_all_transforms_preserve_zero_expression) ... ok\ntest_all_zero_effect_has_no_share_or_retained_magnitude (test_marker_audit.MarkerAuditTests.test_all_zero_effect_has_no_share_or_retained_magnitude) ... ok\ntest_contributions_and_omissions_separate_sign_from_magnitude (test_marker_audit.MarkerAuditTests.test_contributions_and_omissions_separate_sign_from_magnitude) ... ok\ntest_duplicate_or_inconsistent_sample_metadata_rejected (test_marker_audit.MarkerAuditTests.test_duplicate_or_inconsistent_sample_metadata_rejected) ... ok\ntest_invalid_counts_rejected (test_marker_audit.MarkerAuditTests.test_invalid_counts_rejected) ... ok\ntest_library_scaling_invariant (test_marker_audit.MarkerAuditTests.test_library_scaling_invariant) ... ok\ntest_prior_immutable_hashes_match_contract (test_marker_audit.MarkerAuditTests.test_prior_immutable_hashes_match_contract) ... ok\ntest_rank_is_still_composition_dependent (test_marker_audit.MarkerAuditTests.test_rank_is_still_composition_dependent) ... ok\ntest_rank_zero_ties_and_scalar_invariance (test_marker_audit.MarkerAuditTests.test_rank_zero_ties_and_scalar_invariance) ... ok\ntest_real_cd24_omission_exposes_joint_pair_sign_failure (test_marker_audit.MarkerAuditTests.test_real_cd24_omission_exposes_joint_pair_sign_failure) ... ok\ntest_real_data_rejects_four_markers_all_zero_claim (test_marker_audit.MarkerAuditTests.test_real_data_rejects_four_markers_all_zero_claim) ... ok\ntest_sample_permutation_does_not_make_rep_labels_pairs (test_marker_audit.MarkerAuditTests.test_sample_permutation_does_not_make_rep_labels_pairs) ... ok\ntest_signed_and_absolute_shares_differ_for_opposing_effects (test_marker_audit.MarkerAuditTests.test_signed_and_absolute_shares_differ_for_opposing_effects) ... ok\ntest_source_tampering_rejected (test_marker_audit.MarkerAuditTests.test_source_tampering_rejected) ... ok\ntest_trimmed_denominator_responds_to_single_abundant_composition (test_marker_audit.MarkerAuditTests.test_trimmed_denominator_responds_to_single_abundant_composition) ... ok\ntest_zero_feature_remains_in_panel_denominator (test_marker_audit.MarkerAuditTests.test_zero_feature_remains_in_panel_denominator) ... ok",
+  "tests_run": 16,
+  "verification_hook": "python3 programs/partial-reprogramming-controller/benchmarks/cx004-neural-validation-2026-10-18/human/verify_marker_audit.py"
+}

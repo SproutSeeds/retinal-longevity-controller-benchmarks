@@ -1,0 +1,17 @@
+{
+  "checks_passed": 24732,
+  "claim_level": "Verified",
+  "contract_sha256": "51a3a3084704a5a284a211c36621acbfddf07209473994dd305c9b320a033e9f",
+  "depth_support": "available",
+  "extension_code_sha256": "c529b99d2ba93cb1948d87a3389a6dae4229b5142d4005c84d304f00fb70743c",
+  "git_proof": "historical proof not rerun; archived hashes checked",
+  "original_rows": 16,
+  "parent_result_sha256": "aab54dc111216373895c01246df89a33b30e26d30df8da54ec33c1a81ff5a8e0",
+  "result_sha256": "912f86da5b183a7eb2e1884a5bd33ff843a307312a1755a332e0649a249e262e",
+  "source_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+  "status": "PASS",
+  "synthetic_tests_passed": 25,
+  "tests_sha256": "3b13b895f506e96363a654af20a7d04363319be4fa1adb8aec933d98baef95a8",
+  "verification_scope": "Saved-output hashes, algebra, support and exact draw replay plus synthetic adversarial tests; raw RDS is not opened.",
+  "verifier_code_sha256": "a4ec9b65ca602267601676bedaa36cfc0734cfa7e7ed788cd041c2fcd9be3160"
+}

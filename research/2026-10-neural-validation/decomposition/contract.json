@@ -1,0 +1,28 @@
+{
+  "id": "CX004-NEURAL-MIXTURE-20261018-V1",
+  "claim_level": "Conjecture",
+  "question": "How much of an observed cell-average expression-panel contrast is algebraically associated with recovered-cell composition versus within-cell-type expression?",
+  "prior_exposure": "Cohort-2 metadata and the prior admission report are known. No cohort-2 expression outcomes or cohort-1 expression outcomes have been examined for this contract.",
+  "inputs": "Use the same pinned raw RNA counts, animal metadata and independently mapped fixed panels as the animal-level analysis contract. Do not select genes or cell types by effect direction.",
+  "comparison": "Old 2Dox0 versus old untreated within lanes 1 and 2; equal weight to the two lane-specific animal contrasts.",
+  "support": "Named cell types meeting the main analysis minimum of 20 cells and 500 detected raw genes in every one of the four primary animals. Report each excluded type and each animal's retained and excluded cells. Numeric clusters remain in the all-recovered denominator but have no assigned biological meaning. No zero imputation for absent cell types.",
+  "sensitivity_support": "Repeat with the separately declared 10-cell, 500-gene sensitivity; never use this to upgrade failure of the primary support rule.",
+  "normalization": "For each cell divide raw counts by its all-gene raw RNA total. Compute log2(1 + 10000 * fraction) as primary and log2(1 + 1000000 * fraction) as transformation sensitivity. These are cell-average expression summaries distinct from pseudobulk scores.",
+  "panel_mean": "For every fixed eligible panel, average normalized log expression over its admitted mapped genes, then average cells within each animal and cell type. Preserve the transgene-excluded panel and all original panel definitions.",
+  "decomposition": {
+    "p": "Recovered-cell fractions renormalized over the frozen common-support cell types for each animal.",
+    "mu": "Within-cell-type mean cell-panel score for that animal.",
+    "total": "sum_k p_Tk * mu_Tk - sum_k p_Ck * mu_Ck",
+    "composition": "0.5 * sum_k (p_Tk - p_Ck) * (mu_Tk + mu_Ck)",
+    "within_type": "0.5 * sum_k (p_Tk + p_Ck) * (mu_Tk - mu_Ck)",
+    "check": "total equals composition plus within_type within numerical tolerance 1e-10; independently check total against directly averaged retained-cell scores."
+  },
+  "report": "Every panel, transformation and lane contrast; equal-lane mean, support and denominators, component magnitudes/signs and direct-arithmetic checks. Do not report percentage attribution when total is near zero or components oppose one another.",
+  "limits": [
+    "Descriptive algebra on the recovered sequenced cells, not a causal attribution or estimate of tissue abundance.",
+    "Within a named cell type, subtype or state composition may still change.",
+    "Two treated animals do not establish population reproducibility; no cell-level significance tests.",
+    "Synthetic arithmetic fixtures validate software only and never count as observed biological evidence.",
+    "No age reversal, retinal efficacy, transformation-risk calibration or human withdrawal claim."
+  ]
+}

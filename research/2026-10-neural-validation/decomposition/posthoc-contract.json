@@ -1,0 +1,24 @@
+{
+  "id": "CX004-DECOMPOSITION-CONVENTION-DEPTH-20261018-R1",
+  "status": "posthoc_extension_frozen_before_new_sensitivity_outcomes",
+  "prior_exposure": "The original 16 decomposition rows, support fractions and stress component signs are known. This is a post hoc sensitivity motivated by independent review, with no prospective biological discovery claim.",
+  "inputs": "Use the same pinned cohort2 raw RNA, metadata, fixed orthology and four panels as the parent analysis. Preserve original results.json and contract.json unchanged.",
+  "conventions": {
+    "scope": "All 16 original panel/support/scale rows, same fractions and conditional support.",
+    "control_reference": "composition=sum((pT-pC)*muC), within=sum(pT*(muT-muC))",
+    "treated_reference": "composition=sum((pT-pC)*muT), within=sum(pC*(muT-muC))",
+    "symmetric": "The arithmetic average of the two reference decompositions, identical to the original partition. Each convention sums exactly to the same observed total.",
+    "interpretation": "These are algebraic conventions with no causal attribution. Report all signs and components, with no preferred convention selected after outcomes. Opposing terms receive no percentage-of-total attribution."
+  },
+  "gene_contributions": "For each original row, compute the decomposition for every gene individually on the same cells/fractions/scale and divide each component by the fixed panel size. Sums must reproduce the panel components. Report every gene, both lanes and equal-lane means, including zero values. Retain fixed denominators.",
+  "depth_diagnostic": {
+    "selection": "Primary 20-cell support, CP10k scale only. Restrict to cells with at least 1000 Gene Expression UMIs, preserving the two originally admitted types. Each type must still have at least 20 retained cells and 500 detected genes in the unthinned retained raw pseudobulk for every required animal. If either type fails, report the whole two-type diagnostic unavailable without changing support.",
+    "sampling": "For each eligible cell, sample exactly 1000 UMIs without replacement using NumPy 2.5.4 PCG64 multivariate_hypergeometric. Use the exact marginal over the union of fixed panel genes plus one remainder category representing all other RNA genes. Sort unique cell IDs and use seeds 181026,181027,181028 independently. Verify draw total and bounds.",
+    "scores": "Recompute per-cell log2(1 + 10000*thinned_gene_count/1000), fixed panel means, type means, retained fractions, all three convention decompositions and equal-lane means. Report each seed separately. Also calculate the same metrics on the unthinned >=1000-UMI subset to expose selection versus thinning.",
+    "denominators": "Report per-animal/type original cells, retained cells, excluded cells, original and retained depth summaries, and retained fraction of all recovered cells. Gene support is explicitly measured before thinning. No pooled-cell hypothesis test.",
+    "authority": "A measurement-depth and cell-selection diagnostic. It does not establish that any observed difference is technical, remove capture bias, add independent animals or produce biological ground truth."
+  },
+  "limits": "Named-type components may reflect subtype/state mixture, capture, detection depth and selection into common support. The common-support set and its retained fractions define a conditional estimand and may themselves be treatment associated. Both cohorts remain comparators, and all CX004 readouts remain insufficient_signal.",
+  "required_checks": ["Source/parent hashes and exact gene IDs", "Every original row retained", "Both reference decompositions equal direct total", "Symmetric equals average of references", "Per-gene components sum to original panel values", "Depth subset has fixed support or explicit failure", "Thinning conserves 1000 and respects input bounds", "Seeded exact replay"],
+  "execution_gate": "Root commit and EXTENSION_FREEZE.json with contract_sha256, parent_result_sha256, commit and expression_execution_authorized=true required before new observed sensitivity outcomes."
+}

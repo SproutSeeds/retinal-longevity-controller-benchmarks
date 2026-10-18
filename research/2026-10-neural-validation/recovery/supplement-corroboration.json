@@ -1,0 +1,46 @@
+{
+  "claim_level": "Verified",
+  "cohort1_chemistry": "v3.0",
+  "cohort1_included_rows": [
+    "SuppTable1!A5:J8"
+  ],
+  "cohort1_included_sexes": [
+    "M",
+    "M",
+    "M",
+    "M"
+  ],
+  "cohort1_lane_alias": {
+    "cohort1_single_multiplexed_lane": 1
+  },
+  "cohort1_tenx_lane": 1,
+  "cohort2_shared_lane_rows": [
+    "SuppTable1!A11:J14"
+  ],
+  "cohort2_shared_lane_sexes": {
+    "1": "F",
+    "2": "M"
+  },
+  "excluded_rows_confirmed_sequenced": [
+    "SuppTable1!A9:J10",
+    "SuppTable1!A18:J22"
+  ],
+  "exposure": {
+    "author_code_metadata_comments_seen": true,
+    "expression_outcomes_calculated": false,
+    "limit": "Author comments about historical cell counts are source claims, not independently recovered excluded cells.",
+    "other_worksheet_xml_read": false,
+    "worksheet_xml_read": [
+      "xl/worksheets/sheet1.xml"
+    ]
+  },
+  "frozen_admission_modified": false,
+  "frozen_admission_sha256": "9dc8818d059d68f3991b3aa569e504e603cee1234e5e58f4bcb3ebf6c9eb3148",
+  "sample_aliases": {
+    "BL61": "B1",
+    "BL62": "B2",
+    "BL63": "B3"
+  },
+  "source_sha256": "4101161aff9f2864ab5b51fa209eb271546cc33257c5432237020211c471565a",
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-024-00594-3/MediaObjects/43587_2024_594_MOESM2_ESM.xlsx"
+}

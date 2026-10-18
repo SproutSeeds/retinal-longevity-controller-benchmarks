@@ -1,0 +1,234 @@
+{
+  "absent_author_code_samples": [
+    "Sample3-928L-DOB20180327-2Dox5-AGTTGCGT",
+    "Sample5-929L-DOB20180327-2Dox5-GTACCTGT"
+  ],
+  "animals": [
+    {
+      "age_group": "old",
+      "age_months_range": [
+        18,
+        20
+      ],
+      "animal_label": "961L",
+      "cells": 212,
+      "celltype_counts": {
+        "Astrocyte_qNSC": 22,
+        "Endothelial": 10,
+        "Macrophage": 2,
+        "Microglia": 97,
+        "Mural": 2,
+        "Neuroblast": 13,
+        "OPC": 1,
+        "Oligodendrocyte": 61,
+        "aNSC_NPC": 4
+      },
+      "cohort": 1,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022367",
+      "hash_id": "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC",
+      "lane": "cohort1_single_multiplexed_lane",
+      "orig_ident": "SeuratProject",
+      "sex": "male",
+      "treatment": "2Dox0"
+    },
+    {
+      "age_group": "old",
+      "age_months_range": [
+        18,
+        20
+      ],
+      "animal_label": "955L",
+      "cells": 347,
+      "celltype_counts": {
+        "Astrocyte_qNSC": 47,
+        "Endothelial": 26,
+        "Macrophage": 5,
+        "Microglia": 141,
+        "Mural": 6,
+        "Neuroblast": 16,
+        "OPC": 9,
+        "Oligodendrocyte": 92,
+        "aNSC_NPC": 5
+      },
+      "cohort": 1,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022367",
+      "hash_id": "Sample2-955L-DOB20180501-untr-ACCAATGC",
+      "lane": "cohort1_single_multiplexed_lane",
+      "orig_ident": "SeuratProject",
+      "sex": "male",
+      "treatment": "untr"
+    },
+    {
+      "age_group": "old",
+      "age_months_range": [
+        18,
+        20
+      ],
+      "animal_label": "960L",
+      "cells": 432,
+      "celltype_counts": {
+        "Astrocyte_qNSC": 47,
+        "Endothelial": 43,
+        "Ependymal": 4,
+        "Macrophage": 6,
+        "Microglia": 166,
+        "Mural": 8,
+        "Neuroblast": 29,
+        "OPC": 3,
+        "Oligodendrocyte": 108,
+        "aNSC_NPC": 18
+      },
+      "cohort": 1,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022367",
+      "hash_id": "Sample4-960L-DOB20180508-2Dox0-CGAACAAG",
+      "lane": "cohort1_single_multiplexed_lane",
+      "orig_ident": "SeuratProject",
+      "sex": "male",
+      "treatment": "2Dox0"
+    },
+    {
+      "age_group": "old",
+      "age_months_range": [
+        18,
+        20
+      ],
+      "animal_label": "953L",
+      "cells": 203,
+      "celltype_counts": {
+        "Astrocyte_qNSC": 25,
+        "Endothelial": 12,
+        "Macrophage": 2,
+        "Microglia": 79,
+        "Mural": 1,
+        "Neuroblast": 11,
+        "OPC": 3,
+        "Oligodendrocyte": 62,
+        "aNSC_NPC": 8
+      },
+      "cohort": 1,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022367",
+      "hash_id": "Sample6-953L-DOB20180501-untr-GAAGCTTG",
+      "lane": "cohort1_single_multiplexed_lane",
+      "orig_ident": "SeuratProject",
+      "sex": "male",
+      "treatment": "untr"
+    }
+  ],
+  "author_code_commit": "011586aea2e8612c794e57d2a260fa1a29d417a0",
+  "author_code_map_lines": {
+    "treatment": [
+      189,
+      192
+    ]
+  },
+  "author_code_sample_count": 6,
+  "author_code_sha256": "0c3d7ac2df391a3bebe2f2bdd2b32665b3bd7ef322c14bba4b77ada08990c69c",
+  "author_code_url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part2.R",
+  "cells": 1194,
+  "celltype_counts": {
+    "Astrocyte_qNSC": 141,
+    "Endothelial": 91,
+    "Ependymal": 4,
+    "Macrophage": 15,
+    "Microglia": 483,
+    "Mural": 17,
+    "Neuroblast": 69,
+    "OPC": 16,
+    "Oligodendrocyte": 323,
+    "aNSC_NPC": 35
+  },
+  "checks": {
+    "RNA_features_match_metadata": true,
+    "RNA_totals_match_metadata": true,
+    "animal_metadata_matches_author_code": true,
+    "cell_order_matches": true,
+    "cohort_lane_join_complete": true,
+    "named_celltype_labels_match_cohort2": true,
+    "raw_counts_valid": true,
+    "source_checksum": true,
+    "unique_genes_and_cells": true
+  },
+  "claim_level": "Verified",
+  "constraints": [
+    "Use as a same-study direction comparator with independent animals; age, sex and chemistry preclude exact replication.",
+    "Sparse animal-by-celltype strata must fail the separately frozen minimum-cell threshold openly.",
+    "Recovered-cell fractions do not estimate absolute tissue abundance.",
+    "Absent 2Dox5 sample names in LMO features are not evidence of observed withdrawal cells.",
+    "No human or retinal measurements; no late recovery, function or calibrated rare-state risk endpoint."
+  ],
+  "decision": "admit_same_study_cross_cohort_direction_comparator",
+  "differences_from_cohort2": [
+    "Cohort1 is 18-20 months and all male; cohort2 old mice are 24-26 months with both sexes.",
+    "Cohort1 uses 10x v3.0; cohort2 uses v3.1.",
+    "Cohort1 has a single lane with both conditions; cohort2 has two shared old-treatment/control lanes plus an extra control on lane 3.",
+    "Ten named labels agree; annotation collapses differ and cohort2 retains 70 unresolved numeric cells.",
+    "Cohort1 has two treated and two controls; no young comparator or post-final-pulse withdrawal cells."
+  ],
+  "evidence_class": "observed_metadata_admission",
+  "expression_analysis_executed": false,
+  "group_counts": [
+    {
+      "age": "old",
+      "animals": 2,
+      "cells": 644,
+      "treatment": "2Dox0"
+    },
+    {
+      "age": "old",
+      "animals": 2,
+      "cells": 550,
+      "treatment": "untr"
+    }
+  ],
+  "label_compatibility": {
+    "cohort1_annotation_collapses": {
+      "33": "Microglia",
+      "36": "Microglia",
+      "Pericyte": "Mural",
+      "Vasc.Smooth.Muscle": "Mural",
+      "qNSC.primed": "Astrocyte_qNSC"
+    },
+    "cohort1_numeric_unresolved_cells": 0,
+    "cohort2_numeric_unresolved_cells": 70,
+    "named_celltype_labels_identical": true,
+    "source_locator": "Pinned cohort1 seurat_part2.R lines 155-162 and 223-225"
+  },
+  "metadata_sources": {
+    "age_and_sex": {
+      "locator": "Extended Data Fig. 2b: 18-20 months, two males per condition",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/"
+    },
+    "genotype_and_chemistry": {
+      "locator": "genotype, treatment_protocol and extract_protocol",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM7022367"
+    },
+    "lane": {
+      "locator": "Extended Data Fig. 2c: six mice into one 10x lane",
+      "note": "Descriptive cohort-specific lane ID; object orig.ident is SeuratProject.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/"
+    }
+  },
+  "pre_outcome_admission": true,
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "rna_genes": 31057,
+  "source_sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+  "source_url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content",
+  "timing": {
+    "post_final_pulse_withdrawal_days": 0,
+    "present_treated_endpoint": "Immediately after the final 2-day pulse.",
+    "regimen": "Three 2-day doxycycline pulses with 5-day withdrawal intervals.",
+    "source_locator": "Results, Partial reprogramming boosts neuroblast proportion in old mice",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/",
+    "withdrawal_observations": 0
+  },
+  "zenodo_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d"
+}

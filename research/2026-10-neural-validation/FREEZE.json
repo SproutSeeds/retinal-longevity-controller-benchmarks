@@ -1,0 +1,10 @@
+{
+  "commit": "d5c1d4109262c7c2eb9286e69556f562b927719a",
+  "contract_path": "programs/partial-reprogramming-controller/benchmarks/cx004-neural-validation-2026-10-18/analysis/contract.json",
+  "contract_sha256": "55cafbf68c069e3c5febb3b92f6a7214d166f477b8524b7f02c877395225b568",
+  "decomposition_contract_sha256": "129d7d602aa3c83ef26c175d05477bdbf882e51a636592f2e176eefcfe4b0259",
+  "expression_execution_authorized": true,
+  "frozen_at_utc": "2026-10-18T10:16:09.809677+00:00",
+  "orthology_sha256": "7fcde9598a1ced6a9275eded22fac20dbf76a36736e32609ec4db293d260f372",
+  "scope": "Frozen cohort2 primary and declared sensitivities; cohort1 requires the metadata compatibility decision before expression outcomes."
+}

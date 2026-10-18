@@ -1,0 +1,9 @@
+{
+  "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSE245385_countTable.csv.gz",
+  "expression_values_analyzed_when_receipted": false,
+  "gzip_crc_valid": true,
+  "header_sha256": "b13fdace52b06b54cb3a4dc4d5ef2ac34d478f87c1ea74ad0dcfe5728b4371f3",
+  "sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+  "size_bytes": 2745316,
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245385/suppl/GSE245385_countTable.csv.gz"
+}

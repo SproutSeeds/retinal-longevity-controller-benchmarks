@@ -1,0 +1,1720 @@
+{
+  "cells": [
+    {
+      "coordinate": "A1",
+      "type": "s",
+      "value": "Supplementary Table 1.  "
+    },
+    {
+      "coordinate": "B1",
+      "type": "s",
+      "value": "Metadata for mice used in all single-cell RNA-seq experiments, including multiplexing oligonucleotide sequence."
+    },
+    {
+      "coordinate": "A4",
+      "type": "s",
+      "value": "Experiment"
+    },
+    {
+      "coordinate": "B4",
+      "type": "s",
+      "value": "Sample"
+    },
+    {
+      "coordinate": "C4",
+      "type": "s",
+      "value": "Sample"
+    },
+    {
+      "coordinate": "D4",
+      "type": "s",
+      "value": "Strain"
+    },
+    {
+      "coordinate": "E4",
+      "type": "s",
+      "value": "Sex"
+    },
+    {
+      "coordinate": "F4",
+      "type": "s",
+      "value": "Condition"
+    },
+    {
+      "coordinate": "G4",
+      "type": "s",
+      "value": "Experimental batch"
+    },
+    {
+      "coordinate": "H4",
+      "type": "s",
+      "value": "10x kit"
+    },
+    {
+      "coordinate": "I4",
+      "type": "s",
+      "value": "Sample multiplexing LMO barcode"
+    },
+    {
+      "coordinate": "J4",
+      "type": "s",
+      "value": "10x lane"
+    },
+    {
+      "coordinate": "A5",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B5",
+      "type": "s",
+      "value": "Sample1"
+    },
+    {
+      "coordinate": "C5",
+      "type": "s",
+      "value": "961L"
+    },
+    {
+      "coordinate": "D5",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E5",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F5",
+      "type": "s",
+      "value": "old+OSKM"
+    },
+    {
+      "coordinate": "G5",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H5",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I5",
+      "type": "s",
+      "value": "CTCTAGAC"
+    },
+    {
+      "coordinate": "J5",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A6",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B6",
+      "type": "s",
+      "value": "Sample2"
+    },
+    {
+      "coordinate": "C6",
+      "type": "s",
+      "value": "955L"
+    },
+    {
+      "coordinate": "D6",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E6",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F6",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G6",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H6",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I6",
+      "type": "s",
+      "value": "ACCAATGC"
+    },
+    {
+      "coordinate": "J6",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A7",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B7",
+      "type": "s",
+      "value": "Sample4"
+    },
+    {
+      "coordinate": "C7",
+      "type": "s",
+      "value": "960L"
+    },
+    {
+      "coordinate": "D7",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E7",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F7",
+      "type": "s",
+      "value": "old+OSKM"
+    },
+    {
+      "coordinate": "G7",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H7",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I7",
+      "type": "s",
+      "value": "CGAACAAG"
+    },
+    {
+      "coordinate": "J7",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A8",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B8",
+      "type": "s",
+      "value": "Sample6"
+    },
+    {
+      "coordinate": "C8",
+      "type": "s",
+      "value": "953L"
+    },
+    {
+      "coordinate": "D8",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E8",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F8",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G8",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H8",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I8",
+      "type": "s",
+      "value": "GAAGCTTG"
+    },
+    {
+      "coordinate": "J8",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A9",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B9",
+      "type": "s",
+      "value": "Sample3"
+    },
+    {
+      "coordinate": "C9",
+      "type": "s",
+      "value": "928L"
+    },
+    {
+      "coordinate": "G9",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H9",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I9",
+      "type": "s",
+      "value": "AGTTGCGT"
+    },
+    {
+      "coordinate": "J9",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A10",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B10",
+      "type": "s",
+      "value": "Sample5"
+    },
+    {
+      "coordinate": "C10",
+      "type": "s",
+      "value": "929L"
+    },
+    {
+      "coordinate": "G10",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H10",
+      "type": "s",
+      "value": "version 3.0"
+    },
+    {
+      "coordinate": "I10",
+      "type": "s",
+      "value": "GTACCTGT"
+    },
+    {
+      "coordinate": "J10",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A11",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B11",
+      "type": "s",
+      "value": "A"
+    },
+    {
+      "coordinate": "C11",
+      "type": "s",
+      "value": "L0002"
+    },
+    {
+      "coordinate": "D11",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E11",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F11",
+      "type": "s",
+      "value": "old+OSKM"
+    },
+    {
+      "coordinate": "G11",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H11",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I11",
+      "type": "s",
+      "value": "TGTGATGG"
+    },
+    {
+      "coordinate": "J11",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A12",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B12",
+      "type": "s",
+      "value": "B"
+    },
+    {
+      "coordinate": "C12",
+      "type": "s",
+      "value": "L0003"
+    },
+    {
+      "coordinate": "D12",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E12",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F12",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G12",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H12",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I12",
+      "type": "s",
+      "value": "TCAATGGC"
+    },
+    {
+      "coordinate": "J12",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A13",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B13",
+      "type": "s",
+      "value": "D"
+    },
+    {
+      "coordinate": "C13",
+      "type": "s",
+      "value": "L0011"
+    },
+    {
+      "coordinate": "D13",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E13",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F13",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G13",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H13",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I13",
+      "type": "s",
+      "value": "ACCAATGC"
+    },
+    {
+      "coordinate": "J13",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A14",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B14",
+      "type": "s",
+      "value": "E"
+    },
+    {
+      "coordinate": "C14",
+      "type": "s",
+      "value": "L0004"
+    },
+    {
+      "coordinate": "D14",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E14",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F14",
+      "type": "s",
+      "value": "old+OSKM"
+    },
+    {
+      "coordinate": "G14",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H14",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I14",
+      "type": "s",
+      "value": "AGTTGCGT"
+    },
+    {
+      "coordinate": "J14",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A15",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B15",
+      "type": "s",
+      "value": "I"
+    },
+    {
+      "coordinate": "C15",
+      "type": "n",
+      "value": "144"
+    },
+    {
+      "coordinate": "D15",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E15",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F15",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G15",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H15",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I15",
+      "type": "s",
+      "value": "AAGTACGC"
+    },
+    {
+      "coordinate": "J15",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A16",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B16",
+      "type": "s",
+      "value": "J"
+    },
+    {
+      "coordinate": "C16",
+      "type": "n",
+      "value": "148"
+    },
+    {
+      "coordinate": "D16",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E16",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F16",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G16",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H16",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I16",
+      "type": "s",
+      "value": "ATTCGCAC"
+    },
+    {
+      "coordinate": "J16",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A17",
+      "type": "s",
+      "value": "whole-body partial reprogramming"
+    },
+    {
+      "coordinate": "B17",
+      "type": "s",
+      "value": "L"
+    },
+    {
+      "coordinate": "C17",
+      "type": "s",
+      "value": "L0042"
+    },
+    {
+      "coordinate": "D17",
+      "type": "s",
+      "value": "iOSKM"
+    },
+    {
+      "coordinate": "E17",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F17",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G17",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H17",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I17",
+      "type": "s",
+      "value": "AAGGCTAG"
+    },
+    {
+      "coordinate": "J17",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A18",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B18",
+      "type": "s",
+      "value": "C"
+    },
+    {
+      "coordinate": "C18",
+      "type": "s",
+      "value": "999L"
+    },
+    {
+      "coordinate": "G18",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H18",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I18",
+      "type": "s",
+      "value": "CTCTAGAC"
+    },
+    {
+      "coordinate": "J18",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A19",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B19",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "C19",
+      "type": "s",
+      "value": "B1"
+    },
+    {
+      "coordinate": "G19",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H19",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I19",
+      "type": "s",
+      "value": "CGAACAAG"
+    },
+    {
+      "coordinate": "J19",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A20",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B20",
+      "type": "s",
+      "value": "G"
+    },
+    {
+      "coordinate": "C20",
+      "type": "s",
+      "value": "B2"
+    },
+    {
+      "coordinate": "G20",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H20",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I20",
+      "type": "s",
+      "value": "GTACCTGT"
+    },
+    {
+      "coordinate": "J20",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A21",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B21",
+      "type": "s",
+      "value": "H"
+    },
+    {
+      "coordinate": "C21",
+      "type": "s",
+      "value": "B3"
+    },
+    {
+      "coordinate": "G21",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H21",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I21",
+      "type": "s",
+      "value": "GAAGCTTG"
+    },
+    {
+      "coordinate": "J21",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A22",
+      "type": "s",
+      "value": "(other samples run and sequenced, but not included in this study)"
+    },
+    {
+      "coordinate": "B22",
+      "type": "s",
+      "value": "K"
+    },
+    {
+      "coordinate": "C22",
+      "type": "s",
+      "value": "L0034"
+    },
+    {
+      "coordinate": "G22",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H22",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I22",
+      "type": "s",
+      "value": "GAGTCGAT"
+    },
+    {
+      "coordinate": "J22",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A23",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B23",
+      "type": "s",
+      "value": "A"
+    },
+    {
+      "coordinate": "C23",
+      "type": "s",
+      "value": "1108L"
+    },
+    {
+      "coordinate": "D23",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E23",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F23",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G23",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H23",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I23",
+      "type": "s",
+      "value": "TGTGATGG"
+    },
+    {
+      "coordinate": "J23",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A24",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B24",
+      "type": "s",
+      "value": "B"
+    },
+    {
+      "coordinate": "C24",
+      "type": "s",
+      "value": "1110L"
+    },
+    {
+      "coordinate": "D24",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E24",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F24",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G24",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H24",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I24",
+      "type": "s",
+      "value": "TCAATGGC"
+    },
+    {
+      "coordinate": "J24",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "A25",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B25",
+      "type": "s",
+      "value": "C"
+    },
+    {
+      "coordinate": "C25",
+      "type": "s",
+      "value": "L0111"
+    },
+    {
+      "coordinate": "D25",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E25",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F25",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G25",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H25",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I25",
+      "type": "s",
+      "value": "CTCTAGAC"
+    },
+    {
+      "coordinate": "J25",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A26",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B26",
+      "type": "s",
+      "value": "D"
+    },
+    {
+      "coordinate": "C26",
+      "type": "s",
+      "value": "L0112"
+    },
+    {
+      "coordinate": "D26",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E26",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F26",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G26",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H26",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I26",
+      "type": "s",
+      "value": "ACCAATGC"
+    },
+    {
+      "coordinate": "J26",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A27",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B27",
+      "type": "s",
+      "value": "E"
+    },
+    {
+      "coordinate": "C27",
+      "type": "s",
+      "value": "L0114"
+    },
+    {
+      "coordinate": "D27",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E27",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F27",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G27",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H27",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I27",
+      "type": "s",
+      "value": "AGTTGCGT"
+    },
+    {
+      "coordinate": "J27",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A28",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B28",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "C28",
+      "type": "s",
+      "value": "L0116"
+    },
+    {
+      "coordinate": "D28",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E28",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F28",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G28",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H28",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I28",
+      "type": "s",
+      "value": "CGAACAAG"
+    },
+    {
+      "coordinate": "J28",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A29",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B29",
+      "type": "s",
+      "value": "G"
+    },
+    {
+      "coordinate": "C29",
+      "type": "s",
+      "value": "L0117"
+    },
+    {
+      "coordinate": "D29",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E29",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F29",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G29",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H29",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I29",
+      "type": "s",
+      "value": "GTACCTGT"
+    },
+    {
+      "coordinate": "J29",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "A30",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B30",
+      "type": "s",
+      "value": "H"
+    },
+    {
+      "coordinate": "C30",
+      "type": "s",
+      "value": "L125"
+    },
+    {
+      "coordinate": "D30",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E30",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F30",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G30",
+      "type": "n",
+      "value": "1"
+    },
+    {
+      "coordinate": "H30",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I30",
+      "type": "s",
+      "value": "GAAGCTTG"
+    },
+    {
+      "coordinate": "J30",
+      "type": "n",
+      "value": "3"
+    },
+    {
+      "coordinate": "A31",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B31",
+      "type": "s",
+      "value": "I"
+    },
+    {
+      "coordinate": "C31",
+      "type": "s",
+      "value": "1114L"
+    },
+    {
+      "coordinate": "D31",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E31",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F31",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G31",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H31",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I31",
+      "type": "s",
+      "value": "AAGTACGC"
+    },
+    {
+      "coordinate": "J31",
+      "type": "n",
+      "value": "4"
+    },
+    {
+      "coordinate": "A32",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B32",
+      "type": "s",
+      "value": "J"
+    },
+    {
+      "coordinate": "C32",
+      "type": "s",
+      "value": "1115L"
+    },
+    {
+      "coordinate": "D32",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E32",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F32",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G32",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H32",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I32",
+      "type": "s",
+      "value": "ATTCGCAC"
+    },
+    {
+      "coordinate": "J32",
+      "type": "n",
+      "value": "4"
+    },
+    {
+      "coordinate": "A33",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B33",
+      "type": "s",
+      "value": "K"
+    },
+    {
+      "coordinate": "C33",
+      "type": "s",
+      "value": "1116L"
+    },
+    {
+      "coordinate": "D33",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E33",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F33",
+      "type": "s",
+      "value": "young"
+    },
+    {
+      "coordinate": "G33",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H33",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I33",
+      "type": "s",
+      "value": "GAGTCGAT"
+    },
+    {
+      "coordinate": "J33",
+      "type": "n",
+      "value": "4"
+    },
+    {
+      "coordinate": "A34",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B34",
+      "type": "s",
+      "value": "L"
+    },
+    {
+      "coordinate": "C34",
+      "type": "s",
+      "value": "L131"
+    },
+    {
+      "coordinate": "D34",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E34",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F34",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G34",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H34",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I34",
+      "type": "s",
+      "value": "AAGGCTAG"
+    },
+    {
+      "coordinate": "J34",
+      "type": "n",
+      "value": "6"
+    },
+    {
+      "coordinate": "A35",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B35",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "C35",
+      "type": "s",
+      "value": "L126"
+    },
+    {
+      "coordinate": "D35",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E35",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F35",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G35",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H35",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I35",
+      "type": "s",
+      "value": "CAGTTAGG"
+    },
+    {
+      "coordinate": "J35",
+      "type": "n",
+      "value": "5"
+    },
+    {
+      "coordinate": "A36",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B36",
+      "type": "s",
+      "value": "N"
+    },
+    {
+      "coordinate": "C36",
+      "type": "s",
+      "value": "L128"
+    },
+    {
+      "coordinate": "D36",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E36",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F36",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G36",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H36",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I36",
+      "type": "s",
+      "value": "AACCGAAC"
+    },
+    {
+      "coordinate": "J36",
+      "type": "n",
+      "value": "6"
+    },
+    {
+      "coordinate": "A37",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B37",
+      "type": "s",
+      "value": "O"
+    },
+    {
+      "coordinate": "C37",
+      "type": "s",
+      "value": "L132"
+    },
+    {
+      "coordinate": "D37",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E37",
+      "type": "s",
+      "value": "F"
+    },
+    {
+      "coordinate": "F37",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G37",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H37",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I37",
+      "type": "s",
+      "value": "AAGCAGTC"
+    },
+    {
+      "coordinate": "J37",
+      "type": "n",
+      "value": "5"
+    },
+    {
+      "coordinate": "A38",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B38",
+      "type": "s",
+      "value": "P"
+    },
+    {
+      "coordinate": "C38",
+      "type": "s",
+      "value": "L133"
+    },
+    {
+      "coordinate": "D38",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E38",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F38",
+      "type": "s",
+      "value": "old+OSKM (SVZ)"
+    },
+    {
+      "coordinate": "G38",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H38",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I38",
+      "type": "s",
+      "value": "GAATCAGG"
+    },
+    {
+      "coordinate": "J38",
+      "type": "n",
+      "value": "6"
+    },
+    {
+      "coordinate": "A39",
+      "type": "s",
+      "value": "SVZ-targeted reprogramming"
+    },
+    {
+      "coordinate": "B39",
+      "type": "s",
+      "value": "Q"
+    },
+    {
+      "coordinate": "C39",
+      "type": "s",
+      "value": "L0108"
+    },
+    {
+      "coordinate": "D39",
+      "type": "s",
+      "value": "c+iOSKM"
+    },
+    {
+      "coordinate": "E39",
+      "type": "s",
+      "value": "M"
+    },
+    {
+      "coordinate": "F39",
+      "type": "s",
+      "value": "old"
+    },
+    {
+      "coordinate": "G39",
+      "type": "n",
+      "value": "2"
+    },
+    {
+      "coordinate": "H39",
+      "type": "s",
+      "value": "version 3.1"
+    },
+    {
+      "coordinate": "I39",
+      "type": "s",
+      "value": "ACTCGAAG"
+    },
+    {
+      "coordinate": "J39",
+      "type": "n",
+      "value": "5"
+    }
+  ],
+  "claim_level": "Verified",
+  "other_worksheet_xml_read": false,
+  "shared_strings_decoded": "Only indices referenced by SuppTable1 cells.",
+  "sheet": "SuppTable1",
+  "source_md5": "a78aada4da430056e95d44851c6ba3e8",
+  "source_sha256": "4101161aff9f2864ab5b51fa209eb271546cc33257c5432237020211c471565a",
+  "source_size_bytes": 83405567,
+  "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-024-00594-3/MediaObjects/43587_2024_594_MOESM2_ESM.xlsx",
+  "worksheet_xml_read": [
+    "xl/worksheets/sheet1.xml"
+  ]
+}

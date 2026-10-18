@@ -1,0 +1,10 @@
+{
+  "admission_sha256": "9dc8818d059d68f3991b3aa569e504e603cee1234e5e58f4bcb3ebf6c9eb3148",
+  "commit": "3adb9829224af9f17a6d6d01439ed91188f08c22",
+  "contract_sha256": "6350447cdb0b4a5bbc6a7c744f3d26524b9e9ed90bc72f0d031ad4aec238c66f",
+  "expression_execution_authorized": true,
+  "frozen_at_utc": "2026-10-18T10:24:09.466565+00:00",
+  "orthology_sha256": "7fcde9598a1ced6a9275eded22fac20dbf76a36736e32609ec4db293d260f372",
+  "parent_contract_sha256": "55cafbf68c069e3c5febb3b92f6a7214d166f477b8524b7f02c877395225b568",
+  "prior_outcome_exposure": "Cohort2 outcomes known; cohort1 expression outcomes unexamined. Originalpanels andcomparisongate frozenbeforeboth."
+}

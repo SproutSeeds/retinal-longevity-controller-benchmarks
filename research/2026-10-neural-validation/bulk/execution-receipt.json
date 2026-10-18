@@ -1,0 +1,20 @@
+{
+  "cache": "/tmp/cx004-neural-validation-2026-10-18",
+  "elapsed_seconds": 3.636986875004368,
+  "expression_outcomes_computed": true,
+  "freeze_validation": {
+    "archived_contract_admission_panels_code_hashes_passed": true,
+    "historical_commit": "60a4fc5f1dc86f73e18d137f6bf50a2e8a92a63a",
+    "historical_git_proof_reexecuted": true,
+    "mode": "strict_committed_contract",
+    "scope": "Current and historical git bytes match the frozen hashes."
+  },
+  "gene_contributions_sha256": "65811824d3d63644ac6b70fe3b974a0abe5092bfe07115f39c5106edd6451fba",
+  "generated_at_utc": "2026-10-18T10:43:21.740296+00:00",
+  "numpy_version": "2.5.4",
+  "operation": "expression_analysis",
+  "output": ".",
+  "results_sha256": "ffc2f7a3e5752399837007af69ffb9784c98b4065da52aec38bd4d0b1746a7e6",
+  "source_sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+  "status": "PASS"
+}

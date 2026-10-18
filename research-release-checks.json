@@ -45,6 +45,22 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:research/2026-10-neural-validation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-neural-validation/presentation/retinal-validation-results.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-neural-validation/presentation/retinal-validation-results.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-neural-validation/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-independent-comparator/README.md",
       "status": "PASS"
     },
@@ -290,6 +306,14 @@
     },
     {
       "name": "credential_patterns:research/2026-10-independent-comparator/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:../2026-10-neural-validation/human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:../2026-10-neural-validation/README.md",
       "status": "PASS"
     },
     {
@@ -1085,6 +1109,2086 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:research/2026-10-neural-validation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:bulk/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:bulk/cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:analysis/cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:human/marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:human/percell/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:decomposition/extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:recovery/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/CLAIM.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/COHORT1_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/COHORT1_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/COHORT1_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:analysis/orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:analysis/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:decomposition/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:decomposition/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:bulk/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/METHODS.md:recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/NEXT_STEPS.md:recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:presentation/retinal-validation-results.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:presentation/retinal-validation-results.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:bulk/RESULTS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:human/percell/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:decomposition/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:decomposition/EXTENSION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/THIRD_PARTY.md:../../LICENSE",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:cohort2-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:cohort1-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:cohort1-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:input-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/analysis/ANALYSIS.md:REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/animal-celltype-qc.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1-animal-celltype-qc.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1-composition.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort1-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort1-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort1-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort1-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort1-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort1-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort1_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort1_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort1_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort2-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort2-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort2-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cohort2-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cohort2-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cohort2-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/composition.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/input-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/input-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/input-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/prepare_orthology.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/prepare_orthology.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/prepare_orthology.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/source-panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/source-panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/source-panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/test_neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/test_neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/test_neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/analysis/verify_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/analysis/verify_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/analysis/verify_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/.gitattributes",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/ELIGIBILITY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/ELIGIBILITY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/ELIGIBILITY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/ELIGIBILITY.md:admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/ELIGIBILITY.md:contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/ELIGIBILITY.md:source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/ELIGIBILITY.md:header-exposure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/PORTABLE_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/PORTABLE_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/PORTABLE_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/PRE_OUTCOME_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/PRE_OUTCOME_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/PRE_OUTCOME_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/RESULTS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/RESULTS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/RESULTS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:paired-responses.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:PORTABLE_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/bulk/RESULTS.md:PRE_OUTCOME_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/admit_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/admit_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/admit_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/count-source-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/count-source-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/count-source-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/execution-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/execution-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/execution-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/gene-contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/header-exposure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/header-exposure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/header-exposure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/paired-responses.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/summarize_cycle.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/summarize_cycle.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/summarize_cycle.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/test_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/test_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/test_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/verify_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/verify_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/verify_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/bulk/verify_saved.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/bulk/verify_saved.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/bulk/verify_saved.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/EXTENSION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/EXTENSION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/EXTENSION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/EXTENSION.md:posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/EXTENSION.md:EXTENSION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/EXTENSION.md:extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/EXTENSION.md:EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/EXTENSION.md:EXTENSION_REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/EXTENSION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/EXTENSION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/EXTENSION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/EXTENSION_REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/EXTENSION_REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/EXTENSION_REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/README.md:results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/decomposition/README.md:contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/decompose.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/decompose.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/decompose.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/test_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/test_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/test_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/test_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/test_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/test_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/verify_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/verify_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/verify_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/decomposition/verify_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/decomposition/verify_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/decomposition/verify_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/bulk-paired-cycle.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/bulk-paired-cycle.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/human-marker-concentration.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/human-marker-concentration.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/neural-animal-sensitivity.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/figures/neural-animal-sensitivity.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/ADDENDUM.md:gene-contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/ADDENDUM.md:gene-availability.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/ADDENDUM.md:posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/ADDENDUM.md:marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/ADDENDUM.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/BULK_REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/BULK_REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/BULK_REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/PERCELL_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/PERCELL_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/PERCELL_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/PERCELL_TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/PERCELL_TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/PERCELL_TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/gene-availability.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/gene-contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell-contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell-contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell-contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:../ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:joint-tables.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:../percell-contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:../PERCELL_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/human/percell/REPORT.md:SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell/joint-tables.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/review_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/review_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/review_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/scout_timecourse.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/scout_timecourse.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/scout_timecourse.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/test_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/test_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/test_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/test_percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/test_percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/test_percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/timecourse-scout.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/timecourse-scout.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/timecourse-scout.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/verify_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/verify_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/verify_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/verify_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/verify_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/verify_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/verify_percell_observed.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/verify_percell_observed.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/verify_percell_observed.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/human/verify_saved_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/human/verify_saved_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/human/verify_saved_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/presentation/README.md:retinal-validation-results.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/presentation/README.md:retinal-validation-results.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/presentation/README.md:spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/presentation/README.md:slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/retinal-validation-results.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/retinal-validation-results.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:cohort1-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:supplement-corroboration.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:sources/ncbi-wholebody-runs.xml",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:failed-paths.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-neural-validation/recovery/RECOVERY.md:verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/build_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/build_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/build_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/build_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/build_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/build_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/cohort1-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/cohort1-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/cohort1-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/cohort1-author-sample-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/cohort1-author-sample-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/cohort1-author-sample-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/cohort1-cell-metadata.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/cohort1-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/cohort1-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/cohort1-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/extract_sample_table.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/extract_sample_table.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/extract_sample_table.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/failed-paths.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/failed-paths.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/failed-paths.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/fetch_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/fetch_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/fetch_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/inspect_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/inspect_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/inspect_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/.gitattributes",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-embargo.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-embargo.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-embargo.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-item.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-item.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/sources/cambridge-rpe1-item.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/ena-SRP420832.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/europepmc-since-prior-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/sources/europepmc-since-prior-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/sources/europepmc-since-prior-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/ncbi-wholebody-runs.xml",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/sources/zenodo-12613762.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/sources/zenodo-12613762.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/sources/zenodo-12613762.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/supplement-corroboration.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/supplement-corroboration.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/supplement-corroboration.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/supplementary-table1-cells.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/supplementary-table1-cells.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/supplementary-table1-cells.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/svz_iOSKM_cohort1_toshare.rds.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/svz_iOSKM_cohort1_toshare.rds.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/svz_iOSKM_cohort1_toshare.rds.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/recovery/verify_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/recovery/verify_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/recovery/verify_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-neural-validation/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-neural-validation/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-neural-validation/verify.py",
+      "status": "PASS"
+    },
+    {
       "name": "sha256:research/2026-10-public-data/FAILED_PATHS.md",
       "status": "PASS"
     },
@@ -1517,8 +3621,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 379,
+  "passed": 905,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 379
+  "total": 905
 }

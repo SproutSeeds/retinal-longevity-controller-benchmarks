@@ -1,0 +1,82 @@
+{
+  "checks": [
+    {
+      "check": "65_unique_GEO_samples_and_count_columns",
+      "status": "PASS"
+    },
+    {
+      "check": "9_unique_donors_and_18_primary_libraries",
+      "status": "PASS"
+    },
+    {
+      "check": "4_old_5_young_donors",
+      "status": "PASS"
+    },
+    {
+      "check": "all_pairs_match_sex_medium_time_species",
+      "status": "PASS"
+    },
+    {
+      "check": "sex_counts_match_paper",
+      "status": "PASS"
+    },
+    {
+      "check": "no_withdrawal_endpoint",
+      "status": "PASS"
+    },
+    {
+      "check": "header_only_exposure",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:GSE245385-series.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:GSE245385-samples.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:bulk-DESeq2_analysis_chimeric_clean.R",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:bulk-DESeq2_DEG_plots_clean.R",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:GSE245385_countTable.header.csv",
+      "status": "PASS"
+    },
+    {
+      "check": "source_hash:PMC12036604.html",
+      "status": "PASS"
+    },
+    {
+      "check": "20_synthetic_tests_pass",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified",
+  "command": "PYTHONDONTWRITEBYTECODE=1 uv run --python 3.12 --with numpy==2.5.4 python -B -m unittest -v test_bulk.py",
+  "file_hashes": {
+    "admission.json": "58dde2caa98114512b011d6cb812348bd1b5d95e8e6a4cd09f97638c3c2bf535",
+    "admit_metadata.py": "950d9a95aa9aeb656c262daef31cd61d290307a676dadde781766bd715f432fa",
+    "analyze.py": "3b8be9ca42acbca96fe5dd036b51c2362dcbbd18aa513116976c085154f32e71",
+    "contract.json": "86d7b4f186b2d17084aa80973b780c0af9cff4c6580e4516cd5ef4b834462952",
+    "panels.json": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+    "test_bulk.py": "3b447ca26675af1d8ad0f5a3acc9ae5c696ee214f8f33b8ac9c0faba690667c4"
+  },
+  "generated_at_utc": "2026-10-18T10:40:17.142121+00:00",
+  "passed": 14,
+  "root_pre_freeze_amendment": {
+    "contract_sha256": "cf00356b9e4073650ea02ec580fe44cd2838362d79ba3dc8f11494840e51cc8f",
+    "description": "Before any local bulk outcomes, root added design eligibility, well-layout uncertainty, exact exchangeability null and corrected Holm step-down interpretation. No panel, normalization, estimator, multiplicity family or executable changed. Original tested-contract hash retained above as historical evidence."
+  },
+  "scope": "Metadata, header joins and synthetic statistics only; no biological count rows read.",
+  "status": "PASS",
+  "synthetic_tests": 20,
+  "test_stderr": "test_only_numeric_ensembl_suffix_is_removed (test_bulk.CountReaderTests.test_only_numeric_ensembl_suffix_is_removed) ... ok\ntest_rejects_invalid_counts_and_version_collisions (test_bulk.CountReaderTests.test_rejects_invalid_counts_and_version_collisions) ... ok\ntest_all_panels_methods_donors_and_contributions_survive (test_bulk.EndToEndSyntheticTests.test_all_panels_methods_donors_and_contributions_survive) ... ok\ntest_qc_failure_cannot_drop_one_donor (test_bulk.EndToEndSyntheticTests.test_qc_failure_cannot_drop_one_donor) ... ok\ntest_all_nine_positive_signs (test_bulk.ExactTestTests.test_all_nine_positive_signs) ... ok\ntest_all_ties_are_included (test_bulk.ExactTestTests.test_all_ties_are_included) ... ok\ntest_asymmetric_partition_can_have_one_over_126 (test_bulk.ExactTestTests.test_asymmetric_partition_can_have_one_over_126) ... ok\ntest_holm_preserves_four_test_family_with_missing (test_bulk.ExactTestTests.test_holm_preserves_four_test_family_with_missing) ... ok\ntest_invalid_statistics_rejected (test_bulk.ExactTestTests.test_invalid_statistics_rejected) ... ok\ntest_permutation_is_invariant_to_joint_order (test_bulk.ExactTestTests.test_permutation_is_invariant_to_joint_order) ... ok\ntest_zero_signs_excluded_without_imputation (test_bulk.ExactTestTests.test_zero_signs_excluded_without_imputation) ... ok\ntest_donor_pair_rejects_duplicate_and_sex_conflict (test_bulk.MetadataTests.test_donor_pair_rejects_duplicate_and_sex_conflict) ... ok\ntest_header_collision_and_treatment_conflict_rejected (test_bulk.MetadataTests.test_header_collision_and_treatment_conflict_rejected) ... ok\ntest_time_alias_is_exact (test_bulk.MetadataTests.test_time_alias_is_exact) ... ok\ntest_average_rank_ties_include_zeros (test_bulk.NormalizationTests.test_average_rank_ties_include_zeros) ... ok\ntest_median_ratio_failure_is_explicit (test_bulk.NormalizationTests.test_median_ratio_failure_is_explicit) ... ok\ntest_missing_gene_differs_from_present_zero (test_bulk.NormalizationTests.test_missing_gene_differs_from_present_zero) ... ok\ntest_normalizers_invariant_to_library_scaling (test_bulk.NormalizationTests.test_normalizers_invariant_to_library_scaling) ... ok\ntest_archived_replay_checks_hashes_without_git (test_bulk.PortabilityTests.test_archived_replay_checks_hashes_without_git) ... ok\ntest_portable_cached_receipt_preserves_archive (test_bulk.PortabilityTests.test_portable_cached_receipt_preserves_archive) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.059s\n\nOK\n",
+  "test_stdout": "",
+  "total": 14
+}

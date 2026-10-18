@@ -1,0 +1,10 @@
+{
+  "admission_sha256": "58dde2caa98114512b011d6cb812348bd1b5d95e8e6a4cd09f97638c3c2bf535",
+  "analysis_sha256": "3b8be9ca42acbca96fe5dd036b51c2362dcbbd18aa513116976c085154f32e71",
+  "commit": "60a4fc5f1dc86f73e18d137f6bf50a2e8a92a63a",
+  "contract_sha256": "cf00356b9e4073650ea02ec580fe44cd2838362d79ba3dc8f11494840e51cc8f",
+  "expression_execution_authorized": true,
+  "frozen_at_utc": "2026-10-18T10:42:54.508932+00:00",
+  "panels_sha256": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+  "scope": "A18h paired nine-donor analysis only. Published study results known; no new bulk count outcomes inspected before this commit."
+}

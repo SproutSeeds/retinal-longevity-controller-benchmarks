@@ -1,0 +1,10 @@
+{
+  "status" : "embargo",
+  "embargoDate" : "2027-04-07",
+  "type" : "accessStatus",
+  "_links" : {
+    "self" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/accessStatus"
+    }
+  }
+}

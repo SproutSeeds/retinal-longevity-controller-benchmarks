@@ -1,0 +1,18 @@
+{
+  "id": "CX004-NEURAL-COHORT1-COMPARATOR-20261018-V1",
+  "claim_level": "Heuristic",
+  "parent_contract": "CX004-NEURAL-ANIMAL-PSEUDOBULK-20261018-V1",
+  "prior_exposure": "The cohort2 outcomes are now known, including its stable descriptive Microglia cycle marker pattern. The panels, coverage, normalization, cell thresholds and reservation of cohort1 were fixed in d5c1d41 before either cohort's expression outcomes. Cohort1 metadata, count integrity and animal/type counts have been inspected; cohort1 expression outcomes remain unexamined.",
+  "source_rds_sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+  "treated_animals": ["961L", "960L"],
+  "control_animals": ["955L", "953L"],
+  "unit": "Four distinct male mice resolved within a single multiplexed library GSM7022367. Two treated and two controls; no invented pairings or additional lane replicates.",
+  "admission": "Same-study cross-cohort direction comparator. Cohort1 is 18-20 months/all male/10x v3.0; cohort2 old animals are 24-26 months/mixed sex/10x v3.1. Shared named annotations have different cluster collapses. This is not exact replication or an independent study.",
+  "estimator": "Equal-animal mean treated score minus equal-animal mean untreated score, separately for each fixed named cell type and all four original panels. Require every one of the four animal/type strata to pass the unchanged support rule.",
+  "inherit_unchanged": ["All panels and orthology", "20 cells and 500 detected genes primary support", "10 cells and 500 genes separately labeled sensitivity", "Both source and eligible 80 percent coverage gates", "CPM and median-ratio CPM-equivalent normalization", "Median-ratio minimum100 all-positive genes", "All single-gene and refitted single-animal omissions", "All failed strata and per-animal profiles", "Recovered-cell denominators", "0.25 descriptive effect floor"],
+  "cohort_specific": "No same-lane pair contrasts or leave-one-lane estimates because there is only one shared library. Report all four treated-control animal differences as descriptive comparisons, not four replicates.",
+  "cross_cohort_reporting": "For every eligible cell-type/panel/tier in both cohorts, retain both normalization effects, direction agreement, whether both cohort means pass the fixed0.25 floor, all pairwise differences and omission directions. Missing or failed comparisons remain unavailable. A same-direction mean is weaker than animal-level consistency; report these separately. The all-panel table must not select only the Microglia cycle result.",
+  "withdrawal": "Both 2Dox5 animals are absent from this object. No withdrawal analysis or inference.",
+  "limits": "Descriptive marker scores, four treated mice across two distinct cohort environments; no inference of aging reversal, neuronal function, retinal benefit, rare-state safety or late human recovery.",
+  "gate": "Root commits this contract and the exact metadata admission before execution. A separate receipt binds their hashes and the original frozen panel contract."
+}

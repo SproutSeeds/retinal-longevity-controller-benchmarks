@@ -1,0 +1,41 @@
+{
+  "status": "local_unsubmitted_input_specification",
+  "external_messages_sent": false,
+  "prior_three_requests_modified": false,
+  "purpose": "Recover the omitted whole-body SVZ samples without inferring animal identity from gene expression or unused factor levels.",
+  "scope": {
+    "cohort1_geo_libraries": ["GSM7022367"],
+    "cohort2_geo_libraries": ["GSM7022368", "GSM7022369", "GSM7022370"],
+    "cohort1_omitted_animals": ["928L", "929L"],
+    "cohort2_omitted_animals_author_labels": ["999L", "BL61", "BL62", "BL63", "L0034"],
+    "full_source_map": "full-animal-source-map.json"
+  },
+  "requested_artifacts": [
+    {
+      "priority": 1,
+      "artifact": "All RNA cell barcodes to animal assignments before publication sample filtering",
+      "required_fields": ["cohort", "10x_library_or_lane", "RNA_cell_barcode_with_suffix_definition", "animal_id", "hash_id", "singlet_doublet_negative_status", "QC_inclusion_status", "demultiplexing_method_and_version"],
+      "acceptance": "Unique library-plus-barcode join; included samples reproduce the deposited subsets; omitted groups remain explicitly identifiable. Preserve unassigned barcodes and rejected droplets."
+    },
+    {
+      "priority": 2,
+      "artifact": "Full per-cell LMO count matrices and feature/oligo maps",
+      "required_fields": ["six cohort1 sample features", "twelve cohort2 sample features", "unmapped feature if present", "ordered RNA-compatible cell barcodes", "ordered feature names", "oligo sequence to animal map", "library-specific demultiplexing settings"],
+      "acceptance": "Counts include excluded groups and precede publication filtering. A list of six or twelve feature names without the omitted cell columns does not meet this requirement.",
+      "raw_alternative": "Exact deposited LMO or Undetermined FASTQ accessions with read structure and sample sheet, if the matrix is unavailable. Current SRA originals inventory lists GEX files only."
+    },
+    {
+      "priority": 3,
+      "artifact": "Full filtered Seurat RDS objects before excluding 2Dox5 and BL6 groups",
+      "required_fields": ["RNA raw counts", "LMO counts", "cell metadata", "animal assignments", "QC filters", "cell type annotations", "source version and checksum"],
+      "acceptance": "Explicitly include omitted animals; reproduce known included-cell counts and library assignments. Author scripts reference fuller local RDS objects, but that reference alone is not a deposited observation."
+    },
+    {
+      "priority": 4,
+      "artifact": "Sample-level timing and animal metadata for the excluded groups",
+      "required_fields": ["final doxycycline removal time", "harvest time", "induction pulse dates or relative hours", "sex", "age at harvest", "genotype", "sample exclusion reason"],
+      "acceptance": "Confirm the actual endpoint represented by the 2Dox5 label before admitting any late withdrawal contrast. Retain publisher blanks until documented."
+    }
+  ],
+  "bounded_next_action": "Search a verified public accession or supplied artifact for these exact inputs; stop before bulk raw-read acquisition if barcode assignment remains unavailable."
+}

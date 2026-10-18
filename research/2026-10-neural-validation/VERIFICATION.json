@@ -1,0 +1,737 @@
+{
+  "check_count": 182,
+  "checks": [
+    {
+      "name": "explicit_allowlist_equals_hash_manifest",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:COHORT1_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/ANALYSIS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/animal-celltype-qc.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1-animal-celltype-qc.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1-composition.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort1_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort2-execution-verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cohort2-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/composition.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/cross-cohort-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/input-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/prepare_orthology.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/source-panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/test_neural_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:analysis/verify_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/.gitattributes",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/ELIGIBILITY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/PORTABLE_REPLAY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/PRE_OUTCOME_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/RESULTS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/admit_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/count-source-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/cycle-robustness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/execution-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/gene-contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/header-exposure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/paired-responses.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/summarize_cycle.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/test_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/verify_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:bulk/verify_saved.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/EXTENSION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/EXTENSION_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/EXTENSION_REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/decompose.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/extension-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/reproduce.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/test_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/test_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/verify_decomposition.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:decomposition/verify_extension.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/bulk-paired-cycle.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/bulk-paired-cycle.png",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/human-marker-concentration.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/human-marker-concentration.png",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/neural-animal-sensitivity.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:figures/neural-animal-sensitivity.png",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/ADDENDUM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/BULK_REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/PERCELL_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/PERCELL_TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/gene-availability.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/gene-contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/marker-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell-contract-proposal.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell/joint-tables.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/posthoc-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/review_bulk.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/scout_timecourse.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/test_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/test_percell_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/timecourse-scout.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/verify_marker_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/verify_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/verify_percell_observed.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:human/verify_saved_percell.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/retinal-validation-results.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/retinal-validation-results.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/RECOVERY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/build_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/build_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/cohort1-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/cohort1-author-sample-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/cohort1-cell-metadata.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/cohort1-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/extract_sample_table.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/failed-paths.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/fetch_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/inspect_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/missing-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/source-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/source-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/.gitattributes",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/cambridge-rpe1-embargo.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/cambridge-rpe1-item.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/ena-SRP420832.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/europepmc-since-prior-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/ncbi-wholebody-runs.xml",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/sources/zenodo-12613762.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/supplement-corroboration.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/supplementary-table1-cells.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/svz_iOSKM_cohort1_toshare.rds.receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:recovery/verify_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "bytes:verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:analysis/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:decomposition/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:decomposition/EXTENSION_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:human/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:human/percell/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:human/percell/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:bulk/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:bulk/SAVED_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical_verification_pass:recovery/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "nine_negative_paired_changes:log2_cpm",
+      "status": "PASS"
+    },
+    {
+      "name": "nine_negative_paired_changes:log2_median_ratio",
+      "status": "PASS"
+    },
+    {
+      "name": "nine_negative_paired_changes:within_library_rank",
+      "status": "PASS"
+    },
+    {
+      "name": "four_cd24_dominated_human_contrasts",
+      "status": "PASS"
+    },
+    {
+      "name": "complete_22_by_8_grid",
+      "status": "PASS"
+    },
+    {
+      "name": "57317_barcodes_two_donors",
+      "status": "PASS"
+    },
+    {
+      "name": "day7_codetection:GM00731",
+      "status": "PASS"
+    },
+    {
+      "name": "day7_codetection:GM23815",
+      "status": "PASS"
+    },
+    {
+      "name": "independent_animal_counts",
+      "status": "PASS"
+    },
+    {
+      "name": "neural_cell_counts",
+      "status": "PASS"
+    },
+    {
+      "name": "readouts_still_insufficient",
+      "status": "PASS"
+    },
+    {
+      "name": "microglial_mean_agreement_and_omission_disagreement",
+      "status": "PASS"
+    },
+    {
+      "name": "stress_partition_with_opposing_components",
+      "status": "PASS"
+    },
+    {
+      "name": "seven_omitted_samples_five_unverified_withdrawal_labels",
+      "status": "PASS"
+    },
+    {
+      "name": "spoken_companions_match",
+      "status": "PASS"
+    },
+    {
+      "name": "private_human_barcode_table_excluded",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified computation; Heuristic biological interpretation",
+  "experiment_replacement": "INCONCLUSIVE",
+  "scope": "Release integrity, archived verification status and reported numerical summaries. This command does not replay raw biological inputs.",
+  "status": "PASS"
+}

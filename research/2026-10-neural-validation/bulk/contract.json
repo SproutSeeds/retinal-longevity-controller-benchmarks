@@ -1,0 +1,86 @@
+{
+  "claim_level": "Heuristic",
+  "design_eligibility": "A18h is the only timepoint with all four age-by-treatment cells. There is no internal second-timepoint replication of an age-response comparison.",
+  "estimands": {
+    "contributions": "For every panel gene and donor, report both normalized arm values and their difference. Gene contribution to the age statistic is (old mean gene Delta - young mean gene Delta) divided by the number of present panel genes; contributions must sum to the panel age difference.",
+    "donor_response": "Delta_i = panel_score(Dox_i) - panel_score(untr_i). Publish all nine values and group means, with equal donor weights.",
+    "primary_age_difference": "Mean Delta among the four old donors minus mean Delta among the five young donors.",
+    "secondary_overall_response": "Mean Delta across all nine donors and an exact two-sided sign test of their signs. No separate age-stratum hypothesis tests."
+  },
+  "execution_gate": "Root must commit and explicitly authorize a bulk/FREEZE.json receipt containing commit, contract_sha256, admission_sha256, panels_sha256, analysis_sha256 and expression_execution_authorized=true. Default acquisition and expression execution require matching committed bytes. Explicit --replay-frozen-hashes verifies archived contract/admission/panels/code hashes for an exported repo and records in a separate execution receipt that historical git proof was not rerun. --cache and --output select portable raw-input and result locations. Synthetic tests may run before freeze.",
+  "id": "CX004-BULK-A18H-DONOR-PAIRED-20261018-V1",
+  "inference": {
+    "assumptions": "Age labels are observational, not randomized. The permutation calculation assumes exchangeability of donor responses across age labels under its null; sex and other unmeasured donor differences can violate this assumption. The sign test assumes independent donor signs with equal positive/negative probability under its null. Doxycycline and OSKM cannot be separated in this series.",
+    "holm_precision": "For four tests, the first ordered p-value must be <=0.0125 to initiate rejection. A 9/9 sign pattern or unique most-extreme age assignment can meet that first threshold. Later Holm steps use 0.05/3, 0.05/2 and 0.05, so less-extreme subsequent panels may also reject if all earlier steps pass. Keep the four-panel family fixed; never reduce it to obtain a smaller adjustment.",
+    "interpretation": "Report exact p numerator/denominator, effect scale, all individual responses and multiplicity family. Nonsignificance is not equivalence, absence of effect, identity retention, safety or successful recovery. No threshold labels such as rejuvenated or safe.",
+    "null_precision": "Exact age-label inference requires exchangeability of the entire response distribution under the null, not merely equality of group means. Variance or distribution-shape differences and donor/culture structure can violate it. The observed mean difference remains reportable as a descriptive estimate.",
+    "primary_age_permutation": "Enumerate all C(9,4)=126 assignments of four old labels to the nine fixed donor Deltas. Statistic is absolute old-minus-young mean difference. Two-sided p is the fraction of 126 statistics >= the observed absolute statistic, including the observed assignment and ties within 1e-12*max(1,abs(observed)). No plus-one correction when enumerating the complete set. With unequal 4/5 groups the minimum can be 1/126; no blanket 2/126 claim.",
+    "primary_multiplicity": "Holm adjustment over exactly four CPM panel age-difference tests. Unavailable panels remain visible and contribute p=1 only to preserve the four-test adjustment family; their results remain unavailable.",
+    "secondary_methods": "For median-ratio and rank scores, report the same donor responses, age enumeration and sign tests, with a separate four-panel Holm family per method/test type. Label all of these sensitivity analyses; never choose the smallest p across methods.",
+    "secondary_sign_test": "Use only nonzero donor Deltas (abs(Delta)>1e-12). With n nonzero and k positive, two-sided binomial p=min(1,2*sum_{j=0}^{min(k,n-k)} C(n,j)/2^n). All-zero responses give p=1 with n=0. Holm over the four overall-response sign tests is a separate secondary family."
+  },
+  "input": {
+    "expected_compressed_bytes": 2745316,
+    "failure_rule": "Every required donor and both arms must pass the frozen join and at least 500 detected features. Failure of any primary library makes the complete primary comparison unavailable; no changing-donor subset. Preserve all four-panel by three-method failure rows.",
+    "geo_series": "GSE245385",
+    "header_sha256": "b13fdace52b06b54cb3a4dc4d5ef2ac34d478f87c1ea74ad0dcfe5728b4371f3",
+    "primary_selection": "All 18 A18h libraries for the nine exact pairs in admission.json; preserve all other 47 libraries as excluded metadata, without computing their expression contrasts.",
+    "reader": "Raw count CSV only. Require exact frozen header, 65 uniquely joined GEO libraries, unique feature IDs after any numeric Ensembl version stripping, positive feature lengths, finite nonnegative integer counts and positive library totals. Never execute deposited R code or use VST/TPM tables.",
+    "source_hash_policy": "Full file hash is unavailable before acquisition. After root freeze, acquire exactly the announced byte count, validate gzip and frozen header, record SHA-256 before parsing expression. All reruns require that hash.",
+    "source_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245385/suppl/GSE245385_countTable.csv.gz"
+  },
+  "known_limits_addendum": "Old donors supplied more culture arms than young donors. The publication does not establish an A18h density difference from that fact. Culture/handling differences remain unmeasured possibilities, not demonstrated violations. Mean-rank scoring changes scale and remains composition/detection dependent; retain CPM primary and the frozen rank sensitivity. Full factor-overlapping panel is an exposure-associated expression summary without a pluripotency interpretation.",
+  "normalization": {
+    "limits": "CPM, median-ratio and rank agreement do not establish absolute RNA changes, cell-autonomous effects or specificity. Secondary methods cannot replace a failed primary method.",
+    "primary": "For each of the 18 raw libraries, log2(1 + 1e6*gene_count/library_total), then an unweighted mean of present fixed panel genes.",
+    "secondary_median_ratio": "Fit all 18 libraries together using genes strictly positive in all 18. Divide by gene geometric means, take per-library median ratios and geometric-center the size factors. Effective depth is size factor times geometric-mean raw library total. Score log2(1 + 1e6*count/effective_depth). Require at least 100 positive genes; otherwise report this sensitivity unavailable. Fitting is independent of treatment and age labels.",
+    "secondary_rank": "Rank all features within each library by raw count using average ranks for ties, including zeros and custom features. Scale as (rank-1)/(feature_count-1), then average the same fixed panel genes. This tests relative within-sample ranking and has a different effect scale from log expression."
+  },
+  "novelty_boundary": "The source paper already reports age-associated and reprogramming-associated transcriptional differences and pathway reversal. Its bulk model uses ~Condition and pairwise Wald tests; it does not include MouseID. This work adds an explicit donor-paired fixed-panel and age-response sensitivity audit. Broader novelty is unestablished.",
+  "panels": {
+    "coverage": {
+      "minimum_genes": 3,
+      "minimum_mapped_fraction": 0.8,
+      "minimum_original_human_fraction": 0.8
+    },
+    "family": [
+      "cycle_panel",
+      "stress_panel",
+      "reprogramming_state",
+      "reprogramming_without_OSKM_overlap"
+    ],
+    "mapping": "Match each selected HCOP mouse Ensembl ID exactly, allowing only an optional numeric version suffix after validating uniqueness. No aliases, additional markers, effect-based selection or substitute paralogs.",
+    "source": "panels.json derives only from the previously frozen analysis/orthology.json; the original panels and exclusions remain unchanged.",
+    "transgenes": "The full reprogramming score includes Pou5f1 and Sox2; the fixed overlap-excluded variant removes both. rtTA/P2A/T2A/E2A reference features do not establish endogenous/transgenic read separation. The excluded variant is not an endogenous identity or pluripotency assay.",
+    "zero_counts": "Keep present genes with zero counts in panel means. Feature absence is distinct from zero expression."
+  },
+  "prior_exposure": "Public paper Fig. 7 pathway reversal claims, methods and source-code comments with DEG counts have been read. Earlier human and mouse-comparator results may be known to the team. A 1,024-byte gzip prefix supplied only the count header; no expression rows or newly computed GSE245385 outcomes were inspected. This is a prospective local reanalysis contract, not a blinded discovery or registered experiment.",
+  "question": "Do fixed marker-panel responses to 18 hours of doxycycline/OSKM in matched cultures differ between four old and five young mouse donors?",
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "reporting": [
+    "All source hashes, frozen artifacts and exact header aliases",
+    "All 65 sample metadata rows, nine donor pairs, and complete 18-library QC",
+    "Every panel coverage/failure and custom feature identifier",
+    "Every primary and secondary donor score, response, exact statistic and p-value",
+    "Normalization factors and all permutation statistics",
+    "Gene-level normalized values, contributions and all omissions",
+    "All four CX004 readouts remain insufficient_signal"
+  ],
+  "sensitivities": {
+    "differentiation": "No D06h/D18h/D48h expression contrasts in this contract. They are continued induction with a media transition and lack young treated arms; they cannot supply withdrawal validation.",
+    "donor_omission": "For the primary CPM scores, omit each donor once and report remaining age-group counts and the age difference, without p-values. CPM does not require cross-library refitting.",
+    "gene_omission": "For every eligible panel and method, omit each gene once while holding the library normalization fixed; report all donor responses and age differences, without additional p-values.",
+    "other_nsc_times": "No A06h/A48h contrasts because time-matched untreated controls are absent; A48h also differs in plating density."
+  },
+  "status": "proposed_before_new_bulk_expression_outcomes",
+  "unit": "One independently isolated mouse donor. The two A18h cultures are a within-donor treatment pair; 65 libraries across time represent nine donors.",
+  "well_layout_caveat": {
+    "interpretation": "If an unmeasured technical trend follows this layout, it could mimic an age-response difference. This is a plausible confounding path, not an observed batch effect. No layout adjustment or causal age attribution is justified. Record all well labels beside paired responses.",
+    "observed": "All four old pairs contrast a later alphabetical well row against an earlier row; four of five young pairs have the opposite order. The prefix is verified as Well, not as a preparation batch, chronological processing order, plate identity or technical covariate."
+  }
+}

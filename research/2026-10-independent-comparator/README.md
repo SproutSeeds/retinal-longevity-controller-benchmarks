@@ -1,5 +1,7 @@
 # Expression change and the missing recovery measurement
 
+**Interpretation update, October 18:** the [new marker audit](../2026-10-neural-validation/human/ADDENDUM.md) shows that CD24 supplies most of the human seven-gene score change. The [completed neural analysis](../2026-10-neural-validation/README.md) reports animal sensitivity and additional paired-donor results. The numerical artifacts below remain a historical checkpoint.
+
 <!--
 Title: Expression change and the missing recovery measurement
 -->

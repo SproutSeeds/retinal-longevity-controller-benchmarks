@@ -1,0 +1,1 @@
+{"version":"6.9","hitCount":0,"request":{"queryString":"FIRST_PDATE:[2026-10-16 TO 2026-10-18] AND TITLE_ABS:(\"partial reprogramming\" OR \"transient reprogramming\" OR \"epigenetic rejuvenation\")","resultType":"core","cursorMark":"*","pageSize":100,"sort":"","synonym":false},"resultList":{"result":[]}}

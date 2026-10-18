@@ -1,0 +1,9 @@
+{
+  "code_sha256": "31bffff63e433363b9323c411ab0f267b075ce26b107533ddb88dc762ceb8ecf",
+  "exact_bytes_equal": true,
+  "replay_code_sha256": "f8bb951c6d1413fc37bee082235356cc1b9577d3aebb3afc1cd729fa8bc8ebf9",
+  "replay_sha256": "aab54dc111216373895c01246df89a33b30e26d30df8da54ec33c1a81ff5a8e0",
+  "result_sha256": "aab54dc111216373895c01246df89a33b30e26d30df8da54ec33c1a81ff5a8e0",
+  "scope": "Same raw source, frozen definitions, pinned execution environment. Exact replay validates arithmetic, not a biological mechanism.",
+  "status": "PASS"
+}

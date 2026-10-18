@@ -1,0 +1,240 @@
+{
+  "checks": [
+    {
+      "check": "frozen_admission_bytes_unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "observed_cells_and_unique_barcodes",
+      "status": "PASS"
+    },
+    {
+      "check": "observed_animals_match_admission",
+      "status": "PASS"
+    },
+    {
+      "check": "observed_treatment_is_immediate_only",
+      "status": "PASS"
+    },
+    {
+      "check": "observed_per_animal_celltypes_match",
+      "status": "PASS"
+    },
+    {
+      "check": "count_integrity_receipt_all_passed",
+      "status": "PASS"
+    },
+    {
+      "check": "18_wholebody_animals_unique",
+      "status": "PASS"
+    },
+    {
+      "check": "11_included_7_excluded",
+      "status": "PASS"
+    },
+    {
+      "check": "5_code_2Dox5_all_unobserved",
+      "status": "PASS"
+    },
+    {
+      "check": "excluded_publisher_sex_stays_missing",
+      "status": "PASS"
+    },
+    {
+      "check": "cohort1_four_male_single_lane",
+      "status": "PASS"
+    },
+    {
+      "check": "cohort2_shared_lanes_sex_matched",
+      "status": "PASS"
+    },
+    {
+      "check": "three_explicit_bl6_aliases",
+      "status": "PASS"
+    },
+    {
+      "check": "only_metadata_worksheet_inspected",
+      "status": "PASS"
+    },
+    {
+      "check": "publisher_has_35_sample_rows",
+      "status": "PASS"
+    },
+    {
+      "check": "continuous_treatment_lanes_disjoint",
+      "status": "PASS"
+    },
+    {
+      "check": "four_geo_gex_only_headers",
+      "status": "PASS"
+    },
+    {
+      "check": "cohort1_raw_join_counts",
+      "status": "PASS"
+    },
+    {
+      "check": "feature_alignment_difference_preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "seven_runs_21_original_gex_files",
+      "status": "PASS"
+    },
+    {
+      "check": "fastq_content_uninspected",
+      "status": "PASS"
+    },
+    {
+      "check": "cohort1_fastq_cost_bound",
+      "status": "PASS"
+    },
+    {
+      "check": "both_wholebody_files_unchanged_between_versions",
+      "status": "PASS"
+    },
+    {
+      "check": "corrupted_continuous_file_replaced",
+      "status": "PASS"
+    },
+    {
+      "check": "rpe1_thesis_embargo_date_verified",
+      "status": "PASS"
+    },
+    {
+      "check": "all_readouts_unchanged_insufficient",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:zenodo-12613762.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:ena-SRP420832.tsv",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:ncbi-wholebody-runs.xml",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:cambridge-rpe1-item.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:cambridge-rpe1-embargo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:europepmc-since-prior-audit.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022367-suppl-index.html",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022367_1_barcodes.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022367_1_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022368-suppl-index.html",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022368_2-1_barcodes.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022368_2-1_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022369-suppl-index.html",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022369_2-2_barcodes.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022369_2-2_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022370-suppl-index.html",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022370_2-3_barcodes.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:GSM7022370_2-3_features.tsv.gz",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz_iOSKM_cohort1_toshare.rds",
+      "status": "PASS"
+    },
+    {
+      "check": "repository_md5:svz_iOSKM_cohort1_toshare.rds",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:43587_2024_594_MOESM2_ESM.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "repository_md5:43587_2024_594_MOESM2_ESM.xlsx",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:PMC12036604.html",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz-zenodo.json",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz-iOSKM_cohort1-seurat_part1.R",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz-iOSKM_cohort1-seurat_part2.R",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz-iOSKM_cohort2-iOSKM2_seurat_part1.R",
+      "status": "PASS"
+    },
+    {
+      "check": "source_bytes:svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "status": "PASS"
+    },
+    {
+      "check": "download_budget_below_1GB",
+      "status": "PASS"
+    },
+    {
+      "check": "nine_adversarial_barcode_tests_pass",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified",
+  "determinism": "Checks are deterministic for pinned local inputs; verification timestamp varies.",
+  "frozen_cohort1_admission_sha256": "9dc8818d059d68f3991b3aa569e504e603cee1234e5e58f4bcb3ebf6c9eb3148",
+  "generated_at_utc": "2026-10-18T11:09:49.517209+00:00",
+  "hook": "PYTHONDONTWRITEBYTECODE=1 python3 verify_recovery.py",
+  "mode": "full_source_and_artifact_audit",
+  "passed": 56,
+  "raw_sources_not_rechecked": [],
+  "scope": "Metadata, hashes, source availability and barcode joins only; no expression outcome verification.",
+  "status": "PASS",
+  "test_output": "test_rejects_duplicate_object (test_recovery.BarcodeAdmissionTests.test_rejects_duplicate_object) ... ok\ntest_rejects_duplicate_raw (test_recovery.BarcodeAdmissionTests.test_rejects_duplicate_raw) ... ok\ntest_rejects_empty_collections (test_recovery.BarcodeAdmissionTests.test_rejects_empty_collections) ... ok\ntest_rejects_invalid_raw_identifiers (test_recovery.BarcodeAdmissionTests.test_rejects_invalid_raw_identifiers) ... ok\ntest_rejects_mixed_suffix_and_potential_collision (test_recovery.BarcodeAdmissionTests.test_rejects_mixed_suffix_and_potential_collision) ... ok\ntest_rejects_object_lane_prefix_or_suffix (test_recovery.BarcodeAdmissionTests.test_rejects_object_lane_prefix_or_suffix) ... ok\ntest_rejects_other_library (test_recovery.BarcodeAdmissionTests.test_rejects_other_library) ... ok\ntest_rejects_unmatched_object (test_recovery.BarcodeAdmissionTests.test_rejects_unmatched_object) ... ok\ntest_uniform_suffix_preserves_full_join (test_recovery.BarcodeAdmissionTests.test_uniform_suffix_preserves_full_join) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.000s\n\nOK\n",
+  "total": 56
+}

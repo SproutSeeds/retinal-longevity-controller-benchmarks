@@ -1,0 +1,210 @@
+{
+  "bulk_files_modified": false,
+  "claim_level": "Verified numerical reconstruction within admitted metadata; Heuristic effect interpretation",
+  "discrepancies": [],
+  "exact_test_and_Holm_comparisons": 48,
+  "independent_implementation": "Python standard library; raw counts to all 18 selected library transforms, donor panel scores, exact age enumeration/sign tests, Holm adjustments, gene contributions and gene/donor omissions.",
+  "interpretation_findings": [
+    "All four primary CPM age-response tests have Holm p <= 0.047619 under the stated exchangeability assumption; these are small descriptive differences, not a causal age effect or safety/identity result.",
+    "Cycle scores decrease in all nine donor pairs under every frozen normalization. The old mean decrement is smaller than the young mean decrement; describe the signed response rather than a generic rejuvenation benefit.",
+    "The overlap-excluded reprogramming CPM age difference is dominated by Nanog; removing Nanog changes its sign. Its rank sensitivity has adjusted p=1. This is not broad endogenous-network confirmation.",
+    "Stress age-difference direction reverses under the rank transform, so direction is not invariant across the frozen score definitions.",
+    "Rank includes average ranks for zero ties. Relative ranks are detection/composition dependent and are not an independent measure of absolute RNA or endogenous state.",
+    "Well layout is associated with age/treatment assignments; the frozen caveat correctly calls technical confounding possible rather than proven. The exchangeability-dependent p-values do not eliminate that path."
+  ],
+  "max_absolute_numeric_error": 4.440892098500626e-15,
+  "numeric_comparisons": 1791,
+  "reviewed_artifact_hashes": {
+    "admission.json": "58dde2caa98114512b011d6cb812348bd1b5d95e8e6a4cd09f97638c3c2bf535",
+    "analyze.py": "3b8be9ca42acbca96fe5dd036b51c2362dcbbd18aa513116976c085154f32e71",
+    "contract.json": "cf00356b9e4073650ea02ec580fe44cd2838362d79ba3dc8f11494840e51cc8f",
+    "gene-contributions.csv": "65811824d3d63644ac6b70fe3b974a0abe5092bfe07115f39c5106edd6451fba",
+    "panels.json": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+    "results.json": "ffc2f7a3e5752399837007af69ffb9784c98b4065da52aec38bd4d0b1746a7e6"
+  },
+  "reviewed_rows": [
+    {
+      "age_difference": 0.08653838345153952,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        0.07511587826728272,
+        0.09109266938596544
+      ],
+      "method": "log2_cpm",
+      "panel": "cycle_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 2,
+      "permutation_p": 0.015873015873015872,
+      "sign_p": 0.00390625
+    },
+    {
+      "age_difference": -0.051148836899519684,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.06252620273804856,
+        -0.02249105828415108
+      ],
+      "method": "log2_cpm",
+      "panel": "reprogramming_state",
+      "permutation_denominator": 126,
+      "permutation_numerator": 1,
+      "permutation_p": 0.007936507936507936,
+      "sign_p": 0.0390625
+    },
+    {
+      "age_difference": -0.02198562611932865,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.03229491210733529,
+        0.00706107642273203
+      ],
+      "method": "log2_cpm",
+      "panel": "reprogramming_without_OSKM_overlap",
+      "permutation_denominator": 126,
+      "permutation_numerator": 3,
+      "permutation_p": 0.023809523809523808,
+      "sign_p": 1
+    },
+    {
+      "age_difference": -0.09540372004223045,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        -0.1147890683053219,
+        -0.08521511124822548
+      ],
+      "method": "log2_cpm",
+      "panel": "stress_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 3,
+      "permutation_p": 0.023809523809523808,
+      "sign_p": 1
+    },
+    {
+      "age_difference": 0.08879435277667824,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        0.07737216391995799,
+        0.09334815567035487
+      ],
+      "method": "log2_median_ratio",
+      "panel": "cycle_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 2,
+      "permutation_p": 0.015873015873015872,
+      "sign_p": 0.00390625
+    },
+    {
+      "age_difference": -0.050824205795317975,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.062444570994268575,
+        -0.021853512489919808
+      ],
+      "method": "log2_median_ratio",
+      "panel": "reprogramming_state",
+      "permutation_denominator": 126,
+      "permutation_numerator": 1,
+      "permutation_p": 0.007936507936507936,
+      "sign_p": 0.0390625
+    },
+    {
+      "age_difference": -0.021580985575352853,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.03220093580395953,
+        0.007494533983734723
+      ],
+      "method": "log2_median_ratio",
+      "panel": "reprogramming_without_OSKM_overlap",
+      "permutation_denominator": 126,
+      "permutation_numerator": 3,
+      "permutation_p": 0.023809523809523808,
+      "sign_p": 0.5078125
+    },
+    {
+      "age_difference": -0.09354948725475869,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        -0.11259371973392661,
+        -0.08343033980312227
+      ],
+      "method": "log2_median_ratio",
+      "panel": "stress_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 3,
+      "permutation_p": 0.023809523809523808,
+      "sign_p": 1
+    },
+    {
+      "age_difference": 0.005880546432251509,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        0.004843627131972134,
+        0.006084848423221894
+      ],
+      "method": "within_library_rank",
+      "panel": "cycle_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 2,
+      "permutation_p": 0.015873015873015872,
+      "sign_p": 0.00390625
+    },
+    {
+      "age_difference": -0.003533223138130448,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.015347678387429158,
+        0.009116897700927362
+      ],
+      "method": "within_library_rank",
+      "panel": "reprogramming_state",
+      "permutation_denominator": 126,
+      "permutation_numerator": 107,
+      "permutation_p": 0.8492063492063492,
+      "sign_p": 0.5078125
+    },
+    {
+      "age_difference": -0.0010991664826672607,
+      "all_zero_panel_genes": [
+        "Zfp42"
+      ],
+      "gene_omission_age_difference_range": [
+        -0.016446097372488415,
+        0.01617333741198695
+      ],
+      "method": "within_library_rank",
+      "panel": "reprogramming_without_OSKM_overlap",
+      "permutation_denominator": 126,
+      "permutation_numerator": 120,
+      "permutation_p": 0.9523809523809523,
+      "sign_p": 0.5078125
+    },
+    {
+      "age_difference": 0.009514839552513338,
+      "all_zero_panel_genes": [],
+      "gene_omission_age_difference_range": [
+        -0.005560519706336944,
+        0.01258519556070753
+      ],
+      "method": "within_library_rank",
+      "panel": "stress_panel",
+      "permutation_denominator": 126,
+      "permutation_numerator": 68,
+      "permutation_p": 0.5396825396825397,
+      "sign_p": 0.5078125
+    }
+  ],
+  "source_read_only": true,
+  "source_sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+  "status": "PASS"
+}

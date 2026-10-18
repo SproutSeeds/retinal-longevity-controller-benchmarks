@@ -1,0 +1,290 @@
+{
+  "animals": [
+    {
+      "cells": 212,
+      "observed_metadata": {
+        "Celltype": {
+          "Astrocyte_qNSC": 22,
+          "Endothelial": 10,
+          "Macrophage": 2,
+          "Microglia": 97,
+          "Mural": 2,
+          "Neuroblast": 13,
+          "OPC": 1,
+          "Oligodendrocyte": 61,
+          "aNSC_NPC": 4
+        },
+        "Celltype.LowRes": {
+          "Astrocyte_qNSC": 22,
+          "Endothelial": 10,
+          "Macrophage": 2,
+          "Microglia": 97,
+          "Mural": 2,
+          "Neuroblast": 13,
+          "OPC": 1,
+          "Oligodendrocyte": 61,
+          "aNSC_NPC": 4
+        },
+        "LMO2_classification.global": {
+          "Singlet": 212
+        },
+        "Treatment": {
+          "2Dox0": 212
+        },
+        "hash.ID": {
+          "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC": 212
+        },
+        "orig.ident": {
+          "SeuratProject": 212
+        }
+      },
+      "sample_id": "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC"
+    },
+    {
+      "cells": 347,
+      "observed_metadata": {
+        "Celltype": {
+          "Astrocyte_qNSC": 47,
+          "Endothelial": 26,
+          "Macrophage": 5,
+          "Microglia": 141,
+          "Mural": 6,
+          "Neuroblast": 16,
+          "OPC": 9,
+          "Oligodendrocyte": 92,
+          "aNSC_NPC": 5
+        },
+        "Celltype.LowRes": {
+          "Astrocyte_qNSC": 47,
+          "Endothelial": 26,
+          "Macrophage": 5,
+          "Microglia": 141,
+          "Mural": 6,
+          "Neuroblast": 16,
+          "OPC": 9,
+          "Oligodendrocyte": 92,
+          "aNSC_NPC": 5
+        },
+        "LMO2_classification.global": {
+          "Singlet": 347
+        },
+        "Treatment": {
+          "untr": 347
+        },
+        "hash.ID": {
+          "Sample2-955L-DOB20180501-untr-ACCAATGC": 347
+        },
+        "orig.ident": {
+          "SeuratProject": 347
+        }
+      },
+      "sample_id": "Sample2-955L-DOB20180501-untr-ACCAATGC"
+    },
+    {
+      "cells": 432,
+      "observed_metadata": {
+        "Celltype": {
+          "Astrocyte_qNSC": 47,
+          "Endothelial": 43,
+          "Ependymal": 4,
+          "Macrophage": 6,
+          "Microglia": 166,
+          "Mural": 8,
+          "Neuroblast": 29,
+          "OPC": 3,
+          "Oligodendrocyte": 108,
+          "aNSC_NPC": 18
+        },
+        "Celltype.LowRes": {
+          "Astrocyte_qNSC": 47,
+          "Endothelial": 43,
+          "Ependymal": 4,
+          "Macrophage": 6,
+          "Microglia": 166,
+          "Mural": 8,
+          "Neuroblast": 29,
+          "OPC": 3,
+          "Oligodendrocyte": 108,
+          "aNSC_NPC": 18
+        },
+        "LMO2_classification.global": {
+          "Singlet": 432
+        },
+        "Treatment": {
+          "2Dox0": 432
+        },
+        "hash.ID": {
+          "Sample4-960L-DOB20180508-2Dox0-CGAACAAG": 432
+        },
+        "orig.ident": {
+          "SeuratProject": 432
+        }
+      },
+      "sample_id": "Sample4-960L-DOB20180508-2Dox0-CGAACAAG"
+    },
+    {
+      "cells": 203,
+      "observed_metadata": {
+        "Celltype": {
+          "Astrocyte_qNSC": 25,
+          "Endothelial": 12,
+          "Macrophage": 2,
+          "Microglia": 79,
+          "Mural": 1,
+          "Neuroblast": 11,
+          "OPC": 3,
+          "Oligodendrocyte": 62,
+          "aNSC_NPC": 8
+        },
+        "Celltype.LowRes": {
+          "Astrocyte_qNSC": 25,
+          "Endothelial": 12,
+          "Macrophage": 2,
+          "Microglia": 79,
+          "Mural": 1,
+          "Neuroblast": 11,
+          "OPC": 3,
+          "Oligodendrocyte": 62,
+          "aNSC_NPC": 8
+        },
+        "LMO2_classification.global": {
+          "Singlet": 203
+        },
+        "Treatment": {
+          "untr": 203
+        },
+        "hash.ID": {
+          "Sample6-953L-DOB20180501-untr-GAAGCTTG": 203
+        },
+        "orig.ident": {
+          "SeuratProject": 203
+        }
+      },
+      "sample_id": "Sample6-953L-DOB20180501-untr-GAAGCTTG"
+    }
+  ],
+  "assays": {
+    "LMO2": {
+      "cell_order_matches_RNA": true,
+      "feature_names": [
+        "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC",
+        "Sample2-955L-DOB20180501-untr-ACCAATGC",
+        "Sample3-928L-DOB20180327-2Dox5-AGTTGCGT",
+        "Sample4-960L-DOB20180508-2Dox0-CGAACAAG",
+        "Sample5-929L-DOB20180327-2Dox5-GTACCTGT",
+        "Sample6-953L-DOB20180501-untr-GAAGCTTG"
+      ],
+      "shape": [
+        6,
+        1194
+      ]
+    },
+    "RNA": {
+      "cell_order_matches_RNA": true,
+      "shape": [
+        31057,
+        1194
+      ]
+    },
+    "SCT": {
+      "cell_order_matches_RNA": true,
+      "shape": [
+        15162,
+        1194
+      ]
+    }
+  },
+  "cells": 1194,
+  "checks": {
+    "RNA_features_match_metadata": true,
+    "RNA_totals_match_metadata": true,
+    "cell_order_matches": true,
+    "raw_counts_valid": true,
+    "source_checksum": true,
+    "unique_genes_and_cells": true
+  },
+  "claim_level": "Verified",
+  "expression_analysis_executed": false,
+  "metadata_columns": [
+    "orig.ident",
+    "nCount_RNA",
+    "nFeature_RNA",
+    "percent.mt",
+    "RNA_snn_res.0.15",
+    "seurat_clusters",
+    "nCount_LMO2",
+    "nFeature_LMO2",
+    "LMO2_maxID",
+    "LMO2_secondID",
+    "LMO2_margin",
+    "LMO2_classification",
+    "LMO2_classification.global",
+    "hash.ID",
+    "nCount_SCT",
+    "nFeature_SCT",
+    "SCT_snn_res.0.5",
+    "SCT_snn_res.0.8",
+    "Celltype.17",
+    "Celltype.LowRes",
+    "SCT_snn_res.5.6",
+    "Celltype.38collapsed",
+    "Celltype",
+    "Treatment",
+    "Celltype_Treatment"
+  ],
+  "observed_metadata": {
+    "Celltype": {
+      "Astrocyte_qNSC": 141,
+      "Endothelial": 91,
+      "Ependymal": 4,
+      "Macrophage": 15,
+      "Microglia": 483,
+      "Mural": 17,
+      "Neuroblast": 69,
+      "OPC": 16,
+      "Oligodendrocyte": 323,
+      "aNSC_NPC": 35
+    },
+    "Celltype.LowRes": {
+      "Astrocyte_qNSC": 141,
+      "Endothelial": 91,
+      "Ependymal": 4,
+      "Macrophage": 15,
+      "Microglia": 483,
+      "Mural": 17,
+      "Neuroblast": 69,
+      "OPC": 16,
+      "Oligodendrocyte": 323,
+      "aNSC_NPC": 35
+    },
+    "LMO2_classification.global": {
+      "Singlet": 1194
+    },
+    "Treatment": {
+      "2Dox0": 644,
+      "untr": 550
+    },
+    "hash.ID": {
+      "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC": 212,
+      "Sample2-955L-DOB20180501-untr-ACCAATGC": 347,
+      "Sample4-960L-DOB20180508-2Dox0-CGAACAAG": 432,
+      "Sample6-953L-DOB20180501-untr-GAAGCTTG": 203
+    },
+    "orig.ident": {
+      "SeuratProject": 1194
+    }
+  },
+  "rna_genes": 31057,
+  "sample_key": "hash.ID",
+  "scope": "observed metadata and count integrity only",
+  "source": {
+    "cache_path": "/tmp/cx004-neural-validation-2026-10-18/svz_iOSKM_cohort1_toshare.rds",
+    "inventory_sha256": "3540429a89188e1efabedec45ce48af9d6fc83a52788b19f0299d76fda7baaf1",
+    "name": "svz_iOSKM_cohort1_toshare.rds",
+    "repository_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+    "sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+    "size_bytes": 94079882,
+    "status": "PASS",
+    "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content"
+  }
+}

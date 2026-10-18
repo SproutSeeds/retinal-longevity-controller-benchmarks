@@ -1,0 +1,263 @@
+{
+  "id" : "d696e1f1-d49a-4edb-878b-22133a7b15cd",
+  "uuid" : "d696e1f1-d49a-4edb-878b-22133a7b15cd",
+  "name" : "Cellular Identity Dynamics in Reprogramming, Oncogenic Stress, and Ageing",
+  "handle" : "1810/401280",
+  "metadata" : {
+    "cam.depositDate" : [ {
+      "value" : "2026-04-07",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "cam.restriction" : [ {
+      "value" : "thesis_access_embargoed",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "cam.supervisor" : [ {
+      "value" : "Narita, masashi",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "cam.thesis.confidential" : [ {
+      "value" : "sensitive_information_na",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "cam.thesis.copyright" : [ {
+      "value" : "copyright_na",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.contributor.author" : [ {
+      "value" : "Kwon, Yongmin",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2026-04-07T13:36:01Z",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.submitted" : [ {
+      "value" : "2025-10-31",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "Ageing is often described as erosion of cellular identity through progressive epigenetic drift and stress-responsive programmes, yet the boundary between reversible plasticity and durable identity change remains unclear. Partial reprogramming offers a controlled way to overcome lineage constraints without full dedifferentiation, and has been proposed to reset the ageing- associated epigenome. Recent work in the lab introduced the concept of senescence spectrum associated with increased cellular plasticity in a tissue-dependent context. However, the establishment and reversibility of the lineage identity shifts in these two induced states of cellular plasticity have not been systematically characterised within the same framework. This work addresses this question through the use of an inducible OCT4, KLF4, SOX2 (OKS) system to reprogram human retinal pigmented epithelial (RPE1) cells. We then compared reprogramming-induced intermediate to the aforementioned sub-senescence plastic state via time-resolved single-cell profiling of transcriptome during induction, followed by withdrawal in both systems. Both the transient OKS induction and RAS signalling induced a slow-cycling phenotype, marked by a striking neurodevelopmental signature, which was contextualised using public datasets in the human retina. This suggested that the observed cellular plasticity in OKS and RAS inductions reflects the re-engagement of regulated developmental programmes as opposed to non-specific stress responses. In parallel, we investigated the epigenetic impact of ageing in different tissues, using both natural ageing mice, as well as the accelerated ageing model via autophagy inhibition developed in our lab. DNA methylation clock analysis revealed tissue-heterogeneity of epigenetic acceleration, with notable age acceleration in liver. Interestingly, the brain remained largely unaffected despite pronounced ageing phenotypes in peripheral tissues, which was consistent with the lack of changes in ageing-associated markers - neurogenesis and neuroinflammation. This is in marked contrast to the reported systemic ageing effects in heterochronic parabiosis studies. Autophagy inhibition showed similar trends of methylation to natural ageing, targeting developmental regulators and highlighting the central role played by autophagy during ageing. Collectively, these findings demonstrate that cell identity shifts can converge from dis- tinct initiators - reprogramming and oncogenic RAS - highlighting a shared mechanistic route towards transient plasticity. This convergence warrants further investigation into the mechanisms that coordinate such responses across different perturbations. In the retinal context, understanding this process could unlock the regenerative potential of RPE, an area of high interest. The propensity of the epigenetic changes with ageing across different tissues highlighted the need to assess the impact of perturbations and understand susceptibility in diverse contexts. More broadly, these insights may inform strategies to harness controlled cellular plasticity for regenerative purposes while maintaining identity fidelity, particularly in the context of ageing.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.sponsorship" : [ {
+      "value" : "Kwanjeong Foundation. Altos Labs.",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "https://doi.org/10.17863/CAM.129172",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "https://www.repository.cam.ac.uk/handle/1810/401280",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "eng",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher.department" : [ {
+      "value" : "Cancer Research UK Cambridge Institute",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.publisher.institution" : [ {
+      "value" : "University of Cambridge",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "All rights reserved",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "http://purl.org/NET/rdflicense/allrightsreserved",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject" : [ {
+      "value" : "Ageing",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Senescence",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Epigenetic reprogramming",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Partial reprogramming",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Autophagy",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Cellular plasticity",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Cellular identity",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 6
+    } ],
+    "dc.title" : [ {
+      "value" : "Cellular Identity Dynamics in Reprogramming, Oncogenic Stress, and Ageing",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "Thesis",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type.qualificationlevel" : [ {
+      "value" : "Doctoral",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "pubs.licence-display-name" : [ {
+      "value" : "Apollo Repository Deposit Licence Agreement",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "pubs.licence-identifier" : [ {
+      "value" : "apollo-deposit-licence-3",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "rioxxterms.licenseref.uri" : [ {
+      "value" : "http://purl.org/NET/rdflicense/allrightsreserved",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "rioxxterms.type" : [ {
+      "value" : "Thesis",
+      "language" : null,
+      "authority" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2026-04-08T01:43:56.623+00:00",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/bundles"
+    },
+    "citationInformation" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/citationInformation"
+    },
+    "embargoInformation" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/embargoInformation"
+    },
+    "identifiers" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/relationships"
+    },
+    "version" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/thumbnail"
+    },
+    "self" : {
+      "href" : "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd"
+    }
+  }
+}

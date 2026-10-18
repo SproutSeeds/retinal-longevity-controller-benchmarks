@@ -1,0 +1,39 @@
+{
+  "id": "CX004-HUMAN-MARKER-AUDIT-20261018-R1",
+  "claim_level": "Heuristic",
+  "computation_level": "Verified only after audit and tests pass",
+  "design": "Post hoc analysis revision prompted by independent review; neither prospective nor registered. Original panel results and source files remain immutable.",
+  "prior_exposure": "The original panel scores, single-gene omission scores, per-gene transformed values and seven-gene raw counts have been inspected before this contract. Rank and top-abundance sensitivity outcomes have not been computed before this contract.",
+  "source_study": {"citation": "Lu et al., Cell 2025, Prevalent mesenchymal drift in aging and disease is reversed by partial reprogramming", "doi": "10.1016/j.cell.2025.07.031", "accession": "GSE297233"},
+  "prior_packet": "cx004-independent-comparator-2026-10-18",
+  "prior_sha256": {
+    "human-results.json": "da7d2ea5ee6d940219d36ff2860def2f006ebc3bcd8fbf897c196950b02abda6",
+    "panels.json": "271fd952e5057580d705ce9b0d0e0209d6ebdbdf66589db6ff2df52dcabd852e",
+    "analysis-contract.json": "ab76f6e313ddac02a243c93437217bb132bade427d3087654ea53d7e2d8390cd",
+    "analyze.py": "d812d314a4d082ba3bb22ed7ae0edabd259a35e93e79c415e3a8bcc0316e0606",
+    "input-files.json": "368458af31fbf75fbfdaa9dfc16c1cedd537c3695d5fcff9c440daf73d32e270",
+    "join-amendment.json": "2c1f3eba7a073246255fff4a0b355a48dcb77769065b8b4540cd366f2340022e"
+  },
+  "required_sources": ["GSE297233_raw_counts_matrix.csv.gz", "GSE297233-samples.txt", "hgnc_complete_set.txt"],
+  "replication": "Eight libraries, one donor GM00731, male age 96; two libraries per condition with no assumption of independent biological replication or paired library labels. No p-values, donor inference or age contrast.",
+  "panels": "Retain all five previously scored panels, including the full nine-gene panel and seven-gene panel excluding POU5F1/SOX2. A feature present with zero counts remains in the denominator. No outcome-selected deletion or replacement.",
+  "availability": "Report exact mapped Ensembl ID, presence in matrix, number of nonzero libraries, raw counts and sum for every panel gene. Matrix presence is distinct from expression detection and biological absence.",
+  "decomposition": {
+    "gene_delta": "Arithmetic mean treated transformed value minus arithmetic mean control transformed value; library labels are not paired.",
+    "additive_contribution": "gene_delta / original_panel_size; the sum equals the full panel difference.",
+    "signed_share": "gene_delta / sum(all panel gene_deltas), null when total is zero. This may be negative or exceed one in opposing effects.",
+    "absolute_share": "abs(gene_delta) / sum(abs(all panel gene_deltas)), null when denominator is zero.",
+    "omission": "Recompute mean over N-1 genes; record effect, four unpaired library differences, sign, and retained magnitude abs(omitted_effect)/abs(full_effect). A retained sign is separate from retained magnitude.",
+    "report_scope": "All genes in all original panels under original and newly specified sensitivity transforms. No inferred state labels."
+  },
+  "normalizations": {
+    "original_replay": "Independently reproduce log2(1+CPM) and positive-all-eight median-ratio CPM-equivalent transforms from raw counts, requiring absolute agreement <= 1e-10 with every original stored gene value, panel difference and omission value.",
+    "rank": "Within each library, rank all 62703 features ascending using average tied 1-based ranks. If z genes have zero counts, let r0=(z+1)/2; if z=0 let r0=0. Zero-valued features score 0; positive features score (rank-r0)/(N-r0). Equal-weight panel means yield zero-anchored relative-rank units, not log-expression units. Rank is invariant to a positive scalar change in a library but remains dependent on within-library composition and detection; it is not immune to composition.",
+    "top_abundance": "Rank all features by their mean CPM across eight libraries, breaking ties by Ensembl ID. For k in [10,100], exclude the same top-k features from every normalization denominator. Retain original panel numerators, even if a panel feature is excluded from the denominator. Let T_j be remaining count sum and L_j full depth; effective depth is T_j*geomean(L)/geomean(T). Transform log2(1+count/effective_depth*1e6). Report all excluded feature IDs, panel overlap and excluded fractions. This is a normalization sensitivity, not correction of a proven artifact.",
+    "top_k": [10, 100]
+  },
+  "forbidden_inferences": ["A calibrated reprogramming or pluripotency classifier", "An inactive endogenous pluripotency network from low or zero RNA counts", "Biological absence in every cell or at protein level", "Proven technical confounding from detected-gene differences", "Controlled withdrawal or recovery", "True rare-state prevalence, safety, retinal efficacy or age rejuvenation", "Independent study validation of the SRSF1 classifier"],
+  "determinism": "Python standard library only; deterministic sorting, no random sampling, no timestamps or mutable runtime metadata in numerical outputs. Serialize sorted JSON; validate raw-source hashes and immutable prior hashes before and after run.",
+  "outputs": ["marker-audit.json", "gene-contributions.csv", "gene-availability.csv", "ADDENDUM.md", "test_marker_audit.py", "VERIFICATION.json"],
+  "gse297234_scope": "Metadata and prior-analysis scout only. A separate post hoc per-cell contract requires root freeze before calculating extension outcomes."
+}

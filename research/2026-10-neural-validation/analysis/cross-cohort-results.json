@@ -1,0 +1,4038 @@
+{
+  "authority": "Same-study cross-cohort direction robustness with different age, sex, sequencing chemistry and cluster collapses. Mean direction is reported separately from animal consistency; no exact replication or independent-study claim.",
+  "claim_level": "Verified",
+  "cohort1_result_sha256": "7ab67d0efc48c49388e41f093c586502e0a937ae4191d77a750c4d6d4efca2fd",
+  "cohort2_result_sha256": "b0e0f92ff90a6b6223fcbab7a75acbecbd91df4fe32e8e6369360f74c680f26b",
+  "comparisons": [
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.257374855441076,
+            0.2701787707404548
+          ],
+          "mean_difference": -0.4935980423503106
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.2737756840421697,
+            0.26717312465946685
+          ],
+          "mean_difference": -0.5169441163078308
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3332781855448521,
+            0.11130381420241875
+          ],
+          "mean_difference": -0.11098718567121657
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3333783618381757,
+            0.09923176738621375
+          ],
+          "mean_difference": -0.12096544552362554
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.4935980423503106,
+          "cohort2_mean_difference": -0.11098718567121657,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.5169441163078308,
+          "cohort2_mean_difference": -0.12096544552362554,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.11724419389916763,
+            0.48214770836079
+          ],
+          "mean_difference": 0.29969595112997893
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.1164223907089923,
+            0.46620745237219474
+          ],
+          "mean_difference": 0.28636486929550276
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.19541340944141772,
+            0.16720595859517484
+          ],
+          "mean_difference": -0.01410372542312155
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.19510862380123517,
+            0.16099923450931453
+          ],
+          "mean_difference": -0.01913393425542287
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.29969595112997893,
+          "cohort2_mean_difference": -0.01410372542312155,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.28636486929550276,
+          "cohort2_mean_difference": -0.01913393425542287,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.5911266800829555
+          ],
+          "mean_difference": 0.2955633400414778
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.5832037309922067
+          ],
+          "mean_difference": 0.2907705620044942
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.2955633400414778,
+          "cohort2_mean_difference": 0.0,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.2907705620044942,
+          "cohort2_mean_difference": 0.0,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.06801815396133026,
+            1.209711795174116
+          ],
+          "mean_difference": 0.5708468206063928
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.09211329510720945,
+            1.2065787714114715
+          ],
+          "mean_difference": 0.5451094221843187
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5140654063227008,
+            0.6301809398532523
+          ],
+          "mean_difference": 0.05805776676527574
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5542777199121507,
+            0.6308059430761233
+          ],
+          "mean_difference": 0.03869852533301832
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.5708468206063928,
+          "cohort2_mean_difference": 0.05805776676527574,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.5451094221843187,
+          "cohort2_mean_difference": 0.03869852533301832,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.37245326054683847,
+            0.4777879530165732
+          ],
+          "mean_difference": 0.05266734623486724
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3984846969029817,
+            0.5086970937567596
+          ],
+          "mean_difference": 0.054997946132309794
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.07359504331686595,
+            0.42244353696394343
+          ],
+          "mean_difference": 0.2480192901404048
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.06793441266358435,
+            0.43368942782895514
+          ],
+          "mean_difference": 0.24856768369322446
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.05266734623486724,
+          "cohort2_mean_difference": 0.2480192901404048,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.054997946132309794,
+          "cohort2_mean_difference": 0.24856768369322446,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.4138012599714185,
+            0.599819877261197
+          ],
+          "mean_difference": 0.5068105686163078
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.41947395041501684,
+            0.5916176456268097
+          ],
+          "mean_difference": 0.5057323215891859
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3567227100626378,
+            0.473739050430642
+          ],
+          "mean_difference": 0.05850817018400212
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.35540672252009475,
+            0.47084066297844684
+          ],
+          "mean_difference": 0.057935781537757136
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.5068105686163078,
+          "cohort2_mean_difference": 0.05850817018400212,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.5057323215891859,
+          "cohort2_mean_difference": 0.057935781537757136,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.0
+          ],
+          "mean_difference": 0.0
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.5998328788534402
+          ],
+          "mean_difference": 0.2999164394267201
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.598206588025194
+          ],
+          "mean_difference": 0.2993714001149573
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.0,
+          "cohort2_mean_difference": 0.2999164394267201,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.0,
+          "cohort2_mean_difference": 0.2993714001149573,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.09905471026681001,
+            0.5152767504957692
+          ],
+          "mean_difference": 0.3071657303812896
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.0702918135813837,
+            0.5292038972760653
+          ],
+          "mean_difference": 0.29856029942741547
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.16597889129580334,
+            1.5043561759040553
+          ],
+          "mean_difference": 0.669188642304126
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.20599660862652502,
+            1.5208155191927961
+          ],
+          "mean_difference": 0.6655606523944297
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": 0.3071657303812896,
+          "cohort2_mean_difference": 0.669188642304126,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": 0.29856029942741547,
+          "cohort2_mean_difference": 0.6655606523944297,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": true,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.1195896617870909,
+            0.5389482722485681
+          ],
+          "mean_difference": -0.29032069476926115
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.1360674790592773,
+            0.5076378784724684
+          ],
+          "mean_difference": -0.31621952244493867
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            -1.8287388570481182,
+            -0.19870571599571774
+          ],
+          "mean_difference": -1.0137222865219178
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            -1.7875331072384912,
+            -0.20292213593599362
+          ],
+          "mean_difference": -0.9931242144464232
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -0.29032069476926115,
+          "cohort2_mean_difference": -1.0137222865219178,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -0.31621952244493867,
+          "cohort2_mean_difference": -0.9931242144464232,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": true,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5277245856775168,
+            0.007939669516713543
+          ],
+          "mean_difference": -0.2598924580804016
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5322705638749592,
+            0.0024430877297659803
+          ],
+          "mean_difference": -0.26572486876828627
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.10335168281028873,
+            0.1690566300397822
+          ],
+          "mean_difference": 0.03285247361474675
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.1028117009786953,
+            0.17652893047557958
+          ],
+          "mean_difference": 0.036640042162271624
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.2598924580804016,
+          "cohort2_mean_difference": 0.03285247361474675,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.26572486876828627,
+          "cohort2_mean_difference": 0.036640042162271624,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.2920684364871132,
+            -0.004085989006441221
+          ],
+          "mean_difference": -0.14807721274677724
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.29554182062316436,
+            -0.006242445951198522
+          ],
+          "mean_difference": -0.1511413360924875
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.1705087246488673,
+            0.04547718273094011
+          ],
+          "mean_difference": -0.0625157709589636
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.17015085184617287,
+            0.046774524123680376
+          ],
+          "mean_difference": -0.06215406867666933
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.14807721274677724,
+          "cohort2_mean_difference": -0.0625157709589636,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.1511413360924875,
+          "cohort2_mean_difference": -0.06215406867666933,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.07067768287039389,
+            0.2813235552912188
+          ],
+          "mean_difference": 0.17600061908080633
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.05220955493369006,
+            0.26104492049324923
+          ],
+          "mean_difference": 0.15473539812606774
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.05042029247566493,
+            0.38063231029938827
+          ],
+          "mean_difference": 0.16510600891186122
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.059950494729926085,
+            0.42616539332964454
+          ],
+          "mean_difference": 0.18397048707562202
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.17600061908080633,
+          "cohort2_mean_difference": 0.16510600891186122,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.15473539812606774,
+          "cohort2_mean_difference": 0.18397048707562202,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -2.02176661666633,
+            -0.2386368946642694
+          ],
+          "mean_difference": -1.1302017556652997
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.9766723977931706,
+            -0.21787365215118948
+          ],
+          "mean_difference": -1.1117869798891593
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.039451681197749444,
+            0.4962548100949209
+          ],
+          "mean_difference": 0.26785324564633495
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0045898589667894285,
+            0.5051600685077631
+          ],
+          "mean_difference": 0.2506832332315434
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -1.1302017556652997,
+          "cohort2_mean_difference": 0.26785324564633495,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -1.1117869798891593,
+          "cohort2_mean_difference": 0.2506832332315434,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.020234689646619897,
+            0.0747315217090021
+          ],
+          "mean_difference": 0.027248416031190992
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.0031355560525849757,
+            0.07340753410140843
+          ],
+          "mean_difference": 0.034337546279760156
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.010640945922792966,
+            -0.001978595590291121
+          ],
+          "mean_difference": -0.0063097707565420436
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            -0.02195271675438759,
+            -0.006797143092494018
+          ],
+          "mean_difference": -0.013382663304649434
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.027248416031190992,
+          "cohort2_mean_difference": -0.0063097707565420436,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.034337546279760156,
+          "cohort2_mean_difference": -0.013382663304649434,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.005511229031713638,
+            0.09198296156010177
+          ],
+          "mean_difference": 0.048747095295907705
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.012830733814181317,
+            0.10419258485271388
+          ],
+          "mean_difference": 0.05330793377080001
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.05049298412098113,
+            -0.007907717789475743
+          ],
+          "mean_difference": -0.029200350955228327
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.06005172380294077,
+            -0.0054367285116281305
+          ],
+          "mean_difference": -0.03374847173867179
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.048747095295907705,
+          "cohort2_mean_difference": -0.029200350955228327,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.05330793377080001,
+          "cohort2_mean_difference": -0.03374847173867179,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5070955628896234,
+            1.8030038469946073
+          ],
+          "mean_difference": 0.6479541420524919
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.47507120967217364,
+            1.8287231904325747
+          ],
+          "mean_difference": 0.6587366496713352
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.587894296524925,
+            0.5029856439277549
+          ],
+          "mean_difference": -0.04245432629858481
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.6187137715908837,
+            0.5141651602580337
+          ],
+          "mean_difference": -0.05728849849623607
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.6479541420524919,
+          "cohort2_mean_difference": -0.04245432629858481,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.6587366496713352,
+          "cohort2_mean_difference": -0.05728849849623607,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "960L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ],
+        "L0003": [
+          "cells_below_10"
+        ],
+        "L0004": [
+          "cells_below_10"
+        ],
+        "L0011": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.01151843607298031,
+            0.6665359588846445
+          ],
+          "mean_difference": 0.32750876140583185
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.008172619906015255,
+            0.6596014237367736
+          ],
+          "mean_difference": 0.3266917653715897
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.2585070285167592,
+            0.09113748291574719
+          ],
+          "mean_difference": -0.08368477280050612
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.25748781703315515,
+            0.08425185926251566
+          ],
+          "mean_difference": -0.08569416460925638
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.32750876140583185,
+          "cohort2_mean_difference": -0.08368477280050612,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.3266917653715897,
+          "cohort2_mean_difference": -0.08569416460925638,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3646854524986516,
+            -0.04046983238695134
+          ],
+          "mean_difference": -0.2025776424428014
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3613068256702925,
+            -0.041361401937537456
+          ],
+          "mean_difference": -0.20259263415664652
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.24745800465136258,
+            0.1934165588791752
+          ],
+          "mean_difference": -0.027020722886093695
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.24709136535448617,
+            0.18996372070138912
+          ],
+          "mean_difference": -0.02807366908289688
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.2025776424428014,
+          "cohort2_mean_difference": -0.027020722886093695,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.20259263415664652,
+          "cohort2_mean_difference": -0.02807366908289688,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5379183882265831,
+            -0.13757684364448192
+          ],
+          "mean_difference": -0.3377476159355325
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5382960235460899,
+            -0.13614397774818443
+          ],
+          "mean_difference": -0.33747384588360635
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.45030019922050507,
+            0.18424933470508215
+          ],
+          "mean_difference": -0.13302543225771146
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.45023613401380536,
+            0.18370404606810387
+          ],
+          "mean_difference": -0.1326635601120457
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.3377476159355325,
+          "cohort2_mean_difference": -0.13302543225771146,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.33747384588360635,
+          "cohort2_mean_difference": -0.1326635601120457,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5635550143485641,
+            0.2641365461225136
+          ],
+          "mean_difference": -0.14970923411302506
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5684306575778924,
+            0.2678534272090154
+          ],
+          "mean_difference": -0.15007800882283817
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.0650338894140865,
+            0.1281958977215587
+          ],
+          "mean_difference": 0.0966148935678226
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.06094780620562856,
+            0.12904278936936597
+          ],
+          "mean_difference": 0.09322520830388825
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.14970923411302506,
+          "cohort2_mean_difference": 0.0966148935678226,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.15007800882283817,
+          "cohort2_mean_difference": 0.09322520830388825,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_10"
+        ],
+        "955L": [
+          "cells_below_10"
+        ],
+        "961L": [
+          "cells_below_10"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_10"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "lower_cell_sensitivity"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.257374855441076,
+            0.2701787707404548
+          ],
+          "mean_difference": -0.4935980423503106
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.2737756840421697,
+            0.26717312465946685
+          ],
+          "mean_difference": -0.5169441163078308
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.11724419389916763,
+            0.48214770836079
+          ],
+          "mean_difference": 0.29969595112997893
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.1164223907089923,
+            0.46620745237219474
+          ],
+          "mean_difference": 0.28636486929550276
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.5911266800829555
+          ],
+          "mean_difference": 0.2955633400414778
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.0,
+            0.5832037309922067
+          ],
+          "mean_difference": 0.2907705620044942
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Astrocyte_qNSC",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.06801815396133026,
+            1.209711795174116
+          ],
+          "mean_difference": 0.5708468206063928
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.09211329510720945,
+            1.2065787714114715
+          ],
+          "mean_difference": 0.5451094221843187
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Endothelial",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Ependymal",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "955L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20",
+          "detected_genes_below_500",
+          "empty_pseudobulk"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Macrophage",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.1195896617870909,
+            0.5389482722485681
+          ],
+          "mean_difference": -0.29032069476926115
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -1.1360674790592773,
+            0.5076378784724684
+          ],
+          "mean_difference": -0.31621952244493867
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            -1.8287388570481182,
+            -0.19870571599571774
+          ],
+          "mean_difference": -1.0137222865219178
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            -1.7875331072384912,
+            -0.20292213593599362
+          ],
+          "mean_difference": -0.9931242144464232
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -0.29032069476926115,
+          "cohort2_mean_difference": -1.0137222865219178,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": true,
+          "cohort1_mean_difference": -0.31621952244493867,
+          "cohort2_mean_difference": -0.9931242144464232,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": true,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5277245856775168,
+            0.007939669516713543
+          ],
+          "mean_difference": -0.2598924580804016
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5322705638749592,
+            0.0024430877297659803
+          ],
+          "mean_difference": -0.26572486876828627
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.10335168281028873,
+            0.1690566300397822
+          ],
+          "mean_difference": 0.03285247361474675
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.1028117009786953,
+            0.17652893047557958
+          ],
+          "mean_difference": 0.036640042162271624
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.2598924580804016,
+          "cohort2_mean_difference": 0.03285247361474675,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.26572486876828627,
+          "cohort2_mean_difference": 0.036640042162271624,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.2920684364871132,
+            -0.004085989006441221
+          ],
+          "mean_difference": -0.14807721274677724
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.29554182062316436,
+            -0.006242445951198522
+          ],
+          "mean_difference": -0.1511413360924875
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.1705087246488673,
+            0.04547718273094011
+          ],
+          "mean_difference": -0.0625157709589636
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.17015085184617287,
+            0.046774524123680376
+          ],
+          "mean_difference": -0.06215406867666933
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.14807721274677724,
+          "cohort2_mean_difference": -0.0625157709589636,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.1511413360924875,
+          "cohort2_mean_difference": -0.06215406867666933,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Microglia",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.07067768287039389,
+            0.2813235552912188
+          ],
+          "mean_difference": 0.17600061908080633
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            0.05220955493369006,
+            0.26104492049324923
+          ],
+          "mean_difference": 0.15473539812606774
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.05042029247566493,
+            0.38063231029938827
+          ],
+          "mean_difference": 0.16510600891186122
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.059950494729926085,
+            0.42616539332964454
+          ],
+          "mean_difference": 0.18397048707562202
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.17600061908080633,
+          "cohort2_mean_difference": 0.16510600891186122,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.15473539812606774,
+          "cohort2_mean_difference": 0.18397048707562202,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Mural",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Neuroblast",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "OPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ],
+        "L0003": [
+          "cells_below_20"
+        ],
+        "L0004": [
+          "cells_below_20"
+        ],
+        "L0011": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.01151843607298031,
+            0.6665359588846445
+          ],
+          "mean_difference": 0.32750876140583185
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.008172619906015255,
+            0.6596014237367736
+          ],
+          "mean_difference": 0.3266917653715897
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.2585070285167592,
+            0.09113748291574719
+          ],
+          "mean_difference": -0.08368477280050612
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.25748781703315515,
+            0.08425185926251566
+          ],
+          "mean_difference": -0.08569416460925638
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.32750876140583185,
+          "cohort2_mean_difference": -0.08368477280050612,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": 0.3266917653715897,
+          "cohort2_mean_difference": -0.08569416460925638,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "cycle_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3646854524986516,
+            -0.04046983238695134
+          ],
+          "mean_difference": -0.2025776424428014
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.3613068256702925,
+            -0.041361401937537456
+          ],
+          "mean_difference": -0.20259263415664652
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.24745800465136258,
+            0.1934165588791752
+          ],
+          "mean_difference": -0.027020722886093695
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.24709136535448617,
+            0.18996372070138912
+          ],
+          "mean_difference": -0.02807366908289688
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.2025776424428014,
+          "cohort2_mean_difference": -0.027020722886093695,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.20259263415664652,
+          "cohort2_mean_difference": -0.02807366908289688,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_state",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5379183882265831,
+            -0.13757684364448192
+          ],
+          "mean_difference": -0.3377476159355325
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5382960235460899,
+            -0.13614397774818443
+          ],
+          "mean_difference": -0.33747384588360635
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.45030019922050507,
+            0.18424933470508215
+          ],
+          "mean_difference": -0.13302543225771146
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": true,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.45023613401380536,
+            0.18370404606810387
+          ],
+          "mean_difference": -0.1326635601120457
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.3377476159355325,
+          "cohort2_mean_difference": -0.13302543225771146,
+          "same_nonzero_direction": true,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.33747384588360635,
+          "cohort2_mean_difference": -0.1326635601120457,
+          "same_nonzero_direction": true,
+          "status": "available"
+        }
+      },
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "Oligodendrocyte",
+      "cohort1_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5635550143485641,
+            0.2641365461225136
+          ],
+          "mean_difference": -0.14970923411302506
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": false,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": false,
+          "animal_omission_range": [
+            -0.5684306575778924,
+            0.2678534272090154
+          ],
+          "mean_difference": -0.15007800882283817
+        }
+      },
+      "cohort1_status": "available",
+      "cohort1_support_failures": {},
+      "cohort2_direction_details": {
+        "log2_cpm": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.0650338894140865,
+            0.1281958977215587
+          ],
+          "mean_difference": 0.0966148935678226
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_animal_omissions_available": true,
+          "all_animal_omissions_share_mean_sign": true,
+          "all_gene_omissions_share_mean_sign": false,
+          "all_pairwise_differences_share_mean_sign": true,
+          "animal_omission_range": [
+            0.06094780620562856,
+            0.12904278936936597
+          ],
+          "mean_difference": 0.09322520830388825
+        }
+      },
+      "cohort2_status": "available",
+      "cohort2_support_failures": {},
+      "methods": {
+        "log2_cpm": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.14970923411302506,
+          "cohort2_mean_difference": 0.0966148935678226,
+          "same_nonzero_direction": false,
+          "status": "available"
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "both_pass_fixed_floor": false,
+          "cohort1_mean_difference": -0.15007800882283817,
+          "cohort2_mean_difference": 0.09322520830388825,
+          "same_nonzero_direction": false,
+          "status": "available"
+        }
+      },
+      "panel_name": "stress_panel",
+      "same_direction_and_floor_both_normalizations": false,
+      "status": "available",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "cycle_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_state",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "reprogramming_without_OSKM_overlap",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    },
+    {
+      "celltype": "aNSC_NPC",
+      "cohort1_direction_details": {},
+      "cohort1_status": "unavailable",
+      "cohort1_support_failures": {
+        "953L": [
+          "cells_below_20"
+        ],
+        "955L": [
+          "cells_below_20"
+        ],
+        "960L": [
+          "cells_below_20"
+        ],
+        "961L": [
+          "cells_below_20"
+        ]
+      },
+      "cohort2_direction_details": {},
+      "cohort2_status": "unavailable",
+      "cohort2_support_failures": {
+        "L0002": [
+          "cells_below_20"
+        ]
+      },
+      "methods": {},
+      "panel_name": "stress_panel",
+      "status": "unavailable",
+      "support_tier": "primary_support"
+    }
+  ],
+  "descriptive_floor": 0.25,
+  "evidence_class": "descriptive_cross_cohort_direction_comparison",
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "scope_limits": [
+    "The observed contrast bundles doxycycline exposure with OSKM induction. BL6 doxycycline-only controls are absent from these processed objects, so drug and construct effects cannot be separated.",
+    "CPM and median-ratio agreement checks sensitivity to these size-factor choices; it does not establish absolute RNA changes or eliminate compositional effects.",
+    "Animal-level destructive snapshots and small animal counts support descriptive marker-score comparisons; they do not establish rejuvenation, function, recovery, retinal efficacy or safety.",
+    "Cohort1 birth-date tokens differ by condition; this does not establish litter membership."
+  ]
+}

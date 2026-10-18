@@ -1,0 +1,81 @@
+{
+  "archive_has_git_repository": false,
+  "cache_path": "/tmp/cx004-bulk-portable-replay-2026-10-18/cache",
+  "checks": [
+    {
+      "check": "identical:panel_results",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:normalization",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:library_qc",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:feature_audit",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:primary_columns_in_pair_order",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:contract_sha256",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:freeze",
+      "status": "PASS"
+    },
+    {
+      "check": "identical:readouts",
+      "status": "PASS"
+    },
+    {
+      "check": "gene_contributions_byte_identical",
+      "status": "PASS"
+    },
+    {
+      "check": "replay_records_historical_git_not_rerun",
+      "status": "PASS"
+    },
+    {
+      "check": "replay_raw_arithmetic_verification",
+      "status": "PASS"
+    }
+  ],
+  "claim_level": "Verified",
+  "command": "uv run --script analyze.py --replay-frozen-hashes --cache <relocated-cache> --output <relocated-output>",
+  "execution_receipt": {
+    "cache": "/tmp/cx004-bulk-portable-replay-2026-10-18/cache",
+    "elapsed_seconds": 0.5647174159821589,
+    "expression_outcomes_computed": true,
+    "freeze_validation": {
+      "archived_contract_admission_panels_code_hashes_passed": true,
+      "historical_commit": "60a4fc5f1dc86f73e18d137f6bf50a2e8a92a63a",
+      "historical_git_proof_reexecuted": false,
+      "mode": "archived_hash_replay",
+      "scope": "Archived artifact hash verification only; historical git proof was not rerun."
+    },
+    "gene_contributions_sha256": "65811824d3d63644ac6b70fe3b974a0abe5092bfe07115f39c5106edd6451fba",
+    "generated_at_utc": "2026-10-18T10:46:46.462968+00:00",
+    "numpy_version": "2.5.4",
+    "operation": "expression_analysis",
+    "output": "/tmp/cx004-bulk-portable-replay-2026-10-18/output",
+    "results_sha256": "da0d56f074496d181eb405ecdae4065bb5148cc9a325ff164edfb5f6b22782af",
+    "source_sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+    "status": "PASS"
+  },
+  "expected_nonnumerical_difference": "The raw cache path in source receipt changes. Results, factors, QC, statistics and gene CSV are identical.",
+  "generated_at_utc": "2026-10-18T10:48:54.772894+00:00",
+  "independent_verification_checks": 127,
+  "independent_verification_status": "PASS",
+  "output_path": "/tmp/cx004-bulk-portable-replay-2026-10-18/output",
+  "passed": 11,
+  "replay_results_sha256": "da0d56f074496d181eb405ecdae4065bb5148cc9a325ff164edfb5f6b22782af",
+  "status": "PASS",
+  "total": 11
+}

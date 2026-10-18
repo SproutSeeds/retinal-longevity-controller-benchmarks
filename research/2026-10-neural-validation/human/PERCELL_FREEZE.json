@@ -1,0 +1,8 @@
+{
+  "commit": "60a4fc5f1dc86f73e18d137f6bf50a2e8a92a63a",
+  "contract_sha256": "c020725670eb55e13e3c2615cd74755db57bacb424d4cd2110d0c6d08c039e5a",
+  "expression_execution_authorized": true,
+  "frozen_at_utc": "2026-10-18T10:42:54.508932+00:00",
+  "scope": "Post hoc joint endogenous-marker detection versus identity score. Prior June 18 marginal/combined results known. New endogenous-only joint diagnostic not computed before this commit.",
+  "scout_sha256": "6247edad93383c7f221a4209bd1d20db5a035cb223cb12704225094f7323138a"
+}

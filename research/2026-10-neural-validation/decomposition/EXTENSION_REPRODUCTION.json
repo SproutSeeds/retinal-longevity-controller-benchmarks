@@ -1,0 +1,26 @@
+{
+  "claim_level": "Verified",
+  "determinism": "Pinned Python/dependencies; lexically sorted unique cell IDs; PCG64 seeds 181026,181027,181028; exact 1000-UMI marginal draws.",
+  "extension_code_sha256": "c529b99d2ba93cb1948d87a3389a6dae4229b5142d4005c84d304f00fb70743c",
+  "result_sha256": "912f86da5b183a7eb2e1884a5bd33ff843a307312a1755a332e0649a249e262e",
+  "runs": [
+    {
+      "byte_identical": true,
+      "bytes": 3907820,
+      "mode": "strict_original_commit_proof",
+      "runner_stdout": "PASS: 16 original rows; fixed-depth support available; strict original commit proof",
+      "sha256": "912f86da5b183a7eb2e1884a5bd33ff843a307312a1755a332e0649a249e262e"
+    },
+    {
+      "byte_identical": true,
+      "bytes": 3907820,
+      "mode": "archived_hashes_historical_git_proof_not_rerun",
+      "runner_stdout": "PASS: 16 original rows; fixed-depth support available; archived-hash replay; historical git proof not rerun",
+      "sha256": "912f86da5b183a7eb2e1884a5bd33ff843a307312a1755a332e0649a249e262e"
+    }
+  ],
+  "scope": "Observed raw-source replay, separately from saved-output verification",
+  "source_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+  "status": "PASS",
+  "verifier_code_sha256": "a4ec9b65ca602267601676bedaa36cfc0734cfa7e7ed788cd041c2fcd9be3160"
+}

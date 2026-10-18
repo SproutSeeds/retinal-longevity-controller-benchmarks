@@ -1,0 +1,105 @@
+{
+  "scope": "Explicit observed-input downloads for numerical replay. Original source rights remain separate. Code and metadata are shipped; raw matrices are fetched from the original repositories. No raw FASTQ acquisition.",
+  "sources": [
+    {
+      "bytes": 94079882,
+      "group": "neural",
+      "id": "svz_iOSKM_cohort1_toshare.rds",
+      "max_bytes": 110000000,
+      "sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content"
+    },
+    {
+      "bytes": 199814927,
+      "group": "neural",
+      "id": "svz_iOSKM_cohort2_toshare.rds",
+      "max_bytes": 230000000,
+      "sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort2_toshare.rds/content"
+    },
+    {
+      "bytes": 23976,
+      "group": "human-bulk",
+      "id": "GSE297233-samples.txt",
+      "sha256": "d94d2162c792bc5afe209cece17c875b3012d171527084a5e8334917661a14a3",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 482795,
+      "group": "human-bulk",
+      "id": "GSE297233_raw_counts_matrix.csv.gz",
+      "sha256": "4bb5494a48c276c094d9b90076b45b359b7ee5976a7f5344aed421a04e7a8175",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297233/suppl/GSE297233_raw_counts_matrix.csv.gz"
+    },
+    {
+      "bytes": 16982321,
+      "group": "human-bulk",
+      "id": "hgnc_complete_set.txt",
+      "sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"
+    },
+    {
+      "bytes": 29369822,
+      "group": "human-timecourse",
+      "id": "GSM8986586_GM00731_D0_filtered_feature_bc_matrix.h5",
+      "sha256": "7e8fc4b248f308e2ea3ac1c10a72329026e96588da9a990d399ea35259440482",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986586/suppl/GSM8986586_GM00731_D0_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 31628640,
+      "group": "human-timecourse",
+      "id": "GSM8986587_GM00731_D3_filtered_feature_bc_matrix.h5",
+      "sha256": "fa1bcd8f246d6d299bace9c4bb266deb5fc02353c3b65a72c80a5f46b23f7d33",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986587/suppl/GSM8986587_GM00731_D3_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 36793388,
+      "group": "human-timecourse",
+      "id": "GSM8986588_GM00731_D7_filtered_feature_bc_matrix.h5",
+      "sha256": "ec8c4c3902b9f66d72dc8a87162ec211cb1222c5ca63fbea85d8d8e999eb4551",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986588/suppl/GSM8986588_GM00731_D7_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 25597636,
+      "group": "human-timecourse",
+      "id": "GSM8986589_GM00731_D10_filtered_feature_bc_matrix.h5",
+      "sha256": "1db510fdbebfbe107a495b1971e22874f02d993e5acf5ba0ca937c0eeb91ebfc",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986589/suppl/GSM8986589_GM00731_D10_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 35497718,
+      "group": "human-timecourse",
+      "id": "GSM8986590_GM23815_D0_filtered_feature_bc_matrix.h5",
+      "sha256": "5f70fac65f845c6bfc82d968f5b244b8547b19f460f04f05b4f6038602eb1494",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986590/suppl/GSM8986590_GM23815_D0_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 36401517,
+      "group": "human-timecourse",
+      "id": "GSM8986591_GM23815_D3_filtered_feature_bc_matrix.h5",
+      "sha256": "c98b5c8e1229e090725668ccab38d0707cd1da4a085da4cf485b94f89596b6d9",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986591/suppl/GSM8986591_GM23815_D3_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 46693949,
+      "group": "human-timecourse",
+      "id": "GSM8986592_GM23815_D7_filtered_feature_bc_matrix.h5",
+      "sha256": "e91381229e311c390d175ff069d9a667a901717ef00f4231d6c940830d6aa4e8",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986592/suppl/GSM8986592_GM23815_D7_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 37056455,
+      "group": "human-timecourse",
+      "id": "GSM8986593_GM23815_D10_filtered_feature_bc_matrix.h5",
+      "sha256": "0c81ee5f53013a933eb3213da60d9f4c5aa6f4350993ea51a7ec9b4d32ead463",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8986nnn/GSM8986593/suppl/GSM8986593_GM23815_D10_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "bytes": 2745316,
+      "group": "neural-bulk",
+      "id": "GSE245385_countTable.csv.gz",
+      "sha256": "8a057b616cc6807534650b83d40bbbae8dc50bdfdb5a47ce02dd93e8dc5d76be",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245385/suppl/GSE245385_countTable.csv.gz"
+    }
+  ]
+}

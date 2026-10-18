@@ -1,0 +1,17 @@
+{
+  "figures": [
+    "bulk-paired-cycle.pdf",
+    "bulk-paired-cycle.png",
+    "human-marker-concentration.pdf",
+    "human-marker-concentration.png",
+    "neural-animal-sensitivity.pdf",
+    "neural-animal-sensitivity.png"
+  ],
+  "generator_sha256": "996284d979e17ee28a0aaf4a8bb594e15db91455f0be263c49cd651dd03fcee3",
+  "scope": "Descriptive figures from observed outputs. Omission ranges are not confidence intervals.",
+  "source_sha256": {
+    "analysis/cross-cohort-results.json": "4f2f63bbed2efd30deb3291ec810789aba7c9380eae92738a657e7da11edfe13",
+    "bulk/results.json": "ffc2f7a3e5752399837007af69ffb9784c98b4065da52aec38bd4d0b1746a7e6",
+    "human/marker-audit.json": "af320f9c0625be8ab163199d89ba7ca9e22261fb3bd71df123c1e2c1f4d1d71d"
+  }
+}

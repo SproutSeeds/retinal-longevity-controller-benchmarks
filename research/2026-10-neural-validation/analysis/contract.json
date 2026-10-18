@@ -1,0 +1,138 @@
+{
+  "cell_types": {
+    "assignment": "Use deposited Celltype exactly; no outcome-dependent reclustering, label transfers, remapping of numeric clusters, or pooled identity claim for mixed Astrocyte_qNSC and aNSC_NPC labels.",
+    "grid": "Emit every animal by every deposited cell type, including zero-cell combinations and every QC failure. Numeric clusters retain their own rows and contribute to all-cell denominators.",
+    "named": [
+      "Astrocyte_qNSC",
+      "aNSC_NPC",
+      "Neuroblast",
+      "Oligodendrocyte",
+      "OPC",
+      "Microglia",
+      "Macrophage",
+      "Endothelial",
+      "Mural",
+      "Ependymal"
+    ],
+    "unresolved": [
+      "27",
+      "28",
+      "29",
+      "30"
+    ]
+  },
+  "claim_level": "Heuristic",
+  "cohort1_replication_gate": {
+    "admission": "Require an explicit cell-count-to-animal map, distinct physical animal identities from cohort2, comparable old age/sex/intervention/pulse timing/harvest, raw RNA, compatible author cell-type labels, and at least two eligible independent treated and two eligible independent untreated animals per compared type. A sequencing library with four separately resolved animals retains four animal units but one library environment.",
+    "if_compatible": "Run the identical frozen panels, support floors and normalization in cohort1; compare directions for every eligible shared cell type and panel without selecting winners. Replication means an independent biological direction comparison under the admitted scope, not independent study or retinal validation. Require the fixed 0.25 mean-score floor under both normalizations and concordant direction, with every per-animal difference and omission shown.",
+    "if_incompatible": "Retain cohort1 as a separately labeled comparator or failure; do not silently pool cohorts or rename it replication.",
+    "reserve_before_outcomes": true,
+    "withdrawal": "If explicit withdrawal animals are present and mapped, preserve them as a separate exposure/timing comparator; they cannot supply the old untreated primary control. No late-human recovery inference."
+  },
+  "cohort2_primary": {
+    "contrast": "old OSKM 2Dox0 minus old OSKM untr, lanes 1 and 2 only",
+    "estimator": "Arithmetic mean of the two within-lane animal score differences; these are lane strata, not repeated measurements of the same mouse. Both treated animals and both controls must pass the fixed animal-type support rule.",
+    "extra_control": "L0042 in Lane3 enters only the secondary all-three-old-controls contrast; it cannot create an additional treated animal or paired lane.",
+    "failure_rule": "If any of the four required animal-type strata fails, retain the complete failure row and do not compute a primary contrast on a changing subset.",
+    "pairs": [
+      {
+        "control": "L0003",
+        "lane": "Lane1",
+        "treated": "L0002"
+      },
+      {
+        "control": "L0011",
+        "lane": "Lane2",
+        "treated": "L0004"
+      }
+    ],
+    "prospective_choice_rationale": "The prior continuation note allowed an all-three-control comparison plus lane restriction. Before expression outcomes, choose same-lane comparisons as primary to limit technical imbalance; retain the prior all-three-control comparison as an explicitly required secondary sensitivity.",
+    "young": "144 and 148 are both in Lane3. Retain their composition and QC; optional per-animal CPM values are descriptive context only. No age contrast, age-reversal correlation or inferred young reference."
+  },
+  "composition": {
+    "authority": "Recovered-cell composition; sampling, capture, dissociation and filtering may alter proportions, so these are not unbiased tissue abundances.",
+    "outputs": "Per-animal counts and proportions for every cell type, exact denominator, old-treatment within-lane differences and equal-weight group means; zero counts remain zero.",
+    "primary_denominator": "All recovered singlet cells for that animal, including unresolved numeric clusters and sparse types.",
+    "secondary_denominator": "All biologically named recovered singlet cells for that animal; explicitly excludes numeric clusters and reports excluded count and fraction."
+  },
+  "effect_descriptors": {
+    "descriptive_floor": 0.25,
+    "effect_scale": "Difference in mean log2(1+normalized-expression) marker score; exponentiating is not an age, identity, stress or cell-frequency ratio.",
+    "inference": "No cell-level or gene-level hypothesis tests, no p-values, confidence intervals or learned classifier. Two treated animals and two paired lanes limit interpretation.",
+    "sensitivity_failures": "Always record sparse/coverage/normalization failures, missing secondary contrast, lane discordance, normalization sign reversal, gene-omission sign reversal and animal-omission reversals. Missing sensitivities make the stability descriptor incomplete; they never count as passing.",
+    "stable_descriptive_pattern": "Primary contrast is eligible, both normalization means have the same nonzero sign and absolute score difference >=0.25, both within-lane differences share that sign under both normalizations, all single-gene omissions keep that sign, and the predeclared all-controls sensitivity keeps it when eligible. This is a heuristic stability label, not significance or biological benefit."
+  },
+  "execution_gate": "The root agent must explicitly confirm the committed frozen contract and orthology hashes before any biological expression outcome computation. Synthetic adversarial tests and source metadata audit may run while pending.",
+  "id": "CX004-NEURAL-ANIMAL-PSEUDOBULK-20261018-V1",
+  "inputs": {
+    "checks": [
+      "Exact pinned source hashes",
+      "Finite nonnegative integer raw counts",
+      "Unique ordered cell and gene identifiers",
+      "Canonical sparse coordinates",
+      "Positive cell libraries",
+      "RNA raw library totals agree exactly with metadata",
+      "Animal, treatment, genotype, age, lane and cell-type metadata agree with admission and pinned author maps"
+    ],
+    "cohort2_author_code_commit": "011586aea2e8612c794e57d2a260fa1a29d417a0",
+    "cohort2_author_code_sha256": "418c3c746d08dbf9eff1ff51aaa45092cdf4414d0b5b9fc47e9ba236f1d98772",
+    "cohort2_rds_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+    "reader": "Python rdata parser; extract only raw RNA counts and metadata slots. Never execute deposited R code; never use SCT, integrated, normalized, scaled or imputed assays."
+  },
+  "normalization": {
+    "no_effect_imputation": "Missing, sparse, unnormalized or insufficient-coverage strata remain unavailable with reasons. Do not replace them by pooled-cell or other-cell-type estimates.",
+    "primary": "For each animal/type pseudobulk, log2(1 + 1e6 * count / total raw RNA counts), then the unweighted arithmetic mean across the fixed present panel genes.",
+    "refitting": "Fit the four-animal primary and five-animal secondary separately. Refit median-ratio normalization on every single-animal omission; retain the full-fit omission result as an additional diagnostic if useful. Young animals never contribute to old-treatment normalization.",
+    "sensitivity": "Within each fixed cell-type contrast sample set, estimate median-ratio factors across all genes strictly positive in all included pseudobulks. Geometric-center the factors, multiply by the geometric-mean library total, then use log2(1 + 1e6 * count / effective depth). Require >=100 positive genes; otherwise report normalization unavailable. No gene filtering by treatment effect."
+  },
+  "panels": {
+    "analyzed": [
+      "cycle_panel",
+      "stress_panel",
+      "reprogramming_state",
+      "reprogramming_without_OSKM_overlap"
+    ],
+    "coverage_denominators": "Report present/mapped/original-source counts separately. Require >=80% present relative to the original human list and >=80% relative to the eligible mapped list. Thus stress needs at least 7 of 8 source genes, with CXCL8 explicitly unavailable. Zero counts remain in panel averages.",
+    "excluded_from_neural_claims": [
+      "fibroblast_identity",
+      "rpe_identity"
+    ],
+    "orthology": "Freeze orthology.json before expression. Use exactly one HGNC-supported HCOP candidate; retain all alternatives and exclusions. CD24 maps to Cd24a, TP53 to Trp53; CXCL8 has no eligible mapping. No automatic case conversion or substitute paralog.",
+    "source": "cx004-independent-comparator-2026-10-18/panels.json, inherited unchanged from cx004-public-evidence-resolution-2026-10-17/panels.json",
+    "transgenes": "Track Pou5f1, Sox2, Klf4 and Myc across every panel. Report the full reprogramming score as transgene-overlapping and separately remove Pou5f1 and Sox2 in the fixed endogenous-component sensitivity. Raw gene counts cannot distinguish endogenous from transgenic reads. Sox2 also has normal neural-lineage roles; score changes do not identify pluripotency."
+  },
+  "prior_exposure": "Cohort-2 admission metadata, animal and cell-type counts, author-code metadata maps, previous human-fibroblast panel outcomes and public orthology assertions are known. Neural expression contrasts, panel values and effect directions have not been examined. This is a prospective reanalysis contract, not a registered biological experiment.",
+  "reporting": [
+    "Pinned input and code hashes and contract freeze receipt",
+    "Complete animal\u00d7celltype grid and each failure reason",
+    "Raw pseudobulk library size/detected genes and cell counts",
+    "Panel original/mapped/present/expressed genes and transgene overlaps",
+    "Every per-animal panel score and normalized gene value",
+    "All effect and omission values plus normalization factors",
+    "Both composition denominators including unresolved cells",
+    "Cohort1 admission failures and all compatible/incompatible comparisons",
+    "All CX004-R01 through R04 remain insufficient_signal"
+  ],
+  "scope": "Animal-level expression and recovered-cell composition summaries in a mouse subventricular-zone reprogramming comparator. No calibrated identity, stress, age, safety or retinal-efficacy diagnostic.",
+  "sensitivities": {
+    "all_old_controls": "Both old treated animals minus all three old untreated controls, equal animal weighting; only when all five animal-type strata pass the corresponding support threshold.",
+    "animal_omission": "For every valid primary or secondary contrast, omit each animal once and refit normalization; report remaining n, unpaired mean difference, and direction. A treated omission leaves one treated animal and cannot validate a result.",
+    "cell_floor": "Repeat the complete predefined contrast set using 10 cells and 500 genes; label every result as lower-support sensitivity.",
+    "gene_omission": "For each fixed panel remove each gene once, leaving the normalization fit unchanged. Preserve all effects and sign changes.",
+    "lane_omission": "The primary leave-one-lane result is the surviving within-lane pair, with normalized factors refit to that pair if >=100 positive genes; single pairs are observations, not validation.",
+    "pairwise": "Report both primary within-lane effects and all treated/control combinations for secondary contrasts. Pair counts never replace independent-animal counts."
+  },
+  "status": "frozen_before_neural_expression_outcomes",
+  "thresholds": {
+    "median_ratio_min_all_positive_genes": 100,
+    "minimum_panel_coverage_orthology_eligible": 0.8,
+    "minimum_panel_coverage_source_human": 0.8,
+    "minimum_panel_genes_present": 3,
+    "primary_min_cells_per_animal_type": 20,
+    "primary_min_detected_genes_per_animal_type": 500,
+    "rationale": "The 20-cell/500-gene requirement is a conservative descriptive-support floor, not a power guarantee. The separately declared 10-cell sensitivity exposes threshold dependence and cannot repair a failed primary stratum. Metadata already predicts that sparse strata will fail; thresholds are fixed before neural expression outcomes. Coverage counts features present, never outcome-dependent expression filters.",
+    "sensitivity_min_cells_per_animal_type": 10,
+    "sensitivity_min_detected_genes_per_animal_type": 500
+  },
+  "unit": "Sum raw counts for each independent animal and author-deposited named cell type. Every animal is weighted equally; cells and genes are not biological replicates."
+}

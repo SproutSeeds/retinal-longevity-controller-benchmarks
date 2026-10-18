@@ -1,0 +1,58 @@
+{
+  "samples": [
+    {
+      "animal_label": "961L",
+      "birthdate_token": "20180508",
+      "hash_id": "Sample1-961L-DOB20180508-2Dox0-CTCTAGAC",
+      "multiplex_oligo": "CTCTAGAC",
+      "observed_in_deposited_object": true,
+      "treatment": "2Dox0"
+    },
+    {
+      "animal_label": "955L",
+      "birthdate_token": "20180501",
+      "hash_id": "Sample2-955L-DOB20180501-untr-ACCAATGC",
+      "multiplex_oligo": "ACCAATGC",
+      "observed_in_deposited_object": true,
+      "treatment": "untr"
+    },
+    {
+      "animal_label": "928L",
+      "birthdate_token": "20180327",
+      "hash_id": "Sample3-928L-DOB20180327-2Dox5-AGTTGCGT",
+      "multiplex_oligo": "AGTTGCGT",
+      "observed_in_deposited_object": false,
+      "treatment": "2Dox5"
+    },
+    {
+      "animal_label": "960L",
+      "birthdate_token": "20180508",
+      "hash_id": "Sample4-960L-DOB20180508-2Dox0-CGAACAAG",
+      "multiplex_oligo": "CGAACAAG",
+      "observed_in_deposited_object": true,
+      "treatment": "2Dox0"
+    },
+    {
+      "animal_label": "929L",
+      "birthdate_token": "20180327",
+      "hash_id": "Sample5-929L-DOB20180327-2Dox5-GTACCTGT",
+      "multiplex_oligo": "GTACCTGT",
+      "observed_in_deposited_object": false,
+      "treatment": "2Dox5"
+    },
+    {
+      "animal_label": "953L",
+      "birthdate_token": "20180501",
+      "hash_id": "Sample6-953L-DOB20180501-untr-GAAGCTTG",
+      "multiplex_oligo": "GAAGCTTG",
+      "observed_in_deposited_object": true,
+      "treatment": "untr"
+    }
+  ],
+  "source_lines": [
+    189,
+    192
+  ],
+  "source_sha256": "0c3d7ac2df391a3bebe2f2bdd2b32665b3bd7ef322c14bba4b77ada08990c69c",
+  "source_url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part2.R"
+}

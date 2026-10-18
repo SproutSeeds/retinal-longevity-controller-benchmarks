@@ -1,0 +1,930 @@
+{
+  "claim_level": "Verified",
+  "methods": [
+    {
+      "age_gene_contributions": [
+        {
+          "age_difference_contribution": 0.015178299097621145,
+          "human_symbol": "CENPF",
+          "mouse_ensembl_gene": "ENSMUSG00000026605",
+          "mouse_symbol": "Cenpf",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.014907043004616946,
+          "human_symbol": "MKI67",
+          "mouse_ensembl_gene": "ENSMUSG00000031004",
+          "mouse_symbol": "Mki67",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.006336333335239058,
+          "human_symbol": "TOP2A",
+          "mouse_ensembl_gene": "ENSMUSG00000020914",
+          "mouse_symbol": "Top2a",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0056557387934875695,
+          "human_symbol": "BIRC5",
+          "mouse_ensembl_gene": "ENSMUSG00000017716",
+          "mouse_symbol": "Birc5",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.005513382243143744,
+          "human_symbol": "CCNB1",
+          "mouse_ensembl_gene": "ENSMUSG00000041431",
+          "mouse_symbol": "Ccnb1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00467791862433761,
+          "human_symbol": "CCNB2",
+          "mouse_ensembl_gene": "ENSMUSG00000032218",
+          "mouse_symbol": "Ccnb2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004471709374032759,
+          "human_symbol": "MCM6",
+          "mouse_ensembl_gene": "ENSMUSG00000026355",
+          "mouse_symbol": "Mcm6",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004336469172554565,
+          "human_symbol": "MCM4",
+          "mouse_ensembl_gene": "ENSMUSG00000022673",
+          "mouse_symbol": "Mcm4",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004148653962576835,
+          "human_symbol": "RRM2",
+          "mouse_ensembl_gene": "ENSMUSG00000020649",
+          "mouse_symbol": "Rrm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.003951115469906716,
+          "human_symbol": "MCM7",
+          "mouse_ensembl_gene": "ENSMUSG00000029730",
+          "mouse_symbol": "Mcm7",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0026571309522130672,
+          "human_symbol": "TK1",
+          "mouse_ensembl_gene": "ENSMUSG00000025574",
+          "mouse_symbol": "Tk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0025943990997322752,
+          "human_symbol": "CDC20",
+          "mouse_ensembl_gene": "ENSMUSG00000006398",
+          "mouse_symbol": "Cdc20",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0023875498809050296,
+          "human_symbol": "TYMS",
+          "mouse_ensembl_gene": "ENSMUSG00000025747",
+          "mouse_symbol": "Tyms",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.002235077948211034,
+          "human_symbol": "CDK1",
+          "mouse_ensembl_gene": "ENSMUSG00000019942",
+          "mouse_symbol": "Cdk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0020548421783517607,
+          "human_symbol": "MCM2",
+          "mouse_ensembl_gene": "ENSMUSG00000002870",
+          "mouse_symbol": "Mcm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0019804515372562072,
+          "human_symbol": "PCNA",
+          "mouse_ensembl_gene": "ENSMUSG00000027342",
+          "mouse_symbol": "Pcna",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00172903252299397,
+          "human_symbol": "AURKB",
+          "mouse_ensembl_gene": "ENSMUSG00000020897",
+          "mouse_symbol": "Aurkb",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.001630708336051452,
+          "human_symbol": "MCM3",
+          "mouse_ensembl_gene": "ENSMUSG00000041859",
+          "mouse_symbol": "Mcm3",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 9.218038343539737e-05,
+          "human_symbol": "UBE2C",
+          "mouse_ensembl_gene": "ENSMUSG00000001403",
+          "mouse_symbol": "Ube2c",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 3.4753487261063307e-07,
+          "human_symbol": "MCM5",
+          "mouse_ensembl_gene": "ENSMUSG00000005410",
+          "mouse_symbol": "Mcm5",
+          "status": "mapped"
+        }
+      ],
+      "all_nine_responses_negative": true,
+      "donor_omission_any_age_difference_loses_positive_direction": false,
+      "donor_omission_any_overall_mean_loses_negative_direction": false,
+      "donor_omissions": [
+        {
+          "age_difference": 0.09256531106320587,
+          "omitted_donor": "940",
+          "overall_mean": -0.2311194701798096
+        },
+        {
+          "age_difference": 0.08940334659595006,
+          "omitted_donor": "946",
+          "overall_mean": -0.23230520685503053
+        },
+        {
+          "age_difference": 0.0914861296949884,
+          "omitted_donor": "966",
+          "overall_mean": -0.23152416319289115
+        },
+        {
+          "age_difference": 0.07269874645201777,
+          "omitted_donor": "967",
+          "overall_mean": -0.23856943190900515
+        },
+        {
+          "age_difference": 0.09116906506461553,
+          "omitted_donor": "1892",
+          "overall_mean": -0.22487761090927905
+        },
+        {
+          "age_difference": 0.08525282189313321,
+          "omitted_donor": "1893",
+          "overall_mean": -0.2219194893235379
+        },
+        {
+          "age_difference": 0.09987962141140883,
+          "omitted_donor": "1894",
+          "overall_mean": -0.2292328890826757
+        },
+        {
+          "age_difference": 0.08835805063349489,
+          "omitted_donor": "1914",
+          "overall_mean": -0.22347210369371873
+        },
+        {
+          "age_difference": 0.06803235825505016,
+          "omitted_donor": "1926",
+          "overall_mean": -0.21330925750449636
+        }
+      ],
+      "gene_omission_age_difference_range": [
+        0.07511587826728272,
+        0.09109266938596544
+      ],
+      "gene_omission_any_donor_loses_negative_direction": false,
+      "gene_omission_overall_mean_range": [
+        -0.23297458670174107,
+        -0.22281238897097305
+      ],
+      "method": "log2_cpm",
+      "overall_gene_contributions": [
+        {
+          "fraction_of_signed_overall_mean": 0.06904249216977794,
+          "mouse_symbol": "Ccnb1",
+          "overall_mean_contribution": -0.015698188549847548
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06651202852287896,
+          "mouse_symbol": "Birc5",
+          "overall_mean_contribution": -0.015122837136548719
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06433464960678305,
+          "mouse_symbol": "Ube2c",
+          "overall_mean_contribution": -0.014627766583688542
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06318553743778824,
+          "mouse_symbol": "Cenpf",
+          "overall_mean_contribution": -0.014366492998003855
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06255374985337107,
+          "mouse_symbol": "Ccnb2",
+          "overall_mean_contribution": -0.014222843481424345
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06160335172795623,
+          "mouse_symbol": "Mki67",
+          "overall_mean_contribution": -0.014006751499496806
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06013942725804213,
+          "mouse_symbol": "Cdc20",
+          "overall_mean_contribution": -0.013673899054151464
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.05888373885103738,
+          "mouse_symbol": "Cdk1",
+          "overall_mean_contribution": -0.013388393233698956
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.057845026702738084,
+          "mouse_symbol": "Top2a",
+          "overall_mean_contribution": -0.013152221296090987
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.056860304400037365,
+          "mouse_symbol": "Rrm2",
+          "overall_mean_contribution": -0.012928325027413094
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.04828007318298119,
+          "mouse_symbol": "Tk1",
+          "overall_mean_contribution": -0.010977438215340637
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.045848704508640675,
+          "mouse_symbol": "Tyms",
+          "overall_mean_contribution": -0.010424618021797599
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.04351224347434697,
+          "mouse_symbol": "Pcna",
+          "overall_mean_contribution": -0.009893376974392742
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.04132121479631804,
+          "mouse_symbol": "Mcm6",
+          "overall_mean_contribution": -0.00939520287573416
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03888693460702659,
+          "mouse_symbol": "Mcm5",
+          "overall_mean_contribution": -0.008841720691158801
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03868344706226174,
+          "mouse_symbol": "Mcm3",
+          "overall_mean_contribution": -0.008795453736637388
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03495176699713083,
+          "mouse_symbol": "Aurkb",
+          "overall_mean_contribution": -0.007946981796689442
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03249675229439468,
+          "mouse_symbol": "Mcm4",
+          "overall_mean_contribution": -0.007388785206661513
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.02847588592077508,
+          "mouse_symbol": "Mcm7",
+          "overall_mean_contribution": -0.006474560987877418
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.026582670625715447,
+          "mouse_symbol": "Mcm2",
+          "overall_mean_contribution": -0.006044100705617926
+        }
+      ],
+      "overall_mean": -0.22736995807227156
+    },
+    {
+      "age_gene_contributions": [
+        {
+          "age_difference_contribution": 0.015290797052718639,
+          "human_symbol": "CENPF",
+          "mouse_ensembl_gene": "ENSMUSG00000026605",
+          "mouse_symbol": "Cenpf",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.015020465113549205,
+          "human_symbol": "MKI67",
+          "mouse_ensembl_gene": "ENSMUSG00000031004",
+          "mouse_symbol": "Mki67",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00644990022298515,
+          "human_symbol": "TOP2A",
+          "mouse_ensembl_gene": "ENSMUSG00000020914",
+          "mouse_symbol": "Top2a",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.005768152844284852,
+          "human_symbol": "BIRC5",
+          "mouse_ensembl_gene": "ENSMUSG00000017716",
+          "mouse_symbol": "Birc5",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.005625985842443668,
+          "human_symbol": "CCNB1",
+          "mouse_ensembl_gene": "ENSMUSG00000041431",
+          "mouse_symbol": "Ccnb1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004789722194165161,
+          "human_symbol": "CCNB2",
+          "mouse_ensembl_gene": "ENSMUSG00000032218",
+          "mouse_symbol": "Ccnb2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004584928620735451,
+          "human_symbol": "MCM6",
+          "mouse_ensembl_gene": "ENSMUSG00000026355",
+          "mouse_symbol": "Mcm6",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004449746399436186,
+          "human_symbol": "MCM4",
+          "mouse_ensembl_gene": "ENSMUSG00000022673",
+          "mouse_symbol": "Mcm4",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00426214307949036,
+          "human_symbol": "RRM2",
+          "mouse_ensembl_gene": "ENSMUSG00000020649",
+          "mouse_symbol": "Rrm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.004064268165193714,
+          "human_symbol": "MCM7",
+          "mouse_ensembl_gene": "ENSMUSG00000029730",
+          "mouse_symbol": "Mcm7",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.002769022127422911,
+          "human_symbol": "TK1",
+          "mouse_ensembl_gene": "ENSMUSG00000025574",
+          "mouse_symbol": "Tk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.002706929753566745,
+          "human_symbol": "CDC20",
+          "mouse_ensembl_gene": "ENSMUSG00000006398",
+          "mouse_symbol": "Cdc20",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.002499360214397181,
+          "human_symbol": "TYMS",
+          "mouse_ensembl_gene": "ENSMUSG00000025747",
+          "mouse_symbol": "Tyms",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.002348096045836501,
+          "human_symbol": "CDK1",
+          "mouse_ensembl_gene": "ENSMUSG00000019942",
+          "mouse_symbol": "Cdk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0021680874678638743,
+          "human_symbol": "MCM2",
+          "mouse_ensembl_gene": "ENSMUSG00000002870",
+          "mouse_symbol": "Mcm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0020939407740756615,
+          "human_symbol": "PCNA",
+          "mouse_ensembl_gene": "ENSMUSG00000027342",
+          "mouse_symbol": "Pcna",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0018399662565921446,
+          "human_symbol": "AURKB",
+          "mouse_ensembl_gene": "ENSMUSG00000020897",
+          "mouse_symbol": "Aurkb",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0017439302282650962,
+          "human_symbol": "MCM3",
+          "mouse_ensembl_gene": "ENSMUSG00000041859",
+          "mouse_symbol": "Mcm3",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00020530548381466062,
+          "human_symbol": "UBE2C",
+          "mouse_ensembl_gene": "ENSMUSG00000001403",
+          "mouse_symbol": "Ube2c",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00011360488984158562,
+          "human_symbol": "MCM5",
+          "mouse_ensembl_gene": "ENSMUSG00000005410",
+          "mouse_symbol": "Mcm5",
+          "status": "mapped"
+        }
+      ],
+      "all_nine_responses_negative": true,
+      "donor_omission_any_age_difference_loses_positive_direction": false,
+      "donor_omission_any_overall_mean_loses_negative_direction": false,
+      "donor_omissions": [
+        {
+          "age_difference": 0.0964715419669108,
+          "omitted_donor": "940",
+          "overall_mean": -0.22954887122265333
+        },
+        {
+          "age_difference": 0.09112204786842024,
+          "omitted_donor": "946",
+          "overall_mean": -0.23155493150958728
+        },
+        {
+          "age_difference": 0.08826994712648825,
+          "omitted_donor": "966",
+          "overall_mean": -0.23262446928781177
+        },
+        {
+          "age_difference": 0.0793138741448979,
+          "omitted_donor": "967",
+          "overall_mean": -0.23598299665590816
+        },
+        {
+          "age_difference": 0.08870946333084473,
+          "omitted_donor": "1892",
+          "overall_mean": -0.22128607834898795
+        },
+        {
+          "age_difference": 0.08741023197893183,
+          "omitted_donor": "1893",
+          "overall_mean": -0.2206364626730315
+        },
+        {
+          "age_difference": 0.1046290756869066,
+          "omitted_donor": "1894",
+          "overall_mean": -0.22924588452701888
+        },
+        {
+          "age_difference": 0.09445749772369916,
+          "omitted_donor": "1914",
+          "overall_mean": -0.22416009554541516
+        },
+        {
+          "age_difference": 0.06876549516301411,
+          "omitted_donor": "1926",
+          "overall_mean": -0.21131409426507264
+        }
+      ],
+      "gene_omission_age_difference_range": [
+        0.07737216391995799,
+        0.09334815567035487
+      ],
+      "gene_omission_any_donor_loses_negative_direction": false,
+      "gene_omission_overall_mean_range": [
+        -0.23186668579995082,
+        -0.22170410726025735
+      ],
+      "method": "log2_median_ratio",
+      "overall_gene_contributions": [
+        {
+          "fraction_of_signed_overall_mean": 0.06913521665560944,
+          "mouse_symbol": "Ccnb1",
+          "overall_mean_contribution": -0.015642640773365017
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06659768299205736,
+          "mouse_symbol": "Birc5",
+          "overall_mean_contribution": -0.01506849449207112
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06440522044515154,
+          "mouse_symbol": "Ube2c",
+          "overall_mean_contribution": -0.014572424533960677
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06325131462818687,
+          "mouse_symbol": "Cenpf",
+          "overall_mean_contribution": -0.014311340023717659
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06262487128044092,
+          "mouse_symbol": "Ccnb2",
+          "overall_mean_contribution": -0.01416959998546092
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.061658036400545305,
+          "mouse_symbol": "Mki67",
+          "overall_mean_contribution": -0.013950842434027983
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.060188859108900844,
+          "mouse_symbol": "Cdc20",
+          "overall_mean_contribution": -0.01361842411356388
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.05892631118888674,
+          "mouse_symbol": "Cdk1",
+          "overall_mean_contribution": -0.013332758073485919
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.05788076910932428,
+          "mouse_symbol": "Top2a",
+          "overall_mean_contribution": -0.013096192109637078
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.056891656759967955,
+          "mouse_symbol": "Rrm2",
+          "overall_mean_contribution": -0.012872394023597166
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.048272866474188186,
+          "mouse_symbol": "Tk1",
+          "overall_mean_contribution": -0.010922293237582172
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.04583119362173072,
+          "mouse_symbol": "Tyms",
+          "overall_mean_contribution": -0.010369836571288198
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.043478197115453525,
+          "mouse_symbol": "Pcna",
+          "overall_mean_contribution": -0.009837443951879365
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.04127696659100361,
+          "mouse_symbol": "Mcm6",
+          "overall_mean_contribution": -0.009339390137643693
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03883050879970304,
+          "mouse_symbol": "Mcm5",
+          "overall_mean_contribution": -0.008785850823705492
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03862633453853871,
+          "mouse_symbol": "Mcm3",
+          "overall_mean_contribution": -0.00873965404040082
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.034880393567993585,
+          "mouse_symbol": "Aurkb",
+          "overall_mean_contribution": -0.007892091657652239
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03240928306259118,
+          "mouse_symbol": "Mcm4",
+          "overall_mean_contribution": -0.0073329743825903395
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.028368524622268073,
+          "mouse_symbol": "Mcm7",
+          "overall_mean_contribution": -0.006418706144323548
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.0264657930374575,
+          "mouse_symbol": "Mcm2",
+          "overall_mean_contribution": -0.0059881911606562135
+        }
+      ],
+      "overall_mean": -0.22626154267060963
+    },
+    {
+      "age_gene_contributions": [
+        {
+          "age_difference_contribution": 0.0012791006568778954,
+          "human_symbol": "CENPF",
+          "mouse_ensembl_gene": "ENSMUSG00000026605",
+          "mouse_symbol": "Cenpf",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0005882518675940201,
+          "human_symbol": "CCNB1",
+          "mouse_ensembl_gene": "ENSMUSG00000041431",
+          "mouse_symbol": "Ccnb1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00042600463678516275,
+          "human_symbol": "BIRC5",
+          "mouse_ensembl_gene": "ENSMUSG00000017716",
+          "mouse_symbol": "Birc5",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0003596728490468831,
+          "human_symbol": "MKI67",
+          "mouse_ensembl_gene": "ENSMUSG00000031004",
+          "mouse_symbol": "Mki67",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00033286643482740886,
+          "human_symbol": "CDC20",
+          "mouse_ensembl_gene": "ENSMUSG00000006398",
+          "mouse_symbol": "Cdc20",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.000293743560020609,
+          "human_symbol": "CDK1",
+          "mouse_ensembl_gene": "ENSMUSG00000019942",
+          "mouse_symbol": "Cdk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00027160613086038186,
+          "human_symbol": "CCNB2",
+          "mouse_ensembl_gene": "ENSMUSG00000032218",
+          "mouse_symbol": "Ccnb2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00026444165378670785,
+          "human_symbol": "MCM6",
+          "mouse_ensembl_gene": "ENSMUSG00000026355",
+          "mouse_symbol": "Mcm6",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00025651242916023,
+          "human_symbol": "TK1",
+          "mouse_ensembl_gene": "ENSMUSG00000025574",
+          "mouse_symbol": "Tk1",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00022612377640391593,
+          "human_symbol": "TYMS",
+          "mouse_ensembl_gene": "ENSMUSG00000025747",
+          "mouse_symbol": "Tyms",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00022258178773828103,
+          "human_symbol": "RRM2",
+          "mouse_ensembl_gene": "ENSMUSG00000020649",
+          "mouse_symbol": "Rrm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.0002142903142709937,
+          "human_symbol": "MCM7",
+          "mouse_ensembl_gene": "ENSMUSG00000029730",
+          "mouse_symbol": "Mcm7",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00021066782586295934,
+          "human_symbol": "MCM4",
+          "mouse_ensembl_gene": "ENSMUSG00000022673",
+          "mouse_symbol": "Mcm4",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00017323544564657513,
+          "human_symbol": "TOP2A",
+          "mouse_ensembl_gene": "ENSMUSG00000020914",
+          "mouse_symbol": "Top2a",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00017263169757856609,
+          "human_symbol": "AURKB",
+          "mouse_ensembl_gene": "ENSMUSG00000020897",
+          "mouse_symbol": "Aurkb",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00016739921432251445,
+          "human_symbol": "MCM3",
+          "mouse_ensembl_gene": "ENSMUSG00000041859",
+          "mouse_symbol": "Mcm3",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00011338388717156171,
+          "human_symbol": "MCM5",
+          "mouse_ensembl_gene": "ENSMUSG00000005410",
+          "mouse_symbol": "Mcm5",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00010533391293147896,
+          "human_symbol": "PCNA",
+          "mouse_ensembl_gene": "ENSMUSG00000027342",
+          "mouse_symbol": "Pcna",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 0.00010275792117465264,
+          "human_symbol": "MCM2",
+          "mouse_ensembl_gene": "ENSMUSG00000002870",
+          "mouse_symbol": "Mcm2",
+          "status": "mapped"
+        },
+        {
+          "age_difference_contribution": 9.994043019062488e-05,
+          "human_symbol": "UBE2C",
+          "mouse_ensembl_gene": "ENSMUSG00000001403",
+          "mouse_symbol": "Ube2c",
+          "status": "mapped"
+        }
+      ],
+      "all_nine_responses_negative": true,
+      "donor_omission_any_age_difference_loses_positive_direction": false,
+      "donor_omission_any_overall_mean_loses_negative_direction": false,
+      "donor_omissions": [
+        {
+          "age_difference": 0.006314775459385245,
+          "omitted_donor": "940",
+          "overall_mean": -0.013625487023441574
+        },
+        {
+          "age_difference": 0.005913081744805036,
+          "omitted_donor": "946",
+          "overall_mean": -0.013776122166409152
+        },
+        {
+          "age_difference": 0.0063190687789798985,
+          "omitted_donor": "966",
+          "overall_mean": -0.013623877028593578
+        },
+        {
+          "age_difference": 0.004975259745835401,
+          "omitted_donor": "967",
+          "overall_mean": -0.014127805416022765
+        },
+        {
+          "age_difference": 0.006034663189077694,
+          "omitted_donor": "1892",
+          "overall_mean": -0.013130312982998493
+        },
+        {
+          "age_difference": 0.006051568134982005,
+          "omitted_donor": "1893",
+          "overall_mean": -0.013138765455950649
+        },
+        {
+          "age_difference": 0.006840063111797995,
+          "omitted_donor": "1894",
+          "overall_mean": -0.013533012944358644
+        },
+        {
+          "age_difference": 0.006143941589386914,
+          "omitted_donor": "1914",
+          "overall_mean": -0.013184952183153104
+        },
+        {
+          "age_difference": 0.004332496136012359,
+          "omitted_donor": "1926",
+          "overall_mean": -0.012279229456465826
+        }
+      ],
+      "gene_omission_age_difference_range": [
+        0.004843627131972134,
+        0.006084848423221894
+      ],
+      "gene_omission_any_donor_loses_negative_direction": false,
+      "gene_omission_overall_mean_range": [
+        -0.013867610594406336,
+        -0.012719900816785226
+      ],
+      "method": "within_library_rank",
+      "overall_gene_contributions": [
+        {
+          "fraction_of_signed_overall_mean": 0.09686476368741166,
+          "mouse_symbol": "Birc5",
+          "overall_mean_contribution": -0.001296045852653271
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.08965839962564293,
+          "mouse_symbol": "Ube2c",
+          "overall_mean_contribution": -0.0011996250500887287
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.08809412393876549,
+          "mouse_symbol": "Ccnb1",
+          "overall_mean_contribution": -0.0011786951170645148
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.081476034494284,
+          "mouse_symbol": "Cdc20",
+          "overall_mean_contribution": -0.0010901454004236088
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.0786616752456711,
+          "mouse_symbol": "Ccnb2",
+          "overall_mean_contribution": -0.001052489409811667
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.07731131760144348,
+          "mouse_symbol": "Cenpf",
+          "overall_mean_contribution": -0.0010344216898505922
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.07110100942576332,
+          "mouse_symbol": "Tk1",
+          "overall_mean_contribution": -0.0009513280668612968
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06892171936626731,
+          "mouse_symbol": "Tyms",
+          "overall_mean_contribution": -0.0009221692712805528
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.06553245537803291,
+          "mouse_symbol": "Cdk1",
+          "overall_mean_contribution": -0.000876821083061423
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.0506517815361987,
+          "mouse_symbol": "Aurkb",
+          "overall_mean_contribution": -0.0006777183868567182
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.03026271809612927,
+          "mouse_symbol": "Mcm6",
+          "overall_mean_contribution": -0.0004049137042761466
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.030189183768968366,
+          "mouse_symbol": "Mcm3",
+          "overall_mean_contribution": -0.0004039298185356921
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.02918644294404689,
+          "mouse_symbol": "Rrm2",
+          "overall_mean_contribution": -0.000390513194802221
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.028397620161775366,
+          "mouse_symbol": "Mcm5",
+          "overall_mean_contribution": -0.0003799587841318909
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.021953339126946806,
+          "mouse_symbol": "Mcm4",
+          "overall_mean_contribution": -0.00029373461560478484
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.020362323684738223,
+          "mouse_symbol": "Pcna",
+          "overall_mean_contribution": -0.0002724469059476795
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.019987967110100882,
+          "mouse_symbol": "Mki67",
+          "overall_mean_contribution": -0.0002674380330871837
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.019967912293602345,
+          "mouse_symbol": "Mcm7",
+          "overall_mean_contribution": -0.00026716970061251287
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.01604385319874326,
+          "mouse_symbol": "Mcm2",
+          "overall_mean_contribution": -0.00021466597973553313
+        },
+        {
+          "fraction_of_signed_overall_mean": 0.015375359315462156,
+          "mouse_symbol": "Top2a",
+          "overall_mean_contribution": -0.00020572156391321744
+        }
+      ],
+      "overall_mean": -0.013379951628599309
+    }
+  ],
+  "posthoc": "After viewing the results, root requested overall-mean donor omissions and MR/rank donor-omission age summaries. These are derived from fixed saved scores with normalization held fixed; no raw refit or added hypothesis test.",
+  "predeclared": "Single-gene omissions under all methods and CPM donor-omission age differences were in the frozen contract.",
+  "scope": "Arithmetic summary of frozen marker scores; no mechanism or efficacy inference.",
+  "source_results_sha256": "ffc2f7a3e5752399837007af69ffb9784c98b4065da52aec38bd4d0b1746a7e6"
+}

@@ -1,0 +1,54 @@
+{
+  "claim_level": "Verified",
+  "failed_paths": [
+    {
+      "id": "withdrawal-in-shared-rds",
+      "status": "FAIL",
+      "reason": "Both deposited whole-body objects omit all five author-coded 2Dox5 animals. All six/twelve LMO feature names can persist after cell filtering.",
+      "evidence": ["cohort1-metadata.json", "full-animal-source-map.json"],
+      "next_hook": "Obtain full cell-to-animal assignment or a pre-subsetting object specified in missing-inputs.json."
+    },
+    {
+      "id": "withdrawal-from-geo-triplets",
+      "status": "INCONCLUSIVE",
+      "reason": "GEO provides RNA barcodes/features/matrix triplets. Downloaded feature headers are Gene Expression only; no complete LMO assignment accompanies these triplets. Additional RNA barcodes are not identifiable withdrawal cells.",
+      "evidence": ["raw-availability.json"],
+      "next_hook": "Recover library-specific LMO counts or barcode assignments before downloading RNA matrices for excluded animals."
+    },
+    {
+      "id": "withdrawal-from-fastq-catalog",
+      "status": "INCONCLUSIVE",
+      "reason": "SRA lists 21 original GEX files across seven whole-body runs. No separate LMO or Undetermined original file is listed, although author code uses Undetermined-derived LMO counts. FASTQ contents were not inspected.",
+      "evidence": ["raw-availability.json", "sources/ncbi-wholebody-runs.xml"],
+      "next_hook": "Identify the exact LMO source and read structure before spending at least 44.2 GB on cohort1 converted FASTQs."
+    },
+    {
+      "id": "continuous-object-v1",
+      "status": "FAIL",
+      "reason": "Zenodo v2 states that a corrupted file was replaced. The continuous ciOSKM file changes from 161,955,840 to 753,766,915 bytes; whole-body files are unchanged. Neither continuous file was downloaded in this recovery.",
+      "evidence": ["source-admission.json", "sources/zenodo-12613762.json"],
+      "next_hook": "Use v2 only if a separately justified continuous-induction question survives its treatment-versus-lane confounding."
+    },
+    {
+      "id": "publisher-supplement-pmc-route",
+      "status": "RESOLVED",
+      "reason": "The attempted PMC attachment returned 1,817 bytes of reCAPTCHA HTML. The publisher's static-content.springer.com route supplied the checksum-verified workbook.",
+      "evidence": ["supplementary-table1-cells.json", "source-manifest.json"],
+      "next_hook": "Use the recorded publisher URL and verified MD5; reject HTML responses masquerading as xlsx."
+    },
+    {
+      "id": "literal-raw-barcode-join",
+      "status": "RESOLVED",
+      "reason": "RDS identifiers omit the raw GEO -1 suffix. A library-scoped validator checks exact formats, uniqueness, and complete matches before removing that uniform suffix. All 1,194 object cells then match.",
+      "evidence": ["test_recovery.py", "verification.json", "raw-availability.json"],
+      "next_hook": "Reject mixed suffixes, lane prefixes, duplicates or unmatched identifiers rather than generalizing the transform."
+    },
+    {
+      "id": "human-rpe1-thesis",
+      "status": "INCONCLUSIVE",
+      "reason": "The primary Cambridge abstract describes inducible OKS and single-cell induction/withdrawal in human RPE1. Its thesis is embargoed until 2027-04-07, and no usable public count/sample/timing accession was identified.",
+      "evidence": ["source-admission.json", "sources/cambridge-rpe1-item.json", "sources/cambridge-rpe1-embargo.json"],
+      "next_hook": "Recheck a public dataset accession or lawful release after the stated embargo; do not infer adult donor recovery from the abstract."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Preserve empty final TSV fields in the byte-pinned ENA source snapshot.
+ena-SRP420832.tsv whitespace=-blank-at-eol

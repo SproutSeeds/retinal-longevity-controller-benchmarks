@@ -1,0 +1,196 @@
+{
+  "data_download_budget_bytes": 1000000000,
+  "downloaded_cache_bytes": 202978351,
+  "prior_pinned_source_manifest": "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/blob/main/research/2026-10-independent-comparator/input-files.json",
+  "raw_inputs_location": "/tmp/cx004-neural-validation-2026-10-18",
+  "retrieved_date": "2026-10-18",
+  "sources": [
+    {
+      "bytes": 6075,
+      "id": "zenodo-12613762.json",
+      "sha256": "d0fcce1174aa94237b37042b8f33cabaaf988da981b287e76f9fe2bf067d429e",
+      "snapshot": "sources/zenodo-12613762.json",
+      "url": "https://zenodo.org/api/records/12613762"
+    },
+    {
+      "bytes": 4121,
+      "id": "ena-SRP420832.tsv",
+      "sha256": "93542a64fc3b424a02a55abe25ed1a673aa66ea13b7b7693e0535604c3c85186",
+      "snapshot": "sources/ena-SRP420832.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP420832&result=read_run&fields=run_accession,experiment_accession,library_name,library_strategy,read_count,base_count,fastq_bytes,fastq_ftp,fastq_md5,submitted_ftp,submitted_bytes&format=tsv"
+    },
+    {
+      "bytes": 104662,
+      "id": "ncbi-wholebody-runs.xml",
+      "sha256": "d94aa1127a7981637b187315bcd2c5ee2416ff7956b4362476a9ce4d55714e63",
+      "snapshot": "sources/ncbi-wholebody-runs.xml",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRR23332081,SRR23332082,SRR23332083,SRR23332085,SRR23332086,SRR23332087,SRR23332088&rettype=full&retmode=xml"
+    },
+    {
+      "bytes": 10728,
+      "id": "cambridge-rpe1-item.json",
+      "sha256": "a715a68e83fd3249bfb29b336ef717d3965ef1aa69e50401abedbca74a303f8e",
+      "snapshot": "sources/cambridge-rpe1-item.json",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd"
+    },
+    {
+      "bytes": 248,
+      "id": "cambridge-rpe1-embargo.json",
+      "sha256": "891e68b2b46603eb3221a6b5fe9ed2edbc673f948591d451e1f807085b1e8a87",
+      "snapshot": "sources/cambridge-rpe1-embargo.json",
+      "url": "https://api.repository.cam.ac.uk/server/api/core/items/d696e1f1-d49a-4edb-878b-22133a7b15cd/accessStatus"
+    },
+    {
+      "bytes": 306,
+      "id": "europepmc-since-prior-audit.json",
+      "sha256": "3da0fe005cf8ce4793c6d5f97cd7f210ea77e2b97a1616d7a7fede60cff7763a",
+      "snapshot": "sources/europepmc-since-prior-audit.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=FIRST_PDATE%3A%5B2026-10-16+TO+2026-10-18%5D+AND+TITLE_ABS%3A%28%22partial+reprogramming%22+OR+%22transient+reprogramming%22+OR+%22epigenetic+rejuvenation%22%29&format=json&pageSize=100&resultType=core"
+    },
+    {
+      "bytes": 823,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022367-suppl-index.html",
+      "id": "GSM7022367-suppl-index.html",
+      "sha256": "5808b01534e13da512e1b7fa8b84e9d98cb51c3fb9562091a335332909836dd1",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022367/suppl/"
+    },
+    {
+      "bytes": 54798,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022367_1_barcodes.tsv.gz",
+      "id": "GSM7022367_1_barcodes.tsv.gz",
+      "sha256": "c77d9fce46ca0e436cac44dbf15e0cfe68ede664f2473d87091df284a86d698d",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022367/suppl/GSM7022367_1_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 279403,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022367_1_features.tsv.gz",
+      "id": "GSM7022367_1_features.tsv.gz",
+      "sha256": "20a8e24cbb35bea59167499122280af7039d9699d16e03b32db94e80686cfb5d",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022367/suppl/GSM7022367_1_features.tsv.gz"
+    },
+    {
+      "bytes": 829,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022368-suppl-index.html",
+      "id": "GSM7022368-suppl-index.html",
+      "sha256": "290b21872e27cec05a8f3ef728834257e5cc2803b1dd160ed0b286ed0596e91f",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022368/suppl/"
+    },
+    {
+      "bytes": 16459,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022368_2-1_barcodes.tsv.gz",
+      "id": "GSM7022368_2-1_barcodes.tsv.gz",
+      "sha256": "b53997bc62867dfacda852820ef5af78ef9cdd614ba07ed880f3693baedee563",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022368/suppl/GSM7022368_2-1_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 279428,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022368_2-1_features.tsv.gz",
+      "id": "GSM7022368_2-1_features.tsv.gz",
+      "sha256": "a9402c13bb3f38daaf2f1eeeebb509b659752d7c94aea51c4ccb07f0be7e870c",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022368/suppl/GSM7022368_2-1_features.tsv.gz"
+    },
+    {
+      "bytes": 829,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022369-suppl-index.html",
+      "id": "GSM7022369-suppl-index.html",
+      "sha256": "952dea92f39fe46d44952a5842302342553b2db849c861dc8a112f9bb0e5c973",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022369/suppl/"
+    },
+    {
+      "bytes": 14972,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022369_2-2_barcodes.tsv.gz",
+      "id": "GSM7022369_2-2_barcodes.tsv.gz",
+      "sha256": "bf59b24d0ec2b8fdcd5c6df76e5241b9cc952cfc7118463244fa9e073d8a6877",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022369/suppl/GSM7022369_2-2_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 279428,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022369_2-2_features.tsv.gz",
+      "id": "GSM7022369_2-2_features.tsv.gz",
+      "sha256": "1e5781ec7902a44368754172f0ef1e4276534d17159aedb198e113c535d88467",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022369/suppl/GSM7022369_2-2_features.tsv.gz"
+    },
+    {
+      "bytes": 829,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022370-suppl-index.html",
+      "id": "GSM7022370-suppl-index.html",
+      "sha256": "81bd39b62e9764c8f4bd13b1808e60853a5624f940df619bbd4f1853957aa6e3",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022370/suppl/"
+    },
+    {
+      "bytes": 42088,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022370_2-3_barcodes.tsv.gz",
+      "id": "GSM7022370_2-3_barcodes.tsv.gz",
+      "sha256": "00b6cdda2b4321aa064a88f7be8a3f19c0f871c230aa4d248d090cc77c49f3dd",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022370/suppl/GSM7022370_2-3_barcodes.tsv.gz"
+    },
+    {
+      "bytes": 279428,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSM7022370_2-3_features.tsv.gz",
+      "id": "GSM7022370_2-3_features.tsv.gz",
+      "sha256": "e9cb5ba79932d196e34a18fe8e6a67e1563372370cbfdebaaca02431bd076542",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022370/suppl/GSM7022370_2-3_features.tsv.gz"
+    },
+    {
+      "bytes": 94079882,
+      "id": "svz_iOSKM_cohort1_toshare.rds",
+      "repository_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+      "sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content"
+    },
+    {
+      "bytes": 83405567,
+      "id": "43587_2024_594_MOESM2_ESM.xlsx",
+      "repository_checksum": "md5:a78aada4da430056e95d44851c6ba3e8",
+      "sha256": "4101161aff9f2864ab5b51fa209eb271546cc33257c5432237020211c471565a",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-024-00594-3/MediaObjects/43587_2024_594_MOESM2_ESM.xlsx"
+    },
+    {
+      "bytes": 371712,
+      "cache_only": true,
+      "id": "PMC12036604.html",
+      "sha256": "242df8037a29156df66328c1277f085cbd9a08c1e90010bd02eb8f61b5fb3656",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/"
+    },
+    {
+      "bytes": 5845,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/svz-zenodo.json",
+      "id": "svz-zenodo.json",
+      "previously_pinned": true,
+      "sha256": "3540429a89188e1efabedec45ce48af9d6fc83a52788b19f0299d76fda7baaf1",
+      "url": "https://zenodo.org/api/records/10626910"
+    },
+    {
+      "bytes": 14153,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/svz-iOSKM_cohort1-seurat_part1.R",
+      "id": "svz-iOSKM_cohort1-seurat_part1.R",
+      "previously_pinned": true,
+      "sha256": "737834f13bc51a4bbf02513f51be9bdc22a1706bbfeebe46fc40e0d56a354faf",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part1.R"
+    },
+    {
+      "bytes": 14858,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/svz-iOSKM_cohort1-seurat_part2.R",
+      "id": "svz-iOSKM_cohort1-seurat_part2.R",
+      "previously_pinned": true,
+      "sha256": "0c3d7ac2df391a3bebe2f2bdd2b32665b3bd7ef322c14bba4b77ada08990c69c",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part2.R"
+    },
+    {
+      "bytes": 17451,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/svz-iOSKM_cohort2-iOSKM2_seurat_part1.R",
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part1.R",
+      "previously_pinned": true,
+      "sha256": "321e8ed07f708a82b44d267809a24ed78cd414f6e98cc8123f72d8bfec0adf36",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part1.R"
+    },
+    {
+      "bytes": 25808,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "previously_pinned": true,
+      "sha256": "418c3c746d08dbf9eff1ff51aaa45092cdf4414d0b5b9fc47e9ba236f1d98772",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part2.R"
+    }
+  ]
+}

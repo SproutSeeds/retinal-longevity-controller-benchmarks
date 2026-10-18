@@ -1,0 +1,83 @@
+{
+  "cioskm": {
+    "decision": "deferred_nonreplication_comparator",
+    "download_executed": false,
+    "reasons": [
+      "Continuous SVZ-targeted one-week induction differs from whole-body pulsed induction.",
+      "Controls and treated animals occupy disjoint 10x lanes in both batches.",
+      "No withdrawal endpoint.",
+      "No value for the current frozen cross-cohort direction comparator."
+    ],
+    "source_url": "https://zenodo.org/records/12613762",
+    "v1_corrupted": true,
+    "v2_checksum": "md5:f327804d131b645312f7b6f4d32a64a7",
+    "v2_size_bytes": 753766915
+  },
+  "claim_level": "Verified",
+  "cohort1": {
+    "artifact": "cohort1-admission.json",
+    "decision": "admit_same_study_cross_cohort_direction_comparator"
+  },
+  "expression_analysis_executed": false,
+  "new_public_human_retinal_withdrawal": {
+    "candidate": {
+      "author": "Yongmin Kwon",
+      "doi": "10.17863/CAM.129172",
+      "embargo_until": "2027-04-07",
+      "limits": [
+        "Primary adult donor identity, withdrawal duration, counts and sample map unavailable.",
+        "Not newly published since the prior audit; newly surfaced by this focused search.",
+        "No access request or outreach sent."
+      ],
+      "model": "Human RPE1 cells with inducible OKS and induction/withdrawal single-cell profiling described in abstract.",
+      "repository_accessioned_date": "2026-04-07",
+      "source_url": "https://www.repository.cam.ac.uk/items/d696e1f1-d49a-4edb-878b-22133a7b15cd",
+      "status": "public_abstract_only_not_admitted",
+      "submitted_date": "2025-10-31",
+      "title": "Cellular Identity Dynamics in Reprogramming, Oncogenic Stress, and Ageing"
+    },
+    "decision": "no_new_eligible_dataset_identified_in_bounded_search",
+    "exhaustive_absence_claim": false,
+    "recent_index_hits": 0,
+    "recent_index_query": "FIRST_PDATE:[2026-10-16 TO 2026-10-18] AND TITLE_ABS:(\"partial reprogramming\" OR \"transient reprogramming\" OR \"epigenetic rejuvenation\")"
+  },
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "withdrawal": {
+    "animal_source_map": "full-animal-source-map.json",
+    "decision": "blocked_on_public_full_hash_assignment",
+    "observations_in_shared_objects": 0,
+    "raw_inventory": "raw-availability.json",
+    "sequencing_confirmed": true
+  },
+  "zenodo_version_comparison": [
+    {
+      "file": "svz_iOSKM_cohort1_toshare.rds",
+      "unchanged": true,
+      "v1_bytes": 94079882,
+      "v1_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+      "v2_bytes": 94079882,
+      "v2_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d"
+    },
+    {
+      "file": "svz_iOSKM_cohort2_toshare.rds",
+      "unchanged": true,
+      "v1_bytes": 199814927,
+      "v1_checksum": "md5:8259ae16616437fe5d0d0760745a75ab",
+      "v2_bytes": 199814927,
+      "v2_checksum": "md5:8259ae16616437fe5d0d0760745a75ab"
+    },
+    {
+      "file": "svz_ciOSKM_toshare.rds",
+      "unchanged": false,
+      "v1_bytes": 161955840,
+      "v1_checksum": "md5:cb55483c4cf434a64aa179fb6c655cbf",
+      "v2_bytes": 753766915,
+      "v2_checksum": "md5:f327804d131b645312f7b6f4d32a64a7"
+    }
+  ]
+}

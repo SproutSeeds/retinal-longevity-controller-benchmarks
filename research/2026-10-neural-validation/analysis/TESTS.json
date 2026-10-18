@@ -1,0 +1,10 @@
+{
+  "analysis_code_sha256": "96791fe8bb0775958b9d98094504dd3ddef7656a212c8144487d6412848538e7",
+  "claim_level": "Verified",
+  "errors": 0,
+  "evidence_class": "synthetic_software_adversaries_only",
+  "failures": 0,
+  "status": "PASS",
+  "test_code_sha256": "58849986e11c55930586e138cc915b9bad3a76fe1df8d0170eef19e9ba79529a",
+  "tests_run": 43
+}

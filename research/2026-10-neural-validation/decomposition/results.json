@@ -1,0 +1,2258 @@
+{
+  "analysis_loader_sha256": "96791fe8bb0775958b9d98094504dd3ddef7656a212c8144487d6412848538e7",
+  "claim_level": "Verified",
+  "code_sha256": "31bffff63e433363b9323c411ab0f267b075ce26b107533ddb88dc762ceb8ecf",
+  "contract_sha256": "129d7d602aa3c83ef26c175d05477bdbf882e51a636592f2e176eefcfe4b0259",
+  "evidence_class": "observed_recovered_cell_descriptive_algebra",
+  "interpretation": "Composition and within-type components are an exact algebraic partition of this conditional summary. Neither is causal, calibrated biological benefit, or unbiased tissue abundance.",
+  "results": [
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.0014750642863149157,
+        "total": -0.008461300083686625,
+        "within_type": -0.0069862357973717055
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.0014121497197877005,
+          "composition_by_type": [
+            0.0039949101905356246,
+            -0.005407059910323325
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.001680829089103053,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 9.974659986866641e-18,
+          "lane": "Lane1",
+          "means_control": [
+            0.058351327877652216,
+            0.07886803890976725
+          ],
+          "means_treated": [
+            0.060792526261387404,
+            0.08239164567659278
+          ],
+          "opposed_components": true,
+          "total": 0.001680829089103053,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0009712122442179939,
+            0.0021217665646727697
+          ],
+          "within_type": 0.0030929788088907635
+        },
+        {
+          "composition": -0.0015379788528421309,
+          "composition_by_type": [
+            0.004446705818776259,
+            -0.00598468467161839
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.018603429256476317,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 0.0,
+          "lane": "Lane2",
+          "means_control": [
+            0.06371728875864369,
+            0.09604608184107007
+          ],
+          "means_treated": [
+            0.05936376236530174,
+            0.06960492140673881
+          ],
+          "opposed_components": false,
+          "total": -0.018603429256476303,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.0018479752516368812,
+            -0.015217475151997293
+          ],
+          "within_type": -0.017065450403634174
+        }
+      ],
+      "panel": "cycle_panel",
+      "panel_genes": [
+        "Mki67",
+        "Top2a",
+        "Pcna",
+        "Mcm2",
+        "Mcm3",
+        "Mcm4",
+        "Mcm5",
+        "Mcm6",
+        "Mcm7",
+        "Cdk1",
+        "Ccnb1",
+        "Ccnb2",
+        "Cdc20",
+        "Ube2c",
+        "Tyms",
+        "Rrm2",
+        "Tk1",
+        "Cenpf",
+        "Birc5",
+        "Aurkb"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.006230350922301259,
+        "total": -0.044130991473199266,
+        "within_type": -0.037900640550897986
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.006336944373860193,
+          "composition_by_type": [
+            0.023418864285466943,
+            -0.029755808659327136
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.010961629201665712,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 4.85722573273506e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.34299310799292776,
+            0.451672212978194
+          ],
+          "means_treated": [
+            0.3554490640338569,
+            0.43576243701595496
+          ],
+          "opposed_components": false,
+          "total": -0.010961629201665768,
+          "treated": "L0002",
+          "within_by_type": [
+            0.004955507549485477,
+            -0.0095801923772911
+          ],
+          "within_type": -0.004624684827805624
+        },
+        {
+          "composition": -0.006123757470742324,
+          "composition_by_type": [
+            0.026743523584989704,
+            -0.03286728105573203
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.0773003537447326,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 8.326672684688674e-17,
+          "lane": "Lane2",
+          "means_control": [
+            0.38728273399855173,
+            0.5040466624880517
+          ],
+          "means_treated": [
+            0.35295534959574776,
+            0.4056918416522846
+          ],
+          "opposed_components": false,
+          "total": -0.07730035374473276,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.014571212184867777,
+            -0.05660538408912258
+          ],
+          "within_type": -0.07117659627399035
+        }
+      ],
+      "panel": "cycle_panel",
+      "panel_genes": [
+        "Mki67",
+        "Top2a",
+        "Pcna",
+        "Mcm2",
+        "Mcm3",
+        "Mcm4",
+        "Mcm5",
+        "Mcm6",
+        "Mcm7",
+        "Cdk1",
+        "Ccnb1",
+        "Ccnb2",
+        "Cdc20",
+        "Ube2c",
+        "Tyms",
+        "Rrm2",
+        "Tk1",
+        "Cenpf",
+        "Birc5",
+        "Aurkb"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.003305887933247923,
+        "total": -0.000580987511249409,
+        "within_type": -0.0038868754444973323
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.0022798395877259873,
+          "composition_by_type": [
+            0.0025887623928364596,
+            -0.00030892280511047253
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.0017600565440533296,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 0.0,
+          "lane": "Lane1",
+          "means_control": [
+            0.04255433470017917,
+            0.005350872777078899
+          ],
+          "means_treated": [
+            0.03465268979400209,
+            0.003862414099683206
+          ],
+          "opposed_components": true,
+          "total": -0.0017600565440533227,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.0031436094393115046,
+            -0.0008962866924678055
+          ],
+          "within_type": -0.00403989613177931
+        },
+        {
+          "composition": 0.0043319362787698585,
+          "composition_by_type": [
+            0.0045830768248795286,
+            -0.0002511405461096698
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.0005980815215545013,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 8.673617379884035e-19,
+          "lane": "Lane2",
+          "means_control": [
+            0.071006340212396,
+            0.001130023826726256
+          ],
+          "means_treated": [
+            0.0558493448671277,
+            0.005821333797270231
+          ],
+          "opposed_components": true,
+          "total": 0.0005980815215545048,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.006433807850589324,
+            0.0026999530933739697
+          ],
+          "within_type": -0.0037338547572153546
+        }
+      ],
+      "panel": "reprogramming_state",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Pou5f1",
+        "Prdm14",
+        "Sall4",
+        "Sox2",
+        "Zfp42"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.018666462234236895,
+        "total": -0.00026315350865960957,
+        "within_type": -0.018929615742896498
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.012605417421773926,
+          "composition_by_type": [
+            0.014608836414692575,
+            -0.00200341899291865
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.011041899865479224,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 3.469446951953614e-18,
+          "lane": "Lane1",
+          "means_control": [
+            0.24089367894869357,
+            0.034283123668845776
+          ],
+          "means_treated": [
+            0.19479898794949643,
+            0.025466670165612763
+          ],
+          "opposed_components": true,
+          "total": -0.011041899865479224,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.018338422878753407,
+            -0.00530889440849974
+          ],
+          "within_type": -0.023647317287253146
+        },
+        {
+          "composition": 0.024727507046699862,
+          "composition_by_type": [
+            0.026410097026005514,
+            -0.001682589979305653
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.010515592848160005,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 6.938893903907228e-18,
+          "lane": "Lane2",
+          "means_control": [
+            0.4007959578157151,
+            0.009604050106050368
+          ],
+          "means_treated": [
+            0.330213161006701,
+            0.03696861552635942
+          ],
+          "opposed_components": true,
+          "total": 0.010515592848160005,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.02996082943102251,
+            0.01574891523248266
+          ],
+          "within_type": -0.01421191419853985
+        }
+      ],
+      "panel": "reprogramming_state",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Pou5f1",
+        "Prdm14",
+        "Sall4",
+        "Sox2",
+        "Zfp42"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.00020793430581299616,
+        "total": -0.0019006168395432881,
+        "within_type": -0.002108551145356284
+      },
+      "lane_contrasts": [
+        {
+          "composition": -8.552548323232359e-05,
+          "composition_by_type": [
+            0.0,
+            -8.552548323232359e-05
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.0016214516071067244,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 2.168404344971009e-19,
+          "lane": "Lane1",
+          "means_control": [
+            0.0,
+            0.002550704574922274
+          ],
+          "means_treated": [
+            0.0,
+            0.0
+          ],
+          "opposed_components": false,
+          "total": -0.0016214516071067244,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0,
+            -0.001535926123874401
+          ],
+          "within_type": -0.001535926123874401
+        },
+        {
+          "composition": 0.0005013940948583159,
+          "composition_by_type": [
+            0.0005176686692478887,
+            -1.6274574389572713e-05
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.0021797820719798512,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 8.673617379884035e-19,
+          "lane": "Lane2",
+          "means_control": [
+            0.010627899951445053,
+            0.0
+          ],
+          "means_treated": [
+            0.0037007303968739423,
+            0.0004504664360762029
+          ],
+          "opposed_components": true,
+          "total": -0.0021797820719798517,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.002940429606747631,
+            0.0002592534399094639
+          ],
+          "within_type": -0.002681176166838167
+        }
+      ],
+      "panel": "reprogramming_without_OSKM_overlap",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Prdm14",
+        "Sall4",
+        "Zfp42"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.001514099703919599,
+        "total": -0.009846263481534851,
+        "within_type": -0.011360363185454449
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.000417775734427704,
+          "composition_by_type": [
+            0.0,
+            -0.000417775734427704
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.007920482999878267,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 0.0,
+          "lane": "Lane1",
+          "means_control": [
+            0.0,
+            0.012459707175247099
+          ],
+          "means_treated": [
+            0.0,
+            0.0
+          ],
+          "opposed_components": false,
+          "total": -0.007920482999878268,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0,
+            -0.007502707265450564
+          ],
+          "within_type": -0.007502707265450564
+        },
+        {
+          "composition": 0.003445975142266902,
+          "composition_by_type": [
+            0.0036083967866583867,
+            -0.00016242164439148505
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.011772043963191429,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 1.734723475976807e-18,
+          "lane": "Lane2",
+          "means_control": [
+            0.07091197252268713,
+            0.0
+          ],
+          "means_treated": [
+            0.028965394560796994,
+            0.004495693560966273
+          ],
+          "opposed_components": true,
+          "total": -0.011772043963191432,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.017805390610007382,
+            0.0025873715045490503
+          ],
+          "within_type": -0.015218019105458332
+        }
+      ],
+      "panel": "reprogramming_without_OSKM_overlap",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Prdm14",
+        "Sall4",
+        "Zfp42"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.017309454204138184,
+        "total": -0.0048114952985484905,
+        "within_type": 0.01249795890558965
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.016613056055114813,
+          "composition_by_type": [
+            0.017906952569473247,
+            -0.03452000862458806
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.01350102238189066,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 6.591949208711867e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.27118632050403124,
+            0.5094292183301187
+          ],
+          "means_treated": [
+            0.26286907580162827,
+            0.520092517149714
+          ],
+          "opposed_components": true,
+          "total": -0.013501022381890604,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.0033089526631471257,
+            0.006420986336371269
+          ],
+          "within_type": 0.003112033673224143
+        },
+        {
+          "composition": -0.018005852353161555,
+          "composition_by_type": [
+            0.01816421079981965,
+            -0.036170063152981206
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.003878031784793623,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 2.0816681711721685e-17,
+          "lane": "Lane2",
+          "means_control": [
+            0.24735342623334314,
+            0.4845396464609387
+          ],
+          "means_treated": [
+            0.25541654533495467,
+            0.5166170689868075
+          ],
+          "opposed_components": true,
+          "total": 0.003878031784793623,
+          "treated": "L0004",
+          "within_by_type": [
+            0.0034226149572830593,
+            0.018461269180672098
+          ],
+          "within_type": 0.021883884137955157
+        }
+      ],
+      "panel": "stress_panel",
+      "panel_genes": [
+        "Cdkn1a",
+        "Cdkn2a",
+        "Il6",
+        "Gadd45a",
+        "Trp53",
+        "Timp1",
+        "Timp2"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 20,
+      "common_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.05376761784613545,
+        "total": -0.04091397289108967,
+        "within_type": 0.012853644955045627
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.050858665622201066,
+          "composition_by_type": [
+            0.08264767745406099,
+            -0.13350634307626205
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.11270825248215721,
+          "fractions_control": [
+            0.3643122676579926,
+            0.6356877323420075
+          ],
+          "fractions_treated": [
+            0.43137254901960786,
+            0.5686274509803921
+          ],
+          "identity_error": 2.7755575615628914e-16,
+          "lane": "Lane1",
+          "means_control": [
+            1.2308586526251746,
+            2.0432412730374554
+          ],
+          "means_treated": [
+            1.2340184930101787,
+            1.9384402936217557
+          ],
+          "opposed_components": false,
+          "total": -0.11270825248215721,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0012571185087362586,
+            -0.06310670536869269
+          ],
+          "within_type": -0.06184958685995643
+        },
+        {
+          "composition": -0.056676570070069834,
+          "composition_by_type": [
+            0.08731534220723168,
+            -0.14399191227730151
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.030880306699977433,
+          "fractions_control": [
+            0.3883495145631068,
+            0.6116504854368932
+          ],
+          "fractions_treated": [
+            0.46060606060606063,
+            0.5393939393939394
+          ],
+          "identity_error": 2.7755575615628914e-17,
+          "lane": "Lane2",
+          "means_control": [
+            1.2089112590262523,
+            1.9163481112748892
+          ],
+          "means_treated": [
+            1.2079034654230993,
+            2.0692260730129637
+          ],
+          "opposed_components": true,
+          "total": 0.030880306699977877,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.00042778599900826064,
+            0.08798466276905595
+          ],
+          "within_type": 0.08755687677004768
+        }
+      ],
+      "panel": "stress_panel",
+      "panel_genes": [
+        "Cdkn1a",
+        "Cdkn2a",
+        "Il6",
+        "Gadd45a",
+        "Trp53",
+        "Timp1",
+        "Timp2"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": -9.019718719238647e-05,
+        "total": -0.005044002098363712,
+        "within_type": -0.00495380491117133
+      },
+      "lane_contrasts": [
+        {
+          "composition": 1.9380134506086222e-05,
+          "composition_by_type": [
+            0.00023364494921293108,
+            0.0041344123877082905,
+            0.0010063439479788493,
+            -0.007783497779331345,
+            0.0024284766289373594
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.0007424043679101072,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 4.7704895589362195e-18,
+          "lane": "Lane1",
+          "means_control": [
+            0.029707284906636277,
+            0.15304154510493093,
+            0.058351327877652216,
+            0.07886803890976725,
+            0.062371932585609996
+          ],
+          "means_treated": [
+            0.022327578347375664,
+            0.170844430862992,
+            0.060792526261387404,
+            0.08239164567659278,
+            0.04524846642960469
+          ],
+          "opposed_components": false,
+          "total": 0.0007424043679101211,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.0008088438673716754,
+            0.0010870527310896621,
+            0.0007002713103129939,
+            0.0015416787347797608,
+            -0.0017971346754067112
+          ],
+          "within_type": 0.0007230242334040301
+        },
+        {
+          "composition": -0.00019977450889085917,
+          "composition_by_type": [
+            0.0004594223830190971,
+            0.0040801448541857984,
+            0.0017050398506267602,
+            -0.006638747425598161,
+            0.000194365828875646
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.010830408564637559,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 5.204170427930421e-18,
+          "lane": "Lane2",
+          "means_control": [
+            0.04264967664620846,
+            0.10756081225914564,
+            0.06371728875864369,
+            0.09604608184107007,
+            0.03413257748801673
+          ],
+          "means_treated": [
+            0.029376419243146643,
+            0.12228358041321566,
+            0.05936376236530174,
+            0.06960492140673881,
+            0.0587142831566342
+          ],
+          "opposed_components": false,
+          "total": -0.010830408564637545,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.0018420989747589725,
+            0.0016977228226442856,
+            -0.0012738358529242914,
+            -0.010548639585155855,
+            0.0013362175344481424
+          ],
+          "within_type": -0.01063063405574669
+        }
+      ],
+      "panel": "cycle_panel",
+      "panel_genes": [
+        "Mki67",
+        "Top2a",
+        "Pcna",
+        "Mcm2",
+        "Mcm3",
+        "Mcm4",
+        "Mcm5",
+        "Mcm6",
+        "Mcm7",
+        "Cdk1",
+        "Ccnb1",
+        "Ccnb2",
+        "Cdc20",
+        "Ube2c",
+        "Tyms",
+        "Rrm2",
+        "Tk1",
+        "Cenpf",
+        "Birc5",
+        "Aurkb"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.004079073770023528,
+        "total": -0.02506725326633355,
+        "within_type": -0.020988179496310023
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.0058995368385692925,
+          "composition_by_type": [
+            0.0013203316275141321,
+            0.017508853311841845,
+            0.005899364746184152,
+            -0.04283367938644349,
+            0.012205592862334068
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.007683159901984371,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 6.071532165918825e-18,
+          "lane": "Lane1",
+          "means_control": [
+            0.1552941058825394,
+            0.5919559039923203,
+            0.34299310799292776,
+            0.451672212978194,
+            0.30877892136284435
+          ],
+          "means_treated": [
+            0.13875580154786915,
+            0.7796711886133271,
+            0.3554490640338569,
+            0.43576243701595496,
+            0.2321242763082135
+          ],
+          "opposed_components": false,
+          "total": -0.007683159901984371,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.001812660968346779,
+            0.011461985185303045,
+            0.003573060147875589,
+            -0.006960981999189293,
+            -0.008045025429057648
+          ],
+          "within_type": -0.0017836230634150846
+        },
+        {
+          "composition": -0.002258610701477764,
+          "composition_by_type": [
+            0.002253497220569496,
+            0.020634057854933177,
+            0.010254506440710067,
+            -0.03645932734433389,
+            0.0010586551266433834
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": -0.04245134663068262,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 0.0,
+          "lane": "Lane2",
+          "means_control": [
+            0.2007166951846366,
+            0.5429002396879011,
+            0.38728273399855173,
+            0.5040466624880517,
+            0.18900169785111162
+          ],
+          "means_treated": [
+            0.1525760761176856,
+            0.6194659667883351,
+            0.35295534959574776,
+            0.4056918416522846,
+            0.31670861955807966
+          ],
+          "opposed_components": false,
+          "total": -0.04245134663068273,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.0066810868149845765,
+            0.008829004231437728,
+            -0.010044145604877985,
+            -0.039238427490193684,
+            0.006941919749413557
+          ],
+          "within_type": -0.04019273592920496
+        }
+      ],
+      "panel": "cycle_panel",
+      "panel_genes": [
+        "Mki67",
+        "Top2a",
+        "Pcna",
+        "Mcm2",
+        "Mcm3",
+        "Mcm4",
+        "Mcm5",
+        "Mcm6",
+        "Mcm7",
+        "Cdk1",
+        "Ccnb1",
+        "Ccnb2",
+        "Cdc20",
+        "Ube2c",
+        "Tyms",
+        "Rrm2",
+        "Tk1",
+        "Cenpf",
+        "Birc5",
+        "Aurkb"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.020611702076374736,
+        "total": 0.008354064586140256,
+        "within_type": -0.012257637490234471
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.016879528578630364,
+          "composition_by_type": [
+            0.0024787612268135097,
+            0.01366051386681633,
+            0.0006521261411478491,
+            -0.0004446963798147359,
+            0.0005328237236674117
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.008847831498209696,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 0.0,
+          "lane": "Lane1",
+          "means_control": [
+            0.3015326621034313,
+            0.538112221693366,
+            0.04255433470017917,
+            0.005350872777078899,
+            0.0077604325783724335
+          ],
+          "means_treated": [
+            0.2505100929875029,
+            0.5320395800792743,
+            0.03465268979400209,
+            0.003862414099683206,
+            0.015852189862614805
+          ],
+          "opposed_components": true,
+          "total": 0.008847831498209696,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.005592267361251424,
+            -0.00037079840545166083,
+            -0.0022666307125807318,
+            -0.000651243240915529,
+            0.0008492426397786784
+          ],
+          "within_type": -0.008031697080420667
+        },
+        {
+          "composition": 0.024343875574119107,
+          "composition_by_type": [
+            0.003806250731625479,
+            0.019026999556889183,
+            0.0017573297949928413,
+            -0.00027858755229922974,
+            3.1883042910834946e-05
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.007860297674070815,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 1.734723475976807e-17,
+          "lane": "Lane2",
+          "means_control": [
+            0.3399536174188479,
+            0.5426317235040194,
+            0.071006340212396,
+            0.001130023826726256,
+            0.01523025142430597
+          ],
+          "means_treated": [
+            0.25677259860356355,
+            0.5292050160774168,
+            0.0558493448671277,
+            0.005821333797270231,
+            0.0
+          ],
+          "opposed_components": true,
+          "total": 0.007860297674070815,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.0115440893539589,
+            -0.0015482705013465422,
+            -0.0044349160540148045,
+            0.0018715872241848578,
+            -0.0008278892149128891
+          ],
+          "within_type": -0.016483577900048275
+        }
+      ],
+      "panel": "reprogramming_state",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Pou5f1",
+        "Prdm14",
+        "Sall4",
+        "Sox2",
+        "Zfp42"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.0704506650040495,
+        "total": 0.0410262633805005,
+        "within_type": -0.029424401623549003
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.057997462938494074,
+          "composition_by_type": [
+            0.007956573737452345,
+            0.045980967151475496,
+            0.0036800612308552976,
+            -0.002883934622710719,
+            0.003263795441421656
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.039906123156912,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 2.0816681711721685e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.9383066035699649,
+            1.7853039424071395,
+            0.24089367894869357,
+            0.034283123668845776,
+            0.03167576003555119
+          ],
+          "means_treated": [
+            0.8336950073935201,
+            1.8168017561150207,
+            0.19479898794949643,
+            0.025466670165612763,
+            0.11296263735497096
+          ],
+          "opposed_components": true,
+          "total": 0.039906123156912,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.01146582826075909,
+            0.0019232715908993573,
+            -0.013222518038493763,
+            -0.003857450556082969,
+            0.008531185482854373
+          ],
+          "within_type": -0.018091339781582096
+        },
+        {
+          "composition": 0.08290386706960493,
+          "composition_by_type": [
+            0.011913575124606668,
+            0.06260128886298648,
+            0.010126657737986159,
+            -0.0018664792727386885,
+            0.0001288246167643043
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.042146403604089,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 1.3877787807814457e-17,
+          "lane": "Lane2",
+          "means_control": [
+            1.0387907536034,
+            1.756982124922202,
+            0.4007959578157151,
+            0.009604050106050368,
+            0.061538395455141795
+          ],
+          "means_treated": [
+            0.8289639227600433,
+            1.7694993441018794,
+            0.330213161006701,
+            0.03696861552635942,
+            0.0
+          ],
+          "opposed_components": true,
+          "total": 0.042146403604089,
+          "treated": "L0004",
+          "within_by_type": [
+            -0.02912034161895411,
+            0.0014433949142576476,
+            -0.020652429559746645,
+            0.010917029861082186,
+            -0.0033451170621549902
+          ],
+          "within_type": -0.04075746346551591
+        }
+      ],
+      "panel": "reprogramming_state",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Pou5f1",
+        "Prdm14",
+        "Sall4",
+        "Sox2",
+        "Zfp42"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.012238032819306927,
+        "total": 0.009094224282320621,
+        "within_type": -0.003143808536986307
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.009608472600507815,
+          "composition_by_type": [
+            0.0,
+            0.009401501517879699,
+            0.0,
+            -0.0001231144873287015,
+            0.0003300855699568191
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.00856787375559289,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 3.469446951953614e-18,
+          "lane": "Lane1",
+          "means_control": [
+            0.0,
+            0.38020637690846265,
+            0.0,
+            0.002550704574922274,
+            0.0
+          ],
+          "means_treated": [
+            0.0,
+            0.35629840518228323,
+            0.0,
+            0.0,
+            0.014628076022894163
+          ],
+          "opposed_components": true,
+          "total": 0.008567873755592901,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0,
+            -0.0014598322043374314,
+            0.0,
+            -0.001116006201056835,
+            0.0015352395604793494
+          ],
+          "within_type": -0.001040598844914917
+        },
+        {
+          "composition": 0.014867593038106038,
+          "composition_by_type": [
+            0.0,
+            0.014687151962258347,
+            0.0001984942891345754,
+            -1.8053213286885588e-05,
+            0.0
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.009620574809048356,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 1.734723475976807e-18,
+          "lane": "Lane2",
+          "means_control": [
+            0.0,
+            0.4284232003926795,
+            0.010627899951445053,
+            0.0,
+            0.0
+          ],
+          "means_treated": [
+            0.0,
+            0.3989394652707161,
+            0.0037007303968739423,
+            0.0004504664360762029,
+            0.0
+          ],
+          "opposed_components": true,
+          "total": 0.009620574809048342,
+          "treated": "L0004",
+          "within_by_type": [
+            0.0,
+            -0.0033998504553994966,
+            -0.0020268803127950143,
+            0.0001797125391368132,
+            0.0
+          ],
+          "within_type": -0.005247018229057697
+        }
+      ],
+      "panel": "reprogramming_without_OSKM_overlap",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Prdm14",
+        "Sall4",
+        "Zfp42"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": 0.039856306325891426,
+        "total": 0.033034110372519555,
+        "within_type": -0.006822195953371872
+      },
+      "lane_contrasts": [
+        {
+          "composition": 0.03257434683819358,
+          "composition_by_type": [
+            0.0,
+            0.030941665347561716,
+            0.0,
+            -0.0006013908769474151,
+            0.0022340723675792792
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": 0.03431603663734391,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 1.3877787807814457e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.0,
+            1.2381541929414979,
+            0.0,
+            0.012459707175247099,
+            0.0
+          ],
+          "means_treated": [
+            0.0,
+            1.185786754256286,
+            0.0,
+            0.0,
+            0.09900517746919983
+          ],
+          "opposed_components": false,
+          "total": 0.03431603663734391,
+          "treated": "L0002",
+          "within_by_type": [
+            0.0,
+            -0.003197580887534142,
+            0.0,
+            -0.00545147823375501,
+            0.010390748920439492
+          ],
+          "within_type": 0.001741689799150339
+        },
+        {
+          "composition": 0.04713826581358927,
+          "composition_by_type": [
+            0.0,
+            0.04593483884295789,
+            0.0013835995833471313,
+            -0.00018017261271575097,
+            0.0
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.03175218410769523,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 1.3877787807814457e-17,
+          "lane": "Lane2",
+          "means_control": [
+            0.0,
+            1.3150831776499687,
+            0.07091197252268713,
+            0.0,
+            0.0
+          ],
+          "means_treated": [
+            0.0,
+            1.2725369960630286,
+            0.028965394560796994,
+            0.004495693560966273,
+            0.0
+          ],
+          "opposed_components": true,
+          "total": 0.0317521841076952,
+          "treated": "L0004",
+          "within_by_type": [
+            0.0,
+            -0.0049061170250479244,
+            -0.012273511192457063,
+            0.0017935465116109054,
+            0.0
+          ],
+          "within_type": -0.015386081705894084
+        }
+      ],
+      "panel": "reprogramming_without_OSKM_overlap",
+      "panel_genes": [
+        "Cd24a",
+        "Cdh1",
+        "Epcam",
+        "Nanog",
+        "Prdm14",
+        "Sall4",
+        "Zfp42"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.024556702632387198,
+        "total": -0.005716288558759941,
+        "within_type": 0.018840414073627198
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.025377684829243526,
+          "composition_by_type": [
+            0.0008892309277839111,
+            0.003356715671345931,
+            0.0045108782139148835,
+            -0.04969177610904508,
+            0.015557266466756826
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.015471664193320522,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 5.377642775528102e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.11022358637830958,
+            0.09158046045247671,
+            0.27118632050403124,
+            0.5094292183301187,
+            0.3198988907761786
+          ],
+          "means_treated": [
+            0.08781625948330647,
+            0.17138148656880986,
+            0.26286907580162827,
+            0.520092517149714,
+            0.3695371139964971
+          ],
+          "opposed_components": true,
+          "total": -0.015471664193320522,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.002455928131786252,
+            0.004872688875411015,
+            -0.002385847821607167,
+            0.004665498201316827,
+            0.005209609512588526
+          ],
+          "within_type": 0.00990602063592295
+        },
+        {
+          "composition": -0.023735720435530867,
+          "composition_by_type": [
+            0.0011046441394208103,
+            0.007227208073193616,
+            0.006964864448217686,
+            -0.04012306860198235,
+            0.0010906315056193716
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.004039087075800585,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 5.898059818321144e-17,
+          "lane": "Lane2",
+          "means_control": [
+            0.0546566918683183,
+            0.21786099805514839,
+            0.24735342623334314,
+            0.4845396464609387,
+            0.19562566677615548
+          ],
+          "means_treated": [
+            0.11852425805990968,
+            0.18926505007910488,
+            0.25541654533495467,
+            0.5166170689868075,
+            0.3253594878813239
+          ],
+          "opposed_components": true,
+          "total": 0.00403908707580064,
+          "treated": "L0004",
+          "within_by_type": [
+            0.00886371556199477,
+            -0.0032974772818559215,
+            0.002359257592589662,
+            0.012797213264770516,
+            0.007052098373832424
+          ],
+          "within_type": 0.027774807511331448
+        }
+      ],
+      "panel": "stress_panel",
+      "panel_genes": [
+        "Cdkn1a",
+        "Cdkn2a",
+        "Il6",
+        "Gadd45a",
+        "Trp53",
+        "Timp1",
+        "Timp2"
+      ],
+      "scale": 10000,
+      "status": "available"
+    },
+    {
+      "authority": "Conditional cell-average log expression; not a pseudobulk decomposition.",
+      "cell_floor": 10,
+      "common_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "equal_lane_mean": {
+        "composition": -0.08646668784947312,
+        "total": -0.03731848521180425,
+        "within_type": 0.04914820263766878
+      },
+      "lane_contrasts": [
+        {
+          "composition": -0.08974363209752326,
+          "composition_by_type": [
+            0.004334657205819519,
+            0.015274911454744106,
+            0.020819489313538442,
+            -0.19218324599599207,
+            0.06201055592436675
+          ],
+          "control": "L0003",
+          "direct_cell_average_difference": -0.11609376127611437,
+          "fractions_control": [
+            0.10511363636363637,
+            0.048295454545454544,
+            0.2784090909090909,
+            0.48579545454545453,
+            0.08238636363636363
+          ],
+          "fractions_treated": [
+            0.11409395973154363,
+            0.0738255033557047,
+            0.2953020134228188,
+            0.38926174496644295,
+            0.12751677852348994
+          ],
+          "identity_error": 1.3877787807814457e-17,
+          "lane": "Lane1",
+          "means_control": [
+            0.4845518853807594,
+            0.40055241411448317,
+            1.2308586526251746,
+            2.0432412730374554,
+            1.3985373623867152
+          ],
+          "means_treated": [
+            0.4808158476588252,
+            0.7960697755470831,
+            1.2340184930101787,
+            1.9384402936217557,
+            1.349523167500219
+          ],
+          "opposed_components": false,
+          "total": -0.11609376127611415,
+          "treated": "L0002",
+          "within_by_type": [
+            -0.00040948392397305473,
+            0.024150479522344063,
+            0.0009064177583966528,
+            -0.045853425776803076,
+            -0.0051441167585554864
+          ],
+          "within_type": -0.026350129178590902
+        },
+        {
+          "composition": -0.08318974360142299,
+          "composition_by_type": [
+            0.00521425622237397,
+            0.03327183567238576,
+            0.033480096076023695,
+            -0.15972870575307827,
+            0.0045727741808718626
+          ],
+          "control": "L0011",
+          "direct_cell_average_difference": 0.04145679085250542,
+          "fractions_control": [
+            0.13240418118466898,
+            0.0975609756097561,
+            0.2787456445993031,
+            0.43902439024390244,
+            0.05226480836236934
+          ],
+          "fractions_treated": [
+            0.14516129032258066,
+            0.13306451612903225,
+            0.3064516129032258,
+            0.3588709677419355,
+            0.056451612903225805
+          ],
+          "identity_error": 1.6653345369377348e-16,
+          "lane": "Lane2",
+          "means_control": [
+            0.2786302339749809,
+            0.9371694366258441,
+            1.2089112590262523,
+            1.9163481112748892,
+            0.8360580032895555
+          ],
+          "means_treated": [
+            0.5388365080595771,
+            0.9371132510019592,
+            1.2079034654230993,
+            2.0692260730129637,
+            1.3483163262254505
+          ],
+          "opposed_components": true,
+          "total": 0.04145679085250564,
+          "treated": "L0004",
+          "within_by_type": [
+            0.036112138577717785,
+            -6.478918568549906e-06,
+            -0.00029487902634684946,
+            0.060990308004573064,
+            0.02784544581655302
+          ],
+          "within_type": 0.12464653445392847
+        }
+      ],
+      "panel": "stress_panel",
+      "panel_genes": [
+        "Cdkn1a",
+        "Cdkn2a",
+        "Il6",
+        "Gadd45a",
+        "Trp53",
+        "Timp1",
+        "Timp2"
+      ],
+      "scale": 1000000,
+      "status": "available"
+    }
+  ],
+  "source_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+  "support": [
+    {
+      "all_type_support_failures": {
+        "Astrocyte_qNSC": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "Endothelial": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [],
+          "L0004": [],
+          "L0011": [
+            "cells_below_20"
+          ]
+        },
+        "Ependymal": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [
+            "cells_below_20"
+          ],
+          "L0004": [
+            "cells_below_20"
+          ],
+          "L0011": [
+            "cells_below_20",
+            "detected_genes_below_500",
+            "empty_pseudobulk"
+          ]
+        },
+        "Macrophage": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [
+            "cells_below_20"
+          ],
+          "L0004": [
+            "cells_below_20"
+          ],
+          "L0011": [
+            "cells_below_20"
+          ]
+        },
+        "Microglia": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "Mural": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [
+            "cells_below_20"
+          ],
+          "L0004": [
+            "cells_below_20"
+          ],
+          "L0011": [
+            "cells_below_20"
+          ]
+        },
+        "Neuroblast": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [
+            "cells_below_20"
+          ],
+          "L0004": [],
+          "L0011": []
+        },
+        "OPC": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [
+            "cells_below_20"
+          ],
+          "L0004": [
+            "cells_below_20"
+          ],
+          "L0011": [
+            "cells_below_20"
+          ]
+        },
+        "Oligodendrocyte": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "aNSC_NPC": {
+          "L0002": [
+            "cells_below_20"
+          ],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        }
+      },
+      "cell_floor": 20,
+      "common_named_types": [
+        "Oligodendrocyte",
+        "Microglia"
+      ],
+      "denominators": {
+        "L0002": {
+          "all_recovered_cells": 171,
+          "counts_by_retained_type": {
+            "Microglia": 58,
+            "Oligodendrocyte": 44
+          },
+          "excluded_cells": 69,
+          "retained_cells": 102,
+          "retained_fraction": 0.5964912280701754
+        },
+        "L0003": {
+          "all_recovered_cells": 395,
+          "counts_by_retained_type": {
+            "Microglia": 171,
+            "Oligodendrocyte": 98
+          },
+          "excluded_cells": 126,
+          "retained_cells": 269,
+          "retained_fraction": 0.6810126582278481
+        },
+        "L0004": {
+          "all_recovered_cells": 561,
+          "counts_by_retained_type": {
+            "Microglia": 178,
+            "Oligodendrocyte": 152
+          },
+          "excluded_cells": 231,
+          "retained_cells": 330,
+          "retained_fraction": 0.5882352941176471
+        },
+        "L0011": {
+          "all_recovered_cells": 327,
+          "counts_by_retained_type": {
+            "Microglia": 126,
+            "Oligodendrocyte": 80
+          },
+          "excluded_cells": 121,
+          "retained_cells": 206,
+          "retained_fraction": 0.6299694189602446
+        }
+      },
+      "gene_floor": 500
+    },
+    {
+      "all_type_support_failures": {
+        "Astrocyte_qNSC": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "Endothelial": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "Ependymal": {
+          "L0002": [
+            "cells_below_10"
+          ],
+          "L0003": [
+            "cells_below_10"
+          ],
+          "L0004": [
+            "cells_below_10"
+          ],
+          "L0011": [
+            "cells_below_10",
+            "detected_genes_below_500",
+            "empty_pseudobulk"
+          ]
+        },
+        "Macrophage": {
+          "L0002": [
+            "cells_below_10"
+          ],
+          "L0003": [
+            "cells_below_10"
+          ],
+          "L0004": [
+            "cells_below_10"
+          ],
+          "L0011": [
+            "cells_below_10"
+          ]
+        },
+        "Microglia": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "Mural": {
+          "L0002": [
+            "cells_below_10"
+          ],
+          "L0003": [
+            "cells_below_10"
+          ],
+          "L0004": [],
+          "L0011": [
+            "cells_below_10"
+          ]
+        },
+        "Neuroblast": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "OPC": {
+          "L0002": [
+            "cells_below_10"
+          ],
+          "L0003": [
+            "cells_below_10"
+          ],
+          "L0004": [
+            "cells_below_10"
+          ],
+          "L0011": [
+            "cells_below_10"
+          ]
+        },
+        "Oligodendrocyte": {
+          "L0002": [],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        },
+        "aNSC_NPC": {
+          "L0002": [
+            "cells_below_10"
+          ],
+          "L0003": [],
+          "L0004": [],
+          "L0011": []
+        }
+      },
+      "cell_floor": 10,
+      "common_named_types": [
+        "Astrocyte_qNSC",
+        "Neuroblast",
+        "Oligodendrocyte",
+        "Microglia",
+        "Endothelial"
+      ],
+      "denominators": {
+        "L0002": {
+          "all_recovered_cells": 171,
+          "counts_by_retained_type": {
+            "Astrocyte_qNSC": 17,
+            "Endothelial": 19,
+            "Microglia": 58,
+            "Neuroblast": 11,
+            "Oligodendrocyte": 44
+          },
+          "excluded_cells": 22,
+          "retained_cells": 149,
+          "retained_fraction": 0.8713450292397661
+        },
+        "L0003": {
+          "all_recovered_cells": 395,
+          "counts_by_retained_type": {
+            "Astrocyte_qNSC": 37,
+            "Endothelial": 29,
+            "Microglia": 171,
+            "Neuroblast": 17,
+            "Oligodendrocyte": 98
+          },
+          "excluded_cells": 43,
+          "retained_cells": 352,
+          "retained_fraction": 0.8911392405063291
+        },
+        "L0004": {
+          "all_recovered_cells": 561,
+          "counts_by_retained_type": {
+            "Astrocyte_qNSC": 72,
+            "Endothelial": 28,
+            "Microglia": 178,
+            "Neuroblast": 66,
+            "Oligodendrocyte": 152
+          },
+          "excluded_cells": 65,
+          "retained_cells": 496,
+          "retained_fraction": 0.8841354723707665
+        },
+        "L0011": {
+          "all_recovered_cells": 327,
+          "counts_by_retained_type": {
+            "Astrocyte_qNSC": 38,
+            "Endothelial": 15,
+            "Microglia": 126,
+            "Neuroblast": 28,
+            "Oligodendrocyte": 80
+          },
+          "excluded_cells": 40,
+          "retained_cells": 287,
+          "retained_fraction": 0.8776758409785933
+        }
+      },
+      "gene_floor": 500
+    }
+  ],
+  "synthetic_data_in_observed_results": false,
+  "within_type_limit": "Within a named type, subtype/state mixture and capture effects remain possible."
+}

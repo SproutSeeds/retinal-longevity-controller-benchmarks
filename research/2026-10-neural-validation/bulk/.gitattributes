@@ -1,0 +1,3 @@
+# Preserve byte-pinned CSV output and recognize its standard CRLF line endings.
+gene-contributions.csv whitespace=cr-at-eol
+paired-responses.csv whitespace=cr-at-eol

@@ -1,0 +1,10 @@
+{
+  "cache_path": "/tmp/cx004-neural-validation-2026-10-18/svz_iOSKM_cohort1_toshare.rds",
+  "inventory_sha256": "3540429a89188e1efabedec45ce48af9d6fc83a52788b19f0299d76fda7baaf1",
+  "name": "svz_iOSKM_cohort1_toshare.rds",
+  "repository_checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+  "sha256": "6cdf173738f82ffdab383b6bd90d91bbd9eb5e5a21408b907d08041a1cb45932",
+  "size_bytes": 94079882,
+  "status": "PASS",
+  "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort1_toshare.rds/content"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "slide": 1,
+    "title": "Nine paired neural donors",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/bulk/results.json",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/bulk/RESULTS.md",
+      "https://doi.org/10.1038/s43587-024-00594-3",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Animal sensitivity across cohorts",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/analysis/ANALYSIS.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/analysis/cross-cohort-results.json",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224438"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Human marker concentration",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/human/ADDENDUM.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/human/gene-contributions.csv",
+      "https://doi.org/10.1016/j.cell.2025.07.031",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Joint human marker observations",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/human/percell/REPORT.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/human/percell/results.json",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297234"
+    ]
+  },
+  {
+    "slide": 5,
+    "title": "Conditional composition decomposition",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/decomposition/README.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/decomposition/results.json",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/decomposition/EXTENSION.md"
+    ]
+  },
+  {
+    "slide": 6,
+    "title": "Existing-data recovery and the next decision",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/recovery/missing-inputs.json",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-neural-validation/NEXT_STEPS.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/blob/main/research/2026-10-public-data/MEASUREMENT_PLAN.md"
+    ]
+  }
+]

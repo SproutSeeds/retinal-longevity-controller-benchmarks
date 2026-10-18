@@ -1,0 +1,14 @@
+{
+  "errors": 0,
+  "evidence_class": "synthetic_implementation_tests_only",
+  "failures": 0,
+  "observed_matrices_opened": false,
+  "source_sha256": {
+    "percell-contract-proposal.json": "c020725670eb55e13e3c2615cd74755db57bacb424d4cd2110d0c6d08c039e5a",
+    "percell_audit.py": "8d47d6c5e41e13409502a781d3bdc994787fa4d7deecc2702f8309442c9c18bc",
+    "test_percell_audit.py": "738b571d508e4261f4eab04361d53c0089ced2791495d129b030a589df3042df"
+  },
+  "status": "PASS",
+  "test_output": "test_baselines_are_separate_for_each_donor (test_percell_audit.PerCellAuditTests.test_baselines_are_separate_for_each_donor) ... ok\ntest_depth_bins_partition_even_with_tied_cutpoints (test_percell_audit.PerCellAuditTests.test_depth_bins_partition_even_with_tied_cutpoints) ... ok\ntest_dropout_and_qc_variants_keep_their_denominators (test_percell_audit.PerCellAuditTests.test_dropout_and_qc_variants_keep_their_denominators) ... ok\ntest_endogenous_count_uses_multiple_genes_and_threshold (test_percell_audit.PerCellAuditTests.test_endogenous_count_uses_multiple_genes_and_threshold) ... ok\ntest_freeze_blocks_missing_authority_or_hash (test_percell_audit.PerCellAuditTests.test_freeze_blocks_missing_authority_or_hash) ... ok\ntest_gene_expression_only_h5_and_stable_cell_order (test_percell_audit.PerCellAuditTests.test_gene_expression_only_h5_and_stable_cell_order) ... ok\ntest_hand_checked_joint_table_and_empty_denominator (test_percell_audit.PerCellAuditTests.test_hand_checked_joint_table_and_empty_denominator) ... ok\ntest_hypergeometric_conserves_total_bounds_and_replays (test_percell_audit.PerCellAuditTests.test_hypergeometric_conserves_total_bounds_and_replays) ... ok\ntest_hypergeometric_rejects_double_counting_and_small_libraries (test_percell_audit.PerCellAuditTests.test_hypergeometric_rejects_double_counting_and_small_libraries) ... ok\ntest_omission_changes_only_named_panel_and_keeps_all_variants (test_percell_audit.PerCellAuditTests.test_omission_changes_only_named_panel_and_keeps_all_variants) ... ok\ntest_quantile_ties_report_realized_fraction (test_percell_audit.PerCellAuditTests.test_quantile_ties_report_realized_fraction) ... ok\ntest_thinning_recomputes_donor_baseline_and_retention (test_percell_audit.PerCellAuditTests.test_thinning_recomputes_donor_baseline_and_retention) ... ok",
+  "tests_run": 12
+}

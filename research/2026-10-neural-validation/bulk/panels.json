@@ -1,0 +1,340 @@
+{
+  "feature_match": "Use the frozen selected mouse Ensembl ID, with only an optional numeric Ensembl version suffix removed; require uniqueness.",
+  "orthology_sha256": "7fcde9598a1ced6a9275eded22fac20dbf76a36736e32609ec4db293d260f372",
+  "orthology_source": "../analysis/orthology.json",
+  "panels": {
+    "cycle_panel": {
+      "genes": [
+        {
+          "human_symbol": "MKI67",
+          "mouse_ensembl_gene": "ENSMUSG00000031004",
+          "mouse_symbol": "Mki67",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TOP2A",
+          "mouse_ensembl_gene": "ENSMUSG00000020914",
+          "mouse_symbol": "Top2a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "PCNA",
+          "mouse_ensembl_gene": "ENSMUSG00000027342",
+          "mouse_symbol": "Pcna",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM2",
+          "mouse_ensembl_gene": "ENSMUSG00000002870",
+          "mouse_symbol": "Mcm2",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM3",
+          "mouse_ensembl_gene": "ENSMUSG00000041859",
+          "mouse_symbol": "Mcm3",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM4",
+          "mouse_ensembl_gene": "ENSMUSG00000022673",
+          "mouse_symbol": "Mcm4",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM5",
+          "mouse_ensembl_gene": "ENSMUSG00000005410",
+          "mouse_symbol": "Mcm5",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM6",
+          "mouse_ensembl_gene": "ENSMUSG00000026355",
+          "mouse_symbol": "Mcm6",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "MCM7",
+          "mouse_ensembl_gene": "ENSMUSG00000029730",
+          "mouse_symbol": "Mcm7",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CDK1",
+          "mouse_ensembl_gene": "ENSMUSG00000019942",
+          "mouse_symbol": "Cdk1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CCNB1",
+          "mouse_ensembl_gene": "ENSMUSG00000041431",
+          "mouse_symbol": "Ccnb1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CCNB2",
+          "mouse_ensembl_gene": "ENSMUSG00000032218",
+          "mouse_symbol": "Ccnb2",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CDC20",
+          "mouse_ensembl_gene": "ENSMUSG00000006398",
+          "mouse_symbol": "Cdc20",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "UBE2C",
+          "mouse_ensembl_gene": "ENSMUSG00000001403",
+          "mouse_symbol": "Ube2c",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TYMS",
+          "mouse_ensembl_gene": "ENSMUSG00000025747",
+          "mouse_symbol": "Tyms",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "RRM2",
+          "mouse_ensembl_gene": "ENSMUSG00000020649",
+          "mouse_symbol": "Rrm2",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TK1",
+          "mouse_ensembl_gene": "ENSMUSG00000025574",
+          "mouse_symbol": "Tk1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CENPF",
+          "mouse_ensembl_gene": "ENSMUSG00000026605",
+          "mouse_symbol": "Cenpf",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "BIRC5",
+          "mouse_ensembl_gene": "ENSMUSG00000017716",
+          "mouse_symbol": "Birc5",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "AURKB",
+          "mouse_ensembl_gene": "ENSMUSG00000020897",
+          "mouse_symbol": "Aurkb",
+          "status": "mapped"
+        }
+      ],
+      "source_human_genes": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "MCM2",
+        "MCM3",
+        "MCM4",
+        "MCM5",
+        "MCM6",
+        "MCM7",
+        "CDK1",
+        "CCNB1",
+        "CCNB2",
+        "CDC20",
+        "UBE2C",
+        "TYMS",
+        "RRM2",
+        "TK1",
+        "CENPF",
+        "BIRC5",
+        "AURKB"
+      ]
+    },
+    "reprogramming_state": {
+      "genes": [
+        {
+          "human_symbol": "CD24",
+          "mouse_ensembl_gene": "ENSMUSG00000047139",
+          "mouse_symbol": "Cd24a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CDH1",
+          "mouse_ensembl_gene": "ENSMUSG00000000303",
+          "mouse_symbol": "Cdh1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "EPCAM",
+          "mouse_ensembl_gene": "ENSMUSG00000045394",
+          "mouse_symbol": "Epcam",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "NANOG",
+          "mouse_ensembl_gene": "ENSMUSG00000012396",
+          "mouse_symbol": "Nanog",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "POU5F1",
+          "mouse_ensembl_gene": "ENSMUSG00000024406",
+          "mouse_symbol": "Pou5f1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "PRDM14",
+          "mouse_ensembl_gene": "ENSMUSG00000042414",
+          "mouse_symbol": "Prdm14",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "SALL4",
+          "mouse_ensembl_gene": "ENSMUSG00000027547",
+          "mouse_symbol": "Sall4",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "SOX2",
+          "mouse_ensembl_gene": "ENSMUSG00000074637",
+          "mouse_symbol": "Sox2",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "ZFP42",
+          "mouse_ensembl_gene": "ENSMUSG00000051176",
+          "mouse_symbol": "Zfp42",
+          "status": "mapped"
+        }
+      ],
+      "source_human_genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "POU5F1",
+        "PRDM14",
+        "SALL4",
+        "SOX2",
+        "ZFP42"
+      ]
+    },
+    "reprogramming_without_OSKM_overlap": {
+      "genes": [
+        {
+          "human_symbol": "CD24",
+          "mouse_ensembl_gene": "ENSMUSG00000047139",
+          "mouse_symbol": "Cd24a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CDH1",
+          "mouse_ensembl_gene": "ENSMUSG00000000303",
+          "mouse_symbol": "Cdh1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "EPCAM",
+          "mouse_ensembl_gene": "ENSMUSG00000045394",
+          "mouse_symbol": "Epcam",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "NANOG",
+          "mouse_ensembl_gene": "ENSMUSG00000012396",
+          "mouse_symbol": "Nanog",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "PRDM14",
+          "mouse_ensembl_gene": "ENSMUSG00000042414",
+          "mouse_symbol": "Prdm14",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "SALL4",
+          "mouse_ensembl_gene": "ENSMUSG00000027547",
+          "mouse_symbol": "Sall4",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "ZFP42",
+          "mouse_ensembl_gene": "ENSMUSG00000051176",
+          "mouse_symbol": "Zfp42",
+          "status": "mapped"
+        }
+      ],
+      "source_human_genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "PRDM14",
+        "SALL4",
+        "ZFP42"
+      ]
+    },
+    "stress_panel": {
+      "genes": [
+        {
+          "human_symbol": "CDKN1A",
+          "mouse_ensembl_gene": "ENSMUSG00000023067",
+          "mouse_symbol": "Cdkn1a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CDKN2A",
+          "mouse_ensembl_gene": "ENSMUSG00000044303",
+          "mouse_symbol": "Cdkn2a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "IL6",
+          "mouse_ensembl_gene": "ENSMUSG00000025746",
+          "mouse_symbol": "Il6",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "CXCL8",
+          "mouse_ensembl_gene": null,
+          "mouse_symbol": null,
+          "status": "no_HGNC_supported_mouse_ortholog"
+        },
+        {
+          "human_symbol": "GADD45A",
+          "mouse_ensembl_gene": "ENSMUSG00000036390",
+          "mouse_symbol": "Gadd45a",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TP53",
+          "mouse_ensembl_gene": "ENSMUSG00000059552",
+          "mouse_symbol": "Trp53",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TIMP1",
+          "mouse_ensembl_gene": "ENSMUSG00000001131",
+          "mouse_symbol": "Timp1",
+          "status": "mapped"
+        },
+        {
+          "human_symbol": "TIMP2",
+          "mouse_ensembl_gene": "ENSMUSG00000017466",
+          "mouse_symbol": "Timp2",
+          "status": "mapped"
+        }
+      ],
+      "source_human_genes": [
+        "CDKN1A",
+        "CDKN2A",
+        "IL6",
+        "CXCL8",
+        "GADD45A",
+        "TP53",
+        "TIMP1",
+        "TIMP2"
+      ]
+    }
+  },
+  "replacement_genes_allowed": false
+}

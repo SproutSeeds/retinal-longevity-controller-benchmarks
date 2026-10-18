@@ -1,0 +1,53 @@
+{
+  "exposure": "Paper Fig. 7 findings, methods and author-code comments containing prior DEG counts were read. No local bulk expression rows or newly computed outcomes were inspected.",
+  "full_count_file_hash_available_before_download": false,
+  "published_result_exposure": true,
+  "raw_count_file_expected_bytes": 2745316,
+  "sources": [
+    {
+      "bytes": 4351,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/GSE245385-series.txt",
+      "id": "GSE245385-series.txt",
+      "sha256": "b2b869aa383902f95e8feccd8c6a7406768ede12600493e3fc9d3931d55e7137",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 236066,
+      "cache_path": "/tmp/cx004-independent-comparator-2026-10-18/GSE245385-samples.txt",
+      "id": "GSE245385-samples.txt",
+      "sha256": "e819b6c1436d43eacbbade38b4f3c50e2163e3609c30d7ae92d045fd382308e2",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 22702,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/bulk-DESeq2_analysis_chimeric_clean.R",
+      "git_blob_validated": true,
+      "id": "bulk-DESeq2_analysis_chimeric_clean.R",
+      "sha256": "13516547e49f826b5b2eea0a38d4920e5f4a235a38ce71182c6a385df3054032",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/bulkRNAseq/DESeq2_analysis_chimeric_clean.R"
+    },
+    {
+      "bytes": 5650,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/bulk-DESeq2_DEG_plots_clean.R",
+      "git_blob_validated": true,
+      "id": "bulk-DESeq2_DEG_plots_clean.R",
+      "sha256": "bf01d07fd161d806560a362d7cd19fd21c8178138238e63ab122e2936fe8cea5",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/bulkRNAseq/DESeq2_DEG_plots_clean.R"
+    },
+    {
+      "bytes": 1557,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/GSE245385_countTable.header.csv",
+      "id": "GSE245385_countTable.header.csv",
+      "partial_header_only": true,
+      "sha256": "b13fdace52b06b54cb3a4dc4d5ef2ac34d478f87c1ea74ad0dcfe5728b4371f3",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245385/suppl/GSE245385_countTable.csv.gz"
+    },
+    {
+      "bytes": 371712,
+      "cache_path": "/tmp/cx004-neural-validation-2026-10-18/PMC12036604.html",
+      "id": "PMC12036604.html",
+      "sha256": "242df8037a29156df66328c1277f085cbd9a08c1e90010bd02eb8f61b5fb3656",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/"
+    }
+  ]
+}
