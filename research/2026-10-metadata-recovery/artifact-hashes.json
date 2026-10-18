@@ -1,0 +1,25 @@
+{
+  "files": {
+    "CLAIM.md": "40c694d7f575688690d64d051bf7ec41d87a6884d082b524e10bc163d6d1f3d0",
+    "FAILED_PATHS.md": "02542385108e9ca9fe15a7f671173010631065bb3fd1557bfbb14b2edb42f2c2",
+    "README.md": "0aff76d336426c55c8ebafc9ae5ed54a5fc83d5a4b537ac83a63fc39f58e030c",
+    "THIRD_PARTY.md": "8e325e656137bc4d89d10a1e86db919321f4e0c48193e1f8e5ab90c299d5915c",
+    "clock-dependency-audit.json": "54bef0f652ab389c3db9701df4096cfd4cf72d78c2937c670270b0ed9ddb2a32",
+    "fetch_metadata.py": "772684f929ea76f4bdcc16acc82a61eeb4f2e609a2c4f10098888d8d8c33f5d4",
+    "geo350289-mapping-audit.json": "7a338ee0bd456adce588579078255320a2c9a507c0550a54b1350697c5be5b21",
+    "ocular-clock-artifacts.json": "5f5cfdd557cd909c44ea320a49ee41428f976a7fe14b65e189d10b9de1926122",
+    "ocular-source-clarification.json": "dd899e31c20ab031143423f4951412af8808cc6267576c28ae7b0a25d0f90714",
+    "recover_metadata.py": "13bffad158b870b9b23d92b8466cacb74b84411adc35a225469a18f000d14bb0",
+    "retrieval-1.json": "44379dac92f751d03dee3d7acc1a984829d02eb1607f86ca657035342f1de941",
+    "retrieval-2.json": "30d53b90b4126ab5af244ab3ea52d34c8a08d4c692f8f66f0b7d00b678a26d19",
+    "retrieval-3.json": "ba80cf3b1dc1fcb036bb36ad341dfb22db99660af22af77da4415aaeca9e5efc",
+    "retrieval-plan-1.json": "e0468a25752b1eee1d9de7fe58a51f75859b62d1a0d0cad46cb4875a2babaf14",
+    "retrieval-plan-2.json": "992d0f882d04cf660410c0cf6c4e935e3be13a702aa1d6aef9d8917eadf71859",
+    "retrieval-plan-3.json": "25973049253bfc6de879175230aeb3529427c28813df7bb51c979b2c7e0a5858",
+    "reuse-decision.json": "8554883c477d837f9d8324a0e697577758440fb42c057624bdd767621cfa4942",
+    "srsf1-clock-parameters.json": "b66666cd1255db5495cb52dbe470a52c1109624d0bbaa4a0725243d09170d2ea",
+    "srsf1-recovery-samples.json": "5860843b7dec1655bb97f69c0fb98f03b02b3454c0d51ba54c70ef52a55bd1f8",
+    "test_recovery.py": "7a0f26ae4fda0f84d29d197e992ccdfca7f7ac33243e4a8c58e3bea25b14dbe7",
+    "verify.py": "67525e4a828b3faaa8ee7f4a29f7379f4075a2fba7b63f93dab02e9fed9290f1"
+  }
+}

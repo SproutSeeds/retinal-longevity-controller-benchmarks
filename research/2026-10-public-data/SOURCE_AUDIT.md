@@ -1,5 +1,7 @@
 # Public sources and remaining inputs
 
+**October 18 update:** the [metadata recovery pass](../2026-10-metadata-recovery/README.md) extracts all 295 SRSF1 coefficient terms, resolves 72 human recovery library identities, and clarifies the distinct OSK/GSTA4 findings. Exact clock preprocessing and late human recovery remain open.
+
 Checked October 17, 2026. This targeted audit followed primary deposits, linked papers, supplements and author code. It is not an exhaustive absence proof. `source-resolution.json` records admission decisions; `source-manifest.json` records retrieved-byte hashes and failures. New resources should be admitted against the same four readouts before expanding downloads.
 
 | Resource | Usable role | Remaining limitation / exact next input |

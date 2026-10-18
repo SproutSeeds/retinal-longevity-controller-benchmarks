@@ -16,5 +16,7 @@ jobs:
           python-version: '3.12'
       - run: python research/2026-10-public-data/verify.py
       - run: python research/2026-10-public-data/release_check.py
+      - run: python research/2026-10-metadata-recovery/verify.py
+      - run: python research/2026-10-metadata-recovery/test_recovery.py
       - run: python -m pip install uv==0.8.22
       - run: uv run research/2026-10-public-data/test_analysis.py

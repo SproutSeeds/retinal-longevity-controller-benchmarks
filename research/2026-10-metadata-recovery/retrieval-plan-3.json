@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "id": "srsf1-coefficients.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM4_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-training-sources.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM5_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/"
+    },
+    {
+      "id": "tage-model-record.json",
+      "url": "https://zenodo.org/api/records/18763485"
+    },
+    {
+      "id": "tage-current-model-record.json",
+      "url": "https://zenodo.org/api/records/22166800"
+    },
+    {
+      "id": "clock-current-apply.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ApplyNewData.R"
+    },
+    {
+      "id": "clock-current-train.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/TrainClock.R"
+    },
+    {
+      "id": "clock-current-process.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ProcessFibroblastData.R"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "geo350289-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=all&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:13:08.402674+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "retrieved",
+      "bytes": 5430704,
+      "sha256": "1d21312d05e453faa247e5176175285daad9e16ba94c618c9b9ba124d63a899f"
+    },
+    {
+      "id": "geo350289-files-current.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/",
+      "checked_at_utc": "2026-10-18T04:13:08.402932+00:00",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "status": "retrieved",
+      "bytes": 2097,
+      "sha256": "5b7fa581fcf68a1e1032a970d93bafed6836594d97aa61516a361e2b27a49e3c"
+    },
+    {
+      "id": "geo350289-metadata.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+      "checked_at_utc": "2026-10-18T04:13:08.403193+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "status": "retrieved",
+      "bytes": 1725954,
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d"
+    },
+    {
+      "id": "clock-commits.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/commits?per_page=100",
+      "checked_at_utc": "2026-10-18T04:13:08.580851+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 115330,
+      "sha256": "a80cac4da3d13e16bc41a62a871388837107b26efab733d1729de9eb1df57ef9"
+    },
+    {
+      "id": "clock-tree-current.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/git/trees/main?recursive=1",
+      "checked_at_utc": "2026-10-18T04:13:08.818212+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 1525,
+      "sha256": "987c3121db8df86d9054d099dc47915b5d5d677e94626f4869ad00a930066d11"
+    },
+    {
+      "id": "clock-branches.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/branches?per_page=100",
+      "checked_at_utc": "2026-10-18T04:13:09.044072+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 198,
+      "sha256": "6c760771b1d6c871432366702f5ae145fef842dd8e638a4577b308699ec6a1b9"
+    },
+    {
+      "id": "clock-tags.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/tags?per_page=100",
+      "checked_at_utc": "2026-10-18T04:13:09.086160+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "clock-releases.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/releases?per_page=100",
+      "checked_at_utc": "2026-10-18T04:13:09.267028+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "tage-tree.json",
+      "url": "https://api.github.com/repos/Gladyshev-Lab/tAge/git/trees/main?recursive=1",
+      "checked_at_utc": "2026-10-18T04:13:09.289175+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 29776,
+      "sha256": "675434775f3e27ee7cb8afc7cda5e6d5c709529ccff7419f109bdd58486250bd"
+    },
+    {
+      "id": "tage-commits.json",
+      "url": "https://api.github.com/repos/Gladyshev-Lab/tAge/commits?per_page=100",
+      "checked_at_utc": "2026-10-18T04:13:09.483964+00:00",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 146967,
+      "sha256": "4d08fcc1a267e23916d67dceb826f4df687c759fd86346ea938be723d9a99c34"
+    },
+    {
+      "id": "gse325735-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325735&targ=all&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:13:09.575897+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "access_failure",
+      "error": "Explicit per-file byte limit exceeded"
+    },
+    {
+      "id": "gse304043-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=all&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:13:09.921624+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "access_failure",
+      "error": "Explicit per-file byte limit exceeded"
+    },
+    {
+      "id": "gse304038-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=all&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:13:15.214994+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "access_failure",
+      "error": "Explicit per-file byte limit exceeded"
+    }
+  ]
+}

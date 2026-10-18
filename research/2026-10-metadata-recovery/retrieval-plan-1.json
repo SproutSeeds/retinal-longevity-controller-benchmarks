@@ -1,0 +1,56 @@
+{
+  "sources": [
+    {
+      "id": "geo350289-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=all&form=text&view=full"
+    },
+    {
+      "id": "geo350289-files-current.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/"
+    },
+    {
+      "id": "geo350289-metadata.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+    },
+    {
+      "id": "clock-commits.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/commits?per_page=100"
+    },
+    {
+      "id": "clock-tree-current.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/git/trees/main?recursive=1"
+    },
+    {
+      "id": "clock-branches.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/branches?per_page=100"
+    },
+    {
+      "id": "clock-tags.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/tags?per_page=100"
+    },
+    {
+      "id": "clock-releases.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/releases?per_page=100"
+    },
+    {
+      "id": "tage-tree.json",
+      "url": "https://api.github.com/repos/Gladyshev-Lab/tAge/git/trees/main?recursive=1"
+    },
+    {
+      "id": "tage-commits.json",
+      "url": "https://api.github.com/repos/Gladyshev-Lab/tAge/commits?per_page=100"
+    },
+    {
+      "id": "gse325735-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325735&targ=all&form=text&view=full"
+    },
+    {
+      "id": "gse304043-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=all&form=text&view=full"
+    },
+    {
+      "id": "gse304038-current.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=all&form=text&view=full"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "sources": [
+    {
+      "id": "gse325735-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325735&targ=gsm&form=text&view=full"
+    },
+    {
+      "id": "gse304043-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=gsm&form=text&view=full"
+    },
+    {
+      "id": "gse304038-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=gsm&form=text&view=full"
+    },
+    {
+      "id": "ocular-source-current.xml",
+      "url": "https://www.biorxiv.org/content/early/2025/09/01/2025.08.30.673239.source.xml"
+    },
+    {
+      "id": "tage-clocks.R",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/R/clocks.R"
+    },
+    {
+      "id": "tage-preprocessing.R",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/R/preprocessing.R"
+    },
+    {
+      "id": "tage-clock-metadata.csv",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/inst/extdata/clocks_metadata.csv"
+    },
+    {
+      "id": "tage-license.txt",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/LICENSE"
+    },
+    {
+      "id": "tage-readme.md",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/README.md"
+    }
+  ]
+}

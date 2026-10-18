@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "gse325735-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE325735&targ=gsm&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:14:39.295461+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "retrieved",
+      "bytes": 2948505,
+      "sha256": "a2af44b96a5499467472ce4531dbbad2461d487d30f3f3fe030fb466a46d540a"
+    },
+    {
+      "id": "gse304043-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=gsm&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:14:39.295839+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "retrieved",
+      "bytes": 19161,
+      "sha256": "10dffdcf607c2a84efb7e6eb8ee0303966a211487f670d090bcb2e06ae1fc962"
+    },
+    {
+      "id": "gse304038-samples.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=gsm&form=text&view=full",
+      "checked_at_utc": "2026-10-18T04:14:39.295938+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "retrieved",
+      "bytes": 49250,
+      "sha256": "105306d001ffa978b043442e64ce7d606e7d8c0577f2c950e87a4a056e58ef32"
+    },
+    {
+      "id": "ocular-source-current.xml",
+      "url": "https://www.biorxiv.org/content/early/2025/09/01/2025.08.30.673239.source.xml",
+      "checked_at_utc": "2026-10-18T04:14:39.730629+00:00",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "status": "retrieved",
+      "bytes": 287236,
+      "sha256": "6c69a9144df294cdd2bea5694d0fb3b0f246c47e2159a4303e0e828163179879"
+    },
+    {
+      "id": "tage-clocks.R",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/R/clocks.R",
+      "checked_at_utc": "2026-10-18T04:14:40.106893+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 10935,
+      "sha256": "d1aa798d972636f6388b8d271b0a723b67f392b005d8b4cdb0aa4a3a50fd8e84"
+    },
+    {
+      "id": "tage-preprocessing.R",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/R/preprocessing.R",
+      "checked_at_utc": "2026-10-18T04:14:40.177218+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 24285,
+      "sha256": "3e0b0155fcd7fb1061d2a8f94293890d272e1b41c14dac079f2f5cf5cc768b73"
+    },
+    {
+      "id": "tage-clock-metadata.csv",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/inst/extdata/clocks_metadata.csv",
+      "checked_at_utc": "2026-10-18T04:14:40.315271+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 5916,
+      "sha256": "590f9f7b38bd3787eb506df888d021ce2f65795393beca421b76a0eb656753a8"
+    },
+    {
+      "id": "tage-license.txt",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/LICENSE",
+      "checked_at_utc": "2026-10-18T04:14:40.358750+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 10540,
+      "sha256": "83610faa8fba83b810d3ebe625de3cd151a7c79754566fc2af6afa28f3b6683c"
+    },
+    {
+      "id": "tage-readme.md",
+      "url": "https://raw.githubusercontent.com/Gladyshev-Lab/tAge/d048ba6016a7e5a114f45195e0b11071e2b8c424/README.md",
+      "checked_at_utc": "2026-10-18T04:14:40.496173+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 11357,
+      "sha256": "804ba30acce12d398d7c5c8b8f49acd318be0c286b11267a01fef1a737ed6a92"
+    }
+  ]
+}

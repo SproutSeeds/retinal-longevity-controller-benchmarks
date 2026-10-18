@@ -1,5 +1,7 @@
 Title: Retinal longevity and the missing recovery measurement
 
+**October 18 update:** the [metadata recovery pass](../2026-10-metadata-recovery/README.md) extracts all 295 SRSF1 coefficient terms, resolves 72 human recovery library identities, and clarifies the distinct OSK/GSTA4 findings. Exact clock preprocessing and late human recovery remain open.
+
 Public data let us examine reprogramming responses, correct analysis assumptions, and narrow the experiment. They still do not supply the matched late human single-cell recovery measurements needed to resolve the four CX004 questions. This is the **October 17, 2026** evidence checkpoint. Biological interpretations are **Heuristic**; replacement of the complete experiment is **INCONCLUSIVE**.
 
 Our contribution is the reproducible analysis and evidence decision. The source experiments belong to their original researchers. Fibroblast, liver, neural and retinal observations retain their separate biological scope.

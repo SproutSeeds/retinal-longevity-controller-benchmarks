@@ -1,0 +1,87 @@
+{
+  "claim_level": "Verified",
+  "decision": "No gene-expression matrix download; the inspected workbook does not provide exact cell-to-perturbation assignments.",
+  "required_key": [
+    "library_id",
+    "cell_barcode"
+  ],
+  "required_mapping_fields": [
+    "hash_identity",
+    "perturbation",
+    "donor_or_pool_id",
+    "sample_id",
+    "batch_id",
+    "assignment_qc"
+  ],
+  "sheets": {
+    "Ctrl": {
+      "first_nonempty_rows": [
+        [
+          "",
+          "",
+          "",
+          "55"
+        ],
+        [
+          "",
+          "",
+          "",
+          "55"
+        ],
+        [
+          "",
+          "",
+          "",
+          "55"
+        ]
+      ],
+      "max_nonempty_columns": 4,
+      "nonempty_rows": 139938
+    },
+    "README": {
+      "first_nonempty_rows": [
+        [
+          "There are four tabs in the XLSX, which correspond to the four \"processed\" files (as well as to physical 96-well plates). In the ScalePlex system, those four 96-well plates go through 3-4 levels of mixing (effectively, re-plating) to build up a combinatorial single-cell index (which is the column 'barcode' in each sheet). The combinatorial system is how we go from four 96-well plates to around ~770 raw FASTQs. Running those FASTQs through the ScalePlex computational library demultiplexes the ~770 FASTQs into the four 'processed' .MTX files and assigns the cell barcodes; at this juncture, since we are back to the original four 96-well plates, we can map the experimental conditions for those cells -- the treatment, age, and cell line."
+        ]
+      ],
+      "max_nonempty_columns": 1,
+      "nonempty_rows": 1
+    },
+    "Sample 1": {
+      "first_nonempty_rows": [
+        [
+          "",
+          "",
+          "",
+          "55"
+        ],
+        [
+          "",
+          "",
+          "",
+          "55"
+        ],
+        [
+          "",
+          "",
+          "",
+          "55"
+        ]
+      ],
+      "max_nonempty_columns": 4,
+      "nonempty_rows": 161422
+    },
+    "Sample 2": {
+      "first_nonempty_rows": [],
+      "max_nonempty_columns": 0,
+      "nonempty_rows": 0
+    },
+    "Sample 3": {
+      "first_nonempty_rows": [],
+      "max_nonempty_columns": 0,
+      "nonempty_rows": 0
+    }
+  },
+  "source_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "status": "mapping_blocked"
+}

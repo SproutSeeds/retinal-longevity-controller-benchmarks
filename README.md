@@ -2,10 +2,11 @@
 
 Public data, reproducible analysis and explicit evidence requirements for lineage-preserving reprogramming research. Maintained by SproutSeeds / [Fractal Research Group](https://frg.earth).
 
-**Current checkpoint — October 17, 2026:** public data support substantial analysis and a smaller, better-defined measurement request. The matched late human recovery observation remains unresolved. Biological conclusions are **Heuristic**; experiment replacement is **INCONCLUSIVE**.
+**Current checkpoint — October 18, 2026 UTC:** public data support substantial analysis and a smaller, better-defined measurement request. The matched late human recovery observation remains unresolved. Biological conclusions are **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
+- **[Latest metadata recovery](research/2026-10-metadata-recovery/README.md)** — 295 recovered clock terms, complete gene coverage, explicit sample joins and remaining replay dependencies.
 - **[Research results and reproduction](research/2026-10-public-data/README.md)** — guide-assignment correction, ocular sensitivities, donor-held-out diagnostics and synthetic sampling.
-- **[Presentation PDF](presentation/retinal-public-data.pdf)** · [editable PowerPoint](presentation/retinal-public-data.pptx) · [spoken notes](presentation/spoken-notes.txt).
+- **[October 17 presentation PDF](presentation/retinal-public-data.pdf)** · [editable PowerPoint](presentation/retinal-public-data.pptx) · [spoken notes](presentation/spoken-notes.txt).
 - **[Conditional measurement and funding package](research/2026-10-public-data/MEASUREMENT_PLAN.md)** — 33-library feasibility design, 57-library full ladder, exact missing observations and quote requirements.
 - **[Source audit](research/2026-10-public-data/SOURCE_AUDIT.md)** · [next steps](research/2026-10-public-data/NEXT_STEPS.md) · [contribute](CONTRIBUTING.md).
 

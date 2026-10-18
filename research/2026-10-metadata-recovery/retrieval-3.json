@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "srsf1-coefficients.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM4_ESM.xlsx",
+      "checked_at_utc": "2026-10-18T04:16:28.435267+00:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "status": "retrieved",
+      "bytes": 30081,
+      "sha256": "7d37c6a3d15a8c9baefda3f28906bc9ec7f91c03f12b2f7b7bb34318f3b6661b"
+    },
+    {
+      "id": "srsf1-training-sources.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM5_ESM.xlsx",
+      "checked_at_utc": "2026-10-18T04:16:28.435663+00:00",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "status": "retrieved",
+      "bytes": 12698,
+      "sha256": "133087918ce5be485a8007299945f03354701180064b57d34694ce5121e9fc88"
+    },
+    {
+      "id": "srsf1-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/",
+      "checked_at_utc": "2026-10-18T04:16:28.435767+00:00",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "status": "retrieved",
+      "bytes": 714,
+      "sha256": "9a32fadd07616e09a5c632d7ea76491347f4d603d09933025731a4899562d24a"
+    },
+    {
+      "id": "tage-model-record.json",
+      "url": "https://zenodo.org/api/records/18763485",
+      "checked_at_utc": "2026-10-18T04:16:28.571355+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "status": "retrieved",
+      "bytes": 26491,
+      "sha256": "b2e1527ab6307c098c44a686aa9cce27ba00b62fcaf5e2047659b48b0f04f786"
+    },
+    {
+      "id": "tage-current-model-record.json",
+      "url": "https://zenodo.org/api/records/22166800",
+      "checked_at_utc": "2026-10-18T04:16:28.583332+00:00",
+      "http_status": 200,
+      "content_type": "application/json",
+      "status": "retrieved",
+      "bytes": 27492,
+      "sha256": "02f7fdd6da0a66b00081e66b0aa88a831c4e71edf775fff4155315ed3c6a5095"
+    },
+    {
+      "id": "clock-current-apply.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ApplyNewData.R",
+      "checked_at_utc": "2026-10-18T04:16:28.666936+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 1765,
+      "sha256": "b3f020230da9eaa16b8d10209dfee9d7c8ce579c13ce3909927c8914fc9509ff"
+    },
+    {
+      "id": "clock-current-train.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/TrainClock.R",
+      "checked_at_utc": "2026-10-18T04:16:28.836824+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 6757,
+      "sha256": "65564892475971c93e2c1f5635dc2ccbd5dd5355ff8f5756a8ae4c8c5885ad1c"
+    },
+    {
+      "id": "clock-current-process.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ProcessFibroblastData.R",
+      "checked_at_utc": "2026-10-18T04:16:28.988062+00:00",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "status": "retrieved",
+      "bytes": 76952,
+      "sha256": "4640a8b39c574f61d3e715e1b3c96ff73289a261c92ae860f87b6761fb78d629"
+    }
+  ]
+}

@@ -45,6 +45,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:research/2026-10-metadata-recovery/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-public-data/README.md",
       "status": "PASS"
     },
@@ -197,6 +201,326 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:research/2026-10-metadata-recovery/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:srsf1-clock-parameters.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:clock-dependency-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:srsf1-recovery-samples.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:ocular-source-clarification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:ocular-clock-artifacts.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:geo350289-mapping-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:../2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:../2026-10-public-data/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/clock-dependency-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/clock-dependency-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/clock-dependency-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/fetch_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/fetch_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/fetch_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/geo350289-mapping-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/geo350289-mapping-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/geo350289-mapping-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/ocular-clock-artifacts.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/ocular-clock-artifacts.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/ocular-clock-artifacts.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/ocular-source-clarification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/ocular-source-clarification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/ocular-source-clarification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/recover_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/recover_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/recover_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/srsf1-clock-parameters.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/srsf1-clock-parameters.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/srsf1-clock-parameters.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/srsf1-recovery-samples.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/srsf1-recovery-samples.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/srsf1-recovery-samples.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-metadata-recovery/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-metadata-recovery/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-metadata-recovery/verify.py",
+      "status": "PASS"
+    },
+    {
       "name": "sha256:research/2026-10-public-data/FAILED_PATHS.md",
       "status": "PASS"
     },
@@ -257,6 +581,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:research/2026-10-public-data/NEXT_STEPS.md:../2026-10-metadata-recovery/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "sha256:research/2026-10-public-data/README.md",
       "status": "PASS"
     },
@@ -266,6 +594,10 @@
     },
     {
       "name": "credential_patterns:research/2026-10-public-data/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/README.md:../2026-10-metadata-recovery/README.md",
       "status": "PASS"
     },
     {
@@ -318,6 +650,10 @@
     },
     {
       "name": "credential_patterns:research/2026-10-public-data/SOURCE_AUDIT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-public-data/SOURCE_AUDIT.md:../2026-10-metadata-recovery/README.md",
       "status": "PASS"
     },
     {
@@ -617,8 +953,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 154,
+  "passed": 238,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 154
+  "total": 238
 }

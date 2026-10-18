@@ -1,0 +1,216 @@
+{
+  "checks": [
+    {
+      "name": "295 unique model terms",
+      "status": "PASS"
+    },
+    {
+      "name": "292 gene terms",
+      "status": "PASS"
+    },
+    {
+      "name": "intercept and library terms",
+      "status": "PASS"
+    },
+    {
+      "name": "finite coefficients",
+      "status": "PASS"
+    },
+    {
+      "name": "complete gene coverage",
+      "status": "PASS"
+    },
+    {
+      "name": "807 human libraries",
+      "status": "PASS"
+    },
+    {
+      "name": "exact replay remains blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "72 explicitly joined human recovery libraries",
+      "status": "PASS"
+    },
+    {
+      "name": "human species retained",
+      "status": "PASS"
+    },
+    {
+      "name": "32 mouse libraries separated",
+      "status": "PASS"
+    },
+    {
+      "name": "three human donor lines",
+      "status": "PASS"
+    },
+    {
+      "name": "construct counts reconcile previous subset",
+      "status": "PASS"
+    },
+    {
+      "name": "seven source-native human schedules",
+      "status": "PASS"
+    },
+    {
+      "name": "timing remains unresolved",
+      "status": "PASS"
+    },
+    {
+      "name": "27 pinned commits",
+      "status": "PASS"
+    },
+    {
+      "name": "history head pinned",
+      "status": "PASS"
+    },
+    {
+      "name": "21 distinct historical paths, six current",
+      "status": "PASS"
+    },
+    {
+      "name": "one branch, no tags/releases",
+      "status": "PASS"
+    },
+    {
+      "name": "application overwrite recorded without execution",
+      "status": "PASS"
+    },
+    {
+      "name": "GSE350289 remains blocked",
+      "status": "PASS"
+    },
+    {
+      "name": "two empty perturbation sheets",
+      "status": "PASS"
+    },
+    {
+      "name": "ocular claims retain author attribution",
+      "status": "PASS"
+    },
+    {
+      "name": "ocular sources anchored",
+      "status": "PASS"
+    },
+    {
+      "name": "ocular library quantities",
+      "status": "PASS"
+    },
+    {
+      "name": "two inventoried archives without model download",
+      "status": "PASS"
+    },
+    {
+      "name": "four human readouts remain open",
+      "status": "PASS"
+    },
+    {
+      "name": "experiment replacement inconclusive",
+      "status": "PASS"
+    },
+    {
+      "name": "no operation or outreach claimed",
+      "status": "PASS"
+    },
+    {
+      "name": "30 retrieval attempts, 27 retained files",
+      "status": "PASS"
+    },
+    {
+      "name": "parameters bound to supplement",
+      "status": "PASS"
+    },
+    {
+      "name": "sample joins bound to GEO snapshot",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:clock-dependency-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:fetch_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:geo350289-mapping-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:ocular-clock-artifacts.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:ocular-source-clarification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:recover_metadata.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:srsf1-clock-parameters.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:srsf1-recovery-samples.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:verify.py",
+      "status": "PASS"
+    }
+  ],
+  "passed": 52,
+  "scope": "Frozen-artifact integrity, parameter extraction bookkeeping, species/sample separation and bounded admission decisions; not biological validation.",
+  "status": "PASS",
+  "total": 52
+}

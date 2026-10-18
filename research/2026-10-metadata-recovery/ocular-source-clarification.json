@@ -1,0 +1,535 @@
+{
+  "GSTA4": "Authors report an 8.5-month lower transcriptomic age after eight weeks of GSTA4 overexpression in old mouse RPE.",
+  "OSK": "Authors report increased overall tAge alongside improvement in some functional endpoints; prolonged exposure raised toxicity concerns.",
+  "claim_level": "Heuristic",
+  "cohorts": {
+    "GSE304038": [
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-1"
+        ],
+        "gsm": "GSM9141474",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-2"
+        ],
+        "gsm": "GSM9141475",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-3"
+        ],
+        "gsm": "GSM9141476",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-5"
+        ],
+        "gsm": "GSM9141477",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep4"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-M-6"
+        ],
+        "gsm": "GSM9141478",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep5"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-M-7"
+        ],
+        "gsm": "GSM9141479",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep6"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: young-RPE-M-8"
+        ],
+        "gsm": "GSM9141480",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Young-rep7"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-RPE-1"
+        ],
+        "gsm": "GSM9141481",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-RPE-2"
+        ],
+        "gsm": "GSM9141482",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-RPE-3"
+        ],
+        "gsm": "GSM9141483",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-RPE-4"
+        ],
+        "gsm": "GSM9141484",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-rep4"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-control-4"
+        ],
+        "gsm": "GSM9141485",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-Control-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-control-M-1"
+        ],
+        "gsm": "GSM9141486",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-Control-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-control-M-2"
+        ],
+        "gsm": "GSM9141487",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-Control-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-OSK-2"
+        ],
+        "gsm": "GSM9141488",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-OSK-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-OSK-3"
+        ],
+        "gsm": "GSM9141489",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-OSK-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-OSK-4"
+        ],
+        "gsm": "GSM9141490",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-OSK-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: old-OSK-M-1"
+        ],
+        "gsm": "GSM9141491",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-OSK-rep4"
+        ]
+      }
+    ],
+    "GSE304043": [
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GFP-1"
+        ],
+        "gsm": "GSM9141545",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GFP-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GFP-3"
+        ],
+        "gsm": "GSM9141546",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GFP-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GFP-4"
+        ],
+        "gsm": "GSM9141547",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GFP-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GSTA4-1"
+        ],
+        "gsm": "GSM9141548",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GSTA4-rep1"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GSTA4-2"
+        ],
+        "gsm": "GSM9141549",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GSTA4-rep2"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GSTA4-3"
+        ],
+        "gsm": "GSM9141550",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GSTA4-rep3"
+        ]
+      },
+      {
+        "characteristics": {
+          "cell type": "RPE"
+        },
+        "data_processing": [
+          "Paired-end human and mouse reads were mapped to the canonical chromosomes of the GRCh38/hg38 or GRCm38/mm10 genome genomes, respectively, with STAR (v 2.7.1a) using a genome index created using Ensembl 96 gene models (with sjdbOverhang=100). Gene counts were obtained for all genes using featureCounts (v1.6.2) and the same GTF file as for STAR and options \"-p -s 1\".",
+          "Assembly: mm10",
+          "Supplementary files format and content: csv; gene feature counts table"
+        ],
+        "description": [
+          "Library name: Old-GSTA4-4"
+        ],
+        "gsm": "GSM9141551",
+        "organism_ch1": [
+          "Mus musculus"
+        ],
+        "title": [
+          "Old-GSTA4-rep4"
+        ]
+      }
+    ]
+  },
+  "evidence_role": "Author-reported findings; not independently reproduced here.",
+  "interpretation": "Keep intervention, endpoint and duration separate. Our broad correlation does not replay the fitted clock.",
+  "source": "https://doi.org/10.1101/2025.08.30.673239",
+  "source_anchors": {
+    "GSTA4_clock": [
+      {
+        "paragraph_index": 110,
+        "text_sha256": "c0a49b3084c7cb56b16e71cb130b02b0d5d237b41f8c3c3332edfdcceb8396c5"
+      }
+    ],
+    "OSK_clock": [
+      {
+        "paragraph_index": 34,
+        "text_sha256": "006c1198dc48d2c08af165b195cd2d8b2688316cabe4a5777af93bfc77f4c2ac"
+      }
+    ],
+    "clock_method": [
+      {
+        "paragraph_index": 173,
+        "text_sha256": "a034448a93e419c6dc881a70d96f9aed874e2ce72c04e66664c4fa549a91c4a6"
+      }
+    ]
+  },
+  "source_sha256": "6c69a9144df294cdd2bea5694d0fb3b0f246c47e2159a4303e0e828163179879"
+}

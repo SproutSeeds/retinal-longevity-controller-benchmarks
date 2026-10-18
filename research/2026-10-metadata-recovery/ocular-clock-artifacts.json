@@ -1,0 +1,714 @@
+{
+  "archives": [
+    {
+      "created": "2026-03-01T20:37:34.520921+00:00",
+      "doi": "10.5281/zenodo.18763485",
+      "files": [
+        {
+          "bytes": 2265314557,
+          "checksum": "md5:67bdc7efb474f2b69e7d9bcc17338530",
+          "name": "BR_NormalizedAge_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2248384016,
+          "checksum": "md5:6f9063381b97f56d1932aeecb7f91ed1",
+          "name": "BR_NormalizedAge_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 913774,
+          "checksum": "md5:791f866582741402cabb6eed4c0bde30",
+          "name": "EN_NormalizedAge_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:87307d7f5572d9932382912d3fd9571c",
+          "name": "EN_Mortality_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:634b7ef57c1ce535cce1172023f444b3",
+          "name": "EN_NormalizedAge_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 964509,
+          "checksum": "md5:fc3ddb5a235db2d280f1fd37284f9f73",
+          "name": "EN_NormalizedAge_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 938484,
+          "checksum": "md5:27e6fcd83926eb3fc3680fa0ab23c5ff",
+          "name": "EN_Mortality_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 721701059,
+          "checksum": "md5:c283869cf69e35afa200c6a6fc281519",
+          "name": "Expression_data_relative_rodents_Scaled.csv"
+        },
+        {
+          "bytes": 496240,
+          "checksum": "md5:bb56d389a63c76f02c4e1b98319d6bd8",
+          "name": "Data_annotation_relative_rodents.xlsx"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:c33d7b7ec750249f55967079b27bc37d",
+          "name": "BR_Chronoage_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 1910481982,
+          "checksum": "md5:aaf40e3c69042ff8f0c0cad8c432d25c",
+          "name": "BR_Chronoage_Rodents_Skeletal_muscle_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 1968526857,
+          "checksum": "md5:6f87c9be1ba1cb7d3efb45f9f8efbf34",
+          "name": "BR_Chronoage_Rodents_Kidney_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 2393070870,
+          "checksum": "md5:8d1d0ac05cd33945666b7b5149341703",
+          "name": "BR_NormalizedAge_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:a09fbc41ccc94202ed280a194e3447cf",
+          "name": "BR_NormalizedAge_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2419988892,
+          "checksum": "md5:61c07c0d58f0e05de4bd639e8ced88bb",
+          "name": "BR_NormalizedAge_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:e7b8d25fb30d82aec0a9e0c071ad9a83",
+          "name": "BR_NormalizedAge_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2351467264,
+          "checksum": "md5:aa9f753dc279eac9688f08ef0de1e569",
+          "name": "BR_Chronoage_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2374290449,
+          "checksum": "md5:c77c24d194a983cece0a7e1ce3cbcebd",
+          "name": "BR_Chronoage_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2182090561,
+          "checksum": "md5:3f6921476fb19693ac84146635373817",
+          "name": "BR_Chronoage_Rodents_Brain_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:efa60dab8b6160bfd39381be73acee9f",
+          "name": "BR_Chronoage_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2419988892,
+          "checksum": "md5:daea37146186fda8b5a7f258ac3b8b9b",
+          "name": "BR_Mortality_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:8a123360449cd022d695c783a4b13d6c",
+          "name": "BR_Mortality_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2148922007,
+          "checksum": "md5:fb1da22da9a43058d49c655c53a3e02d",
+          "name": "BR_NormalizedAge_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2265314557,
+          "checksum": "md5:4b316c2ba5397a3ba3db57c159cf68aa",
+          "name": "BR_Mortality_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2183676137,
+          "checksum": "md5:eddcba9e9a2cbff21f01ce23d27cd73e",
+          "name": "BR_Chronoage_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2170478953,
+          "checksum": "md5:53f38dbc98ffa9df5ce532a5e42ea0a2",
+          "name": "BR_NormalizedAge_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 2148921991,
+          "checksum": "md5:6e378ec38438dc4919125c4dcb5b18c3",
+          "name": "BR_Mortality_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2248384016,
+          "checksum": "md5:da7dc56fada1ddb89bb4c6a0b947faca",
+          "name": "BR_Mortality_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 864063,
+          "checksum": "md5:30f9e2cc01a982bbf2e7deaee4aab62f",
+          "name": "EN_Chronoage_Rodents_Skeletal_muscle_yugenediff.pkl"
+        },
+        {
+          "bytes": 925925,
+          "checksum": "md5:4de57fb362eb885013bb0edd0150a3d7",
+          "name": "EN_Chronoage_Rodents_Brain_yugenediff.pkl"
+        },
+        {
+          "bytes": 921144,
+          "checksum": "md5:035013a679acd5ddb4ecb5f092626b6d",
+          "name": "EN_Chronoage_Rodents_Brain_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:a009e1cc7049c7cfc7efd41e1c348476",
+          "name": "EN_NormalizedAge_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 970099,
+          "checksum": "md5:a96f0068691f853a89e9c28935d49561",
+          "name": "EN_Mortality_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:20fedb08b78828b8a355c5a53c9da369",
+          "name": "BR_Mortality_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 934823,
+          "checksum": "md5:26cc9e089e45bf978205738e56f190fb",
+          "name": "EN_Mortality_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 918512,
+          "checksum": "md5:d4d0f33b64f23b734c3e95d06e78eba3",
+          "name": "EN_Mortality_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 913774,
+          "checksum": "md5:cd76d203c42f88a7580707c36a7e4a0b",
+          "name": "EN_Mortality_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 871690,
+          "checksum": "md5:c58a1430f36c738cc3d72825f28d44ec",
+          "name": "EN_Chronoage_Rodents_Kidney_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:bd371c5a7c6706c363dcac9662ceab00",
+          "name": "EN_Mortality_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 921296,
+          "checksum": "md5:19fee9e782b4eda36ab13a459fcdb3db",
+          "name": "EN_Chronoage_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 912387,
+          "checksum": "md5:1967d3ea992f697ae7c1761ac9bf1aea",
+          "name": "EN_Chronoage_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:ad893ce7c008094b9f36450257d1934a",
+          "name": "EN_Chronoage_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 891751277,
+          "checksum": "md5:16af0a906aa243a7066894242fb6f3c9",
+          "name": "Expression_data_relative_rodents.rds"
+        },
+        {
+          "bytes": 1181727132,
+          "checksum": "md5:26a44ce691c5781bcbd4f3c2423b198b",
+          "name": "Expression_data_relative_rodents_YuGene.csv"
+        },
+        {
+          "bytes": 615602456,
+          "checksum": "md5:9d4d8627f548a73e8cb851ea2d2f1d13",
+          "name": "Expression_data_absolute_rodents.rds"
+        },
+        {
+          "bytes": 1112885301,
+          "checksum": "md5:c822d9bcf3cb05f516ce8408fe5a08f3",
+          "name": "Expression_data_absolute_rodents_YuGene.csv"
+        },
+        {
+          "bytes": 1119842142,
+          "checksum": "md5:3b182622809b1361a6266f119102d017",
+          "name": "Expression_data_absolute_rodents_Scaled.csv"
+        },
+        {
+          "bytes": 393413,
+          "checksum": "md5:4153c6e6c755f61d3dbd3721554f34c7",
+          "name": "Data_annotation_absolute_rodents.xlsx"
+        },
+        {
+          "bytes": 2204078350,
+          "checksum": "md5:68e03da91cf58a53c202ad1b223baaab",
+          "name": "BR_Chronoage_Rodents_Brain_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 1955247155,
+          "checksum": "md5:065b5f041f73e26d7f9719dd24e569dc",
+          "name": "BR_Chronoage_Rodents_Kidney_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2199035132,
+          "checksum": "md5:509e45c1d11e7278066ae1e7ffa4b3fc",
+          "name": "BR_Chronoage_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2143156620,
+          "checksum": "md5:a9f74d3b86c0b5e29b0d56caab184fec",
+          "name": "BR_Chronoage_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 924659,
+          "checksum": "md5:2e19c9ef45b45ffdebd0b2882722041a",
+          "name": "EN_Chronoage_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 1920385128,
+          "checksum": "md5:c6ebdc57c4ef19fbce4a21da6678147d",
+          "name": "BR_Chronoage_Rodents_Skeletal muscle_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 861717,
+          "checksum": "md5:5640befd2990e1601e86b0ccfcbaf771",
+          "name": "EN_Chronoage_Rodents_Skeletal_muscle_scaleddiff.pkl"
+        },
+        {
+          "bytes": 874720,
+          "checksum": "md5:5a465266c64f29187fff656231d5a8d6",
+          "name": "EN_Chronoage_Rodents_Kidney_yugenediff.pkl"
+        },
+        {
+          "bytes": 964509,
+          "checksum": "md5:43ee221e8cbe8577107f1a74230891e0",
+          "name": "EN_Mortality_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 938484,
+          "checksum": "md5:b37545ab983594d4eae123ce7947c880",
+          "name": "EN_NormalizedAge_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 934823,
+          "checksum": "md5:bbf2b0f8feecaafb29456e3403616144",
+          "name": "EN_NormalizedAge_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 955991,
+          "checksum": "md5:c31d3b5ea8af7aa0891aee12d95109b5",
+          "name": "EN_Chronoage_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 970099,
+          "checksum": "md5:c3ef18b0b8a8ae5609f9b41cd87234af",
+          "name": "EN_NormalizedAge_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 918512,
+          "checksum": "md5:8dabb0f4f2354d9e0eaff2b01e3113db",
+          "name": "EN_NormalizedAge_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 909931,
+          "checksum": "md5:a73012b22b5f4bc9881edd1ac2b0cb72",
+          "name": "EN_Chronoage_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:7dc8a470f5db20a75d7052829efbd37a",
+          "name": "EN_Chronoage_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 960792,
+          "checksum": "md5:7dff7ed53329448476836fa052ed6097",
+          "name": "EN_Chronoage_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2170478969,
+          "checksum": "md5:de581da49e81703429d07109293fdb39",
+          "name": "BR_Mortality_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 2393070886,
+          "checksum": "md5:8ff83db036636b11a8da86b5adaecabc",
+          "name": "BR_Mortality_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2132171652,
+          "checksum": "md5:8c9bf298ab0783145f8721bcb4fc32b2",
+          "name": "BR_Chronoage_Rodents_Liver_scaleddiff.pkl"
+        }
+      ],
+      "model_files_downloaded": false,
+      "updated": "2026-05-27T18:31:00.130548+00:00"
+    },
+    {
+      "created": "2026-08-29T22:41:13.647515+00:00",
+      "doi": "10.5281/zenodo.22166800",
+      "files": [
+        {
+          "bytes": 2393070870,
+          "checksum": "md5:8d1d0ac05cd33945666b7b5149341703",
+          "name": "BR_NormalizedAge_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:a09fbc41ccc94202ed280a194e3447cf",
+          "name": "BR_NormalizedAge_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2419988892,
+          "checksum": "md5:61c07c0d58f0e05de4bd639e8ced88bb",
+          "name": "BR_NormalizedAge_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:e7b8d25fb30d82aec0a9e0c071ad9a83",
+          "name": "BR_NormalizedAge_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2351467264,
+          "checksum": "md5:aa9f753dc279eac9688f08ef0de1e569",
+          "name": "BR_Chronoage_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2374290449,
+          "checksum": "md5:c77c24d194a983cece0a7e1ce3cbcebd",
+          "name": "BR_Chronoage_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2265314557,
+          "checksum": "md5:67bdc7efb474f2b69e7d9bcc17338530",
+          "name": "BR_NormalizedAge_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2248384016,
+          "checksum": "md5:6f9063381b97f56d1932aeecb7f91ed1",
+          "name": "BR_NormalizedAge_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 913774,
+          "checksum": "md5:791f866582741402cabb6eed4c0bde30",
+          "name": "EN_NormalizedAge_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2182090561,
+          "checksum": "md5:3f6921476fb19693ac84146635373817",
+          "name": "BR_Chronoage_Rodents_Brain_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:87307d7f5572d9932382912d3fd9571c",
+          "name": "EN_Mortality_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:634b7ef57c1ce535cce1172023f444b3",
+          "name": "EN_NormalizedAge_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 964509,
+          "checksum": "md5:fc3ddb5a235db2d280f1fd37284f9f73",
+          "name": "EN_NormalizedAge_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 938484,
+          "checksum": "md5:27e6fcd83926eb3fc3680fa0ab23c5ff",
+          "name": "EN_Mortality_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 721701059,
+          "checksum": "md5:c283869cf69e35afa200c6a6fc281519",
+          "name": "Expression_data_relative_rodents_Scaled.csv"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:c33d7b7ec750249f55967079b27bc37d",
+          "name": "BR_Chronoage_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 1910481982,
+          "checksum": "md5:aaf40e3c69042ff8f0c0cad8c432d25c",
+          "name": "BR_Chronoage_Rodents_Skeletal_muscle_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 1968526857,
+          "checksum": "md5:6f87c9be1ba1cb7d3efb45f9f8efbf34",
+          "name": "BR_Chronoage_Rodents_Kidney_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:efa60dab8b6160bfd39381be73acee9f",
+          "name": "BR_Chronoage_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2419988892,
+          "checksum": "md5:daea37146186fda8b5a7f258ac3b8b9b",
+          "name": "BR_Mortality_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:8a123360449cd022d695c783a4b13d6c",
+          "name": "BR_Mortality_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2148922007,
+          "checksum": "md5:fb1da22da9a43058d49c655c53a3e02d",
+          "name": "BR_NormalizedAge_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2265314557,
+          "checksum": "md5:4b316c2ba5397a3ba3db57c159cf68aa",
+          "name": "BR_Mortality_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2183676137,
+          "checksum": "md5:eddcba9e9a2cbff21f01ce23d27cd73e",
+          "name": "BR_Chronoage_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2170478953,
+          "checksum": "md5:53f38dbc98ffa9df5ce532a5e42ea0a2",
+          "name": "BR_NormalizedAge_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 2148921991,
+          "checksum": "md5:6e378ec38438dc4919125c4dcb5b18c3",
+          "name": "BR_Mortality_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2248384016,
+          "checksum": "md5:da7dc56fada1ddb89bb4c6a0b947faca",
+          "name": "BR_Mortality_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 864063,
+          "checksum": "md5:30f9e2cc01a982bbf2e7deaee4aab62f",
+          "name": "EN_Chronoage_Rodents_Skeletal_muscle_yugenediff.pkl"
+        },
+        {
+          "bytes": 925925,
+          "checksum": "md5:4de57fb362eb885013bb0edd0150a3d7",
+          "name": "EN_Chronoage_Rodents_Brain_yugenediff.pkl"
+        },
+        {
+          "bytes": 921144,
+          "checksum": "md5:035013a679acd5ddb4ecb5f092626b6d",
+          "name": "EN_Chronoage_Rodents_Brain_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:a009e1cc7049c7cfc7efd41e1c348476",
+          "name": "EN_NormalizedAge_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 970099,
+          "checksum": "md5:a96f0068691f853a89e9c28935d49561",
+          "name": "EN_Mortality_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 880570274,
+          "checksum": "md5:20fedb08b78828b8a355c5a53c9da369",
+          "name": "BR_Mortality_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 934823,
+          "checksum": "md5:26cc9e089e45bf978205738e56f190fb",
+          "name": "EN_Mortality_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 918512,
+          "checksum": "md5:d4d0f33b64f23b734c3e95d06e78eba3",
+          "name": "EN_Mortality_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 913774,
+          "checksum": "md5:cd76d203c42f88a7580707c36a7e4a0b",
+          "name": "EN_Mortality_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 871690,
+          "checksum": "md5:c58a1430f36c738cc3d72825f28d44ec",
+          "name": "EN_Chronoage_Rodents_Kidney_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:bd371c5a7c6706c363dcac9662ceab00",
+          "name": "EN_Mortality_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 921296,
+          "checksum": "md5:19fee9e782b4eda36ab13a459fcdb3db",
+          "name": "EN_Chronoage_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 912387,
+          "checksum": "md5:1967d3ea992f697ae7c1761ac9bf1aea",
+          "name": "EN_Chronoage_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:ad893ce7c008094b9f36450257d1934a",
+          "name": "EN_Chronoage_Multispecies_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 891751277,
+          "checksum": "md5:16af0a906aa243a7066894242fb6f3c9",
+          "name": "Expression_data_relative_rodents.rds"
+        },
+        {
+          "bytes": 1181727132,
+          "checksum": "md5:26a44ce691c5781bcbd4f3c2423b198b",
+          "name": "Expression_data_relative_rodents_YuGene.csv"
+        },
+        {
+          "bytes": 615602456,
+          "checksum": "md5:9d4d8627f548a73e8cb851ea2d2f1d13",
+          "name": "Expression_data_absolute_rodents.rds"
+        },
+        {
+          "bytes": 1112885301,
+          "checksum": "md5:c822d9bcf3cb05f516ce8408fe5a08f3",
+          "name": "Expression_data_absolute_rodents_YuGene.csv"
+        },
+        {
+          "bytes": 1119842142,
+          "checksum": "md5:3b182622809b1361a6266f119102d017",
+          "name": "Expression_data_absolute_rodents_Scaled.csv"
+        },
+        {
+          "bytes": 2204078350,
+          "checksum": "md5:68e03da91cf58a53c202ad1b223baaab",
+          "name": "BR_Chronoage_Rodents_Brain_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 1955247155,
+          "checksum": "md5:065b5f041f73e26d7f9719dd24e569dc",
+          "name": "BR_Chronoage_Rodents_Kidney_WT_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2199035132,
+          "checksum": "md5:509e45c1d11e7278066ae1e7ffa4b3fc",
+          "name": "BR_Chronoage_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2143156620,
+          "checksum": "md5:a9f74d3b86c0b5e29b0d56caab184fec",
+          "name": "BR_Chronoage_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 924659,
+          "checksum": "md5:2e19c9ef45b45ffdebd0b2882722041a",
+          "name": "EN_Chronoage_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 1920385128,
+          "checksum": "md5:c6ebdc57c4ef19fbce4a21da6678147d",
+          "name": "BR_Chronoage_Rodents_Skeletal muscle_WT_yugenediff.pkl"
+        },
+        {
+          "bytes": 861717,
+          "checksum": "md5:5640befd2990e1601e86b0ccfcbaf771",
+          "name": "EN_Chronoage_Rodents_Skeletal_muscle_scaleddiff.pkl"
+        },
+        {
+          "bytes": 874720,
+          "checksum": "md5:5a465266c64f29187fff656231d5a8d6",
+          "name": "EN_Chronoage_Rodents_Kidney_yugenediff.pkl"
+        },
+        {
+          "bytes": 964509,
+          "checksum": "md5:43ee221e8cbe8577107f1a74230891e0",
+          "name": "EN_Mortality_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 938484,
+          "checksum": "md5:b37545ab983594d4eae123ce7947c880",
+          "name": "EN_NormalizedAge_Rodents_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 934823,
+          "checksum": "md5:bbf2b0f8feecaafb29456e3403616144",
+          "name": "EN_NormalizedAge_Rodents_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 955991,
+          "checksum": "md5:c31d3b5ea8af7aa0891aee12d95109b5",
+          "name": "EN_Chronoage_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 970099,
+          "checksum": "md5:c3ef18b0b8a8ae5609f9b41cd87234af",
+          "name": "EN_NormalizedAge_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 918512,
+          "checksum": "md5:8dabb0f4f2354d9e0eaff2b01e3113db",
+          "name": "EN_NormalizedAge_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 909931,
+          "checksum": "md5:a73012b22b5f4bc9881edd1ac2b0cb72",
+          "name": "EN_Chronoage_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 584873,
+          "checksum": "md5:7dc8a470f5db20a75d7052829efbd37a",
+          "name": "EN_Chronoage_Multispecies_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 960792,
+          "checksum": "md5:7dff7ed53329448476836fa052ed6097",
+          "name": "EN_Chronoage_Mouse_Multitissue_yugenediff.pkl"
+        },
+        {
+          "bytes": 2170478969,
+          "checksum": "md5:de581da49e81703429d07109293fdb39",
+          "name": "BR_Mortality_Rodents_Liver_yugenediff.pkl"
+        },
+        {
+          "bytes": 2393070886,
+          "checksum": "md5:8ff83db036636b11a8da86b5adaecabc",
+          "name": "BR_Mortality_Mouse_Multitissue_scaleddiff.pkl"
+        },
+        {
+          "bytes": 2132171652,
+          "checksum": "md5:8c9bf298ab0783145f8721bcb4fc32b2",
+          "name": "BR_Chronoage_Rodents_Liver_scaleddiff.pkl"
+        },
+        {
+          "bytes": 394795,
+          "checksum": "md5:be9234547aacfbb2e83f0f1c5e44b3bd",
+          "name": "Rodent module clocks.zip"
+        },
+        {
+          "bytes": 495148,
+          "checksum": "md5:d9024c6f91e89e170b9c0a869aded48b",
+          "name": "Data_annotation_relative_rodents.xlsx"
+        },
+        {
+          "bytes": 252009,
+          "checksum": "md5:f2a01d5d0fc07745f78cf704e2dd3e98",
+          "name": "Multispecies module clocks.zip"
+        },
+        {
+          "bytes": 392619,
+          "checksum": "md5:c4f51562c38ab278dbb3b4b8fb7f64cc",
+          "name": "Data_annotation_absolute_rodents.xlsx"
+        }
+      ],
+      "model_files_downloaded": false,
+      "updated": "2026-08-29T22:41:15.627100+00:00"
+    }
+  ],
+  "claim_level": "Verified",
+  "historical_equivalence": "UNRESOLVED: these deposits postdate the 2025 ocular preprint; availability does not identify the exact historical model.",
+  "license_note": "The source repository specifies non-commercial, non-revenue-generating academic use. No model execution or redistribution in this package.",
+  "license_source": "https://github.com/Gladyshev-Lab/tAge/blob/d048ba6016a7e5a114f45195e0b11071e2b8c424/LICENSE"
+}

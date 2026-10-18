@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-10-18",
+  "claim_level": "Heuristic",
+  "experiment_replacement_verdict": "INCONCLUSIVE",
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "resolved": [
+    "SRSF1 raw numeric model terms recovered from Supplementary Table 1: 292 genes, intercept and two library-type terms.",
+    "Every model gene is present once in the 807-library deposited human count matrix after removing Ensembl version suffixes.",
+    "GEO human factor-off library identity is explicitly joined to deposited count columns, with species separated.",
+    "Ocular source distinguishes OSK-associated increased overall tAge from GSTA4-associated decreased tAge."
+  ],
+  "still_required": [
+    "GSE350289 exact cell barcode and hash assignment map with treatment and donor/pool provenance.",
+    "SRSF1 exact normalization lengths and gene universe, intended frozen-SVA behavior, and reference input/output values.",
+    "SRSF1 sample-level induction, withdrawal and harvest chronology resolving the 6/12 versus 8/16 discrepancy.",
+    "Ocular historical model identity, imputation/calibration inputs and animal/eye/cohort manifest."
+  ],
+  "next_trigger": "Reanalyze only when a named missing artifact is recovered or a compatible independent source appears.",
+  "new_model_training": "Not justified by these metadata findings.",
+  "synthetic_biology_claims": false,
+  "wet_lab_purchased_or_arranged": false,
+  "outreach_sent": false,
+  "phase483": "unchanged; awaiting separate supervised external packet"
+}
