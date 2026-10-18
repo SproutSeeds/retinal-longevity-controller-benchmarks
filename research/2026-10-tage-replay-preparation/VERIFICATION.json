@@ -1,0 +1,196 @@
+{
+  "checks": [
+    {
+      "name": "reviewed file list matches hash manifest",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:status.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:status.json",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "safe regular artifact:workflow-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:workflow-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "historical model unexecuted",
+      "status": "PASS"
+    },
+    {
+      "name": "historical replication remains pending",
+      "status": "PASS"
+    },
+    {
+      "name": "no competing GSTA4 estimate",
+      "status": "PASS"
+    },
+    {
+      "name": "four human readouts remain open",
+      "status": "PASS"
+    },
+    {
+      "name": "experiment replacement inconclusive",
+      "status": "PASS"
+    },
+    {
+      "name": "recorded tests passed",
+      "status": "PASS"
+    },
+    {
+      "name": "recorded tests are software only",
+      "status": "PASS"
+    },
+    {
+      "name": "test record covers exact source set",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "tested source sha256:workflow-contract.json",
+      "status": "PASS"
+    }
+  ],
+  "passed": 47,
+  "scope": "Release integrity and software-preparation bookkeeping only. No historical model execution or biological replication.",
+  "status": "PASS",
+  "total": 47
+}

@@ -1,0 +1,22 @@
+{
+  "schema": "cx004.tage_preparation_status.v1",
+  "date": "2026-10-18",
+  "software_claim_level": "Verified within the recorded checks",
+  "scientific_interpretation_claim_level": "Heuristic",
+  "historical_replication": "PENDING_INPUTS_AND_ADAPTER",
+  "historical_model_executed": false,
+  "competing_gsta4_age_estimate": null,
+  "new_biological_observations": false,
+  "human_readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "experiment_replacement": "INCONCLUSIVE",
+  "collaboration_status": "PROPOSED_DISCUSSION",
+  "new_wetlab_purchase_or_arrangement": false,
+  "paid_compute_used": false,
+  "synthetic_scope": "Software fixtures only; no inferred sample identities or invented biological observations.",
+  "next_gate": "Identify historical model and preprocessing assets, verify a keyed reference example and permissions, then implement and review a separate execution adapter."
+}

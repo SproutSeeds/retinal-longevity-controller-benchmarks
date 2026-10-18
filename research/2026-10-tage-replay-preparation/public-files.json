@@ -1,0 +1,21 @@
+{
+  "schema": "cx004.reviewed_public_files.v1",
+  "files": [
+    "README.md",
+    "STATUS_CLARIFICATION.md",
+    "CLAIM.md",
+    "COLLABORATION_BRIEF.md",
+    "COLLABORATION_BRIEF.txt",
+    "WORKFLOW.md",
+    "status.json",
+    "replay.py",
+    "workflow-contract.json",
+    "run_checks.py",
+    "verify.py",
+    "TEST_RESULTS.json",
+    "examples/author-packet-template.json",
+    "examples/make_synthetic_demo.py",
+    "tests/test_replay.py"
+  ],
+  "scope": "Authored documentation, original standard-library software, invented fixtures and software checks. Private correspondence, received third-party models and raw biological data are excluded."
+}

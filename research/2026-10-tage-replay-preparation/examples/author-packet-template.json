@@ -1,0 +1,49 @@
+{
+  "schema": "cx004.tage_received_manifest.v1",
+  "evidence_kind": "author_supplied_historical",
+  "study_accession": "GSE304044",
+  "model_identity": {
+    "model_id": "UNRESOLVED",
+    "historical_version": "UNRESOLVED",
+    "training_target": "UNRESOLVED",
+    "species": "UNRESOLVED",
+    "tissue_scope": "UNRESOLVED",
+    "feature_namespace": "UNRESOLVED",
+    "prediction_unit": "UNRESOLVED",
+    "historical_equivalence_declaration": "UNRESOLVED"
+  },
+  "provenance": {
+    "declared_by": "UNRESOLVED",
+    "source_locator": "UNRESOLVED",
+    "received_utc": "UNRESOLVED",
+    "historical_basis": "UNRESOLVED"
+  },
+  "preprocessing": {
+    "input_scale": "UNRESOLVED",
+    "normalization": "UNRESOLVED",
+    "gene_mapping": "UNRESOLVED",
+    "missing_gene_policy": "UNRESOLVED",
+    "control_centering": "UNRESOLVED",
+    "reference_cohorts": "UNRESOLVED",
+    "fixture_stage": "already_preprocessed_model_input"
+  },
+  "reference_value_keys": [],
+  "reference_values_explanation": "UNRESOLVED: identify every numerical imputation/centering/calibration reference, with cohort and units, or document why no such values apply.",
+  "tolerances": {
+    "absolute": "UNRESOLVED",
+    "relative": "UNRESOLVED",
+    "unit": "UNRESOLVED",
+    "rationale": "UNRESOLVED: choose and justify before new replay outputs."
+  },
+  "artifacts": {
+    "model": {"path": "REPLACE_ME_historical_model", "sha256": "UNRESOLVED", "bytes": 0},
+    "preprocessing": {"path": "REPLACE_ME_preprocessing.txt", "sha256": "UNRESOLVED", "bytes": 0},
+    "environment": {"path": "REPLACE_ME_environment.txt", "sha256": "UNRESOLVED", "bytes": 0},
+    "provenance": {"path": "REPLACE_ME_provenance.txt", "sha256": "UNRESOLVED", "bytes": 0},
+    "gene_map": {"path": "gene-map.csv", "sha256": "UNRESOLVED", "bytes": 0},
+    "sample_map": {"path": "sample-map.csv", "sha256": "UNRESOLVED", "bytes": 0},
+    "feature_matrix": {"path": "reference-model-input.csv", "sha256": "UNRESOLVED", "bytes": 0},
+    "expected_predictions": {"path": "expected-predictions.csv", "sha256": "UNRESOLVED", "bytes": 0},
+    "reference_values": {"path": "reference-values.csv", "sha256": "UNRESOLVED", "bytes": 0}
+  }
+}

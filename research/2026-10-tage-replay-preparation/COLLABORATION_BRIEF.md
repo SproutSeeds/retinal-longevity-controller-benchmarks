@@ -1,0 +1,17 @@
+Title: Reproducing the RPE clock calculation
+
+October 18, 2026. Proposed discussion; recommendation and biological interpretation: Heuristic.
+
+I propose a first shared deliverable: an independently reproducible calculation of the historical GSTA4 transcriptomic-age result in mouse retinal pigment epithelium (RPE). The starting question is whether the identified inputs, preprocessing and model reproduce the authors' sample predictions and reported comparison within agreed numerical tolerances.
+
+The [2025 ocular preprint](https://doi.org/10.1101/2025.08.30.673239) reports an 8.5-month reduction in transcriptomic age after eight weeks of GSTA4 expression in old mouse RPE. It separately reports increased overall transcriptomic age under OSK alongside benefits in some functional measurements and toxicity with prolonged expression. Its cultured ARPE-19 experiment also finds that oxidative-stress protection is lost after OSK withdrawal. These are the authors' reported findings. A collaboration would build on their existing computations and withdrawal experiments.
+
+My completed contribution includes source and metadata auditing and a descriptive OSK expression comparison. The [public calculation](https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/blob/main/research/2026-10-public-data/README.md) gives Pearson r = +0.663 across 13,327 genes for old-minus-young versus OSK-minus-vector mean-expression differences. The arithmetic is Verified within its documented checks; the genes are features, not independent animals. That endpoint differs from the fitted clock. I have not executed tAge/TACO, so there is no competing clock estimate or replication verdict from this analysis.
+
+The first practical step is to identify the historical model and software version, gene identifiers and scales, filtering and normalization references, missing-gene imputation values, and old-control centering values. A sample-to-animal-to-eye-to-cohort table and a small keyed input/output example would let us check preprocessing and prediction equivalence. Later public model archives need historical equivalence established before they can serve this purpose.
+
+The deliverable would contain a frozen input manifest, reproducible environment, inspectable preprocessing, keyed predictions and a comparison against the agreed reference. We would set tolerances before validation, preserve discrepancies, and distinguish the already published aggregate from newly computed outputs. I can contribute the implementation, provenance checks and reproducibility tests. Access, reuse permissions and attribution would be agreed first; original authors retain credit for the experiments and clock methods. Public releases would include only appropriately licensed or permitted material.
+
+Computational agreement would establish reproducibility of that calculation. Biological efficacy, durability and safety require their own evidence. The [current decision audit](https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-decision-audit) retains insufficient_signal for all four CX004 human readouts; human fibroblast validation would still need a separate ocular system and functional endpoint for retinal interpretation. After the replay, any additional analysis would start with one agreed question and suitable data. This initial proposal requires no wet-lab commitment or paid compute.
+
+Cody Mitchell

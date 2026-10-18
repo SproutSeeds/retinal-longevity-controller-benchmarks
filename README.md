@@ -4,6 +4,11 @@ Public data, reproducible analysis and explicit evidence requirements for lineag
 
 **Current checkpoint — October 18, 2026 UTC:** public data support substantial analysis and a smaller, better-defined measurement request. The matched late human recovery observation remains unresolved. Biological conclusions are **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
+**Historical retinal tAge replication remains pending because the required inputs are unconfirmed.** No tAge or TACO model has been executed here. The completed OSK expression comparison is a different endpoint from the reported GSTA4 clock-age result. [Status clarification](research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md).
+
+- **[Historical clock reproduction preparation](research/2026-10-tage-replay-preparation/README.md)** — input checks, a frozen comparison plan and synthetic software tests; the historical model adapter remains unresolved.
+- **[Proposed collaboration brief](research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md)** · [plain text](research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt).
+
 - **[Latest evidence and experiment decision](research/2026-10-decision-audit/README.md)** — newly recovered human withdrawal references, an independent seven-animal comparison, and precise remaining data requirements.
 - **[Next inputs and conditional measurements](research/2026-10-decision-audit/NEXT_STEPS.md)** · [mouse results figure](research/2026-10-decision-audit/figures/mouse-cycle-comparison.pdf) · [human reference figure](research/2026-10-decision-audit/figures/human-short-withdrawal-reference.pdf).
 - **[Earlier neural and human validation](research/2026-10-neural-validation/README.md)** — nine paired neural donors, two tissue cohorts, human marker concentration and 57,317 human barcodes.

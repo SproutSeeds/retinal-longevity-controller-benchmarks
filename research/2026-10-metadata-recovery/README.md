@@ -1,5 +1,7 @@
 Title: Retinal recovery: the clock parameters are available
 
+**October 18 wording clarification:** historical retinal tAge replication remains pending because the required inputs are unconfirmed. No tAge or TACO model has been executed here, and there is no competing GSTA4 clock estimate. The recovered coefficient table below belongs to the separate human SRSF1 study. [Current status and reproduction preparation](../2026-10-tage-replay-preparation/README.md).
+
 **October 18, 2026 UTC.** The SRSF1 supplement provides all **295 numeric model terms: 292 genes, an intercept and two library-type adjustments**. All 292 genes occur once in the deposited 807-library human count matrix after Ensembl version suffixes are removed. This resolves the parameter-discovery task. Exact clock replay still depends on preprocessing and reference outputs.
 
 Parameter extraction, file hashes and sample joins are **Verified** within the checks below. Biological interpretation remains **Heuristic**; replacement of the proposed late human recovery experiment remains **INCONCLUSIVE**. All four CX004 readouts remain `insufficient_signal`.
@@ -22,7 +24,7 @@ The brief-exposure figure caption describes 6/12 days after withdrawal, while GE
 
 ### The ocular paper distinguishes OSK from GSTA4
 
-The [2025 ocular preprint](https://doi.org/10.1101/2025.08.30.673239) reports increased overall transcriptomic age under OSK alongside improvements in some functional measurements and concerns with prolonged exposure. It separately reports an 8.5-month reduction in transcriptomic age after eight weeks of GSTA4 overexpression in old mouse RPE. These are the authors' findings, not outcomes independently reproduced here.
+The [2025 ocular preprint](https://doi.org/10.1101/2025.08.30.673239) reports increased overall transcriptomic age under OSK alongside improvements in some functional measurements and concerns with prolonged exposure. It separately reports an 8.5-month reduction in transcriptomic age after eight weeks of GSTA4 overexpression in old mouse RPE. These are the authors' findings. Historical tAge replication remains pending because the required inputs are unconfirmed; no tAge or TACO model has been executed here. The dated source records retain their original wording and hashes.
 
 Our broad expression correlation remains a different endpoint from their fitted clock. The [clarification and source anchors](ocular-source-clarification.json) keep intervention, endpoint and timing separate. Existing 18-library OSK and seven-library GSTA4 deposits still lack the complete animal/eye/cohort mapping needed for a faithful comparison.
 

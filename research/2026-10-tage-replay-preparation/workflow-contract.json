@@ -1,0 +1,17 @@
+{
+  "schema": "cx004.tage_preparation_contract.v1",
+  "target": "Historical tAge application to GSE304044 GSTA4 mouse RPE",
+  "study_accession": "GSE304044",
+  "planning_context": "Retrospective preparation: the authors' aggregate 8.5-month reduction is already known. Freeze numerical comparisons before obtaining new replay outputs.",
+  "historical_adapter": "UNRESOLVED_NOT_IMPLEMENTED",
+  "historical_tolerances": "UNRESOLVED: obtain precision and units from the historical implementation and justify tolerances before new outputs.",
+  "execution_policy": "Read JSON/CSV and hash bytes only. Never download, import, execute, unpack or deserialize supplied code/models.",
+  "reference_ready": "BLOCKED until the historical implementation is identified and a separately reviewed adapter exists; complete manifest declarations alone do not establish this.",
+  "reference_pass": "BLOCKED in this preparation release. Externally supplied output agreement is a numerical check, not verified execution.",
+  "study_calculation": "NOT_RUN: require reference PASS, an accepted study manifest, independent-unit mapping, frozen analysis and reviewed execution.",
+  "biological_interpretation": "INCONCLUSIVE: clock agreement alone cannot establish recovery, safety, function or human translation.",
+  "synthetic_policy": "Synthetic examples test software only. They cannot yield reference reproduction PASS or biological PASS.",
+  "comparison_rule": "For every exact reference_sample_id key: abs(observed - expected) <= absolute_tolerance + relative_tolerance * abs(expected). No rounding, fitting, averaging or dropping rows.",
+  "matrix_policy": "The supplied fixture is an already-preprocessed model-input matrix. Require the complete declared sample-by-gene product, finite values, explicit one-to-one mappings and a contiguous model feature order. Do not impute, center or transform values.",
+  "provenance_policy": "Hashes establish byte identity. Authority, historical equivalence, preprocessing completeness and appropriate tolerances remain human-review obligations. Preserve received correspondence privately when needed; do not publish it by default."
+}

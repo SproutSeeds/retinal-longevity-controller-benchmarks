@@ -45,6 +45,22 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-tage-replay-preparation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-decision-audit/README.md",
       "status": "PASS"
     },
@@ -2877,6 +2893,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:research/2026-10-metadata-recovery/README.md:../2026-10-tage-replay-preparation/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:research/2026-10-metadata-recovery/README.md:srsf1-clock-parameters.json",
       "status": "PASS"
     },
@@ -5641,6 +5661,258 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:research/2026-10-tage-replay-preparation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/CLAIM.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/CLAIM.md:TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:COLLABORATION_BRIEF.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:COLLABORATION_BRIEF.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:../2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/README.md:../2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md:../2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/TEST_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/WORKFLOW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/examples/author-packet-template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/examples/make_synthetic_demo.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/status.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/status.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/status.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/tests/test_replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-tage-replay-preparation/workflow-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-tage-replay-preparation/workflow-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-tage-replay-preparation/workflow-contract.json",
+      "status": "PASS"
+    },
+    {
       "name": "pilot_arithmetic",
       "status": "PASS"
     },
@@ -5673,8 +5945,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1418,
+  "passed": 1486,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1418
+  "total": 1486
 }
