@@ -1,0 +1,50 @@
+{
+  "schema": "cx004-recovery-decision/v1",
+  "date": "2026-10-18",
+  "claim_level": "Heuristic",
+  "status": "specific_author_input_dependency_after_bounded_public_search",
+  "new_existing_experiment_found": true,
+  "new_existing_experiment": "Lucy Xu's public 2022 thesis describes a five-day withdrawal arm in mouse SVZ whole-body partial reprogramming experiments.",
+  "new_outcome_computation_runnable": false,
+  "blocking_input": "An authoritative mapping of omitted RNA cell barcodes to animals, or complete prefilter RNA/LMO data from which that mapping can be reconstructed and checked.",
+  "design_timing_status": "Five-day withdrawal verified at design level; exact omitted-animal identities and collection times remain unlinked.",
+  "omitted_animals": ["928L", "929L", "999L", "BL61", "BL62", "BL63", "L0034"],
+  "five_withdrawal_labeled_animals": ["928L", "929L", "999L", "BL63", "L0034"],
+  "four_candidate_old_iOSKM_withdrawal_animals": ["928L", "929L", "999L", "L0034"],
+  "full_raw_download_executed": false,
+  "named_lmo_or_undetermined_original_fastq_found": false,
+  "fastq_contents_inspected": false,
+  "public_search_universal_exhaustion_claim": false,
+  "wetlab_necessity_proven": false,
+  "human_retinal_recovery_established": false,
+  "minimum_author_input_alternatives": [
+    {
+      "priority": 1,
+      "artifact": "Complete library-plus-RNA-barcode to animal assignment table",
+      "required_fields": ["cohort", "10x library or lane", "RNA barcode with documented suffix", "animal ID", "LMO or hash ID", "singlet/doublet/negative status", "QC and exclusion flags", "demultiplexing method and version"],
+      "acceptance": "The join is unique within library, reproduces the deposited included animals, preserves rejected and unassigned cells, and covers the omitted animals."
+    },
+    {
+      "priority": 2,
+      "artifact": "Complete prefilter Seurat object or compatible RNA, LMO and cell-metadata matrices",
+      "required_fields": ["raw RNA counts", "full LMO counts", "matching RNA and LMO barcodes", "oligo-to-animal map", "animal metadata", "QC and exclusion flags", "processing versions and checksums"],
+      "acceptance": "Includes cells before the paper-specific 2Dox5 and BL6 exclusions. Public feature names without the omitted-cell columns are insufficient."
+    },
+    {
+      "priority": 3,
+      "artifact": "Identified LMO or Undetermined FASTQ accession with read structure and sample sheet",
+      "required_fields": ["exact accession or file URL", "checksum", "library identity", "read structure", "sample sheet", "oligo-to-animal map"],
+      "acceptance": "Establish that the files contain the required multiplexing observations before downloading large sequencing files. Current GEX filenames alone do not establish this."
+    }
+  ],
+  "required_for_every_route": [
+    "Confirm which named animals correspond to each thesis arm and whether the code label 2Dox5 indicates the same five-day endpoint for each animal.",
+    "Provide induction, final doxycycline removal and harvest dates/times, genotype, age, sex, and reasons for exclusion from the paper-specific object.",
+    "Confirm sharing and reuse permission for any newly supplied unpublished data."
+  ],
+  "reopen_rule": "Reopen computation when a verified public or author-supplied artifact satisfies one assignment route plus timing and reuse requirements. Freeze support, contrasts and QC before reading newly available outcomes; record the existing thesis outcome exposure.",
+  "conditional_experimental_requirement": "If no usable existing assignments or equivalent withdrawal observations can be recovered, this mouse-specific withdrawal question requires new observations. Human retinal persistence, identity, unusual-state calibration and function remain separate requirements assessed by the overall campaign.",
+  "messages_sent_by_this_lane": false,
+  "wetlab_purchase_or_arrangement": false,
+  "paid_compute": false
+}

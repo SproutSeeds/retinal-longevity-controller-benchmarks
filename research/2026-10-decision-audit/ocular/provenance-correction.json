@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-18T12:18:34.389166+00:00",
+  "frozen_bytes_changed": false,
+  "frozen_file": "panels.json",
+  "frozen_file_sha256": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+  "literal_pointer": "../analysis/orthology.json",
+  "outcomes_changed": false,
+  "resolved_copy": "inherited-orthology.json",
+  "sha256": "7fcde9598a1ced6a9275eded22fac20dbf76a36736e32609ec4db293d260f372",
+  "source_public_url": "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/blob/566621cdfe5a87d56b94d3baf2cafb7bb2b6030c/research/2026-10-neural-validation/analysis/orthology.json",
+  "stage": "post_analysis_provenance_location_correction"
+}

@@ -1,0 +1,71 @@
+{
+  "schema": "cx004-timing-evidence/v1",
+  "review_date": "2026-10-18",
+  "sources": [
+    {
+      "id": "thesis_design",
+      "claim_level": "Verified",
+      "source_id": "stanford-Xu-thesis.pdf",
+      "url": "https://stacks.stanford.edu/file/ck834ff5386/Dissertation_LucyXu_2022-augmented.pdf",
+      "sha256": "7e4ab5584f11b26197d7d85b80031a3b1695dea6828b33040aaadba4cb4b342f",
+      "pdf_pages_one_based": [97, 98, 106, 107],
+      "printed_pages": [85, 86, 94, 95],
+      "locators": ["Figure 3-1d and g", "Figure 3-6a and legend"],
+      "method": "Text extraction and visual inspection of the original figure pages",
+      "facts": {
+        "cycles": 3,
+        "doxycycline_on_days_per_cycle": 2,
+        "doxycycline_off_days_per_cycle": 5,
+        "post_final_pulse_withdrawal_days": 5,
+        "immediate_group": "Old+OSKM",
+        "withdrawal_group": "Old+OSKM-5d",
+        "combined_experiments": 2,
+        "combined_young_animals": 2,
+        "combined_old_control_animals": 5,
+        "combined_old_OSKM_animals": 4,
+        "combined_old_OSKM_withdrawal_animals": 4,
+        "first_experiment_old_age_months": [18, 20],
+        "first_experiment_animals_per_condition": 2,
+        "first_experiment_tenx_chemistry": "3-prime v3"
+      },
+      "scope": "Verified design-level description. Figure groups do not identify the omitted animals or their barcodes. Doxycycline withdrawal does not by itself establish instantaneous cessation of factor expression."
+    },
+    {
+      "id": "thesis_to_code_reconciliation",
+      "claim_level": "Heuristic",
+      "source_ids": ["stanford-Xu-thesis.pdf", "author-iOSKM_cohort1__seurat_part2.R", "author-iOSKM_cohort2__iOSKM2_seurat_part2.R"],
+      "candidate_animal_labels": ["928L", "929L", "999L", "L0034"],
+      "other_withdrawal_labeled_animal": "BL63",
+      "other_withdrawal_labeled_age_genotype": "old_BL6",
+      "evidence": "The four candidate old iOSKM labels and two-cohort count agree with the thesis's four old OSKM withdrawal animals. The fifth 2Dox5 label is an old_BL6 animal in author code.",
+      "named_animal_match_verified": false,
+      "scope": "Count and design consistency only; names, timestamps, sex and barcode assignments require an authoritative link."
+    },
+    {
+      "id": "publisher_exclusion_reason",
+      "claim_level": "Verified",
+      "source_id": "reporting-summary.pdf",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-024-00594-3/MediaObjects/43587_2024_594_MOESM1_ESM.pdf",
+      "sha256": "6a9e55575f2777c2ec97bfebf173c1bada92e74d53fb3d913e26f598e72a5bd5",
+      "pdf_pages_one_based": [2],
+      "locator": "Life sciences study design / Data exclusions",
+      "method": "Visual inspection; the PDF text extractor did not recover the form text",
+      "fact": "The reporting summary says additional samples sequenced alongside whole-body cohorts 1 and 2 were excluded from this study because they belonged to a separate study. It points to Supplementary Table 1.",
+      "scope": "This explains study scope, not a biological exclusion criterion or a guarantee of current data availability."
+    },
+    {
+      "id": "published_withdrawal_outcome_exposure",
+      "claim_level": "Verified",
+      "source_id": "stanford-Xu-thesis.pdf",
+      "url": "https://purl.stanford.edu/ck834ff5386",
+      "pdf_pages_one_based": [88],
+      "printed_pages": [76],
+      "method": "Narrative read while locating induction and collection timing",
+      "fact": "The thesis reports that the neuroblast proportion returned to the old-control baseline after doxycycline withdrawal and discusses possible migration or a transient response.",
+      "scope": "Verification is of the author's report. No cell-level outcome was reconstructed, no numerical plot data were digitized, and this is not independent replication or proof of durable benefit."
+    }
+  ],
+  "exact_per_animal_collection_timestamps_recovered": false,
+  "exact_omitted_cell_to_animal_assignments_recovered": false,
+  "thesis_is_independent_replication": false
+}

@@ -1,0 +1,21 @@
+{
+  "implementation_corrections": [
+    "Accept literal construct equality before alias mapping.",
+    "Require a verified count-matrix column for an accepted join.",
+    "Reject use of a differently hashed manifest."
+  ],
+  "join_manifest": {
+    "path": "reference-join-manifest.json",
+    "rows": 807,
+    "sha256": "e4a6d0e9c56b4ecf820a149235b5dba30a352a0d01a180055fece56f6c4b8513"
+  },
+  "original_contract_sha256": "a94a3db28a0c198350744b6d86b0d93a106cf35ade6c0924a3d90e03224270f4",
+  "reason": "Original frozen reference-inputs.json pinned the 72-row raw withdrawal manifest. The extractor requires the larger normalized metadata manifest and had used it without a pinned binding. Preserve the original freeze; this addendum explicitly binds the prior published metadata and does not retroactively claim a pre-outcome freeze. The joined subset is selected by accession and organism only. No selection by reported age was made.",
+  "recorded_at_utc": "2026-10-18T12:01:58.160687+00:00",
+  "schema_version": 1,
+  "source_manifest": {
+    "relative_path": "../../cx004-public-evidence-resolution-2026-10-17/sample-metadata.json",
+    "sha256": "0b907b9f44c26282b7ac9febf7b645b5875f937da0e33899baddc1ef6781aab9"
+  },
+  "stage": "post_numeric_inspection_input_binding_correction"
+}

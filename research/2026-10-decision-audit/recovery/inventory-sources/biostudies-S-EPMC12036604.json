@@ -1,0 +1,238 @@
+{
+  "accno" : "S-EPMC12036604",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Restoration of neuronal progenitors by partial reprogramming in the aged neurogenic niche."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2024-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Restoration of neuronal progenitors by partial reprogramming in the aged neurogenic niche."
+    }, {
+      "name" : "Abstract",
+      "value" : "Partial reprogramming (pulsed expression of reprogramming transcription factors) improves the function of several tissues in old mice. However, it remains largely unknown how partial reprogramming impacts the old brain. Here we use single-cell transcriptomics to systematically examine how partial reprogramming influences the subventricular zone neurogenic niche in aged mouse brains. Whole-body partial reprogramming mainly improves neuroblasts (cells committed to give rise to new neurons) in the old neurogenic niche, restoring neuroblast proportion to more youthful levels. Interestingly, targeting partial reprogramming specifically to the neurogenic niche also boosts the proportion of neuroblasts and their precursors (neural stem cells) in old mice and improves several molecular signatures of aging, suggesting that the beneficial effects of reprogramming are niche intrinsic. In old neural stem cell cultures, partial reprogramming cell autonomously restores the proportion of neuroblasts during differentiation and blunts some age-related transcriptomic changes. Importantly, partial reprogramming improves the production of new neurons in vitro and in old brains. Our work suggests that partial reprogramming could be used to rejuvenate the neurogenic niche and counter brain decline in old individuals."
+    } ],
+    "files" : [ {
+      "path" : "NIHMS2069809-supplement-Source_Data.xlsx",
+      "size" : 69302,
+      "type" : "file"
+    }, {
+      "path" : "NIHMS2069809-supplement-Supplementary_Material.xlsx",
+      "size" : 83405567,
+      "type" : "file"
+    } ],
+    "links" : [ [ {
+      "url" : "10.5281/zenodo.10626909",
+      "attributes" : [ {
+        "name" : "Type",
+        "value" : "doi"
+      } ]
+    } ] ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NIA NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 AG036695"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "U.S. Department of Health &amp; Human Services | NIH | National Institute on Aging"
+      }, {
+        "name" : "grant_id",
+        "value" : "P01 AG036695"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Stanford Graduate Fellowship"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Milky Way Research Foundation"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Science Foundation"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCRR NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "S10 RR025518"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCRR NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "S10 RR027431"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "Nature aging"
+      }, {
+        "name" : "Volume",
+        "value" : "4(4)"
+      }, {
+        "name" : "Pages",
+        "value" : "546-567"
+      }, {
+        "name" : "Publication date",
+        "value" : "2024 Apr"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1038/s43587-024-00594-3",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "10.1038/s43587-024-00594-3",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC12036604",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "38553564",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Xu L"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-6765-463X"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Ramirez-Matias J"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-2228-1440"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Hauptschein M"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Sun ED"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-8805-9864"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a5",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Lunger JC"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a6",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Buckley MT"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a7",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Brunet A"
+      }, {
+        "name" : "affiliation",
+        "value" : "o2",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Genetics, Stanford University, Stanford, CA, USA"
+      } ]
+    }, {
+      "accno" : "o2",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Genetics, Stanford University, Stanford, CA, USA. abrunet1@stanford.edu"
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

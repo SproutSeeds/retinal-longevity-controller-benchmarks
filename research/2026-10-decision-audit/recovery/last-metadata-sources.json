@@ -1,0 +1,10 @@
+[
+  {
+    "id": "pubmed-related-records.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39695234,39071282,38553564,31645721,30602763&retmode=xml"
+  },
+  {
+    "id": "sra-project-search.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=sra&term=PRJNA931251&retmax=100&retmode=xml"
+  }
+]

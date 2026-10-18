@@ -1,0 +1,7 @@
+{
+  "sources": [
+    {"id":"geo350289-series.txt","url":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=self&form=text&view=full","max_bytes":2000000},
+    {"id":"geo350289-files.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/","max_bytes":2000000},
+    {"id":"geo350289-metadata.xlsx","url":"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx","max_bytes":20000000}
+  ]
+}

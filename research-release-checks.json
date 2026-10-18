@@ -45,6 +45,22 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:research/2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-decision-audit/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-decision-audit/figures/mouse-cycle-comparison.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-decision-audit/figures/human-short-withdrawal-reference.pdf",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-neural-validation/README.md",
       "status": "PASS"
     },
@@ -230,6 +246,2042 @@
     },
     {
       "name": "credential_patterns:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/.gitattributes",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/CLAIM.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/FAILED_PATHS.md:assignment/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/FAILED_PATHS.md:human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/FAILED_PATHS.md:recovery/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/FAILED_PATHS.md:ocular/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/FREEZES.jsonl",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/METHODS.md:human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/METHODS.md:ocular/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/METHODS.md:ocular/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/METHODS.md:recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/METHODS.md:assignment/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/NEXT_STEPS.md:../2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/PORTABLE_CHECKS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/PORTABLE_CHECKS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/PORTABLE_CHECKS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:figures/human-short-withdrawal-reference.png",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:figures/human-short-withdrawal-reference.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:ocular/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:figures/mouse-cycle-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/README.md:../2026-10-public-data/MEASUREMENT_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REPRODUCTION.md:human/VERIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REPRODUCTION.md:ocular/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REPRODUCTION.md:recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REPRODUCTION.md:figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REPRODUCTION.md:REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/REVIEW.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/REVIEW.md:ocular/PROVENANCE_CORRECTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/assignment/REPORT.md:searches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/assignment/REPORT.md:results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/inspect_assignment.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/inspect_assignment.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/inspect_assignment.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/searches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/searches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/searches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/assignment/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/assignment/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/assignment/source-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/build_decision.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/build_decision.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/build_decision.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/figures/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/figures/human-short-withdrawal-reference.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/figures/human-short-withdrawal-reference.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/figures/mouse-cycle-comparison.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/figures/mouse-cycle-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:complete-workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:validation-reference-joins.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:replicate-label-review.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:recovery-reference-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:recovery-reference-groups.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:chronology-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:clock-readiness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:search-ledger.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:candidate-dispositions.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:reference-input-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:recovery-reference-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/REPORT.md:VERIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/VERIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/VERIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/VERIFICATION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/VERIFICATION.md:verification-full.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/human/VERIFICATION.md:replay-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/audit_replicate_labels.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/audit_replicate_labels.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/audit_replicate_labels.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/bind_join_input.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/bind_join_input.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/bind_join_input.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/candidate-dispositions.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/candidate-dispositions.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/candidate-dispositions.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/chronology-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/chronology-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/chronology-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/clock-readiness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/clock-readiness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/clock-readiness.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/complete-workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/complete-workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/complete-workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/extract_recovery_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/extract_recovery_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/extract_recovery_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/fetch_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/fetch_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/fetch_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/prepare_final_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/prepare_final_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/prepare_final_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/prepare_followups.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/prepare_followups.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/prepare_followups.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/prepare_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/prepare_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/prepare_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/prepare_search.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/prepare_search.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/prepare_search.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/raw-counts-structure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/raw-counts-structure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/raw-counts-structure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/recovery-reference-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/recovery-reference-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/recovery-reference-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/recovery-reference-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/recovery-reference-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/recovery-reference-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/recovery-reference-groups.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/reference-audit-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/reference-audit-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/reference-audit-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/reference-input-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/reference-input-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/reference-input-addendum.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/reference-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/reference-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/reference-inputs.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/reference-join-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/reference-join-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/reference-join-manifest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/reference-output-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/reference-output-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/reference-output-audit.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/replay-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/replay-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/replay-receipt.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/replay.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/replicate-label-review.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/replicate-label-review.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/replicate-label-review.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/retrieval-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/retrieval-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/retrieval-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/retrieval-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/search-ledger.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/search-ledger.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/search-ledger.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/source-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/source-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/source-plan-1.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/source-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/source-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/source-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/source-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/source-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/source-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/source-plan-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/source-plan-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/source-plan-4.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/test_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/test_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/test_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/validation-reference-joins.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/verification-full.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/verification-full.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/verification-full.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/workbook-inventory.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/human/xlsx_cells.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/human/xlsx_cells.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/human/xlsx_cells.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:results/",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:RAW_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/CLAIM.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/DESIGN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/DESIGN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/DESIGN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/PROVENANCE_CORRECTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/PROVENANCE_CORRECTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/PROVENANCE_CORRECTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/PROVENANCE_CORRECTION.md:inherited-orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/PROVENANCE_CORRECTION.md:provenance-correction.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/RAW_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/RAW_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/RAW_AUDIT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:metadata-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:results/",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPORT.md:REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/REPRODUCTION.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPRODUCTION.md:acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPRODUCTION.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPRODUCTION.md:admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/ocular/REPRODUCTION.md:REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/RUN_RECEIPT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/RUN_RECEIPT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/RUN_RECEIPT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/inherited-orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/inherited-orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/inherited-orthology.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/metadata-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/metadata-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/metadata-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/provenance-correction.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/provenance-correction.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/provenance-correction.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/raw_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/raw_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/raw_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/animal_leaveouts.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/animal_scores.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/contrasts.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/execution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/results/execution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/results/execution.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/gene_contributions.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/gene_leaveouts.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/marker_bin_composition.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/marker_bin_contrasts.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/marker_bin_scores.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/normalization.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/panel_coverage.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/permutations.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/pseudobulk_counts.csv.gz",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/sample_qc.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/results/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/results/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/results/verification.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/ocular/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/ocular/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/ocular/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/plot_results.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/public-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:timing-evidence.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:sample-reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-decision-audit/recovery/REPORT.md:VERIFICATION_STRICT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/SOURCES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/VERIFICATION_STRICT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/VERIFICATION_STRICT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/VERIFICATION_STRICT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/acquire_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/acquire_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/acquire_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/acquisition.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/build_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/cross-repository-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/cross-repository-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/cross-repository-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/dependency-snapshots/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/dependency-snapshots/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/dependency-snapshots/full-animal-source-map.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/dependency-snapshots/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/dependency-snapshots/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/dependency-snapshots/publisher-sample-metadata.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/dependency-snapshots/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/dependency-snapshots/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/dependency-snapshots/raw-availability.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/finalize_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/finalize_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/finalize_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/initial-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/initial-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/initial-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/biostudies-S-EPMC12036604.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/biostudies-S-EPMC12036604.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/biostudies-S-EPMC12036604.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/ena-SRP420832.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/geo-filelist.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/geo-filelist.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/geo-filelist.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-branches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-branches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-branches.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-commits.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-commits.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-commits.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-forks.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-forks.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-forks.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-issues.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-issues.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-issues.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-releases.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-releases.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-releases.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tags.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tags.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tags.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/sra-entire-project.xml",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/sra-project-search.xml",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-latest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-latest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-latest.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-versions-default.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-versions-default.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/inventory-sources/zenodo-versions-default.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/last-metadata-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/last-metadata-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/last-metadata-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/project-completeness-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/project-completeness-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/project-completeness-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/related-study-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/related-study-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/related-study-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/sample-reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/sample-reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/sample-reconciliation.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/spatial-followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/spatial-followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/spatial-followup-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/thesis-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/thesis-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/thesis-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/timing-evidence.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/timing-evidence.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/timing-evidence.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/recovery/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/recovery/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/recovery/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/requirements.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/requirements.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/requirements.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/run_checks.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-decision-audit/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-decision-audit/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-decision-audit/verify.py",
       "status": "PASS"
     },
     {
@@ -3621,8 +5673,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 905,
+  "passed": 1418,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 905
+  "total": 1418
 }

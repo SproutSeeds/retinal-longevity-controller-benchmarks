@@ -1,0 +1,30 @@
+[
+  {
+    "id": "spatial-repository.json",
+    "url": "https://api.github.com/repos/sunericd/spatial_aging_clocks"
+  },
+  {
+    "id": "spatial-tree-master.json",
+    "url": "https://api.github.com/repos/sunericd/spatial_aging_clocks/git/trees/master?recursive=1"
+  },
+  {
+    "id": "spatial-README.md",
+    "url": "https://raw.githubusercontent.com/sunericd/spatial_aging_clocks/master/README.md"
+  },
+  {
+    "id": "spatial-zenodo.json",
+    "url": "https://zenodo.org/api/records/13883176"
+  },
+  {
+    "id": "spatial-nature.html",
+    "url": "https://www.nature.com/articles/s41586-024-08334-8"
+  },
+  {
+    "id": "biostudies-S-EPMC12036604.json",
+    "url": "https://www.ebi.ac.uk/biostudies/api/v1/studies/S-EPMC12036604"
+  },
+  {
+    "id": "zenodo-versions-default.json",
+    "url": "https://zenodo.org/api/records/12613762/versions"
+  }
+]

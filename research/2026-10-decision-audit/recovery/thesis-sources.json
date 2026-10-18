@@ -1,0 +1,14 @@
+[
+  {
+    "id": "stanford-Xu-thesis.pdf",
+    "url": "https://stacks.stanford.edu/file/ck834ff5386/Dissertation_LucyXu_2022-augmented.pdf",
+    "expected_format": "pdf",
+    "expected_bytes": 95375034,
+    "max_bytes": 100000000,
+    "discovery": "Stanford SearchWorks public record 14420967, browser-rendered file link on 2026-10-18; HEAD verified PDF MIME and exact size before acquisition"
+  },
+  {
+    "id": "stanford-Xu-purl.html",
+    "url": "https://purl.stanford.edu/ck834ff5386"
+  }
+]

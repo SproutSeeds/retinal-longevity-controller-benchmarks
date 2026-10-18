@@ -1,0 +1,57 @@
+{
+  "accession": "GSE350289",
+  "claim_level": "Verified",
+  "directory_entries": [
+    "/geo/series/GSE350nnn/GSE350289/",
+    "GSE350289_280_Gene_List.csv.gz",
+    "GSE350289_Ctrl_barcodes.tsv.gz",
+    "GSE350289_Ctrl_features.tsv.gz",
+    "GSE350289_Ctrl_matrix.mtx.gz",
+    "GSE350289_Sample1_barcodes.tsv.gz",
+    "GSE350289_Sample1_features.tsv.gz",
+    "GSE350289_Sample1_matrix.mtx.gz",
+    "GSE350289_Sample2_barcodes.tsv.gz",
+    "GSE350289_Sample2_features.tsv.gz",
+    "GSE350289_Sample2_matrix.mtx.gz",
+    "GSE350289_Sample3_barcodes.tsv.gz",
+    "GSE350289_Sample3_features.tsv.gz",
+    "GSE350289_Sample3_matrix.mtx.gz",
+    "GSE350289_metadata_individual_cells.xlsx",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "outcome_analysis_unlocked": false,
+  "prior_content_findings_reused_only_if_identical": {
+    "Ctrl_nonempty_rows": 139938,
+    "Sample_1_nonempty_rows": 161422,
+    "Sample_2_nonempty_rows": 0,
+    "Sample_3_nonempty_rows": 0,
+    "library_barcode_perturbation_donor_assignment_recovered": false
+  },
+  "prior_workbook_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "raw_expression_downloaded_this_pass": false,
+  "reopen_trigger": "Corrected library plus cell-barcode assignment file with treatment, donor/pool provenance and assignment QC; independently verify exact joins before outcome analysis.",
+  "scope_limit": "The inspected GEO records and workbook are a dated snapshot. No claim that an assignment file is absent from every repository or author-held source.",
+  "series_last_updated": [
+    "Oct 13 2026"
+  ],
+  "series_sample_records": 769,
+  "series_supplementary_files": [
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_280_Gene_List.csv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Ctrl_barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Ctrl_features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Ctrl_matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample1_barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample1_features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample1_matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample2_barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample2_features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample2_matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample3_barcodes.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample3_features.tsv.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample3_matrix.mtx.gz",
+    "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+  ],
+  "status": "await_corrected_assignment",
+  "workbook_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "workbook_unchanged": true
+}

@@ -1,0 +1,9 @@
+{
+  "experiment_replacement": "INCONCLUSIVE",
+  "failed": [],
+  "passed": 538,
+  "schema": "cx004-decision-packet-verification/v1",
+  "scope": "Reviewed artifact bytes, source bindings, saved arithmetic and explicit evidence boundaries. Not biological validation.",
+  "status": "PASS",
+  "total": 538
+}

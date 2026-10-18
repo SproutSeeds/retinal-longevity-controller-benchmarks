@@ -1,0 +1,1679 @@
+{
+  "checks": [
+    {
+      "name": "source IDs are unique",
+      "result": "PASS"
+    },
+    {
+      "name": "attempted source count",
+      "result": "PASS"
+    },
+    {
+      "name": "acquired source count",
+      "result": "PASS"
+    },
+    {
+      "name": "failed source count retained",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-branches.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tags.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-releases.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-commits.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-main.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-main.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-main.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-main.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-forks.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-issues.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-10626910.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-10626910.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-10626910.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-10626910.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-12613762.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-12613762.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-12613762.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-12613762.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-series.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-series.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-series.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-series.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-series-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-series-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-series-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-series-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022367-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022367-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022367-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022367-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022368-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022368-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022368-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022368-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022369-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022369-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022369-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022369-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022370-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022370-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022370-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022370-suppl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: ena-SRP420832.tsv",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: ncbi-wholebody-runs.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: ncbi-wholebody-runs.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: ncbi-wholebody-runs.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: ncbi-wholebody-runs.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: PMC12036604.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: PMC12036604.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: PMC12036604.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: PMC12036604.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: nature-00594.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: nature-00594.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: nature-00594.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: nature-00594.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-011586aea2e8612c794e57d2a260fa1a29d417a0.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-f6adb43d2769a014c450817a186d53c29e103ba6.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-582780ad05bd163277dc20846980dbcf7dbe2279.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-eab5367d54fb9cab809d748697bd87a59d98ea83.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-038cee1504a0e22cc994401f0b1ee19156a6866d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-tree-b840b9489c129bb3dbe1f7404a9754b2dd86024d.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-SVZ_ciOSKM__ciOSKM_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-SVZ_ciOSKM__ciOSKM_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-SVZ_ciOSKM__ciOSKM_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-SVZ_ciOSKM__ciOSKM_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-SVZ_ciOSKM__ciOSKM_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-SVZ_ciOSKM__ciOSKM_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-SVZ_ciOSKM__ciOSKM_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-SVZ_ciOSKM__ciOSKM_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-SVZ_ciOSKM__ciOSKM_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-SVZ_ciOSKM__ciOSKM_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-SVZ_ciOSKM__ciOSKM_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-SVZ_ciOSKM__ciOSKM_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-SVZ_ciOSKM__ciOSKM_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-SVZ_ciOSKM__ciOSKM_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-SVZ_ciOSKM__ciOSKM_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-SVZ_ciOSKM__ciOSKM_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-SVZ_ciOSKM__ciOSKM_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-SVZ_ciOSKM__ciOSKM_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-SVZ_ciOSKM__ciOSKM_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-SVZ_ciOSKM__ciOSKM_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-bulkRNAseq__DESeq2_DEG_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-bulkRNAseq__DESeq2_DEG_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-bulkRNAseq__DESeq2_DEG_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-bulkRNAseq__DESeq2_DEG_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-bulkRNAseq__DESeq2_analysis_chimeric_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-bulkRNAseq__DESeq2_analysis_chimeric_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-bulkRNAseq__DESeq2_analysis_chimeric_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-bulkRNAseq__DESeq2_analysis_chimeric_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-bulkRNAseq__GSEA_bulkRNAseq_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-bulkRNAseq__GSEA_bulkRNAseq_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-bulkRNAseq__GSEA_bulkRNAseq_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-bulkRNAseq__GSEA_bulkRNAseq_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-bulkRNAseq__GeneNormCounts_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-bulkRNAseq__GeneNormCounts_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-bulkRNAseq__GeneNormCounts_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-bulkRNAseq__GeneNormCounts_plots_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-cellproportion_agingclock__proportions_model.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-cellproportion_agingclock__proportions_model.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-cellproportion_agingclock__proportions_model.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-cellproportion_agingclock__proportions_model.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-comparison_ciOSKM_iOSKM__wholebody-v-svztargeted_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-comparison_ciOSKM_iOSKM__wholebody-v-svztargeted_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-comparison_ciOSKM_iOSKM__wholebody-v-svztargeted_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-comparison_ciOSKM_iOSKM__wholebody-v-svztargeted_clean.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort1__seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort1__seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort1__seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort1__seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort1__seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort1__seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort1__seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort1__seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort2__iOSKM2_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort2__iOSKM2_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort2__iOSKM2_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort2__iOSKM2_DEGplotting.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort2__iOSKM2_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort2__iOSKM2_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort2__iOSKM2_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort2__iOSKM2_GSEA.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort2__iOSKM2_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort2__iOSKM2_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort2__iOSKM2_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort2__iOSKM2_seurat_part1.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort2__iOSKM2_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort2__iOSKM2_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort2__iOSKM2_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort2__iOSKM2_seurat_part2.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: author-iOSKM_cohort2__iOSKM_combined_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: author-iOSKM_cohort2__iOSKM_combined_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: author-iOSKM_cohort2__iOSKM_combined_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: author-iOSKM_cohort2__iOSKM_combined_proportions.R",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: github-author-repositories.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: github-author-repositories.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: github-author-repositories.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: github-author-repositories.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-latest.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-media-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-media-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-media-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-media-files.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-filelist.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: reporting-summary.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: reporting-summary.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: reporting-summary.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: reporting-summary.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: source-data.xlsx",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: source-data.xlsx",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: source-data.xlsx",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: source-data.xlsx",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022367.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022367.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022367.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022367.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022368.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022368.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022368.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022368.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022369.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022369.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022369.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022369.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: geo-GSM7022370.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: geo-GSM7022370.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: geo-GSM7022370.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: geo-GSM7022370.txt",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-repository.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-tree-master.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-tree-master.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-tree-master.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-tree-master.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-README.md",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-zenodo.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-zenodo.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-zenodo.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-zenodo.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-nature.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-nature.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-nature.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-nature.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: biostudies-S-EPMC12036604.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-versions-default.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-1D_metadata_integration.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-1D_metadata_integration.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-1D_metadata_integration.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-1D_metadata_integration.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-3E_clocks_external_validation.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-3E_clocks_external_validation.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-3E_clocks_external_validation.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-3E_clocks_external_validation.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-4A_application_to_interventions.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-4A_application_to_interventions.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-4A_application_to_interventions.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-4A_application_to_interventions.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-5E_external_dataset_proximity_effects.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-5E_external_dataset_proximity_effects.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-5E_external_dataset_proximity_effects.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-5E_external_dataset_proximity_effects.ipynb",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: stanford-dissertation-event.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: stanford-dissertation-event.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: stanford-dissertation-event.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: stanford-dissertation-event.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: stanford-searchworks-title.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: stanford-searchworks-title.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: stanford-searchworks-title.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: stanford-searchworks-title.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: stanford-searchworks-author.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: stanford-searchworks-author.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: stanford-searchworks-author.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: stanford-searchworks-author.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: pubmed-related-author.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: pubmed-related-author.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: pubmed-related-author.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: pubmed-related-author.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: zenodo-title-search.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: zenodo-title-search.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: zenodo-title-search.json",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: zenodo-title-search.json",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: pubmed-related-records.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: pubmed-related-records.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: pubmed-related-records.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: pubmed-related-records.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: sra-project-search.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: sra-entire-project.xml",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: spatial-PMC11798877.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: spatial-PMC11798877.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: spatial-PMC11798877.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: spatial-PMC11798877.html",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: stanford-Xu-thesis.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: stanford-Xu-thesis.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: stanford-Xu-thesis.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: stanford-Xu-thesis.pdf",
+      "result": "PASS"
+    },
+    {
+      "name": "retrieval provenance: stanford-Xu-purl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source exists: stanford-Xu-purl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source SHA-256: stanford-Xu-purl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "source bytes: stanford-Xu-purl.html",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction SHA-256: full-animal-source-map.json",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction attribution: full-animal-source-map.json",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction SHA-256: publisher-sample-metadata.json",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction attribution: publisher-sample-metadata.json",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction SHA-256: raw-availability.json",
+      "result": "PASS"
+    },
+    {
+      "name": "prior extraction attribution: raw-availability.json",
+      "result": "PASS"
+    },
+    {
+      "name": "complete inventory rebuild equality",
+      "result": "PASS"
+    },
+    {
+      "name": "pinned author head",
+      "result": "PASS"
+    },
+    {
+      "name": "all six returned commits inspected",
+      "result": "PASS"
+    },
+    {
+      "name": "GEO complete triplets",
+      "result": "PASS"
+    },
+    {
+      "name": "SRA project inventory",
+      "result": "PASS"
+    },
+    {
+      "name": "whole-body SRA runs",
+      "result": "PASS"
+    },
+    {
+      "name": "no named LMO or Undetermined original file in inspected inventory",
+      "result": "PASS"
+    },
+    {
+      "name": "filename inventory not promoted to read-content proof",
+      "result": "PASS"
+    },
+    {
+      "name": "all whole-body ENA file-size sum",
+      "result": "PASS"
+    },
+    {
+      "name": "cohort 1 ENA size scope",
+      "result": "PASS"
+    },
+    {
+      "name": "whole-body file unchanged across two records: svz_iOSKM_cohort1_toshare.rds",
+      "result": "PASS"
+    },
+    {
+      "name": "whole-body file unchanged across two records: svz_iOSKM_cohort2_toshare.rds",
+      "result": "PASS"
+    },
+    {
+      "name": "changed SVZ-targeted object is not called unchanged",
+      "result": "PASS"
+    },
+    {
+      "name": "sample reconciliation rebuild equality",
+      "result": "PASS"
+    },
+    {
+      "name": "omitted and withdrawal-label counts separated",
+      "result": "PASS"
+    },
+    {
+      "name": "four candidate old OSKM withdrawal animals",
+      "result": "PASS"
+    },
+    {
+      "name": "row-level timing remains unknown",
+      "result": "PASS"
+    },
+    {
+      "name": "unrecovered barcode assignments retained",
+      "result": "PASS"
+    },
+    {
+      "name": "publisher and author BL6 aliases preserved",
+      "result": "PASS"
+    },
+    {
+      "name": "timing primary source binding: thesis_design",
+      "result": "PASS"
+    },
+    {
+      "name": "timing primary source binding: publisher_exclusion_reason",
+      "result": "PASS"
+    },
+    {
+      "name": "design-level five-day withdrawal recorded",
+      "result": "PASS"
+    },
+    {
+      "name": "count matching is explicitly heuristic",
+      "result": "PASS"
+    },
+    {
+      "name": "published outcome exposure disclosed",
+      "result": "PASS"
+    },
+    {
+      "name": "thesis is not independent replication",
+      "result": "PASS"
+    },
+    {
+      "name": "existing withdrawal experiment recognized",
+      "result": "PASS"
+    },
+    {
+      "name": "no new outcome computation admitted without assignments",
+      "result": "PASS"
+    },
+    {
+      "name": "bounded search not universal wet-lab necessity",
+      "result": "PASS"
+    },
+    {
+      "name": "mouse neural lead not human retinal closure",
+      "result": "PASS"
+    },
+    {
+      "name": "no author send by this lane",
+      "result": "PASS"
+    },
+    {
+      "name": "decision animal list reconciles",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: 928L",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: 929L",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: 999L",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: BL61",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: BL62",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: BL63",
+      "result": "PASS"
+    },
+    {
+      "name": "exact animal hash label in pinned author code: L0034",
+      "result": "PASS"
+    }
+  ],
+  "checks_passed": 417,
+  "checks_total": 417,
+  "mode": "strict_cached_sources",
+  "result": "PASS",
+  "schema": "cx004-recovery-verification/v1",
+  "scientific_recovery_verdict": "INCONCLUSIVE",
+  "scope": "Source hashes, factual inventories and evidence-gate consistency. Visual figure interpretations are recorded human/agent review; software checks are not biological validation."
+}

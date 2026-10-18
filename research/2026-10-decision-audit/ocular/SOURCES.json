@@ -1,0 +1,290 @@
+{
+  "cache_root": "/private/tmp/cx004-decision-audit-2026-10-18/ocular",
+  "checked_at_utc": "2026-10-18T12:04:12.811775+00:00",
+  "claim_level": "Verified",
+  "data_leads": [
+    {
+      "accession": "GSE307031",
+      "finding": "Retinal Xenium and low-level constitutive Muller-glia OSK. Useful ocular context, not controlled verified withdrawal; sections and sex labels do not alone establish all animal joins.",
+      "status": "metadata_checked_not_admitted_for_new_expression_computation",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307031"
+    },
+    {
+      "accession": "GSE304038",
+      "finding": "Existing RPE OSK series. Current revisit confirms group labels, still lacks full animal/eye/cohort and functional endpoint joins in sample records.",
+      "status": "prior_reanalysis_not_repeated",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038"
+    },
+    {
+      "accession": "GSE304043",
+      "finding": "Existing RPE GSTA4 series. Sample labels describe3 old GFP and4 old GSTA4 libraries; no new animal/eye/endpoint joins identified here.",
+      "status": "metadata_checked_not_new_recovery_evidence",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043"
+    },
+    {
+      "accession": "GSE288182",
+      "finding": "Nine public RRBS samples:3 WT mock,3 APP/PS1 mock,3 APP/PS1 OSK. Sustained OSK, molecular methylation without withdrawal time course or human retinal observations. The primary article explicitly leaves transient/withdrawal durability and delayed identity effects unresolved.",
+      "primary_article": "https://doi.org/10.1186/s12974-026-03854-8",
+      "raw_expression_downloaded": false,
+      "status": "available_orthogonal_context_not_admitted_for_recovery_gap_closure",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288182"
+    }
+  ],
+  "primary_publications": [
+    {
+      "doi": "10.1016/j.neuron.2025.11.028",
+      "license": "CC BY 4.0 verified in publisher API and Crossref deposit",
+      "methods_verified": [
+        "ten female sequencing animals:3 WT GFP,3 APP/PS1 GFP,4 APP/PS1 OSK",
+        "same ten animals supply RNA and ATAC",
+        "tet-off design; Dox cessation around learning and reintroduction afterwards",
+        "harvest one day after remote recall",
+        "two processing batches with all groups represented; per-animal join unavailable",
+        "RNA QC cutoffs and publicly linked author code"
+      ],
+      "publisher_fulltext_direct_http": "403; web indexed primary full text inspected, API returned metadata only",
+      "role": "admitted independent mPFC dataset",
+      "url": "https://doi.org/10.1016/j.neuron.2025.11.028"
+    },
+    {
+      "doi": "10.1038/s42003-024-06328-w",
+      "role": "independent raw-data lead; selected DEG tables insufficient to reconstruct all-gene panel scores; raw-read processing deferred",
+      "url": "https://www.nature.com/articles/s42003-024-06328-w"
+    }
+  ],
+  "records": [
+    {
+      "bytes": 2625,
+      "cache_relpath": "ocular-biorxiv-details.json",
+      "file": "ocular-biorxiv-details.json",
+      "final_url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.08.30.673239",
+      "retrieved_at_utc": "2026-10-18T11:45:35.577531+00:00",
+      "sha256": "eb586df2af64a4fce2906ab9843f0221123db537d5f8b0165eee99f82e8c9231",
+      "status": "retrieved",
+      "url": "https://api.biorxiv.org/details/biorxiv/10.1101/2025.08.30.673239"
+    },
+    {
+      "bytes": 508202,
+      "cache_relpath": "anton-fernandez-2024.html",
+      "file": "anton-fernandez-2024.html",
+      "final_url": "https://www.nature.com/articles/s42003-024-06328-w?error=cookies_not_supported&code=219f23f4-f0d7-431d-b71a-741d6f249511",
+      "retrieved_at_utc": "2026-10-18T11:45:35.577811+00:00",
+      "sha256": "f09d34546f3f9f832b64726c4bde75f91218e233f1f25cd943fb68d11dc1e4d8",
+      "status": "retrieved",
+      "url": "https://www.nature.com/articles/s42003-024-06328-w"
+    },
+    {
+      "bytes": 15769,
+      "cache_relpath": "PRJEB65922-runs.tsv",
+      "file": "PRJEB65922-runs.tsv",
+      "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65922&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,library_layout,library_strategy,fastq_bytes,fastq_md5,fastq_ftp,submitted_ftp&format=tsv",
+      "retrieved_at_utc": "2026-10-18T11:45:35.577901+00:00",
+      "sha256": "4c7dde3c928151ecce1309407fce7c8fb16b1288bfbcf7b10cfd242bda252748",
+      "status": "retrieved",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB65922&result=read_run&fields=run_accession,experiment_accession,sample_accession,sample_alias,experiment_alias,library_name,library_layout,library_strategy,fastq_bytes,fastq_md5,fastq_ftp,submitted_ftp&format=tsv"
+    },
+    {
+      "bytes": 49250,
+      "cache_relpath": "GSE304038-gsm.txt",
+      "file": "GSE304038-gsm.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=gsm&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:45:35.577953+00:00",
+      "sha256": "105306d001ffa978b043442e64ce7d606e7d8c0577f2c950e87a4a056e58ef32",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304038&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 19161,
+      "cache_relpath": "GSE304043-gsm.txt",
+      "file": "GSE304043-gsm.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=gsm&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:45:35.794259+00:00",
+      "sha256": "10dffdcf607c2a84efb7e6eb8ee0303966a211487f670d090bcb2e06ae1fc962",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE304043&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 79145,
+      "cache_relpath": "GSE276656-gsm.txt",
+      "file": "GSE276656-gsm.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276656&targ=gsm&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:48:16.651269+00:00",
+      "sha256": "78cab87af3dbc2040151ec76acbcd8391d287c4adee78939be73c5d1faf72577",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276656&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 2957,
+      "cache_relpath": "GSE276656-gse.txt",
+      "file": "GSE276656-gse.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276656&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:48:16.651717+00:00",
+      "sha256": "5a149129305f4e5336dd71a79f71a06edfb1918d96d8ca6cc9244a8bec76b7f2",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE276656&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 5250,
+      "cache_relpath": "multiome-github-tree.json",
+      "file": "multiome-github-tree.json",
+      "final_url": "https://api.github.com/repos/cesarsierran/multiome_OSK/git/trees/main?recursive=1",
+      "retrieved_at_utc": "2026-10-18T11:48:16.651885+00:00",
+      "sha256": "aa132de887e2af32a1cfa5a9b86aa6b2e1652ec55a86ca7a85ef3e469982b01b",
+      "status": "retrieved",
+      "url": "https://api.github.com/repos/cesarsierran/multiome_OSK/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 45298,
+      "cache_relpath": "anton-data2.xlsx",
+      "file": "anton-data2.xlsx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-024-06328-w/MediaObjects/42003_2024_6328_MOESM5_ESM.xlsx",
+      "retrieved_at_utc": "2026-10-18T11:48:16.652016+00:00",
+      "sha256": "f2ea4edca45b9fa4bcf70ded023e4d12c03ae183f75d2a2cb03c5e9922cde4d7",
+      "status": "retrieved",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-024-06328-w/MediaObjects/42003_2024_6328_MOESM5_ESM.xlsx"
+    },
+    {
+      "bytes": 443537,
+      "cache_relpath": "anton-data1.xlsx",
+      "file": "anton-data1.xlsx",
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-024-06328-w/MediaObjects/42003_2024_6328_MOESM4_ESM.xlsx",
+      "retrieved_at_utc": "2026-10-18T11:48:16.907361+00:00",
+      "sha256": "bf6b4ffc3ed816ef01ca93455dec89c2f08b353d9067b14c8aa83491515a4fa3",
+      "status": "retrieved",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-024-06328-w/MediaObjects/42003_2024_6328_MOESM4_ESM.xlsx"
+    },
+    {
+      "bytes": 3637,
+      "cache_relpath": "GSE307031-gse.txt",
+      "file": "GSE307031-gse.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307031&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:48:16.915143+00:00",
+      "sha256": "bf19f067f60d6bb7857c6118f144b55bbc8c51991231fc93d78272ead5d54f6b",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307031&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 34470,
+      "cache_relpath": "GSE307031-gsm.txt",
+      "file": "GSE307031-gsm.txt",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307031&targ=gsm&form=text&view=full",
+      "retrieved_at_utc": "2026-10-18T11:48:16.957189+00:00",
+      "sha256": "71e8b3a0ac2e9e0f74afacd867a6c451cfee808dd7793b59b5c6b0011cf663b5",
+      "status": "retrieved",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE307031&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 1865,
+      "cache_relpath": "author-README.md",
+      "file": "author-README.md",
+      "retrieved_at_utc": "2026-10-18T11:52:13.999317+00:00",
+      "sha256": "92f402e013cead33e962e0486ed32a925f26fdf8139d32fe63dfeb89bbb19ecc",
+      "url": "https://raw.githubusercontent.com/cesarsierran/multiome_OSK/e8018095f658f95cd7fcbbd0fefdb795d299d060/README.md"
+    },
+    {
+      "bytes": 2785,
+      "cache_relpath": "author-0_multiome_objs.R",
+      "file": "author-0_multiome_objs.R",
+      "retrieved_at_utc": "2026-10-18T11:52:14.151667+00:00",
+      "sha256": "bed2067931a6cae4748560463e8a003dc8946426244c49f22ee1f3faccf9f7c0",
+      "url": "https://raw.githubusercontent.com/cesarsierran/multiome_OSK/e8018095f658f95cd7fcbbd0fefdb795d299d060/scripts/0_multiome_objs.R"
+    },
+    {
+      "bytes": 1165,
+      "cache_relpath": "author-1_merge.R",
+      "file": "author-1_merge.R",
+      "retrieved_at_utc": "2026-10-18T11:52:14.314995+00:00",
+      "sha256": "be5d94706bd3dffa22c14259a5506936213a31dda660c08bbd5137ca7f3fcbd9",
+      "url": "https://raw.githubusercontent.com/cesarsierran/multiome_OSK/e8018095f658f95cd7fcbbd0fefdb795d299d060/scripts/1_merge.R"
+    },
+    {
+      "bytes": 10076,
+      "cache_relpath": "author-2_QC_labelling.Rmd",
+      "file": "author-2_QC_labelling.Rmd",
+      "retrieved_at_utc": "2026-10-18T11:52:14.483985+00:00",
+      "sha256": "15de649cb8d23ae533ff1ce90f0d807d523ffa046a90ed0ce37d120b4fbb6c55",
+      "url": "https://raw.githubusercontent.com/cesarsierran/multiome_OSK/e8018095f658f95cd7fcbbd0fefdb795d299d060/scripts/2_QC_labelling.Rmd"
+    },
+    {
+      "bytes": 10247,
+      "cache_relpath": "author-3_RNA_1_composition.Rmd",
+      "file": "author-3_RNA_1_composition.Rmd",
+      "retrieved_at_utc": "2026-10-18T11:52:14.706175+00:00",
+      "sha256": "4520aba40f844c5ba4e2e04981ea2f4d564f6ddcfddfbf0c4566f0d4d3876479",
+      "url": "https://raw.githubusercontent.com/cesarsierran/multiome_OSK/e8018095f658f95cd7fcbbd0fefdb795d299d060/scripts/3_RNA_1_composition.Rmd"
+    },
+    {
+      "error": "HTTP Error 403: Forbidden",
+      "url": "https://www.cell.com/neuron/fulltext/S0896-6273(25)00925-0"
+    },
+    {
+      "bytes": 36142,
+      "cache_relpath": "neuron-openalex.json",
+      "file": "neuron-openalex.json",
+      "retrieved_at_utc": "2026-10-18T11:52:43.324796+00:00",
+      "sha256": "0de229e03595b5591a82d03a4e0fe6bebc8c176a5a33ac3ccef5bdf70478e236",
+      "url": "https://api.openalex.org/works/https://doi.org/10.1016/j.neuron.2025.11.028"
+    },
+    {
+      "bytes": 35762,
+      "cache_relpath": "neuron-crossref.json",
+      "file": "neuron-crossref.json",
+      "retrieved_at_utc": "2026-10-18T11:52:43.570547+00:00",
+      "sha256": "1ab0c14cd27836d6831de4819186e7f79aa39351ceeea5b165fe481d6566f9aa",
+      "url": "https://api.crossref.org/works/10.1016/j.neuron.2025.11.028"
+    },
+    {
+      "bytes": 1991,
+      "cache_relpath": "neuron-article.xml",
+      "file": "neuron-article.xml",
+      "retrieved_at_utc": "2026-10-18T11:54:32.823459+00:00",
+      "sha256": "513c36ff6f7d8d6efedd2a9d82399e3c0a9d5d3eeb9877cbb26bdc0b713f0096",
+      "url": "https://api.elsevier.com/content/article/PII:S0896627325009250?httpAccept=text/xml"
+    },
+    {
+      "bytes": 2790,
+      "file": "GSE288182-series.txt",
+      "retrieved_at_utc": "2026-10-18T12:05:20.898102+00:00",
+      "sha256": "4c183467815edb21d03172bdca07c2f98cd0906cd0778dcd442c9bb43e42893c",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288182&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 33252,
+      "file": "GSE288182-samples.txt",
+      "retrieved_at_utc": "2026-10-18T12:05:21.410874+00:00",
+      "sha256": "702a20993fc3552855f248144c4928d44d1613b6185a371125240d2f990d6b85",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE288182&targ=gsm&form=text&view=full"
+    },
+    {
+      "bytes": 604017,
+      "file": "wan-2026.html",
+      "retrieved_at_utc": "2026-10-18T12:05:22.776649+00:00",
+      "sha256": "9d87b0c8c08f047f92b0bf4baa3bddda2830b6254d79e6e919939d1bf270d2df",
+      "url": "https://link.springer.com/article/10.1186/s12974-026-03854-8"
+    }
+  ],
+  "schema": "cx004-source-audit/v1",
+  "scope": "public metadata and retrieval facts; source authors own biological findings",
+  "source_code_review": {
+    "copied_to_public_artifacts": false,
+    "executed": false,
+    "gaps": [
+      "author per_barcode_metrics.csv required by object-creation code absent from retrieved GEO listing",
+      "cell labels depend on local reference/object files absent from repository",
+      "Batch metadata variable used but assignment table absent"
+    ],
+    "license_file_present": false,
+    "url": "https://github.com/cesarsierran/multiome_OSK/tree/e8018095f658f95cd7fcbbd0fefdb795d299d060"
+  },
+  "timing_refinement": {
+    "inference": "Combining those group-level descriptions suggests approximately15days from Dox reintroduction to the molecular endpoint. This is a study-level inferred schedule, not observed individual factor-off times.",
+    "limits": "Same sequenced animals lack matched on-exposure expression baselines and direct factor-off time confirmation. Protein immunoreactivity can persist after transcript downregulation; this endpoint is not a complete induced/off/recovered trajectory.",
+    "sections": [
+      "Water maze Methods",
+      "Figure2E-H",
+      "Nuclei preparation Methods"
+    ],
+    "source": "https://doi.org/10.1016/j.neuron.2025.11.028",
+    "verified": "For mPFC spatial-engram experiments Dox is removed after learning day1, reintroduced after day3 and retained to experiment end. Remote recall occurs two weeks after learning; sequencing tissue collected one day after remote recall."
+  }
+}

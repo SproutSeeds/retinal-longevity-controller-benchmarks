@@ -1,0 +1,46 @@
+{
+  "acquisition_manifest_mtime_utc": "2026-10-18T12:05:32.289965+00:00",
+  "claim_level": "Verified",
+  "execution_completed": true,
+  "execution_started_after_freeze": true,
+  "finished_at_utc": "2026-10-18T12:12:52.638390+00:00",
+  "freeze": {
+    "expression_execution_authorized": true,
+    "frozen_at_utc": "2026-10-18T12:03:06.539934+00:00",
+    "lane": "ocular",
+    "metadata_amendment": "metadata-amendment.json",
+    "reviewer": "root",
+    "scope": "Bounded independent-study cross-context animal-level fixed-panel RNA reanalysis; no retinal or verifiedwithdrawal inference.",
+    "sha256": {
+      "admission.json": "a6fbb80c9e00509c4cd71acc4c9dc7269539f63479c2c20859f6ce449ab4f118",
+      "analyze.py": "e4b1d8e9b2b13f2db3d728a477c35d76db2f8804fdceff0dddbd2a22db8dc6ea",
+      "contract.json": "a9d5864fe5dd04c1817a3c8b549ea1a85189ee3dc808c83bfffc165631fc5bd1",
+      "panels.json": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+      "test_analysis.py": "42dac48ae19dfdcd4e3f258ebc14d6896249d06658452d3eb5b37ba637c5b184"
+    },
+    "source_matrix_bytes": 721204825,
+    "stage": "implementation_before_expression_download"
+  },
+  "independent_raw_verification": {
+    "checks": 646760,
+    "status": "PASS"
+  },
+  "network_notes": "Only public files, no credentials or paid services. Ten H5 matrices retrieved; no FASTQ or ATAC-fragment archive.",
+  "primary_verification": {
+    "checks": 897,
+    "failed": [],
+    "limits": "Saved-aggregate arithmetic, original acquisition manifest, provenance and support accounting; no biological validity certification.",
+    "passed": 897,
+    "source_hashes_checked": true,
+    "status": "PASS"
+  },
+  "software": {
+    "h5py": "3.15.1",
+    "numpy": "2.5.4",
+    "python": "3.12.11"
+  },
+  "software_command": "uv run --python 3.12 --with numpy==2.5.4 --with h5py==3.15.1 python analyze.py run --cache /private/tmp/cx004-decision-audit-2026-10-18/ocular --output results",
+  "source_cache": "/private/tmp/cx004-decision-audit-2026-10-18/ocular",
+  "source_files": 10,
+  "total_source_bytes": 721204825
+}

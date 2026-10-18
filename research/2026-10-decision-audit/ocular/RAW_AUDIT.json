@@ -1,0 +1,71 @@
+{
+  "animals": [
+    {
+      "animal_id": "21565",
+      "gsm": "GSM8503729",
+      "n_RNA_QC": 4852,
+      "n_deposited": 4993
+    },
+    {
+      "animal_id": "21453",
+      "gsm": "GSM8503730",
+      "n_RNA_QC": 2696,
+      "n_deposited": 2838
+    },
+    {
+      "animal_id": "21568",
+      "gsm": "GSM8503731",
+      "n_RNA_QC": 2891,
+      "n_deposited": 2988
+    },
+    {
+      "animal_id": "21556",
+      "gsm": "GSM8503732",
+      "n_RNA_QC": 5296,
+      "n_deposited": 5328
+    },
+    {
+      "animal_id": "21452",
+      "gsm": "GSM8503733",
+      "n_RNA_QC": 2904,
+      "n_deposited": 3191
+    },
+    {
+      "animal_id": "21561",
+      "gsm": "GSM8503734",
+      "n_RNA_QC": 2234,
+      "n_deposited": 2463
+    },
+    {
+      "animal_id": "21559",
+      "gsm": "GSM8503735",
+      "n_RNA_QC": 4749,
+      "n_deposited": 4876
+    },
+    {
+      "animal_id": "21479",
+      "gsm": "GSM8503736",
+      "n_RNA_QC": 2436,
+      "n_deposited": 2707
+    },
+    {
+      "animal_id": "21467",
+      "gsm": "GSM8503737",
+      "n_RNA_QC": 2998,
+      "n_deposited": 3273
+    },
+    {
+      "animal_id": "21635",
+      "gsm": "GSM8503738",
+      "n_RNA_QC": 3154,
+      "n_deposited": 3250
+    }
+  ],
+  "checks": 646760,
+  "claim_level": "Verified",
+  "failures": [],
+  "passed": 646760,
+  "reader": "Cell-at-a-time from raw CSC; integer RNA QC ratios; exact full-gene count comparison and all fixed-bin counts/scores.",
+  "source_expression_new_endpoints": false,
+  "status": "PASS"
+}

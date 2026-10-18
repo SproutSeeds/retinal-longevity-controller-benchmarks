@@ -1,0 +1,75 @@
+{
+  "claim_level": "Verified",
+  "clock_replay_status": "blocked_on_exact_preprocessing_and_reference_mapping",
+  "commit": "7ae5f38b7ea74f76cb13076b64350d5930bb152f",
+  "current_repository_paths": [
+    "ApplyNewData.R",
+    "GetGenesForRemoval.R",
+    "ProcessFibroblastData.R",
+    "README.md",
+    "SelectProcesses.R",
+    "TrainClock.R"
+  ],
+  "findings": [
+    {
+      "detail": "1027 row occurrences in original audited sources; 66 exact Fig. 3a library joins. An additional 12 Fig. 4c withdrawal-reference rows map at donor/construct/schedule-group level.",
+      "input": "Published reference predictions",
+      "status": "partly_recovered"
+    },
+    {
+      "detail": "Derived from Geneid and Length in all_data_featurecounts(1).txt. Deposited human counts have Geneid and 807 count columns, with no Length column.",
+      "input": "Gene length vector gl",
+      "source_file": "ProcessFibroblastData.R",
+      "source_lines": [
+        85,
+        90
+      ],
+      "status": "missing_exact_input"
+    },
+    {
+      "detail": "The script queries unversioned live Ensembl and writes genes_to_filter.txt. The exact generated list is absent from the inspected repository tree.",
+      "input": "Frozen gene filter",
+      "source_file": "GetGenesForRemoval.R",
+      "source_lines": [
+        27,
+        33
+      ],
+      "status": "missing_exact_input"
+    },
+    {
+      "detail": "Filtering precedes TPM, then natural log(x+1). Script writes GenesForTPMNorm.rds before a mean-expression filter. The exact saved training object is absent from the inspected tree.",
+      "input": "Normalization gene universe",
+      "source_file": "TrainClock.R",
+      "source_lines": [
+        81,
+        93
+      ],
+      "status": "missing_exact_input"
+    },
+    {
+      "detail": "fsva is called using training objects, then the corrected output is replaced with uncorrected samples_new_apply. Clarify the intended published path rather than silently repairing it.",
+      "input": "Applied correction path and training state",
+      "source_file": "ApplyNewData.R",
+      "source_lines": [
+        14,
+        24
+      ],
+      "status": "requires_author_clarification"
+    },
+    {
+      "detail": "Published coefficients and library adjustments were recovered previously. Validation rows now supply reference outputs; exact per-library inputs and encoding must match the intended pipeline before replay.",
+      "input": "Library preparation encoding and complete paired reference set",
+      "status": "partly_recovered"
+    },
+    {
+      "detail": "The 1\u20133-day induction cohort retains 8/16 OFF labels in GEO versus 6/12 after withdrawal in the caption. Its uniquely keyed per-library published predictions were not identified in the inspected workbooks.",
+      "input": "Short-induction withdrawal timing and reference rows",
+      "status": "requires_author_clarification"
+    }
+  ],
+  "forks_returned": 0,
+  "issues_returned": 0,
+  "model_executed": false,
+  "repository": "https://github.com/saschajung/Clock",
+  "schema_version": 1
+}

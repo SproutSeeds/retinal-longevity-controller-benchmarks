@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "name": "Original pre-inspection contract and workbook input hashes preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "Post-inspection join binding is explicit and intact",
+      "status": "PASS"
+    },
+    {
+      "name": "807 uniquely identified human library records retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Count matrix has 807 unique count columns and no gene-length field",
+      "status": "PASS"
+    },
+    {
+      "name": "Every accepted metadata count column exists in count-header receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "Original extraction has 1027 row occurrences",
+      "status": "PASS"
+    },
+    {
+      "name": "Every source coordinate preserves its row number",
+      "status": "PASS"
+    },
+    {
+      "name": "Every original reference join recomputes from bound metadata",
+      "status": "PASS"
+    },
+    {
+      "name": "Source summaries recompute without dropping failed rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Fig. 3a retains all 76 unique reference IDs from six donor lines",
+      "status": "PASS"
+    },
+    {
+      "name": "66 exact Fig. 3a joins and 10 absent IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "All ten unmatched validation IDs are BFP and remain unassigned",
+      "status": "PASS"
+    },
+    {
+      "name": "Recovery reference extension declares post-inspection status",
+      "status": "PASS"
+    },
+    {
+      "name": "Recovery has 12 reference rows from three biological donor units",
+      "status": "PASS"
+    },
+    {
+      "name": "Recovery AgeDiff arithmetic independently recomputes",
+      "status": "PASS"
+    },
+    {
+      "name": "Six donor/construct groups retain two technical reference rows each",
+      "status": "PASS"
+    },
+    {
+      "name": "Recovery reference rows remain group-mapped without individual library joins",
+      "status": "PASS"
+    },
+    {
+      "name": "Group means and all eligible schedule memberships recompute",
+      "status": "PASS"
+    },
+    {
+      "name": "Paired descriptive arithmetic uses three equally weighted donor means",
+      "status": "PASS"
+    },
+    {
+      "name": "No clock replay or new inferential p-values claimed",
+      "status": "PASS"
+    },
+    {
+      "name": "72 factor-off libraries include 12 timing-consistent short recovery libraries",
+      "status": "PASS"
+    },
+    {
+      "name": "Discovery result pages match 84, 257 and 263 retrieved records",
+      "status": "PASS"
+    },
+    {
+      "name": "All retrieval records and failures retained",
+      "status": "PASS"
+    },
+    {
+      "name": "All 15 workbooks and 46 sheets inventoried",
+      "status": "PASS"
+    }
+  ],
+  "passed": 24,
+  "schema_version": 1,
+  "scope": "Source integrity, identifier joins, and reported-reference arithmetic. Software checks do not establish rejuvenation, safety, lineage, or experiment replacement.",
+  "source_byte_check": false,
+  "status": "PASS",
+  "total": 24
+}

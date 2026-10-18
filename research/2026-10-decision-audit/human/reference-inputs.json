@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "srsf1-source-fig1.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM13_ESM.xlsx",
+      "bytes": 27881,
+      "sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3"
+    },
+    {
+      "id": "srsf1-source-fig3.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM15_ESM.xlsx",
+      "bytes": 3033046,
+      "sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3"
+    },
+    {
+      "id": "srsf1-supplement4.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM7_ESM.xlsx",
+      "bytes": 31790,
+      "sha256": "10c40e53a07e255b15a234d2eba26ad8693f828e533ed279e0091f71030bf375"
+    },
+    {
+      "id": "prior-srsf1-recovery-samples.json",
+      "relative_path": "../../cx004-metadata-recovery-2026-10-18/srsf1-recovery-samples.json",
+      "bytes": 131819,
+      "sha256": "5860843b7dec1655bb97f69c0fb98f03b02b3454c0d51ba54c70ef52a55bd1f8"
+    },
+    {
+      "id": "prior-srsf1-clock-parameters.json",
+      "relative_path": "../../cx004-metadata-recovery-2026-10-18/srsf1-clock-parameters.json",
+      "bytes": 49830,
+      "sha256": "b66666cd1255db5495cb52dbe470a52c1109624d0bbaa4a0725243d09170d2ea"
+    },
+    {
+      "id": "prior-clock-dependency-audit.json",
+      "relative_path": "../../cx004-metadata-recovery-2026-10-18/clock-dependency-audit.json",
+      "bytes": 2831,
+      "sha256": "54bef0f652ab389c3db9701df4096cfd4cf72d78c2937c670270b0ed9ddb2a32"
+    }
+  ]
+}

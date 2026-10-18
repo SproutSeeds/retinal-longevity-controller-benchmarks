@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>10</Count><RetMax>10</RetMax><RetStart>0</RetStart><IdList>
+<Id>26497327</Id>
+<Id>26497326</Id>
+<Id>26497325</Id>
+<Id>26497324</Id>
+<Id>26497323</Id>
+<Id>26497322</Id>
+<Id>26497321</Id>
+<Id>26497320</Id>
+<Id>26497319</Id>
+<Id>26497318</Id>
+</IdList><TranslationSet/><TranslationStack>   <TermSet>    <Term>PRJNA931251[All Fields]</Term>    <Field>All Fields</Field>    <Count>10</Count>    <Explode>N</Explode>   </TermSet>   <OP>GROUP</OP>  </TranslationStack><QueryTranslation>PRJNA931251[All Fields]</QueryTranslation></eSearchResult>

@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "scope": "Primary-source follow-up of relevant leads from the bounded discovery queries. These dispositions concern replacement of the specified CX004 observations; they do not dismiss each study's own findings.",
+  "candidates": [
+    {
+      "name": "SRSF1 human fibroblast study",
+      "accessions": ["GSE325735", "GSE326022"],
+      "source": "https://www.nature.com/articles/s43587-026-01234-8",
+      "disposition": "new_reference_outputs_recovered_exact_preprocessing_waits",
+      "usable": "66 validation-library reference joins and 12 published 5-on/2-off reference rows across three donors. Existing 72 factor-off RNA libraries remain useful for bulk population comparisons.",
+      "remaining": "Clock input preprocessing and intended correction path; per-library reference identities for recovery; short-induction timing conflict. Bulk means do not identify rare per-cell states or same-cell recovery."
+    },
+    {
+      "name": "Gill maturation-phase transient reprogramming",
+      "accessions": ["GSE165177", "GSE165179", "GSE165180"],
+      "source": "https://elifesciences.org/articles/71624",
+      "disposition": "existing_bulk_recovery_anchor_already_reused",
+      "usable": "Human fibroblast RNA and methylation after 4 or 5 weeks without doxycycline. The existing project reanalysis already supplies matched population-level identity/reprogramming panel contrasts.",
+      "remaining": "Bulk, sorted/expanded populations do not provide the specified joint late per-cell measurements or calibrated rare-state burden. Induction-duration sample labels are not recovery harvest days."
+    },
+    {
+      "name": "Mesenchymal drift human time course",
+      "accessions": ["GSE297233", "GSE297234"],
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297234",
+      "disposition": "existing_single_cell_time_course_already_reused",
+      "usable": "Previously audited two-donor single-cell time course and linked bulk data.",
+      "remaining": "The audited donor snapshots do not establish a controlled factor-off recovery sequence or biological safety labels; many cell barcodes do not create independent donors."
+    },
+    {
+      "name": "2026 MSC Sendai-clearance study",
+      "accessions": ["DRR726438-DRR726461", "PRJDB37384"],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13126874/",
+      "disposition": "context_only_different_cell_source_and_intervention",
+      "usable": "Public raw RNA runs and evidence of vector clearance in bulk populations and derived clones. First run accession and study relationship verified through ENA.",
+      "remaining": "Umbilical-cord MSCs and hTERT/BMI1/SV40T intervention address different biology from adult lineage-preserving partial reprogramming. The study reports 25 RNA samples, while the stated deposited accession interval contains 24 runs; donor and sample reconciliation would precede any separate analysis. No raw-read download or novel outcome calculation is needed for the present target."
+    },
+    {
+      "name": "2024 senescent endometrial MSC partial reprogramming",
+      "accessions": [],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11641084/",
+      "disposition": "context_only_no_compatible_deposited_joint_matrix_identified",
+      "usable": "Primary experimental report on cultured human MSC phenotypes.",
+      "remaining": "A compatible deposited matrix with donor-linked age, identity and late per-cell recovery measurements was not identified in the inspected paper. This is a bounded source finding."
+    },
+    {
+      "name": "Early reprogramming intermediates for NGN2 neuronal conversion",
+      "accessions": ["GSE221739"],
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12868028/",
+      "disposition": "different_endpoint_lineage_conversion",
+      "usable": "Uses an existing single-cell reprogramming dataset at days 0, 3, 5 and 11.",
+      "remaining": "Directed neuronal conversion and induction-stage expression do not establish persistence of a rejuvenated original adult cell identity after factor withdrawal."
+    },
+    {
+      "name": "Interrupted reprogramming in human MSCs",
+      "accessions": ["GSE115666"],
+      "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE115666",
+      "disposition": "existing_negative_context_lead",
+      "usable": "The GEO discovery record describes interrupted reprogramming and reports failure to rejuvenate human MSCs. This lead was also present in the October 17 census.",
+      "remaining": "Its distinct cell system and bulk design do not supply the target joint per-cell recovery/ocular endpoint. No new outcome reanalysis was performed."
+    }
+  ]
+}

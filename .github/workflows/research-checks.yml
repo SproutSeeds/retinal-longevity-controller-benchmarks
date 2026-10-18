@@ -20,7 +20,9 @@ jobs:
       - run: python research/2026-10-metadata-recovery/test_recovery.py
       - run: python research/2026-10-independent-comparator/verify.py
       - run: python research/2026-10-neural-validation/verify.py
+      - run: python research/2026-10-decision-audit/verify.py
       - run: python -m pip install uv==0.8.22
       - run: uv run research/2026-10-public-data/test_analysis.py
       - run: uv run research/2026-10-independent-comparator/test_analysis.py
       - run: python research/2026-10-neural-validation/run_checks.py
+      - run: python research/2026-10-decision-audit/run_checks.py

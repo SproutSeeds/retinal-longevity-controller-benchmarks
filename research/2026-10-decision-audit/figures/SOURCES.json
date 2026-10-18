@@ -1,0 +1,15 @@
+{
+  "figures": [
+    "human-short-withdrawal-reference.pdf",
+    "human-short-withdrawal-reference.png",
+    "mouse-cycle-comparison.pdf",
+    "mouse-cycle-comparison.png"
+  ],
+  "generator_sha256": "b53443facd4d2c61635a5613dcfb7ae121d1d9ed83cb06013b19f8b5a6de51ec",
+  "scope": "Descriptive displays only; no new biological observations, model fit or statistical test.",
+  "source_sha256": {
+    "human/recovery-reference-audit.json": "546dfcf8c3aa6e8d42af06cf566eeb7758c354e6c46c36eecb7eb187cb8eccb2",
+    "ocular/results/animal_scores.csv": "f1bb066226c2a0dfc4947d052ac6dd97c2b84d03b1767b47a21b57f412b8c78a",
+    "ocular/results/marker_bin_contrasts.csv": "54cd147951673ff4aac08ea276c6c493f7b6fa20400be72e6cf26d3822879be8"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "biological_downloads": false,
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "build_decision.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "PASS: integrated decision; experiment replacement INCONCLUSIVE"
+    },
+    {
+      "command": [
+        "python3",
+        "human/verify.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "PASS 24/24"
+    },
+    {
+      "command": [
+        "python3",
+        "human/audit_replicate_labels.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "PASS: 66 library joins; 12 replicate-label differences retained"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "human",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "................\n----------------------------------------------------------------------\nRan 16 tests in 0.003s\n\nOK",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "python3",
+        "recovery/verify.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "PASS: 176/176 checks; biological recovery INCONCLUSIVE"
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "recovery",
+        "-p",
+        "test_*.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.008s\n\nOK",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--python",
+        "3.12",
+        "--with",
+        "numpy==2.5.4",
+        "--with",
+        "h5py==3.15.1",
+        "python",
+        "ocular/test_analysis.py"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "......\n----------------------------------------------------------------------\nRan 6 tests in 0.011s\n\nOK",
+      "stdout": ""
+    },
+    {
+      "command": [
+        "uv",
+        "run",
+        "--python",
+        "3.12",
+        "--with",
+        "numpy==2.5.4",
+        "--with",
+        "h5py==3.15.1",
+        "python",
+        "ocular/verify.py",
+        "--receipt",
+        "<temporary-receipt>"
+      ],
+      "exit_code": 0,
+      "status": "PASS",
+      "stderr": "",
+      "stdout": "{\n  \"checks\": 877,\n  \"failed\": [],\n  \"limits\": \"Saved-aggregate arithmetic, original acquisition manifest, provenance and support accounting; no biological validity certification.\",\n  \"passed\": 877,\n  \"source_hashes_checked\": false,\n  \"status\": \"PASS\"\n}"
+    }
+  ],
+  "published_artifacts_modified": false,
+  "schema": "cx004-portable-checks/v1",
+  "scope": "Saved-artifact arithmetic and 28 synthetic regression/failure-control tests. No biological claim promotion.",
+  "status": "PASS"
+}

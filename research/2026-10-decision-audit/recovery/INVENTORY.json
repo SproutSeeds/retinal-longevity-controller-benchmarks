@@ -1,0 +1,1223 @@
+{
+  "biostudies_supplements": [
+    {
+      "bytes": 69302,
+      "path": "NIHMS2069809-supplement-Source_Data.xlsx"
+    },
+    {
+      "bytes": 83405567,
+      "path": "NIHMS2069809-supplement-Supplementary_Material.xlsx"
+    }
+  ],
+  "ena_matches_sra_run_set": true,
+  "ena_whole_body_fastq_bytes": 129370260434,
+  "ena_whole_body_fastq_bytes_by_geo_sample": {
+    "GSM7022367": 44207239760,
+    "GSM7022368": 26016265059,
+    "GSM7022369": 28962895186,
+    "GSM7022370": 30183860429
+  },
+  "geo": {
+    "archives": [
+      {
+        "bytes": 388515840,
+        "name": "GSE224438_RAW.tar"
+      }
+    ],
+    "matrix_triplet_count": 10,
+    "member_count": 30,
+    "members": [
+      {
+        "bytes": 54798,
+        "name": "GSM7022367_1_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279403,
+        "name": "GSM7022367_1_features.tsv.gz"
+      },
+      {
+        "bytes": 70029034,
+        "name": "GSM7022367_1_matrix.mtx.gz"
+      },
+      {
+        "bytes": 16459,
+        "name": "GSM7022368_2-1_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279428,
+        "name": "GSM7022368_2-1_features.tsv.gz"
+      },
+      {
+        "bytes": 29789468,
+        "name": "GSM7022368_2-1_matrix.mtx.gz"
+      },
+      {
+        "bytes": 14972,
+        "name": "GSM7022369_2-2_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279428,
+        "name": "GSM7022369_2-2_features.tsv.gz"
+      },
+      {
+        "bytes": 27681671,
+        "name": "GSM7022369_2-2_matrix.mtx.gz"
+      },
+      {
+        "bytes": 42088,
+        "name": "GSM7022370_2-3_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279428,
+        "name": "GSM7022370_2-3_features.tsv.gz"
+      },
+      {
+        "bytes": 69656054,
+        "name": "GSM7022370_2-3_matrix.mtx.gz"
+      },
+      {
+        "bytes": 17560,
+        "name": "GSM7022371_3-1_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022371_3-1_features.tsv.gz"
+      },
+      {
+        "bytes": 28664796,
+        "name": "GSM7022371_3-1_matrix.mtx.gz"
+      },
+      {
+        "bytes": 16462,
+        "name": "GSM7022372_3-2_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022372_3-2_features.tsv.gz"
+      },
+      {
+        "bytes": 27359343,
+        "name": "GSM7022372_3-2_matrix.mtx.gz"
+      },
+      {
+        "bytes": 8938,
+        "name": "GSM7022373_3-3_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022373_3-3_features.tsv.gz"
+      },
+      {
+        "bytes": 15263347,
+        "name": "GSM7022373_3-3_matrix.mtx.gz"
+      },
+      {
+        "bytes": 51475,
+        "name": "GSM7022374_3-4_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022374_3-4_features.tsv.gz"
+      },
+      {
+        "bytes": 69503686,
+        "name": "GSM7022374_3-4_matrix.mtx.gz"
+      },
+      {
+        "bytes": 14945,
+        "name": "GSM7022375_3-5_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022375_3-5_features.tsv.gz"
+      },
+      {
+        "bytes": 20821855,
+        "name": "GSM7022375_3-5_matrix.mtx.gz"
+      },
+      {
+        "bytes": 17189,
+        "name": "GSM7022376_3-6_barcodes.tsv.gz"
+      },
+      {
+        "bytes": 279427,
+        "name": "GSM7022376_3-6_features.tsv.gz"
+      },
+      {
+        "bytes": 26672790,
+        "name": "GSM7022376_3-6_matrix.mtx.gz"
+      }
+    ],
+    "unclassified_members": [],
+    "whole_body_triplets": [
+      "GSM7022367_1",
+      "GSM7022368_2-1",
+      "GSM7022369_2-2",
+      "GSM7022370_2-3"
+    ]
+  },
+  "github": {
+    "branches": [
+      "main"
+    ],
+    "forks": [],
+    "head": "011586aea2e8612c794e57d2a260fa1a29d417a0",
+    "history": [
+      {
+        "commit": "011586aea2e8612c794e57d2a260fa1a29d417a0",
+        "files": [
+          {
+            "path": "README.md",
+            "sha": "673f3563b5a0970ac6249b87900a1a18256b9a98",
+            "size": 768
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "61ea514f353caeb1a5792010515031850fdd38c6",
+            "size": 25808
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      },
+      {
+        "commit": "f6adb43d2769a014c450817a186d53c29e103ba6",
+        "files": [
+          {
+            "path": "README.md",
+            "sha": "45b323f4cdfa024cbef2aae4650176dae8044931",
+            "size": 736
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "61ea514f353caeb1a5792010515031850fdd38c6",
+            "size": 25808
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      },
+      {
+        "commit": "582780ad05bd163277dc20846980dbcf7dbe2279",
+        "files": [
+          {
+            "path": "README.md",
+            "sha": "f854604bacb186a250b4bcca4b69e79841267a90",
+            "size": 709
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "61ea514f353caeb1a5792010515031850fdd38c6",
+            "size": 25808
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      },
+      {
+        "commit": "eab5367d54fb9cab809d748697bd87a59d98ea83",
+        "files": [
+          {
+            "path": "README.md",
+            "sha": "f854604bacb186a250b4bcca4b69e79841267a90",
+            "size": 709
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "f86fbcf549d569b64ca9d34bbad89bbde9d1f877",
+            "size": 25865
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      },
+      {
+        "commit": "038cee1504a0e22cc994401f0b1ee19156a6866d",
+        "files": [
+          {
+            "path": "README.md",
+            "sha": "f854604bacb186a250b4bcca4b69e79841267a90",
+            "size": 709
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "93470e46af1bf8b0a8fa1e60e88c9be4b7cccae9",
+            "size": 25806
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      },
+      {
+        "commit": "b840b9489c129bb3dbe1f7404a9754b2dd86024d",
+        "files": [
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_DEGplotting.R",
+            "sha": "6355bc32157f0d49f7e22a7eeab4343afcde94f3",
+            "size": 6470
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_GSEA.R",
+            "sha": "26ede8d7194fa5828dbd7d47bd526f12ef62c90a",
+            "size": 15601
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_proportions.R",
+            "sha": "3991882bf61965ec67ba116660a2a270b883d495",
+            "size": 11022
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+            "sha": "cfa091edb354f1bd8c508414bade5df3819c227e",
+            "size": 47435
+          },
+          {
+            "path": "SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+            "sha": "41672cc504946d06d390d4295c3ac3fd9aecbadb",
+            "size": 23197
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_DEG_plots_clean.R",
+            "sha": "b13ad26af7bdc80572609aaff13528f9912d1101",
+            "size": 5650
+          },
+          {
+            "path": "bulkRNAseq/DESeq2_analysis_chimeric_clean.R",
+            "sha": "e4ee6fed55094577e52ba1c74e50ba58937b4634",
+            "size": 22702
+          },
+          {
+            "path": "bulkRNAseq/GSEA_bulkRNAseq_clean.R",
+            "sha": "bad280959135c60dd7811eac914d22726b6e5d6e",
+            "size": 24740
+          },
+          {
+            "path": "bulkRNAseq/GeneNormCounts_plots_clean.R",
+            "sha": "43a73959e41afb218044f85b8d3c7816fbfb665e",
+            "size": 9242
+          },
+          {
+            "path": "cellproportion_agingclock/proportions_model.R",
+            "sha": "c22c63e38a6613b79cc9aaadcb4daea0772e10f9",
+            "size": 9670
+          },
+          {
+            "path": "comparison_ciOSKM_iOSKM/wholebody-v-svztargeted_clean.R",
+            "sha": "026068b12fe252066e8f4ec9c22c64aa84a7215f",
+            "size": 9558
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part1.R",
+            "sha": "73fb94a934ff219ba1d014cb5c46565f40be4395",
+            "size": 14153
+          },
+          {
+            "path": "iOSKM_cohort1/seurat_part2.R",
+            "sha": "6c9b359c26dce5fd02f0f8af1cc97192fde7a6c2",
+            "size": 14858
+          },
+          {
+            "path": "iOSKM_cohort2/c5.all.v7.1.symbols.gmt",
+            "sha": "8ca5bc8ffadf2fa3d1494206019817d7737b2f2f",
+            "size": 6610650
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_DEGplotting.R",
+            "sha": "7d788a4f37cc8cd878fdd6bcc9c23f648eb97388",
+            "size": 4985
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_GSEA.R",
+            "sha": "a7922ccafa24cf119201df2ca417ec3ea97117c4",
+            "size": 13923
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part1.R",
+            "sha": "7c7cd9de49b3118bf7dafdd76089eadd4ccaa2ee",
+            "size": 17451
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM2_seurat_part2.R",
+            "sha": "93470e46af1bf8b0a8fa1e60e88c9be4b7cccae9",
+            "size": 25806
+          },
+          {
+            "path": "iOSKM_cohort2/iOSKM_combined_proportions.R",
+            "sha": "a92cce16a6b423dcd77626a1d024de3e4554c998",
+            "size": 8873
+          }
+        ]
+      }
+    ],
+    "issues": [],
+    "releases": [],
+    "tags": []
+  },
+  "schema": "cx004-recovery-inventory/v1",
+  "scope": "Metadata/file inventories only; completeness applies to these returned resources, not every public repository.",
+  "sra": {
+    "experiment_count": 10,
+    "original_files": [
+      {
+        "bytes": 1386999221,
+        "filename": "GEX2_S5_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022372",
+        "md5": "06c7e13ada43112741a21db639f2f792",
+        "run": "SRR23332076"
+      },
+      {
+        "bytes": 17694834852,
+        "filename": "GEX2_S5_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022372",
+        "md5": "4410309a8ba4c04ed79ea8cf8c488644",
+        "run": "SRR23332076"
+      },
+      {
+        "bytes": 17096070228,
+        "filename": "GEX2_S5_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022372",
+        "md5": "d4512bab336d16a8c061c75cd4afe0fc",
+        "run": "SRR23332076"
+      },
+      {
+        "bytes": 1391429627,
+        "filename": "GEX3_S6_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022373",
+        "md5": "7c965a27c65da4ea8c9debf2974115da",
+        "run": "SRR23332077"
+      },
+      {
+        "bytes": 17102969337,
+        "filename": "GEX3_S6_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022373",
+        "md5": "e76ce334f1239ede477dab35307a22f2",
+        "run": "SRR23332077"
+      },
+      {
+        "bytes": 16266629257,
+        "filename": "GEX3_S6_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022373",
+        "md5": "cd06ce7ae68c19a4cf4196b51255790f",
+        "run": "SRR23332077"
+      },
+      {
+        "bytes": 1160315765,
+        "filename": "GEX4_S1_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022374",
+        "md5": "8806378d26a3b39503990abb448718af",
+        "run": "SRR23332078"
+      },
+      {
+        "bytes": 14893903418,
+        "filename": "GEX4_S1_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022374",
+        "md5": "e26ef915a73bc180fb125c8c18c36a28",
+        "run": "SRR23332078"
+      },
+      {
+        "bytes": 14370001139,
+        "filename": "GEX4_S1_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022374",
+        "md5": "7d2407a74fefce1ea344e2a46f810644",
+        "run": "SRR23332078"
+      },
+      {
+        "bytes": 987412793,
+        "filename": "GEX5_S2_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022375",
+        "md5": "67cb36604c8d1741f7de3066d3d18658",
+        "run": "SRR23332079"
+      },
+      {
+        "bytes": 11534570791,
+        "filename": "GEX5_S2_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022375",
+        "md5": "61567e0911fe60326196264bcc4eb81e",
+        "run": "SRR23332079"
+      },
+      {
+        "bytes": 11064397434,
+        "filename": "GEX5_S2_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022375",
+        "md5": "661e735d2a24cfecbaddb0d3d0dc4a30",
+        "run": "SRR23332079"
+      },
+      {
+        "bytes": 735530061,
+        "filename": "GEX6_S3_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022376",
+        "md5": "a886045b037337690106b5631f50fa94",
+        "run": "SRR23332080"
+      },
+      {
+        "bytes": 8868610173,
+        "filename": "GEX6_S3_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022376",
+        "md5": "8a85ad3ca723ca23657b38a99ab22836",
+        "run": "SRR23332080"
+      },
+      {
+        "bytes": 8518064588,
+        "filename": "GEX6_S3_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022376",
+        "md5": "260cad421dc98d06371bb36d097d2412",
+        "run": "SRR23332080"
+      },
+      {
+        "bytes": 990274719,
+        "filename": "GEX2_S2_L003_I1_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "e88e0dd3d91d43d7a10f403b656067cd",
+        "run": "SRR23332081"
+      },
+      {
+        "bytes": 13766449735,
+        "filename": "GEX2_S2_L003_R1_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "8e01edf87d528c7dc47c4ae05cb583bb",
+        "run": "SRR23332081"
+      },
+      {
+        "bytes": 13667747594,
+        "filename": "GEX2_S2_L003_R2_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "76fc71b71b82bc554f90ef05c80acee5",
+        "run": "SRR23332081"
+      },
+      {
+        "bytes": 989508383,
+        "filename": "GEX3_S3_L003_I1_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "22a5c160bcaaebb4b9e8da608e2b94aa",
+        "run": "SRR23332082"
+      },
+      {
+        "bytes": 14307595429,
+        "filename": "GEX3_S3_L003_R1_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "f088e3ceee3d480adc720ae20b416fed",
+        "run": "SRR23332082"
+      },
+      {
+        "bytes": 14117997611,
+        "filename": "GEX3_S3_L003_R2_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "254f0226ee21e25a35dbf1ff277ede3b",
+        "run": "SRR23332082"
+      },
+      {
+        "bytes": 992571714,
+        "filename": "GEX2_S2_L004_I1_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "91518d6c46430de164e1b85a8aa5fd3a",
+        "run": "SRR23332083"
+      },
+      {
+        "bytes": 13852036733,
+        "filename": "GEX2_S2_L004_R1_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "9f5b35309f896f23de4131c4c6aa3d5d",
+        "run": "SRR23332083"
+      },
+      {
+        "bytes": 13907615138,
+        "filename": "GEX2_S2_L004_R2_001.fastq.gz",
+        "geo_sample": "GSM7022369",
+        "md5": "7db0a2f5ca41e60820b50fb41034869a",
+        "run": "SRR23332083"
+      },
+      {
+        "bytes": 938171892,
+        "filename": "GEX1_S4_L002_I1_001.fastq.gz",
+        "geo_sample": "GSM7022371",
+        "md5": "efc93b74ad3f0eceefd2ad0c86760d5e",
+        "run": "SRR23332084"
+      },
+      {
+        "bytes": 11032984620,
+        "filename": "GEX1_S4_L002_R1_001.fastq.gz",
+        "geo_sample": "GSM7022371",
+        "md5": "6adaffd1254708cbb338fc621289eb35",
+        "run": "SRR23332084"
+      },
+      {
+        "bytes": 10677597379,
+        "filename": "GEX1_S4_L002_R2_001.fastq.gz",
+        "geo_sample": "GSM7022371",
+        "md5": "7f71831d054bd3029235f9550fd8bf19",
+        "run": "SRR23332084"
+      },
+      {
+        "bytes": 990319592,
+        "filename": "GEX3_S3_L004_I1_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "f0a99139cfb9452570b08de2df630fb9",
+        "run": "SRR23332085"
+      },
+      {
+        "bytes": 14388044170,
+        "filename": "GEX3_S3_L004_R1_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "d68bdadccb3377e0f4a2443af29dcf11",
+        "run": "SRR23332085"
+      },
+      {
+        "bytes": 14358784966,
+        "filename": "GEX3_S3_L004_R2_001.fastq.gz",
+        "geo_sample": "GSM7022370",
+        "md5": "f8963e528e59cde9e9470064ed314106",
+        "run": "SRR23332085"
+      },
+      {
+        "bytes": 892197718,
+        "filename": "GEX1_S1_L003_I1_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "4d917c70b93f47b910a57177dee4ebf1",
+        "run": "SRR23332086"
+      },
+      {
+        "bytes": 12401321303,
+        "filename": "GEX1_S1_L003_R1_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "345613307d358995b4713c722d578d4c",
+        "run": "SRR23332086"
+      },
+      {
+        "bytes": 12158582050,
+        "filename": "GEX1_S1_L003_R2_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "e06b9f8da196cf955ffeb6644cc39652",
+        "run": "SRR23332086"
+      },
+      {
+        "bytes": 893073688,
+        "filename": "GEX1_S1_L004_I1_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "88db65cb0a98928e53dc5ad65964581b",
+        "run": "SRR23332087"
+      },
+      {
+        "bytes": 12459722890,
+        "filename": "GEX1_S1_L004_R1_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "693787eb6c0519c4353998527ccc59a9",
+        "run": "SRR23332087"
+      },
+      {
+        "bytes": 12359000957,
+        "filename": "GEX1_S1_L004_R2_001.fastq.gz",
+        "geo_sample": "GSM7022368",
+        "md5": "deef0480ec473470be45011a8823b6ce",
+        "run": "SRR23332087"
+      },
+      {
+        "bytes": 2754124320,
+        "filename": "GEX_S1_L005_I1_001.fastq.gz",
+        "geo_sample": "GSM7022367",
+        "md5": "320bf073ae1f4e6bd022ed3ebf66ad89",
+        "run": "SRR23332088"
+      },
+      {
+        "bytes": 41992950858,
+        "filename": "GEX_S1_L005_R1_001.fastq.gz",
+        "geo_sample": "GSM7022367",
+        "md5": "a91a6fba15a43bde5c3c44d5d4f45110",
+        "run": "SRR23332088"
+      },
+      {
+        "bytes": 39122608300,
+        "filename": "GEX_S1_L005_R2_001.fastq.gz",
+        "geo_sample": "GSM7022367",
+        "md5": "b603eb5b6225d3812f4adf3b632408f9",
+        "run": "SRR23332088"
+      }
+    ],
+    "read_contents_inspected": false,
+    "run_count": 13,
+    "run_elements_before_deduplication": 13,
+    "runs": [
+      {
+        "experiment": "SRX19274301",
+        "geo_sample": "GSM7022372",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332076",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274300",
+        "geo_sample": "GSM7022373",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332077",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274299",
+        "geo_sample": "GSM7022374",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332078",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274298",
+        "geo_sample": "GSM7022375",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332079",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274297",
+        "geo_sample": "GSM7022376",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332080",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274296",
+        "geo_sample": "GSM7022369",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332081",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274295",
+        "geo_sample": "GSM7022370",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332082",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274296",
+        "geo_sample": "GSM7022369",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332083",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274294",
+        "geo_sample": "GSM7022371",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332084",
+        "whole_body": false
+      },
+      {
+        "experiment": "SRX19274295",
+        "geo_sample": "GSM7022370",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332085",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274293",
+        "geo_sample": "GSM7022368",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332086",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274293",
+        "geo_sample": "GSM7022368",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332087",
+        "whole_body": true
+      },
+      {
+        "experiment": "SRX19274292",
+        "geo_sample": "GSM7022367",
+        "library_strategy": "RNA-Seq",
+        "run": "SRR23332088",
+        "whole_body": true
+      }
+    ],
+    "whole_body_named_lmo_or_undetermined_files": [],
+    "whole_body_original_bytes": 251362527868,
+    "whole_body_original_file_count": 21,
+    "whole_body_run_count": 7
+  },
+  "zenodo": {
+    "latest": 12613762,
+    "versions": [
+      {
+        "doi": "10.5281/zenodo.12613762",
+        "files": [
+          {
+            "bytes": 94079882,
+            "checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+            "name": "svz_iOSKM_cohort1_toshare.rds"
+          },
+          {
+            "bytes": 199814927,
+            "checksum": "md5:8259ae16616437fe5d0d0760745a75ab",
+            "name": "svz_iOSKM_cohort2_toshare.rds"
+          },
+          {
+            "bytes": 753766915,
+            "checksum": "md5:f327804d131b645312f7b6f4d32a64a7",
+            "name": "svz_ciOSKM_toshare.rds"
+          }
+        ],
+        "record": 12613762
+      },
+      {
+        "doi": "10.5281/zenodo.10626910",
+        "files": [
+          {
+            "bytes": 161955840,
+            "checksum": "md5:cb55483c4cf434a64aa179fb6c655cbf",
+            "name": "svz_ciOSKM_toshare.rds"
+          },
+          {
+            "bytes": 94079882,
+            "checksum": "md5:2dc0d3b98a3d5b257710352b2a69156d",
+            "name": "svz_iOSKM_cohort1_toshare.rds"
+          },
+          {
+            "bytes": 199814927,
+            "checksum": "md5:8259ae16616437fe5d0d0760745a75ab",
+            "name": "svz_iOSKM_cohort2_toshare.rds"
+          }
+        ],
+        "record": 10626910
+      }
+    ]
+  }
+}

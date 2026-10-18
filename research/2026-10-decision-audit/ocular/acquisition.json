@@ -1,0 +1,94 @@
+{
+  "expected_bytes": 721204825,
+  "expression_parsed": false,
+  "files": [
+    {
+      "animal_id": "21565",
+      "bytes": 102272595,
+      "filename": "GSM8503729_CON-GFP_21565_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503729",
+      "sha256": "5cc5542d3a8286a3e99c286b827b692cbdab05c6ff0c5f0b2af0a6404e1b94c7",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503729/suppl/GSM8503729_CON-GFP_21565_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21453",
+      "bytes": 64000611,
+      "filename": "GSM8503730_CON_GFP_21453_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503730",
+      "sha256": "1c5fd19a5c2ab318d2331087bcf8d8696f8084c53b973a5f4f17a2d0bb5fa885",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503730/suppl/GSM8503730_CON_GFP_21453_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21568",
+      "bytes": 60441902,
+      "filename": "GSM8503731_CON_GFP_21568_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503731",
+      "sha256": "ec3f2b87e6ac45d42f15d6048b07637be6ec9edad3115d9f23009b1e95cd83d7",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503731/suppl/GSM8503731_CON_GFP_21568_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21556",
+      "bytes": 106731114,
+      "filename": "GSM8503732_AD_GFP_21556_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503732",
+      "sha256": "fbbc721fbf7dd8df98b92f87d7b214902d5cd9ce4dbabce2714e594ed9c74982",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503732/suppl/GSM8503732_AD_GFP_21556_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21452",
+      "bytes": 56435863,
+      "filename": "GSM8503733_AD_GFP_21452_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503733",
+      "sha256": "7a247f5705bc3f7d05464f955357cd9017ff985730c2049c590663410ad6477a",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503733/suppl/GSM8503733_AD_GFP_21452_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21561",
+      "bytes": 55527311,
+      "filename": "GSM8503734_AD_GFP_21561_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503734",
+      "sha256": "0a788ddab96073f42b9fe3d8a397a5c5d1674c18ad7837a47ee3a8b74c4f8b58",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503734/suppl/GSM8503734_AD_GFP_21561_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21559",
+      "bytes": 98451960,
+      "filename": "GSM8503735_AD_OSK_21559_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503735",
+      "sha256": "4b8be2be63660b0b91614af72e804687589bfc65794fc2312be4e8fbc55176d7",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503735/suppl/GSM8503735_AD_OSK_21559_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21479",
+      "bytes": 51860903,
+      "filename": "GSM8503736_AD_OSK_21479_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503736",
+      "sha256": "8b8b4e16c5ddf829a95618d2f6645fb3a61dcdabb7290d7048886df5cfa488e9",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503736/suppl/GSM8503736_AD_OSK_21479_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21467",
+      "bytes": 65578419,
+      "filename": "GSM8503737_AD_OSK_21467_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503737",
+      "sha256": "f2414315828773b6abef2e2a0ffddc36127ec88152f948c70ff6066fe5aacdf4",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503737/suppl/GSM8503737_AD_OSK_21467_filtered_feature_bc_matrix.h5"
+    },
+    {
+      "animal_id": "21635",
+      "bytes": 59904147,
+      "filename": "GSM8503738_AD_OSK_21635_filtered_feature_bc_matrix.h5",
+      "gsm": "GSM8503738",
+      "sha256": "512658ba7a94dafdcd60c2cbfc372243f7699005a48ffed30262c7578564420e",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM8503nnn/GSM8503738/suppl/GSM8503738_AD_OSK_21635_filtered_feature_bc_matrix.h5"
+    }
+  ],
+  "frozen_hashes": {
+    "admission.json": "a6fbb80c9e00509c4cd71acc4c9dc7269539f63479c2c20859f6ce449ab4f118",
+    "analyze.py": "e4b1d8e9b2b13f2db3d728a477c35d76db2f8804fdceff0dddbd2a22db8dc6ea",
+    "contract.json": "a9d5864fe5dd04c1817a3c8b549ea1a85189ee3dc808c83bfffc165631fc5bd1",
+    "panels.json": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d",
+    "test_analysis.py": "42dac48ae19dfdcd4e3f258ebc14d6896249d06658452d3eb5b37ba637c5b184"
+  },
+  "source": "GSE276656"
+}

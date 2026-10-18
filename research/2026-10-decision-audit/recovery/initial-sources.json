@@ -1,0 +1,22 @@
+[
+  {"id":"github-repository.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming"},
+  {"id":"github-branches.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/branches?per_page=100"},
+  {"id":"github-tags.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/tags?per_page=100"},
+  {"id":"github-releases.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/releases?per_page=100"},
+  {"id":"github-commits.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/commits?per_page=100"},
+  {"id":"github-tree-main.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/git/trees/main?recursive=1"},
+  {"id":"github-forks.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/forks?per_page=100"},
+  {"id":"github-issues.json","url":"https://api.github.com/repos/gitlucyxu/SVZreprogramming/issues?state=all&per_page=100"},
+  {"id":"zenodo-10626910.json","url":"https://zenodo.org/api/records/10626910"},
+  {"id":"zenodo-12613762.json","url":"https://zenodo.org/api/records/12613762"},
+  {"id":"geo-series.txt","url":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224438&targ=self&form=text&view=full"},
+  {"id":"geo-series-suppl.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/series/GSE224nnn/GSE224438/suppl/"},
+  {"id":"geo-GSM7022367-suppl.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022367/suppl/"},
+  {"id":"geo-GSM7022368-suppl.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022368/suppl/"},
+  {"id":"geo-GSM7022369-suppl.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022369/suppl/"},
+  {"id":"geo-GSM7022370-suppl.html","url":"https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7022nnn/GSM7022370/suppl/"},
+  {"id":"ena-SRP420832.tsv","url":"https://www.ebi.ac.uk/ena/portal/api/filereport?accession=SRP420832&result=read_run&fields=run_accession,experiment_accession,sample_accession,library_name,library_strategy,read_count,base_count,fastq_bytes,fastq_ftp,fastq_md5,submitted_ftp,submitted_bytes,submitted_format&format=tsv"},
+  {"id":"ncbi-wholebody-runs.xml","url":"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=SRR23332081,SRR23332082,SRR23332083,SRR23332085,SRR23332086,SRR23332087,SRR23332088&rettype=full&retmode=xml"},
+  {"id":"PMC12036604.html","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12036604/"},
+  {"id":"nature-00594.html","url":"https://www.nature.com/articles/s43587-024-00594-3"}
+]

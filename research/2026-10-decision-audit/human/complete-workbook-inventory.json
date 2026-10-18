@@ -1,0 +1,2198 @@
+{
+  "scope": "All six main-figure source workbooks and nine supplementary workbooks; semantic schedule linkage still requires figure captions.",
+  "sheets": [
+    {
+      "dimension": "A1:B8",
+      "formula_cells": 0,
+      "nonempty_cells": 16,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Process"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Relative weight"
+        }
+      ],
+      "sheet": "1b",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:C412",
+      "formula_cells": 0,
+      "nonempty_cells": 1236,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Preds"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Set"
+        }
+      ],
+      "sheet": "1c",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:H17",
+      "formula_cells": 0,
+      "nonempty_cells": 136,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Cell_type"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "LIB"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Comment"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "LIBPrep"
+        },
+        {
+          "cell": "H1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        }
+      ],
+      "sheet": "1d",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:C19",
+      "formula_cells": 0,
+      "nonempty_cells": 57,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Timepoint"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Assay"
+        }
+      ],
+      "sheet": "1e",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D11",
+      "formula_cells": 0,
+      "nonempty_cells": 44,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        }
+      ],
+      "sheet": "1f",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E17",
+      "formula_cells": 0,
+      "nonempty_cells": 85,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Timepoint"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "LineID"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        }
+      ],
+      "sheet": "1g",
+      "source": "srsf1-source-fig1.xlsx",
+      "source_sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:J77",
+      "formula_cells": 0,
+      "nonempty_cells": 770,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Passage"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "Dox"
+        },
+        {
+          "cell": "H1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        },
+        {
+          "cell": "I1",
+          "formula": null,
+          "type": "s",
+          "value": "AgeDiff"
+        },
+        {
+          "cell": "J1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_coded"
+        }
+      ],
+      "sheet": "3a",
+      "source": "srsf1-source-fig3.xlsx",
+      "source_sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:F481",
+      "formula_cells": 0,
+      "nonempty_cells": 2886,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "UMAP1"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "UMAP2"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Color"
+        }
+      ],
+      "sheet": "3b",
+      "source": "srsf1-source-fig3.xlsx",
+      "source_sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:N11",
+      "formula_cells": 0,
+      "nonempty_cells": 154,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "ID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Description"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "setSize"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "enrichmentScore"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "NES"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "pvalue"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "p.adjust"
+        },
+        {
+          "cell": "H1",
+          "formula": null,
+          "type": "s",
+          "value": "qvalue"
+        },
+        {
+          "cell": "I1",
+          "formula": null,
+          "type": "s",
+          "value": "rank"
+        },
+        {
+          "cell": "J1",
+          "formula": null,
+          "type": "s",
+          "value": "leading_edge"
+        },
+        {
+          "cell": "K1",
+          "formula": null,
+          "type": "s",
+          "value": "core_enrichment"
+        },
+        {
+          "cell": "L1",
+          "formula": null,
+          "type": "s",
+          "value": "Direction"
+        },
+        {
+          "cell": "M1",
+          "formula": null,
+          "type": "s",
+          "value": "CoreCount"
+        },
+        {
+          "cell": "N1",
+          "formula": null,
+          "type": "s",
+          "value": "GeneRatio"
+        }
+      ],
+      "sheet": "3c",
+      "source": "srsf1-source-fig3.xlsx",
+      "source_sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:C43",
+      "formula_cells": 0,
+      "nonempty_cells": 129,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Process"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "ActivityScore"
+        }
+      ],
+      "sheet": "3d",
+      "source": "srsf1-source-fig3.xlsx",
+      "source_sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:O19944",
+      "formula_cells": 0,
+      "nonempty_cells": 279245,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "ENSG"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "baseMean"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "log2FoldChange"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "lfcSE"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "stat"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "pvalue"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "padj"
+        },
+        {
+          "cell": "H1",
+          "formula": null,
+          "type": "s",
+          "value": "Perturbation"
+        },
+        {
+          "cell": "I1",
+          "formula": null,
+          "type": "s",
+          "value": "ENSG_clean"
+        },
+        {
+          "cell": "J1",
+          "formula": null,
+          "type": "s",
+          "value": "Symbol"
+        },
+        {
+          "cell": "K1",
+          "formula": null,
+          "type": "s",
+          "value": "is_target"
+        },
+        {
+          "cell": "L1",
+          "formula": null,
+          "type": "s",
+          "value": "is_rejuv_deg"
+        },
+        {
+          "cell": "M1",
+          "formula": null,
+          "type": "s",
+          "value": "is_spliced"
+        },
+        {
+          "cell": "N1",
+          "formula": null,
+          "type": "s",
+          "value": "Status"
+        },
+        {
+          "cell": "O1",
+          "formula": null,
+          "type": "s",
+          "value": "label_text"
+        }
+      ],
+      "sheet": "3e",
+      "source": "srsf1-source-fig3.xlsx",
+      "source_sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E15",
+      "formula_cells": 0,
+      "nonempty_cells": 62,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 4. NHDF donor lines used in this study and predicted ages from the perturbation screen"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Donor lines",
+      "source": "srsf1-supplement4.xlsx",
+      "source_sha256": "10c40e53a07e255b15a234d2eba26ad8693f828e533ed279e0091f71030bf375",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:J486",
+      "formula_cells": 0,
+      "nonempty_cells": 2888,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 4. NHDF donor lines used in this study and predicted ages from the perturbation screen"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Predicted ages",
+      "source": "srsf1-supplement4.xlsx",
+      "source_sha256": "10c40e53a07e255b15a234d2eba26ad8693f828e533ed279e0091f71030bf375",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D19",
+      "formula_cells": 0,
+      "nonempty_cells": 76,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Symbol"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Treatment"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Mean_Log2FC"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        }
+      ],
+      "sheet": "4a",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E28",
+      "formula_cells": 0,
+      "nonempty_cells": 140,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Symbol"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Treatment"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Mean_Log2FC"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Size_capped"
+        }
+      ],
+      "sheet": "4b",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:F13",
+      "formula_cells": 0,
+      "nonempty_cells": 78,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Rep"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "AgeDiff"
+        }
+      ],
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E28",
+      "formula_cells": 0,
+      "nonempty_cells": 140,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Symbol"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Treatment"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Mean_Log2FC"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        }
+      ],
+      "sheet": "4d",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:F55",
+      "formula_cells": 0,
+      "nonempty_cells": 330,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Symbol"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Treatment"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Mean_Log2FC"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Size_capped"
+        }
+      ],
+      "sheet": "4e",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E48",
+      "formula_cells": 0,
+      "nonempty_cells": 240,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "PC1"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "PC2"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Label"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Color"
+        }
+      ],
+      "sheet": "4f",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D31",
+      "formula_cells": 0,
+      "nonempty_cells": 124,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Bgal"
+        }
+      ],
+      "sheet": "5a",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D31",
+      "formula_cells": 0,
+      "nonempty_cells": 124,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene_ID"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Prot"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        }
+      ],
+      "sheet": "5b",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E19",
+      "formula_cells": 0,
+      "nonempty_cells": 95,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Assay"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Value"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Rel_effect"
+        }
+      ],
+      "sheet": "5c",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E19",
+      "formula_cells": 0,
+      "nonempty_cells": 95,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Assay"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Value"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Rel_effect"
+        }
+      ],
+      "sheet": "5d",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E25",
+      "formula_cells": 0,
+      "nonempty_cells": 101,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Sample_ID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "gsva_score"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "REACTOME_CELLULAR_SENESCENCE"
+        }
+      ],
+      "sheet": "5e",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E25",
+      "formula_cells": 0,
+      "nonempty_cells": 101,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Sample_ID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "gsva_score"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "KEGG_PROTEASOME"
+        }
+      ],
+      "sheet": "5f",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E25",
+      "formula_cells": 0,
+      "nonempty_cells": 101,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Sample_ID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "gsva_score"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "REACTOME_SENESCENCE_ASSOCIATED_SECRETORY_PHENOTYPE_SASP"
+        }
+      ],
+      "sheet": "5g",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E25",
+      "formula_cells": 0,
+      "nonempty_cells": 101,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Sample_ID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "gsva_score"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "HALLMARK_DNA_REPAIR"
+        }
+      ],
+      "sheet": "5h",
+      "source": "srsf1-source-fig5.xlsx",
+      "source_sha256": "e4991e4b76cee9821afd84e5de25bf16bbd14f8d4a22ed7c77048d64281a8240",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:F129",
+      "formula_cells": 0,
+      "nonempty_cells": 774,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Day"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Scaled_wound_area"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Mouse"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Wound"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Condition"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Dose"
+        }
+      ],
+      "sheet": "6b",
+      "source": "srsf1-source-fig6.xlsx",
+      "source_sha256": "3dc92f83fb1cfe4d50dd491835ad743f6edc5911ef15ba30589931c5560695a7",
+      "withdrawal_word_matches": [
+        {
+          "cell": "F34",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F35",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F36",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F37",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F38",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F39",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F40",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F41",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F42",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F43",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F44",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F45",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F46",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F47",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F48",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F49",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F50",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F51",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F52",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F53",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F54",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F55",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F56",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F57",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F58",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F59",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F60",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F61",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F62",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F63",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F64",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        },
+        {
+          "cell": "F65",
+          "formula": null,
+          "type": "s",
+          "value": "OFF-ON"
+        }
+      ]
+    },
+    {
+      "dimension": "A1:C20",
+      "formula_cells": 0,
+      "nonempty_cells": 60,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Death_day"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Status"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        }
+      ],
+      "sheet": "6c",
+      "source": "srsf1-source-fig6.xlsx",
+      "source_sha256": "3dc92f83fb1cfe4d50dd491835ad743f6edc5911ef15ba30589931c5560695a7",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:R294",
+      "formula_cells": 0,
+      "nonempty_cells": 2204,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "mouse"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "group"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "week"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "frailty"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "week_from_start"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "baseline_weight"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "survival_weeks"
+        },
+        {
+          "cell": "I1",
+          "formula": null,
+          "type": "s",
+          "value": "mouse"
+        },
+        {
+          "cell": "J1",
+          "formula": null,
+          "type": "s",
+          "value": "group"
+        },
+        {
+          "cell": "K1",
+          "formula": null,
+          "type": "s",
+          "value": "survival_time"
+        },
+        {
+          "cell": "L1",
+          "formula": null,
+          "type": "s",
+          "value": "event"
+        },
+        {
+          "cell": "M1",
+          "formula": null,
+          "type": "s",
+          "value": "baseline_weight"
+        },
+        {
+          "cell": "N1",
+          "formula": null,
+          "type": "s",
+          "value": "death_day"
+        },
+        {
+          "cell": "O1",
+          "formula": null,
+          "type": "s",
+          "value": "survival_weeks"
+        },
+        {
+          "cell": "Q1",
+          "formula": null,
+          "type": "s",
+          "value": "Group"
+        },
+        {
+          "cell": "R1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        }
+      ],
+      "sheet": "6d",
+      "source": "srsf1-source-fig6.xlsx",
+      "source_sha256": "3dc92f83fb1cfe4d50dd491835ad743f6edc5911ef15ba30589931c5560695a7",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:E521",
+      "formula_cells": 0,
+      "nonempty_cells": 1045,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Day"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "N2 Control"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "N2 rsp-3 RNAi"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "raga-1(ok386) Control"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "raga-1(ok386) rsp-3 RNAi"
+        }
+      ],
+      "sheet": "6e",
+      "source": "srsf1-source-fig6.xlsx",
+      "source_sha256": "3dc92f83fb1cfe4d50dd491835ad743f6edc5911ef15ba30589931c5560695a7",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D238",
+      "formula_cells": 0,
+      "nonempty_cells": 952,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "ScreenID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "L2FC"
+        }
+      ],
+      "sheet": "2b",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:G241",
+      "formula_cells": 0,
+      "nonempty_cells": 1687,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Passage"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_coded"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "zScores"
+        }
+      ],
+      "sheet": "2c",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:J52",
+      "formula_cells": 0,
+      "nonempty_cells": 520,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "SampleID"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "s",
+          "value": "Passage"
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_age"
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "s",
+          "value": "Predicted_age"
+        },
+        {
+          "cell": "H1",
+          "formula": null,
+          "type": "s",
+          "value": "AgeDiff"
+        },
+        {
+          "cell": "I1",
+          "formula": null,
+          "type": "s",
+          "value": "Rel_effect"
+        },
+        {
+          "cell": "J1",
+          "formula": null,
+          "type": "s",
+          "value": "Line_coded"
+        }
+      ],
+      "sheet": "2d",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D49",
+      "formula_cells": 0,
+      "nonempty_cells": 196,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Bgal_rel_change"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        }
+      ],
+      "sheet": "2e",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D49",
+      "formula_cells": 0,
+      "nonempty_cells": 196,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Prot_rel_change"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        }
+      ],
+      "sheet": "2f",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D49",
+      "formula_cells": 0,
+      "nonempty_cells": 196,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Gene"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "s",
+          "value": "Mito_rel_change"
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "s",
+          "value": "Line"
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "s",
+          "value": "Replicate"
+        }
+      ],
+      "sheet": "2g",
+      "source": "srsf1-source-fig2.xlsx",
+      "source_sha256": "900c7bcd06013464e21c3910a1e89fec3b39dfba5288cf636d91fa426fe82901",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:K301",
+      "formula_cells": 0,
+      "nonempty_cells": 1482,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 1. Genes included in the transcriptomic aging model"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement1.xlsx",
+      "source_sha256": "7d37c6a3d15a8c9baefda3f28906bc9ec7f91c03f12b2f7b7bb34318f3b6661b",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:F20",
+      "formula_cells": 0,
+      "nonempty_cells": 80,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 2. Public data accession IDs"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement2.xlsx",
+      "source_sha256": "133087918ce5be485a8007299945f03354701180064b57d34694ce5121e9fc88",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:J100",
+      "formula_cells": 0,
+      "nonempty_cells": 942,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 3. Candidate genes for age reversal screen"
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement3.xlsx",
+      "source_sha256": "4bf40d95058d6d60e76cc203282448a28659cf5ae0b49d63a18f3a331fce4ece",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D2157",
+      "formula_cells": 0,
+      "nonempty_cells": 8622,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 5. Differentially spliced genes in SRSF1- and OSKM-overexpressing lines"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "SRSF1",
+      "source": "srsf1-supplement5.xlsx",
+      "source_sha256": "d20a52e492075f523b65604782ca969a68a48c728c7310772b328e3cd3eb6049",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:D951",
+      "formula_cells": 0,
+      "nonempty_cells": 3798,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 5. Differentially spliced genes in SRSF1- and OSKM- overexpressing lines"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "OSKM",
+      "source": "srsf1-supplement5.xlsx",
+      "source_sha256": "d20a52e492075f523b65604782ca969a68a48c728c7310772b328e3cd3eb6049",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:G40",
+      "formula_cells": 0,
+      "nonempty_cells": 268,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 6. Longitudinal analysis of individual frailty index components"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "G1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement6.xlsx",
+      "source_sha256": "608b4826bb05e9cd0529141a982737825ac8b4b80c1942142f3d966bd6fd0fdf",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:G15",
+      "formula_cells": 0,
+      "nonempty_cells": 77,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 7. Worm lifespan data summary"
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement7.xlsx",
+      "source_sha256": "aa5b38c3adbf3def2eb3e1beae73dc7c07899ce7cafc80cf8bb6e1702f3abbb9",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:I100",
+      "formula_cells": 0,
+      "nonempty_cells": 866,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 8. Plasmids, barcodes, amplifying primers, and source for the candidate genes"
+        },
+        {
+          "cell": "B1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "C1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "D1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "E1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        },
+        {
+          "cell": "F1",
+          "formula": null,
+          "type": "n",
+          "value": null
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement8.xlsx",
+      "source_sha256": "2ee38707ee35477d6a34dda37e7a44e7453f318985fb56501fce7d6a81caeab8",
+      "withdrawal_word_matches": []
+    },
+    {
+      "dimension": "A1:G28",
+      "formula_cells": 0,
+      "nonempty_cells": 156,
+      "row1": [
+        {
+          "cell": "A1",
+          "formula": null,
+          "type": "s",
+          "value": "Supplementary Table 9. Mouse lifespans and molecular profiling"
+        }
+      ],
+      "sheet": "Sheet1",
+      "source": "srsf1-supplement9.xlsx",
+      "source_sha256": "5516fbdc16d4df4b6b18290c30da549ceeeaa6b4e40c1cf12c167c3713125ecc",
+      "withdrawal_word_matches": []
+    }
+  ]
+}

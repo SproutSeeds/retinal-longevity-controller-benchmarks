@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "stage": "post_inspection_descriptive_extension",
+  "source": "srsf1-source-fig4.xlsx",
+  "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+  "reason": "Inspection of all main-figure source workbooks identified previously missed withdrawal reference outputs in sheet 4c. Some values were already visible before this extension was written. This is an explicitly retrospective source-extraction and bookkeeping audit, not a prospectively frozen biological comparison.",
+  "scope": [
+    "Extract every row of 4c with values, cell coordinates, and formula/cache distinction.",
+    "Verify that reported AgeDiff equals reported Predicted_age minus Line_age, within 1e-10 years.",
+    "Map donor/construct/schedule groups to all eligible GEO libraries without assigning a reference row to an individual library.",
+    "Summarize per-donor reported-reference differences using all published technical replicates, with equal donor weighting; no new p-values or confidence intervals.",
+    "Retain the original reference extraction freeze and its separate join-input correction."
+  ],
+  "schedule_authority": "https://www.nature.com/articles/s43587-026-01234-8/figures/4",
+  "timing": {"induction_days": 5, "off_days": 2},
+  "not_earned": ["independent clock replay", "independent treatment replication", "late durable recovery", "individual cell lineage", "calibrated unusual-state prevalence", "ocular efficacy"]
+}

@@ -1,0 +1,89 @@
+{
+  "CX004_readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "accession": "GSE276656",
+  "additional_leads_screened": [
+    "GSE307031",
+    "GSE304038",
+    "GSE304043",
+    "PRJEB65922",
+    "GSE288182"
+  ],
+  "as_of_utc": "2026-10-18T12:12:52.637711+00:00",
+  "author_pipeline_match": {
+    "difference": 393,
+    "independent_raw_recount_matches_ours": true,
+    "our_RNA_QC_nuclei": 34210,
+    "paper_RNA_QC_nuclei": 34603,
+    "status": "INCONCLUSIVE",
+    "why_unresolved": "Author per-barcode inclusion/annotation and exact pipeline objects not recovered. Do not infer a source error."
+  },
+  "claim_level": "Verified",
+  "experimental_units_primary": 7,
+  "heterogeneity": {
+    "interpretation": "Opposes whole-library direction; bins are heuristic, cannot isolate validated cell identity or infected engrams.",
+    "microglial_marker_bin_cycle_delta_at_1_UMI": 0.1268245952812519,
+    "microglial_marker_bin_cycle_delta_at_2_UMI": 0.09888862935339437
+  },
+  "independent_animals_total": 10,
+  "new_computable_public_data_found": true,
+  "new_source_matrices": 10,
+  "next_input_changes": [
+    {
+      "input": "Animal-to-processing-batch, behavioral-cohort and exact induction/collection map",
+      "priority": 1,
+      "unlocks": "Batch-aware animal-level comparisons and more precise post-pulse timing interpretation"
+    },
+    {
+      "input": "Author per-barcode annotations, QC inclusion and engram labels plus reference/object versions",
+      "priority": 2,
+      "unlocks": "Resolve 393-nucleus mismatch and assess infected engrams with the same definitions"
+    },
+    {
+      "input": "Compatible existing matched target human/retinal on/off and late-recovery observations",
+      "priority": 3,
+      "unlocks": "Reassess the actual target experiment; otherwise define the missing measurement for a conditional funding plan"
+    }
+  ],
+  "no_canonical_GPD_mutation": true,
+  "no_new_outreach_sent": true,
+  "no_paid_compute": true,
+  "no_wetlab_arranged_or_purchased": true,
+  "nuclei_deposited": 35907,
+  "nuclei_fixed_RNA_QC": 34210,
+  "paired_atac_additional_animals": 0,
+  "primary_result": {
+    "CPM_delta": -0.12398709908220185,
+    "animal_leaveout_range": [
+      -0.21712463450972663,
+      -0.006480088496270575
+    ],
+    "gene_leaveout_range": [
+      -0.13124636928538713,
+      -0.11575839757797146
+    ],
+    "holm_p": 1.0,
+    "interpretation": "Sign-stable descriptive estimate across specified whole-library checks. No corrected-significance, cell-autonomous, age-reversal, safety, recovery or exact acute-replication claim.",
+    "panel": "cycle_panel",
+    "permutation_denominator": 35,
+    "permutation_numerator": 13
+  },
+  "schema": "cx004-decision/v1",
+  "scope": "independent_mouse_mPFC_fixed_panel_lane",
+  "source_bytes": 721204825,
+  "status": "bounded_new_public_data_analysis_complete",
+  "target_experiment_replacement": "INCONCLUSIVE",
+  "verification": {
+    "aggregate_and_source_checks": 897,
+    "independent_raw_comparisons": 646760,
+    "saved_artifact_checks": 877,
+    "status": "PASS",
+    "synthetic_tests": 6
+  },
+  "wet_lab_guaranteed_necessary": false,
+  "why_no_global_necessity_claim": "This bounded audit cannot exclude compatible unavailable or undiscovered observations. The new mouse mPFC endpoint does not itself supply the matched human/ocular target measurements."
+}

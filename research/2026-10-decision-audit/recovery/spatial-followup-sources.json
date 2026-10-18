@@ -1,0 +1,18 @@
+[
+  {
+    "id": "spatial-1D_metadata_integration.ipynb",
+    "url": "https://raw.githubusercontent.com/sunericd/spatial_aging_clocks/6fc8c3fb245d52b0c5b7abcc06e9d781d950169c/1D_metadata_integration.ipynb"
+  },
+  {
+    "id": "spatial-3E_clocks_external_validation.ipynb",
+    "url": "https://raw.githubusercontent.com/sunericd/spatial_aging_clocks/6fc8c3fb245d52b0c5b7abcc06e9d781d950169c/3E_clocks_external_validation.ipynb"
+  },
+  {
+    "id": "spatial-4A_application_to_interventions.ipynb",
+    "url": "https://raw.githubusercontent.com/sunericd/spatial_aging_clocks/6fc8c3fb245d52b0c5b7abcc06e9d781d950169c/4A_application_to_interventions.ipynb"
+  },
+  {
+    "id": "spatial-5E_external_dataset_proximity_effects.ipynb",
+    "url": "https://raw.githubusercontent.com/sunericd/spatial_aging_clocks/6fc8c3fb245d52b0c5b7abcc06e9d781d950169c/5E_external_dataset_proximity_effects.ipynb"
+  }
+]

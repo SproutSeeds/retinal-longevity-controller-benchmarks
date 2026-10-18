@@ -1,0 +1,12 @@
+{
+  "files": {
+    "ocular/admission.json": "35968140f1dd4afb8e112ba4af05b3b7787e77003e3dab9f8aee6d988d42d863",
+    "ocular/contract.json": "89f0c09930b6bbbd79eca2b5a4977a7e5c22dc9201279058d065f9a74f73b6ca",
+    "ocular/panels.json": "e3e92c37a70101f247c9e1c4ecd50b7118f4446629790ac42d56b57c3a613d3d"
+  },
+  "frozen_at_utc": "2026-10-18T11:58:45.008985+00:00",
+  "lane": "ocular",
+  "reviewer": "root",
+  "scope": "Independent-study cross-context 4APP_OSK vs3APP_GFP animal-level fixed-panel analysis; 3WTcontext; no retinal, exact acute replication or verifiedwithdrawal inference. Implementation freeze still required before outcomes.",
+  "stage": "design_before_expression_download"
+}

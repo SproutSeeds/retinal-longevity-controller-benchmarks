@@ -1,0 +1,81 @@
+{
+  "calculation_claim_level": "Verified within the named arithmetic and provenance checks",
+  "computations_completed": [
+    {
+      "artifact": "human/recovery-reference-audit.json",
+      "biological_donors": 3,
+      "id": "human_reference",
+      "individual_prediction_to_library_join": false,
+      "kind": "published_prediction_arithmetic",
+      "schedule_days": {
+        "induction": 5,
+        "off": 2
+      },
+      "srsf1_minus_bfp_model_years": -10.700069293941349,
+      "technical_reference_rows": 12
+    },
+    {
+      "animal_batch_map_available": false,
+      "artifact": "ocular/results/contrasts.csv",
+      "conditional_permutation_p": 0.37142857142857144,
+      "control_animals": 3,
+      "cycle_primary_difference": -0.12398709908220185,
+      "four_test_holm_p": 1.0,
+      "id": "independent_mouse",
+      "kind": "public_counts_independent_fixed_panel_analysis",
+      "treated_animals": 4
+    },
+    {
+      "artifact": "assignment/results.json",
+      "id": "assignment_recheck",
+      "kind": "fresh_source_hash_comparison",
+      "source_unchanged": true
+    }
+  ],
+  "conditional_measurement_requirement": "For the intended matched human claim, acquire new measurements only if compatible existing observations cannot be recovered; banked material may reduce culture work but still requires an assay.",
+  "date": "2026-10-18",
+  "decision_claim_level": "Heuristic",
+  "experiment_replacement": "INCONCLUSIVE",
+  "model_training_disposition": "No new rejuvenation or safety predictor: trustworthy target labels and independent donor/study-held-out validation remain prerequisites.",
+  "new_independent_clock_replay_completed": false,
+  "new_observed_data_generated": false,
+  "new_wetlab_purchase_or_arrangement": false,
+  "paid_compute_used": false,
+  "public_search_universal_exhaustion_claim": false,
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "remaining_inputs": [
+    {
+      "artifact": "recovery/decision.json",
+      "existing_design_found": true,
+      "id": "xu_withdrawal",
+      "status": "requires_verified_assignment_and_timing"
+    },
+    {
+      "artifact": "NEXT_STEPS.md",
+      "id": "retinal_historical_clock",
+      "status": "requires_historical_pipeline_preprocessing_and_joins"
+    },
+    {
+      "artifact": "human/REPORT.md",
+      "id": "human_clock_replay",
+      "status": "requires_preprocessing_reference_and_sample_binding"
+    },
+    {
+      "artifact": "assignment/results.json",
+      "id": "large_perturbation_screen",
+      "status": "await_corrected_assignment"
+    }
+  ],
+  "reopen_rule": "A changed public source or supplied exact input passes provenance, identity, chronology, reuse and design admission before new outcomes are analyzed.",
+  "retinal_bridge_requirement": "A relevant ocular system, appropriate function and endpoint-specific sample joins are additional requirements.",
+  "retinal_efficacy_established": false,
+  "schema": "cx004-integrated-decision/v1",
+  "stage": "newly_admitted_computations_complete_specific_input_dependencies_remain",
+  "synthetic_scope": "Design and software stress tests; no substitution for observations, sample identity, recovery or biological safety labels.",
+  "unconditional_wetlab_necessity_proven": false
+}

@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-18T12:01:20.938889+00:00",
+  "expression_downloaded": false,
+  "locations": [
+    "Figure 3A",
+    "Mice Methods",
+    "Nuclei preparation for 10x multi-omics"
+  ],
+  "new_hashes": {
+    "admission.json": "a6fbb80c9e00509c4cd71acc4c9dc7269539f63479c2c20859f6ce449ab4f118",
+    "contract.json": "a9d5864fe5dd04c1817a3c8b549ea1a85189ee3dc808c83bfffc165631fc5bd1"
+  },
+  "old_hashes": {
+    "admission.json": "35968140f1dd4afb8e112ba4af05b3b7787e77003e3dab9f8aee6d988d42d863",
+    "contract.json": "89f0c09930b6bbbd79eca2b5a4977a7e5c22dc9201279058d065f9a74f73b6ca"
+  },
+  "outcomes_inspected": false,
+  "reason": "Primary paper establishes sequencing cohort female sex and two processing batches after initial metadata-only design freeze. Correct caveats without changing sample inclusion, scoring, testing or marker partitions.",
+  "source": "https://doi.org/10.1016/j.neuron.2025.11.028",
+  "stage": "before_expression_download_and_implementation_freeze"
+}

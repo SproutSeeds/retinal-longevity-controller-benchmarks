@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-18",
+  "claim_level": "Verified",
+  "scope": "Finite public-source audit, reference extraction, exact sample joins and descriptive arithmetic",
+  "status": "completed_available_reference_audit_waiting_on_specific_inputs",
+  "biological_breakthrough": false,
+  "guaranteed_wetlab_requirement": false,
+  "experiment_replacement": "INCONCLUSIVE",
+  "completed": [
+    "48 successful public-source retrievals and one preserved failed branch lookup.",
+    "All six main-figure and nine supplementary XLSX workbooks inventoried: 46 sheets.",
+    "1027 original published-reference row occurrences extracted with coordinates and source hashes.",
+    "66 of 76 Fig. 3a validation rows verified against exact deposited library identity and metadata; ten BFP IDs remain absent.",
+    "Twelve additional Fig. 4c age-reference rows recovered for 5 days of induction and 2 days after withdrawal: three donors, two constructs and two technical replicates per group.",
+    "Published-reference arithmetic reproduces a mean SRSF1-minus-BFP difference of -10.700069293941349 model years across three donor means; the source caption rounds this to 11 years.",
+    "The 12 recovery references map to six donor/construct/schedule groups. No individual reference-row to RNA-library assignment is inferred.",
+    "Chronology corrected to Extended Data Fig. 5d/e. Short-induction 8/16-day OFF labels versus 6/12 days after withdrawal remain unresolved.",
+    "Current clock implementation and bounded literature/GEO discovery sources audited; no author model executed."
+  ],
+  "missing_inputs": [
+    "Exact gene lengths, filter list and normalization gene universe used for the published clock inputs, or a complete processed input matrix with provenance.",
+    "Intended transformation/correction path and library-preparation encoding, with uniquely keyed expected predictions for validation and recovery samples.",
+    "Sample-level induction, removal and harvest mapping resolving the short-induction timing discrepancy."
+  ],
+  "reopen_on": [
+    "A complete exact preprocessing/reference bundle permits a separately frozen numerical replay with held-out reference checks.",
+    "Author clarification or a public sample map permits unambiguous long-withdrawal contrasts.",
+    "A newly available compatible dataset provides matched human age, identity and calibrated per-cell unusual-state measurements after verified withdrawal."
+  ],
+  "conditional_experimental_need": "If the intended joint late per-cell recovery observations cannot be obtained from existing studies, those observations must be measured to test that claim. An ocular conclusion additionally requires relevant retinal/RPE biology and function. A finite public search does not prove that no suitable data exist elsewhere.",
+  "synthetic_and_model_training": "Synthetic counts can test depth sensitivity, assignment failures and sampling rules. They cannot establish an unobserved biological recovery outcome. Supervised safety/state models still need suitable biological labels and held-out donor/study evaluation.",
+  "new_correspondence_sent": false,
+  "private_mail_status": "Owned by coordinator; this public lane does not infer whether authors have replied."
+}

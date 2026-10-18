@@ -1,0 +1,130 @@
+{
+  "checked_exact_library_joins": 66,
+  "interpretation": "The twelve NTg rows have source-local numbering 1/2 versus 3/4. Exact accession/library keys and the audited biological fields agree. Numbering semantics remain unconfirmed; replicate labels are not used as a cross-source row key.",
+  "mismatch_count": 12,
+  "original_outputs_changed": false,
+  "rows": [
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612048",
+      "geo_title_replicate": 3,
+      "library": "S232",
+      "source_coordinate": "B28",
+      "source_row": 28,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612049",
+      "geo_title_replicate": 4,
+      "library": "S233",
+      "source_coordinate": "B29",
+      "source_row": 29,
+      "workbook_replicate": 2
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612050",
+      "geo_title_replicate": 3,
+      "library": "S234",
+      "source_coordinate": "B30",
+      "source_row": 30,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612051",
+      "geo_title_replicate": 4,
+      "library": "S235",
+      "source_coordinate": "B31",
+      "source_row": 31,
+      "workbook_replicate": 2
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612096",
+      "geo_title_replicate": 3,
+      "library": "S280",
+      "source_coordinate": "B40",
+      "source_row": 40,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612097",
+      "geo_title_replicate": 4,
+      "library": "S281",
+      "source_coordinate": "B41",
+      "source_row": 41,
+      "workbook_replicate": 2
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612100",
+      "geo_title_replicate": 3,
+      "library": "S284",
+      "source_coordinate": "B42",
+      "source_row": 42,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612101",
+      "geo_title_replicate": 4,
+      "library": "S285",
+      "source_coordinate": "B43",
+      "source_row": 43,
+      "workbook_replicate": 2
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612102",
+      "geo_title_replicate": 3,
+      "library": "S286",
+      "source_coordinate": "B44",
+      "source_row": 44,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612103",
+      "geo_title_replicate": 4,
+      "library": "S287",
+      "source_coordinate": "B45",
+      "source_row": 45,
+      "workbook_replicate": 2
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612104",
+      "geo_title_replicate": 3,
+      "library": "S288",
+      "source_coordinate": "B46",
+      "source_row": 46,
+      "workbook_replicate": 1
+    },
+    {
+      "construct": "NTg",
+      "exact_library_join_preserved": true,
+      "geo_sample": "GSM9612105",
+      "geo_title_replicate": 4,
+      "library": "S289",
+      "source_coordinate": "B47",
+      "source_row": 47,
+      "workbook_replicate": 2
+    }
+  ],
+  "schema": "cx004-replicate-numbering-review/v1",
+  "stage": "post_analysis_independent_source_review"
+}

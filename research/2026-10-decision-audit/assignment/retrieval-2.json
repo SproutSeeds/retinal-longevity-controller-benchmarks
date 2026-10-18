@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "geo350289-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=self&form=text&view=full",
+      "max_bytes": 2000000,
+      "checked_at_utc": "2026-10-18T11:50:39.046769+00:00",
+      "http_status": 200,
+      "content_type": "geo/text",
+      "status": "retrieved",
+      "bytes": 31565,
+      "sha256": "7967c27919ba13fe85c43031ca08d7d3e02088f12c6a83cc717542258de94f0a"
+    },
+    {
+      "id": "geo350289-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/",
+      "max_bytes": 2000000,
+      "checked_at_utc": "2026-10-18T11:50:39.047215+00:00",
+      "http_status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "status": "retrieved",
+      "bytes": 2097,
+      "sha256": "5b7fa581fcf68a1e1032a970d93bafed6836594d97aa61516a361e2b27a49e3c"
+    },
+    {
+      "id": "geo350289-metadata.xlsx",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+      "max_bytes": 20000000,
+      "checked_at_utc": "2026-10-18T11:50:39.047346+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "status": "retrieved",
+      "bytes": 1725954,
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d"
+    }
+  ]
+}

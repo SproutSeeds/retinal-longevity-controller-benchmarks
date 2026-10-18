@@ -1,0 +1,53 @@
+{
+  "sources": [
+    {
+      "id": "epmc-human-transient.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22partial+reprogramming%22+OR+TITLE_ABS%3A%22transient+reprogramming%22%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "query": "(TITLE_ABS:\"partial reprogramming\" OR TITLE_ABS:\"transient reprogramming\") AND (TITLE_ABS:human OR TITLE_ABS:fibroblast) AND FIRST_PDATE:[1900-01-01 TO 2026-10-18]",
+      "engine": "europepmc",
+      "max_bytes": 20000000
+    },
+    {
+      "id": "epmc-human-withdrawal.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Areprogramming%29+AND+%28TITLE_ABS%3Awithdrawal+OR+TITLE_ABS%3Awashout+OR+TITLE_ABS%3Arecovery%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "query": "(TITLE_ABS:reprogramming) AND (TITLE_ABS:withdrawal OR TITLE_ABS:washout OR TITLE_ABS:recovery) AND (TITLE_ABS:human OR TITLE_ABS:fibroblast) AND FIRST_PDATE:[1900-01-01 TO 2026-10-18]",
+      "engine": "europepmc",
+      "max_bytes": 20000000
+    },
+    {
+      "id": "geo-human-recovery.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Homo+sapiens%22%5BOrganism%5D+AND+reprogramming+AND+%28withdrawal+OR+transient+OR+partial+OR+rejuvenation%29+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+      "query": "\"Homo sapiens\"[Organism] AND reprogramming AND (withdrawal OR transient OR partial OR rejuvenation) AND gse[Entry Type]",
+      "engine": "geo",
+      "max_bytes": 20000000
+    },
+    {
+      "id": "stampscreen-tree-main.json",
+      "url": "https://api.github.com/repos/pranamanam/STAMPScreen/git/trees/main?recursive=1"
+    },
+    {
+      "id": "clock-readme.txt",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/README.md"
+    },
+    {
+      "id": "clock-filter.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/GetGenesForRemoval.R"
+    },
+    {
+      "id": "srsf1-geo-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/"
+    },
+    {
+      "id": "gse326022-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE326nnn/GSE326022/suppl/"
+    },
+    {
+      "id": "gse165177-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/"
+    },
+    {
+      "id": "gse165179-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165179/suppl/"
+    }
+  ]
+}

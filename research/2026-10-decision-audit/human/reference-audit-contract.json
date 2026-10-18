@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "status": "proposed_pre_numeric_inspection",
+  "date": "2026-10-18",
+  "question": "Do public SRSF1 supplements provide reference predictions and exact sample joins that narrow the previously reported replay and chronology gaps?",
+  "prior_information": "Published article conclusions, 292 gene coefficients, an intercept, two library adjustments, 72 human factor-off sample records, and the unresolved GEO 8/16 versus caption 6/12 timing discrepancy were already known. Workbook descriptions are visible; workbook numeric values have not been inspected for this audit.",
+  "inputs": ["srsf1-source-fig1.xlsx", "srsf1-source-fig3.xlsx", "srsf1-supplement4.xlsx", "prior srsf1-recovery-samples.json", "prior srsf1-clock-parameters.json", "current author code and publisher text"],
+  "scope": [
+    "Inventory every sheet, dimensions, formula presence, column labels and sample-identifying fields.",
+    "Extract explicitly labeled published prediction/reference rows and their units, preserving source workbook/sheet/cell coordinates.",
+    "Join only exact sample/library identifiers to the existing GEO/count-column manifest. A donor/group/time match without an individual sample key remains group-level provenance, not a unique library join.",
+    "Report exact, missing, duplicate and ambiguous joins; preserve all failed rows.",
+    "Reconcile timing labels only when an explicit primary-source sample-level mapping establishes equivalence. Do not infer calendar dates from effect values.",
+    "Audit current and newly found code dependencies without executing author scripts or deserializing models.",
+    "If a complete documented preprocessing path and paired reference input/output become available, submit a separate frozen replay contract before applying the clock to counts."
+  ],
+  "no_outcome_selection": "No sample subset will be chosen by prediction direction or magnitude. Published reference values are not independently reproduced biological ages. No new treatment-effect p-values or calibrated safety/state labels will be computed.",
+  "claims": {"verified":"Source extraction, exact identities and numerical bookkeeping only", "heuristic":"Biological interpretation of published age estimates", "not_earned":["same-cell recovery", "true rare-state prevalence", "calibrated safety", "retinal efficacy", "independent clock replay", "global absence of compatible data"]},
+  "determinism": "Pin SHA-256 for downloaded workbooks and prior manifest before numeric extraction. Deterministic outputs exclude retrieval timestamps.",
+  "tests": ["XLSX shared and inline strings", "blank versus numeric zero", "formula/cache separation", "duplicate and ambiguous joins rejected", "sample ID exactness", "source coordinate retention"]
+}

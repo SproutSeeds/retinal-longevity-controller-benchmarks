@@ -1,0 +1,303 @@
+{
+  "claim_level": "Verified",
+  "ena_fastq_bytes_by_geo_library": {
+    "GSM7022367": 44207239760,
+    "GSM7022368": 26016265059,
+    "GSM7022369": 28962895186,
+    "GSM7022370": 30183860429
+  },
+  "ena_run_metadata": [
+    {
+      "base_count": "41965640100",
+      "experiment_accession": "SRX19274295",
+      "fastq_bytes": "7122708625;7900964183",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/082/SRR23332082/SRR23332082_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/082/SRR23332082/SRR23332082_2.fastq.gz",
+      "fastq_md5": "a3110f89c4552475165cc4ddb9ea4627;c371cf7e2b4ce50e1822946f0e700aae",
+      "library_name": "GSM7022370",
+      "library_strategy": "RNA-Seq",
+      "read_count": "139885467",
+      "run_accession": "SRR23332082",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "36693561000",
+      "experiment_accession": "SRX19274293",
+      "fastq_bytes": "6135490580;6819161968",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/086/SRR23332086/SRR23332086_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/086/SRR23332086/SRR23332086_2.fastq.gz",
+      "fastq_md5": "b6c97e9225f1c06362985a5a227e1476;5cf586c0e0f207f378b20375617bfa47",
+      "library_name": "GSM7022368",
+      "library_strategy": "RNA-Seq",
+      "read_count": "122311870",
+      "run_accession": "SRR23332086",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "40996719000",
+      "experiment_accession": "SRX19274296",
+      "fastq_bytes": "6871601771;7679842704",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/083/SRR23332083/SRR23332083_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/083/SRR23332083/SRR23332083_2.fastq.gz",
+      "fastq_md5": "ec6c22c9d6556340f291e4434bf18add;48b61642dcce17f99f0a8a3c5161a33e",
+      "library_name": "GSM7022369",
+      "library_strategy": "RNA-Seq",
+      "read_count": "136655730",
+      "run_accession": "SRR23332083",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "124415707800",
+      "experiment_accession": "SRX19274292",
+      "fastq_bytes": "21037462510;23169777250",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/088/SRR23332088/SRR23332088_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/088/SRR23332088/SRR23332088_2.fastq.gz",
+      "fastq_md5": "5bf5e0b0434c76c7466e7f39daa39665;3e263e46b38e3cbddb8afabdad21d68b",
+      "library_name": "GSM7022367",
+      "library_strategy": "RNA-Seq",
+      "read_count": "414719026",
+      "run_accession": "SRR23332088",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "40556866200",
+      "experiment_accession": "SRX19274296",
+      "fastq_bytes": "6810570980;7600879731",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/081/SRR23332081/SRR23332081_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/081/SRR23332081/SRR23332081_2.fastq.gz",
+      "fastq_md5": "6f92a55383e9da30b2e16e50e9d13e35;dcc9bac0f0b0fc4a5a56aa8f1939a289",
+      "library_name": "GSM7022369",
+      "library_strategy": "RNA-Seq",
+      "read_count": "135189554",
+      "run_accession": "SRR23332081",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "42390849300",
+      "experiment_accession": "SRX19274295",
+      "fastq_bytes": "7182426237;7977761384",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/085/SRR23332085/SRR23332085_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/085/SRR23332085/SRR23332085_2.fastq.gz",
+      "fastq_md5": "30a2aecc4af55ce240a502f7330d1373;4eb321be5427df51240986f563d98382",
+      "library_name": "GSM7022370",
+      "library_strategy": "RNA-Seq",
+      "read_count": "141302831",
+      "run_accession": "SRR23332085",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    },
+    {
+      "base_count": "37036504800",
+      "experiment_accession": "SRX19274293",
+      "fastq_bytes": "6181365123;6880247388",
+      "fastq_ftp": "ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/087/SRR23332087/SRR23332087_1.fastq.gz;ftp.sra.ebi.ac.uk/vol1/fastq/SRR233/087/SRR23332087/SRR23332087_2.fastq.gz",
+      "fastq_md5": "71b98e12deb152af8ce225b713d884ff;c9826c2c0f8f572bf4f5dd9c799e5849",
+      "library_name": "GSM7022368",
+      "library_strategy": "RNA-Seq",
+      "read_count": "123455016",
+      "run_accession": "SRR23332087",
+      "submitted_bytes": "",
+      "submitted_ftp": ""
+    }
+  ],
+  "ena_wholebody_total_bytes": 129370260434,
+  "fastq_content_inspected": false,
+  "full_raw_download_executed": false,
+  "geo_matrices": [
+    {
+      "additional_raw_barcodes_without_recovered_animal_assignment": 9648,
+      "barcode_sha256": "c77d9fce46ca0e436cac44dbf15e0cfe68ede664f2473d87091df284a86d698d",
+      "barcode_transform": "Remove the validated uniform -1 suffix from GSM7022367 only.",
+      "barcodes": 10842,
+      "cohort": 1,
+      "feature_alignment_required": true,
+      "feature_sha256": "20a8e24cbb35bea59167499122280af7039d9699d16e03b32db94e80686cfb5d",
+      "feature_types": [
+        "Gene Expression"
+      ],
+      "features": 31054,
+      "full_cell_to_animal_assignment_deposited_in_matrix_triplet": false,
+      "geo_library": "GSM7022367",
+      "included_object_barcodes_match_raw": 1194,
+      "matrix_downloaded": false,
+      "object_pattern": "[ACGT]{16}",
+      "raw_pattern": "[ACGT]{16}-1",
+      "shared_object_rna_features": 31057,
+      "tenx_lane": 1,
+      "unique_before_and_after_transform": true
+    },
+    {
+      "barcode_sha256": "b53997bc62867dfacda852820ef5af78ef9cdd614ba07ed880f3693baedee563",
+      "barcodes": 3006,
+      "cohort": 2,
+      "feature_sha256": "a9402c13bb3f38daaf2f1eeeebb509b659752d7c94aea51c4ccb07f0be7e870c",
+      "feature_types": [
+        "Gene Expression"
+      ],
+      "features": 31057,
+      "full_cell_to_animal_assignment_deposited_in_matrix_triplet": false,
+      "geo_library": "GSM7022368",
+      "matrix_downloaded": false,
+      "tenx_lane": 1
+    },
+    {
+      "barcode_sha256": "bf59b24d0ec2b8fdcd5c6df76e5241b9cc952cfc7118463244fa9e073d8a6877",
+      "barcodes": 2715,
+      "cohort": 2,
+      "feature_sha256": "1e5781ec7902a44368754172f0ef1e4276534d17159aedb198e113c535d88467",
+      "feature_types": [
+        "Gene Expression"
+      ],
+      "features": 31057,
+      "full_cell_to_animal_assignment_deposited_in_matrix_triplet": false,
+      "geo_library": "GSM7022369",
+      "matrix_downloaded": false,
+      "tenx_lane": 2
+    },
+    {
+      "barcode_sha256": "00b6cdda2b4321aa064a88f7be8a3f19c0f871c230aa4d248d090cc77c49f3dd",
+      "barcodes": 8182,
+      "cohort": 2,
+      "feature_sha256": "e9cb5ba79932d196e34a18fe8e6a67e1563372370cbfdebaaca02431bd076542",
+      "feature_types": [
+        "Gene Expression"
+      ],
+      "features": 31057,
+      "full_cell_to_animal_assignment_deposited_in_matrix_triplet": false,
+      "geo_library": "GSM7022370",
+      "matrix_downloaded": false,
+      "tenx_lane": 3
+    }
+  ],
+  "missing_input": "Full per-cell LMO count matrix or barcode-to-animal assignment for excluded animals, with demultiplexing/QC provenance.",
+  "original_fastq_inventory": [
+    {
+      "filename": "GEX2_S2_L003_I1_001.fastq.gz",
+      "md5": "e88e0dd3d91d43d7a10f403b656067cd",
+      "run_accession": "SRR23332081",
+      "size": 990274719
+    },
+    {
+      "filename": "GEX2_S2_L003_R1_001.fastq.gz",
+      "md5": "8e01edf87d528c7dc47c4ae05cb583bb",
+      "run_accession": "SRR23332081",
+      "size": 13766449735
+    },
+    {
+      "filename": "GEX2_S2_L003_R2_001.fastq.gz",
+      "md5": "76fc71b71b82bc554f90ef05c80acee5",
+      "run_accession": "SRR23332081",
+      "size": 13667747594
+    },
+    {
+      "filename": "GEX3_S3_L003_I1_001.fastq.gz",
+      "md5": "22a5c160bcaaebb4b9e8da608e2b94aa",
+      "run_accession": "SRR23332082",
+      "size": 989508383
+    },
+    {
+      "filename": "GEX3_S3_L003_R1_001.fastq.gz",
+      "md5": "f088e3ceee3d480adc720ae20b416fed",
+      "run_accession": "SRR23332082",
+      "size": 14307595429
+    },
+    {
+      "filename": "GEX3_S3_L003_R2_001.fastq.gz",
+      "md5": "254f0226ee21e25a35dbf1ff277ede3b",
+      "run_accession": "SRR23332082",
+      "size": 14117997611
+    },
+    {
+      "filename": "GEX2_S2_L004_I1_001.fastq.gz",
+      "md5": "91518d6c46430de164e1b85a8aa5fd3a",
+      "run_accession": "SRR23332083",
+      "size": 992571714
+    },
+    {
+      "filename": "GEX2_S2_L004_R1_001.fastq.gz",
+      "md5": "9f5b35309f896f23de4131c4c6aa3d5d",
+      "run_accession": "SRR23332083",
+      "size": 13852036733
+    },
+    {
+      "filename": "GEX2_S2_L004_R2_001.fastq.gz",
+      "md5": "7db0a2f5ca41e60820b50fb41034869a",
+      "run_accession": "SRR23332083",
+      "size": 13907615138
+    },
+    {
+      "filename": "GEX3_S3_L004_I1_001.fastq.gz",
+      "md5": "f0a99139cfb9452570b08de2df630fb9",
+      "run_accession": "SRR23332085",
+      "size": 990319592
+    },
+    {
+      "filename": "GEX3_S3_L004_R1_001.fastq.gz",
+      "md5": "d68bdadccb3377e0f4a2443af29dcf11",
+      "run_accession": "SRR23332085",
+      "size": 14388044170
+    },
+    {
+      "filename": "GEX3_S3_L004_R2_001.fastq.gz",
+      "md5": "f8963e528e59cde9e9470064ed314106",
+      "run_accession": "SRR23332085",
+      "size": 14358784966
+    },
+    {
+      "filename": "GEX1_S1_L003_I1_001.fastq.gz",
+      "md5": "4d917c70b93f47b910a57177dee4ebf1",
+      "run_accession": "SRR23332086",
+      "size": 892197718
+    },
+    {
+      "filename": "GEX1_S1_L003_R1_001.fastq.gz",
+      "md5": "345613307d358995b4713c722d578d4c",
+      "run_accession": "SRR23332086",
+      "size": 12401321303
+    },
+    {
+      "filename": "GEX1_S1_L003_R2_001.fastq.gz",
+      "md5": "e06b9f8da196cf955ffeb6644cc39652",
+      "run_accession": "SRR23332086",
+      "size": 12158582050
+    },
+    {
+      "filename": "GEX1_S1_L004_I1_001.fastq.gz",
+      "md5": "88db65cb0a98928e53dc5ad65964581b",
+      "run_accession": "SRR23332087",
+      "size": 893073688
+    },
+    {
+      "filename": "GEX1_S1_L004_R1_001.fastq.gz",
+      "md5": "693787eb6c0519c4353998527ccc59a9",
+      "run_accession": "SRR23332087",
+      "size": 12459722890
+    },
+    {
+      "filename": "GEX1_S1_L004_R2_001.fastq.gz",
+      "md5": "deef0480ec473470be45011a8823b6ce",
+      "run_accession": "SRR23332087",
+      "size": 12359000957
+    },
+    {
+      "filename": "GEX_S1_L005_I1_001.fastq.gz",
+      "md5": "320bf073ae1f4e6bd022ed3ebf66ad89",
+      "run_accession": "SRR23332088",
+      "size": 2754124320
+    },
+    {
+      "filename": "GEX_S1_L005_R1_001.fastq.gz",
+      "md5": "a91a6fba15a43bde5c3c44d5d4f45110",
+      "run_accession": "SRR23332088",
+      "size": 41992950858
+    },
+    {
+      "filename": "GEX_S1_L005_R2_001.fastq.gz",
+      "md5": "b603eb5b6225d3812f4adf3b632408f9",
+      "run_accession": "SRR23332088",
+      "size": 39122608300
+    }
+  ],
+  "scope_limit": "Catalog metadata and feature/barcode headers do not prove whether any barcode reads are embedded within GEX FASTQs.",
+  "separate_lmo_or_undetermined_original_fastq_listed": false,
+  "technical_replicate_rule": "Cohort2 GEX libraries each have L003/L004 sequencing runs; these are not extra animals or extra 10x lanes."
+}

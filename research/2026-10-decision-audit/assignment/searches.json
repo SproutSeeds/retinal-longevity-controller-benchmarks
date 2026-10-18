@@ -1,0 +1,18 @@
+{
+  "date_utc":"2026-10-18",
+  "claim_level":"Verified",
+  "queries":[
+    {"engine":"web","query":"\"GSE350289\"","result":"Secondary dataset index discovered; the authoritative GEO record and supplement directory were fetched directly."},
+    {"engine":"web","query":"\"Krieger\" \"reprogramming\" \"barcodes\" 2026","result":"Returned unrelated studies; no replacement assignment admitted."},
+    {"engine":"web","query":"\"GSE350289\" \"github\"","result":"No replacement assignment admitted from returned results."},
+    {"engine":"web","query":"\"Inference and validation of causal genetic interactions in aging human fibroblasts\"","result":"Dataset index found; no linked replacement assignment admitted."},
+    {"engine":"web","query":"\"Madison Ski Krieger\" fibroblasts github","result":"Institutional and researcher pages found; no replacement assignment admitted."},
+    {"engine":"GitHub code search","query":"GSE350289","total_count":0,"result":"Authenticated public task search returned zero code matches at the check."}
+  ],
+  "authoritative_sources":[
+    "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=self&form=text&view=full",
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/",
+    "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+  ],
+  "coverage_limit":"Search result coverage is finite and index-dependent. Absence from these searches does not prove absence everywhere."
+}

@@ -1,0 +1,5 @@
+* -text
+*.csv whitespace=cr-at-eol
+*.tsv whitespace=cr-at-eol
+# Preserve the primary ENA table's empty trailing columns byte-for-byte.
+recovery/inventory-sources/ena-SRP420832.tsv whitespace=-blank-at-eol

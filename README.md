@@ -4,7 +4,9 @@ Public data, reproducible analysis and explicit evidence requirements for lineag
 
 **Current checkpoint — October 18, 2026 UTC:** public data support substantial analysis and a smaller, better-defined measurement request. The matched late human recovery observation remains unresolved. Biological conclusions are **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
-- **[Latest neural and human validation](research/2026-10-neural-validation/README.md)** — nine paired neural donors, two tissue cohorts, human marker concentration and 57,317 human barcodes.
+- **[Latest evidence and experiment decision](research/2026-10-decision-audit/README.md)** — newly recovered human withdrawal references, an independent seven-animal comparison, and precise remaining data requirements.
+- **[Next inputs and conditional measurements](research/2026-10-decision-audit/NEXT_STEPS.md)** · [mouse results figure](research/2026-10-decision-audit/figures/mouse-cycle-comparison.pdf) · [human reference figure](research/2026-10-decision-audit/figures/human-short-withdrawal-reference.pdf).
+- **[Earlier neural and human validation](research/2026-10-neural-validation/README.md)** — nine paired neural donors, two tissue cohorts, human marker concentration and 57,317 human barcodes.
 - **[Six-slide results presentation](research/2026-10-neural-validation/presentation/retinal-validation-results.pdf)** · [editable PowerPoint](research/2026-10-neural-validation/presentation/retinal-validation-results.pptx) · [next measurements](research/2026-10-neural-validation/NEXT_STEPS.md).
 - **[Earlier expression and neural-data checkpoint](research/2026-10-independent-comparator/README.md)** — one-donor human comparison, 3,857 mouse neural cells mapped to seven animals, and donor-balance simulations.
 - **[October 18 presentation addendum](research/2026-10-independent-comparator/presentation/retinal-comparator-update.pdf)** · [editable PowerPoint](research/2026-10-independent-comparator/presentation/retinal-comparator-update.pptx) · [next analysis](research/2026-10-independent-comparator/NEXT_STEPS.md).

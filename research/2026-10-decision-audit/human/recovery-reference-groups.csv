@@ -1,0 +1,7 @@
+line,donor,construct,mean_reported_age_years,mean_reported_age_difference_years,geo_libraries,mapping_status
+M55,AG12657,BFP,64.36946849056365,9.36946849056363,S412|S413,donor_construct_schedule_group_only
+M55,AG12657,SRSF1,54.44289282143675,-0.55710717856324,S410|S411,donor_construct_schedule_group_only
+M68,AG13369,BFP,68.465247929651,0.4652479296510045,S414|S415,donor_construct_schedule_group_only
+M68,AG13369,SRSF1,61.33959762402365,-6.6604023759763304,S416|S417,donor_construct_schedule_group_only
+M79,AG16359,BFP,88.7256990584187,9.725699058418686,S418|S419,donor_construct_schedule_group_only
+M79,AG16359,SRSF1,73.6777171513489,-5.32228284865113,S420|S421,donor_construct_schedule_group_only

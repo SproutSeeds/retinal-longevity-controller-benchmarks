@@ -1,0 +1,66 @@
+{
+  "agreed_schedule": {
+    "donor_lines": 3,
+    "induction_days": 5,
+    "libraries": 12,
+    "library_ids": [
+      "S410",
+      "S411",
+      "S412",
+      "S413",
+      "S414",
+      "S415",
+      "S416",
+      "S417",
+      "S418",
+      "S419",
+      "S420",
+      "S421"
+    ],
+    "off_days": 2,
+    "source_figure": "Fig. 4c and Extended Data Fig. 5e"
+  },
+  "claim_level": "Verified",
+  "construct_counts": {
+    "OSKM": 12,
+    "SRSF1": 30,
+    "mTagBFP2": 30
+  },
+  "correction": "Prior metadata synopsis called the withdrawal caption Extended Data Fig. 6d. The current publisher labels it Extended Data Fig. 5d; the earlier evidence bytes are preserved.",
+  "donor_lines": [
+    "AG12657",
+    "AG13369",
+    "AG16359"
+  ],
+  "geo_schedule_counts": {
+    "1d-ON/16d-OFF": 12,
+    "1d-ON/8d-OFF": 12,
+    "2d-ON/16d-OFF": 8,
+    "2d-ON/8d-OFF": 12,
+    "3d-ON/16d-OFF": 8,
+    "3d-ON/8d-OFF": 8,
+    "5d-ON/2d-OFF": 12
+  },
+  "human_factor_off_libraries": 72,
+  "publisher_short_induction_schedule": {
+    "days_after_withdrawal": [
+      6,
+      12
+    ],
+    "figure": "Extended Data Fig. 5d",
+    "induction_days": [
+      1,
+      2,
+      3
+    ],
+    "url": "https://www.nature.com/articles/s43587-026-01234-8/figures/11"
+  },
+  "schema_version": 1,
+  "short_schedule_disposition": "Unresolved. GEO explicitly labels OFF durations. Treating 8/16 as total elapsed time cannot uniformly yield 6/12 after induction lengths 1,2,3. Preserve labels and obtain a sample-level chronology map.",
+  "source_geo_example": {
+    "field": "Sample_characteristics_ch1 treatment",
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9612108",
+    "value": "Dox_1000ng/mL, 1d-ON/8d-OFF"
+  },
+  "status": "partly_resolved"
+}

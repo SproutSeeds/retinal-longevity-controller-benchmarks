@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "srsf1-source-fig1.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM13_ESM.xlsx",
+      "checked_at_utc": "2026-10-18T11:43:42.417506+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM13_ESM.xlsx",
+      "content_type": "application/octet-stream",
+      "bytes": 27881,
+      "sha256": "a3c582c669e314f5e0f90c2da4582459554d0310925fed9fabcac302de5f18f3"
+    },
+    {
+      "id": "srsf1-source-fig3.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM15_ESM.xlsx",
+      "checked_at_utc": "2026-10-18T11:43:42.417829+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM15_ESM.xlsx",
+      "content_type": "application/octet-stream",
+      "bytes": 3033046,
+      "sha256": "ccc325183e166fcd7adf23f853b76a90337e7d4fc49ad165a5c1b5aee0a069a3"
+    },
+    {
+      "id": "srsf1-supplement4.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM7_ESM.xlsx",
+      "checked_at_utc": "2026-10-18T11:43:42.417918+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM7_ESM.xlsx",
+      "content_type": "application/octet-stream",
+      "bytes": 31790,
+      "sha256": "10c40e53a07e255b15a234d2eba26ad8693f828e533ed279e0091f71030bf375"
+    },
+    {
+      "id": "srsf1-publisher.html",
+      "url": "https://www.nature.com/articles/s43587-026-01234-8",
+      "checked_at_utc": "2026-10-18T11:43:42.417975+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.nature.com/articles/s43587-026-01234-8?error=cookies_not_supported&code=3cd707bc-6457-4ef3-8425-63c3590f35f8",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 551910,
+      "sha256": "6ab254ee76edc2d542e2d2361a4fbcd569a3b20a52cfe455a1167bb8ddbcd8c7"
+    },
+    {
+      "id": "clock-tree.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/git/trees/main?recursive=1",
+      "checked_at_utc": "2026-10-18T11:43:42.558961+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.github.com/repos/saschajung/Clock/git/trees/main?recursive=1",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 1525,
+      "sha256": "987c3121db8df86d9054d099dc47915b5d5d677e94626f4869ad00a930066d11"
+    },
+    {
+      "id": "clock-forks.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/forks?per_page=100",
+      "checked_at_utc": "2026-10-18T11:43:42.660133+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.github.com/repos/saschajung/Clock/forks?per_page=100",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "clock-issues.json",
+      "url": "https://api.github.com/repos/saschajung/Clock/issues?state=all&per_page=100",
+      "checked_at_utc": "2026-10-18T11:43:42.675091+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.github.com/repos/saschajung/Clock/issues?state=all&per_page=100",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "id": "clock-author-repositories.json",
+      "url": "https://api.github.com/users/saschajung/repos?per_page=100",
+      "checked_at_utc": "2026-10-18T11:43:42.839344+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.github.com/users/saschajung/repos?per_page=100",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 51612,
+      "sha256": "4865f2936def5f12563368f2c40f6ebb11944bd61a0f06fde98ca126ebcc6ac7"
+    },
+    {
+      "id": "stampscreen-tree.json",
+      "url": "https://api.github.com/repos/pranamanam/STAMPScreen/git/trees/master?recursive=1",
+      "checked_at_utc": "2026-10-18T11:43:42.869177+00:00",
+      "status": "failed",
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "id": "gse165177-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177&targ=self&form=text&view=full",
+      "checked_at_utc": "2026-10-18T11:43:42.926365+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177&targ=self&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 6614,
+      "sha256": "27f0ae573e80fd897958f13afe77656c3d1e6c39a0dffe110e5ae96770fdff43"
+    },
+    {
+      "id": "gse165179-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165179&targ=self&form=text&view=full",
+      "checked_at_utc": "2026-10-18T11:43:43.080765+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165179&targ=self&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 6666,
+      "sha256": "668ae349d323a71d6dff0848a83d0518492eca42f829bc0d44143a1e7f3d9daa"
+    },
+    {
+      "id": "gse326022-series.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326022&targ=self&form=text&view=full",
+      "checked_at_utc": "2026-10-18T11:43:43.220466+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE326022&targ=self&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 4484,
+      "sha256": "18b22374a0d230461430d9f7c6f720076bf72456bde021359ed82af5158d46bb"
+    }
+  ]
+}

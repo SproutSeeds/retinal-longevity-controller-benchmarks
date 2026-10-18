@@ -1,0 +1,472 @@
+{
+  "analysis_status": "retrospective_descriptive_audit",
+  "biological_units": 3,
+  "claim": "Extraction and arithmetic of published reference outputs only",
+  "claim_level": "Verified",
+  "clock_replayed": false,
+  "donor_reference_contrasts": [
+    {
+      "donor": "AG12657",
+      "line": "M55",
+      "reported_reference_srsf1_minus_bfp_years": -9.926575669126898
+    },
+    {
+      "donor": "AG13369",
+      "line": "M68",
+      "reported_reference_srsf1_minus_bfp_years": -7.125650305627353
+    },
+    {
+      "donor": "AG16359",
+      "line": "M79",
+      "reported_reference_srsf1_minus_bfp_years": -15.047981907069797
+    }
+  ],
+  "equal_donor_mean_reported_difference_years": -10.700069293941349,
+  "groups": [
+    {
+      "construct": "BFP",
+      "donor": "AG12657",
+      "geo_accessions": [
+        "GSM9612228",
+        "GSM9612229"
+      ],
+      "geo_libraries": [
+        "S412",
+        "S413"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M55",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": 9.36946849056363,
+      "mean_reported_age_years": 64.36946849056365,
+      "reference_rows": [
+        4,
+        5
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    },
+    {
+      "construct": "SRSF1",
+      "donor": "AG12657",
+      "geo_accessions": [
+        "GSM9612226",
+        "GSM9612227"
+      ],
+      "geo_libraries": [
+        "S410",
+        "S411"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M55",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": -0.55710717856324,
+      "mean_reported_age_years": 54.44289282143675,
+      "reference_rows": [
+        2,
+        3
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    },
+    {
+      "construct": "BFP",
+      "donor": "AG13369",
+      "geo_accessions": [
+        "GSM9612230",
+        "GSM9612231"
+      ],
+      "geo_libraries": [
+        "S414",
+        "S415"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M68",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": 0.4652479296510045,
+      "mean_reported_age_years": 68.465247929651,
+      "reference_rows": [
+        6,
+        7
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    },
+    {
+      "construct": "SRSF1",
+      "donor": "AG13369",
+      "geo_accessions": [
+        "GSM9612232",
+        "GSM9612233"
+      ],
+      "geo_libraries": [
+        "S416",
+        "S417"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M68",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": -6.6604023759763304,
+      "mean_reported_age_years": 61.33959762402365,
+      "reference_rows": [
+        8,
+        9
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    },
+    {
+      "construct": "BFP",
+      "donor": "AG16359",
+      "geo_accessions": [
+        "GSM9612234",
+        "GSM9612235"
+      ],
+      "geo_libraries": [
+        "S418",
+        "S419"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M79",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": 9.725699058418686,
+      "mean_reported_age_years": 88.7256990584187,
+      "reference_rows": [
+        10,
+        11
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    },
+    {
+      "construct": "SRSF1",
+      "donor": "AG16359",
+      "geo_accessions": [
+        "GSM9612236",
+        "GSM9612237"
+      ],
+      "geo_libraries": [
+        "S420",
+        "S421"
+      ],
+      "individual_reference_to_library_join": false,
+      "line": "M79",
+      "mapping_status": "donor_construct_schedule_group_only",
+      "mean_reported_age_difference_years": -5.32228284865113,
+      "mean_reported_age_years": 73.6777171513489,
+      "reference_rows": [
+        12,
+        13
+      ],
+      "technical_replicates": [
+        1,
+        2
+      ]
+    }
+  ],
+  "induction_days": 5,
+  "new_p_values_computed": false,
+  "off_days": 2,
+  "rows": [
+    {
+      "coordinates": {
+        "AgeDiff": "F2",
+        "Gene": "B2",
+        "Line": "A2",
+        "Line_age": "E2",
+        "Predicted_age": "C2",
+        "Rep": "D2"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 5.062616992290714e-14,
+      "row": 2,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -5.36968181975785,
+        "Gene": "SRSF1",
+        "Line": "M55",
+        "Line_age": 55,
+        "Predicted_age": 49.6303181802421,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F3",
+        "Gene": "B3",
+        "Line": "A3",
+        "Line_age": "E3",
+        "Predicted_age": "C3",
+        "Rep": "D3"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": -3.108624468950438e-14,
+      "row": 3,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 4.25546746263137,
+        "Gene": "SRSF1",
+        "Line": "M55",
+        "Line_age": 55,
+        "Predicted_age": 59.2554674626314,
+        "Rep": 2
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F4",
+        "Gene": "B4",
+        "Line": "A4",
+        "Line_age": "E4",
+        "Predicted_age": "C4",
+        "Rep": "D4"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 3.552713678800501e-15,
+      "row": 4,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 12.2685491715845,
+        "Gene": "BFP",
+        "Line": "M55",
+        "Line_age": 55,
+        "Predicted_age": 67.2685491715845,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F5",
+        "Gene": "B5",
+        "Line": "A5",
+        "Line_age": "E5",
+        "Predicted_age": "C5",
+        "Rep": "D5"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": -3.9968028886505635e-14,
+      "row": 5,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 6.47038780954276,
+        "Gene": "BFP",
+        "Line": "M55",
+        "Line_age": 55,
+        "Predicted_age": 61.4703878095428,
+        "Rep": 2
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F6",
+        "Gene": "B6",
+        "Line": "A6",
+        "Line_age": "E6",
+        "Predicted_age": "C6",
+        "Rep": "D6"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 9.547918011776346e-15,
+      "row": 6,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 1.08218592409231,
+        "Gene": "BFP",
+        "Line": "M68",
+        "Line_age": 68,
+        "Predicted_age": 69.0821859240923,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F7",
+        "Gene": "B7",
+        "Line": "A7",
+        "Line_age": "E7",
+        "Predicted_age": "C7",
+        "Rep": "D7"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 4.440892098500626e-16,
+      "row": 7,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -0.151690064790301,
+        "Gene": "BFP",
+        "Line": "M68",
+        "Line_age": 68,
+        "Predicted_age": 67.8483099352097,
+        "Rep": 2
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F8",
+        "Gene": "B8",
+        "Line": "A8",
+        "Line_age": "E8",
+        "Predicted_age": "C8",
+        "Rep": "D8"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 0.0,
+      "row": 8,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -10.504788046285,
+        "Gene": "SRSF1",
+        "Line": "M68",
+        "Line_age": 68,
+        "Predicted_age": 57.495211953715,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F9",
+        "Gene": "B9",
+        "Line": "A9",
+        "Line_age": "E9",
+        "Predicted_age": "C9",
+        "Rep": "D9"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 4.6629367034256575e-14,
+      "row": 9,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -2.81601670566766,
+        "Gene": "SRSF1",
+        "Line": "M68",
+        "Line_age": 68,
+        "Predicted_age": 65.1839832943323,
+        "Rep": 2
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F10",
+        "Gene": "B10",
+        "Line": "A10",
+        "Line_age": "E10",
+        "Predicted_age": "C10",
+        "Rep": "D10"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": -2.4868995751603507e-14,
+      "row": 10,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 7.56224174827307,
+        "Gene": "BFP",
+        "Line": "M79",
+        "Line_age": 79,
+        "Predicted_age": 86.5622417482731,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F11",
+        "Gene": "B11",
+        "Line": "A11",
+        "Line_age": "E11",
+        "Predicted_age": "C11",
+        "Rep": "D11"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": 0.0,
+      "row": 11,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": 11.8891563685643,
+        "Gene": "BFP",
+        "Line": "M79",
+        "Line_age": 79,
+        "Predicted_age": 90.8891563685643,
+        "Rep": 2
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F12",
+        "Gene": "B12",
+        "Line": "A12",
+        "Line_age": "E12",
+        "Predicted_age": "C12",
+        "Rep": "D12"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": -1.4210854715202004e-14,
+      "row": 12,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -4.71494294096982,
+        "Gene": "SRSF1",
+        "Line": "M79",
+        "Line_age": 79,
+        "Predicted_age": 74.2850570590302,
+        "Rep": 1
+      }
+    },
+    {
+      "coordinates": {
+        "AgeDiff": "F13",
+        "Gene": "B13",
+        "Line": "A13",
+        "Line_age": "E13",
+        "Predicted_age": "C13",
+        "Rep": "D13"
+      },
+      "formulas": {},
+      "reported_age_difference_residual_years": -3.375077994860476e-14,
+      "row": 13,
+      "sheet": "4c",
+      "source": "srsf1-source-fig4.xlsx",
+      "source_sha256": "75e43ffa86b0ab015be8f73c18f8fc494d33624f18fb58ba4fc85bdaceb58fca",
+      "values": {
+        "AgeDiff": -5.92962275633244,
+        "Gene": "SRSF1",
+        "Line": "M79",
+        "Line_age": 79,
+        "Predicted_age": 73.0703772436676,
+        "Rep": 2
+      }
+    }
+  ],
+  "schema_version": 1,
+  "technical_reference_rows": 12
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "epmc-human-transient.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22partial+reprogramming%22+OR+TITLE_ABS%3A%22transient+reprogramming%22%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "query": "(TITLE_ABS:\"partial reprogramming\" OR TITLE_ABS:\"transient reprogramming\") AND (TITLE_ABS:human OR TITLE_ABS:fibroblast) AND FIRST_PDATE:[1900-01-01 TO 2026-10-18]",
+      "engine": "europepmc",
+      "max_bytes": 20000000,
+      "checked_at_utc": "2026-10-18T11:46:00.051451+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22partial+reprogramming%22+OR+TITLE_ABS%3A%22transient+reprogramming%22%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 615835,
+      "sha256": "f0a6a12f3601370795d762be0caaef65dc045d6928305879ee77ae3d6f4e0aee"
+    },
+    {
+      "id": "epmc-human-withdrawal.json",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Areprogramming%29+AND+%28TITLE_ABS%3Awithdrawal+OR+TITLE_ABS%3Awashout+OR+TITLE_ABS%3Arecovery%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "query": "(TITLE_ABS:reprogramming) AND (TITLE_ABS:withdrawal OR TITLE_ABS:washout OR TITLE_ABS:recovery) AND (TITLE_ABS:human OR TITLE_ABS:fibroblast) AND FIRST_PDATE:[1900-01-01 TO 2026-10-18]",
+      "engine": "europepmc",
+      "max_bytes": 20000000,
+      "checked_at_utc": "2026-10-18T11:46:00.051781+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3Areprogramming%29+AND+%28TITLE_ABS%3Awithdrawal+OR+TITLE_ABS%3Awashout+OR+TITLE_ABS%3Arecovery%29+AND+%28TITLE_ABS%3Ahuman+OR+TITLE_ABS%3Afibroblast%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-10-18%5D&format=json&resultType=core&pageSize=1000",
+      "content_type": "application/json;charset=UTF-8",
+      "bytes": 2117184,
+      "sha256": "f1ec52288e826b016a710478651f14c015ada36f172770b91c141c7f8379fc61"
+    },
+    {
+      "id": "geo-human-recovery.json",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Homo+sapiens%22%5BOrganism%5D+AND+reprogramming+AND+%28withdrawal+OR+transient+OR+partial+OR+rejuvenation%29+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+      "query": "\"Homo sapiens\"[Organism] AND reprogramming AND (withdrawal OR transient OR partial OR rejuvenation) AND gse[Entry Type]",
+      "engine": "geo",
+      "max_bytes": 20000000,
+      "checked_at_utc": "2026-10-18T11:46:00.051889+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=gds&term=%22Homo+sapiens%22%5BOrganism%5D+AND+reprogramming+AND+%28withdrawal+OR+transient+OR+partial+OR+rejuvenation%29+AND+gse%5BEntry+Type%5D&retmode=json&retmax=1000",
+      "content_type": "application/json; charset=UTF-8",
+      "bytes": 4460,
+      "sha256": "1abf5c828bdf8412e08e734528c86b0727243cdbc72b8b9d98c28be14e362907"
+    },
+    {
+      "id": "stampscreen-tree-main.json",
+      "url": "https://api.github.com/repos/pranamanam/STAMPScreen/git/trees/main?recursive=1",
+      "checked_at_utc": "2026-10-18T11:46:00.052063+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://api.github.com/repos/pranamanam/STAMPScreen/git/trees/main?recursive=1",
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 2811,
+      "sha256": "cab36db0419d634ea5f6f5ba8d7aa9612eb7a9b373975de34492289181ae2e70"
+    },
+    {
+      "id": "clock-readme.txt",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/README.md",
+      "checked_at_utc": "2026-10-18T11:46:00.322332+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/README.md",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 288,
+      "sha256": "fcf5ce00c023568bd2952cce82be526a72aa88a69f4f73d07ddebc5f7c0fc07b"
+    },
+    {
+      "id": "clock-filter.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/GetGenesForRemoval.R",
+      "checked_at_utc": "2026-10-18T11:46:00.479693+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/GetGenesForRemoval.R",
+      "content_type": "text/plain; charset=utf-8",
+      "bytes": 2144,
+      "sha256": "f31563b5d722b0a18a24babdfc50da3e28d1b169bbe80ed14b7d6b1d2c03cb6c"
+    },
+    {
+      "id": "srsf1-geo-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/",
+      "checked_at_utc": "2026-10-18T11:46:00.560331+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE325nnn/GSE325735/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 714,
+      "sha256": "9a32fadd07616e09a5c632d7ea76491347f4d603d09933025731a4899562d24a"
+    },
+    {
+      "id": "gse326022-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE326nnn/GSE326022/suppl/",
+      "checked_at_utc": "2026-10-18T11:46:00.632216+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE326nnn/GSE326022/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 1005,
+      "sha256": "dfd1e6d4af9cc5dcb96f95c4968806db24d11df0673533e37db6fadb6291445a"
+    },
+    {
+      "id": "gse165177-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/",
+      "checked_at_utc": "2026-10-18T11:46:00.678116+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 875,
+      "sha256": "9b93cdc49367e7149583e10ef669a868a381caaae5eebab643aca5f5bb512e5b"
+    },
+    {
+      "id": "gse165179-files.html",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165179/suppl/",
+      "checked_at_utc": "2026-10-18T11:46:00.765235+00:00",
+      "status": "retrieved",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165179/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 1034,
+      "sha256": "96b3c4ca6a332431e90d77c7931ca563465a0b8f30aebe19f5bdd914e8fe557d"
+    }
+  ]
+}

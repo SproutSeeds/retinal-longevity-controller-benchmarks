@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "claim_level": "Heuristic",
+  "baseline_public_commit": "566621cdfe5a87d56b94d3baf2cafb7bb2b6030c",
+  "purpose": "Separate usable narrower evidence from satisfaction of the frozen CX004 benchmark and from the decision to propose new measurements.",
+  "frozen_readouts": {
+    "R01": "Late adult identity in the relevant age-positive human cells, including the benchmark D28 window.",
+    "R02": "Calibrated per-cell unusual-state annotations and adequate effective sampling under the same protocol.",
+    "R03": "Matched late human factor-off cells with verified withdrawal chronology and a sufficient recovery follow-up.",
+    "R04": "A common measured trajectory connecting the relevant intermediate and late windows."
+  },
+  "question_levels": [
+    {"id":"reference_arithmetic","question":"Can source-provided predictions and contrasts be extracted and checked?","requires_new_biology":false},
+    {"id":"independent_model_replay","question":"Do the exact model and preprocessing reproduce keyed reference predictions?","requires":"Historical model and all necessary input transformations and references."},
+    {"id":"donor_population_recovery","question":"Are age-related and identity measures interpretable after verified withdrawal in donor-matched populations?","requires":"Matched observations, controls, chronology and calibrated endpoints; exact benchmark dates are a separate requirement."},
+    {"id":"same_cell_joint_recovery","question":"Did the same cells improve and retain identity through recovery?","requires":"Suitable joint measurements and justified longitudinal or lineage linkage."},
+    {"id":"ocular_function","question":"Does an appropriate retinal or RPE functional endpoint improve in the relevant system?","requires":"Ocular-system observations and endpoint-specific joins and controls."}
+  ],
+  "decision_rules": [
+    "Complete newly feasible bounded computations before closing the campaign.",
+    "Classify exact author-held inputs separately from observations that have not been established to exist.",
+    "A mismatch with the frozen benchmark timepoints does not prove that all broader biological questions require a new experiment.",
+    "No finite public search proves universal absence of data or unconditional wet-lab necessity.",
+    "Synthetic data may test assumptions and measurement design; it does not satisfy an observed biological readout.",
+    "An experimental proposal is conditional on the intended claim, unavailable reusable observations, partner feasibility, funding and separate authorization."
+  ],
+  "no_spend_or_experimental_commitment": true
+}

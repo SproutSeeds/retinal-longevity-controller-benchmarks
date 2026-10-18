@@ -1,0 +1,106 @@
+[
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1b",
+    "dimension": "A1:B8",
+    "nonempty_cells": 16,
+    "numeric_cells": 7,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1c",
+    "dimension": "A1:C412",
+    "nonempty_cells": 1236,
+    "numeric_cells": 822,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1d",
+    "dimension": "A1:H17",
+    "nonempty_cells": 136,
+    "numeric_cells": 48,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1e",
+    "dimension": "A1:C19",
+    "nonempty_cells": 57,
+    "numeric_cells": 18,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1f",
+    "dimension": "A1:D11",
+    "nonempty_cells": 44,
+    "numeric_cells": 20,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig1.xlsx",
+    "sheet": "1g",
+    "dimension": "A1:E17",
+    "nonempty_cells": 85,
+    "numeric_cells": 48,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig3.xlsx",
+    "sheet": "3a",
+    "dimension": "A1:J77",
+    "nonempty_cells": 770,
+    "numeric_cells": 456,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig3.xlsx",
+    "sheet": "3b",
+    "dimension": "A1:F481",
+    "nonempty_cells": 2886,
+    "numeric_cells": 960,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig3.xlsx",
+    "sheet": "3c",
+    "dimension": "A1:N11",
+    "nonempty_cells": 154,
+    "numeric_cells": 90,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig3.xlsx",
+    "sheet": "3d",
+    "dimension": "A1:C43",
+    "nonempty_cells": 129,
+    "numeric_cells": 42,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-source-fig3.xlsx",
+    "sheet": "3e",
+    "dimension": "A1:O19944",
+    "nonempty_cells": 279245,
+    "numeric_cells": 119658,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-supplement4.xlsx",
+    "sheet": "Donor lines",
+    "dimension": "A1:E15",
+    "nonempty_cells": 62,
+    "numeric_cells": 11,
+    "formula_cells": 0
+  },
+  {
+    "source": "srsf1-supplement4.xlsx",
+    "sheet": "Predicted ages",
+    "dimension": "A1:J486",
+    "nonempty_cells": 2888,
+    "numeric_cells": 1920,
+    "formula_cells": 0
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "sources": [
+    {
+      "id": "srsf1-figure4-caption.html",
+      "url": "https://www.nature.com/articles/s43587-026-01234-8/figures/4"
+    },
+    {
+      "id": "srsf1-extended-figure5-caption.html",
+      "url": "https://www.nature.com/articles/s43587-026-01234-8/figures/11"
+    },
+    {
+      "id": "GSM9612108.txt",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9612108&targ=self&form=text&view=full"
+    },
+    {
+      "id": "srsf1-source-fig2.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM14_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement1.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM4_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement2.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM5_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement3.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM6_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement5.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM8_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement6.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM9_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement7.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM10_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement8.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM11_ESM.xlsx"
+    },
+    {
+      "id": "srsf1-supplement9.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs43587-026-01234-8/MediaObjects/43587_2026_1234_MOESM12_ESM.xlsx"
+    },
+    {
+      "id": "clock-ApplyNewData.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ApplyNewData.R"
+    },
+    {
+      "id": "clock-ProcessFibroblastData.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/ProcessFibroblastData.R"
+    },
+    {
+      "id": "clock-TrainClock.R",
+      "url": "https://raw.githubusercontent.com/saschajung/Clock/7ae5f38b7ea74f76cb13076b64350d5930bb152f/TrainClock.R"
+    },
+    {
+      "id": "msc-ena-first-run.tsv",
+      "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=DRR726438&result=read_run&fields=run_accession,study_accession,sample_accession,sample_title,experiment_title,library_strategy,fastq_bytes&format=tsv"
+    }
+  ]
+}

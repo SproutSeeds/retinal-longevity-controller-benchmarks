@@ -1,0 +1,10 @@
+[
+  {
+    "id": "sra-entire-project.xml",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id=26497327,26497326,26497325,26497324,26497323,26497322,26497321,26497320,26497319,26497318&rettype=full&retmode=xml"
+  },
+  {
+    "id": "spatial-PMC11798877.html",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11798877/"
+  }
+]

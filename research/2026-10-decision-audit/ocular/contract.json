@@ -1,0 +1,94 @@
+{
+  "claim_level": "Heuristic",
+  "composition": {
+    "classification": "At least two distinct marker genes with >=1 UMI defines eligibility. Exactly one eligible bin assigns that bin; two or more ambiguous; zero unassigned. Repeat at >=2 UMI. These are unvalidated marker-defined partitions, not author annotations or validated cell identity. Match exact mouse symbols uniquely. Missing markers cause partition unavailable, never substituted.",
+    "marker_bins": {
+      "astrocyte_marker_bin": [
+        "Aldh1l1",
+        "Aqp4",
+        "Slc1a3",
+        "Gfap"
+      ],
+      "excitatory_marker_bin": [
+        "Slc17a7",
+        "Camk2a",
+        "Neurod6"
+      ],
+      "inhibitory_marker_bin": [
+        "Gad1",
+        "Gad2",
+        "Slc32a1"
+      ],
+      "microglial_marker_bin": [
+        "C1qa",
+        "C1qb",
+        "P2ry12",
+        "Aif1",
+        "Tmem119"
+      ],
+      "oligodendrocyte_marker_bin": [
+        "Mbp",
+        "Plp1",
+        "Mog",
+        "Mag"
+      ],
+      "precursor_marker_bin": [
+        "Pdgfra",
+        "Cspg4",
+        "Olig1",
+        "Olig2"
+      ]
+    },
+    "no_QC_sensitivity": "Repeat all-cell whole-library CPM using all deposited barcodes before extra RNA QC; no new p-values.",
+    "normalization": "For bin pseudobulk use total RNA in that bin and same CPM panels. Do not perform cell-level tests.",
+    "scope": "No claim that bins eliminate composition within bins or preserve actual identity; no marker selection from outcomes.",
+    "support": "Report all bin frequencies per animal. Bin pseudobulk contrasts only when >=20 selected cells in every one of seven primary animals; repeat >=50 support as sensitivity, preserve unsupported bins. All biological replication remains animals.",
+    "warning": "Whole-library pseudobulk includes many cell populations and treatment-unexposed cells. Neither normalized differences nor agreement across methods identifies a cell-autonomous effect."
+  },
+  "freeze": "Root must review exact contract/admission/panels/code hashes and write explicit FREEZE.json before expression acquisition and execution. Tests on synthetic inputs may run before freeze; no observed matrices inspected.",
+  "gates": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal",
+    "novelty": "Independent reanalysis only; no biological novelty claim",
+    "wetlab_replacement": "INCONCLUSIVE"
+  },
+  "id": "CX004-INDEPENDENT-MPFC-PANELS-20261018-V1",
+  "input": "All ten exact H5 sources in admission.json. Verify exact byte counts before any H5 expression parsing; record SHA256. Read Gene Expression features only, never mix ATAC peaks into RNA depth. Require finite nonnegative integer sparse counts, unique gene IDs and barcode identities per library. Strip numeric Ensembl versions only; no aliases or paralogs.",
+  "leaveouts": {
+    "animals": "Omit each of seven primary animals once; report remaining group sizes and CPM mean effect only; no p-values or changed primary selection.",
+    "genes": "Every gene in each eligible panel, hold normalization fixed; report treatment effect for CPM, median-ratio, rank and gene contributions."
+  },
+  "normalization_sensitivities": {
+    "median_ratio": "Fit all seven primary animals using genes positive in every primary animal; at least100. Per-gene geometric means, per-animal median count/geomean, then geometric-center factors. Effective depth=size factor*geometric mean library depth. WT values unavailable for this method.",
+    "multiplicity": "Separate four-test Holm for each normalization sensitivity; retain CPM primary.",
+    "rank": "Within each animal rank all RNA features including zeros with average ties; (rank-1)/(numberRNAfeatures-1), panel mean."
+  },
+  "primary": {
+    "cell_selection": "Deposited CellRanger filtered barcodes plus fixed RNA QC: total RNA UMI >500 and <30000; detected RNA features >200 and <9000; mitochondrial symbols starting mt- contribute <2 percent RNA UMI. This reproduces stated RNA QC only, not author cell annotation/ATAC QC.",
+    "direction": "Compare sign to prior neural reports only as cross-context description; different region, disease, OSK versus OSKM, time/exposure and cellular mixture. No exact replication label.",
+    "estimator": "Sum RNA counts per animal after QC. Per gene log2(1+1e6*count/sum of all RNA counts); unweighted mean of present fixed panel genes. Treatment effect is unweighted mean across four APP_OSK animals minus unweighted mean across three APP_GFP animals.",
+    "failure": "Any primary animal with fewer than 100 RNA-QC nuclei, fewer than 500 detected gene features, zero total RNA or malformed input makes primary comparison unavailable. Preserve failure rows. No reduced-animal primary subset.",
+    "family": [
+      "cycle_panel",
+      "stress_panel",
+      "reprogramming_state",
+      "reprogramming_without_OSKM_overlap"
+    ],
+    "inference": "Enumerate all C(7,4)=35 labels. Two-sided absolute mean difference; ties within 1e-12*max(1,abs(observed)); include observed assignment, no plus one. Holm across four CPM tests. The paper states random group assignment, but the allocation restrictions, sequencing-subset selection and animal-to-batch join are unavailable. Unrestricted enumeration assumes exchangeability across the seven included animals and ignores any unknown batch restrictions; p-values are conditional sensitivity calculations, not definitive causal evidence. Minimum single p 1/35 cannot pass first four-test Holm threshold 0.0125; do not claim positive corrected test possible.",
+    "panel_coverage": "At least 3 genes, 80 percent of mapped genes and 80 percent of original human genes; present zero counts stay in mean. Missing genes reported; no replacements.",
+    "samples": "all seven APP animals; no exclusions based on expression effect"
+  },
+  "prior_exposure": "Published summary, methods and source-code text were inspected; prior CX004 panel outcomes known. None of these ten H5 matrices have been acquired or inspected. This is a prospectively frozen local reanalysis, not registered or fully blinded discovery.",
+  "question": "What is the direction of a fixed four-panel RNA response in an independent study comparing four APP/PS1 OSK animals against three APP/PS1 GFP animals?",
+  "status": "proposed_before_expression_download",
+  "storage": {
+    "cache": "/private/tmp/cx004-decision-audit-2026-10-18/ocular",
+    "expected_matrix_bytes": 721204825,
+    "max_total_download_bytes": 5000000000,
+    "min_free_cache_bytes": 8000000000,
+    "no_fastq_or_atac_fragments": true
+  },
+  "unit": "one mouse, one RNA H5; no cell-level inference; ATAC paired same animals is not additional replication"
+}

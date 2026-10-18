@@ -1,0 +1,67 @@
+{
+  "outputs": [
+    {
+      "after": "a44d8da16c1066eb20b01b41526e798071bcbcfb2ee436594574d654778a8dde",
+      "before": "a44d8da16c1066eb20b01b41526e798071bcbcfb2ee436594574d654778a8dde",
+      "identical": true,
+      "path": "reference-output-audit.json"
+    },
+    {
+      "after": "546dfcf8c3aa6e8d42af06cf566eeb7758c354e6c46c36eecb7eb187cb8eccb2",
+      "before": "546dfcf8c3aa6e8d42af06cf566eeb7758c354e6c46c36eecb7eb187cb8eccb2",
+      "identical": true,
+      "path": "recovery-reference-audit.json"
+    },
+    {
+      "after": "da471ff1e0bb3141c4acdc3870b332efe516fd79913f19333d9db901dd84288e",
+      "before": "da471ff1e0bb3141c4acdc3870b332efe516fd79913f19333d9db901dd84288e",
+      "identical": true,
+      "path": "recovery-reference-groups.csv"
+    },
+    {
+      "after": "712f53fac89f6389e2d1a007b4e98d06d84cb3517247c0eb29917b0ad18ae528",
+      "before": "712f53fac89f6389e2d1a007b4e98d06d84cb3517247c0eb29917b0ad18ae528",
+      "identical": true,
+      "path": "validation-reference-joins.csv"
+    },
+    {
+      "after": "16599a9b09ac8d9357a244a3e6925b05578f3a732c2aa9ebddcdd9c7ec47dc04",
+      "before": "16599a9b09ac8d9357a244a3e6925b05578f3a732c2aa9ebddcdd9c7ec47dc04",
+      "identical": true,
+      "path": "SOURCES.json"
+    },
+    {
+      "after": "d69c550570f90b9250d87bd070a3538d8d8c5ed3afb438b3816e3227bb8e8d55",
+      "before": "d69c550570f90b9250d87bd070a3538d8d8c5ed3afb438b3816e3227bb8e8d55",
+      "identical": true,
+      "path": "complete-workbook-inventory.json"
+    },
+    {
+      "after": "924b1377695f0cf6f4bebaa58475a6cf3438957a4925ee45751c1b286522d807",
+      "before": "924b1377695f0cf6f4bebaa58475a6cf3438957a4925ee45751c1b286522d807",
+      "identical": true,
+      "path": "search-ledger.json"
+    },
+    {
+      "after": "fb6d0376ea51ec47983b5c1a5e83f1652e7dba558d382e67e3cfe969aa130e5c",
+      "before": "fb6d0376ea51ec47983b5c1a5e83f1652e7dba558d382e67e3cfe969aa130e5c",
+      "identical": true,
+      "path": "chronology-audit.json"
+    },
+    {
+      "after": "eefcfe0f22e973fba1c62ca6ef89cf43fd7050a43b969906d233d5a8f5357e0f",
+      "before": "eefcfe0f22e973fba1c62ca6ef89cf43fd7050a43b969906d233d5a8f5357e0f",
+      "identical": true,
+      "path": "clock-readiness.json"
+    },
+    {
+      "after": "d526763821a8f2b1b624df002e3e794a3c3fe3a6ee08c4fdadb8492d75ca693f",
+      "before": "d526763821a8f2b1b624df002e3e794a3c3fe3a6ee08c4fdadb8492d75ca693f",
+      "identical": true,
+      "path": "raw-counts-structure.json"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Byte-identical replay of ten derived source-audit and reference-arithmetic files",
+  "status": "PASS"
+}
