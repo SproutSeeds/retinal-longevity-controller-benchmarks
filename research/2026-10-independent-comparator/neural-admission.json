@@ -1,0 +1,284 @@
+{
+  "absent_author_code_samples": [
+    "C-999L-06102018-lane1-2Dox5-CTCTAGAC",
+    "F-BL61-07012018-lane2-untr-CGAACAAG",
+    "G-BL62-07012018-lane1-2Dox0-GTACCTGT",
+    "H-BL63-07012018-lane2-2Dox5-GAAGCTTG",
+    "K-L0034-07072018-lane3-2Dox5-GAGTCGAT"
+  ],
+  "animals": [
+    {
+      "age_group": "old",
+      "animal_label": "L0002",
+      "cells": 171,
+      "celltype_counts": {
+        "27": 2,
+        "28": 1,
+        "29": 1,
+        "30": 1,
+        "Astrocyte_qNSC": 17,
+        "Endothelial": 19,
+        "Ependymal": 1,
+        "Macrophage": 2,
+        "Microglia": 58,
+        "Mural": 6,
+        "Neuroblast": 11,
+        "OPC": 1,
+        "Oligodendrocyte": 44,
+        "aNSC_NPC": 7
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022368",
+      "hash_id": "A-L0002-06102018-lane1-2Dox0-TGTGATGG",
+      "lane": "Lane1",
+      "treatment": "2Dox0"
+    },
+    {
+      "age_group": "old",
+      "animal_label": "L0003",
+      "cells": 395,
+      "celltype_counts": {
+        "27": 3,
+        "29": 5,
+        "30": 2,
+        "Astrocyte_qNSC": 37,
+        "Endothelial": 29,
+        "Ependymal": 1,
+        "Macrophage": 5,
+        "Microglia": 171,
+        "Mural": 2,
+        "Neuroblast": 17,
+        "OPC": 3,
+        "Oligodendrocyte": 98,
+        "aNSC_NPC": 22
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022368",
+      "hash_id": "B-L0003-06102018-lane1-untr-TCAATGGC",
+      "lane": "Lane1",
+      "treatment": "untr"
+    },
+    {
+      "age_group": "old",
+      "animal_label": "L0011",
+      "cells": 327,
+      "celltype_counts": {
+        "27": 1,
+        "28": 1,
+        "29": 4,
+        "30": 2,
+        "Astrocyte_qNSC": 38,
+        "Endothelial": 15,
+        "Macrophage": 2,
+        "Microglia": 126,
+        "Mural": 1,
+        "Neuroblast": 28,
+        "OPC": 3,
+        "Oligodendrocyte": 80,
+        "aNSC_NPC": 26
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022369",
+      "hash_id": "D-L0011-06292018-lane2-untr-ACCAATGC",
+      "lane": "Lane2",
+      "treatment": "untr"
+    },
+    {
+      "age_group": "old",
+      "animal_label": "L0004",
+      "cells": 561,
+      "celltype_counts": {
+        "27": 1,
+        "28": 2,
+        "29": 2,
+        "Astrocyte_qNSC": 72,
+        "Endothelial": 28,
+        "Ependymal": 1,
+        "Macrophage": 4,
+        "Microglia": 178,
+        "Mural": 14,
+        "Neuroblast": 66,
+        "OPC": 1,
+        "Oligodendrocyte": 152,
+        "aNSC_NPC": 40
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022369",
+      "hash_id": "E-L0004-06292018-lane2-2Dox0-AGTTGCGT",
+      "lane": "Lane2",
+      "treatment": "2Dox0"
+    },
+    {
+      "age_group": "young",
+      "animal_label": "144",
+      "cells": 1290,
+      "celltype_counts": {
+        "27": 2,
+        "28": 6,
+        "29": 2,
+        "30": 4,
+        "Astrocyte_qNSC": 195,
+        "Endothelial": 69,
+        "Ependymal": 14,
+        "Macrophage": 15,
+        "Microglia": 206,
+        "Mural": 27,
+        "Neuroblast": 212,
+        "OPC": 12,
+        "Oligodendrocyte": 352,
+        "aNSC_NPC": 174
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022370",
+      "hash_id": "I-144-04292020-lane3-untr-AAGTACGC",
+      "lane": "Lane3",
+      "treatment": "untr"
+    },
+    {
+      "age_group": "young",
+      "animal_label": "148",
+      "cells": 581,
+      "celltype_counts": {
+        "27": 5,
+        "28": 7,
+        "30": 3,
+        "Astrocyte_qNSC": 100,
+        "Endothelial": 34,
+        "Ependymal": 5,
+        "Macrophage": 10,
+        "Microglia": 137,
+        "Mural": 20,
+        "Neuroblast": 62,
+        "OPC": 8,
+        "Oligodendrocyte": 128,
+        "aNSC_NPC": 62
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022370",
+      "hash_id": "J-148-04292020-lane3-untr-ATTCGCAC",
+      "lane": "Lane3",
+      "treatment": "untr"
+    },
+    {
+      "age_group": "old",
+      "animal_label": "L0042",
+      "cells": 532,
+      "celltype_counts": {
+        "27": 4,
+        "28": 3,
+        "29": 2,
+        "30": 4,
+        "Astrocyte_qNSC": 82,
+        "Endothelial": 45,
+        "Ependymal": 6,
+        "Macrophage": 4,
+        "Microglia": 116,
+        "Mural": 21,
+        "Neuroblast": 32,
+        "OPC": 12,
+        "Oligodendrocyte": 162,
+        "aNSC_NPC": 39
+      },
+      "cohort": 2,
+      "genotype": "OSKM",
+      "geo_library": "GSM7022370",
+      "hash_id": "L-L0042-08022018-lane3-untr-AAGGCTAG",
+      "lane": "Lane3",
+      "treatment": "untr"
+    }
+  ],
+  "author_code_commit": "011586aea2e8612c794e57d2a260fa1a29d417a0",
+  "author_code_map_lines": {
+    "age_genotype": [
+      250,
+      275
+    ],
+    "treatment": [
+      297,
+      322
+    ]
+  },
+  "author_code_sample_count": 12,
+  "author_code_sha256": "418c3c746d08dbf9eff1ff51aaa45092cdf4414d0b5b9fc47e9ba236f1d98772",
+  "cells": 3857,
+  "celltype_counts": {
+    "27": 18,
+    "28": 20,
+    "29": 16,
+    "30": 16,
+    "Astrocyte_qNSC": 541,
+    "Endothelial": 239,
+    "Ependymal": 28,
+    "Macrophage": 42,
+    "Microglia": 992,
+    "Mural": 91,
+    "Neuroblast": 428,
+    "OPC": 40,
+    "Oligodendrocyte": 1016,
+    "aNSC_NPC": 370
+  },
+  "checks": {
+    "RNA_totals_match_metadata": true,
+    "animal_metadata_matches_author_code": true,
+    "cell_order_matches": true,
+    "cohort_lane_join_complete": true,
+    "raw_counts_valid": true
+  },
+  "claim_level": "Verified",
+  "constraints": [
+    "Only two old treated animals and three old controls; no cell-level replication claims.",
+    "Both young controls occur only in lane 3; age contrasts require explicit lane-confounding limits.",
+    "Old treated/control comparison shares lanes 1 and 2; the third old control is in lane 3.",
+    "Four numeric clusters totaling 70 cells lack biological labels; do not silently assign or discard them.",
+    "Counts describe recovered sequenced cells, not unbiased tissue abundances.",
+    "No withdrawal cohort in the deposited object; no human or retinal measurements."
+  ],
+  "decision": "admit_for_separately_frozen_animal_level_mouse_neural_comparator",
+  "evidence_class": "observed_metadata_admission",
+  "expression_analysis_executed": false,
+  "group_counts": [
+    {
+      "age": "young",
+      "animals": 2,
+      "cells": 1871,
+      "treatment": "untr"
+    },
+    {
+      "age": "old",
+      "animals": 2,
+      "cells": 732,
+      "treatment": "2Dox0"
+    },
+    {
+      "age": "old",
+      "animals": 3,
+      "cells": 1254,
+      "treatment": "untr"
+    }
+  ],
+  "metadata_columns": 34,
+  "next_contract": "Freeze animal-by-cell-type pseudobulk, composition denominators, minimum cell counts, lane sensitivity and replication rules before expression testing.",
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "rna_genes": 31057,
+  "source_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+  "timing": "GEO: three 2-day-on/5-day-off pulses. Present treated animals carry 2Dox0; no 2Dox5 cells survive in this deposited subset.",
+  "unresolved_numeric_celltype_labels": {
+    "27": 18,
+    "28": 20,
+    "29": 16,
+    "30": 16
+  },
+  "zenodo_checksum": "md5:8259ae16616437fe5d0d0760745a75ab",
+  "zenodo_license": "cc-by-4.0"
+}

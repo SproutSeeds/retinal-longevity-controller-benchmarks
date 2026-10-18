@@ -1,0 +1,11 @@
+{
+  "id": "CX004-INDEPENDENT-COMPARATOR-JOIN-20261018-A1",
+  "amends": "CX004-INDEPENDENT-COMPARATOR-20261018-V1",
+  "scope": "Resolve a source naming discrepancy; retain all original panel, normalization, contrast and claim rules.",
+  "prior_exposure": "The count-file header and first gene row (ENSG00000000003) were printed to inspect the schema. No panel outcomes, normalized values or treatment contrasts were computed before this amendment.",
+  "exact_join_result": "FAIL: GEO Description names OSK_0D_1 etc.; count columns name OSK_D0_1 etc. No exact string join is possible.",
+  "alias_rule": "For this accession only, transform ^(OSK|O4YRSK)_(0|4)D_([12])$ into construct_D<day>_<replicate>. Reverse transformation must recover the exact original label. Require all eight unique metadata labels to cover all eight matrix columns, with no extra or missing column. Any collision, unmatched column or unexpected construct/day/replicate stops analysis.",
+  "experimental_labels": "Use GEO title and characteristic treatment fields; verify their construct and dox status agree with the alias tokens. The D0 count token is not relabeled as a true day-zero harvest: GEO describes no-dox control samples at four days. No withdrawal interval is inferred.",
+  "replicate_policy": "Preserve source replicate labels as library labels; do not infer independent donors or paired biological replicates.",
+  "gene_mapping": "Use approved HGNC human gene-symbol to Ensembl identifiers with a pinned input hash. Require a unique approved mapping for every used panel gene. Match identifiers exactly after version-suffix removal; do not impute missing genes or pick among ambiguous mappings by count values."
+}

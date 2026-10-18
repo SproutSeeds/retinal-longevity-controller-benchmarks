@@ -1,0 +1,50 @@
+{
+  "id": "CX004-INDEPENDENT-COMPARATOR-20261018-V1",
+  "claim_level": "Heuristic",
+  "frozen_before_matrix_inspection": true,
+  "prior_exposure": "GEO series descriptions, human sample titles and the published abstracts were read. No GSE297233 count values or derived outcomes have been examined in this run. Existing October 17 panel definitions and simulations are known. This is a prospective analysis contract for this reanalysis, not a registered biological trial.",
+  "scope": "Independent source comparison and neural-data admission; no exact age-clock replay and no late-human recovery promotion.",
+  "human": {
+    "accession": "GSE297233",
+    "expected_samples": 8,
+    "donor_count": 1,
+    "donor": "GM00731",
+    "age_years": 96,
+    "sex": "male",
+    "contrasts": ["OSK dox minus OSK no dox", "O4YRSK dox minus O4YRSK no dox"],
+    "replication": "Two libraries per condition; biological replicate independence is not assumed. Never pair rep1/rep2 across conditions without explicit experimental evidence.",
+    "sample_join": "Use exact Column name in raw_counts_matrix.csv metadata; exact title establishes construct and dox status. Do not infer sample identity from matrix position or count values.",
+    "input_checks": "Require nonnegative finite counts, unique columns, nonempty libraries, exact 8-sample metadata join and species agreement. Count fractions are documented rather than rounded. If duplicate gene symbols occur, sum their counts and record them; never select a row by outcome.",
+    "panels": "Reuse October 17 fibroblast_identity, cycle_panel, stress_panel and reprogramming_state without gene selection. Additionally report reprogramming_state excluding POU5F1 and SOX2 because OSK transgenes can contribute those transcripts. The panels are heuristic expression summaries, not calibrated age, identity or safety classifiers.",
+    "minimum_panel_coverage": 0.8,
+    "primary": "Per-library log2(1+CPM), then equal-weight mean over each fixed panel; compare arithmetic means of the two libraries in each condition.",
+    "sensitivities": ["Median-ratio size factors estimated across all 8 libraries on strictly positive genes, scaled to the geometric-mean library depth and expressed as CPM-equivalent log2(1+x)", "Every single-gene omission from each panel", "All four treated-versus-control library combinations, without declaring those combinations independent replicates"],
+    "report": "All panels, all genes, library depth/detected genes, normalization factors, missing genes, transgene-overlap flag, four pairwise differences and omission ranges. A sign-stability descriptor is descriptive, not a p-value or confidence interval.",
+    "inference_limits": ["No donor-level inference or p-values", "No young reference or recovery sample in this eight-library design", "No age-clock scores", "No retinal efficacy or transformation-risk estimate", "A decrease in fibroblast ECM markers is ambiguous between program modulation and identity alteration", "This different-intervention study is a comparator, not a validation of the SRSF1 treatment classifier"]
+  },
+  "neural_admission": {
+    "accession": "GSE224438",
+    "companion": "GSE245385",
+    "source": "Xu et al., Nature Aging 2024, doi:10.1038/s43587-024-00594-3",
+    "inspect": "Public sample manifests, processed-file inventory, pinned author-code paths and sample/cell metadata dependencies. Author code is inspected as text only.",
+    "required_for_single_cell_analysis": ["Cell identifier joined to a deposited count column", "Sample and independent animal/pool unit", "Treatment and age", "Cohort and time relative to exposure", "Cell-type annotations or a frozen independent annotation method", "Publicly retrievable compatible files and usable terms"],
+    "decision": "Admit for a separately frozen within-cell-type versus composition analysis only if each required mapping is explicit. Pooled mice are one sequencing unit, not independent cell-level replicates. A scout can end with an exact next acquisition step; it does not count as running the neural analysis.",
+    "limits": "Mouse neural comparators retain species and tissue scope. A published pooled result is not a per-animal mapping. No bulk substitute is relabeled as single-cell validation."
+  },
+  "synthetic": {
+    "evidence_class": "synthetic_only",
+    "seed": 181026,
+    "question": "At fixed cell count, how do donor imbalance and a two-donor confirmation rule change detection and false alarms?",
+    "allocations": [[400,400,400],[1000,100,100],[200,200,200,200,200,200],[1000,40,40,40,40,40]],
+    "prevalences": [0.001,0.01],
+    "latent_donor_correlations": [0.0,0.05],
+    "sensitivity": 0.8,
+    "specificities": [1.0,0.9999,0.999],
+    "confirmation": ["At least one donor has a flagged cell", "At least two different donors have a flagged cell"],
+    "null": "Separately report all-null false alarms with independent per-cell errors and with hypothetical donor-correlated errors (intraclass correlation 0.01). A flagged cell is not necessarily a true state.",
+    "method": "Beta donor prevalence with conditional binomial sampling; independent donor products; compare 256/512-point Gauss-Jacobi quadrature and seeded Monte Carlo in a representative nonzero-clustering case.",
+    "limits": "All prevalence, sensitivity, specificity and correlation parameters are hypothetical. No simulation creates biological observations or establishes an adequate experiment size."
+  },
+  "publication": "Publish our code, fixed contract, derived results, provenance and a short presentation addendum. Retain original-study attribution and keep correspondence and raw third-party data private/local.",
+  "promotion_gate": "All CX004 R01-R04 remain insufficient_signal unless new compatible observed late human measurements satisfy their existing requirements. This work does not advance phase 483 or train a larger controller."
+}

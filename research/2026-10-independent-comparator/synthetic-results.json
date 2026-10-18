@@ -1,0 +1,1100 @@
+{
+  "all_null_scenarios": [
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.11308488514427917,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.004492268664057247
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.04701966736161678,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0007527863229698437
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.6989865709066009,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.25457941235657294
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.3822787988035041,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.059488989405725334
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.11308488514427917,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0019741208805205968
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.0370469517954265,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0003717580483209512
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.6989865709066009,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.11800216298334776
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.31449002594588427,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.031069000666579027
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.1130848851442795,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0055782129272668735
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.06373744566570294,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0017361586060344672
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.6989865709066008,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.2988945968412132
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.4825143937617986,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.12218941256016813
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.0,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 1.0,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.11308488514427906,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.002027590176252675
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.039927596657105324,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.9999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.0005047406164282037
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.6989865709066008,
+      "false_positive_donor_correlation": 0,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.11989686408538014
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.33473600101255263,
+      "false_positive_donor_correlation": 0.01,
+      "specificity": 0.999,
+      "true_prevalence": 0,
+      "two_or_more_donors_flagged": 0.04110441054125308
+    }
+  ],
+  "assumptions": {
+    "allocations": [
+      [
+        400,
+        400,
+        400
+      ],
+      [
+        1000,
+        100,
+        100
+      ],
+      [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ]
+    ],
+    "confirmation": [
+      "At least one donor has a flagged cell",
+      "At least two different donors have a flagged cell"
+    ],
+    "evidence_class": "synthetic_only",
+    "latent_donor_correlations": [
+      0.0,
+      0.05
+    ],
+    "limits": "All prevalence, sensitivity, specificity and correlation parameters are hypothetical. No simulation creates biological observations or establishes an adequate experiment size.",
+    "method": "Beta donor prevalence with conditional binomial sampling; independent donor products; compare 256/512-point Gauss-Jacobi quadrature and seeded Monte Carlo in a representative nonzero-clustering case.",
+    "null": "Separately report all-null false alarms with independent per-cell errors and with hypothetical donor-correlated errors (intraclass correlation 0.01). A flagged cell is not necessarily a true state.",
+    "prevalences": [
+      0.001,
+      0.01
+    ],
+    "question": "At fixed cell count, how do donor imbalance and a two-donor confirmation rule change detection and false alarms?",
+    "seed": 181026,
+    "sensitivity": 0.8,
+    "specificities": [
+      1.0,
+      0.9999,
+      0.999
+    ]
+  },
+  "authority": "Hypothetical flags and design diagnostics; no empirical risk or power claim.",
+  "claim_level": "Heuristic",
+  "contract_sha256": "ab76f6e313ddac02a243c93437217bb132bade427d3087654ea53d7e2d8390cd",
+  "evidence_class": "synthetic_only",
+  "monte_carlo_check": {
+    "any_donor_flagged": {
+      "absolute_error": 0.0009155138915623029,
+      "analytic": 0.9225455138915623,
+      "monte_carlo": 0.92163,
+      "tolerance": 0.004236561507008846
+    },
+    "two_or_more_donors_flagged": {
+      "absolute_error": 0.0010322984784851275,
+      "analytic": 0.48638229847848513,
+      "monte_carlo": 0.48535,
+      "tolerance": 0.007912761514263083
+    }
+  },
+  "monte_carlo_trials": 100000,
+  "quadrature_max_absolute_error": 2.8753357916855293e-08,
+  "scenarios": [
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.6172541951002101,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.1840194624749123
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.6605288059375709,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.21904205822554423
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.8847606688389373,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.5200479291388811
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.15269066325984515,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.008351225146707913
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.24850752830194456,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.023255240072739713
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.7449450661554213,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.3035642661991267
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.9999348361725512,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.9952723112384303
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.999942191230796,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.9956303976760839
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.9999803372517253,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.9978538258817108
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.8097405627460239,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.38812198748522103
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.831253751343962,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.42139012871378023
+    },
+    {
+      "allocation": [
+        400,
+        400,
+        400
+      ],
+      "any_donor_flagged": 0.942721614684993,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.6687823962643409
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.6172541951002102,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.08412867358807263
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.6605288059375709,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.10081918141309287
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.8847606688389373,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.2569386941149644
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.12675171618811787,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.00518590173060729
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.22550193764614657,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.014072299218852669
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.7371372767604225,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.1576635660665705
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.9999348361725512,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.7992377258383847
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.999942191230796,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.803217715209082
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.9999803372517253,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.8356537256929595
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.7427195800813831,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.27806693647042124
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.7718112739662881,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.3040440087423878
+    },
+    {
+      "allocation": [
+        1000,
+        100,
+        100
+      ],
+      "any_donor_flagged": 0.9225455138915629,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.48638229847848624
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.6172541951002103,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.218618273629415
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.6605288059375707,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.2586822942257666
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.8847606688389374,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.5850181903715626
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.2277117506787365,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.023795013422269806
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.3150441237572402,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.047508596355396615
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.767524903784346,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.3835570781917119
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.9999348361725512,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.9983767672338631
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.999942191230796,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.9985251219434962
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.9999803372517253,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.9993802084946494
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.9248760726876578,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.6817149507359563
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.9333697446854715,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.7052700737761919
+    },
+    {
+      "allocation": [
+        200,
+        200,
+        200,
+        200,
+        200,
+        200
+      ],
+      "any_donor_flagged": 0.9773808833497961,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.8578954183671728
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.6172541951002102,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.08565577595558849
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.6605288059375709,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.1025412664932861
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.8847606688389374,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.25937868068461734
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.15405966905702584,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.009508396186896029
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.24972124636373316,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.0213885368478183
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.7453555454809024,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.001,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.17826921783854144
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.9999348361725512,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.7992749291296477
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.999942191230796,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.8032517142886821
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.9999803372517253,
+      "latent_donor_correlation": 0.0,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.8356686471381802
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.8129734500237611,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 1.0,
+      "two_or_more_donors_flagged": 0.41846812315340187
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.834120028273857,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.9999,
+      "two_or_more_donors_flagged": 0.4443235681365388
+    },
+    {
+      "allocation": [
+        1000,
+        40,
+        40,
+        40,
+        40,
+        40
+      ],
+      "any_donor_flagged": 0.9436912927780292,
+      "latent_donor_correlation": 0.05,
+      "prevalence": 0.01,
+      "sensitivity": 0.8,
+      "specificity": 0.999,
+      "two_or_more_donors_flagged": 0.6119033218054223
+    }
+  ]
+}

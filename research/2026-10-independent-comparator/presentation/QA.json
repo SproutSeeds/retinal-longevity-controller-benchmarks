@@ -1,0 +1,22 @@
+{
+  "PDF_all_pages_visually_inspected": true,
+  "all_PDF_fonts_embedded": true,
+  "date": "2026-10-18",
+  "embedded_chart_workbooks": 1,
+  "finalizer_structure_layout_font_and_import": "PASS",
+  "native_charts": 1,
+  "native_powerpoint_ui_tested": false,
+  "native_tables": 2,
+  "pdf_sha256": "310e98dfb83d8ff3c9a1c6bea55a3b24774c6e51f1890917d569ead401169a9f",
+  "pptx_sha256": "c615cc3b9ea5208193886608fbc2b33884193ff7d6f4b327fed826321fed2041",
+  "rendered_page_sha256s": {
+    "slide-1.png": "bb9b2652411965858541db751a344856b11fb0a2c49a7d2453c07d58c5f46c6a",
+    "slide-2.png": "709062b378ba4b5f1bab58757f6676793a9b558719eae3380e12fd01e309672d",
+    "slide-3.png": "1b717e3f9dff9e77712aa428d388b2a965eef0f190a178d964131ec35113491b",
+    "slide-4.png": "a85b1035c6e767fa7ca6e69ad0b68c20884bb00f2a6ba2613c236c80d3d052a3"
+  },
+  "slides": 4,
+  "spoken_notes_match": true,
+  "status": "PASS",
+  "visual_findings": "All four slides inspected at 1600 pixels; no clipped or overlapping content. Native table values and chart values match the source JSON at displayed precision."
+}

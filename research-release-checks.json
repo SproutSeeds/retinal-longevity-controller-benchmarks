@@ -45,6 +45,22 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:research/2026-10-independent-comparator/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-independent-comparator/presentation/retinal-comparator-update.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-independent-comparator/presentation/retinal-comparator-update.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-independent-comparator/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-metadata-recovery/README.md",
       "status": "PASS"
     },
@@ -198,6 +214,554 @@
     },
     {
       "name": "credential_patterns:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/NEXT_STEPS.md:NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:human-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:join-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:human-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:neural-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:synthetic-donor-balance.png",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:presentation/retinal-comparator-update.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:presentation/retinal-comparator-update.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-independent-comparator/README.md:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/artifact-hashes.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/human-comparison.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/human-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/human-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/human-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/human-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/inspect_neural.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/inspect_neural.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/inspect_neural.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/join-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/join-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/join-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/neural-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/neural-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/neural-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/retinal-comparator-update.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/retinal-comparator-update.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-initial-failure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-initial-failure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-initial-failure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/run_validation.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/run_validation.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/run_validation.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/synthetic-donor-balance.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/synthetic-donor-balance.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/synthetic-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/synthetic-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/synthetic-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-independent-comparator/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-independent-comparator/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-independent-comparator/verify.py",
       "status": "PASS"
     },
     {
@@ -953,8 +1517,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 238,
+  "passed": 379,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 238
+  "total": 379
 }

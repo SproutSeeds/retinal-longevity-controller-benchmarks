@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "id": "svz-README.md",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/README.md",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-iOSKM_cohort1-seurat_part1.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part1.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-iOSKM_cohort1-seurat_part2.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part2.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part1.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part1.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part2.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-SVZ_ciOSKM-ciOSKM_seurat_part1.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_seurat_part1.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-SVZ_ciOSKM-ciOSKM_seurat_part2.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_seurat_part2.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "svz-SVZ_ciOSKM-ciOSKM_proportions.R",
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_proportions.R",
+      "max_bytes": 1000000
+    },
+    {
+      "id": "hgnc_complete_set.txt",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/genenames/hgnc/tsv/hgnc_complete_set.txt",
+      "max_bytes": 30000000
+    }
+  ]
+}

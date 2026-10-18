@@ -1,0 +1,119 @@
+{
+  "sources": [
+    {
+      "expected_sha256": "7a503cde61eab3e7375a543e943bde782c92f8b92b12951cc9ddc74592e4b678",
+      "id": "GSE297233-series.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233&targ=self&form=text&view=full"
+    },
+    {
+      "expected_sha256": "d94d2162c792bc5afe209cece17c875b3012d171527084a5e8334917661a14a3",
+      "id": "GSE297233-samples.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233&targ=gsm&form=text&view=full"
+    },
+    {
+      "expected_sha256": "a113064f1b684308849e4bd071572b56b1cb82266b0b2d73cf7d43f57a8ed5c3",
+      "id": "GSE224438-series.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224438&targ=self&form=text&view=full"
+    },
+    {
+      "expected_sha256": "f868f853a7f34a16713c9871d4d2417deeb1862514cc816efdd61f098208ce07",
+      "id": "GSE224438-samples.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE224438&targ=gsm&form=text&view=full"
+    },
+    {
+      "expected_sha256": "b2b869aa383902f95e8feccd8c6a7406768ede12600493e3fc9d3931d55e7137",
+      "id": "GSE245385-series.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385&targ=self&form=text&view=full"
+    },
+    {
+      "expected_sha256": "e819b6c1436d43eacbbade38b4f3c50e2163e3609c30d7ae92d045fd382308e2",
+      "id": "GSE245385-samples.txt",
+      "max_bytes": 5000000,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE245385&targ=gsm&form=text&view=full"
+    },
+    {
+      "expected_sha256": "4bb5494a48c276c094d9b90076b45b359b7ee5976a7f5344aed421a04e7a8175",
+      "id": "GSE297233_raw_counts_matrix.csv.gz",
+      "max_bytes": 3000000,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE297nnn/GSE297233/suppl/GSE297233_raw_counts_matrix.csv.gz"
+    },
+    {
+      "expected_sha256": "3540429a89188e1efabedec45ce48af9d6fc83a52788b19f0299d76fda7baaf1",
+      "id": "svz-zenodo.json",
+      "max_bytes": 2000000,
+      "url": "https://zenodo.org/api/records/10626910"
+    },
+    {
+      "expected_sha256": "c00f38d155909235be3ff30bf3fc9ecf09346fe1a79c5d1d04fe5a9f5fb3da63",
+      "id": "svz-code-tree.json",
+      "max_bytes": 2000000,
+      "url": "https://api.github.com/repos/gitlucyxu/SVZreprogramming/git/trees/main?recursive=1"
+    },
+    {
+      "expected_sha256": "979214d432a113edd46f2ccc5243619b42160c55074c3ac95d0caabc3731508b",
+      "id": "svz-README.md",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/README.md"
+    },
+    {
+      "expected_sha256": "737834f13bc51a4bbf02513f51be9bdc22a1706bbfeebe46fc40e0d56a354faf",
+      "id": "svz-iOSKM_cohort1-seurat_part1.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part1.R"
+    },
+    {
+      "expected_sha256": "0c3d7ac2df391a3bebe2f2bdd2b32665b3bd7ef322c14bba4b77ada08990c69c",
+      "id": "svz-iOSKM_cohort1-seurat_part2.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort1/seurat_part2.R"
+    },
+    {
+      "expected_sha256": "321e8ed07f708a82b44d267809a24ed78cd414f6e98cc8123f72d8bfec0adf36",
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part1.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part1.R"
+    },
+    {
+      "expected_sha256": "418c3c746d08dbf9eff1ff51aaa45092cdf4414d0b5b9fc47e9ba236f1d98772",
+      "id": "svz-iOSKM_cohort2-iOSKM2_seurat_part2.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/iOSKM_cohort2/iOSKM2_seurat_part2.R"
+    },
+    {
+      "expected_sha256": "06a8b0d03cd10065d95abe5b994d149d0c69b034a23ecc541306c7d1071ef61e",
+      "id": "svz-SVZ_ciOSKM-ciOSKM_seurat_part1.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_seurat_part1.R"
+    },
+    {
+      "expected_sha256": "87b797246c87832b123aed9773abccd1f4866d33018239d9a17a4257824a858a",
+      "id": "svz-SVZ_ciOSKM-ciOSKM_seurat_part2.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_seurat_part2.R"
+    },
+    {
+      "expected_sha256": "f25ad0af1a0c5212fdfe0591d53ffd455718a559381ad5c62be331f10f4739dc",
+      "id": "svz-SVZ_ciOSKM-ciOSKM_proportions.R",
+      "max_bytes": 1000000,
+      "url": "https://raw.githubusercontent.com/gitlucyxu/SVZreprogramming/011586aea2e8612c794e57d2a260fa1a29d417a0/SVZ_ciOSKM/ciOSKM_proportions.R"
+    },
+    {
+      "expected_sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+      "id": "hgnc_complete_set.txt",
+      "max_bytes": 30000000,
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"
+    },
+    {
+      "expected_md5": "8259ae16616437fe5d0d0760745a75ab",
+      "expected_sha256": "2471fbd531edd80f0f3aa480c1782dcedce811cfadc132eff09d8d029c6711a6",
+      "id": "svz_iOSKM_cohort2_toshare.rds",
+      "max_bytes": 230000000,
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort2_toshare.rds/content"
+    }
+  ]
+}

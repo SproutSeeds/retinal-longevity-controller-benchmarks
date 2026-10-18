@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "id": "hgnc_complete_set.txt",
+      "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+      "max_bytes": 30000000
+    },
+    {
+      "id": "svz_iOSKM_cohort2_toshare.rds",
+      "url": "https://zenodo.org/api/records/10626910/files/svz_iOSKM_cohort2_toshare.rds/content",
+      "max_bytes": 230000000,
+      "expected_md5": "8259ae16616437fe5d0d0760745a75ab"
+    }
+  ]
+}

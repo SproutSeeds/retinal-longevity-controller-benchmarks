@@ -1,0 +1,26 @@
+{
+  "checked_at_utc": "2026-10-18T05:38:31.377012+00:00",
+  "files": [
+    {
+      "after_sha256": "da7d2ea5ee6d940219d36ff2860def2f006ebc3bcd8fbf897c196950b02abda6",
+      "before_sha256": "da7d2ea5ee6d940219d36ff2860def2f006ebc3bcd8fbf897c196950b02abda6",
+      "name": "human-results.json"
+    },
+    {
+      "after_sha256": "8a35d4adadebb7e566f0501536728b24085689b9306a6dfe38fe16ff47a0617b",
+      "before_sha256": "8a35d4adadebb7e566f0501536728b24085689b9306a6dfe38fe16ff47a0617b",
+      "name": "synthetic-results.json"
+    },
+    {
+      "after_sha256": "242b49dc6face56e46d55c840c12319a91dc78365d27b385b8eabea4b230d3e3",
+      "before_sha256": "242b49dc6face56e46d55c840c12319a91dc78365d27b385b8eabea4b230d3e3",
+      "name": "neural-admission.json"
+    }
+  ],
+  "generator_sha256": {
+    "analyze.py": "d812d314a4d082ba3bb22ed7ae0edabd259a35e93e79c415e3a8bcc0316e0606",
+    "inspect_neural.py": "4d841143ff78b19c576266ff4415343bf76eb6bb73cf586d4b67b38f5381a29d"
+  },
+  "scope": "Byte-identical result JSON from frozen source cache and pinned software; visual exports excluded.",
+  "status": "PASS"
+}

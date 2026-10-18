@@ -1,0 +1,20 @@
+{
+  "claim_level": "Heuristic",
+  "controller_phase_483": "unchanged_awaiting_external_packet",
+  "date": "2026-10-18",
+  "existing_requests": "Previously approved requests sent; replies not reviewed in this pass",
+  "experiment_replacement_verdict": "INCONCLUSIVE",
+  "human_expression_comparison": "complete",
+  "neural_expression_testing": "pending_separate_contract",
+  "neural_metadata_admission": "complete",
+  "new_outreach_sent_this_pass": false,
+  "paid_compute_used": false,
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "synthetic_extension": "complete",
+  "wet_lab_purchased_or_arranged": false
+}

@@ -1,0 +1,496 @@
+{
+  "checks": [
+    {
+      "name": "Human input hash bound",
+      "status": "PASS"
+    },
+    {
+      "name": "HGNC mapping hash bound",
+      "status": "PASS"
+    },
+    {
+      "name": "Neural input hash bound",
+      "status": "PASS"
+    },
+    {
+      "name": "Both outcome analyses bind frozen contract",
+      "status": "PASS"
+    },
+    {
+      "name": "Human join amendment bound",
+      "status": "PASS"
+    },
+    {
+      "name": "Eight libraries and one donor",
+      "status": "PASS"
+    },
+    {
+      "name": "Counts and all 46 panel genes available",
+      "status": "PASS"
+    },
+    {
+      "name": "Human sample identifiers unique",
+      "status": "PASS"
+    },
+    {
+      "name": "All ten predefined comparisons reported",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:fibroblast_identity: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:fibroblast_identity:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:fibroblast_identity:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:fibroblast_identity:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:fibroblast_identity:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:cycle_panel: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:cycle_panel:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:cycle_panel:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:cycle_panel:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:cycle_panel:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:stress_panel: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:stress_panel:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:stress_panel:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:stress_panel:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:stress_panel:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_state: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_state:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_state:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_state:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_state:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_without_OSK_overlap: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_without_OSK_overlap:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_without_OSK_overlap:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_without_OSK_overlap:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK:reprogramming_without_OSK_overlap:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:fibroblast_identity: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:fibroblast_identity:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:fibroblast_identity:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:fibroblast_identity:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:fibroblast_identity:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:cycle_panel: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:cycle_panel:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:cycle_panel:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:cycle_panel:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:cycle_panel:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:stress_panel: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:stress_panel:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:stress_panel:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:stress_panel:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:stress_panel:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_state: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_state:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_state:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_state:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_state:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_without_OSK_overlap: fixed membership",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_without_OSK_overlap:log2_cpm: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_without_OSK_overlap:log2_cpm: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_without_OSK_overlap:log2_median_ratio_cpm_equivalent: recomputed from gene values",
+      "status": "PASS"
+    },
+    {
+      "name": "O4YRSK:reprogramming_without_OSK_overlap:log2_median_ratio_cpm_equivalent: omission and library ranges",
+      "status": "PASS"
+    },
+    {
+      "name": "OSK stress normalization reversal retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Neural 3857 cells and seven animals",
+      "status": "PASS"
+    },
+    {
+      "name": "Neural unique animals and raw RNA dimensions",
+      "status": "PASS"
+    },
+    {
+      "name": "Animal celltype counts reconcile",
+      "status": "PASS"
+    },
+    {
+      "name": "Celltype totals reconcile across animals",
+      "status": "PASS"
+    },
+    {
+      "name": "Four unresolved clusters retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Two old treated, three old controls, two young controls",
+      "status": "PASS"
+    },
+    {
+      "name": "Withdrawal samples absent",
+      "status": "PASS"
+    },
+    {
+      "name": "Neural admission remains separate from expression testing",
+      "status": "PASS"
+    },
+    {
+      "name": "All neural identity checks pass",
+      "status": "PASS"
+    },
+    {
+      "name": "Synthetic-only label retained",
+      "status": "PASS"
+    },
+    {
+      "name": "48 synthetic scenarios and 24 all-null scenarios",
+      "status": "PASS"
+    },
+    {
+      "name": "Fixed 1200-cell allocation",
+      "status": "PASS"
+    },
+    {
+      "name": "Confirmation probabilities valid and ordered",
+      "status": "PASS"
+    },
+    {
+      "name": "Quadrature convergence and independent Monte Carlo",
+      "status": "PASS"
+    },
+    {
+      "name": "Independent all-null closed form",
+      "status": "PASS"
+    },
+    {
+      "name": "Four CX004 readouts remain insufficient",
+      "status": "PASS"
+    },
+    {
+      "name": "No experiment replacement promotion",
+      "status": "PASS"
+    },
+    {
+      "name": "Scope and no spend preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "15 adversarial tests passed",
+      "status": "PASS"
+    },
+    {
+      "name": "All three result files reproduce byte for byte",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:FAILED_PATHS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:METHODS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:NEURAL_NEXT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:NEXT_STEPS.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:REPRODUCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:TESTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:analysis-contract.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:fetch_inputs.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:human-comparison.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:human-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:human-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:input-files.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:inspect_neural.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:join-amendment.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:neural-admission.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:panels.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/QA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/build.mjs",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/retinal-comparator-update.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/retinal-comparator-update.pptx",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/slide-sources.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/spoken-notes.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-initial-failure.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan-2.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan-3.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval-plan.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:retrieval.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:reuse-decision.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:run_validation.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:synthetic-donor-balance.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:synthetic-donor-balance.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:synthetic-results.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:test_analysis.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:verify.py",
+      "status": "PASS"
+    }
+  ],
+  "passed": 122,
+  "scope": "Input/provenance integrity, independent arithmetic, bounded data admission, simulation consistency and code tests. Biological experiment replacement remains INCONCLUSIVE.",
+  "status": "PASS",
+  "total": 122
+}

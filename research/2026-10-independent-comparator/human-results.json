@@ -1,0 +1,2394 @@
+{
+  "authority": "Different-intervention, single-donor expression comparator; no age, safety, retinal function or withdrawal-recovery validation.",
+  "claim_level": "Heuristic",
+  "computation_level": "Verified",
+  "contract_sha256": "ab76f6e313ddac02a243c93437217bb132bade427d3087654ea53d7e2d8390cd",
+  "contrasts": [
+    {
+      "construct": "OSK",
+      "genes": [
+        "COL1A1",
+        "COL1A2",
+        "COL3A1",
+        "DCN",
+        "FN1",
+        "MCAM",
+        "PDGFRA",
+        "THY1",
+        "VIM"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            -1.4847875319384265,
+            -1.4984233168044447,
+            -1.517734831589296,
+            -1.5313706164553142
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 11.2092643059683,
+            "O4YRSK_D0_2": 11.188810882853629,
+            "O4YRSK_D4_1": 9.700718910737656,
+            "O4YRSK_D4_2": 9.698187279351988,
+            "OSK_D0_1": 11.317028890348587,
+            "OSK_D0_2": 11.330664675214605,
+            "OSK_D4_1": 9.83224135841016,
+            "OSK_D4_2": 9.79929405875929
+          },
+          "mean_difference": -1.5080790741968695,
+          "omission_range": [
+            -1.5926481893402595,
+            -1.3678112512494067
+          ],
+          "pairwise_range": [
+            -1.5313706164553142,
+            -1.4847875319384265
+          ],
+          "single_gene_omission_differences": {
+            "COL1A1": -1.5498435725318878,
+            "COL1A2": -1.5488801881819843,
+            "COL3A1": -1.5907462622151112,
+            "DCN": -1.4399601586238138,
+            "FN1": -1.3678112512494067,
+            "MCAM": -1.5085577427083727,
+            "PDGFRA": -1.4837967602442816,
+            "THY1": -1.4904675426767184,
+            "VIM": -1.5926481893402595
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            -1.9231717808248163,
+            -1.9209208827816013,
+            -1.959192472957536,
+            -1.956941574914321
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 11.378676078412976,
+            "O4YRSK_D0_2": 11.355353157483583,
+            "O4YRSK_D4_1": 9.516215270841705,
+            "O4YRSK_D4_2": 9.515190615663391,
+            "OSK_D0_1": 11.55003228095153,
+            "OSK_D0_2": 11.547781382908315,
+            "OSK_D4_1": 9.626860500126714,
+            "OSK_D4_2": 9.590839807993994
+          },
+          "mean_difference": -1.9400566778695687,
+          "omission_range": [
+            -2.024341905646409,
+            -1.7994902977832563
+          ],
+          "pairwise_range": [
+            -1.959192472957536,
+            -1.9209208827816013
+          ],
+          "single_gene_omission_differences": {
+            "COL1A1": -1.9815246073000203,
+            "COL1A2": -1.9805618226129482,
+            "COL3A1": -2.0224667739263857,
+            "DCN": -1.8717791145340374,
+            "FN1": -1.7994902977832563,
+            "MCAM": -1.9422513670238146,
+            "PDGFRA": -1.9157759105087369,
+            "THY1": -1.922318301490506,
+            "VIM": -2.024341905646409
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "fibroblast_identity",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "OSK",
+      "genes": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "MCM2",
+        "MCM3",
+        "MCM4",
+        "MCM5",
+        "MCM6",
+        "MCM7",
+        "CDK1",
+        "CCNB1",
+        "CCNB2",
+        "CDC20",
+        "UBE2C",
+        "TYMS",
+        "RRM2",
+        "TK1",
+        "CENPF",
+        "BIRC5",
+        "AURKB"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            1.084727229550063,
+            1.0169458364729613,
+            1.1104757702363375,
+            1.0426943771592359
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 4.5338019753575045,
+            "O4YRSK_D0_2": 4.452909272973837,
+            "O4YRSK_D4_1": 5.002655784804242,
+            "O4YRSK_D4_2": 5.112491006428857,
+            "OSK_D0_1": 3.8427311380070024,
+            "OSK_D0_2": 3.910512531084104,
+            "OSK_D4_1": 4.927458367557065,
+            "OSK_D4_2": 4.95320690824334
+          },
+          "mean_difference": 1.0637108033546494,
+          "omission_range": [
+            1.0112144143279158,
+            1.1140455001970788
+          ],
+          "pairwise_range": [
+            1.0169458364729613,
+            1.1104757702363375
+          ],
+          "single_gene_omission_differences": {
+            "AURKB": 1.064444830627174,
+            "BIRC5": 1.0890080138045373,
+            "CCNB1": 1.0819503031396565,
+            "CCNB2": 1.0742644777416173,
+            "CDC20": 1.0270498310079317,
+            "CDK1": 1.03414544595995,
+            "CENPF": 1.0761460510708742,
+            "MCM2": 1.0442245429624704,
+            "MCM3": 1.0621844048513576,
+            "MCM4": 1.0802346641853724,
+            "MCM5": 1.1140455001970788,
+            "MCM6": 1.0655049486011423,
+            "MCM7": 1.0999125740775715,
+            "MKI67": 1.038908348642571,
+            "PCNA": 1.0808636808522971,
+            "RRM2": 1.0112144143279158,
+            "TK1": 1.044164049652359,
+            "TOP2A": 1.046443271293969,
+            "TYMS": 1.0764774914931348,
+            "UBE2C": 1.063029222604012
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.6714244185725731,
+            0.6188657221034894,
+            0.6935695045011974,
+            0.6410108080321137
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 4.695407024897273,
+            "O4YRSK_D0_2": 4.6111826348431135,
+            "O4YRSK_D4_1": 4.823503345702042,
+            "O4YRSK_D4_2": 4.934765336574067,
+            "OSK_D0_1": 4.058096019767365,
+            "OSK_D0_2": 4.110654716236448,
+            "OSK_D4_1": 4.729520438339938,
+            "OSK_D4_2": 4.751665524268562
+          },
+          "mean_difference": 0.6562176133023438,
+          "omission_range": [
+            0.6040744791458668,
+            0.7068055911481483
+          ],
+          "pairwise_range": [
+            0.6188657221034894,
+            0.6935695045011974
+          ],
+          "single_gene_omission_differences": {
+            "AURKB": 0.6533454288802112,
+            "BIRC5": 0.6820011970449213,
+            "CCNB1": 0.6748095776817422,
+            "CCNB2": 0.6657197192775559,
+            "CDC20": 0.6191745943046252,
+            "CDK1": 0.6263129360230417,
+            "CENPF": 0.6693263787727384,
+            "MCM2": 0.6363863369174982,
+            "MCM3": 0.6550654773626166,
+            "MCM4": 0.6734623063952938,
+            "MCM5": 0.7068055911481483,
+            "MCM6": 0.6584708307550038,
+            "MCM7": 0.6930800005413484,
+            "MKI67": 0.632375079402868,
+            "PCNA": 0.6740997669664077,
+            "RRM2": 0.6040744791458668,
+            "TK1": 0.6367676800581661,
+            "TOP2A": 0.6399785479192701,
+            "TYMS": 0.6692543337260703,
+            "UBE2C": 0.6538420037234749
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "cycle_panel",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "OSK",
+      "genes": [
+        "CDKN1A",
+        "CDKN2A",
+        "IL6",
+        "CXCL8",
+        "GADD45A",
+        "TP53",
+        "TIMP1",
+        "TIMP2"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.24670406246709664,
+            0.3024840031007914,
+            0.21405039061218822,
+            0.26983033124588296
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 5.534966705705827,
+            "O4YRSK_D0_2": 5.56046923213981,
+            "O4YRSK_D4_1": 6.092843841069399,
+            "O4YRSK_D4_2": 6.124391236499471,
+            "OSK_D0_1": 5.845608926839301,
+            "OSK_D0_2": 5.789828986205606,
+            "OSK_D4_1": 6.092312989306397,
+            "OSK_D4_2": 6.059659317451489
+          },
+          "mean_difference": 0.25826719685649024,
+          "omission_range": [
+            0.008203525029095715,
+            0.5099328402725263
+          ],
+          "pairwise_range": [
+            0.21405039061218822,
+            0.3024840031007914
+          ],
+          "single_gene_omission_differences": {
+            "CDKN1A": 0.4445437808404975,
+            "CDKN2A": 0.2976413447351334,
+            "CXCL8": 0.31704881761553594,
+            "GADD45A": 0.10695033051687997,
+            "IL6": 0.5099328402725263,
+            "TIMP1": 0.008203525029095715,
+            "TIMP2": 0.12072466365445145,
+            "TP53": 0.2610922721877973
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": false,
+          "four_library_differences": [
+            -0.1364392461524071,
+            -0.057804190255590804,
+            -0.16906544709221638,
+            -0.09043039119540008
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 5.672788203521882,
+            "O4YRSK_D0_2": 5.699099822821889,
+            "O4YRSK_D4_1": 5.944541613888656,
+            "O4YRSK_D4_2": 5.97592018163014,
+            "OSK_D0_1": 6.057053839810061,
+            "OSK_D0_2": 5.978418783913245,
+            "OSK_D4_1": 5.920614593657654,
+            "OSK_D4_2": 5.887988392717845
+          },
+          "mean_difference": -0.11343481867390359,
+          "omission_range": [
+            -0.35462688009533583,
+            0.1218820734645405
+          ],
+          "pairwise_range": [
+            -0.16906544709221638,
+            -0.057804190255590804
+          ],
+          "single_gene_omission_differences": {
+            "CDKN1A": 0.08167018467148601,
+            "CDKN2A": -0.07177583472303795,
+            "CXCL8": -0.08272705023132776,
+            "GADD45A": -0.25669141787419214,
+            "IL6": 0.1218820734645405,
+            "TIMP1": -0.35462688009533583,
+            "TIMP2": -0.24204409032426888,
+            "TP53": -0.10316553427908914
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": false,
+      "panel": "stress_panel",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "OSK",
+      "genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "POU5F1",
+        "PRDM14",
+        "SALL4",
+        "SOX2",
+        "ZFP42"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            1.7860722305137047,
+            1.688767860649317,
+            1.8308153405207517,
+            1.733510970656364
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 1.1300832594316246,
+            "O4YRSK_D0_2": 1.0893666541687574,
+            "O4YRSK_D4_1": 2.810341485984726,
+            "O4YRSK_D4_2": 2.6483776425325933,
+            "OSK_D0_1": 0.847585592312093,
+            "OSK_D0_2": 0.9448899621764806,
+            "OSK_D4_1": 2.6336578228257976,
+            "OSK_D4_2": 2.6784009328328446
+          },
+          "mean_difference": 1.759791600585034,
+          "omission_range": [
+            1.2396729655028136,
+            1.9826745025076247
+          ],
+          "pairwise_range": [
+            1.688767860649317,
+            1.8308153405207517
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 1.520736319218623,
+            "CDH1": 1.9821907582038358,
+            "EPCAM": 1.889603153720152,
+            "NANOG": 1.9745567900475984,
+            "POU5F1": 1.2396729655028136,
+            "PRDM14": 1.9797655506581633,
+            "SALL4": 1.9826745025076247,
+            "SOX2": 1.289158814748334,
+            "ZFP42": 1.9797655506581633
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            1.626760992189721,
+            1.5209936005944404,
+            1.6651575663199827,
+            1.559390174724702
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 1.1834142745387954,
+            "O4YRSK_D0_2": 1.141486344170317,
+            "O4YRSK_D4_1": 2.7303174176297658,
+            "O4YRSK_D4_2": 2.581091036520362,
+            "OSK_D0_1": 0.9192084049203927,
+            "OSK_D0_2": 1.0249757965156732,
+            "OSK_D4_1": 2.5459693971101136,
+            "OSK_D4_2": 2.5843659712403753
+          },
+          "mean_difference": 1.5930755834572112,
+          "omission_range": [
+            1.1017932160008803,
+            1.8108256938359353
+          ],
+          "pairwise_range": [
+            1.5209936005944404,
+            1.6651575663199827
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 1.3796998177465483,
+            "CDH1": 1.8103002812055167,
+            "EPCAM": 1.7116459612267714,
+            "NANOG": 1.787680745055693,
+            "POU5F1": 1.1017932160008803,
+            "PRDM14": 1.7922100313893625,
+            "SALL4": 1.8108256938359353,
+            "SOX2": 1.1513144732648326,
+            "ZFP42": 1.7922100313893625
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "reprogramming_state",
+      "transgene_overlap": [
+        "POU5F1",
+        "SOX2"
+      ]
+    },
+    {
+      "construct": "OSK",
+      "genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "PRDM14",
+        "SALL4",
+        "ZFP42"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.6861066717595312,
+            0.5295673368485959,
+            0.7254411879353668,
+            0.5689018530244315
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 0.8451514427911968,
+            "O4YRSK_D0_2": 0.8932138691502767,
+            "O4YRSK_D4_1": 1.3943686157350705,
+            "O4YRSK_D4_2": 1.1983246223093433,
+            "OSK_D0_1": 0.3454508219480316,
+            "OSK_D0_2": 0.501990156858967,
+            "OSK_D4_1": 1.031557493707563,
+            "OSK_D4_2": 1.0708920098833985
+          },
+          "mean_difference": 0.6275042623919814,
+          "omission_range": [
+            0.12004933087125727,
+            0.7359669085899263
+          ],
+          "pairwise_range": [
+            0.5295673368485959,
+            0.7254411879353668
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 0.12004933087125727,
+            "CDH1": 0.7353219161848752,
+            "EPCAM": 0.6118717768732963,
+            "NANOG": 0.7251432919765585,
+            "PRDM14": 0.7320883061239783,
+            "SALL4": 0.7359669085899263,
+            "ZFP42": 0.7320883061239783
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.5967410306297889,
+            0.42464554312610914,
+            0.6288348177341192,
+            0.45673933023043944
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 0.8758052830840357,
+            "O4YRSK_D0_2": 0.9258232341314387,
+            "O4YRSK_D4_1": 1.3444807168480424,
+            "O4YRSK_D4_2": 1.164403465460751,
+            "OSK_D0_1": 0.3810450124336456,
+            "OSK_D0_2": 0.5531404999373253,
+            "OSK_D4_1": 0.9777860430634344,
+            "OSK_D4_2": 1.0098798301677647
+          },
+          "mean_difference": 0.5267401804301142,
+          "omission_range": [
+            0.06451659231138032,
+            0.6393510937638962
+          ],
+          "pairwise_range": [
+            0.42464554312610914,
+            0.6288348177341192
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 0.06451659231138032,
+            "CDH1": 0.6386505435900047,
+            "EPCAM": 0.5071114502850117,
+            "NANOG": 0.6084911620569068,
+            "PRDM14": 0.6145302105017997,
+            "SALL4": 0.6393510937638962,
+            "ZFP42": 0.6145302105017997
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "reprogramming_without_OSK_overlap",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "O4YRSK",
+      "genes": [
+        "COL1A1",
+        "COL1A2",
+        "COL3A1",
+        "DCN",
+        "FN1",
+        "MCAM",
+        "PDGFRA",
+        "THY1",
+        "VIM"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            -1.5085453952306445,
+            -1.4880919721159724,
+            -1.511077026616313,
+            -1.490623603501641
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 11.2092643059683,
+            "O4YRSK_D0_2": 11.188810882853629,
+            "O4YRSK_D4_1": 9.700718910737656,
+            "O4YRSK_D4_2": 9.698187279351988,
+            "OSK_D0_1": 11.317028890348587,
+            "OSK_D0_2": 11.330664675214605,
+            "OSK_D4_1": 9.83224135841016,
+            "OSK_D4_2": 9.79929405875929
+          },
+          "mean_difference": -1.4995844993661418,
+          "omission_range": [
+            -1.6099833095842087,
+            -1.371135342502015
+          ],
+          "pairwise_range": [
+            -1.511077026616313,
+            -1.4880919721159724
+          ],
+          "single_gene_omission_differences": {
+            "COL1A1": -1.5829211645184884,
+            "COL1A2": -1.5254535247956085,
+            "COL3A1": -1.524025325020638,
+            "DCN": -1.4396377418571653,
+            "FN1": -1.4122221599415568,
+            "MCAM": -1.6099833095842087,
+            "PDGFRA": -1.371135342502015,
+            "THY1": -1.4831401982261951,
+            "VIM": -1.547741727849413
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            -1.8624608075712707,
+            -1.8391378866418773,
+            -1.8634854627495852,
+            -1.8401625418201917
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 11.378676078412976,
+            "O4YRSK_D0_2": 11.355353157483583,
+            "O4YRSK_D4_1": 9.516215270841705,
+            "O4YRSK_D4_2": 9.515190615663391,
+            "OSK_D0_1": 11.55003228095153,
+            "OSK_D0_2": 11.547781382908315,
+            "OSK_D4_1": 9.626860500126714,
+            "OSK_D4_2": 9.590839807993994
+          },
+          "mean_difference": -1.8513116746957294,
+          "omission_range": [
+            -1.9636924490022416,
+            -1.7228684885658563
+          ],
+          "pairwise_range": [
+            -1.8634854627495852,
+            -1.8391378866418773
+          ],
+          "single_gene_omission_differences": {
+            "COL1A1": -1.934301373988312,
+            "COL1A2": -1.8768342660818291,
+            "COL3A1": -1.8754315664452683,
+            "DCN": -1.7912830234449952,
+            "FN1": -1.7636015403271816,
+            "MCAM": -1.9636924490022416,
+            "PDGFRA": -1.7228684885658563,
+            "THY1": -1.8346612445552477,
+            "VIM": -1.8991311198506473
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "fibroblast_identity",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "O4YRSK",
+      "genes": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "MCM2",
+        "MCM3",
+        "MCM4",
+        "MCM5",
+        "MCM6",
+        "MCM7",
+        "CDK1",
+        "CCNB1",
+        "CCNB2",
+        "CDC20",
+        "UBE2C",
+        "TYMS",
+        "RRM2",
+        "TK1",
+        "CENPF",
+        "BIRC5",
+        "AURKB"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.4688538094467374,
+            0.5497465118304046,
+            0.5786890310713524,
+            0.6595817334550196
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 4.5338019753575045,
+            "O4YRSK_D0_2": 4.452909272973837,
+            "O4YRSK_D4_1": 5.002655784804242,
+            "O4YRSK_D4_2": 5.112491006428857,
+            "OSK_D0_1": 3.8427311380070024,
+            "OSK_D0_2": 3.910512531084104,
+            "OSK_D4_1": 4.927458367557065,
+            "OSK_D4_2": 4.95320690824334
+          },
+          "mean_difference": 0.5642177714508776,
+          "omission_range": [
+            0.5125941140124812,
+            0.5982256271979374
+          ],
+          "pairwise_range": [
+            0.4688538094467374,
+            0.6595817334550196
+          ],
+          "single_gene_omission_differences": {
+            "AURKB": 0.5579059071827661,
+            "BIRC5": 0.5982256271979374,
+            "CCNB1": 0.5898199157928214,
+            "CCNB2": 0.5849912717590922,
+            "CDC20": 0.5504106995940958,
+            "CDK1": 0.531226171070327,
+            "CENPF": 0.5781455845231793,
+            "MCM2": 0.5125941140124812,
+            "MCM3": 0.544686111017799,
+            "MCM4": 0.5808189845165304,
+            "MCM5": 0.5916604920663016,
+            "MCM6": 0.5583622367397201,
+            "MCM7": 0.5761785989701398,
+            "MKI67": 0.5517052493410679,
+            "PCNA": 0.5608036291140959,
+            "RRM2": 0.5347965674526041,
+            "TK1": 0.5670174941063717,
+            "TOP2A": 0.5687505118846676,
+            "TYMS": 0.5827981944349823,
+            "UBE2C": 0.5634580682405952
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.12809632080476874,
+            0.21232071085892823,
+            0.2393583116767939,
+            0.3235827017309534
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 4.695407024897273,
+            "O4YRSK_D0_2": 4.6111826348431135,
+            "O4YRSK_D4_1": 4.823503345702042,
+            "O4YRSK_D4_2": 4.934765336574067,
+            "OSK_D0_1": 4.058096019767365,
+            "OSK_D0_2": 4.110654716236448,
+            "OSK_D4_1": 4.729520438339938,
+            "OSK_D4_2": 4.751665524268562
+          },
+          "mean_difference": 0.2258395112678615,
+          "omission_range": [
+            0.17405268892075743,
+            0.2601042221600185
+          ],
+          "pairwise_range": [
+            0.12809632080476874,
+            0.3235827017309534
+          ],
+          "single_gene_omission_differences": {
+            "AURKB": 0.2174794790404766,
+            "BIRC5": 0.2601042221600185,
+            "CCNB1": 0.25163618110265595,
+            "CCNB2": 0.24585406067265136,
+            "CDC20": 0.21210351168561647,
+            "CDK1": 0.19257596490299633,
+            "CENPF": 0.24018445671736366,
+            "MCM2": 0.17405268892075743,
+            "MCM3": 0.20651102228210405,
+            "MCM4": 0.24287634028768412,
+            "MCM5": 0.25339812693114006,
+            "MCM6": 0.2200968376317718,
+            "MCM7": 0.23807935145993664,
+            "MKI67": 0.21389923212366835,
+            "PCNA": 0.222814891259695,
+            "RRM2": 0.19676658227127675,
+            "TK1": 0.22872964114767047,
+            "TOP2A": 0.23102650922561985,
+            "TYMS": 0.24461318972247437,
+            "UBE2C": 0.223987935811639
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "cycle_panel",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "O4YRSK",
+      "genes": [
+        "CDKN1A",
+        "CDKN2A",
+        "IL6",
+        "CXCL8",
+        "GADD45A",
+        "TP53",
+        "TIMP1",
+        "TIMP2"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.5578771353635723,
+            0.5323746089295893,
+            0.5894245307936439,
+            0.5639220043596609
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 5.534966705705827,
+            "O4YRSK_D0_2": 5.56046923213981,
+            "O4YRSK_D4_1": 6.092843841069399,
+            "O4YRSK_D4_2": 6.124391236499471,
+            "OSK_D0_1": 5.845608926839301,
+            "OSK_D0_2": 5.789828986205606,
+            "OSK_D4_1": 6.092312989306397,
+            "OSK_D4_2": 6.059659317451489
+          },
+          "mean_difference": 0.5608995698616166,
+          "omission_range": [
+            0.3368604812690785,
+            0.7909329719141773
+          ],
+          "pairwise_range": [
+            0.5323746089295893,
+            0.5894245307936439
+          ],
+          "single_gene_omission_differences": {
+            "CDKN1A": 0.7614554166599747,
+            "CDKN2A": 0.533640591564108,
+            "CXCL8": 0.5947411178163646,
+            "GADD45A": 0.46393602056926575,
+            "IL6": 0.7909329719141773,
+            "TIMP1": 0.3368604812690785,
+            "TIMP2": 0.4275727920440673,
+            "TP53": 0.5780571670559
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.2717534103667747,
+            0.24544179106676722,
+            0.303131978108258,
+            0.2768203588082505
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 5.672788203521882,
+            "O4YRSK_D0_2": 5.699099822821889,
+            "O4YRSK_D4_1": 5.944541613888656,
+            "O4YRSK_D4_2": 5.97592018163014,
+            "OSK_D0_1": 6.057053839810061,
+            "OSK_D0_2": 5.978418783913245,
+            "OSK_D4_1": 5.920614593657654,
+            "OSK_D4_2": 5.887988392717845
+          },
+          "mean_difference": 0.2742868845875126,
+          "omission_range": [
+            0.059876719407860435,
+            0.48656822085854223
+          ],
+          "pairwise_range": [
+            0.24544179106676722,
+            0.303131978108258
+          ],
+          "single_gene_omission_differences": {
+            "CDKN1A": 0.4844467810515134,
+            "CDKN2A": 0.251224907715768,
+            "CXCL8": 0.2753995096300148,
+            "GADD45A": 0.1863504411076713,
+            "IL6": 0.48656822085854223,
+            "TIMP1": 0.059876719407860435,
+            "TIMP2": 0.15064570662732812,
+            "TP53": 0.29978279030140254
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "stress_panel",
+      "transgene_overlap": []
+    },
+    {
+      "construct": "O4YRSK",
+      "genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "POU5F1",
+        "PRDM14",
+        "SALL4",
+        "SOX2",
+        "ZFP42"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            1.6802582265531014,
+            1.7209748318159686,
+            1.5182943831009688,
+            1.559010988363836
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 1.1300832594316246,
+            "O4YRSK_D0_2": 1.0893666541687574,
+            "O4YRSK_D4_1": 2.810341485984726,
+            "O4YRSK_D4_2": 2.6483776425325933,
+            "OSK_D0_1": 0.847585592312093,
+            "OSK_D0_2": 0.9448899621764806,
+            "OSK_D4_1": 2.6336578228257976,
+            "OSK_D4_2": 2.6784009328328446
+          },
+          "mean_difference": 1.6196346074584689,
+          "omission_range": [
+            1.0690764203957137,
+            1.8220889333907773
+          ],
+          "pairwise_range": [
+            1.5182943831009688,
+            1.7209748318159686
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 1.5245947500693766,
+            "CDH1": 1.814786008862314,
+            "EPCAM": 1.8134511680894148,
+            "NANOG": 1.8176263828146515,
+            "POU5F1": 1.0690764203957137,
+            "PRDM14": 1.8220889333907773,
+            "SALL4": 1.7662178894480918,
+            "SOX2": 1.1267809806651004,
+            "ZFP42": 1.8220889333907773
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            1.5469031430909703,
+            1.5888310734594489,
+            1.3976767619815667,
+            1.4396046923500452
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 1.1834142745387954,
+            "O4YRSK_D0_2": 1.141486344170317,
+            "O4YRSK_D4_1": 2.7303174176297658,
+            "O4YRSK_D4_2": 2.581091036520362,
+            "OSK_D0_1": 0.9192084049203927,
+            "OSK_D0_2": 1.0249757965156732,
+            "OSK_D4_1": 2.5459693971101136,
+            "OSK_D4_2": 2.5843659712403753
+          },
+          "mean_difference": 1.4932539177205075,
+          "omission_range": [
+            0.965740770020254,
+            1.6799106574355713
+          ],
+          "pairwise_range": [
+            1.3976767619815667,
+            1.5888310734594489
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 1.4262173391475153,
+            "CDH1": 1.6782654248540945,
+            "EPCAM": 1.6742402086459138,
+            "NANOG": 1.675977426096269,
+            "POU5F1": 0.965740770020254,
+            "PRDM14": 1.6799106574355713,
+            "SALL4": 1.6354285349557367,
+            "SOX2": 1.023594240893644,
+            "ZFP42": 1.6799106574355713
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "reprogramming_state",
+      "transgene_overlap": [
+        "POU5F1",
+        "SOX2"
+      ]
+    },
+    {
+      "construct": "O4YRSK",
+      "genes": [
+        "CD24",
+        "CDH1",
+        "EPCAM",
+        "NANOG",
+        "PRDM14",
+        "SALL4",
+        "ZFP42"
+      ],
+      "methods": {
+        "log2_cpm": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.5492171729438737,
+            0.5011547465847939,
+            0.35317317951814653,
+            0.30511075315906666
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 0.8451514427911968,
+            "O4YRSK_D0_2": 0.8932138691502767,
+            "O4YRSK_D4_1": 1.3943686157350705,
+            "O4YRSK_D4_2": 1.1983246223093433,
+            "OSK_D0_1": 0.3454508219480316,
+            "OSK_D0_2": 0.501990156858967,
+            "OSK_D4_1": 1.031557493707563,
+            "OSK_D4_2": 1.0708920098833985
+          },
+          "mean_difference": 0.4271639630514703,
+          "omission_range": [
+            0.10169904579818176,
+            0.498357956893382
+          ],
+          "pairwise_range": [
+            0.30511075315906666,
+            0.5492171729438737
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 0.10169904579818176,
+            "CDH1": 0.488620724188765,
+            "EPCAM": 0.4868409364915658,
+            "NANOG": 0.4924078894585475,
+            "PRDM14": 0.498357956893382,
+            "SALL4": 0.42386323163646833,
+            "ZFP42": 0.498357956893382
+          }
+        },
+        "log2_median_ratio_cpm_equivalent": {
+          "all_four_pairs_share_mean_sign": true,
+          "all_omissions_share_mean_sign": true,
+          "four_library_differences": [
+            0.46867543376400667,
+            0.41865748271660363,
+            0.2885981823767152,
+            0.23858023132931216
+          ],
+          "library_scores": {
+            "O4YRSK_D0_1": 0.8758052830840357,
+            "O4YRSK_D0_2": 0.9258232341314387,
+            "O4YRSK_D4_1": 1.3444807168480424,
+            "O4YRSK_D4_2": 1.164403465460751,
+            "OSK_D0_1": 0.3810450124336456,
+            "OSK_D0_2": 0.5531404999373253,
+            "OSK_D4_1": 0.9777860430634344,
+            "OSK_D4_2": 1.0098798301677647
+          },
+          "mean_difference": 0.3536278325466593,
+          "omission_range": [
+            0.0743080469203615,
+            0.4125658046377694
+          ],
+          "pairwise_range": [
+            0.23858023132931216,
+            0.46867543376400667
+          ],
+          "single_gene_omission_differences": {
+            "CD24": 0.0743080469203615,
+            "CDH1": 0.4103721611958002,
+            "EPCAM": 0.40500520625155967,
+            "NANOG": 0.4073214961853664,
+            "PRDM14": 0.4125658046377694,
+            "SALL4": 0.35325630799798935,
+            "ZFP42": 0.4125658046377694
+          }
+        }
+      },
+      "missing_genes": [],
+      "normalization_signs_agree": true,
+      "panel": "reprogramming_without_OSK_overlap",
+      "transgene_overlap": []
+    }
+  ],
+  "evidence_class": "derived_observed",
+  "fractional_count_entries": 0,
+  "gene_map": {
+    "AURKB": {
+      "ensembl_gene_id": "ENSG00000178999",
+      "hgnc_id": "HGNC:11390",
+      "symbol": "AURKB"
+    },
+    "BIRC5": {
+      "ensembl_gene_id": "ENSG00000089685",
+      "hgnc_id": "HGNC:593",
+      "symbol": "BIRC5"
+    },
+    "CCNB1": {
+      "ensembl_gene_id": "ENSG00000134057",
+      "hgnc_id": "HGNC:1579",
+      "symbol": "CCNB1"
+    },
+    "CCNB2": {
+      "ensembl_gene_id": "ENSG00000157456",
+      "hgnc_id": "HGNC:1580",
+      "symbol": "CCNB2"
+    },
+    "CD24": {
+      "ensembl_gene_id": "ENSG00000272398",
+      "hgnc_id": "HGNC:1645",
+      "symbol": "CD24"
+    },
+    "CDC20": {
+      "ensembl_gene_id": "ENSG00000117399",
+      "hgnc_id": "HGNC:1723",
+      "symbol": "CDC20"
+    },
+    "CDH1": {
+      "ensembl_gene_id": "ENSG00000039068",
+      "hgnc_id": "HGNC:1748",
+      "symbol": "CDH1"
+    },
+    "CDK1": {
+      "ensembl_gene_id": "ENSG00000170312",
+      "hgnc_id": "HGNC:1722",
+      "symbol": "CDK1"
+    },
+    "CDKN1A": {
+      "ensembl_gene_id": "ENSG00000124762",
+      "hgnc_id": "HGNC:1784",
+      "symbol": "CDKN1A"
+    },
+    "CDKN2A": {
+      "ensembl_gene_id": "ENSG00000147889",
+      "hgnc_id": "HGNC:1787",
+      "symbol": "CDKN2A"
+    },
+    "CENPF": {
+      "ensembl_gene_id": "ENSG00000117724",
+      "hgnc_id": "HGNC:1857",
+      "symbol": "CENPF"
+    },
+    "COL1A1": {
+      "ensembl_gene_id": "ENSG00000108821",
+      "hgnc_id": "HGNC:2197",
+      "symbol": "COL1A1"
+    },
+    "COL1A2": {
+      "ensembl_gene_id": "ENSG00000164692",
+      "hgnc_id": "HGNC:2198",
+      "symbol": "COL1A2"
+    },
+    "COL3A1": {
+      "ensembl_gene_id": "ENSG00000168542",
+      "hgnc_id": "HGNC:2201",
+      "symbol": "COL3A1"
+    },
+    "CXCL8": {
+      "ensembl_gene_id": "ENSG00000169429",
+      "hgnc_id": "HGNC:6025",
+      "symbol": "CXCL8"
+    },
+    "DCN": {
+      "ensembl_gene_id": "ENSG00000011465",
+      "hgnc_id": "HGNC:2705",
+      "symbol": "DCN"
+    },
+    "EPCAM": {
+      "ensembl_gene_id": "ENSG00000119888",
+      "hgnc_id": "HGNC:11529",
+      "symbol": "EPCAM"
+    },
+    "FN1": {
+      "ensembl_gene_id": "ENSG00000115414",
+      "hgnc_id": "HGNC:3778",
+      "symbol": "FN1"
+    },
+    "GADD45A": {
+      "ensembl_gene_id": "ENSG00000116717",
+      "hgnc_id": "HGNC:4095",
+      "symbol": "GADD45A"
+    },
+    "IL6": {
+      "ensembl_gene_id": "ENSG00000136244",
+      "hgnc_id": "HGNC:6018",
+      "symbol": "IL6"
+    },
+    "MCAM": {
+      "ensembl_gene_id": "ENSG00000076706",
+      "hgnc_id": "HGNC:6934",
+      "symbol": "MCAM"
+    },
+    "MCM2": {
+      "ensembl_gene_id": "ENSG00000073111",
+      "hgnc_id": "HGNC:6944",
+      "symbol": "MCM2"
+    },
+    "MCM3": {
+      "ensembl_gene_id": "ENSG00000112118",
+      "hgnc_id": "HGNC:6945",
+      "symbol": "MCM3"
+    },
+    "MCM4": {
+      "ensembl_gene_id": "ENSG00000104738",
+      "hgnc_id": "HGNC:6947",
+      "symbol": "MCM4"
+    },
+    "MCM5": {
+      "ensembl_gene_id": "ENSG00000100297",
+      "hgnc_id": "HGNC:6948",
+      "symbol": "MCM5"
+    },
+    "MCM6": {
+      "ensembl_gene_id": "ENSG00000076003",
+      "hgnc_id": "HGNC:6949",
+      "symbol": "MCM6"
+    },
+    "MCM7": {
+      "ensembl_gene_id": "ENSG00000166508",
+      "hgnc_id": "HGNC:6950",
+      "symbol": "MCM7"
+    },
+    "MKI67": {
+      "ensembl_gene_id": "ENSG00000148773",
+      "hgnc_id": "HGNC:7107",
+      "symbol": "MKI67"
+    },
+    "NANOG": {
+      "ensembl_gene_id": "ENSG00000111704",
+      "hgnc_id": "HGNC:20857",
+      "symbol": "NANOG"
+    },
+    "PCNA": {
+      "ensembl_gene_id": "ENSG00000132646",
+      "hgnc_id": "HGNC:8729",
+      "symbol": "PCNA"
+    },
+    "PDGFRA": {
+      "ensembl_gene_id": "ENSG00000134853",
+      "hgnc_id": "HGNC:8803",
+      "symbol": "PDGFRA"
+    },
+    "POU5F1": {
+      "ensembl_gene_id": "ENSG00000204531",
+      "hgnc_id": "HGNC:9221",
+      "symbol": "POU5F1"
+    },
+    "PRDM14": {
+      "ensembl_gene_id": "ENSG00000147596",
+      "hgnc_id": "HGNC:14001",
+      "symbol": "PRDM14"
+    },
+    "RRM2": {
+      "ensembl_gene_id": "ENSG00000171848",
+      "hgnc_id": "HGNC:10452",
+      "symbol": "RRM2"
+    },
+    "SALL4": {
+      "ensembl_gene_id": "ENSG00000101115",
+      "hgnc_id": "HGNC:15924",
+      "symbol": "SALL4"
+    },
+    "SOX2": {
+      "ensembl_gene_id": "ENSG00000181449",
+      "hgnc_id": "HGNC:11195",
+      "symbol": "SOX2"
+    },
+    "THY1": {
+      "ensembl_gene_id": "ENSG00000154096",
+      "hgnc_id": "HGNC:11801",
+      "symbol": "THY1"
+    },
+    "TIMP1": {
+      "ensembl_gene_id": "ENSG00000102265",
+      "hgnc_id": "HGNC:11820",
+      "symbol": "TIMP1"
+    },
+    "TIMP2": {
+      "ensembl_gene_id": "ENSG00000035862",
+      "hgnc_id": "HGNC:11821",
+      "symbol": "TIMP2"
+    },
+    "TK1": {
+      "ensembl_gene_id": "ENSG00000167900",
+      "hgnc_id": "HGNC:11830",
+      "symbol": "TK1"
+    },
+    "TOP2A": {
+      "ensembl_gene_id": "ENSG00000131747",
+      "hgnc_id": "HGNC:11989",
+      "symbol": "TOP2A"
+    },
+    "TP53": {
+      "ensembl_gene_id": "ENSG00000141510",
+      "hgnc_id": "HGNC:11998",
+      "symbol": "TP53"
+    },
+    "TYMS": {
+      "ensembl_gene_id": "ENSG00000176890",
+      "hgnc_id": "HGNC:12441",
+      "symbol": "TYMS"
+    },
+    "UBE2C": {
+      "ensembl_gene_id": "ENSG00000175063",
+      "hgnc_id": "HGNC:15937",
+      "symbol": "UBE2C"
+    },
+    "VIM": {
+      "ensembl_gene_id": "ENSG00000026025",
+      "hgnc_id": "HGNC:12692",
+      "symbol": "VIM"
+    },
+    "ZFP42": {
+      "ensembl_gene_id": "ENSG00000179059",
+      "hgnc_id": "HGNC:30949",
+      "symbol": "ZFP42"
+    }
+  },
+  "gene_values": {
+    "log2_cpm": {
+      "AURKB": {
+        "O4YRSK_D0_1": 2.4728032346983557,
+        "O4YRSK_D0_2": 2.272526537527142,
+        "O4YRSK_D4_1": 3.2894509430112038,
+        "O4YRSK_D4_2": 2.824165214304348,
+        "OSK_D0_1": 1.926466499335997,
+        "OSK_D0_2": 1.6007861644546348,
+        "OSK_D4_1": 2.4800181466332214,
+        "OSK_D4_2": 3.146763087510766
+      },
+      "BIRC5": {
+        "O4YRSK_D0_1": 5.010365512338,
+        "O4YRSK_D0_2": 5.056348608777954,
+        "O4YRSK_D4_1": 4.929689671204355,
+        "O4YRSK_D4_2": 4.973161474425142,
+        "OSK_D0_1": 4.545285611043118,
+        "OSK_D0_2": 4.156891534214183,
+        "OSK_D4_1": 4.947338574111007,
+        "OSK_D4_2": 4.920966180759834
+      },
+      "CCNB1": {
+        "O4YRSK_D0_1": 4.903471162896471,
+        "O4YRSK_D0_2": 4.7006729609374105,
+        "O4YRSK_D4_1": 4.848175104249827,
+        "O4YRSK_D4_2": 4.911523077492015,
+        "OSK_D0_1": 3.942188887951632,
+        "OSK_D0_2": 4.274254194436733,
+        "OSK_D4_1": 4.849552861763462,
+        "OSK_D4_2": 4.801210835503959
+      },
+      "CCNB2": {
+        "O4YRSK_D0_1": 3.638827257391206,
+        "O4YRSK_D0_2": 3.2845293395750663,
+        "O4YRSK_D4_1": 3.7254659971708084,
+        "O4YRSK_D4_2": 3.536933130985103,
+        "OSK_D0_1": 3.0544244168938097,
+        "OSK_D0_2": 2.623143304499606,
+        "OSK_D4_1": 3.772593914975523,
+        "OSK_D4_2": 3.631355786422443
+      },
+      "CD24": {
+        "O4YRSK_D0_1": 5.498388653058083,
+        "O4YRSK_D0_2": 5.675439289701407,
+        "O4YRSK_D4_1": 8.009979823316167,
+        "O4YRSK_D4_2": 7.923755052585728,
+        "OSK_D0_1": 1.9493955257167677,
+        "OSK_D0_2": 1.8296017716522863,
+        "OSK_D4_1": 5.635301258843418,
+        "OSK_D4_2": 5.488163741558289
+      },
+      "CDC20": {
+        "O4YRSK_D0_1": 4.127512147330898,
+        "O4YRSK_D0_2": 4.268598489228713,
+        "O4YRSK_D4_1": 5.056078946523436,
+        "O4YRSK_D4_2": 4.993135963495678,
+        "OSK_D0_1": 2.8257106335659055,
+        "OSK_D0_2": 3.2475105539874862,
+        "OSK_D4_1": 4.804211371212547,
+        "OSK_D4_2": 4.789548372225428
+      },
+      "CDH1": {
+        "O4YRSK_D0_1": 0.274113975437916,
+        "O4YRSK_D0_2": 0.0691854428760393,
+        "O4YRSK_D4_1": 0.32617155916277196,
+        "O4YRSK_D4_2": 0.13397465160658792,
+        "OSK_D0_1": 0.3834765648269204,
+        "OSK_D0_2": 0.6539170035515399,
+        "OSK_D4_1": 0.16212781660537895,
+        "OSK_D4_2": 0.8364624310423203
+      },
+      "CDK1": {
+        "O4YRSK_D0_1": 3.416551745893056,
+        "O4YRSK_D0_2": 3.6602017577014228,
+        "O4YRSK_D4_1": 4.614177533711055,
+        "O4YRSK_D4_2": 4.844692327246127,
+        "OSK_D0_1": 3.2049236029860477,
+        "OSK_D0_2": 2.9784175907567927,
+        "OSK_D4_1": 4.924919304797038,
+        "OSK_D4_2": 4.509327076653689
+      },
+      "CDKN1A": {
+        "O4YRSK_D0_1": 9.534177166937178,
+        "O4YRSK_D0_2": 9.578535232694447,
+        "O4YRSK_D4_1": 8.655851966645583,
+        "O4YRSK_D4_2": 8.770877717532269,
+        "OSK_D0_1": 9.581276670098658,
+        "OSK_D0_2": 9.570781214748102,
+        "OSK_D4_1": 8.487354157136444,
+        "OSK_D4_2": 8.573365945647192
+      },
+      "CDKN2A": {
+        "O4YRSK_D0_1": 3.0572409450638283,
+        "O4YRSK_D0_2": 2.656590326799947,
+        "O4YRSK_D4_1": 3.5365392967913767,
+        "O4YRSK_D4_2": 3.680716810960768,
+        "OSK_D0_1": 3.000554641593432,
+        "OSK_D0_2": 3.4742149918981604,
+        "OSK_D4_1": 3.2841902716704277,
+        "OSK_D4_2": 3.1558756852331187
+      },
+      "CENPF": {
+        "O4YRSK_D0_1": 5.374695513475491,
+        "O4YRSK_D0_2": 5.255009626437347,
+        "O4YRSK_D4_1": 5.200424912298479,
+        "O4YRSK_D4_2": 6.028458873768694,
+        "OSK_D0_1": 4.360906202575248,
+        "OSK_D0_2": 4.826215858118556,
+        "OSK_D4_1": 5.276580518906364,
+        "OSK_D4_2": 5.56542373528022
+      },
+      "COL1A1": {
+        "O4YRSK_D0_1": 14.488132201413787,
+        "O4YRSK_D0_2": 14.481780458679555,
+        "O4YRSK_D4_1": 13.63541643384943,
+        "O4YRSK_D4_2": 13.668713869949176,
+        "OSK_D0_1": 14.456453525667813,
+        "OSK_D0_2": 14.452152466749196,
+        "OSK_D4_1": 13.269933727547258,
+        "OSK_D4_2": 13.290746089836276
+      },
+      "COL1A2": {
+        "O4YRSK_D0_1": 14.5559900434024,
+        "O4YRSK_D0_2": 14.574514747133751,
+        "O4YRSK_D4_1": 13.272448107101939,
+        "O4YRSK_D4_2": 13.27279209157338,
+        "OSK_D0_1": 14.254651472759063,
+        "OSK_D0_2": 14.26059035940436,
+        "OSK_D4_1": 13.07951275622206,
+        "OSK_D4_2": 13.072388751309468
+      },
+      "COL3A1": {
+        "O4YRSK_D0_1": 11.44802517660061,
+        "O4YRSK_D0_2": 11.467869053592876,
+        "O4YRSK_D4_1": 10.147004866923176,
+        "O4YRSK_D4_2": 10.160773575009916,
+        "OSK_D0_1": 10.788074766158864,
+        "OSK_D0_2": 10.778480575314926,
+        "OSK_D4_1": 9.941653992778777,
+        "OSK_D4_2": 9.931418208593144
+      },
+      "CXCL8": {
+        "O4YRSK_D0_1": 0.0735636112303806,
+        "O4YRSK_D0_2": 0.13520432536261473,
+        "O4YRSK_D4_1": 0.5426322543288618,
+        "O4YRSK_D4_2": 0.31415315062088583,
+        "OSK_D0_1": 1.226335223907724,
+        "OSK_D0_2": 0.4488087649052373,
+        "OSK_D4_1": 0.7260894225531817,
+        "OSK_D4_2": 0.642646269346123
+      },
+      "DCN": {
+        "O4YRSK_D0_1": 8.751581636712249,
+        "O4YRSK_D0_2": 8.80396717700834,
+        "O4YRSK_D4_1": 6.839809785875443,
+        "O4YRSK_D4_2": 6.757421908969208,
+        "OSK_D0_1": 10.012383121201843,
+        "OSK_D0_2": 9.933424196068444,
+        "OSK_D4_1": 7.865566188764136,
+        "OSK_D4_2": 7.974180330943526
+      },
+      "EPCAM": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.13520432536261473,
+        "O4YRSK_D4_1": 0.13943391857782403,
+        "O4YRSK_D4_2": 0.13397465160658792,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.9645759493876117,
+        "OSK_D4_2": 0.4780224016205723
+      },
+      "FN1": {
+        "O4YRSK_D0_1": 16.062084648743966,
+        "O4YRSK_D0_2": 16.047638581373743,
+        "O4YRSK_D4_1": 13.807576170424372,
+        "O4YRSK_D4_2": 13.905180630167662,
+        "OSK_D0_1": 16.627250173486175,
+        "OSK_D0_2": 16.596295344401504,
+        "OSK_D4_1": 13.998039337005215,
+        "OSK_D4_2": 13.965062865329315
+      },
+      "GADD45A": {
+        "O4YRSK_D0_1": 5.73499375453806,
+        "O4YRSK_D0_2": 5.640347667917999,
+        "O4YRSK_D4_1": 6.959914364418049,
+        "O4YRSK_D4_2": 6.8947158878541615,
+        "OSK_D0_1": 5.490799195634132,
+        "OSK_D0_2": 5.676646602202841,
+        "OSK_D4_1": 6.920359905409472,
+        "OSK_D4_2": 6.882056414895006
+      },
+      "IL6": {
+        "O4YRSK_D0_1": 1.2388680594320514,
+        "O4YRSK_D0_2": 1.8494313310815538,
+        "O4YRSK_D4_1": 0.32617155916277196,
+        "O4YRSK_D4_2": 0.663459342338233,
+        "OSK_D0_1": 2.327445006299611,
+        "OSK_D0_2": 2.0990308926653243,
+        "OSK_D4_1": 0.7770450155072911,
+        "OSK_D4_2": 0.642646269346123
+      },
+      "MCAM": {
+        "O4YRSK_D0_1": 4.740814159067048,
+        "O4YRSK_D0_2": 4.524040429860959,
+        "O4YRSK_D4_1": 4.055440103517073,
+        "O4YRSK_D4_2": 3.9766264501676893,
+        "OSK_D0_1": 5.663668896145987,
+        "OSK_D0_2": 5.755331304722629,
+        "OSK_D4_1": 4.235760327262764,
+        "OSK_D4_2": 4.174740421396125
+      },
+      "MCM2": {
+        "O4YRSK_D0_1": 3.632755702841153,
+        "O4YRSK_D0_2": 3.5065512175886777,
+        "O4YRSK_D4_1": 4.929689671204355,
+        "O4YRSK_D4_2": 5.2997517747863565,
+        "OSK_D0_1": 3.195364317494625,
+        "OSK_D0_2": 3.070821456419562,
+        "OSK_D4_1": 4.607091716200257,
+        "OSK_D4_2": 4.526993559326017
+      },
+      "MCM3": {
+        "O4YRSK_D0_1": 4.358443727517775,
+        "O4YRSK_D0_2": 4.486594628798145,
+        "O4YRSK_D4_1": 5.307807901391175,
+        "O4YRSK_D4_2": 5.407869094283522,
+        "OSK_D0_1": 4.046889153761811,
+        "OSK_D0_2": 3.938837097151971,
+        "OSK_D4_1": 5.00725346627752,
+        "OSK_D4_2": 5.163897534470687
+      },
+      "MCM4": {
+        "O4YRSK_D0_1": 5.328487814152339,
+        "O4YRSK_D0_2": 5.4345210922129645,
+        "O4YRSK_D4_1": 5.421477323516339,
+        "O4YRSK_D4_2": 5.839121029255981,
+        "OSK_D0_1": 4.518703396431791,
+        "OSK_D0_2": 4.903634633043841,
+        "OSK_D4_1": 5.457330932225223,
+        "OSK_D4_2": 5.46452199239223
+      },
+      "MCM5": {
+        "O4YRSK_D0_1": 4.87288909934676,
+        "O4YRSK_D0_2": 4.457858332119785,
+        "O4YRSK_D4_1": 4.848175104249827,
+        "O4YRSK_D4_2": 4.568184486732411,
+        "OSK_D0_1": 3.9760802136150923,
+        "OSK_D0_2": 4.54298912189482,
+        "OSK_D4_1": 4.3662856924268265,
+        "OSK_D4_2": 4.3674867697800925
+      },
+      "MCM6": {
+        "O4YRSK_D0_1": 4.409055111393385,
+        "O4YRSK_D0_2": 4.272270811150584,
+        "O4YRSK_D4_1": 4.999997831531918,
+        "O4YRSK_D4_2": 5.032273952937861,
+        "OSK_D0_1": 4.240582728703824,
+        "OSK_D0_2": 4.033728442212747,
+        "OSK_D4_1": 5.092703868870385,
+        "OSK_D4_2": 5.24085138938876
+      },
+      "MCM7": {
+        "O4YRSK_D0_1": 4.895886207758849,
+        "O4YRSK_D0_2": 4.838335891224821,
+        "O4YRSK_D4_1": 5.122722051031054,
+        "O4YRSK_D4_2": 5.285424145122456,
+        "OSK_D0_1": 4.615061785209406,
+        "OSK_D0_2": 4.868022197461504,
+        "OSK_D4_1": 5.105220480903713,
+        "OSK_D4_2": 5.129617821005452
+      },
+      "MKI67": {
+        "O4YRSK_D0_1": 5.80145624374593,
+        "O4YRSK_D0_2": 5.60874478823614,
+        "O4YRSK_D4_1": 6.2553934404883,
+        "O4YRSK_D4_2": 6.75871897456837,
+        "OSK_D0_1": 4.784021948002445,
+        "OSK_D0_2": 5.377035195808934,
+        "OSK_D4_1": 6.659422798105747,
+        "OSK_D4_2": 6.571549231473924
+      },
+      "NANOG": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.07140080921801431,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.08334016976903953,
+        "OSK_D4_2": 0.0
+      },
+      "PCNA": {
+        "O4YRSK_D0_1": 5.022026247010606,
+        "O4YRSK_D0_2": 5.056348608777954,
+        "O4YRSK_D4_1": 5.676029886814517,
+        "O4YRSK_D4_2": 5.660517920673547,
+        "OSK_D0_1": 4.695247374091566,
+        "OSK_D0_2": 4.750006550268473,
+        "OSK_D4_1": 5.407668043362621,
+        "OSK_D4_2": 5.513198142796096
+      },
+      "PDGFRA": {
+        "O4YRSK_D0_1": 8.826640190462204,
+        "O4YRSK_D0_2": 8.850309116611376,
+        "O4YRSK_D4_1": 6.400220408947632,
+        "O4YRSK_D4_2": 6.222373389567596,
+        "OSK_D0_1": 8.57891463621718,
+        "OSK_D0_2": 8.637093480734304,
+        "OSK_D4_1": 7.035356714830735,
+        "OSK_D4_2": 6.775976230485553
+      },
+      "POU5F1": {
+        "O4YRSK_D0_1": 1.9550166705363616,
+        "O4YRSK_D0_2": 1.8689653677275406,
+        "O4YRSK_D4_1": 7.937483566100019,
+        "O4YRSK_D4_2": 7.934698680084901,
+        "OSK_D0_1": 2.6267163737948422,
+        "OSK_D0_2": 2.455021824854513,
+        "OSK_D4_1": 8.442682219013864,
+        "OSK_D4_2": 8.48053734212109
+      },
+      "PRDM14": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.0,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.0,
+        "OSK_D4_2": 0.0
+      },
+      "RRM2": {
+        "O4YRSK_D0_1": 4.650546379744781,
+        "O4YRSK_D0_2": 4.790481471606512,
+        "O4YRSK_D4_1": 5.701572270108217,
+        "O4YRSK_D4_2": 5.985896876079234,
+        "OSK_D0_1": 3.798052453445885,
+        "OSK_D0_2": 3.622027941207071,
+        "OSK_D4_1": 5.603892160809579,
+        "OSK_D4_2": 5.938472623568561
+      },
+      "SALL4": {
+        "O4YRSK_D0_1": 0.14355747104237768,
+        "O4YRSK_D0_2": 0.3726680261118764,
+        "O4YRSK_D4_1": 1.2135941998707185,
+        "O4YRSK_D4_2": 0.19656800036650035,
+        "OSK_D0_1": 0.08528366309253355,
+        "OSK_D0_2": 1.0304123228089426,
+        "OSK_D4_1": 0.3755572613474925,
+        "OSK_D4_2": 0.693595494962609
+      },
+      "SOX2": {
+        "O4YRSK_D0_1": 2.299672564809884,
+        "O4YRSK_D0_2": 1.6828374357393394,
+        "O4YRSK_D4_1": 7.59500949761702,
+        "O4YRSK_D4_2": 7.512427746543034,
+        "OSK_D0_1": 2.5833982033777727,
+        "OSK_D0_2": 2.5350567367210437,
+        "OSK_D4_1": 8.039335730465373,
+        "OSK_D4_2": 8.12882698419072
+      },
+      "THY1": {
+        "O4YRSK_D0_1": 9.407545743492188,
+        "O4YRSK_D0_2": 9.382235528905113,
+        "O4YRSK_D4_1": 7.712386865092582,
+        "O4YRSK_D4_2": 7.815116590333278,
+        "OSK_D0_1": 9.373005911133534,
+        "OSK_D0_2": 9.347122098665976,
+        "OSK_D4_1": 7.741967496799102,
+        "OSK_D4_2": 7.680217860284229
+      },
+      "TIMP1": {
+        "O4YRSK_D0_1": 8.64249777811316,
+        "O4YRSK_D0_2": 8.653695939591978,
+        "O4YRSK_D4_1": 10.791786793955078,
+        "O4YRSK_D4_2": 10.76275330376882,
+        "OSK_D0_1": 8.853602944967031,
+        "OSK_D0_2": 8.820281726856786,
+        "OSK_D4_1": 10.862311054499349,
+        "OSK_D4_2": 10.828999416620965
+      },
+      "TIMP2": {
+        "O4YRSK_D0_1": 10.978690702513315,
+        "O4YRSK_D0_2": 10.990141557821532,
+        "O4YRSK_D4_1": 12.477957610734016,
+        "O4YRSK_D4_2": 12.479248678769766,
+        "OSK_D0_1": 11.029068178837734,
+        "OSK_D0_2": 11.006415239940015,
+        "OSK_D4_1": 12.21409248035417,
+        "OSK_D4_2": 12.263520796965095
+      },
+      "TK1": {
+        "O4YRSK_D0_1": 4.419673210279791,
+        "O4YRSK_D0_2": 4.3227253066953715,
+        "O4YRSK_D4_1": 4.934484994763069,
+        "O4YRSK_D4_2": 4.829959604205088,
+        "OSK_D0_1": 3.4497065318050937,
+        "OSK_D0_2": 3.6582204645268117,
+        "OSK_D4_1": 5.054488983392389,
+        "OSK_D4_2": 4.92363626033585
+      },
+      "TOP2A": {
+        "O4YRSK_D0_1": 6.437766525544861,
+        "O4YRSK_D0_2": 6.251891525881539,
+        "O4YRSK_D4_1": 6.757637394623136,
+        "O4YRSK_D4_2": 6.888212063221041,
+        "OSK_D0_1": 5.349269494310057,
+        "OSK_D0_2": 5.304670328538034,
+        "OSK_D4_1": 6.8199039326485575,
+        "OSK_D4_2": 6.61762371521469
+      },
+      "TP53": {
+        "O4YRSK_D0_1": 5.019701627818635,
+        "O4YRSK_D0_2": 4.979807475848408,
+        "O4YRSK_D4_1": 5.451896882519457,
+        "O4YRSK_D4_2": 5.429205000150867,
+        "OSK_D0_1": 5.255789553376085,
+        "OSK_D0_2": 5.222452456428385,
+        "OSK_D4_1": 5.467061607320842,
+        "OSK_D4_2": 5.488163741558289
+      },
+      "TYMS": {
+        "O4YRSK_D0_1": 4.757651355730552,
+        "O4YRSK_D0_2": 4.697945008722231,
+        "O4YRSK_D4_1": 4.898125421402382,
+        "O4YRSK_D4_2": 4.9798504125562095,
+        "OSK_D0_1": 3.9133249446546823,
+        "OSK_D0_2": 3.9917978765566073,
+        "OSK_D4_1": 4.763728683564712,
+        "OSK_D4_2": 4.783681595093474
+      },
+      "UBE2C": {
+        "O4YRSK_D0_1": 3.145175308059835,
+        "O4YRSK_D0_2": 2.836029456276964,
+        "O4YRSK_D4_1": 3.5365392967913767,
+        "O4YRSK_D4_2": 3.601969732437966,
+        "OSK_D0_1": 2.412412564262012,
+        "OSK_D0_2": 2.4412401161237023,
+        "OSK_D4_1": 3.5489618999546173,
+        "OSK_D4_2": 3.458012455664635
+      },
+      "VIM": {
+        "O4YRSK_D0_1": 12.602564953820265,
+        "O4YRSK_D0_2": 12.56694285251694,
+        "O4YRSK_D4_1": 11.436167454907268,
+        "O4YRSK_D4_2": 11.504687008429986,
+        "OSK_D0_1": 12.098857510366807,
+        "OSK_D0_2": 12.215492250870094,
+        "OSK_D4_1": 11.32238168448138,
+        "OSK_D4_2": 11.328915770655982
+      },
+      "ZFP42": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.0,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.0,
+        "OSK_D4_2": 0.0
+      }
+    },
+    "log2_median_ratio_cpm_equivalent": {
+      "AURKB": {
+        "O4YRSK_D0_1": 2.6137875020297594,
+        "O4YRSK_D0_2": 2.406856054360764,
+        "O4YRSK_D4_1": 3.123241009729162,
+        "O4YRSK_D4_2": 2.6667627938376928,
+        "OSK_D0_1": 2.1021998886297943,
+        "OSK_D0_2": 1.7502531769514034,
+        "OSK_D4_1": 2.312260693631134,
+        "OSK_D4_2": 2.961770606595743
+      },
+      "BIRC5": {
+        "O4YRSK_D0_1": 5.175574154691591,
+        "O4YRSK_D0_2": 5.219012223433595,
+        "O4YRSK_D4_1": 4.749783424482933,
+        "O4YRSK_D4_2": 4.794422962275988,
+        "OSK_D0_1": 4.769638844174786,
+        "OSK_D0_2": 4.363186972284491,
+        "OSK_D4_1": 4.747399179779087,
+        "OSK_D4_2": 4.7180856810668885
+      },
+      "CCNB1": {
+        "O4YRSK_D0_1": 5.068295348083258,
+        "O4YRSK_D0_2": 4.862003390173422,
+        "O4YRSK_D4_1": 4.668646639304433,
+        "O4YRSK_D4_2": 4.733057667765765,
+        "OSK_D0_1": 4.16170912222376,
+        "OSK_D0_2": 4.481441276619687,
+        "OSK_D4_1": 4.650117174739819,
+        "OSK_D4_2": 4.598973804291178
+      },
+      "CCNB2": {
+        "O4YRSK_D0_1": 3.796079401146653,
+        "O4YRSK_D0_2": 3.435637059228875,
+        "O4YRSK_D4_1": 3.5540117446207993,
+        "O4YRSK_D4_2": 3.3688308609084165,
+        "OSK_D0_1": 3.261845782695856,
+        "OSK_D0_2": 2.807637210768876,
+        "OSK_D4_1": 3.5816601435174586,
+        "OSK_D4_2": 3.4391780494938513
+      },
+      "CD24": {
+        "O4YRSK_D0_1": 5.66503108448408,
+        "O4YRSK_D0_2": 5.839764979754696,
+        "O4YRSK_D4_1": 7.824330719894196,
+        "O4YRSK_D4_2": 7.739558436953472,
+        "OSK_D0_1": 2.1260599108481912,
+        "OSK_D0_2": 1.989275259362441,
+        "OSK_D4_1": 5.432634702161618,
+        "OSK_D4_2": 5.282863886334049
+      },
+      "CDC20": {
+        "O4YRSK_D0_1": 4.288495959942383,
+        "O4YRSK_D0_2": 4.427795836600452,
+        "O4YRSK_D4_1": 4.875627389881469,
+        "O4YRSK_D4_2": 4.81431141332238,
+        "OSK_D0_1": 3.028582987662631,
+        "OSK_D0_2": 3.4437449762539685,
+        "OSK_D4_1": 4.605021021405953,
+        "OSK_D4_2": 4.587376891028626
+      },
+      "CDH1": {
+        "O4YRSK_D0_1": 0.3050391974193085,
+        "O4YRSK_D0_2": 0.07747394293006292,
+        "O4YRSK_D4_1": 0.2903436553491434,
+        "O4YRSK_D4_2": 0.11849320630385685,
+        "OSK_D0_1": 0.44148763634921756,
+        "OSK_D0_2": 0.737097335771822,
+        "OSK_D4_1": 0.1414704106949413,
+        "OSK_D4_2": 0.7476705643676417
+      },
+      "CDK1": {
+        "O4YRSK_D0_1": 3.5716360895717596,
+        "O4YRSK_D0_2": 3.8150659232528508,
+        "O4YRSK_D4_1": 4.435859347963409,
+        "O4YRSK_D4_2": 4.666536449261799,
+        "OSK_D0_1": 3.4149616174891175,
+        "OSK_D0_2": 3.1702177442303627,
+        "OSK_D4_1": 4.72509241256956,
+        "OSK_D4_2": 4.308899912368083
+      },
+      "CDKN1A": {
+        "O4YRSK_D0_1": 9.704158914257446,
+        "O4YRSK_D0_2": 9.745750480499273,
+        "O4YRSK_D4_1": 8.469924379073504,
+        "O4YRSK_D4_2": 8.586320234362233,
+        "OSK_D0_1": 9.814615518803592,
+        "OSK_D0_2": 9.788182062699995,
+        "OSK_D4_1": 8.280833605244073,
+        "OSK_D4_2": 8.363624292076258
+      },
+      "CDKN2A": {
+        "O4YRSK_D0_1": 3.2080219887118684,
+        "O4YRSK_D0_2": 2.7987225997084417,
+        "O4YRSK_D4_1": 3.3671667790329307,
+        "O4YRSK_D4_2": 3.5110192547668384,
+        "OSK_D0_1": 3.2069697925997027,
+        "OSK_D0_2": 3.6735858233034473,
+        "OSK_D4_1": 3.099735188638816,
+        "OSK_D4_2": 2.97072501460443
+      },
+      "CENPF": {
+        "O4YRSK_D0_1": 5.54101919514462,
+        "O4YRSK_D0_2": 5.418286246008901,
+        "O4YRSK_D4_1": 5.019406075185742,
+        "O4YRSK_D4_2": 5.846470461422356,
+        "OSK_D0_1": 4.583991432473312,
+        "OSK_D0_2": 5.0367427057898615,
+        "OSK_D4_1": 5.075174566111907,
+        "OSK_D4_2": 5.359861710880913
+      },
+      "COL1A1": {
+        "O4YRSK_D0_1": 14.658323508108245,
+        "O4YRSK_D0_2": 14.649195555162214,
+        "O4YRSK_D4_1": 13.449011185104169,
+        "O4YRSK_D4_2": 13.48371971745613,
+        "OSK_D0_1": 14.690064367405743,
+        "OSK_D0_2": 14.669809999392637,
+        "OSK_D4_1": 13.062815178463373,
+        "OSK_D4_2": 13.080432703483078
+      },
+      "COL1A2": {
+        "O4YRSK_D0_1": 14.726181671079255,
+        "O4YRSK_D0_2": 14.741930273737818,
+        "O4YRSK_D4_1": 13.086047331906254,
+        "O4YRSK_D4_2": 13.087802725696926,
+        "OSK_D0_1": 14.488260874113626,
+        "OSK_D0_2": 14.478246612077232,
+        "OSK_D4_1": 12.872397388978563,
+        "OSK_D4_2": 12.86207905736722
+      },
+      "COL3A1": {
+        "O4YRSK_D0_1": 11.618166004834475,
+        "O4YRSK_D0_2": 11.635235251458745,
+        "O4YRSK_D4_1": 9.960759479848457,
+        "O4YRSK_D4_2": 9.975936695045915,
+        "OSK_D0_1": 11.021573216928362,
+        "OSK_D0_2": 10.996032091386652,
+        "OSK_D4_1": 9.734739381618644,
+        "OSK_D4_2": 9.721314107866327
+      },
+      "CXCL8": {
+        "O4YRSK_D0_1": 0.08251600893390894,
+        "O4YRSK_D0_2": 0.1509986465779946,
+        "O4YRSK_D4_1": 0.48674195488817296,
+        "O4YRSK_D4_2": 0.27976971920373617,
+        "OSK_D0_1": 1.3646941267963493,
+        "OSK_D0_2": 0.510292838913812,
+        "OSK_D4_1": 0.6476904522886774,
+        "OSK_D4_2": 0.5705181178776165
+      },
+      "DCN": {
+        "O4YRSK_D0_1": 8.921407402957605,
+        "O4YRSK_D0_2": 8.971035468796302,
+        "O4YRSK_D4_1": 6.655125126186534,
+        "O4YRSK_D4_2": 6.57423597616417,
+        "OSK_D0_1": 10.245794711132616,
+        "OSK_D0_2": 10.150884102817487,
+        "OSK_D4_1": 7.65937986585965,
+        "OSK_D4_2": 7.76474457898281
+      },
+      "EPCAM": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.1509986465779946,
+        "O4YRSK_D4_1": 0.12323262090865396,
+        "O4YRSK_D4_2": 0.11849320630385685,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.8672877142633103,
+        "OSK_D4_2": 0.42173740833814743
+      },
+      "FN1": {
+        "O4YRSK_D0_1": 16.23228059493309,
+        "O4YRSK_D0_2": 16.21505825307871,
+        "O4YRSK_D4_1": 13.621169162605154,
+        "O4YRSK_D4_2": 13.720184186118418,
+        "OSK_D0_1": 16.86086847847342,
+        "OSK_D0_2": 16.813959851721044,
+        "OSK_D4_1": 13.790911850918285,
+        "OSK_D4_2": 13.75474104215604
+      },
+      "GADD45A": {
+        "O4YRSK_D0_1": 5.902174607766467,
+        "O4YRSK_D0_2": 5.804597036942734,
+        "O4YRSK_D4_1": 6.775091093314165,
+        "O4YRSK_D4_2": 6.711364529287837,
+        "OSK_D0_1": 5.719615116359784,
+        "OSK_D0_2": 5.890357699985229,
+        "OSK_D4_1": 6.715056631945374,
+        "OSK_D4_2": 6.6736389358558625
+      },
+      "IL6": {
+        "O4YRSK_D0_1": 1.3393878800546863,
+        "O4YRSK_D0_2": 1.9723072055336912,
+        "O4YRSK_D4_1": 0.2903436553491434,
+        "O4YRSK_D4_2": 0.5979864916198444,
+        "OSK_D0_1": 2.517439898653368,
+        "OSK_D0_2": 2.2687498217556916,
+        "OSK_D4_1": 0.6943654752454129,
+        "OSK_D4_2": 0.5705181178776165
+      },
+      "MCAM": {
+        "O4YRSK_D0_1": 4.90499562284573,
+        "O4YRSK_D0_2": 4.684575579611869,
+        "O4YRSK_D4_1": 3.8809385350978225,
+        "O4YRSK_D4_2": 3.8041017068724723,
+        "OSK_D0_1": 5.893028161975837,
+        "OSK_D0_2": 5.969252628285993,
+        "OSK_D4_1": 4.040394004398138,
+        "OSK_D4_2": 3.97688845659252
+      },
+      "MCM2": {
+        "O4YRSK_D0_1": 3.789953001419463,
+        "O4YRSK_D0_2": 3.659997268368163,
+        "O4YRSK_D4_1": 4.749783424482933,
+        "O4YRSK_D4_2": 5.119745117030313,
+        "OSK_D0_1": 3.4052442592398884,
+        "OSK_D0_2": 3.2642399620300067,
+        "OSK_D4_1": 4.409061745528345,
+        "OSK_D4_2": 4.326446204970416
+      },
+      "MCM3": {
+        "O4YRSK_D0_1": 4.52079421888211,
+        "O4YRSK_D0_2": 4.646948242775313,
+        "O4YRSK_D4_1": 5.126402250077374,
+        "O4YRSK_D4_2": 5.227501815574523,
+        "OSK_D0_1": 4.267400926742454,
+        "OSK_D0_2": 4.1432686459059855,
+        "OSK_D4_1": 4.807021812059957,
+        "OSK_D4_2": 4.959864152902775
+      },
+      "MCM4": {
+        "O4YRSK_D0_1": 5.494685213151439,
+        "O4YRSK_D0_2": 5.598283329546332,
+        "O4YRSK_D4_1": 5.2396922993298105,
+        "O4YRSK_D4_2": 5.657555763150375,
+        "OSK_D0_1": 4.742883729933013,
+        "OSK_D0_2": 5.114535393112722,
+        "OSK_D4_1": 5.255250814402193,
+        "OSK_D4_2": 5.259305197716138
+      },
+      "MCM5": {
+        "O4YRSK_D0_1": 5.0375979295703095,
+        "O4YRSK_D0_2": 4.618069386958575,
+        "O4YRSK_D4_1": 4.668646639304433,
+        "O4YRSK_D4_2": 4.391472304555572,
+        "OSK_D0_1": 4.195929392422243,
+        "OSK_D0_2": 4.751962597372637,
+        "OSK_D4_1": 4.169904624815704,
+        "OSK_D4_2": 4.168079433443291
+      },
+      "MCM6": {
+        "O4YRSK_D0_1": 4.5716768510986645,
+        "O4YRSK_D0_2": 4.431489126994984,
+        "O4YRSK_D4_1": 4.819782378373549,
+        "O4YRSK_D4_2": 4.853284220427244,
+        "OSK_D0_1": 4.462747974478829,
+        "OSK_D0_2": 4.239006122487692,
+        "OSK_D4_1": 4.892075749685622,
+        "OSK_D4_2": 5.036491310684484
+      },
+      "MCM7": {
+        "O4YRSK_D0_1": 5.060682011116336,
+        "O4YRSK_D0_2": 5.0002217770840165,
+        "O4YRSK_D4_1": 4.942001553754426,
+        "O4YRSK_D4_2": 5.105467329682723,
+        "OSK_D0_1": 4.839853903379906,
+        "OSK_D0_2": 5.078753460959185,
+        "OSK_D4_1": 4.90453622616705,
+        "OSK_D4_2": 4.925735649694542
+      },
+      "MKI67": {
+        "O4YRSK_D0_1": 5.968773087675104,
+        "O4YRSK_D0_2": 5.772923813431378,
+        "O4YRSK_D4_1": 6.071575126908572,
+        "O4YRSK_D4_2": 6.5755314042129855,
+        "OSK_D0_1": 5.009792399981862,
+        "OSK_D0_2": 5.589831782731866,
+        "OSK_D4_1": 6.454483608310618,
+        "OSK_D4_2": 6.36359208918787
+      },
+      "NANOG": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.06293170142883532,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.07246858133871854,
+        "OSK_D4_2": 0.0
+      },
+      "PCNA": {
+        "O4YRSK_D0_1": 5.187275125172575,
+        "O4YRSK_D0_2": 5.219012223433595,
+        "O4YRSK_D4_1": 5.493496007423318,
+        "O4YRSK_D4_2": 5.479405924028896,
+        "OSK_D0_1": 4.920518170755197,
+        "OSK_D0_2": 4.960145097370621,
+        "OSK_D4_1": 5.205764855159492,
+        "OSK_D4_2": 5.307811800336567
+      },
+      "PDGFRA": {
+        "O4YRSK_D0_1": 8.996484844775278,
+        "O4YRSK_D0_2": 9.017388591093873,
+        "O4YRSK_D4_1": 6.2161537207035265,
+        "O4YRSK_D4_2": 6.040005387696153,
+        "OSK_D0_1": 8.811970919899283,
+        "OSK_D0_2": 8.854252459961854,
+        "OSK_D4_1": 6.829912717875922,
+        "OSK_D4_2": 6.567705028472777
+      },
+      "POU5F1": {
+        "O4YRSK_D0_1": 2.083202404270496,
+        "O4YRSK_D0_2": 1.9924495468499583,
+        "O4YRSK_D4_1": 7.751874225007333,
+        "O4YRSK_D4_2": 7.750495924758194,
+        "OSK_D0_1": 2.8249850080473844,
+        "OSK_D0_2": 2.6353623023512207,
+        "OSK_D4_1": 8.236181178168463,
+        "OSK_D4_2": 8.270835178445866
+      },
+      "PRDM14": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.0,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.0,
+        "OSK_D4_2": 0.0
+      },
+      "RRM2": {
+        "O4YRSK_D0_1": 4.814338486586579,
+        "O4YRSK_D0_2": 4.952180273148953,
+        "O4YRSK_D4_1": 5.518970268504491,
+        "O4YRSK_D4_2": 5.8039988156369535,
+        "OSK_D0_1": 4.016083161844349,
+        "OSK_D0_2": 3.8231906824635296,
+        "OSK_D4_1": 5.401323932229659,
+        "OSK_D4_2": 5.73182423662902
+      },
+      "SALL4": {
+        "O4YRSK_D0_1": 0.16056669968486142,
+        "O4YRSK_D0_2": 0.4125250696573176,
+        "O4YRSK_D4_1": 1.110526320355466,
+        "O4YRSK_D4_2": 0.17427940866407088,
+        "OSK_D0_1": 0.09976753983811006,
+        "OSK_D0_2": 1.1456109044270137,
+        "OSK_D4_1": 0.33064089298545346,
+        "OSK_D4_2": 0.616886952134515
+      },
+      "SOX2": {
+        "O4YRSK_D0_1": 2.4368890849904146,
+        "O4YRSK_D0_2": 1.800164911762824,
+        "O4YRSK_D4_1": 7.409617515724264,
+        "O4YRSK_D4_2": 7.3284991456998085,
+        "OSK_D0_1": 2.780575549200631,
+        "OSK_D0_2": 2.71743636672856,
+        "OSK_D4_1": 7.833041094378519,
+        "OSK_D4_2": 7.919299751543156
+      },
+      "THY1": {
+        "O4YRSK_D0_1": 9.577507622967177,
+        "O4YRSK_D0_2": 9.549420638104001,
+        "O4YRSK_D4_1": 7.526914513000122,
+        "O4YRSK_D4_2": 7.630983516431834,
+        "OSK_D0_1": 9.6063010237217,
+        "OSK_D0_2": 9.56447838644739,
+        "OSK_D4_1": 7.535866546999459,
+        "OSK_D4_2": 7.470985485365513
+      },
+      "TIMP1": {
+        "O4YRSK_D0_1": 8.812294280893939,
+        "O4YRSK_D0_2": 8.82072539609336,
+        "O4YRSK_D4_1": 10.6054781573726,
+        "O4YRSK_D4_2": 10.577857601304837,
+        "OSK_D0_1": 9.086757052116578,
+        "OSK_D0_2": 9.037501240606122,
+        "OSK_D4_1": 10.655289605785295,
+        "OSK_D4_2": 10.61878790948966
+      },
+      "TIMP2": {
+        "O4YRSK_D0_1": 11.148809436740988,
+        "O4YRSK_D0_2": 11.157485847953907,
+        "O4YRSK_D4_1": 12.291571606660042,
+        "O4YRSK_D4_2": 12.294273938652458,
+        "OSK_D0_1": 11.262585396137315,
+        "OSK_D0_2": 11.22398356754927,
+        "OSK_D4_1": 12.006998261816635,
+        "OSK_D4_2": 12.053230867627265
+      },
+      "TK1": {
+        "O4YRSK_D0_1": 4.582350653062356,
+        "O4YRSK_D0_2": 4.482226341755579,
+        "O4YRSK_D4_1": 4.754557178778776,
+        "O4YRSK_D4_2": 4.651873903142092,
+        "OSK_D0_1": 3.6634502334701526,
+        "OSK_D0_2": 3.8597943714428045,
+        "OSK_D4_1": 4.854035284195391,
+        "OSK_D4_2": 4.720742010600981
+      },
+      "TOP2A": {
+        "O4YRSK_D0_1": 6.606111680558249,
+        "O4YRSK_D0_2": 6.417237842680834,
+        "O4YRSK_D4_1": 6.57305443194881,
+        "O4YRSK_D4_2": 6.704868191431165,
+        "OSK_D0_1": 5.577589283191379,
+        "OSK_D0_2": 5.517215965522784,
+        "OSK_D4_1": 6.61473309855166,
+        "OSK_D4_2": 6.409591861323979
+      },
+      "TP53": {
+        "O4YRSK_D0_1": 5.184942510815745,
+        "O4YRSK_D0_2": 5.142211369265707,
+        "O4YRSK_D4_1": 5.270015285418695,
+        "O4YRSK_D4_2": 5.248769683843331,
+        "OSK_D0_1": 5.483753817013802,
+        "OSK_D0_2": 5.434697216492389,
+        "OSK_D4_1": 5.264947528296953,
+        "OSK_D4_2": 5.282863886334049
+      },
+      "TYMS": {
+        "O4YRSK_D0_1": 4.921902775760739,
+        "O4YRSK_D0_2": 4.85926388424743,
+        "O4YRSK_D4_1": 4.71836294495348,
+        "O4YRSK_D4_2": 4.801082956315087,
+        "OSK_D0_1": 4.1325588104154365,
+        "OSK_D0_2": 4.1967085826678945,
+        "OSK_D4_1": 4.564763955160121,
+        "OSK_D4_2": 4.581543288426302
+      },
+      "UBE2C": {
+        "O4YRSK_D0_1": 3.297111813281512,
+        "O4YRSK_D0_2": 2.9811424533782764,
+        "O4YRSK_D4_1": 3.3671667790329307,
+        "O4YRSK_D4_2": 3.4331263774990055,
+        "OSK_D0_1": 2.6049384741433053,
+        "OSK_D0_2": 2.621217597762582,
+        "OSK_D4_1": 3.3607278687780138,
+        "OSK_D4_2": 3.2681365937295848
+      },
+      "VIM": {
+        "O4YRSK_D0_1": 12.772737433215921,
+        "O4YRSK_D0_2": 12.734338806308699,
+        "O4YRSK_D4_1": 11.249818383123305,
+        "O4YRSK_D4_2": 11.319745629488493,
+        "OSK_D0_1": 12.332428774913192,
+        "OSK_D0_2": 12.433116314084527,
+        "OSK_D4_1": 11.115327566028386,
+        "OSK_D4_2": 11.118667811659668
+      },
+      "ZFP42": {
+        "O4YRSK_D0_1": 0.0,
+        "O4YRSK_D0_2": 0.0,
+        "O4YRSK_D4_1": 0.0,
+        "O4YRSK_D4_2": 0.0,
+        "OSK_D0_1": 0.0,
+        "OSK_D0_2": 0.0,
+        "OSK_D4_1": 0.0,
+        "OSK_D4_2": 0.0
+      }
+    }
+  },
+  "hgnc_sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+  "independent_donors": 1,
+  "independent_study_validation": false,
+  "join_amendment_sha256": "2c1f3eba7a073246255fff4a0b355a48dcb77769065b8b4540cd366f2340022e",
+  "libraries": 8,
+  "library_qc": [
+    {
+      "column": "OSK_D0_1",
+      "count_sum": 16421355.0,
+      "detected_genes": 20333,
+      "median_ratio_size_factor": 0.7473293863429094
+    },
+    {
+      "column": "OSK_D0_2",
+      "count_sum": 19182666.0,
+      "detected_genes": 20761,
+      "median_ratio_size_factor": 0.8827030643898925
+    },
+    {
+      "column": "OSK_D4_1",
+      "count_sum": 16815734.0,
+      "detected_genes": 22428,
+      "median_ratio_size_factor": 1.0387268122033217
+    },
+    {
+      "column": "OSK_D4_2",
+      "count_sum": 17819272.0,
+      "detected_genes": 22530,
+      "median_ratio_size_factor": 1.1031567477980906
+    },
+    {
+      "column": "O4YRSK_D0_1",
+      "count_sum": 19115780.0,
+      "detected_genes": 20740,
+      "median_ratio_size_factor": 0.9090485136889502
+    },
+    {
+      "column": "O4YRSK_D0_2",
+      "count_sum": 20356577.0,
+      "detected_genes": 20809,
+      "median_ratio_size_factor": 0.969919153090098
+    },
+    {
+      "column": "O4YRSK_D4_1",
+      "count_sum": 19709708.0,
+      "detected_genes": 22557,
+      "median_ratio_size_factor": 1.2001300156161436
+    },
+    {
+      "column": "O4YRSK_D4_2",
+      "count_sum": 20552311.0,
+      "detected_genes": 22665,
+      "median_ratio_size_factor": 1.2502125200688852
+    }
+  ],
+  "missing_genes": [],
+  "normalization_positive_genes": 16386,
+  "readouts": {
+    "CX004-R01": "insufficient_signal",
+    "CX004-R02": "insufficient_signal",
+    "CX004-R03": "insufficient_signal",
+    "CX004-R04": "insufficient_signal"
+  },
+  "rows": 62703,
+  "sample_manifest": [
+    {
+      "accession": "GSM8986578",
+      "batch_label": "1",
+      "condition": "no dox",
+      "construct": "OSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "1",
+      "matrix_column": "OSK_D0_1",
+      "metadata_column": "OSK_0D_1",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "OSK, no dox, 4 days, rep1"
+    },
+    {
+      "accession": "GSM8986579",
+      "batch_label": "1",
+      "condition": "no dox",
+      "construct": "OSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "2",
+      "matrix_column": "OSK_D0_2",
+      "metadata_column": "OSK_0D_2",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "OSK, no dox, 4 days, rep2"
+    },
+    {
+      "accession": "GSM8986580",
+      "batch_label": "1",
+      "condition": "dox",
+      "construct": "OSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "1",
+      "matrix_column": "OSK_D4_1",
+      "metadata_column": "OSK_4D_1",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "OSK, dox, 4 days, rep1"
+    },
+    {
+      "accession": "GSM8986581",
+      "batch_label": "1",
+      "condition": "dox",
+      "construct": "OSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "2",
+      "matrix_column": "OSK_D4_2",
+      "metadata_column": "OSK_4D_2",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "OSK, dox, 4 days, rep2"
+    },
+    {
+      "accession": "GSM8986582",
+      "batch_label": "1",
+      "condition": "no dox",
+      "construct": "O4YRSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "1",
+      "matrix_column": "O4YRSK_D0_1",
+      "metadata_column": "O4YRSK_0D_1",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "O4YRSK, no dox, 4 days, rep1"
+    },
+    {
+      "accession": "GSM8986583",
+      "batch_label": "1",
+      "condition": "no dox",
+      "construct": "O4YRSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "2",
+      "matrix_column": "O4YRSK_D0_2",
+      "metadata_column": "O4YRSK_0D_2",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "O4YRSK, no dox, 4 days, rep2"
+    },
+    {
+      "accession": "GSM8986584",
+      "batch_label": "1",
+      "condition": "dox",
+      "construct": "O4YRSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "1",
+      "matrix_column": "O4YRSK_D4_1",
+      "metadata_column": "O4YRSK_4D_1",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "O4YRSK, dox, 4 days, rep1"
+    },
+    {
+      "accession": "GSM8986585",
+      "batch_label": "1",
+      "condition": "dox",
+      "construct": "O4YRSK",
+      "donor": "GM00731",
+      "exact_string_match": false,
+      "library_replicate_label": "2",
+      "matrix_column": "O4YRSK_D4_2",
+      "metadata_column": "O4YRSK_4D_2",
+      "time_interpretation": "GEO title says four days; D0 is retained as a column token, not a harvest-time inference.",
+      "title": "O4YRSK, dox, 4 days, rep2"
+    }
+  ],
+  "source_sha256": "4bb5494a48c276c094d9b90076b45b359b7ee5976a7f5344aed421a04e7a8175",
+  "version_suffix_changes": 0
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "slide": 1,
+    "title": "Human expression comparison",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/human-results.json",
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297233",
+      "https://doi.org/10.1016/j.cell.2025.07.031"
+    ]
+  },
+  {
+    "slide": 2,
+    "title": "Neural data admission",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/neural-admission.json",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/NEURAL_NEXT.md",
+      "https://doi.org/10.1038/s43587-024-00594-3",
+      "https://doi.org/10.5281/zenodo.10626910"
+    ]
+  },
+  {
+    "slide": 3,
+    "title": "Synthetic donor balance",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/synthetic-results.json",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/METHODS.md"
+    ]
+  },
+  {
+    "slide": 4,
+    "title": "Next analysis and remaining measurement",
+    "sources": [
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/NEXT_STEPS.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/tree/main/research/2026-10-independent-comparator/CLAIM.md",
+      "https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/blob/main/research/2026-10-public-data/MEASUREMENT_PLAN.md"
+    ]
+  }
+]

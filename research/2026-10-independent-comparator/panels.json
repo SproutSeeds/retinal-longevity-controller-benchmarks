@@ -1,0 +1,66 @@
+{
+  "cycle_panel": [
+    "MKI67",
+    "TOP2A",
+    "PCNA",
+    "MCM2",
+    "MCM3",
+    "MCM4",
+    "MCM5",
+    "MCM6",
+    "MCM7",
+    "CDK1",
+    "CCNB1",
+    "CCNB2",
+    "CDC20",
+    "UBE2C",
+    "TYMS",
+    "RRM2",
+    "TK1",
+    "CENPF",
+    "BIRC5",
+    "AURKB"
+  ],
+  "fibroblast_identity": [
+    "COL1A1",
+    "COL1A2",
+    "COL3A1",
+    "DCN",
+    "FN1",
+    "MCAM",
+    "PDGFRA",
+    "THY1",
+    "VIM"
+  ],
+  "reprogramming_state": [
+    "CD24",
+    "CDH1",
+    "EPCAM",
+    "NANOG",
+    "POU5F1",
+    "PRDM14",
+    "SALL4",
+    "SOX2",
+    "ZFP42"
+  ],
+  "rpe_identity": [
+    "RPE65",
+    "BEST1",
+    "RLBP1",
+    "MITF",
+    "PMEL",
+    "RBP1",
+    "TJP1",
+    "OTX2"
+  ],
+  "stress_panel": [
+    "CDKN1A",
+    "CDKN2A",
+    "IL6",
+    "CXCL8",
+    "GADD45A",
+    "TP53",
+    "TIMP1",
+    "TIMP2"
+  ]
+}
