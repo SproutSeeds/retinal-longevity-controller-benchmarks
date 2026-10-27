@@ -1,0 +1,207 @@
+{
+  "frontier_model_evaluation": false,
+  "held_out_performance": false,
+  "known_outcome_suite": true,
+  "rejection_cases": [
+    "packet_schema",
+    "packet_missing_field",
+    "packet_duplicate_evidence",
+    "packet_unknown_evidence",
+    "packet_interval_override",
+    "packet_join_override",
+    "packet_confidence_override",
+    "packet_scope",
+    "packet_kind",
+    "packet_boolean_id",
+    "packet_whitespace_id",
+    "duplicate_json_key",
+    "json_nan",
+    "json_infinity",
+    "catalog_unknown_field",
+    "catalog_cross_assay_link",
+    "catalog_schema",
+    "catalog_duplicate_evidence",
+    "catalog_duplicate_base",
+    "catalog_duplicate_bundle",
+    "base_engine_hash",
+    "source_hash",
+    "source_escape",
+    "source_missing",
+    "duplicate_tsv_header",
+    "missing_tsv_field",
+    "effect_cardinality",
+    "interval_reversed",
+    "interval_zero_width",
+    "interval_excludes_estimate",
+    "interval_nonfinite",
+    "estimate_units_disagree",
+    "standard_error_disagrees",
+    "degrees_freedom_disagree",
+    "pair_missing",
+    "pair_duplicate",
+    "unit_id_missing",
+    "unit_id_duplicate",
+    "unpaired_pairing_claim",
+    "metadata_unit_unknown",
+    "unit_count_disagrees",
+    "omission_missing",
+    "omission_duplicate",
+    "omission_unplanned",
+    "normalization_missing",
+    "normalization_duplicate",
+    "sensitivity_nonfinite",
+    "sensitivity_status",
+    "function_unit_unknown",
+    "function_invented_precision",
+    "RNA_precision_override",
+    "packet_promotion_override",
+    "output_alias_input",
+    "base_catalog_unsupported_join",
+    "base_duplicate_evidence",
+    "empty_panel"
+  ],
+  "truth_table": [
+    {
+      "dependence": "named_donor_pairing",
+      "expected": "uncertain_direction",
+      "id": "zero_endpoint",
+      "intervals": "contains_zero",
+      "sensitivity": true,
+      "units": "consistent"
+    },
+    {
+      "dependence": "named_donor_pairing",
+      "expected": "heterogeneous_units",
+      "id": "heterogeneity_over_mean",
+      "intervals": "same_direction",
+      "sensitivity": true,
+      "units": "mixed"
+    },
+    {
+      "dependence": "named_donor_pairing",
+      "expected": "precision_unavailable",
+      "id": "missing_precision",
+      "intervals": "unavailable",
+      "sensitivity": true,
+      "units": "consistent"
+    },
+    {
+      "dependence": "named_donor_pairing",
+      "expected": "sensitivity_fragile",
+      "id": "omission_fragility",
+      "intervals": "same_direction",
+      "sensitivity": false,
+      "units": "consistent"
+    },
+    {
+      "dependence": "unresolved_differentiation_round_map",
+      "expected": "conditional_on_unverified_dependence",
+      "id": "unresolved_dependence",
+      "intervals": "same_direction",
+      "sensitivity": true,
+      "units": "unpaired"
+    },
+    {
+      "dependence": "named_donor_pairing",
+      "expected": "source_bounded_direction",
+      "id": "bounded_source_direction",
+      "intervals": "same_direction",
+      "sensitivity": true,
+      "units": "consistent"
+    }
+  ],
+  "valid_packets": [
+    {
+      "function_statuses": [],
+      "packet_id": "GSE132828_CPM",
+      "resolution_counts": {
+        "uncertain_direction": 5
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [],
+      "packet_id": "GSE132828_median_ratio",
+      "resolution_counts": {
+        "uncertain_direction": 5
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [],
+      "packet_id": "GSE126633_CPM",
+      "resolution_counts": {
+        "heterogeneous_units": 1,
+        "source_bounded_direction": 4
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": false
+    },
+    {
+      "function_statuses": [],
+      "packet_id": "GSE126633_median_ratio",
+      "resolution_counts": {
+        "heterogeneous_units": 1,
+        "source_bounded_direction": 4
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": false
+    },
+    {
+      "function_statuses": [
+        "decreased_in_source_assay"
+      ],
+      "packet_id": "FUNCTION_LOSS_FIELD",
+      "resolution_counts": {
+        "descriptive_function_only": 1
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [
+        "decreased_in_source_assay"
+      ],
+      "packet_id": "FUNCTION_LOSS_CELL",
+      "resolution_counts": {
+        "descriptive_function_only": 1
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [
+        "increased_in_source_assay"
+      ],
+      "packet_id": "FUNCTION_RESCUE",
+      "resolution_counts": {
+        "descriptive_function_only": 1
+      },
+      "rna_function_link": "not_supplied",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [
+        "increased_in_source_assay"
+      ],
+      "packet_id": "UNLINKED_RNA_FUNCTION",
+      "resolution_counts": {
+        "descriptive_function_only": 1,
+        "source_bounded_direction": 1
+      },
+      "rna_function_link": "unverified",
+      "scope_transfer_blocked": true
+    },
+    {
+      "function_statuses": [],
+      "packet_id": "SOFTWARE_CONTROL",
+      "resolution_counts": {
+        "software_control_only": 5
+      },
+      "rna_function_link": "software_control_only",
+      "scope_transfer_blocked": false
+    }
+  ]
+}

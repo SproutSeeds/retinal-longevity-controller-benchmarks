@@ -1,0 +1,13 @@
+{
+  "evidence_ids": [
+    "GSE132828_median_ratio_cycle_panel",
+    "GSE132828_median_ratio_ether_lipid_published_anchor",
+    "GSE132828_median_ratio_retinol_published_anchor",
+    "GSE132828_median_ratio_rpe_identity",
+    "GSE132828_median_ratio_stress_panel"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "GSE132828_median_ratio",
+  "requested_scope": "adult_primary_human_ocular",
+  "schema": "rpe.uncertainty-packet/2"
+}

@@ -1,0 +1,6 @@
+{
+  "frozen_at_utc": "2026-10-26T21:46:58.069237+00:00",
+  "schema_sha256": "10e72417f7b5724580ab793bab0cc4e81c7d4933ecb0085e63f6538550cbe9f1",
+  "scope": "First actual version-2 CLI acceptance run after frozen schema, source bindings and expected cases.",
+  "started_at_utc": "2026-10-26T23:12:33.568177+00:00"
+}

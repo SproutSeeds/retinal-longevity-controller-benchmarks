@@ -1,0 +1,21 @@
+{
+  "biological_replication": false,
+  "claim_level": "Verified",
+  "engine_sha256": "15474b404b1a2f5ca192e4d5be766a512ed01310f0adbc84049ad4afc2a30b0b",
+  "frontier_model_evaluation": false,
+  "held_out_performance_estimate": false,
+  "interpretation_level": "Heuristic",
+  "known_outcome_suite": true,
+  "restoration_verdict": "unestablished",
+  "schema_sha256": "10e72417f7b5724580ab793bab0cc4e81c7d4933ecb0085e63f6538550cbe9f1",
+  "status": "PASS",
+  "unique_resolution_counts": {
+    "descriptive_function_only": 3,
+    "heterogeneous_units": 2,
+    "source_bounded_direction": 8,
+    "uncertain_direction": 10
+  },
+  "unique_source_observations": 23,
+  "valid_packets": 9,
+  "wet_lab_replacement": "INCONCLUSIVE"
+}

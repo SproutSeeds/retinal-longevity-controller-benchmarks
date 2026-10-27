@@ -1,0 +1,234 @@
+{
+  "authority": "Reviewed secondary source bindings; byte hashes do not independently validate biology.",
+  "evidence": [
+    {
+      "assay_id": "donor_RNA",
+      "biological_unit": "independent_human_donor",
+      "calculation": "reported_estimate",
+      "comparison": "age_association_per_decade_adjusted_sex_batch",
+      "evidence_id": "AGE_rpe_identity",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/age-models.tsv",
+      "scope_note": "Cross-sectional association; selected known outcome; no longitudinal age restoration.",
+      "selector": {
+        "method": "CPM",
+        "model": "age_sex_batch",
+        "panel": "rpe_identity"
+      },
+      "sha256": "dd4a569d50b5f463de8ae35c0762c7ba398acd37c382a5488691c4ef5305d623",
+      "study_id": "GSE159435",
+      "system": "adult_primary_human_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "donor_RNA",
+      "biological_unit": "independent_human_donor",
+      "calculation": "reported_estimate",
+      "comparison": "age_association_per_decade_adjusted_sex_batch",
+      "evidence_id": "AGE_retinol_published_anchor",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/age-models.tsv",
+      "scope_note": "Cross-sectional association; selected known outcome; no longitudinal age restoration.",
+      "selector": {
+        "method": "CPM",
+        "model": "age_sex_batch",
+        "panel": "retinol_published_anchor"
+      },
+      "sha256": "dd4a569d50b5f463de8ae35c0762c7ba398acd37c382a5488691c4ef5305d623",
+      "study_id": "GSE159435",
+      "system": "adult_primary_human_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "four_pair_RNA",
+      "biological_unit": "experiment_pair_one_cell_line",
+      "calculation": "reported_estimate",
+      "comparison": "AgeD_minus_Ctrl",
+      "evidence_id": "IMPAIRED_rpe_identity",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/paired-effects.tsv",
+      "scope_note": "Four paired experiments; no RNA/function sample join.",
+      "selector": {
+        "method": "CPM",
+        "panel": "rpe_identity"
+      },
+      "sha256": "b675a65cdb12e4b36f3fbb2dd9a112c7f6e51667f4b61dfae651dae99469ad47",
+      "study_id": "GSE297557",
+      "system": "human_iPSC_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "four_pair_RNA",
+      "biological_unit": "experiment_pair_one_cell_line",
+      "calculation": "reported_estimate",
+      "comparison": "AgeD_minus_Ctrl",
+      "evidence_id": "IMPAIRED_stress_panel",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/paired-effects.tsv",
+      "scope_note": "Four paired experiments; no RNA/function sample join.",
+      "selector": {
+        "method": "CPM",
+        "panel": "stress_panel"
+      },
+      "sha256": "b675a65cdb12e4b36f3fbb2dd9a112c7f6e51667f4b61dfae651dae99469ad47",
+      "study_id": "GSE297557",
+      "system": "human_iPSC_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "seven_line_RNA",
+      "biological_unit": "donor_derived_line_pair",
+      "calculation": "reported_estimate",
+      "comparison": "NAM_minus_vehicle",
+      "evidence_id": "NAM_rpe_identity",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n_pairs",
+      "path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+      "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+      "selector": {
+        "group": "all",
+        "panel": "rpe_identity",
+        "pseudocount": "1"
+      },
+      "sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+      "study_id": "GSE90889",
+      "system": "human_iPSC_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "seven_line_RNA",
+      "biological_unit": "donor_derived_line_pair",
+      "calculation": "reported_estimate",
+      "comparison": "NAM_minus_vehicle",
+      "evidence_id": "NAM_stress_panel",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n_pairs",
+      "path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+      "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+      "selector": {
+        "group": "all",
+        "panel": "stress_panel",
+        "pseudocount": "1"
+      },
+      "sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+      "study_id": "GSE90889",
+      "system": "human_iPSC_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "seven_line_RNA",
+      "biological_unit": "donor_derived_line_pair",
+      "calculation": "reported_estimate",
+      "comparison": "NAM_minus_vehicle",
+      "evidence_id": "NAM_cycle_panel",
+      "expected_rows": 1,
+      "modality": "RNA",
+      "n_field": "n_pairs",
+      "path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+      "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+      "selector": {
+        "group": "all",
+        "panel": "cycle_panel",
+        "pseudocount": "1"
+      },
+      "sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+      "study_id": "GSE90889",
+      "system": "human_iPSC_RPE",
+      "value_field": "estimate"
+    },
+    {
+      "assay_id": "two_cohort_microglia_RNA",
+      "biological_unit": "old_mouse_6_plus_7_across_two_cohorts",
+      "calculation": "reported_cohort_estimates",
+      "comparison": "five_day_withdrawal_minus_old_untreated",
+      "evidence_id": "MOUSE_WITHDRAWAL_CYCLE",
+      "expected_rows": 1,
+      "independent_units": 13,
+      "modality": "RNA",
+      "path": "programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "scope_note": "13 old mice; two cohort estimates have opposite directions. No human retinal transfer.",
+      "selector": {
+        "celltype": "Microglia",
+        "contrast": "withdrawal_minus_old_untreated",
+        "panel": "cycle_panel",
+        "threshold": "20"
+      },
+      "sha256": "d854290f5aa48765dd7ef3c123633fc96470ee3e94b2a095bd14346969293fae",
+      "study_id": "GSE224438_author_addition",
+      "system": "mouse_brain_SVZ",
+      "value_fields": [
+        "cohort1_CPM",
+        "cohort2_CPM"
+      ]
+    },
+    {
+      "assay_id": "POS_internalized_fragments_x1000_per_field",
+      "biological_unit": "paired_experiment_one_cell_line",
+      "calculation": "paired_difference",
+      "comparison": "AgeD_minus_Ctrl",
+      "evidence_id": "POS_LOSS_FIELD",
+      "expected_rows": 6,
+      "modality": "function",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+      "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+      "selector": {
+        "sheet": "Figure 2"
+      },
+      "sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+      "study_id": "GSE297557_publication",
+      "system": "human_iPSC_RPE",
+      "value_a": "value_a",
+      "value_b": "value_b"
+    },
+    {
+      "assay_id": "POS_internalized_fragments_per_cell",
+      "biological_unit": "paired_experiment_one_cell_line",
+      "calculation": "paired_difference",
+      "comparison": "AgeD_minus_Ctrl",
+      "evidence_id": "POS_LOSS_CELL",
+      "expected_rows": 6,
+      "modality": "function",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+      "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+      "selector": {
+        "sheet": "Sup. Fig 3"
+      },
+      "sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+      "study_id": "GSE297557_publication",
+      "system": "human_iPSC_RPE",
+      "value_a": "value_a",
+      "value_b": "value_b"
+    },
+    {
+      "assay_id": "POS_internalized_fragments_x1000_per_field",
+      "biological_unit": "paired_experiment_one_cell_line",
+      "calculation": "paired_difference",
+      "comparison": "CK666_minus_AgeD_untreated",
+      "evidence_id": "POS_RESCUE_FIELD",
+      "expected_rows": 4,
+      "modality": "function",
+      "path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+      "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+      "selector": {
+        "sheet": "Figure 5"
+      },
+      "sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+      "study_id": "GSE297557_publication",
+      "system": "human_iPSC_RPE",
+      "value_a": "value_a",
+      "value_b": "value_b"
+    }
+  ],
+  "reviewed_cross_assay_links": [],
+  "schema": "rpe.admission-catalog/1"
+}

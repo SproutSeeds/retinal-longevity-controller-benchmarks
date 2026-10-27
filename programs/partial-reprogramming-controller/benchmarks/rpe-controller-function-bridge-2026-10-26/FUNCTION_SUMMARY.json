@@ -1,0 +1,50 @@
+{
+  "contrasts": [
+    {
+      "RNA_function_correlation": "not_admitted",
+      "comparison": "control_vs_AgeD",
+      "complete_restoration": "not_tested",
+      "evidence_id": "POS_LOSS_FIELD",
+      "max_difference": -0.43900000000000006,
+      "mean_difference": -8.435250005,
+      "min_difference": -25.179000000000002,
+      "n_pairs": 6,
+      "negative_pairs": 6,
+      "omission_mean_max": -5.0865000060000005,
+      "omission_mean_min": -10.034500006,
+      "positive_pairs": 0,
+      "unit": "internalized fragments x1000 per field"
+    },
+    {
+      "RNA_function_correlation": "not_admitted",
+      "comparison": "control_vs_AgeD",
+      "complete_restoration": "not_tested",
+      "evidence_id": "POS_LOSS_CELL",
+      "max_difference": -1.71458217,
+      "mean_difference": -18.796218843333335,
+      "min_difference": -49.058931400000006,
+      "n_pairs": 6,
+      "negative_pairs": 6,
+      "omission_mean_max": -12.743676332,
+      "omission_mean_min": -22.212546178,
+      "positive_pairs": 0,
+      "unit": "internalized fragments per cell"
+    },
+    {
+      "RNA_function_correlation": "not_admitted",
+      "comparison": "AgeD_untreated_vs_AgeD_CK666",
+      "complete_restoration": "not_tested",
+      "evidence_id": "POS_RESCUE_FIELD",
+      "max_difference": 3.8629999999999995,
+      "mean_difference": 2.7132500000000004,
+      "min_difference": 0.7710000000000008,
+      "n_pairs": 4,
+      "negative_pairs": 0,
+      "omission_mean_max": 3.3606666666666665,
+      "omission_mean_min": 2.3300000000000005,
+      "positive_pairs": 4,
+      "unit": "internalized fragments x1000 per field"
+    }
+  ],
+  "scope": "Published assay values, secondary descriptive calculations; known outcomes."
+}

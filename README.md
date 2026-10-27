@@ -1,10 +1,17 @@
 # Retinal Longevity Controller Benchmarks
 
+<!--
+Title: Retinal Longevity Controller Benchmarks
+-->
+
 Public data, reproducible analysis and explicit evidence requirements for lineage-preserving reprogramming research. Maintained by SproutSeeds / [Fractal Research Group](https://frg.earth).
 
-**Current checkpoint — October 18, 2026 UTC:** public data support substantial analysis and a smaller, better-defined measurement request. The matched late human recovery observation remains unresolved. Biological conclusions are **Heuristic**; experiment replacement is **INCONCLUSIVE**.
+**Current scientific checkpoint — October 26, 2026:** [RPE RNA, function and uncertainty](research/2026-10-rpe-controller/README.md) now includes executable evidence evaluators, source-result tables and exact replay tests. Nine v2 packets retain uncertainty across 23 distinct observations; 56 actual CLI rejection cases enforce the evidence boundary. Biological conclusions remain **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
-**Historical retinal tAge replication remains pending because the required inputs are unconfirmed.** No tAge or TACO model has been executed here. The completed OSK expression comparison is a different endpoint from the reported GSTA4 clock-age result. [Status clarification](research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md).
+A current-release tAge diagnostic has run. **Exact historical tAge6 reproduction remains pending** on authoritative historical artifacts and preprocessing. No TACO execution is claimed. Earlier preparation documents preserve their original dated status.
+
+- **[Latest reusable RPE controller release](research/2026-10-rpe-controller/README.md)** · [source attribution](research/2026-10-rpe-controller/THIRD_PARTY.md) · [release manifest](research/2026-10-rpe-controller/public-package.json).
+- **[Public research checks](https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/actions/workflows/research-checks.yml)** run on every public push and pull request. The configured source checkpoint hook publishes approved scientific content after local checks; [update scope and limits](research/2026-10-rpe-controller/README.md#how-updates-reach-this-repository).
 
 - **[Historical clock reproduction preparation](research/2026-10-tage-replay-preparation/README.md)** — input checks, a frozen comparison plan and synthetic software tests; the historical model adapter remains unresolved.
 - **[Proposed collaboration brief](research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.md)** · [plain text](research/2026-10-tage-replay-preparation/COLLABORATION_BRIEF.txt).

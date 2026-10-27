@@ -1,0 +1,10 @@
+{
+  "evidence_ids": [
+    "GSE126633_CPM_rpe_identity",
+    "POS_RESCUE_FIELD"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "UNLINKED_RNA_FUNCTION",
+  "requested_scope": "adult_primary_human_ocular",
+  "schema": "rpe.uncertainty-packet/2"
+}

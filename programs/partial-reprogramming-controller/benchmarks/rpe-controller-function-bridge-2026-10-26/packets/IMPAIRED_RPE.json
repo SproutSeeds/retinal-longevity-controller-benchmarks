@@ -1,0 +1,10 @@
+{
+  "evidence_ids": [
+    "IMPAIRED_rpe_identity",
+    "IMPAIRED_stress_panel",
+    "POS_LOSS_CELL"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "IMPAIRED_RPE",
+  "requested_scope": "adult_primary_human_ocular"
+}

@@ -1,0 +1,9 @@
+{
+  "evidence_ids": [
+    "AGE_rpe_identity",
+    "AGE_retinol_published_anchor"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "AGE_RPE",
+  "requested_scope": "adult_primary_human_ocular"
+}

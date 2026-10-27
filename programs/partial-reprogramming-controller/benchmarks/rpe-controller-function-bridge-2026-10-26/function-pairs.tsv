@@ -1,0 +1,17 @@
+evidence_id	source_sheet	local_experiment	value_a	value_b	difference_b_minus_a	unit	RNA_sample_join
+POS_LOSS_FIELD	Figure 2	1	14.5226667	7.042	-7.4806667000000004	internalized fragments x1000 per field	unverified
+POS_LOSS_FIELD	Figure 2	2	38.529	13.35	-25.179000000000002	internalized fragments x1000 per field	unverified
+POS_LOSS_FIELD	Figure 2	3	11.533	7.658	-3.874999999999999	internalized fragments x1000 per field	unverified
+POS_LOSS_FIELD	Figure 2	4	6.251	2.23466667	-4.01633333	internalized fragments x1000 per field	unverified
+POS_LOSS_FIELD	Figure 2	5	2.608	2.169	-0.43900000000000006	internalized fragments x1000 per field	unverified
+POS_LOSS_FIELD	Figure 2	6	12.6035	2.982	-9.621500000000001	internalized fragments x1000 per field	unverified
+POS_LOSS_CELL	Sup. Fig 3	1	41.8039872	23.7788231	-18.0251641	internalized fragments per cell	unverified
+POS_LOSS_CELL	Sup. Fig 3	2	87.6484575	38.5895261	-49.058931400000006	internalized fragments per cell	unverified
+POS_LOSS_CELL	Sup. Fig 3	3	32.9338566	25.0893081	-7.844548499999998	internalized fragments per cell	unverified
+POS_LOSS_CELL	Sup. Fig 3	4	20.2615656	7.02626001	-13.235305590000001	internalized fragments per cell	unverified
+POS_LOSS_CELL	Sup. Fig 3	5	7.75970818	6.04512601	-1.71458217	internalized fragments per cell	unverified
+POS_LOSS_CELL	Sup. Fig 3	6	33.9882004	11.0894191	-22.898781299999996	internalized fragments per cell	unverified
+POS_RESCUE_FIELD	Figure 5	1	2.235	4.968	2.733	internalized fragments x1000 per field	unverified
+POS_RESCUE_FIELD	Figure 5	2	2.169	5.655	3.486	internalized fragments x1000 per field	unverified
+POS_RESCUE_FIELD	Figure 5	3	2.982	6.845	3.8629999999999995	internalized fragments x1000 per field	unverified
+POS_RESCUE_FIELD	Figure 5	4	4.1	4.871	0.7710000000000008	internalized fragments x1000 per field	unverified

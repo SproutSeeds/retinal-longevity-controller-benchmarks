@@ -1,0 +1,8 @@
+{
+  "evidence_ids": [
+    "POS_LOSS_CELL"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "FUNCTION_LOSS_CELL",
+  "requested_scope": "adult_primary_human_ocular"
+}

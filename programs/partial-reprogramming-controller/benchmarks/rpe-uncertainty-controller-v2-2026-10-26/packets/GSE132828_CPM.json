@@ -1,0 +1,13 @@
+{
+  "evidence_ids": [
+    "GSE132828_CPM_cycle_panel",
+    "GSE132828_CPM_ether_lipid_published_anchor",
+    "GSE132828_CPM_retinol_published_anchor",
+    "GSE132828_CPM_rpe_identity",
+    "GSE132828_CPM_stress_panel"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "GSE132828_CPM",
+  "requested_scope": "adult_primary_human_ocular",
+  "schema": "rpe.uncertainty-packet/2"
+}

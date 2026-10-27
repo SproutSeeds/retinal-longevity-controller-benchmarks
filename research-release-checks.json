@@ -45,7 +45,23 @@
       "status": "PASS"
     },
     {
-      "name": "relative_link:README.md:research/2026-10-tage-replay-preparation/STATUS_CLARIFICATION.md",
+      "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-rpe-controller/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-rpe-controller/public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
     {
@@ -262,6 +278,490 @@
     },
     {
       "name": "credential_patterns:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EXPECTED.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EXPECTED.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EXPECTED.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/FUNCTION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/FUNCTION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/FUNCTION_SUMMARY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/function-pairs.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/AGE_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/AGE_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/AGE_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/IMPAIRED_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/IMPAIRED_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/IMPAIRED_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/MOUSE_WITHDRAWAL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/MOUSE_WITHDRAWAL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/MOUSE_WITHDRAWAL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/NAM_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/NAM_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/packets/NAM_RPE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/EXTERNAL_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/EXTERNAL_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/EXTERNAL_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/adult-donor-contrasts.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/coverage.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/effects.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/external-effects.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/pairs.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/panel-features.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/samples.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/scores.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/sensitivities.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/age-models.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/paired-effects.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/ADMISSION_CATALOG.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/CASES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/CASES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/CASES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EVALUATIONS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EXECUTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EXECUTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/EXECUTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/RESULT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/RESULT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/RESULT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/SCHEMA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/SCHEMA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/SCHEMA.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/before-after.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_CELL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_LOSS_FIELD.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/FUNCTION_RESCUE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE126633_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_CPM.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/GSE132828_median_ratio.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/SOFTWARE_CONTROL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/SOFTWARE_CONTROL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/SOFTWARE_CONTROL.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/UNLINKED_RNA_FUNCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/UNLINKED_RNA_FUNCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/packets/UNLINKED_RNA_FUNCTION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/run.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/run.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/run.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/scripts/controller_rpe_evidence_evaluator.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/scripts/controller_rpe_evidence_evaluator.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/scripts/controller_rpe_evidence_evaluator.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/scripts/controller_rpe_uncertainty_evaluator_v2.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/scripts/controller_rpe_uncertainty_evaluator_v2.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/scripts/controller_rpe_uncertainty_evaluator_v2.py",
       "status": "PASS"
     },
     {
@@ -5661,6 +6161,98 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:research/2026-10-rpe-controller/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-rpe-controller/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-rpe-controller/README.md:THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-rpe-controller/README.md:../../tools/research-sync/sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-rpe-controller/README.md:../../tools/research-sync/test_sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-rpe-controller/README.md:public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-rpe-controller/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/THIRD_PARTY.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-rpe-controller/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:research/2026-10-rpe-controller/VERIFICATION_RECORD.md:CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-rpe-controller/public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:research/2026-10-rpe-controller/verify_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:research/2026-10-rpe-controller/verify_public.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:research/2026-10-rpe-controller/verify_public.py",
+      "status": "PASS"
+    },
+    {
       "name": "sha256:research/2026-10-tage-replay-preparation/CLAIM.md",
       "status": "PASS"
     },
@@ -5913,6 +6505,30 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:tools/research-sync/sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:tools/research-sync/sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:tools/research-sync/sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:tools/research-sync/test_sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:tools/research-sync/test_sync.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:tools/research-sync/test_sync.py",
+      "status": "PASS"
+    },
+    {
       "name": "pilot_arithmetic",
       "status": "PASS"
     },
@@ -5945,8 +6561,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1486,
+  "passed": 1640,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1486
+  "total": 1640
 }

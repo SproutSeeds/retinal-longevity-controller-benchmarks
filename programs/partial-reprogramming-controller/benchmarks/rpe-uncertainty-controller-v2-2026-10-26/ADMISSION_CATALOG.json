@@ -1,0 +1,308 @@
+{
+  "authority": "Reviewed source-bound inputs; catalog review is a trust boundary. Hashes authenticate bytes, not biological validity.",
+  "base_catalogs": [
+    {
+      "id": "external",
+      "source": {
+        "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/EXTERNAL_CATALOG.json",
+        "sha256": "8083cd7ae2515ad70d1d60a4cf7c00a85296ad1774d21a0f0314ae43a185f385"
+      }
+    },
+    {
+      "id": "bridge",
+      "source": {
+        "path": "programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json",
+        "sha256": "7ae7897d4b86f9a13fabb432d2d48c771c5cef43b467ebe1456c803c01bd1def"
+      }
+    }
+  ],
+  "base_engine_sha256": "937e44d282df426870761671a0cd21b0b0cb1af26009f7e606042293a62b092b",
+  "bundles": [
+    {
+      "id": "external_fixed_panels",
+      "sources": {
+        "contract": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/CONTRACT.json",
+          "sha256": "753df25b9594072a6c5656e924de56f28a984a8b95e59bdbe29169533eec8114"
+        },
+        "effects": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/effects.tsv",
+          "sha256": "d549ed94380fbf1ff56548c11979735ebfec6084f21142cb042fcede023cc301"
+        },
+        "pairs": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/pairs.tsv",
+          "sha256": "7d4987ee1be784c63e9ab6907f3fa3b99d2f9427b0a946b551e4ce359efcbe19"
+        },
+        "samples": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/samples.tsv",
+          "sha256": "00eeffc624659b23f495e806434be3d9dd9a4908222e4bdd13ee6136c33c608e"
+        },
+        "scores": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/scores.tsv",
+          "sha256": "c113ce43e0f9f15639e103fa22cc5c46e05439733eb71d75ffee8178dd8f3264"
+        },
+        "sensitivities": {
+          "path": "programs/partial-reprogramming-controller/benchmarks/rpe-external-challenges-2026-10-26/sensitivities.tsv",
+          "sha256": "6d34837848afac3cd1133771830dd4d617706693bc345b47ba58e9b1b3a9a61b"
+        }
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_CPM_cycle_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_CPM_ether_lipid_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_CPM_retinol_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_CPM_rpe_identity",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_CPM_stress_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_median_ratio_cycle_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_median_ratio_ether_lipid_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_median_ratio_retinol_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_median_ratio_rpe_identity",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "unresolved_differentiation_round_map",
+      "evidence_id": "GSE132828_median_ratio_stress_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_CPM_cycle_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_CPM_ether_lipid_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_CPM_retinol_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_CPM_rpe_identity",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_CPM_stress_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_median_ratio_cycle_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_median_ratio_ether_lipid_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_median_ratio_retinol_published_anchor",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_median_ratio_rpe_identity",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "external",
+      "bundle_id": "external_fixed_panels",
+      "dependence": "named_donor_pairing",
+      "evidence_id": "GSE126633_median_ratio_stress_panel",
+      "interval_policy": "source_nominal_95",
+      "join_note": "No admitted sample-level RNA/function rescue or withdrawal crosswalk; source scope and dose/batch limits remain.",
+      "join_status": "not_admitted",
+      "kind": "fixed_panel_rna",
+      "unit_id_field": null
+    },
+    {
+      "base_catalog_id": "bridge",
+      "bundle_id": null,
+      "dependence": "assay_local_pairing",
+      "evidence_id": "POS_LOSS_FIELD",
+      "interval_policy": "not_estimated",
+      "join_note": "Assay-local experiment labels do not establish cross-assay pairing; field/per-cell impairment assays are not independent cohorts.",
+      "join_status": "not_admitted",
+      "kind": "paired_function",
+      "unit_id_field": "local_experiment"
+    },
+    {
+      "base_catalog_id": "bridge",
+      "bundle_id": null,
+      "dependence": "assay_local_pairing",
+      "evidence_id": "POS_LOSS_CELL",
+      "interval_policy": "not_estimated",
+      "join_note": "Assay-local experiment labels do not establish cross-assay pairing; field/per-cell impairment assays are not independent cohorts.",
+      "join_status": "not_admitted",
+      "kind": "paired_function",
+      "unit_id_field": "local_experiment"
+    },
+    {
+      "base_catalog_id": "bridge",
+      "bundle_id": null,
+      "dependence": "assay_local_pairing",
+      "evidence_id": "POS_RESCUE_FIELD",
+      "interval_policy": "not_estimated",
+      "join_note": "Assay-local experiment labels do not establish cross-assay pairing; field/per-cell impairment assays are not independent cohorts.",
+      "join_status": "not_admitted",
+      "kind": "paired_function",
+      "unit_id_field": "local_experiment"
+    }
+  ],
+  "reviewed_cross_assay_links": [],
+  "schema": "rpe.uncertainty-catalog/2"
+}

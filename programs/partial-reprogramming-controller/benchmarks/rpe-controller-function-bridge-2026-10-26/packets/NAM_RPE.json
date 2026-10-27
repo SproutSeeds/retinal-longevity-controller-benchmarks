@@ -1,0 +1,10 @@
+{
+  "evidence_ids": [
+    "NAM_rpe_identity",
+    "NAM_stress_panel",
+    "NAM_cycle_panel"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "NAM_RPE",
+  "requested_scope": "adult_primary_human_ocular"
+}

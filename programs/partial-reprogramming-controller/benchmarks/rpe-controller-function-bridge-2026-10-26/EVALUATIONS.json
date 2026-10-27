@@ -1,0 +1,620 @@
+{
+  "baseline_comparison": {
+    "always_abstain_misses_function_bearing_packets": 4,
+    "always_restoration_unsupported_calls": 7,
+    "note": "Fixed-suite checks, not rates of biological false positives or independent trials."
+  },
+  "engine_sha256": "937e44d282df426870761671a0cd21b0b0cb1af26009f7e606042293a62b092b",
+  "evaluations": [
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "not_measured_in_packet",
+          "molecular_observation": "observed_association_or_response",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "donor_RNA",
+            "biological_unit": "independent_human_donor",
+            "comparison": "age_association_per_decade_adjusted_sex_batch",
+            "direction": "increased",
+            "evidence_id": "AGE_rpe_identity",
+            "independent_units": 13,
+            "mean": 0.3008595930094428,
+            "modality": "RNA",
+            "negative_values": 0,
+            "positive_values": 1,
+            "scope_note": "Cross-sectional association; selected known outcome; no longitudinal age restoration.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/age-models.tsv",
+            "source_sha256": "dd4a569d50b5f463de8ae35c0762c7ba398acd37c382a5488691c4ef5305d623",
+            "study_id": "GSE159435",
+            "summary_type": "reported_estimate",
+            "system": "adult_primary_human_RPE",
+            "values": [
+              0.3008595930094428
+            ]
+          },
+          {
+            "assay_id": "donor_RNA",
+            "biological_unit": "independent_human_donor",
+            "comparison": "age_association_per_decade_adjusted_sex_batch",
+            "direction": "increased",
+            "evidence_id": "AGE_retinol_published_anchor",
+            "independent_units": 13,
+            "mean": 0.417756322517649,
+            "modality": "RNA",
+            "negative_values": 0,
+            "positive_values": 1,
+            "scope_note": "Cross-sectional association; selected known outcome; no longitudinal age restoration.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/age-models.tsv",
+            "source_sha256": "dd4a569d50b5f463de8ae35c0762c7ba398acd37c382a5488691c4ef5305d623",
+            "study_id": "GSE159435",
+            "summary_type": "reported_estimate",
+            "system": "adult_primary_human_RPE",
+            "values": [
+              0.417756322517649
+            ]
+          }
+        ],
+        "packet_id": "AGE_RPE",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": false
+      },
+      "packet_id": "AGE_RPE",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "source_assay_observed",
+          "molecular_observation": "not_supplied",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [
+          {
+            "assay_id": "POS_internalized_fragments_per_cell",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "evidence_id": "POS_LOSS_CELL",
+            "independent_units": 6,
+            "status": "decreased_in_source_assay",
+            "study_id": "GSE297557_publication",
+            "system": "human_iPSC_RPE"
+          }
+        ],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "POS_internalized_fragments_per_cell",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "direction": "decreased",
+            "evidence_id": "POS_LOSS_CELL",
+            "independent_units": 6,
+            "mean": -18.796218843333335,
+            "modality": "function",
+            "negative_values": 6,
+            "positive_values": 0,
+            "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+            "source_sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+            "study_id": "GSE297557_publication",
+            "summary_type": "paired_difference",
+            "system": "human_iPSC_RPE",
+            "values": [
+              -18.0251641,
+              -49.058931400000006,
+              -7.844548499999998,
+              -13.235305590000001,
+              -1.71458217,
+              -22.898781299999996
+            ]
+          }
+        ],
+        "packet_id": "FUNCTION_LOSS_CELL",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "FUNCTION_LOSS_CELL",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "source_assay_observed",
+          "molecular_observation": "not_supplied",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [
+          {
+            "assay_id": "POS_internalized_fragments_x1000_per_field",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "evidence_id": "POS_LOSS_FIELD",
+            "independent_units": 6,
+            "status": "decreased_in_source_assay",
+            "study_id": "GSE297557_publication",
+            "system": "human_iPSC_RPE"
+          }
+        ],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "POS_internalized_fragments_x1000_per_field",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "direction": "decreased",
+            "evidence_id": "POS_LOSS_FIELD",
+            "independent_units": 6,
+            "mean": -8.435250005,
+            "modality": "function",
+            "negative_values": 6,
+            "positive_values": 0,
+            "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+            "source_sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+            "study_id": "GSE297557_publication",
+            "summary_type": "paired_difference",
+            "system": "human_iPSC_RPE",
+            "values": [
+              -7.4806667000000004,
+              -25.179000000000002,
+              -3.874999999999999,
+              -4.01633333,
+              -0.43900000000000006,
+              -9.621500000000001
+            ]
+          }
+        ],
+        "packet_id": "FUNCTION_LOSS_FIELD",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "FUNCTION_LOSS_FIELD",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "positive_function_recognized": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "source_assay_observed",
+          "molecular_observation": "not_supplied",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [
+          {
+            "assay_id": "POS_internalized_fragments_x1000_per_field",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "CK666_minus_AgeD_untreated",
+            "evidence_id": "POS_RESCUE_FIELD",
+            "independent_units": 4,
+            "status": "increased_in_source_assay",
+            "study_id": "GSE297557_publication",
+            "system": "human_iPSC_RPE"
+          }
+        ],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "POS_internalized_fragments_x1000_per_field",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "CK666_minus_AgeD_untreated",
+            "direction": "increased",
+            "evidence_id": "POS_RESCUE_FIELD",
+            "independent_units": 4,
+            "mean": 2.7132500000000004,
+            "modality": "function",
+            "negative_values": 0,
+            "positive_values": 4,
+            "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+            "source_sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+            "study_id": "GSE297557_publication",
+            "summary_type": "paired_difference",
+            "system": "human_iPSC_RPE",
+            "values": [
+              2.733,
+              3.486,
+              3.8629999999999995,
+              0.7710000000000008
+            ]
+          }
+        ],
+        "packet_id": "FUNCTION_RESCUE",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "FUNCTION_RESCUE",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true,
+        "unverified_cross_assay_link": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "source_assay_observed",
+          "molecular_observation": "observed_association_or_response",
+          "rna_function_link": "unverified",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [
+          {
+            "assay_id": "POS_internalized_fragments_per_cell",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "evidence_id": "POS_LOSS_CELL",
+            "independent_units": 6,
+            "status": "decreased_in_source_assay",
+            "study_id": "GSE297557_publication",
+            "system": "human_iPSC_RPE"
+          }
+        ],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "four_pair_RNA",
+            "biological_unit": "experiment_pair_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "direction": "decreased",
+            "evidence_id": "IMPAIRED_rpe_identity",
+            "independent_units": 4,
+            "mean": -0.17442432217209047,
+            "modality": "RNA",
+            "negative_values": 1,
+            "positive_values": 0,
+            "scope_note": "Four paired experiments; no RNA/function sample join.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/paired-effects.tsv",
+            "source_sha256": "b675a65cdb12e4b36f3fbb2dd9a112c7f6e51667f4b61dfae651dae99469ad47",
+            "study_id": "GSE297557",
+            "summary_type": "reported_estimate",
+            "system": "human_iPSC_RPE",
+            "values": [
+              -0.17442432217209047
+            ]
+          },
+          {
+            "assay_id": "four_pair_RNA",
+            "biological_unit": "experiment_pair_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "direction": "increased",
+            "evidence_id": "IMPAIRED_stress_panel",
+            "independent_units": 4,
+            "mean": 0.5824212778271327,
+            "modality": "RNA",
+            "negative_values": 0,
+            "positive_values": 1,
+            "scope_note": "Four paired experiments; no RNA/function sample join.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-challenge-2026-10-24/paired-effects.tsv",
+            "source_sha256": "b675a65cdb12e4b36f3fbb2dd9a112c7f6e51667f4b61dfae651dae99469ad47",
+            "study_id": "GSE297557",
+            "summary_type": "reported_estimate",
+            "system": "human_iPSC_RPE",
+            "values": [
+              0.5824212778271327
+            ]
+          },
+          {
+            "assay_id": "POS_internalized_fragments_per_cell",
+            "biological_unit": "paired_experiment_one_cell_line",
+            "comparison": "AgeD_minus_Ctrl",
+            "direction": "decreased",
+            "evidence_id": "POS_LOSS_CELL",
+            "independent_units": 6,
+            "mean": -18.796218843333335,
+            "modality": "function",
+            "negative_values": 6,
+            "positive_values": 0,
+            "scope_note": "Local row ordinals do not link assays. Field and per-cell impairment readouts are not independent cohorts. Partial assay rescue does not establish complete recovery.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/rpe-function-admission-2026-10-22/published-functional-values.tsv",
+            "source_sha256": "7bce4c3d8bdb49669064bcc3c1db666f8555b06cb58d167db969d120e2ff6bd7",
+            "study_id": "GSE297557_publication",
+            "summary_type": "paired_difference",
+            "system": "human_iPSC_RPE",
+            "values": [
+              -18.0251641,
+              -49.058931400000006,
+              -7.844548499999998,
+              -13.235305590000001,
+              -1.71458217,
+              -22.898781299999996
+            ]
+          }
+        ],
+        "packet_id": "IMPAIRED_RPE",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope",
+          "condition_or_local_ordinal_labels_do_not_establish_cross_assay_pairing"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "IMPAIRED_RPE",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "not_measured_in_packet",
+          "molecular_observation": "observed_association_or_response",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "two_cohort_microglia_RNA",
+            "biological_unit": "old_mouse_6_plus_7_across_two_cohorts",
+            "comparison": "five_day_withdrawal_minus_old_untreated",
+            "direction": "mixed",
+            "evidence_id": "MOUSE_WITHDRAWAL_CYCLE",
+            "independent_units": 13,
+            "mean": null,
+            "modality": "RNA",
+            "negative_values": 1,
+            "positive_values": 1,
+            "scope_note": "13 old mice; two cohort estimates have opposite directions. No human retinal transfer.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+            "source_sha256": "d854290f5aa48765dd7ef3c123633fc96470ee3e94b2a095bd14346969293fae",
+            "study_id": "GSE224438_author_addition",
+            "summary_type": "separate_cohort_estimates",
+            "system": "mouse_brain_SVZ",
+            "values": [
+              0.66943616141,
+              -0.715695409841
+            ]
+          }
+        ],
+        "packet_id": "MOUSE_WITHDRAWAL",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "MOUSE_WITHDRAWAL",
+      "status": "PASS"
+    },
+    {
+      "checks": {
+        "function_observation": true,
+        "no_protocol_authority": true,
+        "restoration_unestablished": true,
+        "scope_transfer": true,
+        "source_directions": true
+      },
+      "evaluation": {
+        "axes": {
+          "age_restoration": "not_established",
+          "function": "not_measured_in_packet",
+          "molecular_observation": "observed_association_or_response",
+          "rna_function_link": "not_supplied",
+          "same_cell_continuity": "not_established",
+          "undesirable_states": "not_assessed_by_these_panels",
+          "withdrawal_persistence": "not_established_for_adult_human_ocular_restoration"
+        },
+        "biological_authority": "reviewed_source_scope_only",
+        "certification_scope": "Local RPE evidence interpretation; no RGC-kernel or clinical certification.",
+        "claim_level": "Verified",
+        "engine": "deterministic_reviewed_evidence_v1",
+        "function_findings": [],
+        "interpretation_level": "Heuristic",
+        "observations": [
+          {
+            "assay_id": "seven_line_RNA",
+            "biological_unit": "donor_derived_line_pair",
+            "comparison": "NAM_minus_vehicle",
+            "direction": "increased",
+            "evidence_id": "NAM_rpe_identity",
+            "independent_units": 7,
+            "mean": 0.1877750545636808,
+            "modality": "RNA",
+            "negative_values": 0,
+            "positive_values": 1,
+            "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+            "source_sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+            "study_id": "GSE90889",
+            "summary_type": "reported_estimate",
+            "system": "human_iPSC_RPE",
+            "values": [
+              0.1877750545636808
+            ]
+          },
+          {
+            "assay_id": "seven_line_RNA",
+            "biological_unit": "donor_derived_line_pair",
+            "comparison": "NAM_minus_vehicle",
+            "direction": "decreased",
+            "evidence_id": "NAM_stress_panel",
+            "independent_units": 7,
+            "mean": -0.7514507581115489,
+            "modality": "RNA",
+            "negative_values": 1,
+            "positive_values": 0,
+            "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+            "source_sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+            "study_id": "GSE90889",
+            "summary_type": "reported_estimate",
+            "system": "human_iPSC_RPE",
+            "values": [
+              -0.7514507581115489
+            ]
+          },
+          {
+            "assay_id": "seven_line_RNA",
+            "biological_unit": "donor_derived_line_pair",
+            "comparison": "NAM_minus_vehicle",
+            "direction": "increased",
+            "evidence_id": "NAM_cycle_panel",
+            "independent_units": 7,
+            "mean": 0.5962767443838494,
+            "modality": "RNA",
+            "negative_values": 0,
+            "positive_values": 1,
+            "scope_note": "Author-normalized scale; distinct from adult tissue age and measured function.",
+            "source_path": "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv",
+            "source_sha256": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+            "study_id": "GSE90889",
+            "summary_type": "reported_estimate",
+            "system": "human_iPSC_RPE",
+            "values": [
+              0.5962767443838494
+            ]
+          }
+        ],
+        "packet_id": "NAM_RPE",
+        "protocol_recommendation_authorized": false,
+        "reasons": [
+          "calibrated_age_restoration_endpoint_absent",
+          "compatible_function_after_verified_withdrawal_absent",
+          "rare_adverse_state_and_lineage_authority_absent",
+          "source_system_cannot_be_transferred_to_requested_adult_primary_human_scope"
+        ],
+        "restoration_verdict": "unestablished",
+        "schema": "rpe.evidence-evaluation/1",
+        "scope_transfer_blocked": true
+      },
+      "packet_id": "NAM_RPE",
+      "status": "PASS"
+    }
+  ],
+  "frontier_model_evaluation": false,
+  "held_out_performance_estimate": false,
+  "known_outcome_suite": true,
+  "passed": 7,
+  "schema": "rpe.challenge-run/1",
+  "total": 7
+}

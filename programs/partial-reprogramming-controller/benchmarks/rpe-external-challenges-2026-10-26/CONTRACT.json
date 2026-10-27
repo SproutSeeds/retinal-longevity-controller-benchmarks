@@ -1,0 +1,194 @@
+{
+  "GSE126633_pairing": "Exact named donor-line identifiers 15/18/37 in source titles and deposited columns; three control/TNT pairs. No animal/age inference.",
+  "GSE126633_patient_context": "Two membranes excluded from primary normalization/modeling. Retain raw QC and separately labeled CPM context scores only.",
+  "GSE132828_pairing": "Three differentiation rounds are stated, but cross-condition numbered-repeat/batch mapping is not authoritative. Use unpaired primary effects; no inferred matched pairing.",
+  "RNA_function_correlation_allowed": false,
+  "clock_inference_allowed": false,
+  "contrasts": [
+    {
+      "control": "vehicle_POS",
+      "id": "RM_POS_minus_vehicle_POS",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "ramoplanin_POS"
+    },
+    {
+      "control": "vehicle_no_POS",
+      "id": "RM_no_POS_minus_vehicle_no_POS",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "ramoplanin_no_POS"
+    },
+    {
+      "control": "vehicle_no_POS",
+      "id": "POS_effect_in_vehicle",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "vehicle_POS"
+    },
+    {
+      "control": "vehicle_POS",
+      "id": "ligand_POS_minus_vehicle_POS",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "MFGE8_GAS6_POS"
+    },
+    {
+      "control": "vehicle_no_POS",
+      "id": "ligand_no_POS_minus_vehicle_no_POS",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "MFGE8_GAS6_no_POS"
+    },
+    {
+      "control": "vehicle_no_POS",
+      "id": "ligand_only_minus_vehicle_no_POS",
+      "paired": false,
+      "study": "GSE132828",
+      "treated": "ligand_only_no_POS"
+    },
+    {
+      "control": "control",
+      "id": "TNT_minus_control",
+      "paired": true,
+      "study": "GSE126633",
+      "treated": "TNT"
+    }
+  ],
+  "frozen_at_utc": "2026-10-26T21:07:25.754507+00:00",
+  "inputs": [
+    {
+      "path": ".data/rpe-function-bridge-2026-10-26/sources/GSE132828.soft.gz",
+      "sha256": "58fef432eb780dea3f089d00841ab1178c8d72d9c81ec3c43d6aef339202297b"
+    },
+    {
+      "path": ".data/rpe-function-bridge-2026-10-26/sources/GSE126633.soft.gz",
+      "sha256": "b4106fc38ec7c9683c494480eebf66b0e1ea050c7a981ac8021d05e8775734c0"
+    },
+    {
+      "path": "benchmarks/rpe-external-challenges-2026-10-26/samples.tsv",
+      "sha256": "00eeffc624659b23f495e806434be3d9dd9a4908222e4bdd13ee6136c33c608e"
+    },
+    {
+      "path": "benchmarks/rpe-external-challenges-2026-10-26/panel-features.tsv",
+      "sha256": "512e0fb6c549ec2ddd18e9f928f821e9fbf154bd9e9defb838b637cd1e5f822c"
+    },
+    {
+      "path": "benchmarks/rpe-external-challenges-2026-10-26/coverage.tsv",
+      "sha256": "d4b7874a2f8fa26f6701cae76e3679e5327f87d9823ba7f407b64cfe5efb1b93"
+    },
+    {
+      "path": "benchmarks/rpe-external-challenges-2026-10-26/DATA_MANIFEST.json",
+      "sha256": "0ea8010323aca531d786141c2f42b15d6ec4b2f8603e1365c784b09fb0cfe61a"
+    },
+    {
+      "path": "benchmarks/rpe-external-challenges-2026-10-26/SOURCE_MANIFEST.json",
+      "sha256": "aea5df22e1c1e460a3fbad2e1a57eaae59a6392a8b8de9704fe7e72dc57de0c6"
+    }
+  ],
+  "interpretation_rules": {
+    "cycle": "Higher cycle RNA in pathology would challenge generic benefit use; RNA does not diagnose proliferation or transformation.",
+    "identity": "Stable lower TNT identity supports only the source pathological identity-loss interpretation; increased identity alone remains insufficient for youth/function.",
+    "retinol_ether_lipid": "Descriptive context only; no universally favorable direction or flux interpretation.",
+    "stress": "A lower stress score in pathology would challenge a generic benefit interpretation; higher stress is context, not a senescence diagnosis."
+  },
+  "known_outcome_secondary_analysis": true,
+  "mapping": "benchmarks/rpe-external-challenges-2026-10-26/panel-features.tsv",
+  "normalization": [
+    "CPM",
+    "median_ratio"
+  ],
+  "normalizer": {
+    "path": "benchmarks/cx004-withdrawal-expression-2026-10-22/analyze.py",
+    "sha256": "5ed0da34576f9cf3762af7ef7921d86a2e91d3db884df1875bb2948948224a55"
+  },
+  "panels": {
+    "cycle_panel": {
+      "genes": [
+        "MKI67",
+        "TOP2A",
+        "PCNA",
+        "MCM2",
+        "MCM3",
+        "MCM4",
+        "MCM5",
+        "MCM6",
+        "MCM7",
+        "CDK1",
+        "CCNB1",
+        "CCNB2",
+        "CDC20",
+        "UBE2C",
+        "TYMS",
+        "RRM2",
+        "TK1",
+        "CENPF",
+        "BIRC5",
+        "AURKB"
+      ],
+      "role": "inherited_project_heuristic",
+      "source": "benchmarks/cx004-independent-comparator-2026-10-18/panels.json"
+    },
+    "ether_lipid_published_anchor": {
+      "genes": [
+        "ENPP2",
+        "PLA2G5",
+        "PLA2G7",
+        "SELENOI"
+      ],
+      "role": "known_age_association_reproduction_anchor",
+      "source": "https://doi.org/10.1111/jcmm.16569 Table 1"
+    },
+    "retinol_published_anchor": {
+      "genes": [
+        "ALDH1A3",
+        "BCO1",
+        "LRAT",
+        "RDH10",
+        "RDH11",
+        "RDH5",
+        "RPE65"
+      ],
+      "role": "known_age_association_reproduction_anchor",
+      "source": "https://doi.org/10.1111/jcmm.16569 Table 1"
+    },
+    "rpe_identity": {
+      "genes": [
+        "RPE65",
+        "BEST1",
+        "RLBP1",
+        "MITF",
+        "PMEL",
+        "RBP1",
+        "TJP1",
+        "OTX2"
+      ],
+      "role": "inherited_project_heuristic",
+      "source": "benchmarks/cx004-independent-comparator-2026-10-18/panels.json"
+    },
+    "stress_panel": {
+      "genes": [
+        "CDKN1A",
+        "CDKN2A",
+        "IL6",
+        "CXCL8",
+        "GADD45A",
+        "TP53",
+        "TIMP1",
+        "TIMP2"
+      ],
+      "role": "inherited_project_heuristic",
+      "source": "benchmarks/cx004-independent-comparator-2026-10-18/panels.json"
+    }
+  },
+  "primary_scope": "Source-specific descriptive fixed-panel RNA response only. No admitted sample-level RNA/function join or biological restoration.",
+  "rescue_expression_allowed": false,
+  "schema": "rpe.external-challenges-contract/1",
+  "sensitivities": [
+    "refit normalization after each donor-pair omission",
+    "refit normalization after each involved unpaired-sample omission",
+    "each panel-gene omission",
+    "both frozen normalizations"
+  ],
+  "uncertainty": "Descriptive paired t intervals with 2 df for donor pairs; unpaired Welch intervals for 3-versus-3 phagocytosis RNA groups under the stated independence approximation. No p-values or discovery thresholds."
+}

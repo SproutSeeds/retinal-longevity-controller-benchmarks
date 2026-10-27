@@ -1,0 +1,57 @@
+{
+  "AGE_RPE": {
+    "directions": [
+      "increased",
+      "increased"
+    ],
+    "function": "not_measured_in_packet",
+    "scope_transfer_blocked": false
+  },
+  "FUNCTION_LOSS_CELL": {
+    "directions": [
+      "decreased"
+    ],
+    "function": "source_assay_observed",
+    "scope_transfer_blocked": true
+  },
+  "FUNCTION_LOSS_FIELD": {
+    "directions": [
+      "decreased"
+    ],
+    "function": "source_assay_observed",
+    "scope_transfer_blocked": true
+  },
+  "FUNCTION_RESCUE": {
+    "directions": [
+      "increased"
+    ],
+    "function": "source_assay_observed",
+    "scope_transfer_blocked": true
+  },
+  "IMPAIRED_RPE": {
+    "directions": [
+      "decreased",
+      "increased",
+      "decreased"
+    ],
+    "function": "source_assay_observed",
+    "rna_function_link": "unverified",
+    "scope_transfer_blocked": true
+  },
+  "MOUSE_WITHDRAWAL": {
+    "directions": [
+      "mixed"
+    ],
+    "function": "not_measured_in_packet",
+    "scope_transfer_blocked": true
+  },
+  "NAM_RPE": {
+    "directions": [
+      "increased",
+      "decreased",
+      "increased"
+    ],
+    "function": "not_measured_in_packet",
+    "scope_transfer_blocked": true
+  }
+}

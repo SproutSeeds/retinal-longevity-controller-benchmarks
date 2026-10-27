@@ -8,3 +8,6 @@ __pycache__/
 *.pyc
 
 .codex-finalizer/
+
+# Source-result rejection fixtures
+programs/partial-reprogramming-controller/tmp/

@@ -1,0 +1,17 @@
+study	sheet	source_range	local_experiment	value_a	value_b	unit	RNA_sample_join	comparison
+GSE297557	Figure 2	A4:C9	1	14.5226667	7.042	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Figure 2	A4:C9	2	38.529	13.35	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Figure 2	A4:C9	3	11.533	7.658	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Figure 2	A4:C9	4	6.251	2.23466667	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Figure 2	A4:C9	5	2.608	2.169	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Figure 2	A4:C9	6	12.6035	2.982	internalized fragments x1000 per field	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	1	41.8039872	23.7788231	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	2	87.6484575	38.5895261	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	3	32.9338566	25.0893081	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	4	20.2615656	7.02626001	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	5	7.75970818	6.04512601	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Sup. Fig 3	A4:C9	6	33.9882004	11.0894191	internalized fragments per cell	unverified	control_vs_AgeD
+GSE297557	Figure 5	A16:C19	1	2.235	4.968	internalized fragments x1000 per field	unverified	AgeD_untreated_vs_AgeD_CK666
+GSE297557	Figure 5	A16:C19	2	2.169	5.655	internalized fragments x1000 per field	unverified	AgeD_untreated_vs_AgeD_CK666
+GSE297557	Figure 5	A16:C19	3	2.982	6.845	internalized fragments x1000 per field	unverified	AgeD_untreated_vs_AgeD_CK666
+GSE297557	Figure 5	A16:C19	4	4.1	4.871	internalized fragments x1000 per field	unverified	AgeD_untreated_vs_AgeD_CK666

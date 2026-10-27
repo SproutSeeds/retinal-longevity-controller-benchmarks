@@ -1,0 +1,258 @@
+{
+  "catalog_schema": {
+    "$defs": {
+      "file_ref": {
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "minLength": 1,
+            "pattern": "\\S",
+            "type": "string"
+          },
+          "sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "sha256"
+        ],
+        "type": "object"
+      }
+    },
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "properties": {
+      "authority": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "base_catalogs": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "source": {
+              "$ref": "#/$defs/file_ref"
+            }
+          },
+          "required": [
+            "id",
+            "source"
+          ],
+          "type": "object"
+        },
+        "minItems": 1,
+        "type": "array"
+      },
+      "base_engine_sha256": {
+        "pattern": "^[0-9a-f]{64}$",
+        "type": "string"
+      },
+      "bundles": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "sources": {
+              "additionalProperties": false,
+              "properties": {
+                "contract": {
+                  "$ref": "#/$defs/file_ref"
+                },
+                "effects": {
+                  "$ref": "#/$defs/file_ref"
+                },
+                "pairs": {
+                  "$ref": "#/$defs/file_ref"
+                },
+                "samples": {
+                  "$ref": "#/$defs/file_ref"
+                },
+                "scores": {
+                  "$ref": "#/$defs/file_ref"
+                },
+                "sensitivities": {
+                  "$ref": "#/$defs/file_ref"
+                }
+              },
+              "required": [
+                "contract",
+                "effects",
+                "scores",
+                "pairs",
+                "sensitivities",
+                "samples"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "id",
+            "sources"
+          ],
+          "type": "object"
+        },
+        "type": "array"
+      },
+      "evidence": {
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "base_catalog_id": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "bundle_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "dependence": {
+              "enum": [
+                "unresolved_differentiation_round_map",
+                "named_donor_pairing",
+                "assay_local_pairing"
+              ]
+            },
+            "evidence_id": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "interval_policy": {
+              "enum": [
+                "source_nominal_95",
+                "not_estimated"
+              ]
+            },
+            "join_note": {
+              "minLength": 1,
+              "pattern": "\\S",
+              "type": "string"
+            },
+            "join_status": {
+              "const": "not_admitted"
+            },
+            "kind": {
+              "enum": [
+                "fixed_panel_rna",
+                "paired_function"
+              ]
+            },
+            "unit_id_field": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "evidence_id",
+            "base_catalog_id",
+            "kind",
+            "bundle_id",
+            "interval_policy",
+            "dependence",
+            "unit_id_field",
+            "join_status",
+            "join_note"
+          ],
+          "type": "object"
+        },
+        "minItems": 1,
+        "type": "array"
+      },
+      "reviewed_cross_assay_links": {
+        "maxItems": 0,
+        "type": "array"
+      },
+      "schema": {
+        "const": "rpe.uncertainty-catalog/2"
+      }
+    },
+    "required": [
+      "schema",
+      "authority",
+      "base_engine_sha256",
+      "base_catalogs",
+      "bundles",
+      "evidence",
+      "reviewed_cross_assay_links"
+    ],
+    "type": "object"
+  },
+  "claim_level": "Heuristic",
+  "function_resolution": "descriptive_function_only",
+  "interval_semantics": "Nominal descriptive 95% source interval; zero endpoints included; no equivalence or multiplicity-adjusted significance interpretation.",
+  "numeric_tolerance": 2e-10,
+  "packet_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "additionalProperties": false,
+    "properties": {
+      "evidence_ids": {
+        "items": {
+          "minLength": 1,
+          "pattern": "\\S",
+          "type": "string"
+        },
+        "minItems": 1,
+        "type": "array",
+        "uniqueItems": true
+      },
+      "evidence_kind": {
+        "enum": [
+          "observed",
+          "synthetic_software_control"
+        ]
+      },
+      "packet_id": {
+        "minLength": 1,
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "requested_scope": {
+        "enum": [
+          "source_system",
+          "adult_primary_human_ocular"
+        ]
+      },
+      "schema": {
+        "const": "rpe.uncertainty-packet/2"
+      }
+    },
+    "required": [
+      "schema",
+      "packet_id",
+      "evidence_ids",
+      "requested_scope",
+      "evidence_kind"
+    ],
+    "type": "object"
+  },
+  "resolution_precedence": [
+    "software_control_only",
+    "heterogeneous_units",
+    "precision_unavailable",
+    "uncertain_direction",
+    "sensitivity_fragile",
+    "conditional_on_unverified_dependence",
+    "source_bounded_direction"
+  ],
+  "restoration_policy": "All packets remain unestablished; no protocol recommendation authority or new RNA/function link.",
+  "schema": "rpe.uncertainty-contract/2",
+  "schema_runtime": "Explicit declared JSON Schema subset implemented without a runtime third-party dependency; independently compared with Draft202012Validator.",
+  "source_bounded_rule": "Both frozen normalizations have available same-direction zero-excluding intervals; every expected omission agrees; complete consistent paired units and named donor pairing."
+}

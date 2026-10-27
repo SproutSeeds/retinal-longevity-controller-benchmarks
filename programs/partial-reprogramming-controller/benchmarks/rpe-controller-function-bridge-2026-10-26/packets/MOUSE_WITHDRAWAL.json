@@ -1,0 +1,8 @@
+{
+  "evidence_ids": [
+    "MOUSE_WITHDRAWAL_CYCLE"
+  ],
+  "evidence_kind": "observed",
+  "packet_id": "MOUSE_WITHDRAWAL",
+  "requested_scope": "adult_primary_human_ocular"
+}
