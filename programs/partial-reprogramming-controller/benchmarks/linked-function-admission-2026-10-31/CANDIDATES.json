@@ -1,0 +1,336 @@
+{
+  "schema": "linked-function.candidates/1",
+  "candidates": [
+    {
+      "candidate_id": "GILL2022_GSE165177",
+      "study": "Gill et al. 2022",
+      "accession": "GSE165177 (RNA subseries of GSE165180)",
+      "system": "adult_primary_reprogrammed_descendants",
+      "tissue": "dermal fibroblast lineage; intermediates and iPSC references require explicit exclusion",
+      "rna_records": 95,
+      "function_endpoint": "Wound-closure migration speed",
+      "link_level": "unverified",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "unresolved"
+      },
+      "scope_priority": 0,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 0,
+      "priority_rationale": "Adult-origin transient-reprogramming study with resolved RNA donor/experiment/duration labels and reported variable migration; the exact migration observations and crosswalk would answer the project's measurement question directly.",
+      "source_files": [
+        "GSE165177.soft.gz",
+        "GSE165180-series.soft.txt",
+        "PMC9023058.xml",
+        "Gill2022-reporting.docx"
+      ],
+      "source_urls": [
+        "https://elifesciences.org/articles/71624",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177"
+      ],
+      "missing_evidence": [
+        "Exact migration values with culture/experiment identifiers",
+        "Authoritative migration-to-RNA mapping and compatible assay timing",
+        "Scope treatment for temporary identity loss, unequal final outgrowth representation and repeated donors"
+      ],
+      "allowed_now": "Within-RNA metadata audit: 13 source-labeled final-treated/control contrasts across three donor labels and two experiments; no expression effects computed.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Use gill-rna-pairs.tsv as the frozen RNA-side intake; obtain an existing migration table and its mapping before any paired RNA/function calculation.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "SCHIFF2019_GSE126633",
+      "study": "Schiff et al. 2019",
+      "accession": "GSE126633",
+      "system": "adult_primary",
+      "tissue": "adult human RPE plus two separately scoped patient membranes",
+      "rna_records": 8,
+      "function_endpoint": "Pathological membrane formation/contraction; inhibitor response is a separate arm",
+      "link_level": "unverified",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "summary_only"
+      },
+      "scope_priority": 0,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 1,
+      "priority_rationale": "Adult ocular tissue and public donor-labeled RNA; supplement recovers function-line summaries but uses a different identifier namespace.",
+      "source_files": [
+        "GSE126633.soft.gz",
+        "PMC6499805.xml",
+        "Schiff2019-supplement-full.pdf",
+        "Schiff2019-reporting-media.pdf"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s42003-019-0406-6",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126633"
+      ],
+      "missing_evidence": [
+        "A-J functional-line to RNA donor 15/18/37 crosswalk",
+        "Per-experiment functional observations and assay context",
+        "Separate identity of inhibitor/rescue samples; no inhibitor RNA arm in the deposited roster"
+      ],
+      "allowed_now": "Preserve the completed source-bounded RNA challenge and ten published functional-line summaries; their 26 reported repeats do not become 26 donors.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Resolve the identifier mapping and exact assay rows; do not pair A/B/C with 15/18/37 by position.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "SARKAR2020_PRJNA598923",
+      "study": "Sarkar et al. 2020",
+      "accession": "PRJNA598923 (RNA); GSE142439 is methylation",
+      "system": "adult_primary_reprogrammed_descendants",
+      "tissue": "fibroblast/endothelial RNA; chondrocyte and muscle assays must remain separate",
+      "rna_records": 18,
+      "function_endpoint": "Cell physiology and lineage-specific functional assays in the paper",
+      "link_level": "unverified",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified_raw_reads_metadata",
+        "public_direct_function_values": "unresolved"
+      },
+      "scope_priority": 0,
+      "source_access_priority": 1,
+      "crosswalk_recovery_priority": 2,
+      "priority_rationale": "Adult-origin short transient reprogramming with 18 RNA run records; processed expression, donor/assay mapping and cell-type-specific functional scope require recovery.",
+      "source_files": [
+        "PRJNA598923-ena.tsv",
+        "PRJNA589823-ena.tsv",
+        "GSE142439-series.soft.txt",
+        "PMC7093390.xml"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-020-15174-3",
+        "https://www.ebi.ac.uk/ena/browser/view/PRJNA598923"
+      ],
+      "missing_evidence": [
+        "Reusable processed RNA values or a separately scoped read-processing plan",
+        "Donor/parent-culture linkage to the same cell type's functional observations",
+        "Public numerical function table and exposure/collection mapping"
+      ],
+      "allowed_now": "18 human RNA-Seq run records verified. The alternate PRJNA589823 query returned no read runs in this ENA view; this is not a global absence claim.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Use the current HTML/XML accession PRJNA598923 and preserve the PDF accession discrepancy; do not substitute methylation records for RNA or muscle outcomes for fibroblast function.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "INANA2018",
+      "study": "Inana et al. 2018",
+      "accession": "PMID29534722 / PMC5851074",
+      "system": "adult_primary",
+      "tissue": "normal and AMD adult human RPE",
+      "rna_records": 0,
+      "function_endpoint": "Photoreceptor outer-segment uptake after conditioned-medium exposure",
+      "link_level": "unverified",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "unresolved",
+        "public_direct_function_values": "unresolved"
+      },
+      "scope_priority": 0,
+      "source_access_priority": 2,
+      "crosswalk_recovery_priority": 3,
+      "priority_rationale": "Strong adult-primary ocular functional context; the reviewed availability statement routes data to author request rather than a reusable accession.",
+      "source_files": [
+        "PMC5851074.xml"
+      ],
+      "source_urls": [
+        "https://link.springer.com/article/10.1186/s12967-018-1434-6"
+      ],
+      "missing_evidence": [
+        "Public per-sample RNA matrix/accession not resolved in this bounded audit",
+        "Numerical uptake observations and corresponding culture/donor mapping",
+        "Compatibility of the RNA collection and functional-assay exposure contexts"
+      ],
+      "allowed_now": "Published condition-level functional/RNA context; no public joint input admitted.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Retain as an acquisition lead. An existing deposited or legitimately shared matrix plus culture-linked uptake table would be useful; this packet sends no inquiry.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "PISKOVA2026_GSE297557",
+      "study": "Piskova et al. 2026",
+      "accession": "GSE297557",
+      "system": "pluripotent_derived",
+      "tissue": "one human iPSC-derived RPE line",
+      "rna_records": 8,
+      "function_endpoint": "Outer-segment internalization; separate CK666 rescue assay",
+      "link_level": "condition_only",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "verified_previous_packet"
+      },
+      "scope_priority": 1,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 0,
+      "priority_rationale": "Existing numerical function tables and four RNA experiment pairs support a condition-level specificity challenge; source-local replicate ordinals remain unlinked.",
+      "source_files": [
+        "GSE297557.soft.gz",
+        "PMC13068956.xml"
+      ],
+      "source_urls": [
+        "https://www.nature.com/articles/s41467-026-71493-x",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297557"
+      ],
+      "missing_evidence": [
+        "Four RNA-pair to functional experiment crosswalk",
+        "Rescue RNA if molecular recovery under CK666 is the question",
+        "Adult-primary system evidence for any adult-primary inference"
+      ],
+      "allowed_now": "Continue the existing impairment/rescue interpretation challenge at condition level; retain iPSC-derived scope.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Keep the known functional challenge; require original sample mapping for a joint analysis and retain the absent rescue RNA arm.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "SCHREITER2020_GSE132828",
+      "study": "Schreiter et al. 2020",
+      "accession": "GSE132828",
+      "system": "pluripotent_derived",
+      "tissue": "hESC-derived RPE RNA; MERTK-mutant rescue is a separate system",
+      "rna_records": 21,
+      "function_endpoint": "Outer-segment phagocytosis after ramoplanin exposure",
+      "link_level": "condition_only",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "unresolved"
+      },
+      "scope_priority": 1,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 1,
+      "priority_rationale": "Seven RNA treatment/POS groups with three reported repeats are public; compound-dose and vehicle metadata and functional batch identities remain unresolved.",
+      "source_files": [
+        "GSE132828.soft.gz",
+        "PMC7724476.xml"
+      ],
+      "source_urls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7724476/",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE132828"
+      ],
+      "missing_evidence": [
+        "RNA/function experiment or differentiation-batch mapping",
+        "Reconciliation of 10 versus 20 micromolar and vehicle annotations",
+        "Source-compatible numerical functional observations and system separation"
+      ],
+      "allowed_now": "Preserve the completed seven-group RNA challenge; 21 libraries do not imply 21 independent donors.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Resolve dose/vehicle/context before joining assays; keep MERTK-mutant rescue distinct from the RNA cohort.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "SAINI2017_GSE90889",
+      "study": "Saini et al. 2017",
+      "accession": "GSE90889",
+      "system": "pluripotent_derived",
+      "tissue": "seven donor-derived hiPSC-RPE line pairs",
+      "rna_records": 14,
+      "function_endpoint": "Disease biomarker secretion; direct function for this RNA comparison remains unresolved",
+      "link_level": "unverified",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "partial_metadata_and_article_record",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "unresolved"
+      },
+      "scope_priority": 1,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 2,
+      "priority_rationale": "The seven paired author-normalized RNA comparisons are already completed; additional source binding would need a direct functional endpoint, not biomarker abundance alone.",
+      "source_files": [
+        "GSE90889.soft.gz",
+        "Saini2017-core.json"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1016/j.stem.2016.12.015",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90889"
+      ],
+      "missing_evidence": [
+        "Authoritative RNA-to-assay culture mapping",
+        "Direct functional endpoint suitable for the declared comparison",
+        "Complete source article/supplement and source-specific reuse review; current fullTextXML request failed"
+      ],
+      "allowed_now": "Keep the completed seven-line NAM RNA/biomarker specificity challenge.",
+      "article_license": "Full article license not resolved by the current core metadata response",
+      "next_action": "Avoid repeating completed RNA work; reopen only for a specific mapped functional endpoint.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    },
+    {
+      "candidate_id": "BUTLER2021_GSE159435",
+      "study": "Butler et al. 2021",
+      "accession": "GSE159435",
+      "system": "adult_primary",
+      "tissue": "adult human RPE tissue",
+      "rna_records": 13,
+      "function_endpoint": "No linked direct function input in the admitted age-reference design",
+      "link_level": "not_available",
+      "evidence": {
+        "authoritative_unit_crosswalk": "unresolved",
+        "compatible_assay_context": "unresolved",
+        "documented_reuse_terms": "verified_for_metadata_and_attributed_derivatives",
+        "public_rna_source": "verified",
+        "public_direct_function_values": "not_available"
+      },
+      "scope_priority": 2,
+      "source_access_priority": 0,
+      "crosswalk_recovery_priority": 0,
+      "priority_rationale": "A completed cross-sectional age reference calibrates interpretation, but is not an intervention/function experiment.",
+      "source_files": [
+        "GSE159435.soft.gz",
+        "PMC8184696.xml"
+      ],
+      "source_urls": [
+        "https://doi.org/10.1111/jcmm.16569",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159435"
+      ],
+      "missing_evidence": [
+        "A direct functional observation linked to the RNA units",
+        "Intervention and recovery observations if a restoration question is asked"
+      ],
+      "allowed_now": "Reference-only age calibration with 13 donors; preserve existing covariate and postmortem limits.",
+      "article_license": "CC BY 4.0",
+      "next_action": "Keep as an age-direction reference, not the next functional acquisition target.",
+      "unit_crosswalk": [],
+      "unit_crosswalk_authority": null,
+      "review_status": "internal_source_review_human_priority_review_pending",
+      "rank_interpretation": "Heuristic provisional acquisition priority; human priority review remains pending; no efficacy or safety score"
+    }
+  ]
+}

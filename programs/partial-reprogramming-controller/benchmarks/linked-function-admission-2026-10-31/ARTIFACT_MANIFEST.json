@@ -1,0 +1,27 @@
+{
+  "files": {
+    "ADMISSION_CONTRACT.json": "9eb9b8a30e53ab7e20261c869c67ebaa510cf279372dfe5ffa46c15e97acf24c",
+    "ADMISSION_RESULTS.json": "ea6986c8982ad9a9a12f81f4535d36489012d6ef4e4c6fe506500618f973e02f",
+    "CANDIDATES.json": "f2780b516e4707249d174a88a8f98a58b1be1e39fc2e1fbcb270d5a40f8bb91d",
+    "CLAIM.md": "ced85c85905b8adf1a5189a999e598af17369d70a9c7d2835d09db0dc9bd21d7",
+    "CONTRACT_BINDING.json": "2e13d957332988771d2f0bd72f792148317edbb35eb9f5516ff7ff9d5ea2067d",
+    "FAILED_PATHS.json": "45102db97c75e72a3b6a817b3ededdf8c54f9cc4b86ec45a48692c57ecce402b",
+    "NEXT_INPUT_SPEC.json": "240d54e184bbabc2e856272f1e9f8fc51d4224e76cb740c2c7f62c36303f0a31",
+    "README.md": "d87691eb502540faf87b3c7c94f6fa465ee029253d85f971c1ffbd49d027dc2a",
+    "REPORT.md": "9ab43a327896ca826010c2057d9d515a8d20b09749a25be270479a281ec97732",
+    "SOURCE_FACTS.json": "68879f53caa0b51e2d5ac14f2da0a9a5af4db3e3d08da0be17aee3139265a266",
+    "SOURCE_MANIFEST.json": "c370ce114c4c0ffd8da49be08b0f5f8e33d73376f2daafdda9c36b493a6972c3",
+    "VERIFICATION_RECORD.md": "d167325ea8f75d1995132e9051c3bbaff99bc379089fa806a06cbd27e3a26ac4",
+    "acquire.py": "26850af922bdc19fa8056bf2eb46bf03d822314f15159dbf221be3aee33c4646",
+    "admission.py": "c37658710b998da05761ab8c4a096cfa1cf287d55188eb178240269712d7158a",
+    "audit_sources.py": "0b47df1e00a798645b90ce536c41e311ddd092eaa6c118e5c497965895b3b687",
+    "dataset-shortlist.csv": "a1e6e4cccdf4db2a64759e83baf6b4cd41a865ea3509ce7ae7af02aa0973e4c7",
+    "gill-rna-pairs.tsv": "907ddc0ec7bf4679e5579db4497b2731016f9eb71cf6e35c877bfb5bc74f6134",
+    "rna-samples.tsv": "4754e448b5cc85bb5f8e477964331ccb6c7e5a78cfccffcf97254623774afc9e",
+    "schiff-function-line-summaries.tsv": "95c03c4b58dc31ebd461a3ad9a2aa12a5ef56088ea3954b9aa0cdd925a928fab",
+    "test_admission.py": "0698be970bc12bdae13f672dda777b77f4841da745d61d25234c077806c7a281",
+    "verify.py": "a61fbb8c39b808e7a24813768b10e87b50259cf478c9c0077a6906d060626510"
+  },
+  "schema": "linked-function.artifacts/1",
+  "scope": "Portable source extractions, reviewed curation and deterministic intake replay; original source-byte audit is separate."
+}

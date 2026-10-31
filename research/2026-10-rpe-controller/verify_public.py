@@ -34,6 +34,8 @@ def main():
                                     '--catalog', bridge / 'ADMISSION_CATALOG.json']))
         if actual != record['evaluation']:
             raise AssertionError('Earlier CLI output changed: ' + record['packet_id'])
+    linked = CONTROLLER / 'benchmarks/linked-function-admission-2026-10-31'
+    print(execute([linked / 'verify.py']).strip())
     print('PASS public replay: %d released files; 9 v2 packets; %d earlier packets; no raw-data or model download.' % (len(manifest['files']), len(records)))
 
 

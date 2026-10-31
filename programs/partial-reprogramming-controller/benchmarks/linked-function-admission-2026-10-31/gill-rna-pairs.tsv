@@ -1,0 +1,14 @@
+donor_label	donor_age_years	reprogramming_days	experiment	control_rna_id	treated_rna_id	link_scope	function_unit_id	joint_function_admitted
+O1	53	10	2	GSM5391794	GSM5391802	within_RNA_metadata_only		False
+O1	53	17	1	GSM5027636	GSM5027637	within_RNA_metadata_only		False
+O2	53	10	2	GSM5391816	GSM5391824	within_RNA_metadata_only		False
+O2	53	13	1	GSM5027641	GSM5027644	within_RNA_metadata_only		False
+O2	53	13	2	GSM5391817	GSM5391825	within_RNA_metadata_only		False
+O2	53	17	1	GSM5027643	GSM5027645	within_RNA_metadata_only		False
+O3	38	10	2	GSM5391839	GSM5391847	within_RNA_metadata_only		False
+O3	38	13	1	GSM5027649	GSM5027652	within_RNA_metadata_only		False
+O3	38	13	2	GSM5391840	GSM5391848	within_RNA_metadata_only		False
+O3	38	15	1	GSM5027650	GSM5027653	within_RNA_metadata_only		False
+O3	38	15	2	GSM5391841	GSM5391849	within_RNA_metadata_only		False
+O3	38	17	1	GSM5027651	GSM5027654	within_RNA_metadata_only		False
+O3	38	17	2	GSM5391842	GSM5391850	within_RNA_metadata_only		False

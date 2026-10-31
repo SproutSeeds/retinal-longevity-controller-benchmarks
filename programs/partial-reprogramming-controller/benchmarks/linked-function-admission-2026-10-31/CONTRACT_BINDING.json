@@ -1,0 +1,7 @@
+{
+  "schema": "linked-function.contract-binding/1",
+  "contract_sha256": "9eb9b8a30e53ab7e20261c869c67ebaa510cf279372dfe5ffa46c15e97acf24c",
+  "frozen_at_utc": "2026-10-31T17:26:21.862076+00:00",
+  "known_outcome_selection": true,
+  "scope": "Public derivative of the original contract freeze; private operating-plan bytes are outside this public contract binding."
+}

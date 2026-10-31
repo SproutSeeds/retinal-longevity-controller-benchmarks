@@ -1,0 +1,149 @@
+{
+  "adult_primary_admissions": 0,
+  "candidate_count": 8,
+  "gate_replay_level": "Verified_after_verification_hook",
+  "joint_admissions": 0,
+  "ranking_level": "Heuristic",
+  "ranking_status": "provisional_internal_rank_pending_human_priority_review",
+  "results": [
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "GILL2022_GSE165177",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "SCHIFF2019_GSE126633",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "SARKAR2020_PRJNA598923",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "evidence_unresolved:public_rna_source",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "INANA2018",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "evidence_unresolved:public_rna_source",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "PISKOVA2026_GSE297557",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "SCHREITER2020_GSE132828",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "SAINI2017_GSE90889",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    },
+    {
+      "adult_primary_admitted": false,
+      "candidate_id": "BUTLER2021_GSE159435",
+      "decision": "deferred_joint_analysis",
+      "independent_donors": 0,
+      "joint_analysis_admitted": false,
+      "linked_observations": 0,
+      "reasons": [
+        "crosswalk_authority_missing",
+        "crosswalk_rows_missing",
+        "evidence_unresolved:authoritative_unit_crosswalk",
+        "evidence_unresolved:compatible_assay_context",
+        "evidence_unresolved:documented_reuse_terms",
+        "evidence_unresolved:public_direct_function_values",
+        "no_admissible_unit_link"
+      ]
+    }
+  ],
+  "schema": "linked-function.admission-result/1"
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "linked-function.next-input/1",
+  "priority_level": "Heuristic",
+  "candidate": "GILL2022_GSE165177",
+  "question": "Can exact culture-linked migration observations be bound to the frozen RNA records without changing the experimental-unit or lineage scope?",
+  "rna_manifest": "gill-rna-pairs.tsv",
+  "required_columns": [
+    "original_function_observation_id",
+    "original_culture_or_parent_culture_id",
+    "donor_label_or_authoritative_donor_crosswalk",
+    "experiment_or_batch",
+    "condition",
+    "reprogramming_duration_label",
+    "withdrawal_and_collection_context",
+    "migration_value",
+    "migration_units",
+    "technical_replicate_or_aggregation_rule",
+    "corresponding_GEO_RNA_accession_or_authoritative_crosswalk"
+  ],
+  "acceptance_conditions": [
+    "Source authority, reuse terms and exclusions are documented",
+    "Within-RNA matching is not presented as RNA/function matching",
+    "Authoritative paired or sibling-culture mapping agrees in donor, culture, intervention and collection context",
+    "All available eligible cultures are represented without outcome-selected matching",
+    "Biological replication is counted at donor/culture scope, not at the number of RNA contrasts or image fields",
+    "Temporary identity loss, outgrowth selection and reference/intermediate libraries remain explicit"
+  ],
+  "possible_decisions": {
+    "concordance": "Supports a source-bounded association for the admitted units; does not establish age restoration",
+    "molecular_change_without_functional_benefit": "Challenges a molecular-only favorable interpretation",
+    "functional_change_without_panel_reversal": "Challenges that panel's necessity for this functional comparison",
+    "unresolved_mapping": "Keep the joint calculation deferred; preserve source-specific lower-tier uses"
+  },
+  "authorized_by_this_packet": [
+    "public metadata and provenance review",
+    "deterministic local intake replay"
+  ],
+  "future_send_authorized": false,
+  "clinical_or_wet_lab_use_authorized": false
+}

@@ -6,11 +6,14 @@ Title: Retinal Longevity Controller Benchmarks
 
 Public data, reproducible analysis and explicit evidence requirements for lineage-preserving reprogramming research. Maintained by SproutSeeds / [Fractal Research Group](https://frg.earth).
 
-**Current scientific checkpoint — October 26, 2026:** [RPE RNA, function and uncertainty](research/2026-10-rpe-controller/README.md) now includes executable evidence evaluators, source-result tables and exact replay tests. Nine v2 packets retain uncertainty across 23 distinct observations; 56 actual CLI rejection cases enforce the evidence boundary. Biological conclusions remain **Heuristic**; experiment replacement is **INCONCLUSIVE**.
+**Current scientific checkpoint — October 31, 2026:** [RNA and measured function across eight human-cell studies](programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md) provides a ranked dataset intake table, 177 recovered RNA metadata records and 13 source-labeled RNA comparisons across three Gill donor labels. All eight joint RNA/function admissions remain deferred for missing source-compatible inputs. Acquisition priority is **Heuristic**, with human priority review pending.
+
+The [October 26 RPE controller release](research/2026-10-rpe-controller/README.md) contains executable evidence evaluators, source-result tables and exact replay tests. Nine v2 packets retain uncertainty across 23 distinct observations; 56 actual CLI rejection cases enforce the evidence boundary. Biological conclusions remain **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
 A current-release tAge diagnostic has run. **Exact historical tAge6 reproduction remains pending** on authoritative historical artifacts and preprocessing. No TACO execution is claimed. Earlier preparation documents preserve their original dated status.
 
 - **[Latest reusable RPE controller release](research/2026-10-rpe-controller/README.md)** · [source attribution](research/2026-10-rpe-controller/THIRD_PARTY.md) · [release manifest](research/2026-10-rpe-controller/public-package.json).
+- **[Linked RNA/function input audit](programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md)** · [ranked CSV](programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/dataset-shortlist.csv) · [exact next input](programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json).
 - **[Public research checks](https://github.com/SproutSeeds/retinal-longevity-controller-benchmarks/actions/workflows/research-checks.yml)** run on every public push and pull request. The configured source checkpoint hook publishes approved scientific content after local checks; [update scope and limits](research/2026-10-rpe-controller/README.md#how-updates-reach-this-repository).
 
 - **[Historical clock reproduction preparation](research/2026-10-tage-replay-preparation/README.md)** — input checks, a frozen comparison plan and synthetic software tests; the historical model adapter remains unresolved.

@@ -45,6 +45,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -58,6 +62,18 @@
     },
     {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/public-package.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/dataset-shortlist.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json",
       "status": "PASS"
     },
     {
@@ -282,6 +298,270 @@
     },
     {
       "name": "sha256:programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CONTRACT_BINDING.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CONTRACT_BINDING.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/CONTRACT_BINDING.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md:REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md:dataset-shortlist.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/README.md:CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md:CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md:gill-rna-pairs.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md:schiff-function-line-summaries.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/REPORT.md:FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/acquire.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/acquire.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/acquire.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/audit_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/audit_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/audit_sources.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/dataset-shortlist.csv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/gill-rna-pairs.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/rna-samples.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/schiff-function-line-summaries.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/test_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/test_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/test_admission.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/verify.py",
       "status": "PASS"
     },
     {
@@ -6561,8 +6841,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1640,
+  "passed": 1710,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1640
+  "total": 1710
 }

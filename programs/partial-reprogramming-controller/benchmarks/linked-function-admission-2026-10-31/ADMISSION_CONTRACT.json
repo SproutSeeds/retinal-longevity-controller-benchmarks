@@ -1,0 +1,22 @@
+{
+  "schema": "linked-function.admission-contract/1",
+  "frozen_date": "2026-10-31",
+  "question": "Admit an existing public RNA/direct-function comparison only at its documented experimental-unit and biological-system scope.",
+  "allowed_link_levels": ["same_parent_culture_aliquots", "explicitly_matched_sibling_cultures"],
+  "insufficient_link_levels": ["donor_only", "condition_only", "row_order", "unverified", "not_available"],
+  "required_comparison_fields": ["biological_unit_id", "donor_id", "culture_context", "condition", "exposure_context", "collection_context"],
+  "required_evidence": ["public_rna_source", "public_direct_function_values", "authoritative_unit_crosswalk", "compatible_assay_context", "documented_reuse_terms"],
+  "system_scope": {
+    "adult_primary": "eligible_for_adult_primary_comparison_if_all_evidence_passes",
+    "adult_primary_reprogrammed_descendants": "eligible_only_with_explicit_lineage_transition_scope",
+    "pluripotent_derived": "support_comparison_only; cannot supply adult_primary evidence"
+  },
+  "forbidden_inferences": ["match assays by row order or local replicate ordinals", "infer a donor or treatment from expression", "count cells or wells as additional donors", "infer functional benefit from RNA, protein abundance or an age-clock change alone", "join different doses, times or rescue arms without documented compatibility", "infer same-cell continuity from destructive assays", "equate a functional phenotype with reversal of biological aging"],
+  "ranking": {
+    "type": "reviewed_lexicographic_acquisition_priority",
+    "fields": ["scope_priority", "source_access_priority", "crosswalk_recovery_priority", "candidate_id"],
+    "interpretation": "A reproducible research acquisition order, not an efficacy or safety score. Human-reviewed priority inputs and their rationale remain explicit."
+  },
+  "stop_rule": "Finish after eight named candidates and their linked public source records/supplements. Preserve unresolved fields and choose the narrowest supported next comparison.",
+  "claim_limits": ["No new expression contrasts or RNA/function correlations in this packet", "No clinical, safety, rejuvenation or wet-lab replacement conclusion", "Phase 483 and all prior controller verdicts remain unchanged", "No further sends authorized"]
+}

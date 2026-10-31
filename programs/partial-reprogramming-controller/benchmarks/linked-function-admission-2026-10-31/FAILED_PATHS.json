@@ -1,0 +1,65 @@
+{
+  "schema": "linked-function.failed-paths/1",
+  "records": [
+    {
+      "path": "Default controller preflight on the restart branch",
+      "result": "FAIL_default_branch_policy",
+      "cause": "The default preflight requires main. This bounded source audit intentionally continues the configured ocular restart branch.",
+      "next_hook": "controller_research_preflight.py --allow-non-main passed with the restoration-kernel gate; preserve the initial rejection."
+    },
+    {
+      "path": "GSE165180 full-family and all-sample text requests",
+      "result": "CAP_REACHED",
+      "cause": "The mixed RNA/methylation family exceeded the compact 8 MiB cap. No partial response was admitted.",
+      "next_hook": "Recovered SuperSeries metadata, all four SubSeries identities and the compact GSE165177 RNA family. Methylation references stay separate."
+    },
+    {
+      "path": "GSE142439 full-family request",
+      "result": "CAP_REACHED",
+      "cause": "The methylation family exceeded the compact-source cap.",
+      "next_hook": "Recovered the small series record and verified its methylation assay type; use PRJNA598923 for RNA metadata."
+    },
+    {
+      "path": "Saini PMC5419856 fullTextXML",
+      "result": "HTTP_500_INCOMPLETE_SOURCE_COVERAGE",
+      "cause": "The full-text endpoint failed. A primary bibliographic/abstract record and GEO RNA metadata were retained.",
+      "next_hook": "Resolve full article/supplement and data-reuse scope before reopening joint functional admission; do not claim an exhaustive supplement audit."
+    },
+    {
+      "path": "Schiff legacy static-content CDN",
+      "result": "DNS_FAILURE",
+      "cause": "The older host did not resolve.",
+      "next_hook": "Recovered reporting and supplementary PDFs from the publisher's linked media.springernature.com URLs."
+    },
+    {
+      "path": "Schiff full supplement under the default 8 MiB cap",
+      "result": "CAP_REACHED_THEN_BOUNDED_RECOVERY",
+      "cause": "The original 12,497,793-byte PDF exceeded the default cap.",
+      "next_hook": "Preserved the failed attempt and allowed 16 MiB for this single named document. Extracted and rendered page 7; no sequence reads downloaded."
+    },
+    {
+      "path": "Pairing Schiff functional lines A-J with RNA donors 15/18/37",
+      "result": "REJECTED_UNSUPPORTED_CROSSWALK",
+      "cause": "The inspected sources use different identifier namespaces and do not establish a mapping.",
+      "next_hook": "Require the original line/donor and assay-experiment crosswalk; local row order remains forbidden."
+    },
+    {
+      "path": "Pairing Gill RNA contrasts with migration observations",
+      "result": "DEFERRED_MISSING_FUNCTION_INPUT",
+      "cause": "The audit recovered exact within-RNA labels, but did not recover numerical culture-linked migration data or its RNA crosswalk.",
+      "next_hook": "Use NEXT_INPUT_SPEC.json and gill-rna-pairs.tsv; a new correspondence send would require separate authorization."
+    },
+    {
+      "path": "PRJNA589823 alternative accession in the published PDF text",
+      "result": "NO_READ_RUN_ROWS_IN_THIS_ENA_VIEW",
+      "cause": "The bounded read_run metadata query returned only a header. Current article XML identifies PRJNA598923, which returned 18 human RNA-Seq runs.",
+      "next_hook": "Retain the live view and source distinction; do not treat an empty view as proof of global absence."
+    },
+    {
+      "path": "Initial publication-posture check",
+      "result": "FAIL_then_corrected",
+      "cause": "The local publication gate requires a Title metadata line and exact attribution wording; the first report had only a Markdown heading.",
+      "next_hook": "Added the required title metadata and explicit original-investigator attribution, then reran the writing gate."
+    }
+  ]
+}

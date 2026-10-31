@@ -1,0 +1,51 @@
+{
+  "alternate_sarkar_accession_read_runs_returned": 0,
+  "article_licenses": {
+    "PMC13068956.xml": "CC_BY_4.0_article",
+    "PMC5851074.xml": "CC_BY_4.0_article",
+    "PMC6499805.xml": "CC_BY_4.0_article",
+    "PMC7093390.xml": "CC_BY_4.0_article",
+    "PMC7724476.xml": "CC_BY_4.0_article",
+    "PMC8184696.xml": "CC_BY_4.0_article",
+    "PMC9023058.xml": "CC_BY_4.0_article"
+  },
+  "gill_design_counts": {
+    "final_outgrowth": 55,
+    "iPSC_reference": 2,
+    "intermediate": 35,
+    "starting_fibroblast": 3
+  },
+  "gill_donor_labels": [
+    "O1",
+    "O2",
+    "O3"
+  ],
+  "gill_experiments": [
+    1,
+    2
+  ],
+  "gill_reprogramming_durations_days": [
+    10,
+    13,
+    15,
+    17
+  ],
+  "gill_within_rna_contrasts": 13,
+  "preserved_source_failures": 7,
+  "rna_sample_counts": {
+    "GSE126633": 8,
+    "GSE132828": 21,
+    "GSE159435": 13,
+    "GSE165177": 95,
+    "GSE297557": 8,
+    "GSE90889": 14,
+    "PRJNA598923": 18
+  },
+  "rna_sample_records_total": 177,
+  "schema": "linked-function.source-facts/1",
+  "schiff_function_summary_lines": 10,
+  "schiff_joined_rna_function_units": 0,
+  "schiff_reported_experiment_sum": 26,
+  "scope": "Metadata extraction and candidate admission; no expression effects or joint correlations.",
+  "source_downloads": 27
+}
