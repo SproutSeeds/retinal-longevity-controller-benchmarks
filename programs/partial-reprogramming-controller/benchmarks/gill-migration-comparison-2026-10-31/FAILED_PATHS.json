@@ -1,0 +1,8 @@
+{
+  "schema": "gill.unresolved-inputs/1",
+  "status": "deferred_joint_comparison",
+  "paths": [
+    {"question": "Can the 13 RNA contrasts alone establish a molecular/function comparison?", "blocking_reason": "No admitted migration observations or authoritative culture crosswalk.", "next_hook": "Source-reviewed migration observations and matching context pass intake.py."},
+    {"question": "Can another clock or group mean substitute for missing per-sample predictions?", "blocking_reason": "The frozen primary readout is the existing custom-clock output for each exact RNA sample.", "next_hook": "Recover those source-reported predictions and their accession mapping, or preserve this freeze and explicitly amend the question."}
+  ]
+}

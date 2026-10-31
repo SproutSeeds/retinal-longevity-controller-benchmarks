@@ -1,0 +1,13 @@
+{
+  "files": {
+    "ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "crosswalk.template.tsv": "402a8f77189a86387169278882f4544f0034129a94c9ab80d621ed58bfb6d151",
+    "evidence.template.json": "71fc86fc5abf7c40877f99239f27f4061e803b85d5f9c42615805597c85e7001",
+    "migration.template.tsv": "875991d630d4b1c1337ae7bf6e10b87b90011f3cb107b162aa5be1585cf140a8",
+    "molecular_age.template.tsv": "529b52b8a22b8c148ec6dfc94f2da0d8b04894fb28fc8f403c98768fc41542ca",
+    "rna-pairs.tsv": "724d27ace9914a2d32e1246e2a073a0bc0e5172b21168e09c0446bfadb67833e"
+  },
+  "frozen_at": "2026-10-31T18:17:49.810719+00:00",
+  "known_outcome_status": "Known-outcome reanalysis challenge: Gill et al. already report variable migration and lack of apparent clock correlation. This freeze precedes new numerical intake, not knowledge of the published result.",
+  "schema": "gill.analysis-freeze/1"
+}

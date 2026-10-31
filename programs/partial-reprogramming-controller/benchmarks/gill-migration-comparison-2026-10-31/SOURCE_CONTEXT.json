@@ -1,0 +1,16 @@
+{
+  "locators": [
+    "Figure 3C and 3G",
+    "Figure 3 supplement 1E",
+    "Materials and methods: wound healing assay"
+  ],
+  "observations": [
+    "Custom transcriptomic age predictor is the frozen molecular readout.",
+    "Migration technical replicates are averaged; the supplement groups starting populations.",
+    "The published migration outcome is known. Numerical culture-to-RNA mapping remains unresolved."
+  ],
+  "prior_packet": "../linked-function-admission-2026-10-31",
+  "source_file_in_prior_manifest": "PMC9023058.xml",
+  "source_sha256": "afe77257112ed4a8f8513a8ff682da51ac629847caf5abd844c93d76ddfd4779",
+  "source_url": "https://elifesciences.org/articles/71624"
+}

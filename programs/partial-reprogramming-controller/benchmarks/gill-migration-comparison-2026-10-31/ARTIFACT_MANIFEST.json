@@ -1,0 +1,23 @@
+{
+  "files": {
+    "ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "ANALYSIS_PLAN.md": "9a2e47de7a499fd962ef38026b9128ff09c93ecdac2a3e022d2bbc67a46c7ec2",
+    "CLAIM.md": "ac46781b7fa63daa898f9d2e896a24807596eabbab901884998cd12bd2726323",
+    "FAILED_PATHS.json": "f595e834f691516e13bdbc0288eff1e481e1b72cbb414752c1e15d68fe617e91",
+    "FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086",
+    "README.md": "3686dcea3c633ae263dc9d0ac0b0e95dea85c1a2da63c99c8b592e4216e9e833",
+    "SOURCE_CONTEXT.json": "0f947962993d883dfe2b9a0e44867d8389b39752e6e07df5b17bcdcde2221a53",
+    "VERIFICATION_RECORD.md": "bca6746958c52eae7179ea1f47194f5f4d4f51857c5875bb12cdb99661aa5a97",
+    "crosswalk.template.tsv": "402a8f77189a86387169278882f4544f0034129a94c9ab80d621ed58bfb6d151",
+    "evidence.template.json": "71fc86fc5abf7c40877f99239f27f4061e803b85d5f9c42615805597c85e7001",
+    "intake.py": "9c5d087620c5c24cf513c2eb030f01d35d94ef66126a7928f48f0ddd116c05ef",
+    "migration.template.tsv": "875991d630d4b1c1337ae7bf6e10b87b90011f3cb107b162aa5be1585cf140a8",
+    "molecular_age.template.tsv": "529b52b8a22b8c148ec6dfc94f2da0d8b04894fb28fc8f403c98768fc41542ca",
+    "rna-pairs.tsv": "724d27ace9914a2d32e1246e2a073a0bc0e5172b21168e09c0446bfadb67833e",
+    "test_intake.py": "1338c78b946c5b73d708ecb262b5b933ede944d5ec2dd8472e8db31e5e40d350",
+    "verify.py": "97bc068fcfd7ddd7112cec7cc906acf71965e9613f9a92c77202ad2590f84307"
+  },
+  "schema": "gill.public-artifacts/1",
+  "scope": "Software, frozen RNA metadata and empty input templates; correspondence and received data excluded."
+}

@@ -1,0 +1,107 @@
+{
+  "biological_validation": false,
+  "claim_level": "Verified",
+  "coverage": [
+    {
+      "pair_id": "O1-d10-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O1-d17-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O2-d10-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O2-d13-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O2-d13-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O2-d17-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d10-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d13-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d13-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d15-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d15-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d17-e1",
+      "reason": "",
+      "status": "missing_required_inputs"
+    },
+    {
+      "pair_id": "O3-d17-e2",
+      "reason": "",
+      "status": "missing_required_inputs"
+    }
+  ],
+  "decision": "DEFERRED",
+  "donor_effects": [],
+  "duration_summaries": [],
+  "frozen_pair_count": 13,
+  "input_kind": "observed",
+  "input_sha256": {
+    "crosswalk.template.tsv": "402a8f77189a86387169278882f4544f0034129a94c9ab80d621ed58bfb6d151",
+    "evidence.template.json": "71fc86fc5abf7c40877f99239f27f4061e803b85d5f9c42615805597c85e7001",
+    "migration.template.tsv": "875991d630d4b1c1337ae7bf6e10b87b90011f3cb107b162aa5be1585cf140a8",
+    "molecular_age.template.tsv": "529b52b8a22b8c148ec6dfc94f2da0d8b04894fb28fc8f403c98768fc41542ca"
+  },
+  "issues": [
+    "analysis_permission_unresolved",
+    "no_complete_pairs",
+    "pair_coverage_unresolved:O1-d10-e2",
+    "pair_coverage_unresolved:O1-d17-e1",
+    "pair_coverage_unresolved:O2-d10-e2",
+    "pair_coverage_unresolved:O2-d13-e1",
+    "pair_coverage_unresolved:O2-d13-e2",
+    "pair_coverage_unresolved:O2-d17-e1",
+    "pair_coverage_unresolved:O3-d10-e2",
+    "pair_coverage_unresolved:O3-d13-e1",
+    "pair_coverage_unresolved:O3-d13-e2",
+    "pair_coverage_unresolved:O3-d15-e1",
+    "pair_coverage_unresolved:O3-d15-e2",
+    "pair_coverage_unresolved:O3-d17-e1",
+    "pair_coverage_unresolved:O3-d17-e2",
+    "source_and_coverage_review_pending"
+  ],
+  "migration_observations_received": 0,
+  "molecular_values_received": 0,
+  "pair_effects": [],
+  "rna_donor_labels_in_frozen_roster": 3,
+  "schema": "gill.migration-readiness/1",
+  "system": "adult_primary_reprogrammed_descendants",
+  "verification_scope": "software_and_roster_only"
+}

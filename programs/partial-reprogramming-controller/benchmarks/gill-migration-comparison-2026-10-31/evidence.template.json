@@ -1,0 +1,14 @@
+{
+  "analysis_permitted": false,
+  "excluded_pairs": {},
+  "fixture_kind": "observed",
+  "redistribution_permitted": false,
+  "review": {
+    "basis": "",
+    "reviewed_at": "",
+    "reviewer": "",
+    "status": "pending"
+  },
+  "schema": "gill.migration-input/1",
+  "sources": []
+}

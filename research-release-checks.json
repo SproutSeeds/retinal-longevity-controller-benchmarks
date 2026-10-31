@@ -49,6 +49,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -74,6 +78,18 @@
     },
     {
       "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/READINESS.json",
       "status": "PASS"
     },
     {
@@ -298,6 +314,210 @@
     },
     {
       "name": "sha256:programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FAILED_PATHS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/READINESS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/READINESS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/READINESS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md:ANALYSIS_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md:ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md:FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md:READINESS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/SOURCE_CONTEXT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/SOURCE_CONTEXT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/SOURCE_CONTEXT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/crosswalk.template.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/evidence.template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/evidence.template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/evidence.template.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/migration.template.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/molecular_age.template.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/rna-pairs.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/test_intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/test_intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/test_intake.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/verify.py",
       "status": "PASS"
     },
     {
@@ -6841,8 +7061,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1710,
+  "passed": 1765,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1710
+  "total": 1765
 }

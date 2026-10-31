@@ -1,0 +1,143 @@
+{
+  "accession": "GSE165177",
+  "analysis": {
+    "across_donor": "Within each duration, mean donor-level effects with equal donor weights; never pool durations.",
+    "interpretation": "Directional association within admitted units; no causal or age-restoration conclusion.",
+    "primary_output": "Every admitted pair-level signed effect with donor, duration and experiment labels. Zero denotes no observed signed difference, not equivalence or statistical absence.",
+    "sensitivity": "For each duration with at least two admitted donors, leave out each donor and recompute the mean and remaining donor count. One-donor sensitivity is unavailable.",
+    "uncertainty": "Report pair/donor spread, coverage and donor sensitivity. No population confidence interval, significance test, pooled RNA-library correlation or clinical effect estimate.",
+    "within_donor": "Within each donor and duration, mean pair deltas over admitted experiments with equal pair weights."
+  },
+  "claim_level": "Heuristic",
+  "date": "2026-10-31",
+  "durations_days": [
+    10,
+    13,
+    15,
+    17
+  ],
+  "eligibility": "The 13 frozen within-RNA negative-control versus transiently-reprogrammed final-outgrowth contrasts. Account for every frozen pair; no outcome-selected subset.",
+  "eligible_pairs_file": "rna-pairs.tsv",
+  "evidence_review": {
+    "analysis_permission_required": true,
+    "excluded_pairs_require_authoritative_reason": true,
+    "meaning": "Software validates declared curation and file integrity; human review must establish that the sources support the mapping, values and reuse.",
+    "public_redistribution_is_separate": true,
+    "required_review_fields": [
+      "reviewer",
+      "reviewed_at",
+      "basis"
+    ],
+    "required_status": "verified",
+    "roles": [
+      "crosswalk",
+      "migration",
+      "molecular_age"
+    ],
+    "source_fields": [
+      "source_id",
+      "url",
+      "locator",
+      "path",
+      "sha256",
+      "role"
+    ]
+  },
+  "excluded_states": [
+    "intermediate",
+    "failed_to_reprogram",
+    "iPSC",
+    "starting_fibroblast",
+    "young_reference"
+  ],
+  "known_outcome_status": "Known-outcome reanalysis challenge: Gill et al. already report variable migration and lack of apparent clock correlation. This freeze precedes new numerical intake, not knowledge of the published result.",
+  "limits": [
+    "No rejuvenation, identity-retention, safety, persistence, ocular-efficacy, clinical or wet-lab-replacement conclusion.",
+    "Original investigators retain biological-discovery credit.",
+    "Phase 483 and prior controller verdicts remain unchanged.",
+    "No new send, experiment or paid compute authorized by this contract."
+  ],
+  "primary_function": {
+    "aggregation": "Arithmetic mean of all eligible technical-replicate speeds within each mapped culture. Pre-aggregated summaries require a new contract revision.",
+    "delta": "mean_treated_speed - mean_control_speed",
+    "endpoint": "wound_edge_migration_speed",
+    "favorable_observed_direction": "delta > 0",
+    "input": "Original per-technical-replicate speed estimates with source IDs and exclusions. Image fields and fitted time points are not extra biological replicates.",
+    "missing_rule": "Defer; no function inferred from RNA, collagen, group means or a plot.",
+    "units": "um_per_hour"
+  },
+  "primary_molecular": {
+    "clock_id": "Gill2022_custom_transcriptome_clock_Fig3C",
+    "delta": "treated_age_years - control_age_years",
+    "favorable_observed_direction": "delta < 0",
+    "input": "Existing investigator-reported per-RNA-sample predicted age, in years, with exact RNA IDs and provenance. Source-reported readout; independent clock reproduction remains separate.",
+    "missing_rule": "Defer; no replacement clock, retraining, plot digitization or imputed age."
+  },
+  "question": "Within authoritatively matched final-outgrowth cultures, how do source-reported transcription-age differences compare with migration-speed differences?",
+  "schema": "gill.migration-analysis-contract/1",
+  "stop_rules": [
+    "Contradictory context/ID, duplicated observation, reused culture, non-finite value, incompatible unit, wrong clock, absent provenance or unreviewed permission defers all calculation.",
+    "Missing pairs require source-backed reasons; report coverage of all 13 contrasts.",
+    "New measurements, clocks, selection or complex replicate designs require a new dated contract; preserve this freeze."
+  ],
+  "system": "adult_primary_reprogrammed_descendants",
+  "table_columns": {
+    "crosswalk": [
+      "rna_id",
+      "donor_label",
+      "reprogramming_days",
+      "experiment",
+      "condition",
+      "rna_parent_culture_id",
+      "function_culture_id",
+      "link_level",
+      "exposure_context",
+      "withdrawal_context",
+      "collection_context",
+      "source_id"
+    ],
+    "migration": [
+      "observation_id",
+      "function_culture_id",
+      "donor_label",
+      "reprogramming_days",
+      "experiment",
+      "condition",
+      "exposure_context",
+      "withdrawal_context",
+      "collection_context",
+      "speed",
+      "speed_units",
+      "source_id"
+    ],
+    "molecular_age": [
+      "rna_id",
+      "age_years",
+      "clock_id",
+      "source_id"
+    ]
+  },
+  "unit_policy": {
+    "allowed_links": [
+      "same_parent_culture_aliquots",
+      "explicitly_matched_sibling_cultures"
+    ],
+    "claim_scope": "Parent/sibling-culture comparison; destructive RNA assays supply no same-cell continuity.",
+    "context_fields": [
+      "donor_label",
+      "reprogramming_days",
+      "experiment",
+      "condition",
+      "exposure_context",
+      "withdrawal_context",
+      "collection_context"
+    ],
+    "reuse_rule": "One RNA sample per function culture; one occurrence per technical observation ID. Complex designs require an amendment.",
+    "same_parent_rule": "rna_parent_culture_id equals function_culture_id",
+    "source_donor_labels": [
+      "O1",
+      "O2",
+      "O3"
+    ]
+  }
+}

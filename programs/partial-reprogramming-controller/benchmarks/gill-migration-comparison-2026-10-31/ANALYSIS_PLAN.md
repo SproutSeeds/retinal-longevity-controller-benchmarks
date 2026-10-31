@@ -1,0 +1,17 @@
+# Gill RNA and migration: frozen comparison plan
+
+The question is whether source-reported transcriptomic-age differences accompany migration-speed differences in explicitly matched final-outgrowth cultures. The contract is a **Heuristic** choice of analysis; its executable handling can be verified separately.
+
+This is a known-outcome reanalysis challenge. Gill et al. already report variable migration and no apparent correlation with clocks. The local freeze predates new numerical intake, and supplies no claim of blinded evaluation, external registration or prospective discovery.
+
+The 13 RNA contrasts in `rna-pairs.tsv` define the complete eligible roster. Their source duration labels describe reprogramming, rather than withdrawal persistence. Intermediate cells, failed-reprogramming arms, starting fibroblasts, iPSC references and young comparators remain outside this paired analysis. The lineage scope is adult-origin reprogrammed descendants, with temporary identity transition and selected outgrowth preserved in interpretation.
+
+The primary molecular readout is the existing investigator-reported custom transcriptomic clock used in Figure 3C, per RNA sample in years. Its outputs need an authoritative accession mapping. Independent reproduction of the trained clock is a separate task. The primary functional readout is original technical-replicate wound-edge migration speed, expressed in micrometres per hour with documented units. Numerical values, raw files, sample mapping and reuse conditions require source review. Unknown contexts, plot digitization, group-level means, and a substitute clock cannot fill this contract.
+
+Average technical speeds within each culture. Subtract control from treated for both age and speed; lower age and higher speed are the two favorable observed directions. Retain all pair-level differences. Within each duration, first average experiments within donor, then give donors equal weight. Report donor spread and leave-one-donor-out sensitivity when at least two donors exist. Durations are separate strata. The frozen RNA roster has at most 3, 2, 1 and 3 donors at 10, 13, 15 and 17 days, respectively; actual matched functional coverage may be smaller. One-donor strata have no leave-one-donor-out result. No significance test, population confidence interval or pooled library-level correlation is planned.
+
+Account for every frozen contrast: complete input or a specific, source-backed exclusion. New exclusions and their source authority are retained. Contradictions defer the whole calculation; partial coverage requires explicit reviewed exclusions. A complete pair cannot be removed through the exclusion field. Complex shared cultures, summary-only functional data or a changed readout require a new dated contract rather than an implicit fallback.
+
+The output is a source-bounded descriptive comparison. Concordant directions support an association; discordance challenges the selected readout's interpretation. Zero is an observed zero difference, with no equivalence inference. Identity retention, persistence, safety and clinical benefit require their own evidence.
+
+Original source: [Gill et al., eLife 2022](https://elifesciences.org/articles/71624), Figure 3C/G, Figure 3 supplement 1E, and wound-healing methods. Source context and the retained original XML digest are in `SOURCE_CONTEXT.json`; the preceding audit holds the original source manifest.
