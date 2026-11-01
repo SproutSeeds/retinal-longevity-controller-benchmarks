@@ -789,6 +789,18 @@
       "status": "PASS"
     },
     {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/public-function-input-search-2026-10-31/SOURCE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/public-function-input-search-2026-10-31/SOURCE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/public-function-input-search-2026-10-31/SOURCE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
       "name": "sha256:programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json",
       "status": "PASS"
     },
@@ -7061,8 +7073,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1765,
+  "passed": 1768,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1765
+  "total": 1768
 }

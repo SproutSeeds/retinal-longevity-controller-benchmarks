@@ -1,6 +1,6 @@
 {
   "claim_level": "Verified",
-  "content_fingerprint": "a3e7e4f68f050b387a7590b00c9b06253b8a83e74bfd00e61b316192da4ba476",
+  "content_fingerprint": "cd096351ca5ac680835f4ea172b2a9c999475cb0721e72a86a602ef2afe65617",
   "excluded": [
     "private correspondence",
     "author-only attachments",
@@ -54,6 +54,7 @@
     "programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/test_admission.py": "0698be970bc12bdae13f672dda777b77f4841da745d61d25234c077806c7a281",
     "programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/verify.py": "a61fbb8c39b808e7a24813768b10e87b50259cf478c9c0077a6906d060626510",
     "programs/partial-reprogramming-controller/benchmarks/nam-rpe-challenge-2026-10-24/effects.tsv": "868e615d423c6daf313a4b0158f46d32d9eeccfbbc7e5a93e506d922096cae70",
+    "programs/partial-reprogramming-controller/benchmarks/public-function-input-search-2026-10-31/SOURCE_SEARCH.json": "2fa53bfd72a178f932e1956ea1527e9aedc988b901298f27e5ef95279c49f165",
     "programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/ADMISSION_CATALOG.json": "7ae7897d4b86f9a13fabb432d2d48c771c5cef43b467ebe1456c803c01bd1def",
     "programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EVALUATIONS.json": "2ec10037cf7e7c8ef45c9f2f794e594ba051aaa562b148d9ce2c51b7405ae6d9",
     "programs/partial-reprogramming-controller/benchmarks/rpe-controller-function-bridge-2026-10-26/EXPECTED.json": "e544e4bc4656746ca90f1f50901719c803a59fcdf4112463433f4a4c60bc78d4",
@@ -114,5 +115,5 @@
   "schema": "public.research-checkpoint/1",
   "scientific_checkpoint": "2026-10-31",
   "scope": "Committed allowlist export, exact CLI replay and same-agent source-table verification; biological interpretation remains Heuristic.",
-  "source_commit": "0306aa479f76cbaf45db6464b9ad4e14f7082de3"
+  "source_commit": "263796b238f03188396ca9dce4c98c34040dafbe"
 }

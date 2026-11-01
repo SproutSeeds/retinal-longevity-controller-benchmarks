@@ -1,0 +1,332 @@
+{
+  "schema": "controller.public-function-input-search/1",
+  "generated_at_utc": "2026-11-01T01:29:32.082736+00:00",
+  "audit_date_local": "2026-10-31",
+  "claim_level": "Verified",
+  "claim_scope": "Source acquisition and bounded content inspection only. Scientific joint-comparison readiness remains INCONCLUSIVE / DEFERRED.",
+  "question": "Can public sources supply the original Gill migration values, culture-to-RNA crosswalk and Figure 3C custom transcriptome-clock outputs while investigator correspondence is pending?",
+  "source_context": {
+    "Gill2022": "https://elifesciences.org/articles/71624",
+    "Gill2022_supplement_index": "https://elifesciences.org/articles/71624/figures",
+    "Gill2022_RNA_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177",
+    "Schiff2019": "https://www.nature.com/articles/s42003-019-0406-6",
+    "Schiff2019_RNA_series": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126633"
+  },
+  "coverage_extension": "The earlier compact acquisition retained Gill supplement 1 and the reporting form. This follow-on inspects official supplements 2 and 3 and the additional Schiff movie-description PDF. It preserves the earlier frozen audit and comparison files.",
+  "acquisitions": [
+    {
+      "id": "Gill2022-supplement2.xlsx",
+      "requested_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp2-v2.xlsx",
+      "retrieved_at_utc": "2026-11-01T01:26:11.034714+00:00",
+      "status": 200,
+      "resolved_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp2-v2.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 12047,
+      "sha256": "2f1e86f9cf35bf66314af44aecd0fcc2708941101c44ad8f7e268b1bf0884853"
+    },
+    {
+      "id": "Gill2022-supplement3.xlsx",
+      "requested_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp3-v2.xlsx",
+      "retrieved_at_utc": "2026-11-01T01:26:11.035954+00:00",
+      "status": 200,
+      "resolved_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp3-v2.xlsx",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "bytes": 105167,
+      "sha256": "66f89e7efc6804e2e63d7afc74ac16fc5713e0bc2d23056a1700495237950b20"
+    },
+    {
+      "id": "Gill2022-figures.html",
+      "requested_url": "https://elifesciences.org/articles/71624/figures",
+      "retrieved_at_utc": "2026-11-01T01:26:11.036498+00:00",
+      "status": 200,
+      "resolved_url": "https://elifesciences.org/articles/71624/figures",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 215054,
+      "sha256": "fbaeb19c493ba0d77d90f8f6b9d2b16b620b5198064b57e0acd91000e31cc86d"
+    },
+    {
+      "id": "Gill2022-article.html",
+      "requested_url": "https://elifesciences.org/articles/71624",
+      "retrieved_at_utc": "2026-11-01T01:26:11.036622+00:00",
+      "status": 200,
+      "resolved_url": "https://elifesciences.org/articles/71624",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes": 550530,
+      "sha256": "f8bd3ae66ae73a92f2b5f1e9e808d89496c310be387fa22343510d8c8ea04dbc"
+    },
+    {
+      "id": "GSE165177-suppl-index.html",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/",
+      "retrieved_at_utc": "2026-11-01T01:26:11.036726+00:00",
+      "status": 200,
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 498,
+      "sha256": "b412221835a9fe4f4777618121ce48dd51dcfff4515b8f83b2b93c5da4391f48"
+    },
+    {
+      "id": "GSE165176-suppl-index.html",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165176/suppl/",
+      "retrieved_at_utc": "2026-11-01T01:26:11.453032+00:00",
+      "status": 200,
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165176/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 498,
+      "sha256": "5e40f8c28e11c49712dadcad85c1bdc31f36fe6178398e7d1be41ba3e5914cd3"
+    },
+    {
+      "id": "GSE165179-suppl-index.html",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165179/suppl/",
+      "retrieved_at_utc": "2026-11-01T01:26:11.470178+00:00",
+      "status": 200,
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165179/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 498,
+      "sha256": "76f42637e22558d922c9a79b5617f34878dbd67884ba17a838b672a3d6b47174"
+    },
+    {
+      "id": "GSE165180-suppl-index.html",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165180/suppl/",
+      "retrieved_at_utc": "2026-11-01T01:26:11.538278+00:00",
+      "status": 200,
+      "resolved_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165180/suppl/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes": 498,
+      "sha256": "b6795e2be506e6a842c59d621f6f5fa50861414c141dde5bb4e107ae9a820afa"
+    },
+    {
+      "id": "Schiff2019-supplement-descriptions.pdf",
+      "requested_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-019-0406-6/MediaObjects/42003_2019_406_MOESM2_ESM.pdf",
+      "retrieved_at_utc": "2026-11-01T01:26:11.591123+00:00",
+      "status": 200,
+      "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs42003-019-0406-6/MediaObjects/42003_2019_406_MOESM2_ESM.pdf",
+      "content_type": "application/pdf",
+      "bytes": 138390,
+      "sha256": "fdd95b904e315035337cb19d47bfbe9f6a461ed4a53e1af5785f86cc1dd3ccfe"
+    },
+    {
+      "id": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "retrieved_at_utc": "2026-11-01T01:27:11.120605+00:00",
+      "status": "FAILED",
+      "error": "IncompleteRead(0 bytes read, 3341131 more expected)"
+    },
+    {
+      "id": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "requested_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "retrieved_at_utc": "2026-11-01T01:27:11.121018+00:00",
+      "status": "FAILED",
+      "error": "IncompleteRead(0 bytes read, 12711125 more expected)"
+    },
+    {
+      "id": "GSE165177-current-series.txt",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-11-01T01:27:11.121162+00:00",
+      "status": 200,
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177&targ=self&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 6614,
+      "sha256": "27f0ae573e80fd897958f13afe77656c3d1e6c39a0dffe110e5ae96770fdff43"
+    },
+    {
+      "id": "GSE126633-current-series.txt",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126633&targ=self&form=text&view=full",
+      "retrieved_at_utc": "2026-11-01T01:27:11.121274+00:00",
+      "status": 200,
+      "resolved_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126633&targ=self&form=text&view=full",
+      "content_type": "geo/text",
+      "bytes": 2112,
+      "sha256": "a582cff67f816ddf894979f27fa51fdfc5ee9b7b8450a223c332284b097bab09"
+    },
+    {
+      "id": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz-geo-download",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "retrieved_at_utc": "2026-11-01T01:28:00.024121+00:00",
+      "status": "FAILED",
+      "error": "IncompleteRead(0 bytes read, 3341131 more expected)"
+    },
+    {
+      "id": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz-geo-download",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE165177&format=file&file=GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "retrieved_at_utc": "2026-11-01T01:28:00.024485+00:00",
+      "status": "FAILED",
+      "error": "IncompleteRead(0 bytes read, 12711125 more expected)"
+    }
+  ],
+  "workbook_inspections": [
+    {
+      "source_id": "Gill2022-supplement2.xlsx",
+      "method": "Read original XLSX ZIP/XML cells; no edits, recalculation, or digitization.",
+      "sheets": [
+        {
+          "name": "Tukey_Statistics_morphology_plo",
+          "dimension": "A1:E27",
+          "nonempty_rows_including_header": 26,
+          "header_cells": [
+            {
+              "address": "A1",
+              "value": "Comparison"
+            },
+            {
+              "address": "B1",
+              "value": "Difference"
+            },
+            {
+              "address": "C1",
+              "value": "Lower end point"
+            },
+            {
+              "address": "D1",
+              "value": "Upper end point"
+            },
+            {
+              "address": "E1",
+              "value": "Adjusted P value"
+            }
+          ]
+        }
+      ],
+      "target_inputs_recovered": []
+    },
+    {
+      "source_id": "Gill2022-supplement3.xlsx",
+      "method": "Read original XLSX ZIP/XML cells; no edits, recalculation, or digitization.",
+      "sheets": [
+        {
+          "name": "Temporarily downregulated",
+          "dimension": "A1:B2804",
+          "nonempty_rows_including_header": 2804,
+          "header_cells": [
+            {
+              "address": "A1",
+              "value": "Gene"
+            },
+            {
+              "address": "B1",
+              "value": "ID"
+            }
+          ]
+        },
+        {
+          "name": "Temporarily upregulated",
+          "dimension": "A1:B962",
+          "nonempty_rows_including_header": 962,
+          "header_cells": [
+            {
+              "address": "A1",
+              "value": "Gene"
+            },
+            {
+              "address": "B1",
+              "value": "ID"
+            }
+          ]
+        },
+        {
+          "name": "Persistently expressed",
+          "dimension": "A1:B415",
+          "nonempty_rows_including_header": 415,
+          "header_cells": [
+            {
+              "address": "A1",
+              "value": "Gene"
+            },
+            {
+              "address": "B1",
+              "value": "ID"
+            }
+          ]
+        }
+      ],
+      "target_inputs_recovered": []
+    }
+  ],
+  "series_inspections": [
+    {
+      "source_id": "GSE165177-current-series.txt",
+      "sample_metadata_count": 95,
+      "listed_supplementary_files": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz"
+      ]
+    },
+    {
+      "source_id": "GSE126633-current-series.txt",
+      "sample_metadata_count": 8,
+      "listed_supplementary_files": [
+        "ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE126nnn/GSE126633/suppl/GSE126633_Raw.datatable.csv.gz"
+      ]
+    }
+  ],
+  "Schiff2019_movie_description_inspection": {
+    "source_id": "Schiff2019-supplement-descriptions.pdf",
+    "method": "Poppler pdftotext -layout; inspected all extracted descriptions for six supplementary movies.",
+    "content": "Descriptions of control, individual cytokine, combined cytokine and p38-inhibitor reversal movies.",
+    "authoritative_functional_line_to_RNA_donor_crosswalk_recovered": false,
+    "raw_functional_replicate_table_recovered": false,
+    "scope": "The PDF supplies experimental descriptions; it does not name the A-J functional lines or link them to RNA donor labels 15, 18 and 37. Video pixels and newly derived measurements were not analyzed."
+  },
+  "publisher_link_inspection": {
+    "source_ids": [
+      "Gill2022-article.html",
+      "Gill2022-figures.html"
+    ],
+    "method": "Inspected article and figure links for source-data files, archives and author code/data repositories.",
+    "result": "No linked numerical migration table, Figure 3C per-sample clock-output file, culture crosswalk or author analysis-code repository identified on these pages. The GitHub link belongs to the publisher.",
+    "scope": "A bounded page/link inspection cannot establish that such files do not exist elsewhere."
+  },
+  "public_search_queries": [
+    "\"GSE165177\" github OR zenodo OR figshare",
+    "\"Gill\" \"71624\" \"github\"",
+    "\"GSE165177\" \"clock\"",
+    "\"10.7554/eLife.71624\" zenodo OR figshare OR dryad",
+    "\"71624\" \"migration\" \"data\" site:figshare.com",
+    "\"Diljeet Gill\" \"GitHub\"",
+    "\"Multi-omic rejuvenation of human cells\" data repository code",
+    "\"GSE165177\" \"migration\""
+  ],
+  "search_scope": "Public indexed searches yielded the original article/GEO records and third-party reanalyses; no investigator-origin missing input was located in this pass. Third-party reanalysis is a discovery lead and does not establish original culture matching.",
+  "transport_limit": "All four NCBI FTP directory listings returned HTTP 200 with no file links. The exact expression-matrix URLs declared in the live Series record were also attempted through the FTP HTTPS host and GEO download endpoint. All four matrix transfers ended in IncompleteRead with zero bytes, so this audit makes no full-matrix content claim. Empty directory listings and transfer failures do not show that the files are absent.",
+  "remaining_inputs": [
+    {
+      "id": "Gill_migration",
+      "status": "UNRESOLVED",
+      "needed": "Original technical-replicate migration slopes with units, signed values, source culture/starting-population IDs and measurement context."
+    },
+    {
+      "id": "Gill_crosswalk",
+      "status": "UNRESOLVED",
+      "needed": "Investigator-origin mapping between migration cultures and RNA GSM/sample IDs, with donor, experiment, treatment, induction duration and collection/withdrawal context. A matched sibling culture requires explicit source confirmation."
+    },
+    {
+      "id": "Gill_clock",
+      "status": "UNRESOLVED",
+      "needed": "Existing source-reported per-RNA-sample predicted ages in years from the Figure 3C custom transcriptome clock. A newly retrained clock is a separate analysis."
+    },
+    {
+      "id": "Schiff_crosswalk",
+      "status": "UNRESOLVED",
+      "needed": "Authoritative functional-line A-J to RNA-donor 15/18/37 mapping and original experimental-replicate functional measurements."
+    }
+  ],
+  "next_checkpoints_heuristic": [
+    "Acquire and verify at least one complete treated/control culture match with molecular and functional measurements. This establishes intake feasibility only.",
+    "Audit the full recovered roster for independent-donor coverage, induction-duration coverage, exclusions and culture matching before any descriptive comparison.",
+    "Replay the existing frozen intake and analysis contract on eligible source-reported values. Broader scientific closure still requires the stated identity, safety and withdrawal evidence."
+  ],
+  "Gill_frozen_artifacts_sha256": {
+    "ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086",
+    "ARTIFACT_MANIFEST.json": "7241943383f308057466a6b7b8a7938daac71e1a90261bb00d3ec6f54cec196d"
+  },
+  "verification": {
+    "source_inspection_record": "PASS",
+    "scientific_joint_comparison": "INCONCLUSIVE",
+    "matrix_content_inspection": "INCONCLUSIVE: transfer failures",
+    "new_admitted_joint_pairs": 0,
+    "frozen_packet_changed": false,
+    "hook": "Reacquire a source using its requested_url, require HTTP success and the recorded SHA-256, then inspect the cited worksheet/header or Series lines. Byte equality establishes source identity; the bounded content conclusions require reading those source locations. Re-run benchmarks/gill-migration-comparison-2026-10-31/verify.py to check frozen intake readiness.",
+    "determinism": "Saved-byte hashes, worksheet metadata and frozen-packet replay are deterministic. Live pages, source bytes and indexed searches can change. A live mismatch is incomplete historical-source verification."
+  }
+}
