@@ -112,11 +112,6 @@
     "raw_correspondence_exported": false,
     "source_files_exported": false
   },
-  "resume_decision": {
-    "decision": "no-change",
-    "prior_event_id": "ocular-gill-matrix-recovery-20261031-r1",
-    "reason": "Routine source-access and provenance extension of the already recorded Gill source-recovery milestone. Existing grouped accomplishment and prior evidence-only intake cover this work; no new paired biological analysis or distinct accomplishment is admitted."
-  },
   "reviewed_at_utc": "2026-11-01T21:39:26.421487+00:00",
   "reviewer": "Codex primary-source inspection",
   "schema": "gill.archive-review/1",

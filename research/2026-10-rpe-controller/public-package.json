@@ -1,6 +1,6 @@
 {
   "claim_level": "Verified",
-  "content_fingerprint": "888f52592b7a6453464c5b1dd4390df5992d8a77f0dc84c8946e37115d7fee73",
+  "content_fingerprint": "0b2c494373d2afd4adefc402db13e356607493d35c3504d42ade9fff9a306c95",
   "excluded": [
     "private correspondence",
     "author-only attachments",
@@ -15,10 +15,10 @@
     "programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv": "d854290f5aa48765dd7ef3c123633fc96470ee3e94b2a095bd14346969293fae",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ACQUISITION.json": "3f0129b5605723d9e5d1cc690d6f95274ced079a25f17eb9e1940c7b56440326",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARCHIVE_INVENTORY.json": "957966304051ef6a31c830ff70a4f389f4fcb3774bb1475afe0ab364da9bf916",
-    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json": "fee1d9711c4d2b64a780294c25c3559b5a3ab8db8e701c8513ea54e80f0014c3",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json": "d4719b03db4291bd9528beb0b649d5efa999ed033577d6e913614f56e0930f99",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/CLAIM.md": "b6b4068b8a5a856b777f6263624c31dddd6cb299697a58e07d12cfa6ff7a9da4",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md": "b537b6f1786032a1a15d994965c9c19f054932659108e9aa45c8bcf94d09e988",
-    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json": "bc954b3faa3f9308a783ed5a36d60b8f33d9bb52205f7dddec773c70eacba1fd",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json": "0734f985aa459591280646678f0e5f0fb60ce6113e153c0ccd6ad3c9e41302b7",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/VERIFICATION_RECORD.md": "652d33ff7b7c0202a2b5773cda62ceb2a34379e5b019cb61011cd6e282c0654c",
     "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/verify.py": "b6c9440a9dcbf9bdcd8d1cf24d69d1d65cc57125b801b1e6fdecb8b2f13a6368",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json": "e5be17446e0e4eb5af30d85f8c0422b982a9e89792f6b6efc7b63fc8515a8947",
@@ -139,5 +139,5 @@
   "schema": "public.research-checkpoint/1",
   "scientific_checkpoint": "2026-11-01",
   "scope": "Committed allowlist export, exact CLI replay and same-agent source-table verification; biological interpretation remains Heuristic.",
-  "source_commit": "b73e35f3c72760ece7a2594a7c481f6d46d107a3"
+  "source_commit": "57618c439ea66dc2e5fde5779fae25a6929e2cca"
 }
