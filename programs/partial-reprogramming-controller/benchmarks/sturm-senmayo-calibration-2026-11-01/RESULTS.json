@@ -1,0 +1,83 @@
+{
+  "Gill_joint_admissions": 0,
+  "available_reference_genes": 125,
+  "donor_age_years": 18,
+  "donors": {
+    "HC1": {
+      "adjacent_rate_spearman": -0.04242424242424243,
+      "eligible_adjacent_intervals": 10,
+      "eligible_records": 11,
+      "first_paired_day": 21.21,
+      "function_range": [
+        23.31,
+        56.92
+      ],
+      "included_adjacent_intervals": 10,
+      "last_paired_day": 202.0,
+      "leave_one_out_day_residual_range": [
+        -0.5133714423473825,
+        -0.09223808538495185
+      ],
+      "leave_one_out_spearman_range": [
+        -0.696969696969697,
+        -0.5515151515151515
+      ],
+      "linear_day_residual_pearson": -0.2805980092217136,
+      "linear_passage_residual_pearson": -0.2586730753221257,
+      "paired_records": 11,
+      "score_range": [
+        7.6186541283032145,
+        7.814914574971247
+      ],
+      "spearman_function_day": -0.7090909090909091,
+      "spearman_passage_day": 1.0,
+      "spearman_score_day": 0.7,
+      "spearman_score_function": -0.6272727272727273
+    },
+    "HC2": {
+      "adjacent_rate_spearman": 0.047619047619047616,
+      "eligible_adjacent_intervals": 10,
+      "eligible_records": 11,
+      "first_paired_day": 22.08,
+      "function_range": [
+        15.83,
+        59.47
+      ],
+      "included_adjacent_intervals": 8,
+      "last_paired_day": 202.25,
+      "leave_one_out_day_residual_range": [
+        -0.02188264074271529,
+        0.4240596250014536
+      ],
+      "leave_one_out_spearman_range": [
+        0.38333333333333336,
+        0.75
+      ],
+      "linear_day_residual_pearson": 0.1483332456862626,
+      "linear_passage_residual_pearson": 0.25769614900455856,
+      "paired_records": 10,
+      "score_range": [
+        7.679180699992953,
+        7.907347319080642
+      ],
+      "spearman_function_day": 0.5151515151515151,
+      "spearman_passage_day": 1.0,
+      "spearman_score_day": 0.9515151515151515,
+      "spearman_score_function": 0.5515151515151515
+    }
+  },
+  "eligible_records": 22,
+  "function_units": "pmol O2/min/20,000 cells",
+  "independent_donors": 2,
+  "interpretation_limit": "Secondary descriptive analysis of two untreated culture series. Time adjustment removes only a linear component; no causal, diagnostic, safety, rejuvenation or population conclusion.",
+  "missing_function_study_sample_id": "372",
+  "numerical_verification": "See VERIFICATION_RECORD.md and INDEPENDENT_CHECK.json",
+  "outcome_analysis_executed": true,
+  "paired_records": 21,
+  "population_inference_performed": false,
+  "readout": "Heuristic SenMayo-panel mean expression; not the published GSEA score or a biological-age estimate",
+  "readout_claim_level": "Heuristic",
+  "rejuvenation_intervention": false,
+  "schema": "controller.donor-bounded-calibration-results/1",
+  "status": "COMPUTED; verification recorded separately"
+}

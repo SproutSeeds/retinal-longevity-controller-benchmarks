@@ -65,6 +65,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -1806,6 +1810,318 @@
     },
     {
       "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/rpe-uncertainty-controller-v2-2026-10-26/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:GENE_COVERAGE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:panel-expression-source.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:sample-scores.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:leave-one-out.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:adjacent-changes.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/CLAIM.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/GENE_COVERAGE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/GENE_COVERAGE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/GENE_COVERAGE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:calibration.png",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:calibration.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:sample-scores.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:panel-expression-source.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:../alternative-function-screen-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:leave-one-out.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:adjacent-changes.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:senmayo-human.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:REFERENCE_SOURCE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/README.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/REFERENCE_SOURCE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/REFERENCE_SOURCE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/REFERENCE_SOURCE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/adjacent-changes.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/calibration.pdf",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/calibration.png",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/extract_reference.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/leave-one-out.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/panel-expression-source.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/plot_calibration.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/plot_calibration.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/plot_calibration.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/sample-scores.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/senmayo-human.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/test_analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/test_analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/test_analyze.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/sturm-senmayo-calibration-2026-11-01/verify.py",
       "status": "PASS"
     },
     {
@@ -7629,8 +7945,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1907,
+  "passed": 1986,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1907
+  "total": 1986
 }

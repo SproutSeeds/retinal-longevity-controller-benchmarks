@@ -44,6 +44,8 @@ def main():
     print(execute([archives / 'verify.py']).strip())
     alternative = CONTROLLER / 'benchmarks/alternative-function-screen-2026-11-01'
     print(execute([alternative / 'verify.py']).strip())
+    calibration = CONTROLLER / 'benchmarks/sturm-senmayo-calibration-2026-11-01'
+    print(execute([calibration / 'verify.py']).strip())
     print('PASS public replay: %d released files; 9 v2 packets; %d earlier packets; no raw-data or model download.' % (len(manifest['files']), len(records)))
 
 

@@ -1,0 +1,44 @@
+{
+  "acquisition_limits": [
+    {
+      "result": "DNS resolution failed; no bytes admitted.",
+      "url": "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41467-022-32552-1/MediaObjects/41467_2022_32552_MOESM4_ESM.xlsx"
+    },
+    {
+      "result": "Unfinished chunked response interrupted after the publisher original had been recovered; no bytes admitted.",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9381717/supplementaryFiles"
+    }
+  ],
+  "adaptation": "Human gene list extracted verbatim; the proposed arithmetic mean is a new heuristic summary, not the authors published GSEA/ssGSEA procedure.",
+  "extraction": {
+    "cell_provenance_retained": true,
+    "human_genes": 125,
+    "murine_sheet_excluded": true,
+    "output": "senmayo-human.tsv",
+    "sha256": "20beef687a26f5cc2ec99a2617c641bfd0de311b61c13b8e796040215fe4ed1b",
+    "source_header": "Gene(human)",
+    "workbook_modified": false
+  },
+  "files": {
+    "41467_2022_32552_MOESM4_ESM.xlsx": {
+      "bytes": 18448,
+      "sha256": "812770a73c8864fc6b45e1cc7b9deabbb2e50a0fbee564aa1b4a219debb90bcd",
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-32552-1/MediaObjects/41467_2022_32552_MOESM4_ESM.xlsx"
+    },
+    "Saul2022-PMC9381717.xml": {
+      "bytes": 220909,
+      "sha256": "30791fe44911b45a28ad61c6c5b6a0a0c21714871bdfd764a1565bd82ee4875e",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9381717/fullTextXML"
+    }
+  },
+  "publication": {
+    "authors": "Saul et al.",
+    "doi": "10.1038/s41467-022-32552-1",
+    "license": "CC BY 4.0",
+    "pmcid": "PMC9381717",
+    "title": "A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues",
+    "url": "https://www.nature.com/articles/s41467-022-32552-1",
+    "year": 2022
+  },
+  "schema": "controller.external-RNA-panel-source/1"
+}

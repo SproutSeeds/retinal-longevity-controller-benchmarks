@@ -1,0 +1,17 @@
+{
+  "absolute_tolerance": 1e-10,
+  "association_coefficients_checked": 56,
+  "claim_level": "Verified numerical/source agreement only",
+  "expression_strings_compared": 2750,
+  "imports_primary_analysis": false,
+  "libraries": {
+    "numpy": "2.2.6",
+    "python": "3.12.14",
+    "scipy": "1.16.3"
+  },
+  "original_function_strings_preserved": 21,
+  "sample_means_checked": 22,
+  "schema": "controller.independent-numerical-check/1",
+  "scope": "Source strings, exact samples, fixed means, donor statistics, missing-function intervals and every leave-one-out coefficient. No biological validity, causal or intervention validation.",
+  "status": "PASS"
+}

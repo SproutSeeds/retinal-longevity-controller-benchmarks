@@ -1,0 +1,22 @@
+{
+  "association_statistics_computed": false,
+  "contract_sha256": "4f326432732fbdf2e407927e5fa50ace7aebe6e55e58eb81fc99afe6af0f2df2",
+  "freeze_scope": "Fixed before this panel was scored or related to function; source study and source measurements already known.",
+  "frozen_at_utc": "2026-11-01T23:14:05.126213+00:00",
+  "panel_scores_computed": false,
+  "panel_sha256": "20beef687a26f5cc2ec99a2617c641bfd0de311b61c13b8e796040215fe4ed1b",
+  "parent_source_checkpoint": "f7756edb43fe830bd8cf374c9cd4bd5dc9278dd9",
+  "protected_dependencies": {
+    "alternative-function-screen-2026-11-01/ADMISSION.json": "3f2849c3f787b331ca99c6558f2eb44e0215699d981c28d0072a56c39b3d78d1",
+    "alternative-function-screen-2026-11-01/ARTIFACT_MANIFEST.json": "cbcfd8b84a272f74eb5c88213daa4c287aae201f48f3a86d84dad5ea4aea5307",
+    "alternative-function-screen-2026-11-01/FOLLOW_ON_SPEC.json": "73ff89b2ef7de60564e968ad9fb8ae15da312f5e2a4875d19af131c1760e458f",
+    "alternative-function-screen-2026-11-01/SOURCE_MANIFEST.json": "e3ed43505eee41554d726f8e3f82943111e01573c492d0f9e8dabcea832fce0e",
+    "alternative-function-screen-2026-11-01/eligible-untreated-records.tsv": "73c187d793c45e9786350d4302f2347732a3a11544c15d8203cc06a68a6cb80e",
+    "alternative-function-screen-2026-11-01/matched-records.tsv": "2e8627633fc7bd150fe7953806605d855819b519bf3c974445ed24918bbda064",
+    "gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "gill-migration-comparison-2026-10-31/FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "gill-migration-comparison-2026-10-31/READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086"
+  },
+  "reference_source_sha256": "4d185c82998cc8ec3849529528141727ce536ec6cdfbe96a3d186e6d9c8b4bc6",
+  "schema": "controller.analysis-freeze/1"
+}

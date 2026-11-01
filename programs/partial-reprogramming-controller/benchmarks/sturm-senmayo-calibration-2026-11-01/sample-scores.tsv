@@ -1,0 +1,23 @@
+study_sample_id	rna_column	gsm	donor	donor_age_years	days_grown_source	passage	score	function_value_source	function_present	function_units
+318	Sample_21	GSM5435611	HC1	18	21.21	6	7.666370022559319	35.33	true	pmol_O2_per_min_per_20000_cells
+321	Sample_22	GSM5435612	HC1	18	37.33	9	7.6186541283032145	34.59	true	pmol_O2_per_min_per_20000_cells
+324	Sample_23	GSM5435613	HC1	18	52.96	12	7.7024708932711325	56.92	true	pmol_O2_per_min_per_20000_cells
+327	Sample_24	GSM5435614	HC1	18	68.08	15	7.6710856714322295	41.05	true	pmol_O2_per_min_per_20000_cells
+330	Sample_25	GSM5435615	HC1	18	83.08	18	7.657680465326067	53.49	true	pmol_O2_per_min_per_20000_cells
+333	Sample_26	GSM5435616	HC1	18	98.08	21	7.742970160890458	38.39	true	pmol_O2_per_min_per_20000_cells
+336	Sample_27	GSM5435617	HC1	18	115	24	7.814914574971247	27.62	true	pmol_O2_per_min_per_20000_cells
+339	Sample_28	GSM5435618	HC1	18	134.96	27	7.799272315410415	23.31	true	pmol_O2_per_min_per_20000_cells
+342	Sample_29	GSM5435619	HC1	18	157.92	30	7.766721744349936	25.96	true	pmol_O2_per_min_per_20000_cells
+345	Sample_30	GSM5435620	HC1	18	180.88	33	7.769205763738571	23.83	true	pmol_O2_per_min_per_20000_cells
+348	Sample_31	GSM5435621	HC1	18	202	36	7.737619230227142	25.41	true	pmol_O2_per_min_per_20000_cells
+360	Sample_32	GSM5435622	HC2	18	22.08	6	7.685527729220973	34.42	true	pmol_O2_per_min_per_20000_cells
+363	Sample_33	GSM5435623	HC2	18	38.04	9	7.679180699992953	34.15	true	pmol_O2_per_min_per_20000_cells
+366	Sample_34	GSM5435624	HC2	18	53.04	12	7.691965428424227	50.41	true	pmol_O2_per_min_per_20000_cells
+369	Sample_35	GSM5435625	HC2	18	68.29	15	7.719196779113633	15.83	true	pmol_O2_per_min_per_20000_cells
+372	Sample_36	GSM5435626	HC2	18	83.17	18	7.768607007891007		false	pmol_O2_per_min_per_20000_cells
+375	Sample_37	GSM5435627	HC2	18	98.13	21	7.772300091059261	28.68	true	pmol_O2_per_min_per_20000_cells
+378	Sample_38	GSM5435628	HC2	18	115.33	24	7.825229117799068	51.37	true	pmol_O2_per_min_per_20000_cells
+381	Sample_39	GSM5435629	HC2	18	136.29	27	7.8545203142134	37.62	true	pmol_O2_per_min_per_20000_cells
+384	Sample_40	GSM5435630	HC2	18	158.21	30	7.883123911121974	45.91	true	pmol_O2_per_min_per_20000_cells
+387	Sample_41	GSM5435631	HC2	18	182.08	33	7.907347319080642	59.47	true	pmol_O2_per_min_per_20000_cells
+390	Sample_42	GSM5435632	HC2	18	202.25	36	7.8802840934857175	49.88	true	pmol_O2_per_min_per_20000_cells

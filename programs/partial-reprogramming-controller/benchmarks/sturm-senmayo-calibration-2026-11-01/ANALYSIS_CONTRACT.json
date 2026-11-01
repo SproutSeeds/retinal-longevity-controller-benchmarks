@@ -1,0 +1,97 @@
+{
+  "function": {
+    "assay_scope": "Author-linked culture/passage records across separate aliquots, not identical cells or assay time.",
+    "field": "function_value_source",
+    "higher_value_meaning": "Larger measured respiratory spare capacity; a universal benefit direction is unestablished.",
+    "missingness": "Keep all 22 in the score/coverage table; use only 21 original paired summaries for associations. No imputation or nearest-time joins.",
+    "readout": "Investigator-reported oxidative spare respiratory capacity",
+    "units": "pmol O2/min/20,000 cells"
+  },
+  "interpretation": {
+    "Gill_joint_admissions": 0,
+    "Phase_483": "Unchanged; real supervised external packet required.",
+    "known_outcomes": "Secondary analysis of an already published study. Source measurements/design were available before the freeze; panel scores and associations have not been computed. This is not prospective preregistration.",
+    "numerical_result_level": "Verified only after replay and independent check PASS.",
+    "readout_biological_validity": "Heuristic; published panel membership does not validate this custom mean in these fibroblasts.",
+    "rejuvenation_result": false
+  },
+  "outputs": [
+    "GENE_COVERAGE.json",
+    "panel-expression-source.tsv",
+    "sample-scores.tsv",
+    "adjacent-changes.tsv",
+    "leave-one-out.tsv",
+    "RESULTS.json",
+    "calibration.png",
+    "calibration.pdf"
+  ],
+  "population": {
+    "adult_origin": true,
+    "donor_ages_years": [
+      18,
+      18
+    ],
+    "donors": {
+      "HC1": 11,
+      "HC2": 10
+    },
+    "eligible_RNA_records": 22,
+    "independent_biological_units": "Two donors; repeated culture timepoints are not independent people.",
+    "missing_function_RNA": "Sample_36",
+    "missing_function_study_id": "372",
+    "oxygen_percent": "21",
+    "paired_function_records": 21,
+    "phase": "2",
+    "replicate_line": "1",
+    "treatment": "Control"
+  },
+  "question": "Within each admitted untreated donor culture series, how does a fixed mean-expression index of the original human SenMayo panel co-vary with oxidative spare respiratory capacity?",
+  "readout": {
+    "coverage_failure": "Emit INCONCLUSIVE and calculate no association; do not relax the threshold or substitute genes.",
+    "coverage_rationale": "A fixed engineering threshold retains at least four fifths of the published panel; this threshold and the mean-expression summary are heuristic, not validated SenMayo scoring recommendations.",
+    "direction": "Larger values mean greater mean abundance of the listed transcripts on the source log2 VST scale. No sign is assigned a health or rejuvenation benefit.",
+    "epistemic_status": "Heuristic readout; exact arithmetic can be Verified. No age conversion or senescent-cell burden calibration.",
+    "formula": "For sample s, x_s = fsum(VST[g,s] for g in available_reference_genes) / k.",
+    "gene_match": "Exact case-sensitive source gene symbols only. No alias resolution, case folding, gene selection by outcomes or weights fitted to this cohort.",
+    "label": "SenMayo-panel mean expression",
+    "minimum_coverage_fraction": 0.8,
+    "minimum_gene_count": 100,
+    "missing_genes": "Globally absent reference genes are listed explicitly and omitted once; use the same fixed intersection for all 22 samples. No zero filling.",
+    "reference": "senmayo-human.tsv",
+    "reference_count": 125,
+    "source_values": "Investigator-provided log2 VST values as supplied. No new normalization, per-gene scaling, clock training, age imputation or alternative expression matrix."
+  },
+  "schema": "controller.frozen-RNA-physiology-analysis/1",
+  "scope": "Separate baseline replicative culture-aging reanalysis; original Sturm experiment and original Saul panel retain their authors attribution.",
+  "source_intake": "../alternative-function-screen-2026-11-01",
+  "statistics": {
+    "adjacent_change_sensitivity": "Sort all 22 eligible records within donor by elapsed culture days; use only consecutive pairs for which both function values exist. Correlate per-day score changes with per-day function changes using Spearman. Do not bridge the missing-function record. Adjacent intervals share endpoints and are not independent.",
+    "donor_handling": "All associations separately for HC1 and HC2; no pooled test, equal-timepoint claim or population inference.",
+    "inference": "No p values, confidence intervals, population claims, fitted biological age, or hypothesis-selection threshold. Report coefficients and all prescribed sensitivities descriptively.",
+    "leave_one_record_out": "Report every paired-record deletion with raw Spearman and linear-day-residual Pearson; do not select a favorable subset.",
+    "minimum_intervals_per_donor": 4,
+    "minimum_paired_records_per_donor": 6,
+    "passage_confounding": "Same residual-correlation calculation with passage replacing culture days, reported as a separate fixed sensitivity. Report rank correlation of passage with culture days; do not fit both together.",
+    "primary": "Within-donor Spearman rank correlation of panel mean and function, average ranks for ties.",
+    "time_confounding": "Within-donor OLS of each variable on intercept plus elapsed culture days; Pearson correlation of the two residual vectors. This removes a linear time component only and does not identify causality.",
+    "undefined": "Nonfinite inputs reject; constant vectors or residuals with sum-of-squares <= 1e-24 * max(1, raw centered sum-of-squares) yield null/INCONCLUSIVE, never zero."
+  },
+  "stop_condition": "Finish this one fixed readout and all prescribed sensitivities, record numerical checks and interpretation limits, publish the bounded reproducibility packet and stop. No new panels, adaptive fitting, outreach, wetlab or paid compute.",
+  "verification": {
+    "independent_checker": "Separate implementation using NumPy/SciPy rank and least-squares routines; re-read original matrix and tables without importing primary analysis math.",
+    "primary_replay": "Deterministic table and JSON regeneration from pinned originals.",
+    "source_values": "Every selected expression string and original function string preserved; source hash and exact IDs required.",
+    "tests": [
+      "Wrong or duplicate sample identities",
+      "Gene duplicates, missing-coverage failure and nonfinite expression",
+      "Average-rank ties and constant/near-zero residual rejection",
+      "Synthetic time-confounding direction reversal",
+      "No bridging across the missing function record",
+      "Donor/time permutation invariance and complete leave-one-out coverage"
+    ],
+    "tolerance": {
+      "identifiers_counts_source_strings": "exact",
+      "means_and_statistics_absolute": 1e-10
+    }
+  }
+}
