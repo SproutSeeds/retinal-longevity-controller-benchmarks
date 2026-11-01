@@ -1,0 +1,51 @@
+{
+  "schema": "gill.matrix-recovery-qc/1",
+  "claim_level": "Verified",
+  "scope": "Pinned source acquisition, matrix validity, locus alignment and within-RNA sample availability only.",
+  "matrices": [
+    {
+      "source_id": "gill_rna_part1",
+      "feature_rows": 35805,
+      "sample_columns": 24,
+      "finite_numeric_values": 859320,
+      "minimum_log2_RPM": -3.814352,
+      "maximum_log2_RPM": 14.873829,
+      "source_sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c"
+    },
+    {
+      "source_id": "gill_rna_part2",
+      "feature_rows": 35805,
+      "sample_columns": 71,
+      "finite_numeric_values": 2542155,
+      "minimum_log2_RPM": -4.16361570358276,
+      "maximum_log2_RPM": 16.0238208770752,
+      "source_sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8"
+    }
+  ],
+  "merged_feature_rows": 35805,
+  "unique_locus_keys": 35805,
+  "sample_columns": 95,
+  "finite_numeric_values_preserved": 3401475,
+  "exact_title_matches": 90,
+  "provisional_format_aliases": 5,
+  "eligible_comparison_RNA_arms_exactly_matched": 26,
+  "frozen_RNA_contrasts_covered": 13,
+  "reordered_feature_rows": 2,
+  "unique_nonempty_gene_ids": 35723,
+  "numeric_cells_differing_under_a_positional_join": 0,
+  "row_permutation_scope": "The two reordered features have identical expression vectors within each source. Their identity/order differs; this permutation does not change observed numeric values.",
+  "repeated_nonempty_gene_ids": 77,
+  "rows_with_repeated_nonempty_gene_id": 157,
+  "blank_gene_id_rows": 2,
+  "source_row_alignment": "PASS: unique compound keys and matching per-key annotations",
+  "gene_id_only_model_input": "UNRESOLVED: preserve loci; no gene-ID collapse or choice among repeated IDs is authorized.",
+  "quantity": "Source log2 RPM values, not raw counts or molecular ages. Negative values are retained.",
+  "joint_comparison": "DEFERRED",
+  "new_admitted_function_pairs": 0,
+  "missing_joint_inputs": [
+    "original per-sample Figure 3C custom clock values",
+    "original technical-replicate migration speeds",
+    "authoritative function-culture to RNA mapping and context"
+  ],
+  "Phase_483": "UNCHANGED: public source recovery does not constitute supervised external evaluation."
+}

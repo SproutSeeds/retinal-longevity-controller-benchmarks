@@ -11,3 +11,6 @@ __pycache__/
 
 # Source-result rejection fixtures
 programs/partial-reprogramming-controller/tmp/
+
+# Original biological inputs and local matrix derivatives
+programs/partial-reprogramming-controller/.data/

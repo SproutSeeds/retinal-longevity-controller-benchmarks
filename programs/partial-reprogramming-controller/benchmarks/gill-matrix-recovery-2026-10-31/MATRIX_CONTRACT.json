@@ -1,0 +1,68 @@
+{
+  "schema": "gill.matrix-recovery-contract/1",
+  "date_local": "2026-10-31",
+  "accession": "GSE165177",
+  "selection_status": "Post-acquisition source-QC contract; duplicate IDs and row permutation were known before this implementation. This is not prospective biological validation.",
+  "sources": [
+    {
+      "source_id": "gill_rna_part1",
+      "filename": "GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz?download=1",
+      "sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c",
+      "bytes": 3341131,
+      "retrieved_at_utc": "2026-11-01T02:21:36.328932+00:00",
+      "format": "gzip_tsv",
+      "quantity": "SeqMonk log2 RPM as declared by GSE165177; not raw counts or predicted ages."
+    },
+    {
+      "source_id": "gill_rna_part2",
+      "filename": "GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming_part2_170621.txt.gz?download=1",
+      "sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8",
+      "bytes": 12711125,
+      "retrieved_at_utc": "2026-11-01T02:21:36.330138+00:00",
+      "format": "gzip_tsv",
+      "quantity": "SeqMonk log2 RPM as declared by GSE165177; not raw counts or predicted ages."
+    }
+  ],
+  "frozen_dependencies": {
+    "../linked-function-admission-2026-10-31/rna-samples.tsv": "4754e448b5cc85bb5f8e477964331ccb6c7e5a78cfccffcf97254623774afc9e",
+    "../linked-function-admission-2026-10-31/SOURCE_MANIFEST.json": "c370ce114c4c0ffd8da49be08b0f5f8e33d73376f2daafdda9c36b493a6972c3",
+    "../gill-migration-comparison-2026-10-31/rna-pairs.tsv": "724d27ace9914a2d32e1246e2a073a0bc0e5172b21168e09c0446bfadb67833e",
+    "../gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "../gill-migration-comparison-2026-10-31/FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "../gill-migration-comparison-2026-10-31/READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086"
+  },
+  "annotation_columns": [
+    "Probe",
+    "Chromosome",
+    "Start",
+    "End",
+    "Probe Strand",
+    "Feature",
+    "ID",
+    "Description",
+    "Feature Strand",
+    "Type",
+    "Feature Orientation",
+    "Distance"
+  ],
+  "locus_key_fields": [
+    "Chromosome",
+    "Start",
+    "End",
+    "Probe Strand",
+    "ID"
+  ],
+  "join_policy": "Join by the full unique locus key. Require identical key sets and matching annotations for each key. Preserve all feature rows and every numeric text value; never collapse repeated gene IDs or join by row number.",
+  "sample_policy": "Exact unique title match within the GSE165177 metadata is admitted as a within-RNA title match only. The five explicit space/underscore aliases below are provisional and excluded from the frozen comparison. Unrecognized labels, alias collisions, reused sample IDs and duplicated columns fail.",
+  "provisional_title_aliases": {
+    "O1 Fib": "O1_Fib",
+    "O2 Fib": "O2_Fib",
+    "O3 Fib": "O3_Fib",
+    "iPSC 13": "iPSC_13",
+    "iPSC 21": "iPSC_21"
+  },
+  "frozen_comparison_policy": "All 26 arms must have exact title matches. Report only RNA-expression availability for the 13 frozen contrasts. Culture-level function matching, original clock ages, permissions and the frozen Gill analysis gates remain separate.",
+  "output_scope": "RNA source QC, original-value preservation and locus-aligned recovery only. No clock training, expression normalization, molecular-age calculation, efficacy, restoration, safety, persistence or Phase 483 closure."
+}

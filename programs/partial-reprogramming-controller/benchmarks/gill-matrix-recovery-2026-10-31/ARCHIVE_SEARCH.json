@@ -1,0 +1,566 @@
+{
+  "schema": "gill.institutional-archive-search/1",
+  "date_local": "2026-10-31",
+  "claim_level": "Verified",
+  "scope": "Repository metadata discovery and failed content retrieval only. Archive/thesis contents are uninspected.",
+  "items": [
+    {
+      "title": "Multi-omic rejuvenation of human cells by maturation phase transient reprogramming",
+      "url": "https://www.repository.cam.ac.uk/items/3017f847-bae8-426e-955b-dc3e5058b370",
+      "repository_doi": "10.17863/CAM.83777",
+      "scope": "Article ORIGINAL bundle lists an additional-files.zip object, article PDF, article XML and figures PDF. Metadata does not establish whether the ZIP contains missing numerical inputs."
+    },
+    {
+      "title": "Promoting multi-omic rejuvenation in human and mouse somatic cells by transient reprogramming",
+      "url": "https://www.repository.cam.ac.uk/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33",
+      "repository_doi": "10.17863/CAM.71150",
+      "rights": "All Rights Reserved",
+      "scope": "Original thesis PDF and repository-extracted text are listed. No contents or biological results were inspected; no permission for redistribution is inferred."
+    }
+  ],
+  "requests": [
+    {
+      "id": "article-item.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370",
+      "retrieved_at_utc": "2026-11-01T02:18:42.478582+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370",
+      "bytes": 12947,
+      "sha256": "c1a757f3e51a4b60eb7cf6d6181fa1ee1e17d6b26d09b2c857fc01aaafbff447",
+      "name": "Multi-omic rejuvenation of human cells by maturation phase transient reprogramming.",
+      "links": {
+        "accessStatus": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/accessStatus"
+        },
+        "bundles": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/bundles"
+        },
+        "citationInformation": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/citationInformation"
+        },
+        "embargoInformation": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/embargoInformation"
+        },
+        "identifiers": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/identifiers"
+        },
+        "mappedCollections": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/mappedCollections"
+        },
+        "owningCollection": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/owningCollection"
+        },
+        "relationships": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/relationships"
+        },
+        "version": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/version"
+        },
+        "templateItemOf": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/templateItemOf"
+        },
+        "thumbnail": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/thumbnail"
+        },
+        "self": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370"
+        }
+      }
+    },
+    {
+      "id": "article-bundles.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/bundles?size=100",
+      "retrieved_at_utc": "2026-11-01T02:18:42.479382+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/items/3017f847-bae8-426e-955b-dc3e5058b370/bundles?size=100",
+      "bytes": 3320,
+      "sha256": "97495d5f0709d6b9dcedd0876073bcd39f39d25babc3fada189cbafed6e1f7fd",
+      "bundles": [
+        {
+          "name": "ORIGINAL",
+          "uuid": "61973368-c33f-4fea-b210-54b7c4fec891",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/61973368-c33f-4fea-b210-54b7c4fec891/bitstreams"
+        },
+        {
+          "name": "TEXT",
+          "uuid": "8edd5cd9-2fc7-4c05-b925-367aae91ec52",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/8edd5cd9-2fc7-4c05-b925-367aae91ec52/bitstreams"
+        },
+        {
+          "name": "THUMBNAIL",
+          "uuid": "27d4878c-8742-4326-82a0-851840db5c8b",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/27d4878c-8742-4326-82a0-851840db5c8b/bitstreams"
+        }
+      ]
+    },
+    {
+      "id": "thesis-item.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33",
+      "retrieved_at_utc": "2026-11-01T02:18:42.479629+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33",
+      "bytes": 10149,
+      "sha256": "ec418732c3e05f24a55db8cf15582ee005c947174def3951bbccc75d748c8313",
+      "name": "Promoting multi-omic rejuvenation in human and mouse somatic cells by transient reprogramming",
+      "links": {
+        "accessStatus": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/accessStatus"
+        },
+        "bundles": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/bundles"
+        },
+        "citationInformation": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/citationInformation"
+        },
+        "embargoInformation": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/embargoInformation"
+        },
+        "identifiers": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/identifiers"
+        },
+        "mappedCollections": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/mappedCollections"
+        },
+        "owningCollection": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/owningCollection"
+        },
+        "relationships": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/relationships"
+        },
+        "version": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/version"
+        },
+        "templateItemOf": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/templateItemOf"
+        },
+        "thumbnail": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/thumbnail"
+        },
+        "self": {
+          "href": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33"
+        }
+      }
+    },
+    {
+      "id": "thesis-bundles.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/bundles?size=100",
+      "retrieved_at_utc": "2026-11-01T02:18:42.479811+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33/bundles?size=100",
+      "bytes": 5324,
+      "sha256": "c97a3bfdd9d745ec43c5d5ecb2348911eb13d72ff421d41d199ab8331e9b5ecb",
+      "bundles": [
+        {
+          "name": "ORIGINAL",
+          "uuid": "b54822e5-db59-4c7a-93d8-0e88e6f6aa21",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/b54822e5-db59-4c7a-93d8-0e88e6f6aa21/bitstreams"
+        },
+        {
+          "name": "LICENSE",
+          "uuid": "bbc14123-7025-4d37-8ef1-82f8cdabf1a4",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/bbc14123-7025-4d37-8ef1-82f8cdabf1a4/bitstreams"
+        },
+        {
+          "name": "THESIS",
+          "uuid": "03ef0c1c-eeae-4f98-8bce-ad9ff2bf134c",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/03ef0c1c-eeae-4f98-8bce-ad9ff2bf134c/bitstreams"
+        },
+        {
+          "name": "TEXT",
+          "uuid": "1ba71119-3598-4266-9a09-93c13faf4ac9",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/1ba71119-3598-4266-9a09-93c13faf4ac9/bitstreams"
+        },
+        {
+          "name": "THUMBNAIL",
+          "uuid": "639d4231-22f3-4754-b0db-457f18cccccc",
+          "bitstreams_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/639d4231-22f3-4754-b0db-457f18cccccc/bitstreams"
+        }
+      ]
+    },
+    {
+      "id": "article-original-bitstreams.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/61973368-c33f-4fea-b210-54b7c4fec891/bitstreams?size=100",
+      "retrieved_at_utc": "2026-11-01T02:19:00.791122+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/61973368-c33f-4fea-b210-54b7c4fec891/bitstreams?size=100",
+      "bytes": 6871,
+      "sha256": "6572e8858f0872fda300ecf4215b75f7b9c0d14691b0ce6abd8879f23d90e9cf",
+      "bitstreams": [
+        {
+          "uuid": "5d9ce637-2611-4f8d-b52b-efcdb7a7c272",
+          "name": "additional-files.zip",
+          "size": 15166251,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "a1e21b9b9d1160b4f80a71dcf8e8ecfd"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Supporting information",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "additional-files.zip",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "b5407956-2054-4725-bfcc-fa552b34e7b9",
+          "name": "elife-71624.pdf",
+          "size": 2451263,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "49494c3a5cbe6a17a7d3187ee510887c"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/b5407956-2054-4725-bfcc-fa552b34e7b9/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Published version",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "elife-71624.pdf",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "ab959e5c-1267-4312-a0c1-743162fe0d37",
+          "name": "elife-71624.xml",
+          "size": 215312,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "48a846770050f22047afa6ac41a63740"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/ab959e5c-1267-4312-a0c1-743162fe0d37/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Bibliographic metadata",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "elife-71624.xml",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "ccf08d7a-8d3c-4500-be23-ab76192fcdaa",
+          "name": "elife-71624-figures.pdf",
+          "size": 3674083,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "1cb4c6a0c25a07bffcbfaccf5b6cdec6"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/ccf08d7a-8d3c-4500-be23-ab76192fcdaa/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Published version",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "elife-71624-figures.pdf",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "article-text-bitstreams.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/8edd5cd9-2fc7-4c05-b925-367aae91ec52/bitstreams?size=100",
+      "retrieved_at_utc": "2026-11-01T02:19:00.792918+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/8edd5cd9-2fc7-4c05-b925-367aae91ec52/bitstreams?size=100",
+      "bytes": 4152,
+      "sha256": "1f9eaf26f84f13373efac37fabaecb7340f8626688eda09065fb5e988b342ab8",
+      "bitstreams": [
+        {
+          "uuid": "010f13af-36dd-4add-952a-e306e4749b1f",
+          "name": "elife-71624.pdf.txt",
+          "size": 120837,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "68ef288069788b389d705fdd3fd023a7"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/010f13af-36dd-4add-952a-e306e4749b1f/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Extracted text",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.source": [
+              {
+                "value": "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-20T05:32:30Z (GMT).",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "elife-71624.pdf.txt",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        },
+        {
+          "uuid": "75ef2889-869c-493f-8dfe-e04dd1c6243a",
+          "name": "elife-71624-figures.pdf.txt",
+          "size": 41089,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "cf5a74be9b9829a55cf8372494aa5028"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/75ef2889-869c-493f-8dfe-e04dd1c6243a/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Extracted text",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.source": [
+              {
+                "value": "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2025-12-20T05:32:31Z (GMT).",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "elife-71624-figures.pdf.txt",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "thesis-original-bitstreams.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/b54822e5-db59-4c7a-93d8-0e88e6f6aa21/bitstreams?size=100",
+      "retrieved_at_utc": "2026-11-01T02:19:00.793124+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/b54822e5-db59-4c7a-93d8-0e88e6f6aa21/bitstreams?size=100",
+      "bytes": 1982,
+      "sha256": "62b4807f94c4eceb853df9c816e23039376cad3b57d792361f43983aae581fef",
+      "bitstreams": [
+        {
+          "uuid": "cebab2a8-23fa-4b82-b677-d25142b410b2",
+          "name": "Thesis Diljeet Gill 020621 Apollo.pdf",
+          "size": 35620483,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "036b3c2c1ae2dd5ddadc337c72c69cff"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/cebab2a8-23fa-4b82-b677-d25142b410b2/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Thesis",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "Thesis Diljeet Gill 020621 Apollo.pdf",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "thesis-thesis-bitstreams.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/03ef0c1c-eeae-4f98-8bce-ad9ff2bf134c/bitstreams?size=100",
+      "retrieved_at_utc": "2026-11-01T02:19:00.793281+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/03ef0c1c-eeae-4f98-8bce-ad9ff2bf134c/bitstreams?size=100",
+      "bytes": 320,
+      "sha256": "b5c1fb140eeb93bae6c347dea9fffe6da73ea983c4fa5cb7d519f0efd3e7ef30",
+      "bitstreams": []
+    },
+    {
+      "id": "thesis-text-bitstreams.json",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/1ba71119-3598-4266-9a09-93c13faf4ac9/bitstreams?size=100",
+      "retrieved_at_utc": "2026-11-01T02:19:00.793969+00:00",
+      "status": 200,
+      "resolved_url": "https://api.repository.cam.ac.uk/server/api/core/bundles/1ba71119-3598-4266-9a09-93c13faf4ac9/bitstreams?size=100",
+      "bytes": 2256,
+      "sha256": "a49eaaa17d93c63d38dcefd5dbb3ee31ccc40e1855f6f5011d13cd1bb0d7f1a7",
+      "bitstreams": [
+        {
+          "uuid": "7f039e4a-8a56-4878-ba09-2dc4b6d438db",
+          "name": "Thesis Diljeet Gill 020621 Apollo.pdf.txt",
+          "size": 331885,
+          "checksum": {
+            "checkSumAlgorithm": "MD5",
+            "value": "5378c688104370da8ea4da54949b1546"
+          },
+          "content_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content",
+          "metadata": {
+            "dc.description": [
+              {
+                "value": "Extracted text",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.source": [
+              {
+                "value": "Written by FormatFilter org.dspace.app.mediafilter.PDFFilter on 2021-06-11T00:52:38Z (GMT).",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ],
+            "dc.title": [
+              {
+                "value": "Thesis Diljeet Gill 020621 Apollo.pdf.txt",
+                "language": null,
+                "authority": null,
+                "confidence": -1,
+                "place": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Cambridge-additional-files.zip",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content",
+      "retrieved_at_utc": "2026-11-01T02:19:39.301828+00:00",
+      "expected_bytes": 15166251,
+      "expected_md5": "a1e21b9b9d1160b4f80a71dcf8e8ecfd",
+      "repository_bitstream_id": "5d9ce637-2611-4f8d-b52b-efcdb7a7c272",
+      "status": "FAILED",
+      "error": "HTTP Error 500: 500"
+    },
+    {
+      "id": "Gill2021-thesis.pdf",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/cebab2a8-23fa-4b82-b677-d25142b410b2/content",
+      "retrieved_at_utc": "2026-11-01T02:19:39.303450+00:00",
+      "expected_bytes": 35620483,
+      "expected_md5": "036b3c2c1ae2dd5ddadc337c72c69cff",
+      "repository_bitstream_id": "cebab2a8-23fa-4b82-b677-d25142b410b2",
+      "status": "FAILED",
+      "error": "HTTP Error 500: 500"
+    },
+    {
+      "id": "Gill2021-thesis-repository.txt",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content",
+      "retrieved_at_utc": "2026-11-01T02:19:39.303778+00:00",
+      "expected_bytes": 331885,
+      "expected_md5": "5378c688104370da8ea4da54949b1546",
+      "repository_bitstream_id": "7f039e4a-8a56-4878-ba09-2dc4b6d438db",
+      "status": "FAILED",
+      "error": "HTTP Error 500: 500"
+    },
+    {
+      "id": "Cambridge-additional-files-query.zip",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content?download=1",
+      "retrieved_at_utc": "2026-11-01T02:22:01.892269+00:00",
+      "status": "FAILED",
+      "http_status": 500,
+      "error": "HTTP Error 500: 500",
+      "response": "{\"timestamp\":\"2026-11-01T02:22:03.095+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"An internal read or write operation failed\",\"path\":\"/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content\"}"
+    },
+    {
+      "id": "Gill2021-thesis-repository-query.txt",
+      "requested_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content?download=1",
+      "retrieved_at_utc": "2026-11-01T02:22:01.893291+00:00",
+      "status": "FAILED",
+      "http_status": 500,
+      "error": "HTTP Error 500: 500",
+      "response": "{\"timestamp\":\"2026-11-01T02:22:04.699+00:00\",\"status\":500,\"error\":\"Internal Server Error\",\"message\":\"An internal read or write operation failed\",\"path\":\"/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content\"}"
+    }
+  ],
+  "additional_failures": [
+    {
+      "url": "https://www.repository.cam.ac.uk/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/download",
+      "http_status": 500,
+      "method": "curl --fail --location",
+      "received_bytes": 0
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE165nnn/GSE165177/suppl/GSE165177_Log2_RPM_Transient_reprogramming.txt.gz",
+      "http_status": 206,
+      "method": "curl Range bytes=0-65535",
+      "received_bytes": 0,
+      "error": "transfer closed with 65536 bytes remaining"
+    }
+  ],
+  "next_hook": "Retry the exact repository content URLs after the repository file service recovers, verify the declared size and MD5, then inspect the ZIP/thesis for numerical migration, culture IDs and the original clock outputs. Metadata discovery alone admits no new joint pair."
+}

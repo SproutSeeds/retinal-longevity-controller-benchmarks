@@ -53,6 +53,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -314,6 +318,198 @@
     },
     {
       "name": "sha256:programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/FULL_SOURCE_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/FULL_SOURCE_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/FULL_SOURCE_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:sample-columns.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:contrast-coverage.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:reordered-features.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:gene-id-issues.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:MATRIX_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:FULL_SOURCE_VERIFICATION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:ARCHIVE_SEARCH.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md:../gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/contrast-coverage.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/gene-id-issues.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/reordered-features.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/sample-columns.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/test_recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/test_recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/test_recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify_merged.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify_merged.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify_merged.py",
       "status": "PASS"
     },
     {
@@ -7073,8 +7269,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1768,
+  "passed": 1817,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1768
+  "total": 1817
 }

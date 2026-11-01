@@ -38,6 +38,8 @@ def main():
     print(execute([linked / 'verify.py']).strip())
     gill = CONTROLLER / 'benchmarks/gill-migration-comparison-2026-10-31'
     print(execute([gill / 'verify.py']).strip())
+    recovered = CONTROLLER / 'benchmarks/gill-matrix-recovery-2026-10-31'
+    print(execute([recovered / 'verify.py']).strip())
     print('PASS public replay: %d released files; 9 v2 packets; %d earlier packets; no raw-data or model download.' % (len(manifest['files']), len(records)))
 
 

@@ -1,0 +1,25 @@
+{
+  "schema": "gill.original-value-preservation/1",
+  "status": "PASS",
+  "method": "Independent csv.DictReader comparison from each original row and named source column to the merged compound locus key; no import of recover.py.",
+  "merged_sha256": "a7b41c22d835602640bcbecffbc574eadf09a09331d7db5f8924f0d3c8e6e70a",
+  "feature_rows_compared": 35805,
+  "expression_columns_compared": 95,
+  "expression_values_compared": 3401475,
+  "changed_source_cells": 0,
+  "sources": [
+    {
+      "source_id": "gill_rna_part1",
+      "source_rows_compared": 35805,
+      "source_expression_values_compared": 859320,
+      "original_sha256": "e6f055a491900a8f8563a339d1f18d99a92690af53d8ff44d7cc9a164b66209c"
+    },
+    {
+      "source_id": "gill_rna_part2",
+      "source_rows_compared": 35805,
+      "source_expression_values_compared": 2542155,
+      "original_sha256": "fca65676b19599491e139c583971a88f6bf2d177592d49558e57689e18e067e8"
+    }
+  ],
+  "scientific_joint_comparison": "DEFERRED"
+}

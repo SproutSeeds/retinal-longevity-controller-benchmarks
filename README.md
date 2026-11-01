@@ -10,6 +10,8 @@ Public data, reproducible analysis and explicit evidence requirements for lineag
 
 The [Gill RNA age and migration function contract](programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/README.md) now fixes the molecular readout, culture mapping, duration-specific donor weighting and missing-input rules. Thirteen synthetic software tests check arithmetic and rejection behavior; observed joint comparison remains **DEFERRED**. The published biological outcome is already known.
 
+The [Gill RNA source recovery](programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md) restores both processed expression matrices and exactly matches all 26 RNA arms of those 13 comparisons. A locus-based join preserves 3,401,475 original values across 95 columns; provisional reference labels and repeated gene IDs remain explicit. Original clock outputs, migration measurements and function-culture mapping are still required.
+
 The [October 26 RPE controller release](research/2026-10-rpe-controller/README.md) contains executable evidence evaluators, source-result tables and exact replay tests. Nine v2 packets retain uncertainty across 23 distinct observations; 56 actual CLI rejection cases enforce the evidence boundary. Biological conclusions remain **Heuristic**; experiment replacement is **INCONCLUSIVE**.
 
 A current-release tAge diagnostic has run. **Exact historical tAge6 reproduction remains pending** on authoritative historical artifacts and preprocessing. No TACO execution is claimed. Earlier preparation documents preserve their original dated status.
