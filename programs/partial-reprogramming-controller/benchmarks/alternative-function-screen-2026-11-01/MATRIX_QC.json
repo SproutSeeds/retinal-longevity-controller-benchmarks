@@ -1,0 +1,11 @@
+{
+  "blank_gene_labels": 0,
+  "column_identity": "Exact GEO Sample_description labels; source order is not a pairing rule",
+  "finite_expression_values": 9878385,
+  "gene_labels_unique": true,
+  "gene_rows": 28633,
+  "gzip_crc": "PASS",
+  "nonfinite_values": 0,
+  "sample_columns": 345,
+  "source_transform": "Investigator-provided log2 VST normalized expression; preserved without renormalization"
+}

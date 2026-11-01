@@ -61,6 +61,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -318,6 +322,242 @@
     },
     {
       "name": "credential_patterns:presentation/spoken-notes.txt",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ADMISSION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ADMISSION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ADMISSION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/FOLLOW_ON_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/FOLLOW_ON_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/FOLLOW_ON_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/MATRIX_QC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:rna-link-audit.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:eligible-untreated-records.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:matched-records.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:CANDIDATES.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:FOLLOW_ON_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:../gill-migration-comparison-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/README.md:ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SCREEN_FREEZE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/eligible-untreated-records.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/matched-records.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/rna-link-audit.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/verify.py",
       "status": "PASS"
     },
     {
@@ -7389,8 +7629,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1847,
+  "passed": 1907,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1847
+  "total": 1907
 }

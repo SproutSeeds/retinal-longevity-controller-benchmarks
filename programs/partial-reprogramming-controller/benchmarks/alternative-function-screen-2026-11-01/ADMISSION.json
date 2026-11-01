@@ -1,0 +1,28 @@
+{
+  "Gill_joint_admissions": 0,
+  "Phase_483": "Unchanged; real supervised external exchange required",
+  "RNA_age_clock_admitted": false,
+  "author_table_rows": 1919,
+  "candidate": "STURM2022",
+  "claim_level": "Verified source matching and bounded input availability",
+  "cross_source_context_issue_records": 300,
+  "disposition": "source_complete_for_separate_comparator",
+  "donor_age_years": [
+    18
+  ],
+  "donor_record_counts": {
+    "HC1": 11,
+    "HC2": 10
+  },
+  "eligible_untreated_adult_records": 22,
+  "functional_readout": "Investigator-reported oxidative spare respiratory capacity, normalized to cell number; summary values, not raw well replication",
+  "functional_units": "pmol_O2_per_min_per_20000_cells",
+  "independent_donors": 2,
+  "link_scope": "Author-integrated culture/passage records and seeded assay aliquots; no same-cell continuity",
+  "matched_RNA_physiology_records": 21,
+  "outcome_analysis_executed": false,
+  "records_missing_function": 1,
+  "rejuvenation_intervention": false,
+  "schema": "controller.alternative-source-admission/1",
+  "source_GEO_RNA_records": 345
+}

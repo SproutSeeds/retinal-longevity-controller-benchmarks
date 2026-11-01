@@ -1,0 +1,24 @@
+{
+  "files": {
+    "ACQUISITION.json": "29fd88428d9c0d9cc8d81ab28bc9ead2c73fc5ad8f54104d7bbe08834bbf0888",
+    "ADMISSION.json": "3f2849c3f787b331ca99c6558f2eb44e0215699d981c28d0072a56c39b3d78d1",
+    "CANDIDATES.json": "3da39f65e95d4cf4879964142727c809913a774d29eaa7a8230c0e96d701de2c",
+    "CLAIM.md": "00a4b61720c1806910e71f7450c8e11f116161a060488a205d21f628e29114e6",
+    "FOLLOW_ON_SPEC.json": "73ff89b2ef7de60564e968ad9fb8ae15da312f5e2a4875d19af131c1760e458f",
+    "MATRIX_QC.json": "ff844e18a06340022a4b8fa2b22a472fbfed042f4913d4c0aa8eacf007fd2e66",
+    "README.md": "cc87c53ccf79b16d27da44f01a98df1db3ebd0391cf0561b571aaa588358fcae",
+    "SCREEN_CONTRACT.json": "cd06e1a37321c8616d734aa99f0f7d4ab14b93bb02ae85431d879f5f7837b70a",
+    "SCREEN_FREEZE.json": "5b994945439c0f13a4af5d5072e1d85b3b11c43d0616b491ea04d4dc5a740cc6",
+    "SOURCE_MANIFEST.json": "e3ed43505eee41554d726f8e3f82943111e01573c492d0f9e8dabcea832fce0e",
+    "VERIFICATION_RECORD.md": "b8a4104a9850fc07ec6e40224ba775c0bffd8fcfe3d0f57fa2d34be2c29659c6",
+    "audit.py": "1fa36a1b598b078c56ef0dea704b619b833311ba6aeb0950dbd3278dd8688424",
+    "eligible-untreated-records.tsv": "73c187d793c45e9786350d4302f2347732a3a11544c15d8203cc06a68a6cb80e",
+    "independent_check.py": "0a265b8b84587c009f6cfa5404482409cb0ff256b75e4d8d2d8b714c0219b0a0",
+    "matched-records.tsv": "2e8627633fc7bd150fe7953806605d855819b519bf3c974445ed24918bbda064",
+    "rna-link-audit.tsv": "2a75df4c4464434ace4618f0c5f0ab30cda62fe119b869c35448a4dd44248a51",
+    "test_audit.py": "7aa335062d9cb27950b50fa897026210666ad325f3d5bb774a3c71b7a8de05b8",
+    "verify.py": "12eedf4e3ba725e9686fc52ae3889673c23edbbffaa6980586be6b91944bfb13"
+  },
+  "schema": "controller.alternative-source-artifacts/1",
+  "scope": "Derived source admission, original-value observation excerpt and reproducible verification; full source files are excluded."
+}

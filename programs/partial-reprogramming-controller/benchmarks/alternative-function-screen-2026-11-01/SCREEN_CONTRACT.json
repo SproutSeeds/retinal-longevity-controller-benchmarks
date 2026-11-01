@@ -1,0 +1,39 @@
+{
+  "schema": "controller.alternative-source-screen/1",
+  "recorded_date": "2026-11-01",
+  "claim_level": "Heuristic search priority; source integrity and admission findings require verification",
+  "question": "Does an additional public study supply human adult-origin primary-cell RNA measurements and a directly measured cellular functional phenotype with an authoritative culture and collection-context link?",
+  "registration_timing": "After bibliographic discovery of the four candidates, before detailed source-table inspection or any new outcome calculation. This is a bounded source screen, not a prospective biological experiment or outcome-blind protocol.",
+  "candidate_roster": [
+    {"id": "STURM2022", "doi": "10.1038/s41597-022-01852-y", "role": "Longitudinal aging and physiology comparator; intervention rejuvenation is a separate question"},
+    {"id": "YANG2023", "doi": "10.18632/aging.204896", "role": "Chemical reprogramming and compartmentalization reporter; endpoint validity and culture linkage require inspection"},
+    {"id": "SCHOENFELDT2025", "doi": "10.1038/s44321-025-00265-9", "role": "Chemical reprogramming; human cellular readouts must be separated from worm functional and lifespan outcomes"},
+    {"id": "ROUX2022", "doi": "10.1016/j.cels.2022.05.002", "role": "Species and endpoint eligibility check; transcriptomic rejuvenation alone does not supply measured human function"}
+  ],
+  "existing_candidates": "Keep the eight-study linked-function-admission-2026-10-31 registry and all original Gill contracts/results unchanged. A new comparator answers a separately specified question.",
+  "required_inputs": [
+    "Explicit species, adult donor age/origin, primary versus pluripotent-derived status and cell type",
+    "Reusable processed RNA measurements with original sample identifiers and source provenance",
+    "Numerical measured functional observations with units, culture identifiers and replicate meaning",
+    "Authoritative same-parent aliquot or explicitly matched sibling-culture link with donor, experiment, treatment, collection date/passage and relevant assay context",
+    "Source-specific reuse terms and exclusions"
+  ],
+  "admission_rules": [
+    "Donor-only, treatment-only, row-order and nearest-date joins are insufficient for a paired culture analysis.",
+    "Destructive assays imply parent/sibling-culture scope, not same-cell continuity.",
+    "Repeated time points and wells do not create independent donors.",
+    "A nuclear-localization reporter, basal respiration, ATP abundance, proliferation or a senescence marker supports only its explicitly named readout; none independently establishes tissue restoration or rejuvenation.",
+    "A physiological calibration dataset can qualify for a separately frozen comparator without becoming a partial-reprogramming intervention or a replacement for Gill's clock/migration inputs.",
+    "Conflicting species, age, dose, treatment or collection context defers the join.",
+    "Figure digitization, newly trained clocks and imputed sample mappings are outside this screen."
+  ],
+  "outcome_policy": "Source acquisition, sample-link auditing and coverage counts only. A qualifying dataset receives a source-bound follow-on analysis specification before any molecular/function effect or association is calculated.",
+  "stop_rule": "Inspect at most these four additional studies and their directly linked primary deposits. Stop at one source-complete candidate or completion of the roster. Preserve exclusions and access failures; do not extend the search indefinitely.",
+  "possible_dispositions": ["source_complete_for_separate_comparator", "deferred_missing_link_or_input", "excluded_species_or_system", "excluded_endpoint_for_this_question"],
+  "limits": [
+    "No new efficacy, safety, lineage retention, persistence or clinical conclusion",
+    "No new wet-lab work, paid compute, mailbox review or message send",
+    "Phase 483 and existing support_only/insufficient_signal gates remain unchanged",
+    "Original investigators retain experimental and biological-discovery credit"
+  ]
+}

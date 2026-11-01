@@ -1,0 +1,13 @@
+{
+  "contract_sha256": "cd06e1a37321c8616d734aa99f0f7d4ab14b93bb02ae85431d879f5f7837b70a",
+  "frozen_at_utc": "2026-11-01T22:21:12.279687+00:00",
+  "protected_dependencies": {
+    "gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "gill-migration-comparison-2026-10-31/FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "gill-migration-comparison-2026-10-31/READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086",
+    "linked-function-admission-2026-10-31/ADMISSION_RESULTS.json": "ea6986c8982ad9a9a12f81f4535d36489012d6ef4e4c6fe506500618f973e02f"
+  },
+  "schema": "controller.source-screen-freeze/1",
+  "source_head": "d9573f61e2a32b6f0a6885df2317876aebd7f51c",
+  "timing": "Post-discovery source screen; before numerical outcome analysis. Four known bibliographic candidates; no outcome-blind claim."
+}

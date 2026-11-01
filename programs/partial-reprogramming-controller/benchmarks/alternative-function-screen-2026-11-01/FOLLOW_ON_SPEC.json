@@ -1,0 +1,38 @@
+{
+  "allowed_interpretation": "A donor-bounded calibration of defined RNA readouts against a specific physiological measure in replicative culture aging.",
+  "before_outcomes": [
+    "Freeze an externally justified RNA feature set, source version, direction and arithmetic before relating its values to function. Do not select genes by their observed correlation in this dataset.",
+    "Preserve all 22 eligible records and the one missing-function exclusion; do not fill it from adjacent timepoints.",
+    "Keep donors separate, retain culture time and passage explicitly, and define the treatment of time-trend confounding before interpretation.",
+    "Use original source expression and function values; no new clock training, age imputation or normalization."
+  ],
+  "inputs": {
+    "RNA": "Pinned GSE179848 investigator-processed log2 VST expression matrix",
+    "coverage_and_missingness": "eligible-untreated-records.tsv",
+    "function": "Source-reported oxidative spare respiratory capacity; pmol O2/min/20,000 cells; source summaries",
+    "paired_source_records": "matched-records.tsv"
+  },
+  "not_admitted": [
+    "A biological-age clock result for these cultures",
+    "An intervention benefit or reversal-of-aging test",
+    "Safety, transformation risk, lineage preservation, post-withdrawal persistence or clinical efficacy",
+    "A replacement for the frozen Gill migration/clock comparison or the Phase 483 supervised external exchange"
+  ],
+  "outcome_analysis_executed": false,
+  "population_scope": {
+    "RNA_records": 22,
+    "donor_ages_years": [
+      18,
+      18
+    ],
+    "donors": [
+      "HC1",
+      "HC2"
+    ],
+    "independent_units": "Two donors; repeated culture timepoints are longitudinal observations, not independent people.",
+    "paired_records": 21
+  },
+  "question": "Within the admitted untreated adult-origin fibroblast culture records, how do independently specified RNA readouts relate descriptively to source-reported oxidative spare respiratory capacity as the cultures age?",
+  "schema": "controller.source-bound-follow-on-spec/1",
+  "status": "source_ready; molecular_feature_definition_not_yet_frozen"
+}

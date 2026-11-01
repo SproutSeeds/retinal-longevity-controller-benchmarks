@@ -1,0 +1,37 @@
+{
+  "candidates": [
+    {
+      "disposition": "source_complete_for_separate_comparator",
+      "doi": "10.1038/s41597-022-01852-y",
+      "id": "STURM2022",
+      "original_study_claims_adopted": false,
+      "result": "Source admission only; all other source-label contexts remain separately audited.",
+      "scope": "Untreated Phase II, 21% oxygen, two 18-year-old adult-origin fibroblast donors; 22 RNA records, 21 with source-reported respiratory spare capacity."
+    },
+    {
+      "disposition": "deferred_missing_link_or_input",
+      "doi": "10.18632/aging.204896",
+      "finding": "No reusable per-RNA matrix or exact culture-to-NCC crosswalk acquired in this bounded review. NCC remains a specifically named compartmentalization reporter. The methods reference mm10 despite a human-cell experimental description; source clarification would be required rather than silently correcting it.",
+      "global_data_absence_claimed": false,
+      "id": "YANG2023",
+      "review_extent": "Primary article XML and directly linked deposit search; supplementary-file request timed out and publisher PDF request returned 403."
+    },
+    {
+      "disposition": null,
+      "doi": "10.1038/s44321-025-00265-9",
+      "finding": "Human RNA and cellular phenotypes are distinct from worm healthspan/lifespan outcomes. A paired human functional-readout/culture mapping was not admitted by this screen.",
+      "id": "SCHOENFELDT2025",
+      "review_extent": "Primary article and 24-sample GEO series inspected; detailed source-table acquisition stopped after the Sturm subset qualified.",
+      "status": "not_pursued_after_first_source_complete_candidate"
+    },
+    {
+      "disposition": "excluded_species_or_system",
+      "doi": "10.1016/j.cels.2022.05.002",
+      "finding": "The screened reprogramming data are murine; the source species is Mus musculus, outside the human adult-primary comparator question.",
+      "id": "ROUX2022",
+      "review_extent": "Primary bibliographic description and GSE176206 series metadata."
+    }
+  ],
+  "schema": "controller.bounded-alternative-candidates/1",
+  "stop_rule": "Stop after one source-complete candidate; do not expand the roster."
+}

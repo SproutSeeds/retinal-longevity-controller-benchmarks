@@ -1,0 +1,227 @@
+{
+  "browser_export": {
+    "bytes": 1394190,
+    "columns": 233,
+    "contains_RNA_expression_values": false,
+    "contains_RNA_ids_and_physiological_measurements": true,
+    "method": "Browser download through Download Data tab; All parameters; full sample-set checkbox enabled",
+    "name": "sturm-current-author-export.csv",
+    "observed_at_utc": "2026-11-01T22:37:49.883321+00:00",
+    "rows": 1919,
+    "sha256": "8557fe5eac4e0aba771705af0ff54819256f3b0d8a32f48cbdd07c7a7ce9700c",
+    "source": "https://columbia-picard.shinyapps.io/shinyapp-Lifespan_Study/"
+  },
+  "companion_abundance": "A public pre-QC abundance matrix was retained in ignored cache; it is not admitted or merged. The final processed 345-column matrix is the RNA input.",
+  "large_unneeded_inputs": "234MB raw Seahorse ZIP, raw sequencing reads and raw WGS were not downloaded.",
+  "requests": [
+    {
+      "bytes": 180208,
+      "content_type": "application/xml",
+      "name": "sturm-article.xml",
+      "requested_at_utc": "2026-11-01T22:20:49.672219+00:00",
+      "sha256": "cd90f85449d13dad0eedbc847fe850e7f533e17330d765296151c83f510ebd69",
+      "status": 200,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9719499/fullTextXML"
+    },
+    {
+      "bytes": 179553,
+      "content_type": "application/xml",
+      "name": "yang-article.xml",
+      "requested_at_utc": "2026-11-01T22:20:49.672611+00:00",
+      "sha256": "8e90bca9662c8eeaea49813b93b4c7c815125b3c3b66377f156f5a347a6a8b5e",
+      "status": 200,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10373966/fullTextXML"
+    },
+    {
+      "bytes": 243785,
+      "content_type": "application/xml",
+      "name": "schoenfeldt-article.xml",
+      "requested_at_utc": "2026-11-01T22:20:49.672700+00:00",
+      "sha256": "6b2a4313e0c097424e5bd18a0c9107e23f2e086a66baf69ae3532d1e54700965",
+      "status": 200,
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12340157/fullTextXML"
+    },
+    {
+      "bytes": 5339,
+      "content_type": "application/json",
+      "name": "sturm-data-metadata.json",
+      "requested_at_utc": "2026-11-01T22:20:49.672760+00:00",
+      "sha256": "2fff3b7a0639664e6d0eb8cff843baa68c3c88954e234f05e9400ba0eb5a8bd5",
+      "status": 200,
+      "url": "https://api.figshare.com/v2/articles/18441998"
+    },
+    {
+      "bytes": 4515,
+      "content_type": "application/json",
+      "name": "sturm-bioenergetics-metadata.json",
+      "requested_at_utc": "2026-11-01T22:20:49.672819+00:00",
+      "sha256": "bfb7ac40036791d2aa714ae19beb8e9d685633e34a3145bfec993353b532b013",
+      "status": 200,
+      "url": "https://api.figshare.com/v2/articles/20277606"
+    },
+    {
+      "bytes": 80344,
+      "content_type": "application/json; charset=utf-8",
+      "name": "sturm-repo-tree.json",
+      "requested_at_utc": "2026-11-01T22:20:49.672871+00:00",
+      "sha256": "a39becce5bc4318cfbe8327a4393af8bded3affdf565fc3cdde4526962ed4c38",
+      "status": 200,
+      "url": "https://api.github.com/repos/gav-sturm/Cellular_Lifespan_Study/git/trees/main?recursive=1"
+    },
+    {
+      "bytes": 1690384,
+      "content_type": "text/csv",
+      "name": "Lifespan_Study_Data.csv",
+      "requested_at_utc": "2026-11-01T22:22:24.345213+00:00",
+      "sha256": "d17808caa67130a4758dd681ad033f4ffbcdb8b73b384aaa5c3f0b5451883949",
+      "status": 200,
+      "url": "https://ndownloader.figshare.com/files/33207965"
+    },
+    {
+      "bytes": 1626,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "sturm-readme.md",
+      "requested_at_utc": "2026-11-01T22:22:24.345572+00:00",
+      "sha256": "30592cef674b93dc8e41d1acc9f7162c94f3196f30b8de9b948c4c111abfb6d4",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/gav-sturm/Cellular_Lifespan_Study/fc3a12d68f58c76202f2d112c2c3fcf720640b12/README.md"
+    },
+    {
+      "bytes": 17849,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "sturm-rna-import.R",
+      "requested_at_utc": "2026-11-01T22:22:24.345656+00:00",
+      "sha256": "f70041efe3a7735f77fc08e5b8d6cc281847b1c68d56c467215e8d96de31e8dc",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/gav-sturm/Cellular_Lifespan_Study/fc3a12d68f58c76202f2d112c2c3fcf720640b12/RNAseq/RNAseq_txi_import.R"
+    },
+    {
+      "bytes": 115752,
+      "content_type": "text/plain; charset=utf-8",
+      "name": "sturm-server.R",
+      "requested_at_utc": "2026-11-01T22:22:24.345711+00:00",
+      "sha256": "4c5877432d7a97a19e82b7524981f383cd037793f97a90e2545c6946f97a2589",
+      "status": 200,
+      "url": "https://raw.githubusercontent.com/gav-sturm/Cellular_Lifespan_Study/fc3a12d68f58c76202f2d112c2c3fcf720640b12/shinyapp/server.R"
+    },
+    {
+      "bytes": 14983,
+      "content_type": "geo/text",
+      "name": "GSE179848-series.txt",
+      "requested_at_utc": "2026-11-01T22:22:24.345764+00:00",
+      "sha256": "3daff7fb2adb8091f1399a6e1494a463f8e8a5536af44cb7a4ca3f6ee78408df",
+      "status": 200,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179848&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 994,
+      "content_type": "text/html; charset=utf-8",
+      "name": "GSE179848-supp-index.html",
+      "requested_at_utc": "2026-11-01T22:22:24.345820+00:00",
+      "sha256": "cc8252477a687d334d4a4e5a22ab5428b9e06cb183f5fdce8a313ced73563a26",
+      "status": 403,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/"
+    },
+    {
+      "bytes": 4229,
+      "content_type": "geo/text",
+      "name": "GSE176206-series.txt",
+      "requested_at_utc": "2026-11-01T22:22:24.345898+00:00",
+      "sha256": "2eff4044a7e8db10897b32d6c8afc416afc5350d2f5390d46622a9fae285480d",
+      "status": 200,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176206&targ=self&form=text&view=full"
+    },
+    {
+      "bytes": 3410,
+      "content_type": "geo/text",
+      "name": "GSE297984-series.txt",
+      "requested_at_utc": "2026-11-01T22:22:24.345951+00:00",
+      "sha256": "74e62a8633bf3d5e71689e0132dd5aeafe7c73e805c03b40a4e9220eb1d08819",
+      "status": 200,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE297984&targ=self&form=text&view=full"
+    },
+    {
+      "error": "TimeoutError: The read operation timed out",
+      "name": "yang-supplements.zip",
+      "requested_at_utc": "2026-11-01T22:22:24.586147+00:00",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10373966/supplementaryFiles"
+    },
+    {
+      "bytes": 11198396,
+      "content_type": "geo/text",
+      "name": "GSE179848-family.txt",
+      "requested_at_utc": "2026-11-01T22:23:25.002367+00:00",
+      "sha256": "1e73532789e164cd0402f9c7f64e9c6648d8fb1a225dfd7fe1a8225d52d867c7",
+      "status": 200,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179848&targ=all&form=text&view=full"
+    },
+    {
+      "bytes": 980,
+      "content_type": "text/html; charset=utf-8",
+      "name": "GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz",
+      "requested_at_utc": "2026-11-01T22:23:25.002917+00:00",
+      "sha256": "d57e1b9c2e09be3e472ced8869a397f375db7d8d8a6d8d29e9374b88de93708b",
+      "status": 403,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz?download=1"
+    },
+    {
+      "accepted_file": false,
+      "bytes": 21890,
+      "content_type": "text/html; charset=utf-8",
+      "final_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE179848&format=file&file=GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz",
+      "interpretation": "Rejected HTTP-200 HTML challenge; not a data file.",
+      "name": "GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz",
+      "requested_at_utc": "2026-11-01T22:25:03.943975+00:00",
+      "sha256": "a11834e12ab17bbc029d12b1a4c792dc8fa6ce4f5429b3f12aacb1e2100f3fe8",
+      "status": 200,
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE179848&format=file&file=GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz"
+    },
+    {
+      "accepted_file": false,
+      "bytes": 5661,
+      "content_type": "text/html; charset=UTF-8",
+      "final_url": "https://www.aging-us.com/article/204896/supplementary/aging-15-204896-s002.pdf",
+      "name": "yang-supplement-tables.pdf",
+      "requested_at_utc": "2026-11-01T22:25:03.944351+00:00",
+      "sha256": "1a0ceea9fc02714ec46c5a71d08c50695de0f9ac69c3c2160565288b838fc63f",
+      "status": 403,
+      "url": "https://www.aging-us.com/article/204896/supplementary/aging-15-204896-s002.pdf"
+    },
+    {
+      "accepted_file": false,
+      "basis": "Literal filename encoding observed on the primary GEO record, using HTTPS transport",
+      "bytes": 0,
+      "content_type": "application/x-gzip",
+      "requested_at_utc": "2026-11-01T22:37:50.504405+00:00",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": 200,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848%5Fprocessed%5Fcell%5Flifespan%5FRNAseq%5Fdata%2Ecsv%2Egz"
+    },
+    {
+      "accepted_file": true,
+      "bytes": 60622846,
+      "content_type": "application/x-gzip",
+      "declared_content_length": "60622846",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848%5Fprocessed%5Fcell%5Flifespan%5FRNAseq%5Fdata%2Ecsv%2Egz?download=1",
+      "name": "GSE179848_processed_cell_lifespan_RNAseq_data.csv.gz",
+      "requested_at_utc": "2026-11-01T22:38:46.155395+00:00",
+      "sha256": "b5731fa1253a2bd32f0b64c3bd58770e833a3da59dc90c4f8c8d858944b30109",
+      "status": 200,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848%5Fprocessed%5Fcell%5Flifespan%5FRNAseq%5Fdata%2Ecsv%2Egz?download=1"
+    },
+    {
+      "accepted_file": true,
+      "bytes": 33093263,
+      "content_type": "application/x-gzip",
+      "declared_content_length": "33093263",
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848_txi_gene_abundance.csv.gz?download=1",
+      "name": "GSE179848_txi_gene_abundance.csv.gz",
+      "requested_at_utc": "2026-11-01T22:38:46.155728+00:00",
+      "sha256": "c9b878f199da886f8891d9902b7097d17f3274f6924df5a2ceea85e1d24e85ce",
+      "status": 200,
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE179nnn/GSE179848/suppl/GSE179848_txi_gene_abundance.csv.gz?download=1"
+    }
+  ],
+  "schema": "controller.alternative-source-acquisition/1",
+  "scientific_code_execution": "None; investigator R code read as text only."
+}
