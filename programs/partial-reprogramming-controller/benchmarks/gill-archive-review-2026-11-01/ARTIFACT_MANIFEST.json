@@ -1,0 +1,13 @@
+{
+  "files": {
+    "ACQUISITION.json": "3f0129b5605723d9e5d1cc690d6f95274ced079a25f17eb9e1940c7b56440326",
+    "ARCHIVE_INVENTORY.json": "957966304051ef6a31c830ff70a4f389f4fcb3774bb1475afe0ab364da9bf916",
+    "CLAIM.md": "b6b4068b8a5a856b777f6263624c31dddd6cb299697a58e07d12cfa6ff7a9da4",
+    "README.md": "b537b6f1786032a1a15d994965c9c19f054932659108e9aa45c8bcf94d09e988",
+    "REVIEW.json": "bc954b3faa3f9308a783ed5a36d60b8f33d9bb52205f7dddec773c70eacba1fd",
+    "VERIFICATION_RECORD.md": "652d33ff7b7c0202a2b5773cda62ceb2a34379e5b019cb61011cd6e282c0654c",
+    "verify.py": "b6c9440a9dcbf9bdcd8d1cf24d69d1d65cc57125b801b1e6fdecb8b2f13a6368"
+  },
+  "schema": "gill.archive-review-artifacts/1",
+  "scope": "Derived provenance and review only. Source archives, full thesis, correspondence and operating receipts are excluded."
+}

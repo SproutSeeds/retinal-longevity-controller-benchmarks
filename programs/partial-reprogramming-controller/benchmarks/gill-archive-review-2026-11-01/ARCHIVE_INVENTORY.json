@@ -1,0 +1,140 @@
+[
+  {
+    "archive": "cambridge-additional-files.zip",
+    "crc_check": null,
+    "members": [
+      {
+        "bytes": 3385506,
+        "compression": 8,
+        "name": "elife-71624-fig3.tif",
+        "sha256": "e76cff9d8999973d54eb2cf9b0c516f377e0bf4b803ec6cee233e8d681f642d9"
+      },
+      {
+        "bytes": 1094110,
+        "compression": 8,
+        "name": "elife-71624-fig4-figsupp1.tif",
+        "sha256": "861872115cd7eca82e482d5d19691437637af50d5b7938318d3c781591fdd431"
+      },
+      {
+        "bytes": 1390722,
+        "compression": 8,
+        "name": "elife-71624-fig1-figsupp1.tif",
+        "sha256": "43abf3b12a4d8314515f11494f508639914653b6aabdcfef01e1b16e5cf326b6"
+      },
+      {
+        "bytes": 952504,
+        "compression": 8,
+        "name": "elife-71624-fig2.tif",
+        "sha256": "36b50a6a9266a1771963b179722a9756ae7fe26199b1c6c94938316f0c71981c"
+      },
+      {
+        "bytes": 252115,
+        "compression": 8,
+        "name": "elife-71624-transrepform1.docx",
+        "sha256": "c77af200bbdf5ad924f928fb84f3bd85eaf5023ab4c390dcc84f8a48e38c063a"
+      },
+      {
+        "bytes": 3615638,
+        "compression": 8,
+        "name": "elife-71624-fig1.tif",
+        "sha256": "b67b15fe955c786bab443d7231b60863b09fddd37482315dbae62e188c90bc23"
+      },
+      {
+        "bytes": 2065042,
+        "compression": 8,
+        "name": "elife-71624-fig4.tif",
+        "sha256": "3d249610ef47ff83852fdc24c49d82ce10a50821af66e11aff24ceb6fca19f4e"
+      },
+      {
+        "bytes": 994978,
+        "compression": 8,
+        "name": "elife-71624-fig3-figsupp1.tif",
+        "sha256": "32f4c93fa2336abec29005df6ba45865ead533a0fc4ce42e7f5e894199211092"
+      },
+      {
+        "bytes": 12047,
+        "compression": 8,
+        "name": "elife-71624-supp2.xlsx",
+        "sha256": "2f1e86f9cf35bf66314af44aecd0fcc2708941101c44ad8f7e268b1bf0884853"
+      },
+      {
+        "bytes": 10182,
+        "compression": 8,
+        "name": "elife-71624-supp1.xlsx",
+        "sha256": "110b729e52efbba338e1ab41eff3f79dd83121fa0397bdc2af6dafaf0aa2db5e"
+      },
+      {
+        "bytes": 105167,
+        "compression": 8,
+        "name": "elife-71624-supp3.xlsx",
+        "sha256": "66f89e7efc6804e2e63d7afc74ac16fc5713e0bc2d23056a1700495237950b20"
+      },
+      {
+        "bytes": 87146,
+        "compression": 8,
+        "name": "elife-71624-sa2-fig1.tif",
+        "sha256": "42be29b02e090d87a69ffe30568e9a71c531665779283ca15a4ff6fe5aa19254"
+      },
+      {
+        "bytes": 1471798,
+        "compression": 8,
+        "name": "elife-71624-fig2-figsupp1.tif",
+        "sha256": "a58b893e3b574cedad8e0d5e146bc843840e1c43b0a1b5776e67c239cdba3833"
+      }
+    ]
+  },
+  {
+    "archive": "elife-71624-supp-v1.zip",
+    "crc_check": null,
+    "members": [
+      {
+        "bytes": 252115,
+        "compression": 0,
+        "name": "elife_poa_e71624_Transparent_Reporting_File.docx",
+        "sha256": "c77af200bbdf5ad924f928fb84f3bd85eaf5023ab4c390dcc84f8a48e38c063a"
+      },
+      {
+        "bytes": 4133319,
+        "compression": 0,
+        "name": "elife_poa_e71624_Figure_1_figure_supplement_1.pdf",
+        "sha256": "757a441ebe2b7c75db31241e78b0ccad131486aa720ad965ab95de5bca65e198"
+      },
+      {
+        "bytes": 589417,
+        "compression": 0,
+        "name": "elife_poa_e71624_Figure_2_figure_supplement_1.pdf",
+        "sha256": "ec3821ba298a6e9a8d697d5fe5d7366643b1df8c9eccc7e65bf513d17b32e166"
+      },
+      {
+        "bytes": 825339,
+        "compression": 0,
+        "name": "elife_poa_e71624_Figure_3_figure_supplement_1.pdf",
+        "sha256": "796685419c458137566c8cdb5521e42e5f617b8327d529857554994b4af2b49a"
+      },
+      {
+        "bytes": 590475,
+        "compression": 0,
+        "name": "elife_poa_e71624_Figure_4_figure_supplement_1.pdf",
+        "sha256": "388536045c2cf861f633e657103755f83eb6ce218adf3941cb62b718ad3d8ead"
+      },
+      {
+        "bytes": 10182,
+        "compression": 0,
+        "name": "elife_poa_e71624_Supplementary_file_1.xlsx",
+        "sha256": "110b729e52efbba338e1ab41eff3f79dd83121fa0397bdc2af6dafaf0aa2db5e"
+      },
+      {
+        "bytes": 12047,
+        "compression": 0,
+        "name": "elife_poa_e71624_Supplementary_file_2.xlsx",
+        "sha256": "2f1e86f9cf35bf66314af44aecd0fcc2708941101c44ad8f7e268b1bf0884853"
+      },
+      {
+        "bytes": 105167,
+        "compression": 0,
+        "name": "elife_poa_e71624_Supplementary_file_3.xlsx",
+        "sha256": "66f89e7efc6804e2e63d7afc74ac16fc5713e0bc2d23056a1700495237950b20"
+      }
+    ]
+  }
+]

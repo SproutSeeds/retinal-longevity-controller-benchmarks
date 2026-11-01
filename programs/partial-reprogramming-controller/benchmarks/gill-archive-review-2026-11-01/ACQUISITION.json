@@ -1,0 +1,128 @@
+{
+  "claim_level": "Verified source identity for successful requests",
+  "interpretation": "Dated network observations, not a promise of future availability. Four complete source files retained locally; no failed response admitted.",
+  "metadata_reconciliation": "PASS: all three content sizes and MD5 hashes agree with fresh repository metadata",
+  "metadata_requests": [
+    {
+      "bytes": 1459,
+      "checkSum": {
+        "checkSumAlgorithm": "MD5",
+        "value": "a1e21b9b9d1160b4f80a71dcf8e8ecfd"
+      },
+      "name": "article-zip-metadata.json",
+      "observed_at_utc": "2026-11-01T21:38:31.058646+00:00",
+      "sha256": "c47ac4ab2c5f7c49b0175aa133b276205de01b226c1c36e41eccb741b793e439",
+      "sizeBytes": 15166251,
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272"
+    },
+    {
+      "bytes": 1477,
+      "checkSum": {
+        "checkSumAlgorithm": "MD5",
+        "value": "036b3c2c1ae2dd5ddadc337c72c69cff"
+      },
+      "name": "thesis-pdf-metadata.json",
+      "observed_at_utc": "2026-11-01T21:38:31.053983+00:00",
+      "sha256": "da00fcafb8031df8c29d0e0b221fa50fe8ca59d656147664c15d922d8d54c610",
+      "sizeBytes": 35620483,
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/cebab2a8-23fa-4b82-b677-d25142b410b2"
+    },
+    {
+      "bytes": 1723,
+      "checkSum": {
+        "checkSumAlgorithm": "MD5",
+        "value": "5378c688104370da8ea4da54949b1546"
+      },
+      "name": "thesis-text-metadata.json",
+      "observed_at_utc": "2026-11-01T21:38:31.427133+00:00",
+      "sha256": "1ec6009299f62617c62e1bfe7e6fb5e2f256932b3a7fe446d000e974fd3bda1b",
+      "sizeBytes": 331885,
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db"
+    },
+    {
+      "bytes": 550530,
+      "name": "article-current.html",
+      "observed_at_utc": "2026-11-01T21:38:30.408897+00:00",
+      "sha256": "f8bd3ae66ae73a92f2b5f1e9e808d89496c310be387fa22343510d8c8ea04dbc",
+      "status": 200,
+      "url": "https://elifesciences.org/articles/71624"
+    }
+  ],
+  "requests": [
+    {
+      "byte_validation": "PASS",
+      "bytes": 15166251,
+      "content_type": "application/zip;charset=UTF-8",
+      "expected_bytes": 15166251,
+      "expected_md5": "a1e21b9b9d1160b4f80a71dcf8e8ecfd",
+      "final_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content",
+      "md5": "a1e21b9b9d1160b4f80a71dcf8e8ecfd",
+      "name": "cambridge-additional-files.zip",
+      "requested_at_utc": "2026-11-01T21:34:25.115835+00:00",
+      "sha256": "f8ce62f58209e4d59c090929e3ecb1a47eebeee72bf34bb006eef9ef8510e254",
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/5d9ce637-2611-4f8d-b52b-efcdb7a7c272/content"
+    },
+    {
+      "byte_validation": "PASS",
+      "bytes": 35620483,
+      "content_type": "application/pdf;charset=UTF-8",
+      "expected_bytes": 35620483,
+      "expected_md5": "036b3c2c1ae2dd5ddadc337c72c69cff",
+      "final_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/cebab2a8-23fa-4b82-b677-d25142b410b2/content",
+      "md5": "036b3c2c1ae2dd5ddadc337c72c69cff",
+      "name": "gill-thesis.pdf",
+      "requested_at_utc": "2026-11-01T21:34:25.116172+00:00",
+      "sha256": "5f23204924f68b782fbf309269e422dc4f15ce17cec37c79aea7b8b1b7738b3e",
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/cebab2a8-23fa-4b82-b677-d25142b410b2/content"
+    },
+    {
+      "byte_validation": "PASS",
+      "bytes": 331885,
+      "content_type": "text/plain;charset=UTF-8",
+      "expected_bytes": 331885,
+      "expected_md5": "5378c688104370da8ea4da54949b1546",
+      "final_url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content",
+      "md5": "5378c688104370da8ea4da54949b1546",
+      "name": "gill-thesis.txt",
+      "requested_at_utc": "2026-11-01T21:34:25.116258+00:00",
+      "sha256": "533491be268d9d7cb821ed50e293526612de94c0c31793cde8eb32f4bce55191",
+      "status": 200,
+      "url": "https://api.repository.cam.ac.uk/server/api/core/bitstreams/7f039e4a-8a56-4878-ba09-2dc4b6d438db/content"
+    },
+    {
+      "byte_validation": "no_repository_checksum",
+      "bytes": 6519431,
+      "content_type": "application/zip",
+      "expected_bytes": null,
+      "expected_md5": null,
+      "final_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp-v1.zip",
+      "md5": "c8054ae9dfd942bf16b71f2d64243e39",
+      "name": "elife-71624-supp-v1.zip",
+      "requested_at_utc": "2026-11-01T21:34:25.116318+00:00",
+      "sha256": "797e34a0fa7c9d115ef49dba81b4f692b9352afcb3c14a02d8c07ffad7037e09",
+      "status": 200,
+      "url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp-v1.zip"
+    },
+    {
+      "byte_validation": "NOT_ADMITTED",
+      "bytes": 329,
+      "content_type": "application/xml",
+      "error_excerpt": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>articles/71624/elife-71624-supp-v2.zip</Key><RequestId>6V2ZGYJ63B3R8ZZC</RequestId><HostId>sgEVrhtuY5txz3TYZgFxGdMs525kpGS5SAl5590liitAxSOV7R0Z8T4IeF4GwJ4wD+mZsyMii+AOsU4zkcew5hjJFPTyaF05</HostId></Error>",
+      "expected_bytes": null,
+      "expected_md5": null,
+      "final_url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp-v2.zip",
+      "md5": "f579e213651c3c594a956482646ad5ae",
+      "name": "elife-71624-supp-v2.zip",
+      "requested_at_utc": "2026-11-01T21:34:25.116376+00:00",
+      "sha256": "86de729a4f4deaf162306ab8b45793f74f57e475c032c37f0e6d4e7eb3819a9c",
+      "status": 404,
+      "url": "https://cdn.elifesciences.org/articles/71624/elife-71624-supp-v2.zip"
+    }
+  ],
+  "schema": "gill.archive-acquisition/1"
+}

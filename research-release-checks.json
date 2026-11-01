@@ -57,6 +57,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -318,6 +322,122 @@
     },
     {
       "name": "sha256:programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARCHIVE_INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARCHIVE_INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARCHIVE_INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md:../gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md:../gill-matrix-recovery-2026-10-31/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md:ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md:ARCHIVE_INVENTORY.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md:REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/verify.py",
       "status": "PASS"
     },
     {
@@ -7269,8 +7389,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1817,
+  "passed": 1847,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1817
+  "total": 1847
 }

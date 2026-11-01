@@ -1,6 +1,6 @@
 {
   "claim_level": "Verified",
-  "content_fingerprint": "43083bd0792c85fc250a02ec3524886f1965b8e7b68c576e74cc176885ccd5dc",
+  "content_fingerprint": "888f52592b7a6453464c5b1dd4390df5992d8a77f0dc84c8946e37115d7fee73",
   "excluded": [
     "private correspondence",
     "author-only attachments",
@@ -11,8 +11,16 @@
   "files": {
     ".github/workflows/research-checks.yml": "a5465055824d64ba345b1d0775367ebd4765d9d175a06e318c8227bf8916cdf4",
     ".gitignore": "436d177057e129e2f4a45699283005aaed3e91eb6f8c2c30d0b8022bff764155",
-    "README.md": "f8fad43ffa265e8b5cb8b5ee7a4072922819a4cbaf12a87ab1709ef7c5f289d9",
+    "README.md": "8714582737f7a9ac6cbac735114f4ea9a302b75aaad20aae64fc0b4cc416645a",
     "programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv": "d854290f5aa48765dd7ef3c123633fc96470ee3e94b2a095bd14346969293fae",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ACQUISITION.json": "3f0129b5605723d9e5d1cc690d6f95274ced079a25f17eb9e1940c7b56440326",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARCHIVE_INVENTORY.json": "957966304051ef6a31c830ff70a4f389f4fcb3774bb1475afe0ab364da9bf916",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/ARTIFACT_MANIFEST.json": "fee1d9711c4d2b64a780294c25c3559b5a3ab8db8e701c8513ea54e80f0014c3",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/CLAIM.md": "b6b4068b8a5a856b777f6263624c31dddd6cb299697a58e07d12cfa6ff7a9da4",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/README.md": "b537b6f1786032a1a15d994965c9c19f054932659108e9aa45c8bcf94d09e988",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/REVIEW.json": "bc954b3faa3f9308a783ed5a36d60b8f33d9bb52205f7dddec773c70eacba1fd",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/VERIFICATION_RECORD.md": "652d33ff7b7c0202a2b5773cda62ceb2a34379e5b019cb61011cd6e282c0654c",
+    "programs/partial-reprogramming-controller/benchmarks/gill-archive-review-2026-11-01/verify.py": "b6c9440a9dcbf9bdcd8d1cf24d69d1d65cc57125b801b1e6fdecb8b2f13a6368",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json": "e5be17446e0e4eb5af30d85f8c0422b982a9e89792f6b6efc7b63fc8515a8947",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json": "aad3ce661715e546e309cb993d3b933ccfdcc402bb7c1e66fa1411b54cf3c01b",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md": "63b48b721f4bc5d5907e3e0e6e7dab24134a0552b7dc50899a033c2170609aa8",
@@ -124,12 +132,12 @@
     "research/2026-10-rpe-controller/README.md": "fc1605ed1e6aa7dbd834352112903ec746746dd68fb9f22dc5a8b10d4aa2d851",
     "research/2026-10-rpe-controller/THIRD_PARTY.md": "6f6378e65561b057f2ad5d9976740832daef54edd4f8168220bb7481a29d81b4",
     "research/2026-10-rpe-controller/VERIFICATION_RECORD.md": "c586b5d38b8d6d99e1e33ab6fad1c0f13496bd63346ce365d09f8a71f4d5bce5",
-    "research/2026-10-rpe-controller/verify_public.py": "38eca10fcd78308efc078d809bf89e40d1908dc4a8396029f5eba21671a3826a",
+    "research/2026-10-rpe-controller/verify_public.py": "8281e29eace70fc1c87a090f53e9bf2f60ffeaf7cd6e7a7fcea8aee2927f3c6b",
     "tools/research-sync/sync.py": "192693c610283704a77690b26c175ca37bab08852289f526acfca198602c979b",
     "tools/research-sync/test_sync.py": "4f39f3c5202a384a923b7d0749f02c05cade539136e01314d6040cf7751ca13d"
   },
   "schema": "public.research-checkpoint/1",
-  "scientific_checkpoint": "2026-10-31",
+  "scientific_checkpoint": "2026-11-01",
   "scope": "Committed allowlist export, exact CLI replay and same-agent source-table verification; biological interpretation remains Heuristic.",
-  "source_commit": "2e2c76cc25d607415a3f87dcb5649d589e38bf56"
+  "source_commit": "b73e35f3c72760ece7a2594a7c481f6d46d107a3"
 }

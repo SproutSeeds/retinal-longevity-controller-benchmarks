@@ -1,0 +1,190 @@
+{
+  "admission": {
+    "eligible_frozen_pairs": 13,
+    "frozen_contract_changed": false,
+    "known_outcome": true,
+    "missing_roles": [
+      "original technical-replicate migration speeds and source culture IDs",
+      "authoritative culture-to-RNA crosswalk and experimental context",
+      "existing final-paper Figure 3C per-RNA predicted ages"
+    ],
+    "new_joint_pairs": 0,
+    "observed_analysis_run": false,
+    "phase_483": "Awaiting real supervised external packet exchange",
+    "source_scope": "These four recovered objects and their inventoried members only; no global absence claim.",
+    "status": "DEFERRED"
+  },
+  "claim_level": "Verified for retained source identity, inspected content and this deferred intake only",
+  "clock_version": {
+    "decision": "No substitution of thesis figure values for final-paper per-RNA predicted ages. Differences in reported error and group coverage do not identify the cause or prove which underlying model artifacts changed.",
+    "equivalence": "NOT_ESTABLISHED",
+    "final_paper": {
+      "clock_figure": "3C",
+      "error_figure": "3 supplement 1A",
+      "median_absolute_error_years": 12.57,
+      "negative_control_counts": [
+        3,
+        6,
+        6,
+        6
+      ],
+      "transient_reprogrammed_counts": [
+        3,
+        4,
+        2,
+        4
+      ],
+      "url": "https://elifesciences.org/articles/71624",
+      "visible_duration_days": [
+        10,
+        13,
+        15,
+        17
+      ]
+    },
+    "thesis": {
+      "description_pdf_page": 111,
+      "description_printed_page": 87,
+      "figure": "4.16",
+      "figure_pdf_page": 113,
+      "figure_printed_page": 89,
+      "median_absolute_error_years": 13.48,
+      "negative_control_counts": [
+        3,
+        3,
+        3
+      ],
+      "source": "gill-thesis.pdf",
+      "transient_reprogrammed_counts": [
+        2,
+        1,
+        3
+      ],
+      "visible_duration_days": [
+        13,
+        15,
+        17
+      ]
+    }
+  },
+  "failed_paths": [
+    {
+      "disposition": "RESOLVED for these three exact content objects on November 1; earlier dated receipt preserved",
+      "next_hook": "Use successful pinned original files, not further access-failure retries.",
+      "path": "Cambridge HTTP 500 acquisition failure on October 31"
+    },
+    {
+      "disposition": "No qualifying numerical table or culture-to-RNA crosswalk among its 13 inventoried members",
+      "next_hook": "Admit an original investigator source table and explicit mapping when supplied.",
+      "path": "Expecting the indexed article ZIP to contain missing migration tables"
+    },
+    {
+      "disposition": "DEFERRED: numerical sample IDs absent, digitization outside the frozen contract, and clock equivalence unestablished",
+      "next_hook": "Obtain existing final-paper per-RNA predicted ages with provenance.",
+      "path": "Using thesis clock plots as final-paper RNA age inputs"
+    },
+    {
+      "disposition": "HTTP 404; no file admitted",
+      "next_hook": "Follow a newly documented primary-source link rather than inventing further version URLs.",
+      "path": "Speculative publisher supp-v2.zip URL"
+    }
+  ],
+  "protected_dependencies": {
+    "gill-matrix-recovery-2026-10-31/MATRIX_QC.json": "b728fc8b057fbcc3d8925046ac4f49d70595ccc60f0627b2a113c934b1b9f8c4",
+    "gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
+    "gill-migration-comparison-2026-10-31/FREEZE.json": "5088b6779596d5be321b9e247a55d8cfe2e099999518c232785822da78953358",
+    "gill-migration-comparison-2026-10-31/READINESS.json": "71c0052954a6f220d2e5bf0f4378f4f63ce39a4fdf665abf87d1256477f99086"
+  },
+  "published_migration_figure": {
+    "finding": "Plots contain four biological-replicate groups. Neither these group labels nor a donor-only match establishes a function-culture to RNA-sample link. Technical-replicate values were not recovered or digitized.",
+    "locators": [
+      "Figure 3G",
+      "Figure 3 supplement 1E"
+    ],
+    "members": [
+      "elife-71624-fig3.tif",
+      "elife-71624-fig3-figsupp1.tif"
+    ],
+    "source": "cambridge-additional-files.zip"
+  },
+  "redistribution": {
+    "public_content": "Derived inventories, source fingerprints, review findings and verification code only",
+    "raw_correspondence_exported": false,
+    "source_files_exported": false
+  },
+  "resume_decision": {
+    "decision": "no-change",
+    "prior_event_id": "ocular-gill-matrix-recovery-20261031-r1",
+    "reason": "Routine source-access and provenance extension of the already recorded Gill source-recovery milestone. Existing grouped accomplishment and prior evidence-only intake cover this work; no new paired biological analysis or distinct accomplishment is admitted."
+  },
+  "reviewed_at_utc": "2026-11-01T21:39:26.421487+00:00",
+  "reviewer": "Codex primary-source inspection",
+  "schema": "gill.archive-review/1",
+  "shared_workbook_and_form_sha256": [
+    "110b729e52efbba338e1ab41eff3f79dd83121fa0397bdc2af6dafaf0aa2db5e",
+    "2f1e86f9cf35bf66314af44aecd0fcc2708941101c44ad8f7e268b1bf0884853",
+    "66f89e7efc6804e2e63d7afc74ac16fc5713e0bc2d23056a1700495237950b20",
+    "c77af200bbdf5ad924f928fb84f3bd85eaf5023ab4c390dcc84f8a48e38c063a"
+  ],
+  "thesis": {
+    "embedded_files": 0,
+    "future_assay_finding": "Scratch-wound assays are discussed as a future way to test functional rejuvenation; this passage supplies no completed-assay measurements.",
+    "future_assay_locator": {
+      "pdf_page": 158,
+      "printed_page": 134
+    },
+    "rendered_and_inspected_pdf_pages": [
+      111,
+      113,
+      158
+    ],
+    "rights": "All Rights Reserved",
+    "source_pdf_pages": 186,
+    "url": "https://www.repository.cam.ac.uk/items/e8d345db-7cd0-4d6d-aae7-a3495ba9ca33"
+  },
+  "transparent_reporting": {
+    "finding": "The response identifies RNA-seq and methylation data deposited in GEO and numerical points displayed in figures; it provides no additional numerical-table or analysis-code location. Form hyperlinks lead to generic reporting resources, not a study dataset.",
+    "locator": "Additional data files response and Statistical reporting response",
+    "member": "elife-71624-transrepform1.docx"
+  },
+  "workbooks": [
+    {
+      "member": "elife-71624-supp1.xlsx",
+      "purpose": "Earlier reprogramming studies comparison",
+      "sheets": [
+        {
+          "dimension": "A1:H4",
+          "name": "Sheet1"
+        }
+      ]
+    },
+    {
+      "member": "elife-71624-supp2.xlsx",
+      "purpose": "Morphology Tukey statistics, not migration measurements",
+      "sheets": [
+        {
+          "dimension": "A1:E27",
+          "name": "Tukey_Statistics_morphology_plo"
+        }
+      ]
+    },
+    {
+      "member": "elife-71624-supp3.xlsx",
+      "purpose": "Fibroblast gene cluster membership",
+      "sheets": [
+        {
+          "dimension": "A1:B2804",
+          "name": "Temporarily downregulated"
+        },
+        {
+          "dimension": "A1:B962",
+          "name": "Temporarily upregulated"
+        },
+        {
+          "dimension": "A1:B415",
+          "name": "Persistently expressed"
+        }
+      ]
+    }
+  ]
+}
