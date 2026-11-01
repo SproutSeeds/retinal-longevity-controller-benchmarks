@@ -1,6 +1,6 @@
 {
   "claim_level": "Verified",
-  "content_fingerprint": "29430bc249db4b3624b15a7ba3fbaac53152f138041bd340e6d979528e68cc06",
+  "content_fingerprint": "43083bd0792c85fc250a02ec3524886f1965b8e7b68c576e74cc176885ccd5dc",
   "excluded": [
     "private correspondence",
     "author-only attachments",
@@ -14,19 +14,19 @@
     "README.md": "f8fad43ffa265e8b5cb8b5ee7a4072922819a4cbaf12a87ab1709ef7c5f289d9",
     "programs/partial-reprogramming-controller/benchmarks/cx004-withdrawal-expression-2026-10-22/cross-cohort.tsv": "d854290f5aa48765dd7ef3c123633fc96470ee3e94b2a095bd14346969293fae",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARCHIVE_SEARCH.json": "e5be17446e0e4eb5af30d85f8c0422b982a9e89792f6b6efc7b63fc8515a8947",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json": "207598cc816f76691b58189eaefa1efa5d28e0d8b78b245f4d4ffd7b906fbd7e",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md": "d656dc08603bdc6268093f0d3a13ab6f6feb46a112c03ff22639e3f3a8ae7ac0",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/ARTIFACT_MANIFEST.json": "aad3ce661715e546e309cb993d3b933ccfdcc402bb7c1e66fa1411b54cf3c01b",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/CLAIM.md": "63b48b721f4bc5d5907e3e0e6e7dab24134a0552b7dc50899a033c2170609aa8",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/FULL_SOURCE_VERIFICATION.json": "6bdd28ee00d1ff150829d841a046835b1ba20c47d4c3fb4ed0a3d87b20ed52e6",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_CONTRACT.json": "9a8058175458c870e608e46fb5a850e1d45f934bc0c1342e082d83df50ec546f",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/MATRIX_QC.json": "b728fc8b057fbcc3d8925046ac4f49d70595ccc60f0627b2a113c934b1b9f8c4",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md": "f94b798bb1da8399721570d5f0c6bcefc6dd6b514323f17ecae76ec4cd4ccf42",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/VERIFICATION_RECORD.md": "731275d573d3a38ab35d7aa318b6430a12a417e4f5200005df285b92634cba81",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/README.md": "b801864dcaad38a2171fb4ccfda5b6558a940ae71c701a37f805c246f8afbcac",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/VERIFICATION_RECORD.md": "c54837e1d4c9b1982b6c1a829aeeba1fec3624a59113a782363ccf39051c165e",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/contrast-coverage.tsv": "3625aa3c502d6681332f9715f1632d7d7d34c9e2692ba91af1da4c797573443f",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/gene-id-issues.tsv": "0a3716b538784e8f19bb47b373702d93fb0f4a580c68d41800cf7f17af370c1a",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/recover.py": "8ae3326ec2a0a30a233ab940106f3236252f123abec7b43ed9c352813a8b93ae",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/recover.py": "7fd558772c68f44fd27cc731924908d3cb99e6b0a5b20a0099e83bfa5f3f3669",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/reordered-features.tsv": "5267bf331573c569115e5718678b6e37bfa701451a5606a20b7acaaa00075daa",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/sample-columns.tsv": "ecc883cfa96913f255fb7cf0332f8f5006e89cdc7235415eaf85de29d7cc92ab",
-    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/test_recover.py": "22905fb8d699f3d6b9f383dd37b5f5c32752ba1ab2d83fccbe817f7ec5f22578",
+    "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/test_recover.py": "9225e964bd7ce9544b51da66a88da8736822d8805dd9b27c3e6f60002b907a19",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify.py": "9ce9d9f251a079ddb9b184a6b04a813cececee8a0d85d85cb77da3bfef1d9ee1",
     "programs/partial-reprogramming-controller/benchmarks/gill-matrix-recovery-2026-10-31/verify_merged.py": "fb21730db62c86c67e535c95035d57f290357325125941afd12cfe3a53ebb7fb",
     "programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/ANALYSIS_CONTRACT.json": "b40b8561cbceb7b9f88320cc5d80046e47d70c3a050ad8ec5df9e0cc06f97989",
@@ -131,5 +131,5 @@
   "schema": "public.research-checkpoint/1",
   "scientific_checkpoint": "2026-10-31",
   "scope": "Committed allowlist export, exact CLI replay and same-agent source-table verification; biological interpretation remains Heuristic.",
-  "source_commit": "b94b350ce31eb65b7f8bbc78d0ac356abd5de547"
+  "source_commit": "2e2c76cc25d607415a3f87dcb5649d589e38bf56"
 }

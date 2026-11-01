@@ -5,11 +5,13 @@ from collections import Counter
 import csv
 import gzip
 import hashlib
+import http.client
 import io
 import json
 import math
 from pathlib import Path
 import tempfile
+import urllib.error
 import urllib.request
 
 HERE = Path(__file__).resolve().parent
@@ -266,8 +268,16 @@ def main():
         parser.error('--merge requires --write')
     contract = json.loads((HERE / 'MATRIX_CONTRACT.json').read_text())
     if args.download:
-        for source in contract['sources']:
-            download(source, args.cache)
+        try:
+            for source in contract['sources']:
+                download(source, args.cache)
+        except (urllib.error.URLError, TimeoutError, http.client.IncompleteRead) as error:
+            print('INCONCLUSIVE source reacquisition: %s. Accepted cached sources are preserved; no substitute source was used.' % error)
+            return 2
+    missing = [source['filename'] for source in contract['sources'] if not (args.cache / source['filename']).is_file()]
+    if missing:
+        print('INCONCLUSIVE missing source inputs: %s. Use --download --verify when the primary source is available.' % ', '.join(missing))
+        return 2
     outputs, matrices, contract = derive(args.cache)
     for name, content in outputs.items():
         path = HERE / name
@@ -280,7 +290,8 @@ def main():
         (args.cache / 'MERGED_MATRIX.json').write_text(encode(merged), encoding='utf-8')
         print('Merged matrix SHA-256: ' + merged['sha256'])
     print('PASS source recovery: 2 pinned matrices; locus-key alignment; exact frozen RNA contrast coverage. Joint comparison remains DEFERRED.')
+    return 0
 
 
 if __name__ == '__main__':
-    main()
+    raise SystemExit(main())

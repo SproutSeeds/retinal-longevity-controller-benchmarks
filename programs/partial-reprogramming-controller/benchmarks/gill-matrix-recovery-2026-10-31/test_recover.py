@@ -4,6 +4,7 @@ import io
 from pathlib import Path
 import tempfile
 import unittest
+import urllib.error
 from unittest.mock import patch
 
 import recover
@@ -132,6 +133,16 @@ class RecoveryTests(unittest.TestCase):
                     recover.download(source(valid), cache)
                 request.assert_not_called()
             self.assertEqual(path.read_bytes(), b'existing evidence')
+
+    def test_http_denial_reports_incomplete_reacquisition_without_substitution(self):
+        denial = urllib.error.HTTPError('https://example.org/source', 403, 'Forbidden', {}, None)
+        with tempfile.TemporaryDirectory() as folder:
+            with patch('sys.argv', ['recover.py', '--cache', folder, '--download']), patch('recover.download', side_effect=denial) as attempt, patch('sys.stdout', new_callable=io.StringIO) as output:
+                self.assertEqual(recover.main(), 2)
+            self.assertEqual(attempt.call_count, 1)
+            self.assertIn('INCONCLUSIVE source reacquisition', output.getvalue())
+            self.assertIn('403', output.getvalue())
+            self.assertEqual(list(Path(folder).iterdir()), [])
 
 
 if __name__ == '__main__':

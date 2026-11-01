@@ -17,7 +17,7 @@ python3 recover.py --write --merge
 python3 verify_merged.py
 ```
 
-Expected: offline artifact/roster checks and 14 rejection/regression tests pass. Full source replay verifies both original SHA-256 hashes and gzip streams. Independent merged verification reports 35,805 rows, 95 columns, 3,401,475 finite source values and zero changed cells. Missing or changed original files make source replay incomplete; they never trigger an automatic substitution.
+Expected: offline artifact/roster checks and 15 rejection/regression tests pass. Full source replay verifies both original SHA-256 hashes and gzip streams. Independent merged verification reports 35,805 rows, 95 columns, 3,401,475 finite source values and zero changed cells. Missing or changed original files make source replay incomplete; they never trigger an automatic substitution. A fresh-cache release check received HTTP 403 from GEO, so current end-to-end reacquisition remains INCONCLUSIVE despite the verified retained original files.
 
 The original input hashes, extracted tables, aligned output and Python checks are deterministic. Live network availability can change. Mutable institutional metadata is a dated discovery record; an indexed file or matching filename alone does not establish its contents.
 

@@ -44,6 +44,8 @@ python3 recover.py --download --verify
 
 This downloads only the two pinned processed files, about 16 MB compressed, into the ignored controller `.data/` cache. The successful acquisition used the named FTP HTTPS URLs with `?download=1`; the bare URLs had returned headers with incomplete bodies. The query variant is an observed working route, not a proven diagnosis of the server failure. Every retained file must match its size and SHA-256 and pass complete gzip validation. Changed cached sources are preserved and rejected.
 
+A later fresh-cache release check received HTTP 403 from GEO. Fresh reacquisition is therefore INCONCLUSIVE at this checkpoint, while the retained original files still pass complete replay. The CLI reports network failures as incomplete acquisition with exit status 2 and keeps accepted cached sources intact. No substitute dataset or provider is selected automatically.
+
 To create the original-value, locus-aligned working matrix in that cache:
 
 ```sh
