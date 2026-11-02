@@ -1,0 +1,54 @@
+{
+  "current_workbook_reacquisition_verified": true,
+  "imports_primary_XML_reader": false,
+  "nonempty_nonREADME_cells": 301360,
+  "reader": "openpyxl 3.1.5",
+  "schema": "controller.independent-current-workbook-census/1",
+  "scope": "The newly downloaded source workbook only; no experimental assignments or biological outcome admitted.",
+  "sheets": [
+    {
+      "column_D_value_counts": {
+        "25": 55180,
+        "55": 84758
+      },
+      "nonempty_cells_by_column": {
+        "D": 139938
+      },
+      "nonempty_rows": 139938,
+      "sheet": "Ctrl"
+    },
+    {
+      "column_D_value_counts": {
+        "55": 161422
+      },
+      "nonempty_cells_by_column": {
+        "D": 161422
+      },
+      "nonempty_rows": 161422,
+      "sheet": "Sample 1"
+    },
+    {
+      "column_D_value_counts": {},
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 2"
+    },
+    {
+      "column_D_value_counts": {},
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 3"
+    },
+    {
+      "column_D_value_counts": {},
+      "nonempty_cells_by_column": {
+        "A": 1
+      },
+      "nonempty_rows": 1,
+      "sheet": "README"
+    }
+  ],
+  "sheets_checked": 5,
+  "source_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "status": "PASS"
+}

@@ -1,0 +1,48 @@
+{
+  "acquisition": "ACQUISITION.json",
+  "files": {
+    "GSE350289_metadata_individual_cells.xlsx": {
+      "baseline_acquired_at_utc": "2026-10-17T06:38:43.871718+00:00",
+      "baseline_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "byte_identical_to_October_17": true,
+      "bytes": 1725954,
+      "effective_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+      "format": "xlsx",
+      "received_at_utc": "2026-11-02T01:16:36.776577+00:00",
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx"
+    }
+  },
+  "retained_barcode_reference_files": {
+    "GSE350289_Ctrl_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.101537+00:00",
+      "bytes": 641814,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "e0112b53d73ce7b10b3d6b7cc89a2b35a81ce360e7e811335004318181337097",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Ctrl_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample1_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.509953+00:00",
+      "bytes": 712208,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "69657109e51b212e07dd0d5361eb3e4deed0129b587316d72c8887a9e73f818f",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample1_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample2_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.966948+00:00",
+      "bytes": 495003,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "76a75c2d0372124599b4b2bb5e28d0c730ce95c1a27941330f623f5830c378d6",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample2_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample3_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:43.494494+00:00",
+      "bytes": 564132,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "2f3f085e544cd3dc5c454c545a7c4b61d481ddf8223730992a91c010d6c8d351",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample3_barcodes.tsv.gz"
+    }
+  },
+  "schema": "controller.recovered-GEO-sources/1",
+  "source_terms": "Investigator-deposited public GEO data. Raw source files remain outside this public packet."
+}

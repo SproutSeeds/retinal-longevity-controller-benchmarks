@@ -1,0 +1,33 @@
+{
+  "all_files_acquired": true,
+  "client": "curl 8.7.1 default; exact bounded diagnostic and paired transfers recorded in TRANSPORT_DIAGNOSIS.json",
+  "completed_at_utc": "2026-11-02T01:16:36.776577+00:00",
+  "current_acquisition_scope": "Successful workbook responses at the recorded times only. Later incomplete transfers are preserved separately and do not establish persistent availability.",
+  "files": {
+    "GSE350289_metadata_individual_cells.xlsx": {
+      "accepted": true,
+      "byte_identical_to_October_17": true,
+      "bytes": 1725954,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "curl_error": "",
+      "curl_exit": 0,
+      "effective_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+      "format_validation": {
+        "full_CRC": "PASS",
+        "kind": "xlsx",
+        "required_parts": "PASS"
+      },
+      "http_status": 200,
+      "independent_repeat_payload_byte_identical": true,
+      "independent_repeat_transfer_received_at_utc": "2026-11-02T01:17:56.879845+00:00",
+      "receipt_origin": "Initial successful curl diagnostic transfer. Payload revalidated from its preserved bytes; transfer time is retained.",
+      "received_at_utc": "2026-11-02T01:16:36.776577+00:00",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "started_at_utc": "2026-11-02T01:16:36.264965+00:00"
+    }
+  },
+  "schema": "controller.GEO-download-recovery/1",
+  "started_at_utc": "2026-11-02T01:16:36.264965+00:00",
+  "total_source_bytes": 1725954
+}

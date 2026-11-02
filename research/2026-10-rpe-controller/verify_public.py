@@ -48,6 +48,8 @@ def main():
     print(execute([calibration / 'verify.py']).strip())
     assignment_recheck = CONTROLLER / 'benchmarks/gse350289-assignment-recheck-2026-11-01'
     print(execute([assignment_recheck / 'verify.py']).strip())
+    download_recovery = CONTROLLER / 'benchmarks/gse350289-download-recovery-2026-11-01'
+    print(execute([download_recovery / 'verify.py']).strip())
     print('PASS public replay: %d released files; 9 v2 packets; %d earlier packets; no raw-data or model download.' % (len(manifest['files']), len(records)))
 
 

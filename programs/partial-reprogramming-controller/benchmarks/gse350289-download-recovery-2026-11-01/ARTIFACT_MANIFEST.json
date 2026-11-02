@@ -1,0 +1,20 @@
+{
+  "files": {
+    "ACQUISITION.json": "1e1693bf59a63005e8ce15b05e35af13616fc205113766c4efdc2d87dfaece1d",
+    "CLAIM.md": "16cebaf90b3ea76c531dd1b0974af59df5186e4107036ac0f1675ee80c704f04",
+    "DOWNLOAD_PLAN.json": "4230e5a858f3d57a64745b9790b9209fab10b9acc5c6871502450244a788430d",
+    "INDEPENDENT_CHECK.json": "bc3376d181de165b443d6341d95ffc4a798a96c64344abd55d5122cc02287f60",
+    "README.md": "d5be345c7c994c818742f964583aefb2d0868cce69ba4948d10a100ead5a1840",
+    "RESULTS.json": "101fe4e9872fa7477e06a69ca0aa69cbda1556b6425f7dda76fefc6fbd544539",
+    "SOURCE_MANIFEST.json": "7643057f42f7c8d4b1cf480756c69357f36e247d736a70c801dccb6a71f5356a",
+    "TRANSPORT_DIAGNOSIS.json": "bb4d0a171b9befa21c5620a68e060faadfd2689e85c1a041bd4c368ed455b9f1",
+    "VERIFICATION_RECORD.md": "4018fd09d81b5018f0472aef9bb24cbc5832ffaa6034d8a2d59dd4b111790c23",
+    "compare.py": "431854657fad30b5066643f6bfb56b66528392d50406b1e07d90cc856ecf7dda",
+    "independent_check.py": "1f404d2e67b19923bb280e2009b45409be9f9eb1f594d490cfbc49abfd01432f",
+    "recover.py": "fe7adfab732cc053a0489f54c9f1e65933861220b937f489a3bd4e31b02d9f09",
+    "test_recovery.py": "fd37ae6ef33295401420900b241b9165978b19688eea06c795835ace2bf992c6",
+    "verify.py": "3ee152308516a2c690964558164f12a370d3445addb568a41bfb4b99a612187c"
+  },
+  "schema": "controller.workbook-recovery-artifacts/1",
+  "scope": "Authored source-recovery verification and derived counts only. No raw data, credentials or correspondence."
+}

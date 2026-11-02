@@ -1,0 +1,75 @@
+{
+  "accepted_current_assignment_keys": 0,
+  "assignment_status": "No exact retained barcode identity in the workbook; perturbation and donor/pool assignments are not admitted.",
+  "biological_outcome_analysis_unlocked": false,
+  "claim_level": "Verified newly retrieved source contents",
+  "clock_or_model_training_performed": false,
+  "current_acquisition": "PASS",
+  "current_workbook_byte_identical_to_October_17": true,
+  "current_workbook_bytes": 1725954,
+  "current_workbook_received_at_utc": "2026-11-02T01:16:36.776577+00:00",
+  "current_workbook_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "exact_retained_barcode_cells_in_current_workbook": 0,
+  "expression_matrices_downloaded": false,
+  "freshness_scope": "Workbook served by the named public download route at the recorded time. Four barcode files remain explicitly retained October 17 reference inputs; no claim about files elsewhere or later updates.",
+  "newly_acquired_source_file_count": 1,
+  "retained_barcode_files_newly_downloaded": false,
+  "retained_barcode_records": 546362,
+  "retained_barcode_records_by_library": {
+    "Ctrl": 146838,
+    "Sample1": 163533,
+    "Sample2": 109683,
+    "Sample3": 126308
+  },
+  "retained_unique_full_barcodes": 546362,
+  "schema": "controller.current-workbook-comparison/1",
+  "sheets": [
+    {
+      "column_D_value_counts": {
+        "25": 55180,
+        "55": 84758
+      },
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "D": 139938
+      },
+      "nonempty_rows": 139938,
+      "sheet": "Ctrl"
+    },
+    {
+      "column_D_value_counts": {
+        "55": 161422
+      },
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "D": 161422
+      },
+      "nonempty_rows": 161422,
+      "sheet": "Sample 1"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 2"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 3"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "A": 1
+      },
+      "nonempty_rows": 1,
+      "sheet": "README"
+    }
+  ],
+  "total_new_source_bytes": 1725954
+}

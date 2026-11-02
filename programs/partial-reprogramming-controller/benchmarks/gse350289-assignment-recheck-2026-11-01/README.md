@@ -4,7 +4,9 @@
 Title: GSE350289 assignment keys remain unverified
 -->
 
-**Verified retained-source result:** the metadata workbook acquired on **October 17, 2026** contains none of the **546,362** full barcode strings in the four retained barcode files. A current copy of the workbook was **not acquired successfully**. Its present content remains **INCONCLUSIVE**, and zero current cell-to-perturbation assignments are admitted.
+**Later source update:** [workbook recovery](../gse350289-download-recovery-2026-11-01/README.md) supersedes this audit's download status. Two successful responses received after this audit contain the same workbook bytes as October 17; the missing assignment fields are now verified in a newly retrieved copy. The original acquisition attempts below remain dated evidence.
+
+**Verified retained-source result at the 2026-11-02 00:14 UTC audit cutoff:** the metadata workbook acquired on **October 17, 2026** contains none of the **546,362** full barcode strings in the four retained barcode files. At that cutoff, a current copy of the workbook was **not acquired successfully**. Its content was **INCONCLUSIVE**, and zero current cell-to-perturbation assignments were admitted.
 
 The [GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289) visibly lists the same metadata filename, `GSE350289_metadata_individual_cells.xlsx`, alongside four matrix/barcode/feature sets and a target-gene list. The browser-visible page displays an October 13 last-update date and 769 library records. These observations establish file discovery. They do not establish current file contents or a cell-assignment join.
 

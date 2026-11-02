@@ -69,7 +69,7 @@
       "status": "PASS"
     },
     {
-      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md",
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md",
       "status": "PASS"
     },
     {
@@ -1189,6 +1189,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:../gse350289-download-recovery-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:SOURCE_MANIFEST.json",
       "status": "PASS"
     },
@@ -1298,6 +1302,226 @@
     },
     {
       "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md:RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md:ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md:INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md:TRANSPORT_DIAGNOSIS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/CLAIM.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/DOWNLOAD_PLAN.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/DOWNLOAD_PLAN.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/DOWNLOAD_PLAN.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md:ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md:INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md:SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md:TRANSPORT_DIAGNOSIS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/README.md:../gse350289-assignment-recheck-2026-11-01/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/TRANSPORT_DIAGNOSIS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/TRANSPORT_DIAGNOSIS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/TRANSPORT_DIAGNOSIS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/compare.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/compare.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/compare.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/recover.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/test_recovery.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-download-recovery-2026-11-01/verify.py",
       "status": "PASS"
     },
     {
@@ -8165,8 +8389,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 2041,
+  "passed": 2097,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 2041
+  "total": 2097
 }

@@ -1,0 +1,22 @@
+{
+  "baseline": "../gse350289-assignment-recheck-2026-11-01/SOURCE_MANIFEST.json",
+  "files": {
+    "GSE350289_metadata_individual_cells.xlsx": {
+      "baseline_acquired_at_utc": "2026-10-17T06:38:43.871718+00:00",
+      "baseline_bytes": 1725954,
+      "baseline_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "format": "xlsx",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx"
+    }
+  },
+  "limits": {
+    "max_expanded_file_bytes": 134217728,
+    "max_file_bytes": 8388608,
+    "max_files": 1,
+    "max_total_bytes": 8388608,
+    "min_free_bytes": 8589934592,
+    "per_request_timeout_seconds": 45
+  },
+  "schema": "controller.bounded-GEO-download-plan/1",
+  "scope": "Only the metadata workbook is newly retrieved. The four retained barcode archives are explicitly dated reference inputs; no expression matrices, sequencing reads, credentials or paid resources."
+}

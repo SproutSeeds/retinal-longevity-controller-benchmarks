@@ -1,0 +1,162 @@
+{
+  "availability": "Intermittent in these observations; the recovery script fails closed and does not guarantee future source availability.",
+  "initial_requests": [
+    {
+      "body_classification": "html",
+      "bytes": 980,
+      "challenge_indicators": {
+        "Access Denied": false,
+        "Checking your browser": false,
+        "Forbidden": true,
+        "JavaScript": false,
+        "captcha": false,
+        "reCAPTCHA": false,
+        "robots": false
+      },
+      "completed_at_utc": "2026-11-02T01:16:36.613996+00:00",
+      "curl_error": "",
+      "curl_exit": 0,
+      "name": "curl-direct",
+      "response_headers": {
+        "cache-control": "public, max-age=86400",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Mon, 02 Nov 2026 01:16:36 GMT",
+        "server": "Apache"
+      },
+      "response_summary": [
+        "403",
+        "text/html; charset=utf-8",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+        "980"
+      ],
+      "sha256": "d57e1b9c2e09be3e472ced8869a397f375db7d8d8a6d8d29e9374b88de93708b",
+      "started_at_utc": "2026-11-02T01:16:36.264710+00:00",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+      "valid_workbook_structure": false
+    },
+    {
+      "bytes": 1725954,
+      "completed_at_utc": "2026-11-02T01:16:36.776577+00:00",
+      "curl_error": "",
+      "curl_exit": 0,
+      "name": "curl-geo",
+      "response_headers": {
+        "cache-control": "public, max-age=86400",
+        "content-length": "1725954",
+        "content-type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "date": "Mon, 02 Nov 2026 01:16:36 GMT",
+        "last-modified": "Fri, 09 Oct 2026 20:28:24 GMT",
+        "server": "Apache",
+        "via": "1.1 google"
+      },
+      "response_summary": [
+        "200",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+        "1725954"
+      ],
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "started_at_utc": "2026-11-02T01:16:36.264965+00:00",
+      "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+      "valid_workbook_structure": true
+    }
+  ],
+  "later_attempts": [
+    {
+      "all_files_acquired": false,
+      "attempt": "verified-sources",
+      "files": {
+        "GSE350289_Ctrl_barcodes.tsv.gz": {
+          "accepted": false,
+          "bytes": 0,
+          "curl_error": "curl: (18) transfer closed with 641814 bytes remaining to read",
+          "curl_exit": 18,
+          "error": "Incomplete curl transfer",
+          "received_at_utc": "2026-11-02T01:20:40.496197+00:00",
+          "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5FCtrl%5Fbarcodes%2Etsv%2Egz",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "started_at_utc": "2026-11-02T01:20:35.162549+00:00"
+        }
+      },
+      "started_at_utc": "2026-11-02T01:20:35.162327+00:00"
+    },
+    {
+      "all_files_acquired": false,
+      "attempt": "verified-workbook",
+      "files": {
+        "GSE350289_metadata_individual_cells.xlsx": {
+          "accepted": false,
+          "bytes": 0,
+          "curl_error": "curl: (18) transfer closed with 1725954 bytes remaining to read",
+          "curl_exit": 18,
+          "error": "Incomplete curl transfer",
+          "received_at_utc": "2026-11-02T01:22:23.284632+00:00",
+          "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "started_at_utc": "2026-11-02T01:22:17.964022+00:00"
+        }
+      },
+      "started_at_utc": "2026-11-02T01:22:17.963800+00:00"
+    },
+    {
+      "all_files_acquired": false,
+      "attempt": "verified-workbook-v2",
+      "files": {
+        "GSE350289_metadata_individual_cells.xlsx": {
+          "accepted": false,
+          "bytes": 0,
+          "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "curl_error": "curl: (18) transfer closed with 1725954 bytes remaining to read",
+          "curl_exit": 18,
+          "effective_url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx",
+          "error": "Incomplete curl transfer",
+          "http_status": 200,
+          "received_at_utc": "2026-11-02T01:23:59.690999+00:00",
+          "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "started_at_utc": "2026-11-02T01:23:54.167715+00:00"
+        }
+      },
+      "started_at_utc": "2026-11-02T01:23:54.167437+00:00"
+    }
+  ],
+  "matching_workbook_payloads": true,
+  "observed_failure_types": [
+    "Direct URL: HTTP 403",
+    "Python urllib through GEO endpoint: HTTP 403",
+    "Later curl transfers: premature close with expected workbook bytes remaining",
+    "Optional barcode refresh: rejected; retained barcode references remain explicitly dated"
+  ],
+  "observed_redirect_chain": [
+    "HTTP 301 from GEO file-download endpoint to the official FTP-over-HTTPS workbook URL",
+    "HTTP 200 with 1725954 workbook bytes"
+  ],
+  "paired_endpoint_probe": [
+    {
+      "client": "Python urllib default",
+      "error": "HTTP Error 403: Forbidden",
+      "received_at_utc": "2026-11-02T01:17:56.345898+00:00",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+      "started_at_utc": "2026-11-02T01:17:56.029234+00:00"
+    },
+    {
+      "bytes": 1725954,
+      "client": "curl default repeat",
+      "curl_error": "",
+      "curl_exit": 0,
+      "received_at_utc": "2026-11-02T01:17:56.879845+00:00",
+      "requested_url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx",
+      "response_summary": [
+        "200",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+      ],
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "started_at_utc": "2026-11-02T01:17:56.346050+00:00"
+    }
+  ],
+  "schema": "controller.GEO-transport-diagnosis/1",
+  "scope": "Public workbook retrieval only. No authentication controls changed, CAPTCHA solved, credentials used, source code executed, expression matrix downloaded or mail sent.",
+  "successful_workbook_transfers": 2,
+  "upstream_root_cause": "INCONCLUSIVE. Client, entry route and time differ across outcomes. No single server rule, browser setting or user-agent cause is established."
+}
