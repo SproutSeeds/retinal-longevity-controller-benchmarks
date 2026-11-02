@@ -1,0 +1,26 @@
+{
+  "captured_at_utc": "2026-11-02T00:12:43.911Z",
+  "captured_rows_sha256": "05c20322f45bed1d18c5143a8fd5d94fa607c611adba32cd6bd58c904031e8c4",
+  "listed_supplementary_files": [
+    "GSE350289_280_Gene_List.csv.gz",
+    "GSE350289_Ctrl_barcodes.tsv.gz",
+    "GSE350289_Ctrl_features.tsv.gz",
+    "GSE350289_Ctrl_matrix.mtx.gz",
+    "GSE350289_Sample1_barcodes.tsv.gz",
+    "GSE350289_Sample1_features.tsv.gz",
+    "GSE350289_Sample1_matrix.mtx.gz",
+    "GSE350289_Sample2_barcodes.tsv.gz",
+    "GSE350289_Sample2_features.tsv.gz",
+    "GSE350289_Sample2_matrix.mtx.gz",
+    "GSE350289_Sample3_barcodes.tsv.gz",
+    "GSE350289_Sample3_features.tsv.gz",
+    "GSE350289_Sample3_matrix.mtx.gz",
+    "GSE350289_metadata_individual_cells.xlsx"
+  ],
+  "pool_description_donors_per_age_group": 3,
+  "sample_records": 769,
+  "schema": "controller.visible-GEO-facts/1",
+  "scope": "Visible GEO rows only. A filename and displayed size do not establish a successfully acquired or complete mapping.",
+  "series_last_update_date": "2026-10-13",
+  "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289"
+}

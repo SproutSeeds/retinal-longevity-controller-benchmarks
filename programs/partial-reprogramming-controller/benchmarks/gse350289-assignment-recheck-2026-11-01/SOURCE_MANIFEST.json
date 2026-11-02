@@ -1,0 +1,65 @@
+{
+  "files": {
+    "GSE350289_Ctrl_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.101537+00:00",
+      "bytes": 641814,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "e0112b53d73ce7b10b3d6b7cc89a2b35a81ce360e7e811335004318181337097",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Ctrl_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample1_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.509953+00:00",
+      "bytes": 712208,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "69657109e51b212e07dd0d5361eb3e4deed0129b587316d72c8887a9e73f818f",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample1_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample2_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:42.966948+00:00",
+      "bytes": 495003,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "76a75c2d0372124599b4b2bb5e28d0c730ce95c1a27941330f623f5830c378d6",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample2_barcodes.tsv.gz"
+    },
+    "GSE350289_Sample3_barcodes.tsv.gz": {
+      "acquired_at_utc": "2026-10-17T06:38:43.494494+00:00",
+      "bytes": 564132,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "2f3f085e544cd3dc5c454c545a7c4b61d481ddf8223730992a91c010d6c8d351",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_Sample3_barcodes.tsv.gz"
+    },
+    "GSE350289_metadata_individual_cells.xlsx": {
+      "acquired_at_utc": "2026-10-17T06:38:43.871718+00:00",
+      "bytes": 1725954,
+      "freshness": "retained_original_from_2026-10-17; not a successful current re-download",
+      "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+    },
+    "biorxiv-details.json": {
+      "bytes": 3190,
+      "freshness": "freshly_retrieved_2026-11-02_UTC",
+      "sha256": "28174c5cb83d77f4f38b52de56341e7a7a639c2d179b7306e17d839206f23716",
+      "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.21.760791"
+    },
+    "preprint-page.html": {
+      "bytes": 138201,
+      "freshness": "freshly_retrieved_2026-11-02_UTC",
+      "sha256": "690c40149536a22774168dbf46ad5580ea682531add80398ae10869f8d74c716",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760791v1"
+    },
+    "preprint-source.xml": {
+      "bytes": 417840,
+      "freshness": "freshly_retrieved_2026-11-02_UTC",
+      "sha256": "85b340f8715d10b473adbdf0e1a33992ebb5f24719b4e098bd4b48200a62ad2d",
+      "url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760791.source.xml"
+    }
+  },
+  "historical_content_baseline": "BASELINE.json",
+  "schema": "controller.assignment-recheck-source-manifest/1",
+  "source_terms": {
+    "GEO": "Public investigator deposit; retained source files remain outside the public packet.",
+    "correspondence": "Private mailbox content, addresses and message records excluded from public artifacts.",
+    "preprint": "bioRxiv metadata reports CC BY-NC; article text and original figures are retained privately and are not redistributed in this packet."
+  },
+  "visible_GEO_facts": "GEO_VISIBLE_FACTS.json"
+}

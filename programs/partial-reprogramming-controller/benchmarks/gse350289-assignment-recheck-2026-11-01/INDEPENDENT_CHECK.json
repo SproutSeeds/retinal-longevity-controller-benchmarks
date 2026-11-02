@@ -1,0 +1,12 @@
+{
+  "claim_level": "Verified retained-source contents only",
+  "current_workbook_reacquisition_verified": false,
+  "imports_primary_XML_reader": false,
+  "nonempty_nonREADME_cells": 301360,
+  "reader": "openpyxl 3.1.5",
+  "schema": "controller.independent-workbook-census/1",
+  "scope": "Independent scalar-cell census of the dated retained workbook. Current workbook bytes were not acquired; no cell assignment or biological outcome is admitted.",
+  "sheets_checked": 5,
+  "source_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "status": "PASS"
+}

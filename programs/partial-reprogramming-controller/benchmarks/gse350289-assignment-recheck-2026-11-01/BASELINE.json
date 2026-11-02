@@ -1,0 +1,35 @@
+{
+  "file_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "original_audit_sha256": "97e00c21bd959b4e9d74caa76436a8799b523fc6274700dac776accdedeca935",
+  "schema": "controller.assignment-historical-baseline/1",
+  "scope": "Projection of the earlier dated source audit. No claim of successful current-source reacquisition.",
+  "sheets": [
+    {
+      "name": "Ctrl",
+      "nonempty_by_column": {
+        "4": 139938
+      }
+    },
+    {
+      "name": "Sample 1",
+      "nonempty_by_column": {
+        "4": 161422
+      }
+    },
+    {
+      "name": "Sample 2",
+      "nonempty_by_column": {}
+    },
+    {
+      "name": "Sample 3",
+      "nonempty_by_column": {}
+    },
+    {
+      "name": "README",
+      "nonempty_by_column": {
+        "1": 1
+      }
+    }
+  ],
+  "source_acquired_UTC": "2026-10-17T06:38:43.871718+00:00"
+}

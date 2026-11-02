@@ -1,6 +1,6 @@
 {
   "claim_level": "Verified",
-  "content_fingerprint": "bc83dd42c130850045343bc85d6f3f0349dfba44a67c17ef5bc70c1029b48cb8",
+  "content_fingerprint": "5337c06fdb8d367da9d76b37c3b14813561ef403a47c095bfdbb77df40177a7c",
   "excluded": [
     "private correspondence",
     "author-only attachments",
@@ -11,7 +11,7 @@
   "files": {
     ".github/workflows/research-checks.yml": "a5465055824d64ba345b1d0775367ebd4765d9d175a06e318c8227bf8916cdf4",
     ".gitignore": "436d177057e129e2f4a45699283005aaed3e91eb6f8c2c30d0b8022bff764155",
-    "README.md": "c81f725aac08093f50b627ff044da32166268674426ba122a3895c073e3f153b",
+    "README.md": "65802c92a91af5b1d08f188356f2aa5a3e372420c22671e111a66988838d26a4",
     "programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ACQUISITION.json": "29fd88428d9c0d9cc8d81ab28bc9ead2c73fc5ad8f54104d7bbe08834bbf0888",
     "programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ADMISSION.json": "3f2849c3f787b331ca99c6558f2eb44e0215699d981c28d0072a56c39b3d78d1",
     "programs/partial-reprogramming-controller/benchmarks/alternative-function-screen-2026-11-01/ARTIFACT_MANIFEST.json": "cbcfd8b84a272f74eb5c88213daa4c287aae201f48f3a86d84dad5ea4aea5307",
@@ -74,6 +74,21 @@
     "programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/rna-pairs.tsv": "724d27ace9914a2d32e1246e2a073a0bc0e5172b21168e09c0446bfadb67833e",
     "programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/test_intake.py": "1338c78b946c5b73d708ecb262b5b933ede944d5ec2dd8472e8db31e5e40d350",
     "programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/verify.py": "97bc068fcfd7ddd7112cec7cc906acf71965e9613f9a92c77202ad2590f84307",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ACQUISITION.json": "94d305fda3ed8f6e3f5eaf0da01364dcd7eb613902cb23c5c5ef7708830b5f31",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ARTIFACT_MANIFEST.json": "d53a29c70fbbde8f836acb8d988c4671a413a506213e290eb320f2e5baf258aa",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/BASELINE.json": "4da422d278d18cd487ec621cc273d42d0aa0e8d997ebeaeb58079c3490570cc3",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md": "bce6312918fdba75ba14ec6df83a4ebdf121db051d85f829b8c25de602dcebfb",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/GEO_VISIBLE_FACTS.json": "345bdc624465ac5427a7c57eb9c9cd63903aa71a10b9f8f9ba32f7f4d6d459bc",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/INDEPENDENT_CHECK.json": "831bf03f7a265230d17bbf41620a49836dea8ded5606157896f61822cc30922e",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/NEXT_INPUT_SPEC.json": "60113f8e32d7c3f90ca7d0a4648eb3b2c8cf731934cc67fe70237ab55a1fba04",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md": "1d0ec8f14d18b65f0e0d6d67b0fe37ac3153ca37241f80e35404af7161b1e205",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/RESULTS.json": "94bfa131b7f0b7f9015e8c9df68fa00e86a6c57dcf65d83c31039046c2cfa76a",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/SOURCE_MANIFEST.json": "ad2f21e03f51a3413bb0698cded214ac6f3a99c27674bebba8a1d4f98dd2695f",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/VERIFICATION_RECORD.md": "c3386512a222e9be95281ef4691fb4443204ff91b15da5e220577e8ba6638bc2",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/audit.py": "9deff4be9303d138eee2a67c653fab1156eca33292117332b101b154a3a2c188",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/independent_check.py": "21474ce0598439ebeabc5178d6bf17f0b0bd32b751017938de91de1c2bddcbc0",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/test_audit.py": "8de30ae26eae09cccec0b4cd79d522f37c34f397eb2db2d47449c189eb81af38",
+    "programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/verify.py": "3a88c044d788ede9d1c504cf04ae124c034603a9299cb8ffd9b1f450dc77df18",
     "programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_CONTRACT.json": "9eb9b8a30e53ab7e20261c869c67ebaa510cf279372dfe5ffa46c15e97acf24c",
     "programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ADMISSION_RESULTS.json": "ea6986c8982ad9a9a12f81f4535d36489012d6ef4e4c6fe506500618f973e02f",
     "programs/partial-reprogramming-controller/benchmarks/linked-function-admission-2026-10-31/ARTIFACT_MANIFEST.json": "cb0ca0d3fd2c37d6c32aa2171b6f1be4f06d648fb94203a5117b79c245d8f9d3",
@@ -174,12 +189,12 @@
     "research/2026-10-rpe-controller/README.md": "fc1605ed1e6aa7dbd834352112903ec746746dd68fb9f22dc5a8b10d4aa2d851",
     "research/2026-10-rpe-controller/THIRD_PARTY.md": "6f6378e65561b057f2ad5d9976740832daef54edd4f8168220bb7481a29d81b4",
     "research/2026-10-rpe-controller/VERIFICATION_RECORD.md": "c586b5d38b8d6d99e1e33ab6fad1c0f13496bd63346ce365d09f8a71f4d5bce5",
-    "research/2026-10-rpe-controller/verify_public.py": "bc5c7268891326cdb4a5cbdc5c3a593b1d2d5d9c4fed59fd1ee7a6b29f3e05f9",
+    "research/2026-10-rpe-controller/verify_public.py": "33e0fc97ae40711928b15f57f5744fa7fd781d7ba1731210c89ba3ed41eccbc0",
     "tools/research-sync/sync.py": "192693c610283704a77690b26c175ca37bab08852289f526acfca198602c979b",
     "tools/research-sync/test_sync.py": "4f39f3c5202a384a923b7d0749f02c05cade539136e01314d6040cf7751ca13d"
   },
   "schema": "public.research-checkpoint/1",
   "scientific_checkpoint": "2026-11-01",
   "scope": "Committed allowlist export, exact CLI replay and same-agent source-table verification; biological interpretation remains Heuristic.",
-  "source_commit": "8e8630b907db68c9569b2857665f8ee360459ce7"
+  "source_commit": "36658b1844acab334f05f1e81f3676ebc58ed6a8"
 }

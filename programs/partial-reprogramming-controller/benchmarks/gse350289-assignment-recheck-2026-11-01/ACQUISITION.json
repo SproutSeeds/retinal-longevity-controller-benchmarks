@@ -1,0 +1,93 @@
+{
+  "attempt_records": {
+    "direct-acquisition.json": {
+      "at_utc": "2026-11-02T00:05:24.579358+00:00",
+      "files": [
+        {
+          "error": "Not an XLSX ZIP",
+          "name": "metadata-current.xlsx",
+          "status": "failed",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289_metadata_individual_cells.xlsx"
+        },
+        {
+          "bytes": 417840,
+          "name": "preprint-source.xml",
+          "sha256": "85b340f8715d10b473adbdf0e1a33992ebb5f24719b4e098bd4b48200a62ad2d",
+          "status": "retrieved",
+          "url": "https://www.biorxiv.org/content/early/2026/10/23/2026.10.21.760791.source.xml"
+        },
+        {
+          "bytes": 138201,
+          "name": "preprint-page.html",
+          "sha256": "690c40149536a22774168dbf46ad5580ea682531add80398ae10869f8d74c716",
+          "status": "retrieved",
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.21.760791v1"
+        }
+      ]
+    },
+    "discovery-acquisition.json": [
+      {
+        "error": "The read operation timed out",
+        "name": "geo-series.txt",
+        "status": "failed",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289&targ=self&form=text&view=full"
+      },
+      {
+        "bytes": 498,
+        "name": "geo-files.html",
+        "sha256": "faf89eafe0bb5a03fd11b59be13f954b5e8727c5d9f564b1f59807e9be038f8b",
+        "status": "retrieved",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/"
+      },
+      {
+        "bytes": 3190,
+        "name": "biorxiv-details.json",
+        "sha256": "28174c5cb83d77f4f38b52de56341e7a7a639c2d179b7306e17d839206f23716",
+        "status": "retrieved",
+        "url": "https://api.biorxiv.org/details/biorxiv/10.64898/2026.10.21.760791"
+      }
+    ],
+    "encoded-metadata-acquisition.json": {
+      "at_utc": "2026-11-02T00:06:12.627035+00:00",
+      "bytes": 0,
+      "error": "Response is not an XLSX ZIP",
+      "name": "metadata-current.xlsx",
+      "response_content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "not_accepted",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx?download=1"
+    },
+    "encoded-without-query-acquisition.json": {
+      "error": "HTTP Error 403: Forbidden",
+      "name": "metadata-current.xlsx",
+      "status": "not_accepted",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE350nnn/GSE350289/suppl/GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx"
+    },
+    "geo-canonical-download-acquisition.json": [
+      {
+        "bytes": 21479,
+        "error": "Not the expected GEO page",
+        "name": "geo-current.html",
+        "response_content_type": "text/html; charset=utf-8",
+        "sha256": "2920abf123fbd33c9e9d4566cdff56814e8b27d96c7c83ca8d8e4558768e3085",
+        "status": "not_accepted",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350289"
+      },
+      {
+        "bytes": 21841,
+        "error": "Response is not an XLSX ZIP",
+        "name": "metadata-current.xlsx",
+        "response_content_type": "text/html; charset=utf-8",
+        "sha256": "f43e8f5107d6ca92667cfdc3dddc7a38430d3c96d38c3dbe709362473f663407",
+        "status": "not_accepted",
+        "url": "https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE350289&format=file&file=GSE350289%5Fmetadata%5Findividual%5Fcells%2Exlsx"
+      }
+    ]
+  },
+  "browser_download_result": "net::ERR_BLOCKED_BY_CLIENT; no workbook bytes accepted",
+  "current_workbook_reacquisition": "INCONCLUSIVE",
+  "recorded_at_utc": "2026-11-02T00:14:36.630054+00:00",
+  "schema": "controller.assignment-recheck-acquisition/1",
+  "source_policy": "Retained originals may verify their own dated content only. No source-content claim is inferred from HTTP 200, a filename, zero bytes, HTML, or a current last-update label.",
+  "visible_GEO_page": "Accessible; relevant rows summarized in GEO_VISIBLE_FACTS.json"
+}

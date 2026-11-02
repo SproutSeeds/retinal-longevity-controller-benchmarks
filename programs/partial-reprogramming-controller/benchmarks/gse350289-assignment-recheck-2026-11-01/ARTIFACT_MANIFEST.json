@@ -1,0 +1,20 @@
+{
+  "files": {
+    "ACQUISITION.json": "94d305fda3ed8f6e3f5eaf0da01364dcd7eb613902cb23c5c5ef7708830b5f31",
+    "BASELINE.json": "4da422d278d18cd487ec621cc273d42d0aa0e8d997ebeaeb58079c3490570cc3",
+    "CLAIM.md": "bce6312918fdba75ba14ec6df83a4ebdf121db051d85f829b8c25de602dcebfb",
+    "GEO_VISIBLE_FACTS.json": "345bdc624465ac5427a7c57eb9c9cd63903aa71a10b9f8f9ba32f7f4d6d459bc",
+    "INDEPENDENT_CHECK.json": "831bf03f7a265230d17bbf41620a49836dea8ded5606157896f61822cc30922e",
+    "NEXT_INPUT_SPEC.json": "60113f8e32d7c3f90ca7d0a4648eb3b2c8cf731934cc67fe70237ab55a1fba04",
+    "README.md": "1d0ec8f14d18b65f0e0d6d67b0fe37ac3153ca37241f80e35404af7161b1e205",
+    "RESULTS.json": "94bfa131b7f0b7f9015e8c9df68fa00e86a6c57dcf65d83c31039046c2cfa76a",
+    "SOURCE_MANIFEST.json": "ad2f21e03f51a3413bb0698cded214ac6f3a99c27674bebba8a1d4f98dd2695f",
+    "VERIFICATION_RECORD.md": "c3386512a222e9be95281ef4691fb4443204ff91b15da5e220577e8ba6638bc2",
+    "audit.py": "9deff4be9303d138eee2a67c653fab1156eca33292117332b101b154a3a2c188",
+    "independent_check.py": "21474ce0598439ebeabc5178d6bf17f0b0bd32b751017938de91de1c2bddcbc0",
+    "test_audit.py": "8de30ae26eae09cccec0b4cd79d522f37c34f397eb2db2d47449c189eb81af38",
+    "verify.py": "3a88c044d788ede9d1c504cf04ae124c034603a9299cb8ffd9b1f450dc77df18"
+  },
+  "schema": "controller.assignment-recheck-artifacts/1",
+  "scope": "Authored source audit, verification scripts and derived counts. No raw source data or correspondence."
+}

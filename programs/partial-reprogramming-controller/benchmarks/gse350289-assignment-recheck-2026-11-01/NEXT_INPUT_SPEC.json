@@ -1,0 +1,29 @@
+{
+  "current_admission": "Not admitted; accepted current mapping keys = 0.",
+  "request": "Identify the exact intended supplementary filename and direct URL, or provide a corrected barcode-assignment export.",
+  "retained_file_for_identification": {
+    "acquired_UTC": "2026-10-17T06:38:43.871718+00:00",
+    "freshness_limit": "Current requests did not yield a valid workbook; this identifies the retained copy only.",
+    "name": "GSE350289_metadata_individual_cells.xlsx",
+    "sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+    "worksheet_findings": "Ctrl and Sample 1 contain only column-D age values; Sample 2 and Sample 3 have zero populated cell values."
+  },
+  "schema": "controller.assignment-next-input/1",
+  "scope": "Existing public-data perturbation assignment only; no new experiment, inference from RNA expression or row-order join.",
+  "suggested_fields": [
+    "library_id matching one deposited processed group",
+    "full cell_barcode exactly matching the deposited barcode file",
+    "perturbation or explicit control identity",
+    "donor_or_pool_id with source-supported membership",
+    "age_group and its definition",
+    "assignment_status and source QC",
+    "explicit rejected or unassigned cells and exclusion reasons"
+  ],
+  "verification_requirements": [
+    "Verify an exact, unique library/barcode join; report coverage against each deposited barcode file.",
+    "Distinguish filtered-out cells from missing assignments using explicit source QC; do not require fabricated treatment labels for rejected cells.",
+    "Retain source treatment, donor/pool and QC labels verbatim; reject conflicting keys and undocumented positional matching.",
+    "Clarify the pool descriptions before making independent-donor claims: GEO says three donors per age group; the preprint describes three male plus three female donors per group.",
+    "Preserve sampling and exposure/harvest context; this screen does not establish a withdrawal or late-recovery experiment."
+  ]
+}

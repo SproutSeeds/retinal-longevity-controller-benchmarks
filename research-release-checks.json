@@ -69,6 +69,10 @@
       "status": "PASS"
     },
     {
+      "name": "relative_link:README.md:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
       "name": "relative_link:README.md:research/2026-10-rpe-controller/README.md",
       "status": "PASS"
     },
@@ -1078,6 +1082,222 @@
     },
     {
       "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gill-migration-comparison-2026-10-31/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/ARTIFACT_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/BASELINE.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md:NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/CLAIM.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/GEO_VISIBLE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/GEO_VISIBLE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/GEO_VISIBLE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:ACQUISITION.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:GEO_VISIBLE_FACTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:NEXT_INPUT_SPEC.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:INDEPENDENT_CHECK.json",
+      "status": "PASS"
+    },
+    {
+      "name": "relative_link:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/README.md:VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/RESULTS.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/SOURCE_MANIFEST.json",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/VERIFICATION_RECORD.md",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/independent_check.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/test_audit.py",
+      "status": "PASS"
+    },
+    {
+      "name": "sha256:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "public_scope:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/verify.py",
+      "status": "PASS"
+    },
+    {
+      "name": "credential_patterns:programs/partial-reprogramming-controller/benchmarks/gse350289-assignment-recheck-2026-11-01/verify.py",
       "status": "PASS"
     },
     {
@@ -7945,8 +8165,8 @@
       "status": "PASS"
     }
   ],
-  "passed": 1986,
+  "passed": 2041,
   "scope": "Release hashes, relative links, public-path/credential pattern checks, budget arithmetic and presentation structure; no biological validation.",
   "status": "PASS",
-  "total": 1986
+  "total": 2041
 }

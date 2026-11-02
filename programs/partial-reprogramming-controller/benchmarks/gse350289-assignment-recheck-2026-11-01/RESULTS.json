@@ -1,0 +1,105 @@
+{
+  "accepted_current_mapping_keys": 0,
+  "current_workbook_reacquisition": "INCONCLUSIVE",
+  "exact_barcode_cells_in_retained_metadata": 0,
+  "expression_matrix_downloaded": false,
+  "historical_content_claim_level": "Verified",
+  "interpretation": "Retained originals verify their dated content only. Current workbook bytes were not acquired. The pointer is useful discovery evidence; complete sample assignment remains unverified.",
+  "mapping_admission": "INCONCLUSIVE_current_workbook; no_mapping_admission",
+  "new_training_or_biological_effect_computed": false,
+  "perturbation_outcome_analysis_unlocked": false,
+  "pool_description_disagreement": {
+    "GEO_donors_per_age_group": 3,
+    "preprint_implied_donors_per_age_group": 6,
+    "resolution": "Unresolved source descriptions; no donor identities or independent-unit counts inferred."
+  },
+  "preprint_review": {
+    "appendix_B_figures": 10,
+    "appendix_B_tables": 1,
+    "data_availability_points_to_GSE350289": true,
+    "date": "2026-10-23",
+    "doi": "10.64898/2026.10.21.760791",
+    "explicit_github_href_found": false,
+    "license": "cc_by_nc",
+    "pool_description": {
+      "female_donors_per_age_group": 3,
+      "male_donors_per_age_group": 3,
+      "total_implied": 6
+    },
+    "scope": "Inspected v1 article XML and browser-visible article. No global absence claim for supplements or code stored elsewhere.",
+    "supplementary_material_download_elements": 0,
+    "version": 1
+  },
+  "retained_barcode_files": {
+    "Ctrl": {
+      "records": 146838,
+      "unique": 146838
+    },
+    "Sample1": {
+      "records": 163533,
+      "unique": 163533
+    },
+    "Sample2": {
+      "records": 109683,
+      "unique": 109683
+    },
+    "Sample3": {
+      "records": 126308,
+      "unique": 126308
+    }
+  },
+  "retained_barcode_records": 546362,
+  "retained_unique_full_barcode_strings": 546362,
+  "retained_workbook_acquired_at": "2026-10-17T06:38:43.871718+00:00",
+  "retained_workbook_matches_prior_audit": true,
+  "retained_workbook_sha256": "f48a3eba3416110afae897a4df78796379d01211e0b9a436f65d7f4b1f44e76d",
+  "schema": "controller.assignment-recheck-results/1",
+  "sheets": [
+    {
+      "column_D_value_counts": {
+        "25": 55180,
+        "55": 84758
+      },
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "D": 139938
+      },
+      "nonempty_rows": 139938,
+      "sheet": "Ctrl"
+    },
+    {
+      "column_D_value_counts": {
+        "55": 161422
+      },
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "D": 161422
+      },
+      "nonempty_rows": 161422,
+      "sheet": "Sample 1"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 2"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {},
+      "nonempty_rows": 0,
+      "sheet": "Sample 3"
+    },
+    {
+      "column_D_value_counts": {},
+      "exact_deposited_barcode_cells": 0,
+      "nonempty_cells_by_column": {
+        "A": 1
+      },
+      "nonempty_rows": 1,
+      "sheet": "README"
+    }
+  ]
+}
